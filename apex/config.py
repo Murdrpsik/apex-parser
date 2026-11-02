@@ -31,7 +31,7 @@ XRAY_CHUNKER_MAX_WORKERS = 8        # потоков тестирования п
 XRAY_CHUNKER_START_TIMEOUT = 3.0    # сек, ожидание старта чанка (много инбаундов - дольше одиночного)
 
 # Зеркало GitVerse (деплой из workflow; токен — в секретах GITVERSE_TOKEN)
-GITVERSE_ENABLED = True             # False = GitVerse пропускается
+GITVERSE_ENABLED = False           # False = GitVerse пропускается
 GITVERSE_REPO = "https://gitverse.ru/bikinitw22/apelsintel.git"
 
 # Checkbones (apex/checkbones)
@@ -39,7 +39,7 @@ CHECKBONES_ENABLED = True           # False = CI пропускает самоп
 CHECKBONES_QUICK = True             # True = быстрый режим (без серверных заглушек); False = полный
 
 # Sources
-SECURE_SOURCES_GITHUB = True        # скрыть сурса в приватном репо
+SECURE_SOURCES_GITHUB = False       # скрыть сурса в приватном репо
 SPLIT_SOURCES = False               # True = sources_wl/bl, False = один sources.txt
 ENABLE_TG_SOURCES = True            # parser_tg.py и sources_tg.txt (нужны TG_API_ID / HASH / SESSION)
 DECRYPT_HAPP = True                 # расшифровывать happ://crypt* ссылки в источниках
