@@ -1,0 +1,53 @@
+proxies:
+  - name: "🇮🇪 [WL] Сервер 1"
+    type: vless
+    server: 195.123.189.214
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 2"
+    type: vless
+    server: qtir1.dnetsolutions.ru
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 3"
+    type: vless
+    server: qtir1.dnetsolutions.ru
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+      grpc-mode: "gun"
+  - name: "🇮🇪 [BL] Сервер 4"
+    type: ss
+    server: 52.138.233.48
+    port: 443
+    password: "4ivh6F6XFBD12gEg"
+    cipher: "chacha20-ietf-poly1305"

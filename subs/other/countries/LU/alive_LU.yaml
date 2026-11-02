@@ -4,7 +4,7 @@ proxies:
     server: 107.189.7.176
     port: 32752
     uuid: "4970c1cd-13e1-498a-920a-61d07be2fa65"
-    network: "tcp"
+    network: "raw"
     servername: "www.apple.com"
     client-fingerprint: "chrome"
     udp: true

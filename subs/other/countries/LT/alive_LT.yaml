@@ -1,50 +1,65 @@
 proxies:
-  - name: "🇱🇹 [BL] Сервер 1"
+  - name: "🇱🇹 [WL] Сервер 1"
     type: vless
-    server: 103.88.243.28
+    server: lorettmay.top
     port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "l1i17qfl.cachecore.space"
-    client-fingerprint: "firefox"
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "ws"
+    servername: "lorettmay.top"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-      short-id: "6ba85179e30d4fc2"
-  - name: "🇱🇹 [BL] Сервер 2"
+    ws-opts:
+      path: "/blog/posts"
+      headers:
+        Host: "lorettmay.top"
+  - name: "🇱🇹 [WL] Сервер 2"
     type: vless
-    server: 193.233.91.94
+    server: 185.178.208.167
     port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "a93t3jdl.cachecore.space"
-    client-fingerprint: "firefox"
+    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    network: "ws"
+    servername: "lorettmay.top"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-  - name: "🇱🇹 [BL] Сервер 3"
+    ws-opts:
+      path: "/blog/posts"
+      headers:
+        Host: "lorettmay.top"
+  - name: "🇱🇹 [WL] Сервер 3"
     type: vless
-    server: 130.78.190.163
+    server: 185.178.208.167
     port: 443
-    uuid: "047466dd-05aa-4331-abf7-322c5aaecf97"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "ee.viralforge.ru"
-    client-fingerprint: "firefox"
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "ws"
+    servername: "lorettmay.top"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "HLKQ0JvyaZ16JNdl0pbEPkiVRYJDiZNzGz9prDMiw2s"
-      short-id: "a1b2c3d4b5"
+    ws-opts:
+      path: "/blog/posts"
+      headers:
+        Host: "lorettmay.top"
   - name: "🇱🇹 [BL] Сервер 4"
+    type: vless
+    server: 107.181.151.128
+    port: 443
+    uuid: "73cb2a0d-e2a9-4e61-a343-f2845e8c272e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.tradingview.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "611ceeb0ae78"
+  - name: "🇱🇹 [BL] Сервер 5"
     type: vless
     server: 93.115.24.135
     port: 443
-    uuid: "ab80fc7f-0a2b-4dd6-8e9c-f497001e7c73"
+    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "admin.betust.net"
@@ -54,3 +69,17 @@ proxies:
     reality-opts:
       public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
       short-id: "3e137406"
+  - name: "🇱🇹 [BL] Сервер 6"
+    type: vless
+    server: app26.betust.net
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "app26.betust.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
+      short-id: "d44d6d46"

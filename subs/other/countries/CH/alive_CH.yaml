@@ -4,10 +4,10 @@ proxies:
     server: 45.90.59.15
     port: 443
     uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -27,27 +27,3 @@ proxies:
     reality-opts:
       public-key: "L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI"
       short-id: "16036bbef04d0509"
-  - name: "🇨🇭 [BL] Сервер 3"
-    type: vless
-    server: 176.65.144.42
-    port: 443
-    uuid: "047466dd-05aa-4331-abf7-322c5aaecf97"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "ch.viralforge.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HLKQ0JvyaZ16JNdl0pbEPkiVRYJDiZNzGz9prDMiw2s"
-      short-id: "a1b2c3d4b5"
-  - name: "🇨🇭 [BL] Сервер 4"
-    type: vless
-    server: 149.33.15.213
-    port: 443
-    uuid: "054362fb-e485-4a3f-9568-4c5b0f60e074"
-    network: "raw"
-    servername: "swz.proxyplankton.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
