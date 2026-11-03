@@ -1,21 +1,30 @@
 proxies:
-  - name: "🇨🇿 [WL] Сервер 1"
+  - name: "🇨🇿 [BL] Сервер 1"
     type: vless
-    server: 185.86.147.85
-    port: 10459
-    uuid: "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67"
-    network: "xhttp"
-    servername: "max.ru"
-    client-fingerprint: "firefox"
+    server: 195.123.245.241
+    port: 443
+    uuid: "7c053ca8-38cc-45e2-930c-eda1fd66f903"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "gateway.icloud.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "kDEc42JBZxig3BrLD3V1ofs3oJZk15-ANWN-rM0JW10"
-      short-id: "f28145401b4f633a"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
+      public-key: "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw"
+      short-id: "23d0950d60bc0d5b"
   - name: "🇨🇿 [BL] Сервер 2"
+    type: vless
+    server: 178.208.89.21
+    port: 443
+    uuid: "689a62e4-37e7-41de-9e6a-f2a56368c9e2"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "prod-eu-east-cz6.api-gateway.service-mesh.ingress-observability.speedtestinternet.link"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇨🇿 [BL] Сервер 3"
     type: vless
     server: 212.102.38.25
     port: 443
@@ -29,20 +38,6 @@ proxies:
     reality-opts:
       public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
       short-id: "e90360ec7cc61b20"
-  - name: "🇨🇿 [BL] Сервер 3"
-    type: vless
-    server: 195.123.245.241
-    port: 443
-    uuid: "7c053ca8-38cc-45e2-930c-eda1fd66f903"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "gateway.icloud.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw"
-      short-id: "23d0950d60bc0d5b"
   - name: "🇨🇿 [BL] Сервер 4"
     type: vless
     server: 31.76.7.233
@@ -56,3 +51,17 @@ proxies:
     xhttp-opts:
       path: "/conv4/stream/d34366ecdd31367d0fc76955c6b8d77c"
       mode: "auto"
+  - name: "🇨🇿 [BL] Сервер 5"
+    type: vless
+    server: 89.125.237.245
+    port: 443
+    uuid: "a44a1eab-1f2d-435e-b324-3c9e73d975bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "IiBlvTjhPXcCixjqH6n6Cz3RWbeQjHepWtfIi28mly4"
+      short-id: "9f2c4a7b1d6e8035"

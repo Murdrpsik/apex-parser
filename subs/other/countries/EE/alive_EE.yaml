@@ -1,21 +1,5 @@
 proxies:
-  - name: "🇪🇪 [WL] Сервер 1"
-    type: vless
-    server: 185.86.145.55
-    port: 10455
-    uuid: "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67"
-    network: "xhttp"
-    servername: "max.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kDEc42JBZxig3BrLD3V1ofs3oJZk15-ANWN-rM0JW10"
-      short-id: "f28145401b4f633a"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇪🇪 [BL] Сервер 2"
+  - name: "🇪🇪 [BL] Сервер 1"
     type: vless
     server: 5.129.202.80
     port: 443
@@ -23,53 +7,41 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "mirror-50.topp-con.xyz"
-    client-fingerprint: "safari"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
       short-id: "2ef2b10d5143d798"
+  - name: "🇪🇪 [BL] Сервер 2"
+    type: vless
+    server: 150.241.74.29
+    port: 443
+    uuid: "e7ee38d7-f8ad-4d14-a491-2d9e18011845"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.izzzyvpn.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "v--0dXOWcnzpJvl_6qkbWTCRLg-eWdJ6WxJsYtj9WQY"
+      short-id: "f7fdf037537b8c38"
   - name: "🇪🇪 [BL] Сервер 3"
     type: vless
-    server: 141.0.187.6
-    port: 11443
-    uuid: "29da874a-6d2d-4859-a68b-57e5ae4cd3c3"
+    server: 109.71.247.200
+    port: 443
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "141.0.187.6"
-    client-fingerprint: "firefox"
+    servername: "static-47.topp-con.xyz"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "945vNebBQgPKkgABK0nHHRh35q3gVrmaUbShAVBRSWg"
-      short-id: "21bb339df984afbd"
+      public-key: "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU"
+      short-id: "b9120cd53ffd7bba"
   - name: "🇪🇪 [BL] Сервер 4"
-    type: vless
-    server: 132.243.74.103
-    port: 2087
-    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ee.song69.fun"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
-  - name: "🇪🇪 [BL] Сервер 5"
-    type: vless
-    server: 132.243.74.100
-    port: 2087
-    uuid: "0806e6e2-e01d-482c-b530-be3b57d486d4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ee.song69.fun"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
-  - name: "🇪🇪 [BL] Сервер 6"
     type: vless
     server: 147.45.245.17
     port: 443
@@ -83,35 +55,47 @@ proxies:
     reality-opts:
       public-key: "4GpOXPkTdvuF1mgBH6n9AFYRvGEh7K2ETgE8asmNASY"
       short-id: "38146bd64aece7a5"
-  - name: "🇪🇪 [BL] Сервер 7"
+  - name: "🇪🇪 [BL] Сервер 5"
     type: vless
-    server: 109.71.247.200
+    server: 31.77.236.114
     port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "static-47.topp-con.xyz"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU"
-      short-id: "b9120cd53ffd7bba"
-  - name: "🇪🇪 [BL] Сервер 8"
-    type: vless
-    server: 150.241.74.29
-    port: 443
-    uuid: "e7ee38d7-f8ad-4d14-a491-2d9e18011845"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cdn.izzzyvpn.space"
+    servername: "files.porsche.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "v--0dXOWcnzpJvl_6qkbWTCRLg-eWdJ6WxJsYtj9WQY"
-      short-id: "f7fdf037537b8c38"
-  - name: "🇪🇪 [BL] Сервер 9"
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 132.243.74.100
+    port: 2087
+    uuid: "0806e6e2-e01d-482c-b530-be3b57d486d4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ee.song69.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: 132.243.74.103
+    port: 2087
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "ee.song69.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
+  - name: "🇪🇪 [BL] Сервер 8"
     type: vless
     server: 185.225.205.53
     port: 443

@@ -7,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "msk1.nexfile.net"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -15,35 +15,21 @@ proxies:
       short-id: "edc4c30c"
   - name: "🇫🇮 [BL] Сервер 2"
     type: vless
-    server: 146.103.118.189
-    port: 443
-    uuid: "ce698f0c-a8ec-474a-b5d8-3be8032deeb8"
-    network: "ws"
-    servername: "nl2.574ck.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/574ck-finland"
-      headers:
-        Host: "nl2.574ck.xyz"
-  - name: "🇫🇮 [BL] Сервер 3"
-    type: vless
-    server: debik2.vethilis.ru
+    server: 177.3.193.191
     port: 443
     uuid: "5fb552a8-9c41-4031-86f5-ca10fc802da5"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "debik2.vethilis.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇫🇮 [BL] Сервер 4"
+  - name: "🇫🇮 [BL] Сервер 3"
     type: vless
     server: 89.144.53.4
     port: 8445
     uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "videos.porsche.com"
     client-fingerprint: "firefox"
@@ -52,20 +38,31 @@ proxies:
     reality-opts:
       public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
       short-id: "1a2b3c4d"
+  - name: "🇫🇮 [BL] Сервер 4"
+    type: vless
+    server: 177.3.193.43
+    port: 443
+    uuid: "5fb552a8-9c41-4031-86f5-ca10fc802da5"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "debik1.vethilis.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
   - name: "🇫🇮 [BL] Сервер 5"
     type: vless
     server: 107.181.151.128
     port: 443
-    uuid: "75113671-63e3-452d-87d3-261a37e8b472"
+    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.mozilla.org"
+    servername: "www.microsoft.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
-      short-id: "baf023e1026a"
+      short-id: "87174b37ce3b"
   - name: "🇫🇮 [BL] Сервер 6"
     type: vless
     server: 87.239.249.137
@@ -151,6 +148,20 @@ proxies:
       public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
   - name: "🇫🇮 [BL] Сервер 12"
     type: vless
+    server: 94.156.79.93
+    port: 443
+    uuid: "1a5e7720-abf3-4b9b-bc9b-9a900a04b434"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg"
+      short-id: "f129dcdbf64f"
+  - name: "🇫🇮 [BL] Сервер 13"
+    type: vless
     server: 78.17.39.129
     port: 443
     uuid: "c04522c4-3d53-4eab-b5b5-25385d5f11b1"
@@ -162,7 +173,7 @@ proxies:
     xhttp-opts:
       path: "/assets/finvip02/"
       mode: "packet-up"
-  - name: "🇫🇮 [BL] Сервер 13"
+  - name: "🇫🇮 [BL] Сервер 14"
     type: vless
     server: 13.140.80.136
     port: 443
@@ -176,17 +187,17 @@ proxies:
     reality-opts:
       public-key: "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38"
       short-id: "8f3c6e2a1b5d4f09"
-  - name: "🇫🇮 [BL] Сервер 14"
+  - name: "🇫🇮 [BL] Сервер 15"
     type: vless
-    server: 91.108.239.16
-    port: 11157
-    uuid: "a5534700-06fe-4d67-a208-9cac22ba6687"
-    network: "tcp"
+    server: 31.77.199.147
+    port: 4443
+    uuid: "20dd9433-389e-4573-ba7b-689619cf13da"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "www.nvidia.com"
-    client-fingerprint: "firefox"
+    servername: "images.unsplash.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "5ZnqogTBj863yP3-LQvklDeUKWvoLPiWItK_jx_i7nA"
-      short-id: "07232b06"
+      public-key: "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A"
+      short-id: "7da2eae792187ab9"

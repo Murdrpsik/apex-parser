@@ -1,97 +1,29 @@
 proxies:
   - name: "🇩🇪 [WL] Сервер 1"
     type: vmess
-    server: 37.220.161.247
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇩🇪 [WL] Сервер 2"
-    type: vmess
-    server: 37.220.161.247
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇩🇪 [WL] Сервер 3"
-    type: vmess
-    server: 37.220.161.249
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇩🇪 [WL] Сервер 4"
-    type: vmess
-    server: 37.220.161.249
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇩🇪 [WL] Сервер 5"
-    type: vmess
-    server: 93.93.89.99
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇩🇪 [WL] Сервер 6"
-    type: vmess
-    server: 93.93.89.99
-    port: 443
-    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "renderer-stream-2-129.mirra.now"
-    tls: true
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇨🇦 [BL] Сервер 7"
-    type: vmess
-    server: 134.195.196.211
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    server: 185.177.229.95
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-  - name: "🇺🇸 [BL] Сервер 8"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vmess
+    server: 47.76.57.83
+    port: 443
+    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "vah4urdzl3jdx5r2.v.3dns.vip"
+    tls: true
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "vah4urdzl3jdx5r2.v.3dns.vip"
+  - name: "🇺🇸 [BL] Сервер 3"
     type: vmess
     server: 38.110.1.246
     port: 18000
@@ -101,9 +33,40 @@ proxies:
     network: "tcp"
     ws-opts:
       path: "/"
-  - name: "🇺🇸 [BL] Сервер 9"
+  - name: "🇺🇸 [BL] Сервер 4"
     type: vmess
-    server: 38.91.107.49
+    server: 84.17.41.2
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "bj1aa2zyjxyamyuk.v%3dns.vip"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "bj1aa2zyjxyamyuk.v.3dns.vip"
+  - name: "🇸🇬 [BL] Сервер 5"
+    type: vmess
+    server: 149.88.23.207
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    ws-opts:
+      path: "/"
+  - name: "🇰🇷 [BL] Сервер 6"
+    type: vmess
+    server: 140.238.2.250
+    port: 443
+    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇸🇬 [BL] Сервер 7"
+    type: vmess
+    server: 149.88.23.202
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"

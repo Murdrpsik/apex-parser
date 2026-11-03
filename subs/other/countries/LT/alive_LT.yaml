@@ -1,29 +1,68 @@
 proxies:
   - name: "🇱🇹 [WL] Сервер 1"
     type: vless
-    server: apply.betust.net
+    server: 88.216.127.75
     port: 443
-    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "apply.betust.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
-      short-id: "b20168a5"
-  - name: "🇱🇹 [BL] Сервер 2"
-    type: vless
-    server: 93.115.24.135
-    port: 443
-    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "admin.betust.net"
+    servername: "nl-modx-roy.nodexphere.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
-      short-id: "3e137406"
+      public-key: "mvftK1HPHzpwowTw8ElAwf-GEECYx38GCTq4ihhEmAY"
+  - name: "🇱🇹 [WL] Сервер 2"
+    type: vless
+    server: 88.216.127.78
+    port: 443
+    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nl-modx-roy.nodexphere.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mvftK1HPHzpwowTw8ElAwf-GEECYx38GCTq4ihhEmAY"
+  - name: "🇱🇹 [WL] Сервер 3"
+    type: vless
+    server: 88.216.127.115
+    port: 443
+    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lt-modx.nodexphere.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "cc2mDH9C31IlAwrn1eEhbuzZ3l4Ijw3mKl7rF75GUDo"
+  - name: "🇱🇹 [BL] Сервер 4"
+    type: vless
+    server: 84.32.215.96
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "app26.betust.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
+      short-id: "d44d6d46"
+  - name: "🇱🇹 [BL] Сервер 5"
+    type: vless
+    server: app26.betust.net
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "app26.betust.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
+      short-id: "d44d6d46"

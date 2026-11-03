@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇭🇷 [BL] Сервер 1"
+    type: vless
+    server: 138.124.247.76
+    port: 443
+    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "hr1-4v.zvcorp24.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FSoosmyb1Odcc6yucO4B-0YC0fKytdBbvuwJKn7Wbkg"
+      short-id: "86afa150bc3a48f6"

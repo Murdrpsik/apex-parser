@@ -4,7 +4,7 @@ proxies:
     server: 130.49.189.36
     port: 443
     uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "alb-4vp.fast-cdn24.com"
     client-fingerprint: "firefox"

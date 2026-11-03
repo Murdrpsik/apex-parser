@@ -18,7 +18,7 @@ proxies:
     server: 78.17.93.30
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "ca1.fox-lisa.ru"
     client-fingerprint: "firefox"
@@ -32,7 +32,7 @@ proxies:
     server: ca1.fox-lisa.ru
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "ca1.fox-lisa.ru"
     client-fingerprint: "firefox"
@@ -83,22 +83,6 @@ proxies:
       public-key: "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg"
       short-id: "d18f4e"
   - name: "🇨🇦 [BL] Сервер 7"
-    type: trojan
-    server: 216.128.185.90
-    port: 46977
-    password: "5t6i121em5lkmsmk"
-    sni: "ca001.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true
-  - name: "🇨🇦 [BL] Сервер 8"
-    type: vmess
-    server: 134.195.196.211
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-  - name: "🇨🇦 [BL] Сервер 9"
     type: ss
     server: 149.22.95.183
     port: 443

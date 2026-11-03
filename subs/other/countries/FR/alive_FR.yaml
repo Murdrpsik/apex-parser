@@ -40,32 +40,32 @@ proxies:
     tls: true
     reality-opts:
       public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
-  - name: "🇫🇷 [WL] Сервер 4"
+  - name: "🇫🇷 [BL] Сервер 4"
     type: vless
-    server: 62.210.91.10
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    server: 31.185.105.111
+    port: 443
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "fuck.rkn"
+    servername: "fastlinkdownload.song69.fun"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
   - name: "🇫🇷 [BL] Сервер 5"
     type: vless
-    server: 51.38.127.93
-    port: 8080
-    uuid: "261cdc0d-9a73-4b75-b61b-e99980e3d668"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "icloud.com"
-    client-fingerprint: "chrome"
+    server: 161.97.66.16
+    port: 443
+    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
+    network: "raw"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "vKnJBC8MN4hGDqu7_C6luBwjVnhq9Wjb6BWkuK_8_z0"
-      short-id: "dee5ab9e"
+      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
+      short-id: "086bf957"
   - name: "🇫🇷 [BL] Сервер 6"
     type: vless
     server: 31.76.230.158

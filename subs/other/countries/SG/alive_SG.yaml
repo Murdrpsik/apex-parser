@@ -42,19 +42,6 @@ proxies:
       short-id: "ab39fc68ab3dee81"
   - name: "🇸🇬 [BL] Сервер 4"
     type: vless
-    server: 511.150333.xyz
-    port: 21001
-    uuid: "41b1c169-5905-4d98-b6a6-56896c25737c"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU"
-      short-id: "ab39fc68ab3dee81"
-  - name: "🇸🇬 [BL] Сервер 5"
-    type: vless
     server: 103.106.229.177
     port: 21001
     uuid: "67952583-8572-42e1-943d-0602794f885b"
@@ -66,6 +53,20 @@ proxies:
     reality-opts:
       public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
       short-id: "a51c3ccb2320024a"
+  - name: "🇸🇬 [BL] Сервер 5"
+    type: vless
+    server: 5.34.177.164
+    port: 443
+    uuid: "ca678d26-5435-4d13-b378-06c4c3b070ff"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "gateway.icloud.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
+      short-id: "b2efed6d157e7bb0"
   - name: "🇸🇬 [BL] Сервер 6"
     type: vless
     server: 54.169.200.246
@@ -120,19 +121,29 @@ proxies:
     tls: true
   - name: "🇸🇬 [BL] Сервер 10"
     type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    network: "raw"
+    server: 45.77.243.143
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 11"
+    type: vless
+    server: 172.237.88.103
+    port: 447
+    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.tesla.com"
+    servername: "netflix.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
-      short-id: "38d72071"
-  - name: "🇸🇬 [BL] Сервер 11"
+      public-key: "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI"
+      short-id: "5a42dbd7e26a0415"
+  - name: "🇸🇬 [BL] Сервер 12"
     type: vless
     server: 45.132.75.213
     port: 2053
@@ -145,20 +156,6 @@ proxies:
     reality-opts:
       public-key: "TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY"
       short-id: "cd7e85995ae2afc9"
-  - name: "🇸🇬 [BL] Сервер 12"
-    type: vless
-    server: 5.34.177.164
-    port: 443
-    uuid: "ca678d26-5435-4d13-b378-06c4c3b070ff"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "gateway.icloud.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
-      short-id: "b2efed6d157e7bb0"
   - name: "🇸🇬 [BL] Сервер 13"
     type: vless
     server: 46.137.202.178
@@ -189,20 +186,6 @@ proxies:
       short-id: "a775360a48ef5cfb"
   - name: "🇸🇬 [BL] Сервер 15"
     type: vless
-    server: 141.193.213.20
-    port: 8443
-    uuid: "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2"
-    network: "ws"
-    servername: "u.srilankangrill.online"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "u.srilankangrill.online"
-  - name: "🇸🇬 [BL] Сервер 16"
-    type: vless
     server: 162.4.172.55
     port: 443
     uuid: "780fab9a-e5be-470c-8c31-51640779ba2c"
@@ -215,3 +198,59 @@ proxies:
     reality-opts:
       public-key: "ZVMW8jnFE_zxUQjSsZVDaqOY13RGrdnHivXWdXxFhxg"
       short-id: "d7fd"
+  - name: "🇸🇬 [BL] Сервер 16"
+    type: vless
+    server: 141.193.213.20
+    port: 8443
+    uuid: "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2"
+    network: "ws"
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "u.srilankangrill.online"
+  - name: "🇸🇬 [BL] Сервер 17"
+    type: vless
+    server: 140.235.11.243
+    port: 56984
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg1.zestapp778.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 18"
+    type: vless
+    server: 5.223.59.190
+    port: 465
+    uuid: "09f30c46-3964-41ce-882a-72aee83ddd42"
+    network: "ws"
+    servername: "hw6.divarkhaghazi.com."
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hw6.divarkhaghazi.com."
+  - name: "🇸🇬 [BL] Сервер 19"
+    type: vmess
+    server: 149.88.23.207
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬 [BL] Сервер 20"
+    type: vmess
+    server: 149.88.23.202
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
