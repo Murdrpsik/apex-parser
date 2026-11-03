@@ -1,6 +1,17 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 185.147.27.183
+    port: 8443
+    uuid: "379998c5-2a71-4202-9c74-522e0c3c5404"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "user-6a917f32.noooo.win"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
     server: 147.45.148.6
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
@@ -12,7 +23,48 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 85.193.85.231
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: 87.120.166.160
+    port: 443
+    uuid: "7b91b2c3-8af3-449b-a555-00c9460989f4"
+    network: "ws"
+    servername: "lvi.su"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
+      headers:
+        Host: "lvi.su"
+  - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
+    server: 217.144.184.177
+    port: 443
+    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "assets-v2.porsche.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 13.143.184.226
     port: 443
@@ -26,16 +78,31 @@ proxies:
     reality-opts:
       public-key: "qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk"
       short-id: "f7e66e308136e1a1"
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
-    server: 85.193.85.231
+    server: 5.42.96.76
     port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
+    servername: "ruself.yandex-api.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+      public-key: "c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo"
+      short-id: "7f2e9c4b1a8d6e55"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 212.233.90.78
+    port: 8443
+    uuid: "cb5e271b-baf3-4e9e-ad69-d02c4d859b5d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "birch-ledger.justext.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "t8aH4xSec-bs7fAAeDT-zARIJO9XbFfqlUeA65IP-TE"
+      short-id: "1b4606dfa74f3ab1"

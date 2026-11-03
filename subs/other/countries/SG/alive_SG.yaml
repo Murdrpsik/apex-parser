@@ -55,19 +55,6 @@ proxies:
       short-id: "a51c3ccb2320024a"
   - name: "🇸🇬 [BL] Сервер 5"
     type: vless
-    server: 510.150333.xyz
-    port: 21001
-    uuid: "67952583-8572-42e1-943d-0602794f885b"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
-      short-id: "a51c3ccb2320024a"
-  - name: "🇸🇬 [BL] Сервер 6"
-    type: vless
     server: 5.34.177.164
     port: 443
     uuid: "ca678d26-5435-4d13-b378-06c4c3b070ff"
@@ -80,90 +67,50 @@ proxies:
     reality-opts:
       public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
       short-id: "b2efed6d157e7bb0"
-  - name: "🇸🇬 [BL] Сервер 7"
+  - name: "🇸🇬 [BL] Сервер 6"
     type: vless
     server: 54.169.200.246
     port: 41688
     uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.intel.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk"
       short-id: "7f342137c20387"
+  - name: "🇸🇬 [BL] Сервер 7"
+    type: vless
+    server: 45.77.243.143
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
   - name: "🇸🇬 [BL] Сервер 8"
     type: vless
-    server: 206.206.76.75
+    server: 45.77.40.28
     port: 443
-    uuid: "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "raw"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "gSHylaTvEzWj19Bk-zLHXKYUINGWVmo_ybCiD2CRinE"
-      short-id: "a775360a48ef5cfb"
   - name: "🇸🇬 [BL] Сервер 9"
     type: vless
-    server: 172.237.88.103
+    server: 45.76.155.179
     port: 443
-    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "zoom.us"
-    client-fingerprint: "random"
+    servername: "sg003.zestapp778.com"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI"
-      short-id: "5a42dbd7e26a0415"
   - name: "🇸🇬 [BL] Сервер 10"
-    type: vless
-    server: 46.137.202.178
-    port: 12512
-    uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.intel.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA"
-      short-id: "e692a8250d2e2fd0"
-  - name: "🇸🇬 [BL] Сервер 11"
-    type: vless
-    server: 3.0.111.82
-    port: 12972
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-  - name: "🇸🇬 [BL] Сервер 12"
-    type: vless
-    server: 45.132.75.213
-    port: 2053
-    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY"
-      short-id: "cd7e85995ae2afc9"
-  - name: "🇸🇬 [BL] Сервер 13"
     type: vless
     server: 54.251.9.130
     port: 24146
@@ -177,61 +124,220 @@ proxies:
     reality-opts:
       public-key: "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo"
       short-id: "7205d9079521832c"
+  - name: "🇸🇬 [BL] Сервер 11"
+    type: vless
+    server: 3.0.111.82
+    port: 17623
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+  - name: "🇸🇬 [BL] Сервер 12"
+    type: vless
+    server: 172.237.88.103
+    port: 443
+    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "zoom.us"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI"
+      short-id: "5a42dbd7e26a0415"
+  - name: "🇸🇬 [BL] Сервер 13"
+    type: vless
+    server: 206.206.76.75
+    port: 443
+    uuid: "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "gSHylaTvEzWj19Bk-zLHXKYUINGWVmo_ybCiD2CRinE"
+      short-id: "a775360a48ef5cfb"
   - name: "🇸🇬 [BL] Сервер 14"
     type: vless
-    server: 67.159.52.81
-    port: 443
-    uuid: "a16bd0e2-ff2e-4e4c-a955-0c684255a065"
+    server: 45.132.75.213
+    port: 2053
+    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sg.fasti.win"
-    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs"
-      short-id: "feedbacc"
+      public-key: "TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY"
+      short-id: "cd7e85995ae2afc9"
   - name: "🇸🇬 [BL] Сервер 15"
     type: vless
-    server: 140.235.11.243
-    port: 56984
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "sg1.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇬 [BL] Сервер 16"
-    type: vless
-    server: sg1.zestapp778.com
-    port: 56984
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "sg1.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇸🇬 [BL] Сервер 17"
-    type: vless
-    server: 45.76.155.179
-    port: 443
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "sg003.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇬 [BL] Сервер 18"
-    type: vless
-    server: sg.shtil.io
-    port: 8443
-    uuid: "c9bf7875-6722-43cd-91d8-d0528a57e426"
+    server: 46.137.202.178
+    port: 12512
+    uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
+    servername: "www.intel.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "5Oh9-P6sO_Fly4XU_sN0JOb4Ek3FgoMznhDExI70GEk"
-      short-id: "ab96"
+      public-key: "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA"
+      short-id: "e692a8250d2e2fd0"
+  - name: "🇸🇬 [BL/CF] Сервер 16"
+    type: vless
+    server: 185.125.103.113
+    port: 443
+    uuid: "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898"
+    network: "ws"
+    servername: "coding.grok2.indevs.in"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "coding.grok2.indevs.in"
+  - name: "🇸🇬 [BL/CF] Сервер 17"
+    type: vless
+    server: 188.253.22.103
+    port: 4443
+    uuid: "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898"
+    network: "ws"
+    servername: "coding.grok2.indevs.in"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "coding.grok2.indevs.in"
+  - name: "🇸🇬 [BL/CF] Сервер 18"
+    type: vless
+    server: 156.224.76.205
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇸🇬 [BL/CF] Сервер 19"
+    type: vless
+    server: 64.112.42.110
+    port: 443
+    uuid: "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898"
+    network: "ws"
+    servername: "coding.grok2.indevs.in"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "coding.grok2.indevs.in"
+  - name: "🇸🇬 [BL/CF] Сервер 20"
+    type: vless
+    server: 161.118.220.38
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [BL/CF] Сервер 21"
+    type: vless
+    server: 161.118.250.135
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [BL/CF] Сервер 22"
+    type: vless
+    server: 146.235.22.161
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [BL/CF] Сервер 23"
+    type: vless
+    server: 206.189.95.233
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇸🇬 [BL/CF] Сервер 24"
+    type: vless
+    server: 168.107.42.158
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [BL/CF] Сервер 25"
+    type: vless
+    server: 5.104.107.80
+    port: 2053
+    uuid: "f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898"
+    network: "ws"
+    servername: "coding.grok2.indevs.in"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "%2Fproxyip%3DProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "coding.grok2.indevs.in"
+  - name: "🇸🇬 [BL] Сервер 26"
+    type: vmess
+    server: 149.88.23.207
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    ws-opts:
+      path: "/"

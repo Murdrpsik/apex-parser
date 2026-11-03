@@ -1,0 +1,3 @@
+#profile-title: Apex PT
+#profile-update-interval: 1
+vless://7af8ad56-33ce-4f3d-ad15-ef32a71d67f7@50.7.42.43:443?security=reality&encryption=none&pbk=9RfJDCFKCykiqgKvUggHX9CtzaOIADK-cZcSKdo1ITw&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=cdnportu.uk&sid=8fbee7b12cdb537a#🇵🇹 [BL] Сервер 1

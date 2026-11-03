@@ -1,64 +1,5 @@
 proxies:
-  - name: "🇪🇪 [WL] Сервер 1"
-    type: vless
-    server: 31.129.42.131
-    port: 443
-    uuid: "7e1bbe39-2a27-4750-be12-44b0683f9823"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "max.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zkoNHNES2lkc50ZSm-I-fjH92OkQomURpcSwN1DhqEo"
-      short-id: "a7d054b844ba6e6c"
-  - name: "🇪🇪 [WL] Сервер 2"
-    type: vless
-    server: qqmrkr71metydlthes8.dnetsolutions.ru
-    port: 443
-    uuid: "4b091976-0936-44ac-9a90-6a265d2b619f"
-    network: "grpc"
-    servername: "max.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uuD0VJNMH1jZKPjiI5qhbiMVabQFkocWy0LUjh-3HEQ"
-      short-id: "bc35"
-    grpc-opts:
-      grpc-service-name: "grpc-65"
-  - name: "🇪🇪 [WL] Сервер 3"
-    type: vless
-    server: qqmrkr71metydlthes8.dnetsolutions.ru
-    port: 443
-    uuid: "4b091976-0936-44ac-9a90-6a265d2b619f"
-    network: "grpc"
-    servername: "max.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uuD0VJNMH1jZKPjiI5qhbiMVabQFkocWy0LUjh-3HEQ"
-      short-id: "bc35"
-    grpc-opts:
-      grpc-service-name: "grpc-65"
-      grpc-mode: "gun"
-  - name: "🇪🇪 [WL] Сервер 4"
-    type: vless
-    server: 147.45.245.17
-    port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "defs-64.topp-con.xyz"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4GpOXPkTdvuF1mgBH6n9AFYRvGEh7K2ETgE8asmNASY"
-      short-id: "38146bd64aece7a5"
-  - name: "🇪🇪 [WL] Сервер 5"
+  - name: "🇪🇪 [BL] Сервер 1"
     type: vless
     server: 5.129.202.80
     port: 443
@@ -66,35 +7,133 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "mirror-50.topp-con.xyz"
-    client-fingerprint: "ios"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
       short-id: "2ef2b10d5143d798"
-  - name: "🇪🇪 [BL] Сервер 6"
+  - name: "🇪🇪 [BL] Сервер 2"
     type: vless
-    server: 13.143.182.103
+    server: 147.45.245.17
     port: 443
-    uuid: "2614a96d-e39f-4cca-a9c7-467a178c2c0a"
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ee.lenvex.cc"
+    servername: "defs-64.topp-con.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ"
-  - name: "🇪🇪 [BL] Сервер 7"
+      public-key: "4GpOXPkTdvuF1mgBH6n9AFYRvGEh7K2ETgE8asmNASY"
+      short-id: "38146bd64aece7a5"
+  - name: "🇪🇪 [BL] Сервер 3"
     type: vless
-    server: 13.143.182.104
-    port: 443
-    uuid: "2614a96d-e39f-4cca-a9c7-467a178c2c0a"
+    server: 141.0.187.4
+    port: 11443
+    uuid: "6cf6d70c-c444-4f49-894e-9f33429238b6"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ee.lenvex.cc"
-    client-fingerprint: "chrome"
+    servername: "141.0.187.4"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ"
+      public-key: "GPz7dacpjZ5iHT5pbZfYap1vpyt85mNKV7BVW3R92hE"
+      short-id: "26ca0f0ba115925d"
+  - name: "🇪🇪 [BL] Сервер 4"
+    type: vless
+    server: 141.0.187.6
+    port: 11443
+    uuid: "6cf6d70c-c444-4f49-894e-9f33429238b6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "141.0.187.6"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "945vNebBQgPKkgABK0nHHRh35q3gVrmaUbShAVBRSWg"
+      short-id: "21bb339df984afbd"
+  - name: "🇪🇪 [BL] Сервер 5"
+    type: vless
+    server: 31.56.187.35
+    port: 34451
+    uuid: "5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28"
+    network: "xhttp"
+    servername: "ee-2e06d85dc0.shamanapp.online"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/ShamanXHTTP2026"
+      host: "ee-2e06d85dc0.shamanapp.online"
+      mode: "stream-up"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 109.71.247.200
+    port: 443
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "static-47.topp-con.xyz"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU"
+      short-id: "b9120cd53ffd7bba"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: 150.241.74.29
+    port: 443
+    uuid: "e7ee38d7-f8ad-4d14-a491-2d9e18011845"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.izzzyvpn.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "v--0dXOWcnzpJvl_6qkbWTCRLg-eWdJ6WxJsYtj9WQY"
+      short-id: "f7fdf037537b8c38"
+  - name: "🇪🇪 [BL] Сервер 8"
+    type: vless
+    server: 87.232.116.20
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "fafeqdhlett2p5la6d.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "67h2o3erm0t9imsj"
+      grpc-mode: "gun"
+  - name: "🇪🇪 [BL] Сервер 9"
+    type: vless
+    server: 185.225.205.53
+    port: 443
+    uuid: "3d526c7f-059c-4e2b-b09a-8569b268935b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "addons.mozilla.org"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "2XyUS3_ONl5REQ7NiwikdJphAe7oJ61-21zuqnN67y8"
+      short-id: "2e82d7ac"
+  - name: "🇪🇪 [BL] Сервер 10"
+    type: vless
+    server: 132.243.74.100
+    port: 2087
+    uuid: "0806e6e2-e01d-482c-b530-be3b57d486d4"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "ee.song69.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"

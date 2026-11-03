@@ -4,10 +4,10 @@ proxies:
     server: 77.91.69.169
     port: 19226
     uuid: "f0b144bd-4c44-440d-b630-d79ec82cad3a"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "yahoo.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
