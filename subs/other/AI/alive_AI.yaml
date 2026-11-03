@@ -1,7 +1,7 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
+  - name: "🇨🇦 [AI] Сервер 1"
     type: ss
-    server: 31.57.185.203
-    port: 53799
-    password: "ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:6P/mJmwaHFp5FDdB9l04qOY4pmYKFt/bq65iOCP+oBU="
-    cipher: "2022-blake3-aes-256-gcm"
+    server: 51.79.49.116
+    port: 8882
+    password: "kDWvXYZoTBcGkC4"
+    cipher: "aes-256-gcm"

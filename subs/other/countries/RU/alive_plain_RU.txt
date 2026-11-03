@@ -1,10 +1,8 @@
 #profile-title: Apex RU
 #profile-update-interval: 1
-vless://379998c5-2a71-4202-9c74-522e0c3c5404@185.147.27.183:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=user-6a917f32.noooo.win&packetEncoding=xudp&fp=qq&type=tcp#🇷🇺 [WL] Сервер 1
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@147.45.148.6:443/?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=chrome#🇷🇺 [WL] Сервер 2
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@85.193.85.231:443?flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&fp=chrome&encryption=none&type=tcp#🇷🇺 [WL] Сервер 3
-vless://7b91b2c3-8af3-449b-a555-00c9460989f4@87.120.166.160:443?alpn=http%2F1.1&host=lvi.su&insecure=0&path=%2Fvpn-relay%3Ftoken%3D27fede42482b3c29d4c1c9640876c250%26pool%3Dwhitelist2&security=tls&sni=lvi.su&type=ws&fp=ios&encryption=none#🇷🇺 [WL] Сервер 4
-vless://5c32201a-6c0e-451b-8f0a-24b4bd40df59@217.144.184.177:443?security=reality&encryption=none&pbk=kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=assets-v2.porsche.com&sid=1a2b3c4d#🇷🇺 [WL] Сервер 5
-vless://6158d429-74fe-4415-aae5-5ead48c2ecfa@13.143.184.226:443?security=reality&encryption=none&pbk=qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=msc1.serverslocal.ru&sid=f7e66e308136e1a1#🇷🇺 [WL] Сервер 6
-vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@5.42.96.76:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ruself.yandex-api.com&fp=firefox&pbk=c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo&sid=7f2e9c4b1a8d6e55&flow=xtls-rprx-vision#🇷🇺 [WL] Сервер 7
-vless://cb5e271b-baf3-4e9e-ad69-d02c4d859b5d@212.233.90.78:8443?type=tcp&encryption=none&security=reality&fp=firefox&sni=birch-ledger.justext.space&pbk=t8aH4xSec-bs7fAAeDT-zARIJO9XbFfqlUeA65IP-TE&sid=1b4606dfa74f3ab1&spx=%2F&flow=xtls-rprx-vision#🇷🇺 [WL] Сервер 8
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@147.45.148.6:443/?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=ios#🇷🇺 [WL] Сервер 1
+vless://7b91b2c3-8af3-449b-a555-00c9460989f4@87.120.166.160:443?security=tls&type=ws&path=%2Fvpn-relay%3Ftoken%3D27fede42482b3c29d4c1c9640876c250%26pool%3Dwhitelist2&host=lvi.su&packetEncoding=xudp&alpn=http%2F1.1&sni=lvi.su&fp=chrome&encryption=none#🇷🇺 [WL] Сервер 2
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@85.193.85.231:443?flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&fp=firefox&encryption=none&type=tcp#🇷🇺 [WL] Сервер 3
+vless://5c32201a-6c0e-451b-8f0a-24b4bd40df59@217.144.184.177:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk&sid=1a2b3c4d&sni=assets-v2.porsche.com&encryption=none#🇷🇺 [WL] Сервер 4
+vless://cb5e271b-baf3-4e9e-ad69-d02c4d859b5d@212.233.90.78:8443?type=tcp&encryption=none&security=reality&fp=firefox&sni=birch-ledger.justext.space&pbk=t8aH4xSec-bs7fAAeDT-zARIJO9XbFfqlUeA65IP-TE&sid=1b4606dfa74f3ab1&spx=%2F&flow=xtls-rprx-vision#🇷🇺 [WL] Сервер 5
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@185.22.153.192:18443#🇷🇺 [WL] Сервер 6

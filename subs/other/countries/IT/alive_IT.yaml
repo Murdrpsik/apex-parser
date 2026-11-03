@@ -1,33 +1,32 @@
 proxies:
   - name: "🇮🇹 [BL] Сервер 1"
     type: vless
-    server: 31.77.154.180
+    server: 82.118.16.189
     port: 443
-    uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
-    network: "grpc"
-    servername: "local.sywl5.health"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "BUmDIJm-hDTetLJoCGG3lhvFrccV2sp2uf4EpJk28CE"
-      short-id: "6c3fc5d190b4d009"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇮🇹 [BL] Сервер 2"
-    type: vless
-    server: 91.201.67.245
-    port: 443
-    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+    uuid: "d5e5f5a1-0f23-4c49-af9f-4be445bf9d8e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "files.porsche.com"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
-      short-id: "1a2b3c4d"
+      public-key: "SjGkzJQ9I6ZZjC3V73atcPMczhMm0oiTrB8mUQXz1HY"
+      short-id: "37fbf155c7a9f3ff"
+  - name: "🇮🇹 [BL] Сервер 2"
+    type: vless
+    server: 82.118.16.187
+    port: 443
+    uuid: "dc2259c4-388e-4285-ba18-df619b6672b6"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU"
+      short-id: "cd6065902eea7a02"
   - name: "🇮🇹 [BL] Сервер 3"
     type: vless
     server: 57.131.38.163
@@ -55,22 +54,23 @@ proxies:
     reality-opts:
       public-key: "Lew0Y0hNzQyEeLxBpBxC2QnshUrtPvSdkLykPZcqLHs"
       short-id: "b10dd5"
-  - name: "🇮🇹 [BL/CF] Сервер 5"
+  - name: "🇮🇹 [BL] Сервер 5"
     type: vless
-    server: 80.211.170.53
+    server: 91.201.67.245
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
+    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "files.porsche.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"
+    reality-opts:
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
   - name: "🇮🇹 [BL] Сервер 6"
     type: ss
-    server: 202.50.253.54
+    server: 202.50.253.90
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
@@ -82,13 +82,13 @@ proxies:
     cipher: "aes-256-gcm"
   - name: "🇮🇹 [BL] Сервер 8"
     type: ss
-    server: 202.50.253.90
+    server: 202.50.253.63
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
   - name: "🇮🇹 [BL] Сервер 9"
     type: ss
-    server: 202.50.253.63
+    server: 202.50.253.54
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"

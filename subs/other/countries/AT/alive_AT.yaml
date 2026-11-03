@@ -1,18 +1,18 @@
 proxies:
   - name: "🇦🇹 [BL] Сервер 1"
     type: vless
-    server: 66.90.106.210
-    port: 443
-    uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
-    network: "tcp"
+    server: av.neuroniko.com
+    port: 8443
+    uuid: "69158986-cfae-4567-8391-0f96d9d985bd"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "dash.syn2.online"
-    client-fingerprint: "edge"
+    servername: "av.neuroniko.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "2okfB1oMV1oQX1QZLbd_gQx4ZGtIDkP8KkELglZIBys"
-      short-id: "accded3297"
+      public-key: "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc"
+      short-id: "10a59b0a94367ac2"
   - name: "🇦🇹 [BL] Сервер 2"
     type: vless
     server: 185.126.236.125
@@ -27,3 +27,16 @@ proxies:
     reality-opts:
       public-key: "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc"
       short-id: "10a59b0a94367ac2"
+  - name: "🇦🇹 [BL/CF] Сервер 3"
+    type: vless
+    server: 91.199.147.41
+    port: 443
+    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
+    network: "ws"
+    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome"
+      headers:
+        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"

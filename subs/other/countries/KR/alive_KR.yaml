@@ -26,11 +26,3 @@ proxies:
     reality-opts:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
-  - name: "🇰🇷 [BL] Сервер 3"
-    type: trojan
-    server: 158.247.255.150
-    port: 48851
-    password: "5t6i121em5lkmsmk"
-    sni: "kr002.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true

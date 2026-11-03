@@ -18,11 +18,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "a010e14e-27c6-4f11-8f66-94cd94a15f8c"
+    uuid: "acb1ba6c-94a9-4502-b90d-ae92c5ea7f21"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.amd.com"
-    client-fingerprint: "ios"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

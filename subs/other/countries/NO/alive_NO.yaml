@@ -4,10 +4,10 @@ proxies:
     server: 144.31.217.148
     port: 443
     uuid: "e7ee38d7-f8ad-4d14-a491-2d9e18011845"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "norvegia29838199399293838.izzzyvpn.space"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

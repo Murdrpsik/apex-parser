@@ -1,13 +1,15 @@
 proxies:
-  - name: "🇨🇭 [BL/CF] Сервер 1"
+  - name: "🇨🇭 [BL] Сервер 1"
     type: vless
-    server: 194.147.173.117
+    server: 45.90.59.15
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
+    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/"
+    reality-opts:
+      public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
+      short-id: "19253fae84102271"

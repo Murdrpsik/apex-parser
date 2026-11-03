@@ -1,4 +1,5 @@
 #profile-title: Apex AT
 #profile-update-interval: 1
-vless://7af8ad56-33ce-4f3d-ad15-ef32a71d67f7@66.90.106.210:443?security=reality&encryption=none&pbk=2okfB1oMV1oQX1QZLbd_gQx4ZGtIDkP8KkELglZIBys&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=dash.syn2.online&sid=accded3297#🇦🇹 [BL] Сервер 1
+vless://69158986-cfae-4567-8391-0f96d9d985bd@av.neuroniko.com:8443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc&sid=10a59b0a94367ac2&sni=av.neuroniko.com&encryption=none#🇦🇹 [BL] Сервер 1
 vless://69158986-cfae-4567-8391-0f96d9d985bd@185.126.236.125:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc&sid=10a59b0a94367ac2&sni=av.neuroniko.com&encryption=none#🇦🇹 [BL] Сервер 2
+vless://4d945644-69ab-47e0-98b3-d43a6313135d@91.199.147.41:443?sni=mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV&type=ws&host=mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV&path=%2Fvl%2FSaXqikbSPA3ImtmZKAFin%3Fed%3D2560fp%3Dchrome&security=tls&encryption=none#🇦🇹 [BL/CF] Сервер 3

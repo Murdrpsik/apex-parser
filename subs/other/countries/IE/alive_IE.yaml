@@ -16,6 +16,22 @@ proxies:
       grpc-service-name: "grpc-90"
   - name: "🇮🇪 [WL] Сервер 2"
     type: vless
+    server: 195.123.189.214
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+      grpc-mode: "gun"
+  - name: "🇮🇪 [WL] Сервер 3"
+    type: vless
     server: 195.123.189.221
     port: 443
     uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
@@ -29,7 +45,7 @@ proxies:
       short-id: "cbc638acc8ac87"
     grpc-opts:
       grpc-service-name: "grpc-90"
-  - name: "🇮🇪 [WL] Сервер 3"
+  - name: "🇮🇪 [WL] Сервер 4"
     type: vless
     server: 195.123.189.221
     port: 443
@@ -45,23 +61,33 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc-90"
       grpc-mode: "gun"
-  - name: "🇮🇪 [BL] Сервер 4"
+  - name: "🇮🇪 [WL] Сервер 5"
     type: vless
-    server: 45.132.176.61
+    server: 195.123.189.217
     port: 443
-    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sopelka.yandex-api.com"
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
-      short-id: "a9dc98a7dc87a7dc"
-  - name: "🇮🇪 [BL] Сервер 5"
-    type: ss
-    server: 52.138.233.48
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 6"
+    type: vless
+    server: 195.123.189.216
     port: 443
-    password: "4ivh6F6XFBD12gEg"
-    cipher: "chacha20-ietf-poly1305"
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"

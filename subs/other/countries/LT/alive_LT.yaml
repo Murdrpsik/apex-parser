@@ -1,5 +1,33 @@
 proxies:
-  - name: "🇱🇹 [BL] Сервер 1"
+  - name: "🇱🇹 [WL] Сервер 1"
+    type: vless
+    server: 185.178.208.167
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "ws"
+    servername: "lorettmay.top"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/blog/posts"
+      headers:
+        Host: "lorettmay.top"
+  - name: "🇱🇹 [WL] Сервер 2"
+    type: vless
+    server: 185.178.208.167
+    port: 443
+    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    network: "ws"
+    servername: "lorettmay.top"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/blog/posts"
+      headers:
+        Host: "lorettmay.top"
+  - name: "🇱🇹 [BL] Сервер 3"
     type: vless
     server: 93.115.24.135
     port: 443

@@ -1,7 +1,8 @@
 #profile-title: Apex IE
 #profile-update-interval: 1
 vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.214:443?type=grpc&security=reality&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&sni=max.ru&serviceName=grpc-90&encryption=none#🇮🇪 [WL] Сервер 1
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?type=grpc&security=reality&fp=chrome&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&sni=max.ru&serviceName=grpc-90&encryption=none#🇮🇪 [WL] Сервер 2
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?type=grpc&headerType=none&security=reality&encryption=none&sni=max.ru&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&serviceName=grpc-90&mode=gun#🇮🇪 [WL] Сервер 3
-vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@45.132.176.61:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&sid=a9dc98a7dc87a7dc&sni=sopelka.yandex-api.com&host=sopelka.yandex-api.com&encryption=none#🇮🇪 [BL] Сервер 4
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0aXZoNkY2WEZCRDEyZ0Vn@52.138.233.48:443#🇮🇪 [BL] Сервер 5
+vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.214:443?security=reality&type=grpc&mode=gun&serviceName=grpc-90&packetEncoding=xudp&sni=max.ru&fp=firefox&sid=cbc638acc8ac87&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&encryption=none#🇮🇪 [WL] Сервер 2
+vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?type=grpc&security=reality&fp=chrome&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&sni=max.ru&serviceName=grpc-90&encryption=none#🇮🇪 [WL] Сервер 3
+vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?type=grpc&headerType=none&security=reality&encryption=none&sni=max.ru&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&serviceName=grpc-90&mode=gun#🇮🇪 [WL] Сервер 4
+vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.217:443?type=grpc&security=reality&sni=max.ru&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&serviceName=grpc-90&encryption=none#🇮🇪 [WL] Сервер 5
+vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.216:443?encryption=none&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇮🇪 [WL] Сервер 6

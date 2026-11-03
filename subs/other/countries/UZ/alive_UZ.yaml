@@ -4,10 +4,10 @@ proxies:
     server: 82.148.6.146
     port: 443
     uuid: "3cd95e58-9f0a-47e1-9937-64a58e949aa5"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "stats.vk-portal.net"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:

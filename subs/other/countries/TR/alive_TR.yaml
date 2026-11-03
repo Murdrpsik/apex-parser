@@ -96,7 +96,7 @@ proxies:
       short-id: "17fa3af0924c88b3"
   - name: "🇹🇷 [BL] Сервер 8"
     type: vless
-    server: 79.182.70.62
+    server: 83.171.241.149
     port: 25021
     uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
     network: "tcp"
@@ -110,7 +110,7 @@ proxies:
       short-id: "17fa3af0924c88b3"
   - name: "🇹🇷 [BL] Сервер 9"
     type: vless
-    server: 206.1.97.108
+    server: 38.17.64.23
     port: 25021
     uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
     network: "tcp"

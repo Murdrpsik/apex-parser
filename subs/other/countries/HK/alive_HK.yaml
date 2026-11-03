@@ -7,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "u695098ue1001f41s298.gogocs.xyz"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
   - name: "🇭🇰 [BL] Сервер 2"
@@ -52,3 +52,15 @@ proxies:
     tls: true
     reality-opts:
       public-key: "HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw"
+  - name: "🇭🇰 [BL] Сервер 5"
+    type: vless
+    server: 210.0.244.157
+    port: 443
+    uuid: "f3ff9bac-2904-4f38-bae1-54ab1a72891b"
+    network: "tcp"
+    servername: "cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI"
