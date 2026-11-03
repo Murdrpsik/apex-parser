@@ -1,20 +1,6 @@
 proxies:
   - name: "🇺🇦 [BL] Сервер 1"
     type: vless
-    server: 104.253.216.227
-    port: 443
-    uuid: "ee39fb11-56a3-4ee7-9e7c-35a4235bd30e"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.tradingview.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
-      short-id: "b27ba098687b"
-  - name: "🇺🇦 [BL] Сервер 2"
-    type: vless
     server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
@@ -26,12 +12,12 @@ proxies:
     reality-opts:
       public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
       short-id: "d8b58872"
-  - name: "🇺🇦 [BL] Сервер 3"
+  - name: "🇺🇦 [BL] Сервер 2"
     type: vless
     server: 83.147.18.75
     port: 443
     uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.bing.com"
     client-fingerprint: "qq"
@@ -40,20 +26,9 @@ proxies:
     reality-opts:
       public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
       short-id: "7f1e29593aa94ad1"
-  - name: "🇺🇦 [BL] Сервер 4"
+  - name: "🇺🇦 [BL] Сервер 3"
     type: vless
     server: 88.151.195.96
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "u695098u1192f8f8s274.kukuss.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇺🇦 [BL] Сервер 5"
-    type: vless
-    server: s281.wagahaha.xyz
     port: 443
     uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
     network: "tcp"

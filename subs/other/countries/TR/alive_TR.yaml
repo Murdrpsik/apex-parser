@@ -1,22 +1,37 @@
 proxies:
-  - name: "🇹🇷 [BL] Сервер 1"
+  - name: "🇹🇷 [WL] Сервер 1"
     type: vless
-    server: 151.241.226.201
-    port: 2053
-    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    server: 185.95.164.150
+    port: 443
+    uuid: "53154bc7-0409-4f8c-9873-29adad85fab5"
     network: "tcp"
+    flow: "xtls-rprx-vision"
     servername: "www.apple.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LnisQq4C_Z-c2atyogsViBwBntRXH7LZhxC1RccGXH4"
+      short-id: "1db18aa1"
+  - name: "🇹🇷 [BL] Сервер 2"
+    type: vless
+    server: 81.177.215.156
+    port: 443
+    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tr-4vps.yourzloy.site"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
-      short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷 [BL] Сервер 2"
+      public-key: "VNinTQ6vwOujTkrJgK_NPV4SpSBU6B7xG2tpM7prITQ"
+      short-id: "fd5b0def0660cdb1"
+  - name: "🇹🇷 [BL] Сервер 3"
     type: vless
     server: 217.11.164.183
-    port: 2118
-    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
+    port: 2102
+    uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
     network: "tcp"
     servername: "www.apple.com"
     client-fingerprint: "firefox"
@@ -25,20 +40,20 @@ proxies:
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "68c328105c"
-  - name: "🇹🇷 [BL] Сервер 3"
+  - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 45.74.158.57
     port: 2218
     uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
-    network: "tcp"
+    network: "raw"
     servername: "www.apple.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "cc80ef"
-  - name: "🇹🇷 [BL] Сервер 4"
+  - name: "🇹🇷 [BL] Сервер 5"
     type: vless
     server: 62.133.63.45
     port: 8444
@@ -52,21 +67,20 @@ proxies:
       public-key: "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"
     grpc-opts:
       grpc-service-name: "GunService"
-  - name: "🇹🇷 [BL] Сервер 5"
+  - name: "🇹🇷 [BL] Сервер 6"
     type: vless
-    server: 153.56.210.61
-    port: 443
-    uuid: "0de1d303-d7de-0001-8679-c4cb67e2e2cc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "amd.com"
+    server: 151.241.226.201
+    port: 2053
+    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    network: "raw"
+    servername: "www.apple.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
-      short-id: "a696de84963656de"
-  - name: "🇹🇷 [BL] Сервер 6"
+      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
+      short-id: "9e419c0759b54d6f"
+  - name: "🇹🇷 [BL] Сервер 7"
     type: vless
     server: 78.135.73.47
     port: 443
@@ -74,51 +88,23 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.datadoghq.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
-  - name: "🇹🇷 [BL] Сервер 7"
-    type: vless
-    server: 206.1.99.201
-    port: 25021
-    uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.samsung.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg"
-      short-id: "17fa3af0924c88b3"
   - name: "🇹🇷 [BL] Сервер 8"
     type: vless
-    server: 83.171.241.149
-    port: 25021
-    uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
+    server: 153.56.210.61
+    port: 443
+    uuid: "0de1d303-d7de-0001-8679-c4cb67e2e2cc"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.samsung.com"
-    client-fingerprint: "firefox"
+    servername: "amd.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg"
-      short-id: "17fa3af0924c88b3"
-  - name: "🇹🇷 [BL] Сервер 9"
-    type: vless
-    server: 38.17.64.23
-    port: 25021
-    uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.samsung.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg"
-      short-id: "17fa3af0924c88b3"
+      public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
+      short-id: "a696de84963656de"

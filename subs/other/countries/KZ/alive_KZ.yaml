@@ -1,10 +1,24 @@
 proxies:
   - name: "🇰🇿 [BL] Сервер 1"
     type: vless
+    server: 199.189.251.65
+    port: 443
+    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "kz-3.movietop24.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9oXl2fClFx-m_d8r8XtI7JzsCxCymyhTEl1iS9z7gnI"
+      short-id: "ab36a77e04603603"
+  - name: "🇰🇿 [BL] Сервер 2"
+    type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "raw"
+    network: "tcp"
     servername: "yahoo.com"
     client-fingerprint: "chrome"
     udp: true
@@ -12,3 +26,18 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
+  - name: "🇰🇿 [BL] Сервер 3"
+    type: vless
+    server: 38.180.206.44
+    port: 48982
+    uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
+    network: "xhttp"
+    servername: "cdn3-88.yahoo.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"

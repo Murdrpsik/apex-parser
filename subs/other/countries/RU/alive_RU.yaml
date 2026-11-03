@@ -1,32 +1,74 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 95.129.236.216
+    port: 443
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "crm.hourtley.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/video/ffmpeg"
+      headers:
+        Host: "crm.hourtley.com"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 95.129.236.117
+    port: 443
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "cdn.dash.gearmonster.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/edge/node8/push"
+      headers:
+        Host: "cdn.dash.gearmonster.org"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 95.129.236.239
+    port: 443
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "content-iv1k.login.opendns.stream"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/sock/relay/007f9c12e265"
+      headers:
+        Host: "content-iv1k.login.opendns.stream"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: 185.229.9.135
+    port: 443
+    uuid: "03c478b6-93fb-43aa-9fa1-73ced8a13caf"
+    network: "ws"
+    servername: "lesotorg-kirov.ru"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/chws"
+      headers:
+        Host: "lesotorg-kirov.ru"
+  - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
     server: 147.45.148.6
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "ios"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 87.120.166.160
-    port: 443
-    uuid: "7b91b2c3-8af3-449b-a555-00c9460989f4"
-    network: "ws"
-    servername: "lvi.su"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
-      headers:
-        Host: "lvi.su"
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 85.193.85.231
     port: 443
@@ -39,35 +81,21 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 4"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
-    server: 217.144.184.177
+    server: 89.19.223.227
     port: 443
-    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+    uuid: "645168d4-22a4-4217-9b3e-d94b7ab5bffa"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "assets-v2.porsche.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
-      short-id: "1a2b3c4d"
-  - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
-    server: 212.233.90.78
-    port: 8443
-    uuid: "cb5e271b-baf3-4e9e-ad69-d02c4d859b5d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "birch-ledger.justext.space"
+    servername: "d3-ru.cloud-cdn.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "t8aH4xSec-bs7fAAeDT-zARIJO9XbFfqlUeA65IP-TE"
-      short-id: "1b4606dfa74f3ab1"
-  - name: "🇷🇺 [WL] Сервер 6"
+      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
+      short-id: "0f19f0c8102dc695"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: ss
     server: 185.22.153.192
     port: 18443

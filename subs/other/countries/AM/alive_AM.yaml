@@ -1,0 +1,12 @@
+proxies:
+  - name: "🇦🇲 [BL] Сервер 1"
+    type: vless
+    server: 91.195.254.172
+    port: 443
+    uuid: "613b64fe-b88d-42db-9d4f-26b8654d4060"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.slovarik.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true

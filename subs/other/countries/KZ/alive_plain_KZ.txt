@@ -1,3 +1,5 @@
 #profile-title: Apex KZ
 #profile-update-interval: 1
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?type=raw&security=reality&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&sni=yahoo.com&encryption=none#🇰🇿 [BL] Сервер 1
+vless://4460652a-ac34-454d-a119-afe8f4dde1a0@199.189.251.65:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=9oXl2fClFx-m_d8r8XtI7JzsCxCymyhTEl1iS9z7gnI&security=reality&sid=ab36a77e04603603&sni=kz-3.movietop24.site&type=tcp#🇰🇿 [BL] Сервер 1
+vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#🇰🇿 [BL] Сервер 2
+vless://a80acd3a-3df5-40b5-a54a-29bb18056115@38.180.206.44:48982?encryption=none&type=xhttp&security=reality&sni=cdn3-88.yahoo.com&fp=safari&pbk=A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE&mode=auto#🇰🇿 [BL] Сервер 3

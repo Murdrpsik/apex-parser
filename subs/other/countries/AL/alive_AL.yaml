@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇦🇱 [WL] Сервер 1"
+  - name: "🇦🇱 [BL] Сервер 1"
     type: vless
-    server: 157.22.240.20
+    server: 130.49.189.36
     port: 443
-    uuid: "f28ce4eb-62cd-45f5-b3b3-be1c1a95e335"
+    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
+    servername: "alb-4vp.fast-cdn24.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8"
-      short-id: "6ad3c0f1e9b2478a"
+      public-key: "gTUnUbw-NeqnTyW5FfixJU4uVQLbSKs3chpphO1aMHY"
+      short-id: "c4f2e1cc1a56fc13"

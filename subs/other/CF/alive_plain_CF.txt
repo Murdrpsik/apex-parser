@@ -1,10 +1,12 @@
 #profile-title: Apex CF
 #profile-update-interval: 1
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?type=ws&security=tls&fp=chrome&sni=ccc.010304.xyz&encryption=none#🇺🇸 [CF] Сервер 1
-vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇺🇸 [CF] Сервер 2
+vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?encryption=none&type=ws&host=ccc.010304.xyz&security=tls&sni=ccc.010304.xyz&fp=chrome#🇺🇸 [CF] Сервер 2
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇺🇸 [CF] Сервер 3
-vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?encryption=none&type=ws&host=ccc.010304.xyz&security=tls&sni=ccc.010304.xyz&fp=chrome#🇺🇸 [CF] Сервер 4
-vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?security=tls&type=ws&path=%2Ffp&host=ccc.010304.xyz&sni=ccc.010304.xyz&fp=chrome&encryption=none#🇺🇸 [CF] Сервер 5
-vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&security=reality&sid=4ff31b18d1bd8227&sni=mental-deprivation.ru&spx=%2F5f73ebfc9ef9c37&type=tcp&fp=firefox#🇩🇪 [CF] Сервер 6
-vless://7a5cbb56-228f-4a38-b640-5d5803b5dbb5@45.198.0.133:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=cmHxNU_t7SQibzl8QuyDNPorLZkYp0mYKb79-4kEm1M&sid=5ff72a0ca3e4a1b6&sni=govnetkurwa.farted.net&encryption=none#🇵🇱 [CF] Сервер 7
-vless://4d945644-69ab-47e0-98b3-d43a6313135d@91.199.147.41:443?sni=mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV&type=ws&host=mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV&path=%2Fvl%2FSaXqikbSPA3ImtmZKAFin%3Fed%3D2560fp%3Dchrome&security=tls&encryption=none#🇦🇹 [CF] Сервер 8
+vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?security=tls&type=ws&path=%2Ffp&host=ccc.010304.xyz&sni=ccc.010304.xyz&fp=chrome&encryption=none#🇺🇸 [CF] Сервер 4
+vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2Ffp%3Dchrome&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇺🇸 [CF] Сервер 5
+vless://7a5cbb56-228f-4a38-b640-5d5803b5dbb5@45.198.0.133:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=cmHxNU_t7SQibzl8QuyDNPorLZkYp0mYKb79-4kEm1M&sid=5ff72a0ca3e4a1b6&sni=govnetkurwa.farted.net&encryption=none#🇵🇱 [CF] Сервер 6
+vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&security=reality&sid=4ff31b18d1bd8227&sni=mental-deprivation.ru&spx=%2F5f73ebfc9ef9c37&type=tcp&fp=chrome#🇩🇪 [CF] Сервер 7
+vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 8
+vless://50414e45-4c5f-5a45-5553-49055dd7a227@188.253.27.191:443?encryption=none&type=ws&security=tls&sni=70zia4elut7s.tersg587ga2min.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F49055dd7a227#🇫🇷 [CF] Сервер 9
+vless://50414e45-4c5f-5a45-5553-e759cf52c6be@176.118.214.216:443?encryption=none&type=ws&security=tls&sni=9lz3z5efu8os.gamewizardbac1k.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2Fe759cf52c6be#🇫🇷 [CF] Сервер 10

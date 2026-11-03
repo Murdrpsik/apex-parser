@@ -18,11 +18,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "acb1ba6c-94a9-4502-b90d-ae92c5ea7f21"
+    uuid: "5f047712-b7bb-407c-b283-b0a0f9dde40b"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.amd.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -34,13 +34,4 @@ proxies:
     port: 39533
     password: "5t6i121em5lkmsmk"
     sni: "br001.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇧🇷 [WL] Сервер 5"
-    type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    sni: "br001.zestapp778.com"
-    client-fingerprint: "firefox"
     udp: true

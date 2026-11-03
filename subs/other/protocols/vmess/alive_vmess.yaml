@@ -1,5 +1,5 @@
 proxies:
-  - name: "🌐 [WL] Сервер 1"
+  - name: "🇩🇪 [WL] Сервер 1"
     type: vmess
     server: 37.220.161.247
     port: 443
@@ -27,7 +27,81 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-129.mirra.now"
-  - name: "🇺🇸 [BL] Сервер 3"
+  - name: "🇩🇪 [WL] Сервер 3"
+    type: vmess
+    server: 37.220.161.249
+    port: 443
+    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "renderer-stream-2-129.mirra.now"
+    tls: true
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-129.mirra.now"
+  - name: "🇩🇪 [WL] Сервер 4"
+    type: vmess
+    server: 37.220.161.249
+    port: 443
+    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "renderer-stream-2-129.mirra.now"
+    tls: true
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-129.mirra.now"
+  - name: "🇩🇪 [WL] Сервер 5"
+    type: vmess
+    server: 93.93.89.99
+    port: 443
+    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "renderer-stream-2-129.mirra.now"
+    tls: true
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-129.mirra.now"
+  - name: "🇩🇪 [WL] Сервер 6"
+    type: vmess
+    server: 93.93.89.99
+    port: 443
+    uuid: "27653b37-603c-4c90-b1f5-25c4d23f8932"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "renderer-stream-2-129.mirra.now"
+    tls: true
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-129.mirra.now"
+  - name: "🇨🇦 [BL] Сервер 7"
+    type: vmess
+    server: 134.195.196.211
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇺🇸 [BL] Сервер 8"
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "none"
+    alterId: 0
+    network: "tcp"
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [BL] Сервер 9"
     type: vmess
     server: 38.91.107.49
     port: 18000
@@ -35,20 +109,3 @@ proxies:
     cipher: "auto"
     alterId: 0
     network: "tcp"
-  - name: "🇺🇸 [BL] Сервер 4"
-    type: vmess
-    server: 67.220.95.3
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "aes-128-gcm"
-    alterId: 0
-    network: "tcp"
-  - name: "🇸🇬 [BL] Сервер 5"
-    type: vmess
-    server: 149.88.23.202
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "149.88.23.202"

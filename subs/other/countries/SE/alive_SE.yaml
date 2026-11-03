@@ -1,20 +1,6 @@
 proxies:
   - name: "🇸🇪 [WL] Сервер 1"
     type: vless
-    server: 62.84.125.93
-    port: 443
-    uuid: "8c5adb07-8712-42a5-8d96-d8a2198a1651"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ya.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0FsVveXXSVSAOdFmO9gDCAqTLuXFUmIvOH4ynPCy3lw"
-      short-id: "56057acd033fa61d"
-  - name: "🇸🇪 [WL] Сервер 2"
-    type: vless
     server: 193.163.203.170
     port: 443
     uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
@@ -27,7 +13,35 @@ proxies:
     reality-opts:
       public-key: "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o"
       short-id: "b28db60d77c50b4f"
+  - name: "🇸🇪 [WL] Сервер 2"
+    type: vless
+    server: apply.betust.net
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "apply.betust.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
+      short-id: "b20168a5"
   - name: "🇸🇪 [WL] Сервер 3"
+    type: vless
+    server: 81.163.22.194
+    port: 443
+    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "apply.betust.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
+      short-id: "b20168a5"
+  - name: "🇸🇪 [WL] Сервер 4"
     type: vless
     server: 88.216.223.100
     port: 443
@@ -40,49 +54,71 @@ proxies:
     tls: true
     reality-opts:
       public-key: "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc"
-  - name: "🇸🇪 [WL] Сервер 4"
+  - name: "🇸🇪 [WL] Сервер 5"
     type: vless
-    server: 81.163.22.194
+    server: 81.163.22.143
     port: 443
     uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "apply.betust.net"
+    servername: "join.betust.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
-      short-id: "b20168a5"
-  - name: "🇸🇪 [BL] Сервер 5"
+      public-key: "GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE"
+      short-id: "351224a7"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
-    server: 89.125.37.175
-    port: 33744
-    uuid: "5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28"
-    network: "xhttp"
-    servername: "se-5060f39afb.shamanapp.online"
+    server: 194.104.94.141
+    port: 443
+    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
+    network: "tcp"
+    servername: "se3.shtil.io"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/ShamanXHTTP2026"
-      host: "se-5060f39afb.shamanapp.online"
-      mode: "stream-up"
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 7"
     type: vless
-    server: 132.243.231.14
-    port: 33744
-    uuid: "5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28"
-    network: "xhttp"
-    servername: "se-5060f39afb.shamanapp.online"
-    client-fingerprint: "chrome"
+    server: 80.66.78.88
+    port: 443
+    uuid: "5cccbd26-d910-4312-9c3d-8564821fbc53"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sw02.launch.tel"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/ShamanXHTTP2026"
-      host: "se-5060f39afb.shamanapp.online"
-      mode: "stream-up"
-  - name: "🇸🇪 [BL] Сервер 7"
+    reality-opts:
+      public-key: "K9lBgPuNBiA17qG7knaJvvH9vw2ec4b_UwmU6eOocFE"
+      short-id: "afee962d"
+  - name: "🇸🇪 [BL] Сервер 8"
+    type: vless
+    server: 31.77.18.220
+    port: 443
+    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+  - name: "🇸🇪 [BL] Сервер 9"
+    type: vless
+    server: 201.58.187.248
+    port: 443
+    uuid: "50a87e21-f0e2-4b53-a787-91adfe748f63"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "swidenafterlanzerotte.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
     server: 201.58.177.35
     port: 443
@@ -96,42 +132,6 @@ proxies:
     reality-opts:
       public-key: "DA1kJXSsIsN8H-kZ51jEYHafTx50X-2RGG8KNZuCISg"
       short-id: "da4d87fa"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 2.26.93.109
-    port: 4443
-    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
-    network: "xhttp"
-    servername: "swo2.nexfile.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/sync/"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: 31.77.18.220
-    port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "google.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 10"
-    type: vless
-    server: 194.104.94.141
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: "raw"
-    servername: "se3.shtil.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
   - name: "🇸🇪 [BL] Сервер 11"
     type: vless
     server: 185.186.78.170
@@ -149,20 +149,18 @@ proxies:
       mode: "auto"
   - name: "🇸🇪 [BL] Сервер 12"
     type: vless
-    server: sw.neuroniko.com
-    port: 2083
-    uuid: "69158986-cfae-4567-8391-0f96d9d985bd"
-    network: "xhttp"
-    servername: "sw.neuroniko.com"
-    client-fingerprint: "chrome"
+    server: 193.25.216.31
+    port: 443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sw.golangwikito.cfd"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc"
-      short-id: "10a59b0a94367ac2"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
+      public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
+      short-id: "a1037b25dcef6aa7"
   - name: "🇸🇪 [BL] Сервер 13"
     type: vless
     server: 31.77.111.11
@@ -180,15 +178,14 @@ proxies:
       grpc-service-name: "streaming"
   - name: "🇸🇪 [BL] Сервер 14"
     type: vless
-    server: 193.25.216.31
+    server: 177.3.215.220
     port: 443
-    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    uuid: "50a87e21-f0e2-4b53-a787-91adfe748f63"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "sw.golangwikito.cfd"
+    servername: "swedenafteraventura.space"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
-      short-id: "a1037b25dcef6aa7"
+      public-key: "TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY"

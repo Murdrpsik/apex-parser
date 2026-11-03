@@ -1,58 +1,32 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: 212.192.15.191
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "u695098ue1001f41s298.gogocs.xyz"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
     server: 165.154.63.139
     port: 443
     uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.amazon.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
       short-id: "ca4aedd4"
-  - name: "🇭🇰 [BL] Сервер 3"
+  - name: "🇭🇰 [BL] Сервер 2"
     type: vless
-    server: 141.98.234.10
+    server: 182.16.62.14
     port: 443
-    uuid: "88e4df03-f245-43a8-879c-0613256012a9"
-    network: "xhttp"
-    servername: "linen-shop.justext.space"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2kIZnJhcwmSnHlJ6I6kz5srz0R-9uUMJAAMAuS_U2xE"
-      short-id: "1a60e2b1ca53aa6d"
-    xhttp-opts:
-      path: "/css2"
-      mode: "packet-up"
-  - name: "🇭🇰 [BL] Сервер 4"
-    type: vless
-    server: 210.0.244.227
-    port: 443
-    uuid: "ebc368f4-c13c-4bd2-849b-4d245615728f"
+    uuid: "5bfa133a-76d4-425c-b8d4-72cd2ff18198"
     network: "tcp"
     servername: "cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw"
-  - name: "🇭🇰 [BL] Сервер 5"
+      public-key: "npOtPP-gIOAg3Ltra8XJpvpIm3l4FtDKxqrUtSrPOT0"
+      short-id: "f76d89d0"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 210.0.244.157
     port: 443
