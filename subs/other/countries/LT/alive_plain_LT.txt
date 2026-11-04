@@ -1,3 +1,4 @@
 #profile-title: Apex LT
 #profile-update-interval: 1
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.215.96:443?encryption=none&flow=xtls-rprx-vision&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&security=reality&sid=d44d6d46&sni=app26.betust.net&type=tcp&fp=firefox#🇱🇹 [BL] Сервер 1
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.215.96:443?flow=xtls-rprx-vision&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&security=reality&sid=d44d6d46&sni=app26.betust.net&type=raw&fp=firefox&encryption=none#🇱🇹 [BL] Сервер 1
+vless://92b79c22-f68b-4713-8b21-52f264cb92f5@85.209.231.169:2087?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww&security=reality&sni=cdndownloadlink.song69.fun&type=tcp#🇱🇹 [BL] Сервер 2

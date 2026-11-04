@@ -15,19 +15,6 @@ proxies:
       short-id: "d52d3ecf49447c2a"
   - name: "🇫🇮 [BL] Сервер 2"
     type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
-    network: "tcp"
-    servername: "m.vk.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
-  - name: "🇫🇮 [BL] Сервер 3"
-    type: vless
     server: 89.144.53.4
     port: 8445
     uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
@@ -40,6 +27,20 @@ proxies:
     reality-opts:
       public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
       short-id: "1a2b3c4d"
+  - name: "🇫🇮 [BL] Сервер 3"
+    type: vless
+    server: 146.103.118.189
+    port: 443
+    uuid: "ce698f0c-a8ec-474a-b5d8-3be8032deeb8"
+    network: "ws"
+    servername: "nl2.574ck.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/574ck-finland"
+      headers:
+        Host: "nl2.574ck.xyz"
   - name: "🇫🇮 [BL] Сервер 4"
     type: vless
     server: 13.140.80.136
@@ -126,19 +127,6 @@ proxies:
       public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
   - name: "🇫🇮 [BL] Сервер 10"
     type: vless
-    server: 13.143.173.15
-    port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "google.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇫🇮 [BL] Сервер 11"
-    type: vless
     server: 78.17.39.129
     port: 443
     uuid: "c04522c4-3d53-4eab-b5b5-25385d5f11b1"
@@ -150,7 +138,7 @@ proxies:
     xhttp-opts:
       path: "/assets/finvip02/"
       mode: "packet-up"
-  - name: "🇫🇮 [BL] Сервер 12"
+  - name: "🇫🇮 [BL] Сервер 11"
     type: vless
     server: 130.12.45.48
     port: 443

@@ -1,14 +1,14 @@
 #profile-title: Apex JP
 #profile-update-interval: 1
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&encryption=none#🇯🇵 [BL] Сервер 1
-vless://7072eeba-94fd-4fb3-92f2-a4506dd84cd8@31.76.91.98:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg&sid=bd6f67b6b2152b45&sni=fuji.etherhub.cc&encryption=none#🇯🇵 [BL] Сервер 2
-vless://7072eeba-94fd-4fb3-92f2-a4506dd84cd8@31.76.91.70:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg&sid=bd6f67b6b2152b45&sni=fuji.etherhub.cc&encryption=none#🇯🇵 [BL] Сервер 3
-vless://91a538f2-e8d6-4fd1-b00a-d39522f20c35@103.204.174.80:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=c8xReeCgCTOZ2snvR7I4sPtSYAJquSC-_pAIuZG3rVQ&sid=9b1813e63f474741&sni=gateway.icloud.com&encryption=none#🇯🇵 [BL] Сервер 4
-vless://22ede310-abc4-470b-96e8-f872d542483c@131.143.214.94:21076?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=7Z7iWBZQdukyjLSfV069Byz7imLB_ZEePouBDUYtyi4&sni=www.iij.ad.jp&encryption=none#🇯🇵 [BL] Сервер 5
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@38.207.178.173:2087?encryption=none&fp=firefox&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🇯🇵 [BL] Сервер 1
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&encryption=none#🇯🇵 [BL] Сервер 2
+vless://7072eeba-94fd-4fb3-92f2-a4506dd84cd8@31.76.91.98:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg&sid=bd6f67b6b2152b45&sni=fuji.etherhub.cc&encryption=none#🇯🇵 [BL] Сервер 3
+vless://7072eeba-94fd-4fb3-92f2-a4506dd84cd8@31.76.91.70:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg&sid=bd6f67b6b2152b45&sni=fuji.etherhub.cc&encryption=none#🇯🇵 [BL] Сервер 4
+vless://91a538f2-e8d6-4fd1-b00a-d39522f20c35@103.204.174.80:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=c8xReeCgCTOZ2snvR7I4sPtSYAJquSC-_pAIuZG3rVQ&sid=9b1813e63f474741&sni=gateway.icloud.com&encryption=none#🇯🇵 [BL] Сервер 5
 vless://871bfce7-8440-4394-8d82-56b51f20fdad@18.183.215.124:28573?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg&sid=03653bc03be10c97&sni=www.sony.com&encryption=none#🇯🇵 [BL] Сервер 6
 vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@152.69.200.216:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws&encryption=none#🇯🇵 [BL] Сервер 7
 vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@179.253.238.240:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 [BL] Сервер 8
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@38.207.178.173:2087?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 [BL] Сервер 9
-vless://ff34be52-b9a6-54e8-b262-5e839e6a6ac2@167.104.166.101:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=4-rbY6ItUutAV13q9VdEcWtCc2H2C382F4Y7IwfCwQw&security=reality&sid=ffffeeee&sni=developer.mozilla.org&type=tcp#🇯🇵 [BL] Сервер 10
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#🇯🇵 [BL] Сервер 11
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#🇯🇵 [BL] Сервер 12
+vless://ff34be52-b9a6-54e8-b262-5e839e6a6ac2@167.104.166.101:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=4-rbY6ItUutAV13q9VdEcWtCc2H2C382F4Y7IwfCwQw&security=reality&sid=ffffeeee&sni=developer.mozilla.org&type=tcp#🇯🇵 [BL] Сервер 9
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#🇯🇵 [BL] Сервер 10
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#🇯🇵 [BL] Сервер 11
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#🇯🇵 [BL] Сервер 12

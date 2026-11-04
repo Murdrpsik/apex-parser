@@ -15,13 +15,19 @@ proxies:
     client-fingerprint: "chrome"
     udp: true
   - name: "🇧🇷 [WL] Сервер 3"
-    type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    sni: "br001.zestapp778.com"
-    client-fingerprint: "firefox"
+    type: vless
+    server: 178.92.205.63
+    port: 11167
+    uuid: "ddc1e19a-9a51-44f7-a8df-23348c2424b7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.amd.com"
+    client-fingerprint: "ios"
     udp: true
+    tls: true
+    reality-opts:
+      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
+      short-id: "ac"
   - name: "🇧🇷 [WL] Сервер 4"
     type: trojan
     server: 216.238.116.204
@@ -31,19 +37,13 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
   - name: "🇧🇷 [WL] Сервер 5"
-    type: vless
-    server: 178.92.205.63
-    port: 11167
-    uuid: "3a476a0c-6d03-496c-b5f5-27985d76cd8f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.amd.com"
-    client-fingerprint: "edge"
+    type: trojan
+    server: 216.238.116.204
+    port: 39533
+    password: "5t6i121em5lkmsmk"
+    sni: "br001.zestapp778.com"
+    client-fingerprint: "firefox"
     udp: true
-    tls: true
-    reality-opts:
-      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
-      short-id: "ac"
   - name: "🇵🇪 [BL] Сервер 6"
     type: vless
     server: 134.185.81.5

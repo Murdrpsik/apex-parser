@@ -1,18 +1,6 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: 210.0.244.227
-    port: 443
-    uuid: "ebc368f4-c13c-4bd2-849b-4d245615728f"
-    network: "tcp"
-    servername: "cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
     server: 165.154.63.139
     port: 443
     uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
@@ -25,19 +13,19 @@ proxies:
     reality-opts:
       public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
       short-id: "ca4aedd4"
-  - name: "🇭🇰 [BL] Сервер 3"
+  - name: "🇭🇰 [BL] Сервер 2"
     type: vless
-    server: 210.0.244.157
+    server: 210.0.244.227
     port: 443
-    uuid: "f3ff9bac-2904-4f38-bae1-54ab1a72891b"
+    uuid: "ebc368f4-c13c-4bd2-849b-4d245615728f"
     network: "tcp"
     servername: "cloudflare.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI"
-  - name: "🇭🇰 [BL] Сервер 4"
+      public-key: "HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 182.16.62.14
     port: 443
@@ -50,3 +38,16 @@ proxies:
     reality-opts:
       public-key: "npOtPP-gIOAg3Ltra8XJpvpIm3l4FtDKxqrUtSrPOT0"
       short-id: "f76d89d0"
+  - name: "🇭🇰 [BL] Сервер 4"
+    type: vless
+    server: 209.33.160.122
+    port: 39098
+    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "dash.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"

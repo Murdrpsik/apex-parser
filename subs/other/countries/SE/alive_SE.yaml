@@ -15,18 +15,46 @@ proxies:
       short-id: "b28db60d77c50b4f"
   - name: "🇸🇪 [WL] Сервер 2"
     type: vless
+    server: 81.163.22.194
+    port: 443
+    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "apply.betust.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
+      short-id: "b20168a5"
+  - name: "🇸🇪 [WL] Сервер 3"
+    type: vless
+    server: 81.163.22.143
+    port: 443
+    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "join.betust.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE"
+      short-id: "351224a7"
+  - name: "🇸🇪 [WL] Сервер 4"
+    type: vless
     server: 88.216.223.100
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "smart.bachidze.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc"
-  - name: "🇸🇪 [BL] Сервер 3"
+  - name: "🇸🇪 [BL] Сервер 5"
     type: vless
     server: 31.77.13.20
     port: 2063
@@ -39,21 +67,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
-  - name: "🇸🇪 [BL] Сервер 4"
-    type: vless
-    server: 78.109.16.203
-    port: 443
-    uuid: "6e81233b-65a4-4d8c-bfb9-39afabdcd47d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sweden08.anotherboring.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "3R1rY9vJaPHNihloaLuO6u4hY0FSyq3Px7pQMdemUDA"
-      short-id: "3b4c96490ee22a00"
-  - name: "🇸🇪 [BL] Сервер 5"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 194.104.94.141
     port: 443
@@ -63,7 +77,7 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 7"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -75,7 +89,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-  - name: "🇸🇪 [BL] Сервер 7"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 31.77.18.220
     port: 443
@@ -88,20 +102,6 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 31.76.3.34
-    port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"
   - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 31.77.111.11
@@ -117,3 +117,19 @@ proxies:
       short-id: "ae99c61853e8a6ae"
     grpc-opts:
       grpc-service-name: "streaming"
+  - name: "🇸🇪 [BL] Сервер 10"
+    type: vless
+    server: 31.77.158.11
+    port: 8444
+    uuid: "15e83ced-7544-422e-863d-deafe29a1dbe"
+    network: "xhttp"
+    servername: "images.samsung.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ"
+      short-id: "635a76c25a4b1820"
+    xhttp-opts:
+      path: "/xh"
+      mode: "stream-one"
