@@ -1,14 +1,4 @@
 #profile-title: Apex IE
 #profile-update-interval: 1
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.217:443?encryption=none&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc&fp=chrome#🇮🇪 [WL] Сервер 1
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.217:443?security=reality&type=grpc&mode=gun&serviceName=grpc-90&packetEncoding=xudp&sni=max.ru&fp=safari&sid=cbc638acc8ac87&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&encryption=none#🇮🇪 [WL] Сервер 2
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.214:443?encryption=none&type=grpc&serviceName=grpc-90&security=reality&sni=max.ru&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&fp=chrome#🇮🇪 [WL] Сервер 3
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.214:443?security=reality&type=grpc&mode=gun&serviceName=grpc-90&packetEncoding=xudp&sni=max.ru&fp=firefox&sid=cbc638acc8ac87&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&encryption=none#🇮🇪 [WL] Сервер 4
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?encryption=none&fp=chrome&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇮🇪 [WL] Сервер 5
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?security=reality&type=grpc&mode=gun&serviceName=grpc-90&sni=max.ru&fp=chrome&sid=cbc638acc8ac87&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&encryption=none#🇮🇪 [WL] Сервер 6
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.218:443?type=grpc&security=reality&sni=max.ru&fp=chrome&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&sid=cbc638acc8ac87&serviceName=grpc-90&encryption=none#🇮🇪 [WL] Сервер 7
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.219:443?encryption=none&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇮🇪 [WL] Сервер 8
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.216:443?encryption=none&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇮🇪 [WL] Сервер 9
-vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@45.132.176.61:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sopelka.yandex-api.com&fp=firefox&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&sid=a9dc98a7dc87a7dc&type=tcp&headerType=none#🇮🇪 [BL] Сервер 10
-vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@86.54.83.33:443?flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&security=reality&sid=027af64166562b09&sni=ie1.fox-lisa.ru&type=raw&encryption=none#🇮🇪 [BL] Сервер 11
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NWRNMFpyTmRBazRPSGlN@20.107.206.186:443#🇮🇪 [BL] Сервер 12
+vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@86.54.83.33:443?flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&security=reality&sid=027af64166562b09&sni=ie1.fox-lisa.ru&type=raw&encryption=none#🇮🇪 [BL] Сервер 1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NWRNMFpyTmRBazRPSGlN@20.107.206.186:443#🇮🇪 [BL] Сервер 2

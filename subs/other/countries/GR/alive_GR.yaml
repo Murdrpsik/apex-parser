@@ -1,12 +1,12 @@
 proxies:
   - name: "🇬🇷 [WL] Сервер 1"
     type: vless
-    server: 9lfgr4.dnetsolutions.ru
+    server: 195.123.189.129
     port: 443
     uuid: "c6ac29f4-41d5-492a-a3d0-6582d620aba7"
     network: "grpc"
     servername: "max.ru"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -22,7 +22,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "safari"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:

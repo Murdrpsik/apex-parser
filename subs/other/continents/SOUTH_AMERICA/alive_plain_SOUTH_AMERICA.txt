@@ -4,5 +4,5 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&insec
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&type=tcp&fp=chrome#🇧🇷 [WL] Сервер 2
 trojan://5t6i121em5lkmsmk@216.238.116.204:39533?security=tls&sni=br001.zestapp778.com&fp=firefox&type=tcp#🇧🇷 [WL] Сервер 3
 trojan://5t6i121em5lkmsmk@216.238.116.204:39533?sni=br001.zestapp778.com&fp=firefox&type=tcp#🇧🇷 [WL] Сервер 4
-vless://9cf52e76-e16b-45ce-abf3-3a5e77421854@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.amd.com&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=qq#🇧🇷 [WL] Сервер 5
+vless://3a476a0c-6d03-496c-b5f5-27985d76cd8f@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.amd.com&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=edge#🇧🇷 [WL] Сервер 5
 vless://59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72@134.185.81.5:47881?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4&sid=38d72071&sni=www.tesla.com&encryption=none#🇵🇪 [BL] Сервер 6

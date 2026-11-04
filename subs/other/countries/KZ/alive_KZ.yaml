@@ -1,23 +1,10 @@
 proxies:
   - name: "🇰🇿 [BL] Сервер 1"
     type: vless
-    server: 95.57.50.69
-    port: 443
-    uuid: "6293d323-fe5e-45d6-ba06-dc30a42d1a18"
-    network: "ws"
-    servername: "kz.stunnel.cyou"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/smarttunnel-universal-v1"
-      headers:
-        Host: "kz.stunnel.cyou"
-  - name: "🇰🇿 [BL] Сервер 2"
-    type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "tcp"
+    network: "raw"
     servername: "yahoo.com"
     client-fingerprint: "chrome"
     udp: true
@@ -25,7 +12,7 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 3"
+  - name: "🇰🇿 [BL] Сервер 2"
     type: vless
     server: 38.180.206.44
     port: 48982
@@ -40,17 +27,3 @@ proxies:
     xhttp-opts:
       path: "/"
       mode: "auto"
-  - name: "🇰🇿 [BL] Сервер 4"
-    type: vless
-    server: 176.120.21.23
-    port: 443
-    uuid: "83cc8226-1087-49ae-aac3-1f157ddc57b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU"
-      short-id: "c4d4cf50489d51"

@@ -1,18 +1,6 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 88.218.66.208
-    port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
-    network: "grpc"
-    servername: "juniper-willow.cdn.cachefleet.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "3s7f80c9431676f3"
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
     server: 85.193.85.231
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
@@ -24,20 +12,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 91.135.156.243
-    port: 443
-    uuid: "42713553-c2e5-408a-8a1b-651b2facf01e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sun6-21.userapi.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U"
-  - name: "🇷🇺 [WL] Сервер 4"
+  - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 147.45.148.6
     port: 443
@@ -50,55 +25,27 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 87.120.166.160
+    server: 13.143.184.226
     port: 443
-    uuid: "7b91b2c3-8af3-449b-a555-00c9460989f4"
-    network: "ws"
-    servername: "lvi.su"
-    client-fingerprint: "chrome"
+    uuid: "b5d044c5-1e70-49bb-a650-08b1de516691"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "msc1.serverslocal.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
-      headers:
-        Host: "lvi.su"
-  - name: "🇷🇺 [WL] Сервер 6"
+    reality-opts:
+      public-key: "qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk"
+      short-id: "f7e66e308136e1a1"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: ss
     server: 185.22.153.192
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 7"
-    type: vless
-    server: 5.42.96.76
-    port: 443
-    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruself.yandex-api.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo"
-      short-id: "7f2e9c4b1a8d6e55"
-  - name: "🇷🇺 [WL] Сервер 8"
-    type: vless
-    server: 89.19.223.227
-    port: 443
-    uuid: "645168d4-22a4-4217-9b3e-d94b7ab5bffa"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 9"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 185.231.245.143
     port: 12907
@@ -111,3 +58,16 @@ proxies:
     reality-opts:
       public-key: "j0jvQHmOBbDKYAAlFRB8qEmjzd3o_7ouFQXRmdrUSns"
       short-id: "e85f6bef"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 176.57.215.54
+    port: 37508
+    uuid: "ef02c262-77a0-429f-8b8f-9eb6ad18f8c0"
+    network: "grpc"
+    servername: "www.oracle.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
+      short-id: "d3"

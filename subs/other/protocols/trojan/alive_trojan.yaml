@@ -1,21 +1,28 @@
 proxies:
   - name: "🇺🇸 [WL] Сервер 1"
     type: trojan
-    server: 216.152.156.49
+    server: 216.152.155.54
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "learn.nextjobopportunityandclaimyouridealrole.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 2"
     type: trojan
-    server: 216.152.156.49
+    server: 216.152.155.54
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-    client-fingerprint: "chrome"
+    sni: "learn.nextjobopportunityandclaimyouridealrole.com"
     udp: true
   - name: "🇺🇸 [WL] Сервер 3"
+    type: trojan
+    server: 216.152.156.212
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    client-fingerprint: "chrome"
+    udp: true
+  - name: "🇺🇸 [WL] Сервер 4"
     type: trojan
     server: 216.152.156.42
     port: 443
@@ -23,20 +30,12 @@ proxies:
     sni: "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     client-fingerprint: "chrome"
     udp: true
-  - name: "🇲🇽 [WL] Сервер 4"
+  - name: "🇺🇸 [WL] Сервер 5"
     type: trojan
-    server: 216.238.80.100
+    server: 216.152.155.131
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "connectwithtopemployersandfindidealjobs.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇲🇽 [WL] Сервер 5"
-    type: trojan
-    server: 216.238.80.100
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "connectwithtopemployersandfindidealjobs.com"
+    sni: "www.nextjobopportunityandclaimyouridealrole.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 6"
@@ -49,10 +48,10 @@ proxies:
     udp: true
   - name: "🇺🇸 [WL] Сервер 7"
     type: trojan
-    server: 216.152.155.131
+    server: 216.152.155.158
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "www.nextjobopportunityandclaimyouridealrole.com"
+    sni: "resources.nextjobopportunityandclaimyouridealrole.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 8"
@@ -65,10 +64,10 @@ proxies:
     udp: true
   - name: "🇺🇸 [WL] Сервер 9"
     type: trojan
-    server: 216.152.155.158
+    server: 216.152.155.176
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "resources.nextjobopportunityandclaimyouridealrole.com"
+    sni: "blog.nextjobopportunityandclaimyouridealrole.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 10"
@@ -81,10 +80,10 @@ proxies:
     udp: true
   - name: "🇺🇸 [WL] Сервер 11"
     type: trojan
-    server: 216.152.155.176
+    server: 216.152.155.23
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "blog.nextjobopportunityandclaimyouridealrole.com"
+    sni: "courses.nextjobopportunityandclaimyouridealrole.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 12"
@@ -93,148 +92,119 @@ proxies:
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     sni: "courses.nextjobopportunityandclaimyouridealrole.com"
-    client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 13"
     type: trojan
-    server: 216.152.155.23
+    server: 216.152.155.59
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "courses.nextjobopportunityandclaimyouridealrole.com"
+    sni: "api.nextjobopportunityandclaimyouridealrole.com"
     udp: true
   - name: "🇺🇸 [WL] Сервер 14"
     type: trojan
-    server: 216.152.155.54
+    server: 216.152.155.59
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "learn.nextjobopportunityandclaimyouridealrole.com"
+    sni: "api.nextjobopportunityandclaimyouridealrole.com"
     udp: true
   - name: "🇺🇸 [WL] Сервер 15"
     type: trojan
-    server: 216.152.155.54
+    server: 216.152.156.49
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "learn.nextjobopportunityandclaimyouridealrole.com"
+    sni: "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 16"
     type: trojan
-    server: 216.152.155.59
+    server: 216.152.156.49
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "api.nextjobopportunityandclaimyouridealrole.com"
+    sni: "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 17"
     type: trojan
-    server: 216.152.155.59
+    server: 216.152.156.65
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "api.nextjobopportunityandclaimyouridealrole.com"
+    sni: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     udp: true
   - name: "🇺🇸 [WL] Сервер 18"
     type: trojan
-    server: 216.152.156.212
+    server: 216.152.156.65
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 19"
     type: trojan
-    server: 216.152.156.65
+    server: 216.152.156.81
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     udp: true
   - name: "🇺🇸 [WL] Сервер 20"
     type: trojan
-    server: 216.152.156.65
+    server: 216.152.156.81
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     client-fingerprint: "chrome"
     udp: true
-  - name: "🇺🇸 [WL] Сервер 21"
+  - name: "🇧🇷 [WL] Сервер 21"
     type: trojan
-    server: 216.152.156.81
+    server: 216.238.104.154
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
     udp: true
-  - name: "🇺🇸 [WL] Сервер 22"
+  - name: "🇧🇷 [WL] Сервер 22"
     type: trojan
-    server: 216.152.156.81
+    server: 216.238.104.154
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    client-fingerprint: "chrome"
     udp: true
   - name: "🇧🇷 [WL] Сервер 23"
     type: trojan
-    server: 216.238.104.154
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    server: 216.238.116.204
+    port: 39533
+    password: "5t6i121em5lkmsmk"
+    sni: "br001.zestapp778.com"
+    client-fingerprint: "firefox"
     udp: true
   - name: "🇧🇷 [WL] Сервер 24"
     type: trojan
-    server: 216.238.104.154
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇧🇷 [WL] Сервер 25"
-    type: trojan
     server: 216.238.116.204
     port: 39533
     password: "5t6i121em5lkmsmk"
     sni: "br001.zestapp778.com"
     client-fingerprint: "firefox"
     udp: true
-  - name: "🇧🇷 [WL] Сервер 26"
+  - name: "🇪🇸 [BL] Сервер 25"
     type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    sni: "br001.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true
-  - name: "🇮🇳 [WL/CF] Сервер 27"
-    type: trojan
-    server: 103.111.114.87
-    port: 443
-    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
-    sni: "likejennie.pages.dev"
-    udp: true
-    ws-opts:
-      path: "/"
-  - name: "🇩🇪 [BL] Сервер 28"
-    type: trojan
-    server: de001.zestapp778.com
-    port: 51520
-    password: "5t6i121em5lkmsmk"
-    sni: "de001.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇩🇪 [BL] Сервер 29"
-    type: trojan
-    server: 136.244.91.14
-    port: 51520
-    password: "5t6i121em5lkmsmk"
-    sni: "de001.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇨🇦 [BL] Сервер 30"
-    type: trojan
-    server: 216.152.147.79
+    server: 66.163.118.166
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "blog.connectingpeoplewithgreatjobs.com"
+    sni: "learn.discovergreatjobsandadvanceyourcareer.com"
+    client-fingerprint: "chrome"
     udp: true
-  - name: "🇨🇦 [BL] Сервер 31"
+  - name: "🇺🇸 [BL] Сервер 26"
     type: trojan
     server: 216.152.147.152
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     sni: "learn.connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+    udp: true
+  - name: "🇺🇸 [BL] Сервер 27"
+    type: trojan
+    server: 216.152.147.93
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "connectingpeoplewithgreatjobs.com"
     client-fingerprint: "chrome"
     udp: true
