@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇭🇺 [WL] Сервер 1"
+    type: vless
+    server: 2.26.139.69
+    port: 443
+    uuid: "1d7427ab-8a5d-4317-9335-2e48d50be4fc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.tbank.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HmnsKa6Mmm34gALomXBKB7d8UMIM33hhItp2z43VCkQ"
+      short-id: "a1d8f3b6c2e59407"

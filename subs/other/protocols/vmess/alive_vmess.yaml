@@ -19,3 +19,54 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
+  - name: "🇨🇦 [BL] Сервер 3"
+    type: vmess
+    server: 134.195.196.211
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇸🇬 [BL] Сервер 4"
+    type: vmess
+    server: 149.88.23.202
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "149.88.23.202"
+  - name: "🇺🇸 [BL] Сервер 5"
+    type: vmess
+    server: 172.111.38.246
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 6"
+    type: vmess
+    server: 23.150.152.65
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 7"
+    type: vmess
+    server: 166.1.18.220
+    port: 443
+    uuid: "598395e6-f4e3-46fa-ba85-0a8e48c9d677"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "cg1c16.waimaojd.com"
+    tls: true
+    ws-opts:
+      path: "/api/v1/graphql"
+      headers:
+        Host: "cg1c16.waimaojd.com"

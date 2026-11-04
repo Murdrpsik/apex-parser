@@ -1,10 +1,24 @@
 proxies:
   - name: "🇮🇪 [BL] Сервер 1"
     type: vless
+    server: 83.141.75.193
+    port: 443
+    uuid: "5fa16fdf-5b3c-4f57-988d-b24c6722c91a"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "fi-94-10.cdn-lab.online"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "d1aZn0vbZdj0VrkfiXE7D10TRmdf91oa1LwCxQEAcBg"
+      short-id: "a74baa611fbfb118"
+  - name: "🇮🇪 [BL] Сервер 2"
+    type: vless
     server: 86.54.83.33
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "ie1.fox-lisa.ru"
     client-fingerprint: "firefox"
@@ -13,17 +27,9 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇮🇪 [BL] Сервер 2"
-    type: vless
-    server: ie1.fox-lisa.ru
+  - name: "🇮🇪 [BL] Сервер 3"
+    type: ss
+    server: 20.107.206.186
     port: 443
-    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ie1.fox-lisa.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
-      short-id: "027af64166562b09"
+    password: "45dM0ZrNdAk4OHiM"
+    cipher: "chacha20-ietf-poly1305"

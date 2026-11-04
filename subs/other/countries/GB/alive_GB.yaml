@@ -7,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ads.x5.ru"
-    client-fingerprint: "random"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -21,7 +21,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "prime.jarbook.net"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -79,6 +79,20 @@ proxies:
       short-id: "b558b9305a0b"
   - name: "🇬🇧 [BL] Сервер 7"
     type: vless
+    server: 83.147.18.3
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
+      short-id: "fd8cf7e1173f0edb"
+  - name: "🇬🇧 [BL] Сервер 8"
+    type: vless
     server: 51.89.194.151
     port: 2053
     uuid: "8e790f25-1d71-4601-9fb0-d503931dcfca"
@@ -90,7 +104,7 @@ proxies:
     reality-opts:
       public-key: "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0"
       short-id: "d051f678212f9d54"
-  - name: "🇬🇧 [BL] Сервер 8"
+  - name: "🇬🇧 [BL] Сервер 9"
     type: vless
     server: 95.163.153.141
     port: 8443
@@ -105,7 +119,7 @@ proxies:
       short-id: "c9ea2355ddeab39b"
     xhttp-opts:
       path: "/"
-  - name: "🇬🇧 [BL] Сервер 9"
+  - name: "🇬🇧 [BL] Сервер 10"
     type: vless
     server: 132.243.207.154
     port: 443
@@ -119,20 +133,35 @@ proxies:
     reality-opts:
       public-key: "tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338"
       short-id: "59d2296aa6320c76"
-  - name: "🇬🇧 [BL] Сервер 10"
+  - name: "🇬🇧 [BL] Сервер 11"
     type: vless
-    server: 23.81.36.148
-    port: 1222
-    uuid: "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9"
+    server: 57.129.138.142
+    port: 8080
+    uuid: "6228ee5b-fe07-4ee5-8300-386cd004eb84"
     network: "tcp"
-    servername: "play.google.com"
+    flow: "xtls-rprx-vision"
+    servername: "icloud.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "itUb_lVoLPqG2cGs6vxsOaOImohnpXucmiaDm6_6iyU"
+      short-id: "fe57"
+  - name: "🇬🇧 [BL] Сервер 12"
+    type: vless
+    server: 45.159.144.110
+    port: 443
+    uuid: "5fa16fdf-5b3c-4f57-988d-b24c6722c91a"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "at-85-10.cdn-lab.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE"
-      short-id: "a25d0f"
-  - name: "🇬🇧 [BL] Сервер 11"
+      public-key: "kqFDKE3z7o9a2KoFM4IEHzoaeU-vYCAU5-jspLY1cH4"
+      short-id: "37f7ef1f627f1c29"
+  - name: "🇬🇧 [BL] Сервер 14"
     type: vless
     server: 104.222.183.180
     port: 443
@@ -146,7 +175,7 @@ proxies:
     reality-opts:
       public-key: "MYmnKEaJyfk1HrBaKg3AvYebp-sP3rZRNh9MnOcKgXY"
       short-id: "705f0a232571"
-  - name: "🇬🇧 [BL] Сервер 12"
+  - name: "🇬🇧 [BL] Сервер 15"
     type: vless
     server: 95.179.207.200
     port: 443
@@ -160,13 +189,7 @@ proxies:
     reality-opts:
       public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
       short-id: "1a2b3c4d"
-  - name: "🇬🇧 [BL] Сервер 13"
-    type: ss
-    server: 94.156.250.148
-    port: 7001
-    password: "RexnBgU7EV5ADxG"
-    cipher: "aes-256-gcm"
-  - name: "🇬🇧 [BL] Сервер 14"
+  - name: "🇬🇧 [BL] Сервер 16"
     type: ss
     server: 141.98.101.181
     port: 443

@@ -49,7 +49,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "smart.bachidze.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -57,39 +57,57 @@ proxies:
   - name: "🇸🇪 [BL] Сервер 5"
     type: vless
     server: 31.77.13.20
-    port: 2063
-    uuid: "b18d5990-96eb-4587-a386-7f8ef7591e6a"
+    port: 443
+    uuid: "ae666618-738b-4b15-bbec-f0b00747d229"
+    network: "xhttp"
+    servername: "se-sto.dontblockmepls.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/sync/v2/push"
+      host: "se-sto.dontblockmepls.com"
+  - name: "🇸🇪 [BL] Сервер 6"
+    type: vless
+    server: 185.153.55.23
+    port: 443
+    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "rusbid.de"
+    servername: "assets-v2.porsche.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
-  - name: "🇸🇪 [BL] Сервер 6"
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇸🇪 [BL] Сервер 7"
     type: vless
-    server: 194.104.94.141
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
+    server: 217.69.167.197
+    port: 43000
+    uuid: "0809eed6-5204-49b8-8312-b82a10024022"
     network: "tcp"
-    servername: "se3.shtil.io"
+    flow: "xtls-rprx-vision"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇸🇪 [BL] Сервер 7"
+    reality-opts:
+      public-key: "U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI"
+      short-id: "8cfe1563"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 138.124.86.230
     port: 48115
     uuid: "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b"
     network: "grpc"
     servername: "138-124-86-230.sslip.io"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-  - name: "🇸🇪 [BL] Сервер 8"
+      grpc-mode: "gun"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 31.77.18.220
     port: 443
@@ -102,34 +120,13 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: 31.77.111.11
-    port: 43439
-    uuid: "03446511-2806-4fc0-b02f-f10d2d3a33c6"
-    network: "grpc"
-    servername: "cdn.higames.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4"
-      short-id: "ae99c61853e8a6ae"
-    grpc-opts:
-      grpc-service-name: "streaming"
   - name: "🇸🇪 [BL] Сервер 10"
     type: vless
-    server: 31.77.158.11
-    port: 8444
-    uuid: "15e83ced-7544-422e-863d-deafe29a1dbe"
-    network: "xhttp"
-    servername: "images.samsung.com"
-    client-fingerprint: "firefox"
+    server: 194.104.94.141
+    port: 443
+    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
+    network: "tcp"
+    servername: "se3.shtil.io"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ"
-      short-id: "635a76c25a4b1820"
-    xhttp-opts:
-      path: "/xh"
-      mode: "stream-one"

@@ -1,21 +1,7 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 185.229.9.135
-    port: 443
-    uuid: "2f4de908-b22e-48e9-9e57-fc86acf02c56"
-    network: "ws"
-    servername: "lesotorg-kirov.ru"
-    client-fingerprint: "android"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/chws"
-      headers:
-        Host: "lesotorg-kirov.ru"
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 85.193.85.231
+    server: 147.45.148.6
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
@@ -26,7 +12,36 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 85.193.85.231
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
   - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 188.225.79.22
+    port: 443
+    uuid: "d16f7276-b967-440d-88b7-76945654ed55"
+    network: "grpc"
+    servername: "quartzops.blog"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho"
+      short-id: "e347493990237143"
+    grpc-opts:
+      grpc-service-name: "grpc-baf3bc8498"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 185.231.245.143
     port: 12907
@@ -39,7 +54,7 @@ proxies:
     reality-opts:
       public-key: "j0jvQHmOBbDKYAAlFRB8qEmjzd3o_7ouFQXRmdrUSns"
       short-id: "e85f6bef"
-  - name: "🇷🇺 [WL] Сервер 4"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 176.57.215.54
     port: 37508
@@ -52,7 +67,13 @@ proxies:
     reality-opts:
       public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
       short-id: "d3"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: ss
+    server: 185.22.153.192
+    port: 18443
+    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 89.19.223.227
     port: 443
@@ -66,35 +87,6 @@ proxies:
     reality-opts:
       public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
       short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 147.45.148.6
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 7"
-    type: vless
-    server: 188.225.79.22
-    port: 443
-    uuid: "d16f7276-b967-440d-88b7-76945654ed55"
-    network: "grpc"
-    servername: "quartzops.blog"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho"
-      short-id: "e347493990237143"
-    grpc-opts:
-      grpc-service-name: "grpc-baf3bc8498"
-      grpc-mode: "gun"
   - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 179.254.126.164
