@@ -1,18 +1,17 @@
 proxies:
   - name: "🇰🇿 [BL] Сервер 1"
     type: vless
-    server: 199.189.251.65
+    server: 95.57.50.69
     port: 443
-    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kz-3.movietop24.site"
-    client-fingerprint: "firefox"
+    uuid: "6293d323-fe5e-45d6-ba06-dc30a42d1a18"
+    network: "ws"
+    servername: "kz.stunnel.cyou"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "9oXl2fClFx-m_d8r8XtI7JzsCxCymyhTEl1iS9z7gnI"
-      short-id: "ab36a77e04603603"
+    ws-opts:
+      path: "/smarttunnel-universal-v1"
+      headers:
+        Host: "kz.stunnel.cyou"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
     server: 109.248.170.119
@@ -41,3 +40,17 @@ proxies:
     xhttp-opts:
       path: "/"
       mode: "auto"
+  - name: "🇰🇿 [BL] Сервер 4"
+    type: vless
+    server: 176.120.21.23
+    port: 443
+    uuid: "83cc8226-1087-49ae-aac3-1f157ddc57b4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU"
+      short-id: "c4d4cf50489d51"

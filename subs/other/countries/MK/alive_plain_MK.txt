@@ -1,0 +1,4 @@
+#profile-title: Apex MK
+#profile-update-interval: 1
+vless://cf715525-50b8-4128-b72f-1502422b38e2@217.60.55.63:3729?encryption=none&security=reality&type=tcp&sni=mk29.static-s3.org&fp=firefox&pbk=DrCVnln1cPm864zoSbn3_uto6CZ52CE5u-AM_2OuHhQ&sid=17716bb59e4b0191&flow=xtls-rprx-vision#🇲🇰 [BL] Сервер 1
+vless://518079db-d88d-4035-bbf4-ddd1f9cf1e5f@217.60.55.4:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=BSPkA0yUFBZ7JS7rD69rLaTn_5QSAaPQZtO7HV_et30&security=reality&sid=b868b87c347a451e&sni=mk.global-cdn.org&type=tcp#🇲🇰 [BL] Сервер 2

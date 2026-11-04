@@ -15,6 +15,20 @@ proxies:
       short-id: "5c8a8e6c615b"
   - name: "🇺🇦 [BL] Сервер 2"
     type: vless
+    server: staging.lastilhame.monster
+    port: 443
+    uuid: "aded66f1-de12-4c3c-af9e-a21d6e7d9c96"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.foxsports.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
+      short-id: "2a80364e93d9"
+  - name: "🇺🇦 [BL] Сервер 3"
+    type: vless
     server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
@@ -26,7 +40,20 @@ proxies:
     reality-opts:
       public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
       short-id: "d8b58872"
-  - name: "🇺🇦 [BL] Сервер 3"
+  - name: "🇺🇦 [BL] Сервер 4"
+    type: vless
+    server: netx.smrtai.top
+    port: 443
+    uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
+    network: "raw"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
+      short-id: "d8b58872"
+  - name: "🇺🇦 [BL] Сервер 5"
     type: vless
     server: 83.147.18.75
     port: 443

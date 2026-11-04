@@ -1,15 +1,44 @@
 proxies:
   - name: "🇷🇴 [BL] Сервер 1"
     type: vless
+    server: 80.96.108.29
+    port: 8443
+    uuid: "11512726-b692-406f-ab49-7b28f44a8294"
+    network: "xhttp"
+    servername: "md.gorobsub.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg"
+      short-id: "3242cfd7"
+    xhttp-opts:
+      path: "/ae1b809ceb77"
+  - name: "🇷🇴 [BL] Сервер 2"
+    type: vless
     server: 46.28.67.55
     port: 443
     uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
       short-id: "d06d78e974491b6e"
+  - name: "🇷🇴 [BL] Сервер 3"
+    type: vless
+    server: 45.132.176.176
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sisipisi.yandex-api.com"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"

@@ -1,0 +1,29 @@
+proxies:
+  - name: "🇲🇰 [BL] Сервер 1"
+    type: vless
+    server: 217.60.55.63
+    port: 3729
+    uuid: "cf715525-50b8-4128-b72f-1502422b38e2"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mk29.static-s3.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DrCVnln1cPm864zoSbn3_uto6CZ52CE5u-AM_2OuHhQ"
+      short-id: "17716bb59e4b0191"
+  - name: "🇲🇰 [BL] Сервер 2"
+    type: vless
+    server: 217.60.55.4
+    port: 443
+    uuid: "518079db-d88d-4035-bbf4-ddd1f9cf1e5f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mk.global-cdn.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "BSPkA0yUFBZ7JS7rD69rLaTn_5QSAaPQZtO7HV_et30"
+      short-id: "b868b87c347a451e"

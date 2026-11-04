@@ -16,6 +16,37 @@ proxies:
       grpc-service-name: "grpc-90"
   - name: "🇮🇪 [WL] Сервер 2"
     type: vless
+    server: 195.123.189.217
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+      grpc-mode: "gun"
+  - name: "🇮🇪 [WL] Сервер 3"
+    type: vless
+    server: 195.123.189.214
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 4"
+    type: vless
     server: 195.123.189.214
     port: 443
     uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
@@ -30,14 +61,14 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc-90"
       grpc-mode: "gun"
-  - name: "🇮🇪 [WL] Сервер 3"
+  - name: "🇮🇪 [WL] Сервер 5"
     type: vless
     server: 195.123.189.221
     port: 443
     uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
     network: "grpc"
     servername: "max.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -45,7 +76,7 @@ proxies:
       short-id: "cbc638acc8ac87"
     grpc-opts:
       grpc-service-name: "grpc-90"
-  - name: "🇮🇪 [WL] Сервер 4"
+  - name: "🇮🇪 [WL] Сервер 6"
     type: vless
     server: 195.123.189.221
     port: 443
@@ -61,7 +92,37 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc-90"
       grpc-mode: "gun"
-  - name: "🇮🇪 [WL] Сервер 5"
+  - name: "🇮🇪 [WL] Сервер 7"
+    type: vless
+    server: 195.123.189.218
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 8"
+    type: vless
+    server: 195.123.189.219
+    port: 443
+    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
+    network: "grpc"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0"
+      short-id: "cbc638acc8ac87"
+    grpc-opts:
+      grpc-service-name: "grpc-90"
+  - name: "🇮🇪 [WL] Сервер 9"
     type: vless
     server: 195.123.189.216
     port: 443
@@ -76,7 +137,21 @@ proxies:
       short-id: "cbc638acc8ac87"
     grpc-opts:
       grpc-service-name: "grpc-90"
-  - name: "🇮🇪 [BL] Сервер 6"
+  - name: "🇮🇪 [BL] Сервер 10"
+    type: vless
+    server: 45.132.176.61
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sopelka.yandex-api.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"
+  - name: "🇮🇪 [BL] Сервер 11"
     type: vless
     server: 86.54.83.33
     port: 443
@@ -90,3 +165,9 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
+  - name: "🇮🇪 [BL] Сервер 12"
+    type: ss
+    server: 20.107.206.186
+    port: 443
+    password: "45dM0ZrNdAk4OHiM"
+    cipher: "chacha20-ietf-poly1305"

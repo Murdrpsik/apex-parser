@@ -1,0 +1,27 @@
+proxies:
+  - name: "🇦🇹 [BL] Сервер 1"
+    type: vless
+    server: 201.10.90.113
+    port: 443
+    uuid: "610ac982-04eb-34c0-80b1-5dd3c2ca131e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "undef-aut-0.undef.network"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+  - name: "🇦🇹 [BL/CF] Сервер 2"
+    type: vless
+    server: 91.199.147.41
+    port: 443
+    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
+    network: "ws"
+    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome"
+      headers:
+        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"

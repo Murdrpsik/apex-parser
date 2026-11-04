@@ -1,5 +1,5 @@
 #profile-title: Apex AF
 #profile-update-interval: 1
-vless://3cd95e58-9f0a-47e1-9937-64a58e949aa5@45.150.189.211:443?security=reality&encryption=none&pbk=6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=stats.vk-portal.net&sid=3c6fc84d#🇰🇪 [WL] Сервер 1
+vless://3cd95e58-9f0a-47e1-9937-64a58e949aa5@45.150.189.211:443?encryption=none&flow=xtls-rprx-vision&pbk=6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do&security=reality&sid=3c6fc84d&sni=stats.vk-portal.net&type=tcp&fp=firefox#🇰🇪 [WL] Сервер 1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦 [BL] Сервер 2
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#🇿🇦 [BL] Сервер 3

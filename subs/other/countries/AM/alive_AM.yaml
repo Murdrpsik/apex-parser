@@ -4,6 +4,17 @@ proxies:
     server: 91.195.254.172
     port: 443
     uuid: "613b64fe-b88d-42db-9d4f-26b8654d4060"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.slovarik.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇦🇲 [BL] Сервер 2"
+    type: vless
+    server: 91.77.166.127
+    port: 443
+    uuid: "613b64fe-b88d-42db-9d4f-26b8654d4060"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.slovarik.xyz"

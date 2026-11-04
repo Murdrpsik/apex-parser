@@ -82,20 +82,6 @@ proxies:
       short-id: "f46cd3ea3d1eb72d"
   - name: "🇹🇷 [BL] Сервер 7"
     type: vless
-    server: 81.177.215.156
-    port: 443
-    uuid: "4460652a-ac34-454d-a119-afe8f4dde1a0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tr-4vps.yourzloy.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VNinTQ6vwOujTkrJgK_NPV4SpSBU6B7xG2tpM7prITQ"
-      short-id: "fd5b0def0660cdb1"
-  - name: "🇹🇷 [BL] Сервер 8"
-    type: vless
     server: 153.56.210.61
     port: 443
     uuid: "0de1d303-d7de-0001-8679-c4cb67e2e2cc"

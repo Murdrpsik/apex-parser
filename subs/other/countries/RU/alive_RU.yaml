@@ -1,45 +1,42 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 95.182.110.17
+    server: 88.218.66.208
     port: 443
-    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "juniper-willow.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "3s7f80c9431676f3"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 85.193.85.231
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "promo-digital.wb.ru"
-    client-fingerprint: "qq"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
-      short-id: "d3f314d0b692f63d"
-  - name: "🇷🇺 [WL] Сервер 2"
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 194.187.122.111
+    server: 91.135.156.243
     port: 443
-    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
+    uuid: "42713553-c2e5-408a-8a1b-651b2facf01e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ru-manager.nodexphere.net"
+    servername: "sun6-21.userapi.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
-  - name: "🇷🇺 [WL/CF] Сервер 3"
-    type: vless
-    server: 217.19.122.156
-    port: 443
-    uuid: "40c4274f-3e4f-4c7b-ae5c-d87645a6e899"
-    network: "ws"
-    servername: "vzvt1tpiml.rucdncomp.pro"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/service/telemetry/e6dc0bd08cb1/"
-      headers:
-        Host: "vzvt1tpiml.rucdncomp.pro"
+      public-key: "KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 147.45.148.6
@@ -54,26 +51,6 @@ proxies:
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
   - name: "🇷🇺 [WL] Сервер 5"
-    type: ss
-    server: 185.22.153.192
-    port: 18443
-    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 89.19.223.227
-    port: 443
-    uuid: "645168d4-22a4-4217-9b3e-d94b7ab5bffa"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 87.120.166.160
     port: 443
@@ -87,3 +64,50 @@ proxies:
       path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
       headers:
         Host: "lvi.su"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: ss
+    server: 185.22.153.192
+    port: 18443
+    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 7"
+    type: vless
+    server: 5.42.96.76
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ruself.yandex-api.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo"
+      short-id: "7f2e9c4b1a8d6e55"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 89.19.223.227
+    port: 443
+    uuid: "645168d4-22a4-4217-9b3e-d94b7ab5bffa"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "d3-ru.cloud-cdn.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
+      short-id: "0f19f0c8102dc695"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 185.231.245.143
+    port: 12907
+    uuid: "38d9aa6b-3501-48d1-b9df-e5d69f8f77ca"
+    network: "tcp"
+    servername: "github.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "j0jvQHmOBbDKYAAlFRB8qEmjzd3o_7ouFQXRmdrUSns"
+      short-id: "e85f6bef"

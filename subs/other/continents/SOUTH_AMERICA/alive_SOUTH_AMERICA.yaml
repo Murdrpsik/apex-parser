@@ -22,7 +22,29 @@ proxies:
     sni: "br001.zestapp778.com"
     client-fingerprint: "firefox"
     udp: true
-  - name: "🇵🇪 [BL] Сервер 4"
+  - name: "🇧🇷 [WL] Сервер 4"
+    type: trojan
+    server: 216.238.116.204
+    port: 39533
+    password: "5t6i121em5lkmsmk"
+    sni: "br001.zestapp778.com"
+    client-fingerprint: "firefox"
+    udp: true
+  - name: "🇧🇷 [WL] Сервер 5"
+    type: vless
+    server: 178.92.205.63
+    port: 11167
+    uuid: "9cf52e76-e16b-45ce-abf3-3a5e77421854"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.amd.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
+      short-id: "ac"
+  - name: "🇵🇪 [BL] Сервер 6"
     type: vless
     server: 134.185.81.5
     port: 47881

@@ -1,44 +1,16 @@
 proxies:
-  - name: "🇱🇹 [WL] Сервер 1"
+  - name: "🇱🇹 [BL] Сервер 1"
     type: vless
-    server: 88.216.127.75
-    port: 443
-    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
+    server: 84.32.110.58
+    port: 2443
+    uuid: "664d2284-e0ad-4de4-9752-a0e12a29840e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "nl-modx-roy.nodexphere.net"
+    servername: "lao10.enterquality.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "mvftK1HPHzpwowTw8ElAwf-GEECYx38GCTq4ihhEmAY"
-  - name: "🇱🇹 [WL] Сервер 2"
-    type: vless
-    server: 88.216.127.78
-    port: 443
-    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nl-modx-roy.nodexphere.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mvftK1HPHzpwowTw8ElAwf-GEECYx38GCTq4ihhEmAY"
-  - name: "🇱🇹 [WL] Сервер 3"
-    type: vless
-    server: 88.216.127.115
-    port: 443
-    uuid: "f935f257-1878-4656-8149-4e7737e2ff7d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lt-modx.nodexphere.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cc2mDH9C31IlAwrn1eEhbuzZ3l4Ijw3mKl7rF75GUDo"
-  - name: "🇱🇹 [BL] Сервер 4"
+  - name: "🇱🇹 [BL] Сервер 2"
     type: vless
     server: 84.32.215.96
     port: 443
@@ -52,17 +24,16 @@ proxies:
     reality-opts:
       public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
       short-id: "d44d6d46"
-  - name: "🇱🇹 [BL] Сервер 5"
+  - name: "🇱🇹 [BL] Сервер 3"
     type: vless
-    server: app26.betust.net
-    port: 443
-    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    server: 85.209.231.169
+    port: 2087
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "app26.betust.net"
+    servername: "cdndownloadlink.song69.fun"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
-      short-id: "d44d6d46"
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"

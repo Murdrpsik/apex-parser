@@ -16,6 +16,17 @@ proxies:
       grpc-service-name: "gw.v1.ObjectService"
   - name: "🇷🇸 [BL] Сервер 2"
     type: vless
+    server: 185.72.11.43
+    port: 443
+    uuid: "689a62e4-37e7-41de-9e6a-f2a56368c9e2"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rs8.speedtestinternet.link"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇷🇸 [BL] Сервер 3"
+    type: vless
     server: 150.40.126.18
     port: 443
     uuid: "2f35965a-9a9b-45fd-ba32-987296dfb6be"
@@ -29,17 +40,6 @@ proxies:
       short-id: "ed0cd5cc2e26e6e7"
     grpc-opts:
       grpc-service-name: "node.v2.ObjectService"
-  - name: "🇷🇸 [BL] Сервер 3"
-    type: vless
-    server: 185.72.11.43
-    port: 443
-    uuid: "689a62e4-37e7-41de-9e6a-f2a56368c9e2"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "rs8.speedtestinternet.link"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
   - name: "🇷🇸 [BL] Сервер 4"
     type: vless
     server: 150.40.126.22

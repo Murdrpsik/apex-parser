@@ -15,19 +15,6 @@ proxies:
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
     type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
-    network: "tcp"
-    servername: "m.vk.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
-  - name: "🇱🇻 [BL] Сервер 3"
-    type: vless
     server: 138.124.180.137
     port: 443
     uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
@@ -40,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 4"
+  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -54,3 +41,45 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
+  - name: "🇱🇻 [BL] Сервер 4"
+    type: vless
+    server: 77.90.46.8
+    port: 443
+    uuid: "bbe37c75-d097-4b72-a074-445a56fe3969"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "la.cdn-tech-images.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw"
+      short-id: "50"
+  - name: "🇱🇻 [BL] Сервер 5"
+    type: vless
+    server: 77.90.46.10
+    port: 443
+    uuid: "bbe37c75-d097-4b72-a074-445a56fe3969"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "la.cdn-tech-images.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw"
+      short-id: "50"
+  - name: "🇱🇻 [BL] Сервер 6"
+    type: vless
+    server: 104.252.53.69
+    port: 443
+    uuid: "2a4247b6-8757-4dfc-b27c-046bf4ea3a85"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oKcvQjbg61AuyZYxbbDcyjqC0qKsjVGNEk7qTKWog1g"
+      short-id: "5dcfa69b"

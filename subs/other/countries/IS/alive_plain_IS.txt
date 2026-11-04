@@ -1,0 +1,3 @@
+#profile-title: Apex IS
+#profile-update-interval: 1
+vless://b4e69d67-9d41-417c-b465-ebf1591fb792@93.95.226.159:28150?encryption=none&type=tcp&security=reality&pbk=KQW_o2BlCjMC8aH5lkNkO_rmMCAUykQIQCCIIehhsAo&sni=google.com&fp=chrome&sid=06#🇮🇸 [BL] Сервер 1
