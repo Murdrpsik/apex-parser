@@ -27,9 +27,3 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇮🇪 [BL] Сервер 3"
-    type: ss
-    server: 20.107.206.186
-    port: 443
-    password: "45dM0ZrNdAk4OHiM"
-    cipher: "chacha20-ietf-poly1305"

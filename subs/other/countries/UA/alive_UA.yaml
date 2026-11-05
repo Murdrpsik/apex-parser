@@ -1,6 +1,20 @@
 proxies:
   - name: "🇺🇦 [BL] Сервер 1"
     type: vless
+    server: 104.253.216.227
+    port: 443
+    uuid: "2f6e2b17-4d5e-4a12-8979-f53fdd347580"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.mozilla.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
+      short-id: "5c8a8e6c615b"
+  - name: "🇺🇦 [BL] Сервер 2"
+    type: vless
     server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
@@ -12,12 +26,12 @@ proxies:
     reality-opts:
       public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
       short-id: "d8b58872"
-  - name: "🇺🇦 [BL] Сервер 2"
+  - name: "🇺🇦 [BL] Сервер 3"
     type: vless
     server: 83.147.18.75
     port: 443
     uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.bing.com"
     client-fingerprint: "qq"

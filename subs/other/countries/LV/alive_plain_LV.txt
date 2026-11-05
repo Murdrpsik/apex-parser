@@ -1,5 +1,5 @@
 #profile-title: Apex LV
 #profile-update-interval: 1
-vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&encryption=none#🇱🇻 [BL] Сервер 1
-vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp#🇱🇻 [BL] Сервер 2
+vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp#🇱🇻 [WL] Сервер 1
+vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&encryption=none#🇱🇻 [BL] Сервер 2
 vless://2a4247b6-8757-4dfc-b27c-046bf4ea3a85@104.252.53.69:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=oKcvQjbg61AuyZYxbbDcyjqC0qKsjVGNEk7qTKWog1g&sni=cloudflare.com&fp=chrome&sid=5dcfa69b#🇱🇻 [BL] Сервер 3

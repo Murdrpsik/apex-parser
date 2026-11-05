@@ -4,7 +4,7 @@ proxies:
     server: 217.19.122.170
     port: 2083
     uuid: "00d09ead-4080-4c39-a75d-be7dcabe77f4"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "bm6.hat.onl"
     client-fingerprint: "chrome"
@@ -21,9 +21,23 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "bm1.hat.onl"
-    client-fingerprint: "chrome"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
       public-key: "GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M"
       short-id: "38560e0003d69843"
+  - name: "🇦🇪 [BL] Сервер 3"
+    type: vless
+    server: 178.83.122.128
+    port: 443
+    uuid: "43a26f1a-99b7-4b17-98c7-b836fb466999"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "gb-v.global-cdn.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ"
+      short-id: "7a3f9e2b1c8d4f6a"

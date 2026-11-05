@@ -1,17 +1,18 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 147.45.148.6
+    server: 185.76.241.241
     port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "chrome"
+    servername: "ru1.japancase.site"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+      public-key: "SiwxBWpYrdcS70DDnr0yBrTgpJY-MiqKiOs3_yjK1Cc"
+      short-id: "5b555442d5975d6b"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 85.193.85.231
@@ -20,7 +21,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "safari"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -32,7 +33,7 @@ proxies:
     uuid: "d16f7276-b967-440d-88b7-76945654ed55"
     network: "grpc"
     servername: "quartzops.blog"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -68,12 +69,30 @@ proxies:
       public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
       short-id: "d3"
   - name: "🇷🇺 [WL] Сервер 6"
-    type: ss
-    server: 185.22.153.192
-    port: 18443
-    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    cipher: "aes-256-gcm"
+    type: vless
+    server: 13.143.239.16
+    port: 443
+    uuid: "3d7813c8-fbfb-47a3-95a6-d491db4eda93"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "turbo.truelink.live"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
   - name: "🇷🇺 [WL] Сервер 7"
+    type: vless
+    server: 147.45.148.6
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 89.19.223.227
     port: 443
@@ -87,7 +106,38 @@ proxies:
     reality-opts:
       public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
       short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 185.147.27.88
+    port: 8443
+    uuid: "53de05e9-8de3-48ae-9036-dcb203d4925c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "id-6aeb73b7.adhil.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 10"
+    type: ss
+    server: 185.22.153.192
+    port: 18443
+    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 87.120.166.160
+    port: 443
+    uuid: "7b91b2c3-8af3-449b-a555-00c9460989f4"
+    network: "ws"
+    servername: "lvi.su"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
+      headers:
+        Host: "lvi.su"
+  - name: "🇷🇺 [WL] Сервер 12"
     type: vless
     server: 179.254.126.164
     port: 443
@@ -100,3 +150,16 @@ proxies:
     reality-opts:
       public-key: "9-toGMQSTcKzSjjvJpjzhPG9le56hMNqRvx4_YKwIgY"
       short-id: "5dba4e0c74ce97dc"
+  - name: "🇷🇺 [WL] Сервер 13"
+    type: vless
+    server: 193.187.95.124
+    port: 443
+    uuid: "81167507-b634-4f56-9555-33e4fd660ce0"
+    network: "tcp"
+    servername: "github.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "8bMoXjt19DiBhVEEzx2xxe9dsgYOerlQC6yf0JDOoQE"
+      short-id: "6f01a3e0f21267"

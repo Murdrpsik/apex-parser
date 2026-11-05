@@ -13,35 +13,7 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇧🇬 [WL] Сервер 2"
-    type: vless
-    server: bg1.fox-lisa.ru
-    port: 443
-    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bg1.fox-lisa.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
-      short-id: "027af64166562b09"
-  - name: "🇧🇬 [BL] Сервер 3"
-    type: vless
-    server: 195.123.226.21
-    port: 443
-    uuid: "6589c320-db68-43cd-a273-b46299bab355"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "gateway.icloud.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo"
-      short-id: "77bb0d07bddbc832"
-  - name: "🇧🇬 [BL] Сервер 4"
+  - name: "🇧🇬 [BL] Сервер 2"
     type: vless
     server: 45.9.156.42
     port: 443
@@ -57,7 +29,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "gw.v2.RelayService"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 5"
+  - name: "🇧🇬 [BL] Сервер 3"
     type: vless
     server: 45.9.156.24
     port: 443
@@ -73,7 +45,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "api.v2.PushService"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 6"
+  - name: "🇧🇬 [BL] Сервер 4"
     type: vless
     server: 45.9.156.28
     port: 443
@@ -89,7 +61,21 @@ proxies:
     grpc-opts:
       grpc-service-name: "cloud.v1.RelayService"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 7"
+  - name: "🇧🇬 [BL] Сервер 5"
+    type: vless
+    server: 217.60.52.143
+    port: 443
+    uuid: "43a26f1a-99b7-4b17-98c7-b836fb466999"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "bg-adapt.static-s3.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LhcTGnqGTs7rJgD52NUKBWH3-mPJBdkMJKLmz-M4jnk"
+      short-id: "486a1a9c7288b70e"
+  - name: "🇧🇬 [BL] Сервер 6"
     type: vless
     server: 45.9.156.27
     port: 443
@@ -104,3 +90,17 @@ proxies:
       short-id: "1be1bd931c98c84a"
     grpc-opts:
       grpc-service-name: "home.v1.ApiService"
+  - name: "🇧🇬 [BL] Сервер 7"
+    type: vless
+    server: 195.123.226.21
+    port: 443
+    uuid: "6589c320-db68-43cd-a273-b46299bab355"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "gateway.icloud.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo"
+      short-id: "77bb0d07bddbc832"
