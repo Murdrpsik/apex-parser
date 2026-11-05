@@ -15,10 +15,24 @@ proxies:
       short-id: "1db18aa1"
   - name: "🇹🇷 [BL] Сервер 2"
     type: vless
+    server: tr3.japancase.site
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "tr3.japancase.site"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "B5Rbu23-J_PmzD6d-5ra_pxKaXd1MeRf6IT4jT_6PEM"
+      short-id: "071c3bd86b0c3c73"
+  - name: "🇹🇷 [BL] Сервер 3"
+    type: vless
     server: 81.177.215.220
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "tr3.japancase.site"
     client-fingerprint: "firefox"
@@ -27,88 +41,33 @@ proxies:
     reality-opts:
       public-key: "B5Rbu23-J_PmzD6d-5ra_pxKaXd1MeRf6IT4jT_6PEM"
       short-id: "071c3bd86b0c3c73"
-  - name: "🇹🇷 [BL] Сервер 3"
-    type: vless
-    server: 198.105.123.224
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tr1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
-      short-id: "41ae8e266bc3346f"
   - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 217.11.164.183
-    port: 2102
+    port: 2101
     uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
-    network: "tcp"
-    servername: "www.apple.com"
+    network: "raw"
+    servername: "www.apple.com.cn"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
-      short-id: "68c328105c"
+      short-id: "06"
   - name: "🇹🇷 [BL] Сервер 5"
     type: vless
     server: 45.74.158.57
     port: 2218
     uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
-    network: "raw"
+    network: "tcp"
     servername: "www.apple.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "cc80ef"
   - name: "🇹🇷 [BL] Сервер 6"
-    type: vless
-    server: 62.133.63.45
-    port: 8444
-    uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
-    network: "grpc"
-    servername: "github.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"
-    grpc-opts:
-      grpc-service-name: "GunService"
-  - name: "🇹🇷 [BL] Сервер 7"
-    type: vless
-    server: 151.241.226.201
-    port: 2053
-    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
-    network: "raw"
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
-      short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷 [BL] Сервер 8"
-    type: vless
-    server: 153.56.210.61
-    port: 443
-    uuid: "0de1d303-d7de-0001-8679-c4cb67e2e2cc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "amd.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
-      short-id: "a696de84963656de"
-  - name: "🇹🇷 [BL] Сервер 9"
     type: vless
     server: 78.135.73.47
     port: 443
@@ -122,29 +81,30 @@ proxies:
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
-  - name: "🇹🇷 [BL] Сервер 10"
+  - name: "🇹🇷 [BL] Сервер 7"
     type: vless
-    server: mzone.tr.3cloudhost.com
-    port: 443
-    uuid: "ed7d4efb-881c-448f-a739-7777a1df29f3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "mzone.tr.3cloudhost.com"
+    server: 62.133.63.45
+    port: 8444
+    uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
+    network: "grpc"
+    servername: "github.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8"
-  - name: "🇹🇷 [BL] Сервер 11"
+      public-key: "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"
+    grpc-opts:
+      grpc-service-name: "GunService"
+  - name: "🇹🇷 [BL] Сервер 8"
     type: vless
-    server: 147.45.66.60
-    port: 43000
-    uuid: "01e61db7-9e0b-4431-a995-a5288a01b951"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
+    server: 151.241.226.201
+    port: 2053
+    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    network: "raw"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg"
-      short-id: "4d3d8e15"
+      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
+      short-id: "9e419c0759b54d6f"

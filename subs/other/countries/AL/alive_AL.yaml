@@ -4,7 +4,7 @@ proxies:
     server: 147.45.221.5
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "nl4.japancase.site"
     client-fingerprint: "firefox"

@@ -2,11 +2,11 @@ proxies:
   - name: "🇷🇴 [BL] Сервер 1"
     type: vless
     server: 80.96.108.29
-    port: 443
+    port: 8443
     uuid: "11512726-b692-406f-ab49-7b28f44a8294"
     network: "xhttp"
     servername: "md.gorobsub.com"
-    client-fingerprint: "ios"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -14,7 +14,6 @@ proxies:
       short-id: "3242cfd7"
     xhttp-opts:
       path: "/ae1b809ceb77"
-      mode: "auto"
   - name: "🇷🇴 [BL] Сервер 2"
     type: vless
     server: 88.80.135.91
@@ -37,7 +36,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

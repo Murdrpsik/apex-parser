@@ -18,11 +18,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "58add534-79b4-4361-880d-f09aa31ea402"
+    uuid: "6873490a-0167-4925-ae9e-f35508205034"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.amd.com"
-    client-fingerprint: "qq"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -34,7 +34,7 @@ proxies:
     port: 39533
     password: "5t6i121em5lkmsmk"
     sni: "br001.zestapp778.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
   - name: "🇧🇷 [WL] Сервер 5"
     type: trojan
@@ -44,17 +44,3 @@ proxies:
     sni: "br001.zestapp778.com"
     client-fingerprint: "firefox"
     udp: true
-  - name: "🇵🇪 [BL] Сервер 6"
-    type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.tesla.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
-      short-id: "38d72071"

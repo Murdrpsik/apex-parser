@@ -1,62 +1,6 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 185.76.241.241
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ru1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "SiwxBWpYrdcS70DDnr0yBrTgpJY-MiqKiOs3_yjK1Cc"
-      short-id: "5b555442d5975d6b"
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 85.193.85.231
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 188.225.79.22
-    port: 443
-    uuid: "d16f7276-b967-440d-88b7-76945654ed55"
-    network: "grpc"
-    servername: "quartzops.blog"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho"
-      short-id: "e347493990237143"
-    grpc-opts:
-      grpc-service-name: "grpc-baf3bc8498"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: 185.231.245.143
-    port: 12907
-    uuid: "38d9aa6b-3501-48d1-b9df-e5d69f8f77ca"
-    network: "tcp"
-    servername: "github.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "j0jvQHmOBbDKYAAlFRB8qEmjzd3o_7ouFQXRmdrUSns"
-      short-id: "e85f6bef"
-  - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
     server: 176.57.215.54
     port: 37508
     uuid: "ef02c262-77a0-429f-8b8f-9eb6ad18f8c0"
@@ -68,18 +12,7 @@ proxies:
     reality-opts:
       public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
       short-id: "d3"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 13.143.239.16
-    port: 443
-    uuid: "3d7813c8-fbfb-47a3-95a6-d491db4eda93"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "turbo.truelink.live"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 147.45.148.6
     port: 443
@@ -92,38 +25,26 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 89.19.223.227
+    server: 85.193.85.231
     port: 443
-    uuid: "645168d4-22a4-4217-9b3e-d94b7ab5bffa"
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 9"
-    type: vless
-    server: 185.147.27.88
-    port: 8443
-    uuid: "53de05e9-8de3-48ae-9036-dcb203d4925c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "id-6aeb73b7.adhil.uk"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 10"
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: ss
-    server: 185.22.153.192
-    port: 18443
-    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 11"
+    server: 38.60.223.125
+    port: 13108
+    password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
+    cipher: "aes-128-gcm"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 87.120.166.160
     port: 443
@@ -137,29 +58,3 @@ proxies:
       path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
       headers:
         Host: "lvi.su"
-  - name: "🇷🇺 [WL] Сервер 12"
-    type: vless
-    server: 179.254.126.164
-    port: 443
-    uuid: "2e69b088-6ef3-417f-8247-125cf257fafd"
-    network: "grpc"
-    servername: "www.google.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "9-toGMQSTcKzSjjvJpjzhPG9le56hMNqRvx4_YKwIgY"
-      short-id: "5dba4e0c74ce97dc"
-  - name: "🇷🇺 [WL] Сервер 13"
-    type: vless
-    server: 193.187.95.124
-    port: 443
-    uuid: "81167507-b634-4f56-9555-33e4fd660ce0"
-    network: "tcp"
-    servername: "github.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "8bMoXjt19DiBhVEEzx2xxe9dsgYOerlQC6yf0JDOoQE"
-      short-id: "6f01a3e0f21267"

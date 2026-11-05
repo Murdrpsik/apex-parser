@@ -29,6 +29,20 @@ proxies:
       short-id: "33acba1b"
   - name: "🇱🇻 [BL] Сервер 3"
     type: vless
+    server: 45.43.79.92
+    port: 443
+    uuid: "042b12d8-bac4-4b3a-b661-79e333f08e4e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "vikt659.isgood.host"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
+      short-id: "af4ca5d16438c938"
+  - name: "🇱🇻 [BL] Сервер 4"
+    type: vless
     server: 104.252.53.69
     port: 443
     uuid: "2a4247b6-8757-4dfc-b27c-046bf4ea3a85"
