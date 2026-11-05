@@ -1,11 +1,26 @@
 proxies:
-  - name: "🇿🇦 [BL] Сервер 1"
+  - name: "🇸🇨 [BL] Сервер 1"
+    type: vless
+    server: 103.175.79.5
+    port: 443
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "xhttp"
+    servername: "download.autodesk.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇿🇦 [BL] Сервер 2"
     type: ss
     server: 102.133.165.160
     port: 16233
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 2"
+  - name: "🇿🇦 [BL] Сервер 3"
     type: ss
     server: 102.37.156.224
     port: 443

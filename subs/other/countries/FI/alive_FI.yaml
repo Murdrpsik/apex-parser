@@ -15,6 +15,34 @@ proxies:
       short-id: "d52d3ecf49447c2a"
   - name: "🇫🇮 [BL] Сервер 2"
     type: vless
+    server: 193.233.199.84
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fi3game.japancase.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g"
+      short-id: "38559e47f5536913"
+  - name: "🇫🇮 [BL] Сервер 3"
+    type: vless
+    server: fi3game.japancase.site
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fi3game.japancase.site"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g"
+      short-id: "38559e47f5536913"
+  - name: "🇫🇮 [BL] Сервер 4"
+    type: vless
     server: 146.103.118.189
     port: 443
     uuid: "ce698f0c-a8ec-474a-b5d8-3be8032deeb8"
@@ -27,7 +55,7 @@ proxies:
       path: "/574ck-finland"
       headers:
         Host: "nl2.574ck.xyz"
-  - name: "🇫🇮 [BL] Сервер 3"
+  - name: "🇫🇮 [BL] Сервер 5"
     type: vless
     server: 89.144.53.4
     port: 8445
@@ -35,15 +63,15 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "videos.porsche.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
       short-id: "1a2b3c4d"
-  - name: "🇫🇮 [BL] Сервер 4"
+  - name: "🇫🇮 [BL] Сервер 6"
     type: vless
-    server: fl3.nexfile.net
+    server: 179.253.82.47
     port: 4443
     uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
     network: "xhttp"
@@ -53,8 +81,7 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v1/sync/"
-      mode: "auto"
-  - name: "🇫🇮 [BL] Сервер 5"
+  - name: "🇫🇮 [BL] Сервер 7"
     type: vless
     server: 31.76.46.221
     port: 10851
@@ -70,48 +97,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc_common1"
       grpc-mode: "gun"
-  - name: "🇫🇮 [BL] Сервер 6"
-    type: vless
-    server: 217.144.188.185
-    port: 443
-    uuid: "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.nordea.fi"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-  - name: "🇫🇮 [BL] Сервер 7"
-    type: vless
-    server: 13.140.94.191
-    port: 443
-    uuid: "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38"
-      short-id: "8f3c6e2a1b5d4f09"
   - name: "🇫🇮 [BL] Сервер 8"
-    type: vless
-    server: 13.140.80.136
-    port: 443
-    uuid: "e07a6d05-f665-4811-91f0-9b3dc1094e4d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38"
-      short-id: "8f3c6e2a1b5d4f09"
-  - name: "🇫🇮 [BL] Сервер 9"
     type: vless
     server: 95.216.27.15
     port: 2053
@@ -124,7 +110,48 @@ proxies:
     reality-opts:
       public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
       short-id: "10351b07c712d2a2"
+  - name: "🇫🇮 [BL] Сервер 9"
+    type: vless
+    server: 107.181.151.128
+    port: 443
+    uuid: "88742d38-3f5c-4b9c-b256-7df5db8257ec"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.mozilla.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "8f79726c5002"
   - name: "🇫🇮 [BL] Сервер 10"
+    type: vless
+    server: 217.144.188.185
+    port: 443
+    uuid: "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.nordea.fi"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
+  - name: "🇫🇮 [BL] Сервер 11"
+    type: vless
+    server: 31.57.29.198
+    port: 443
+    uuid: "5a79e684-54c8-44c0-807a-225f9ea8c0ed"
+    network: "ws"
+    servername: "media.zovip2.ir"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/api/v3/pulse"
+      headers:
+        Host: "media.zovip2.ir"
+  - name: "🇫🇮 [BL] Сервер 12"
     type: vless
     server: 13.143.173.15
     port: 443
@@ -137,20 +164,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇫🇮 [BL] Сервер 11"
-    type: vless
-    server: 78.17.39.129
-    port: 443
-    uuid: "c04522c4-3d53-4eab-b5b5-25385d5f11b1"
-    network: "xhttp"
-    servername: "78.17.39.129"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/assets/finvip02/"
-      mode: "packet-up"
-  - name: "🇫🇮 [BL] Сервер 12"
+  - name: "🇫🇮 [BL] Сервер 13"
     type: vless
     server: 130.12.45.48
     port: 443

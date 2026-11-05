@@ -14,26 +14,26 @@ proxies:
       short-id: "d3"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
-    server: 147.45.148.6
+    server: 83.147.246.12
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 85.193.85.231
+    server: 213.171.12.100
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "ios"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -46,15 +46,16 @@ proxies:
     cipher: "aes-128-gcm"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 87.120.166.160
+    server: 147.78.182.7
     port: 443
-    uuid: "7b91b2c3-8af3-449b-a555-00c9460989f4"
-    network: "ws"
-    servername: "lvi.su"
-    client-fingerprint: "chrome"
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "xhttp"
+    servername: "www.epson.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2"
-      headers:
-        Host: "lvi.su"
+    reality-opts:
+      public-key: "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"

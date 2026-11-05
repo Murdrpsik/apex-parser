@@ -1,50 +1,46 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
+    server: 152.175.6.229
+    port: 31884
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "hk010.zestapp778.com"
+    udp: true
+    tls: true
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
     server: 85.155.149.190
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "hk1.japancase.site"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY"
       short-id: "bee10b047804c637"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
-    server: 210.0.244.157
-    port: 443
-    uuid: "f3ff9bac-2904-4f38-bae1-54ab1a72891b"
-    network: "tcp"
-    servername: "cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI"
   - name: "🇭🇰 [BL] Сервер 3"
     type: vless
-    server: 165.154.63.139
-    port: 443
-    uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
+    server: 112.120.54.238
+    port: 39471
+    uuid: "2fd1bce9-bba2-479e-83de-2b63a3ee88ea"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.amazon.com"
+    servername: "www.byu.edu"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
-      short-id: "ca4aedd4"
+      public-key: "79kBx_jBo5cqkQ-9Hlm5s-1i_DnddFx9rJ8NBaXY-GQ"
   - name: "🇭🇰 [BL] Сервер 4"
     type: vless
     server: 209.33.160.122
     port: 39098
     uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "dash.cloudflare.com"
     client-fingerprint: "firefox"
@@ -54,39 +50,13 @@ proxies:
       public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
   - name: "🇭🇰 [BL] Сервер 5"
     type: vless
-    server: 210.0.244.227
-    port: 443
-    uuid: "ebc368f4-c13c-4bd2-849b-4d245615728f"
-    network: "tcp"
-    servername: "cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HhYjpNgNw0X_Qrjv9R5aHfV92hHbZmlY1u12DMTPrVw"
-  - name: "🇭🇰 [BL] Сервер 6"
-    type: vless
-    server: 156.226.168.221
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-  - name: "🇭🇰 [BL] Сервер 7"
-    type: vless
     server: 38.47.122.54
     port: 13779
     uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "tesla.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

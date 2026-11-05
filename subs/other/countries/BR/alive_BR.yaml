@@ -14,33 +14,3 @@ proxies:
     sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
     client-fingerprint: "chrome"
     udp: true
-  - name: "🇧🇷 [WL] Сервер 3"
-    type: vless
-    server: 178.92.205.63
-    port: 11167
-    uuid: "6873490a-0167-4925-ae9e-f35508205034"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.amd.com"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
-      short-id: "ac"
-  - name: "🇧🇷 [WL] Сервер 4"
-    type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    sni: "br001.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-  - name: "🇧🇷 [WL] Сервер 5"
-    type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    sni: "br001.zestapp778.com"
-    client-fingerprint: "firefox"
-    udp: true

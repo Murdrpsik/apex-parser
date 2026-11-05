@@ -1,0 +1,16 @@
+proxies:
+  - name: "🇦🇪 [BL] Сервер 1"
+    type: vless
+    server: 122.8.46.9
+    port: 443
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "xhttp"
+    servername: "www.canon.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "iVDh09Vm2DqZMNQoUdf-LCZ6TqVGb9mLXnClAK2LRj4"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"

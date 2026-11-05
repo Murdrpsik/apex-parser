@@ -15,15 +15,15 @@ proxies:
       short-id: "027af64166562b09"
   - name: "🇮🇪 [BL] Сервер 2"
     type: vless
-    server: ie1.fox-lisa.ru
+    server: 83.141.75.193
     port: 443
-    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "raw"
+    uuid: "5fa16fdf-5b3c-4f57-988d-b24c6722c91a"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ie1.fox-lisa.ru"
+    servername: "fi-94-10.cdn-lab.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
-      short-id: "027af64166562b09"
+      public-key: "d1aZn0vbZdj0VrkfiXE7D10TRmdf91oa1LwCxQEAcBg"
+      short-id: "a74baa611fbfb118"

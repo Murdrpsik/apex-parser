@@ -1,7 +1,28 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
-    type: ss
-    server: 185.215.132.18
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
+  - name: "🇩🇪 [AI] Сервер 1"
+    type: vless
+    server: ai.smrtai.top
+    port: 443
+    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
+      short-id: "086bf957"
+  - name: "🇯🇵 [AI] Сервер 2"
+    type: vless
+    server: vl003.standard-nodes-chickenfarms.com
+    port: 443
+    uuid: "316878c9-3fe3-4916-a392-232c92444722"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ap-northeast-1.console.aws.amazon.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "aFoCh-1DWDdzQ29_O8rsWn3SdzJBLbImHRcSwQOO1R8"
+      short-id: "e4a33998"

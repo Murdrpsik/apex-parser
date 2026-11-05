@@ -15,38 +15,10 @@ proxies:
       short-id: "b28db60d77c50b4f"
   - name: "🇸🇪 [WL] Сервер 2"
     type: vless
-    server: 81.163.22.194
-    port: 443
-    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "apply.betust.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk"
-      short-id: "b20168a5"
-  - name: "🇸🇪 [WL] Сервер 3"
-    type: vless
-    server: 81.163.22.143
-    port: 443
-    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "join.betust.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE"
-      short-id: "351224a7"
-  - name: "🇸🇪 [WL] Сервер 4"
-    type: vless
     server: 88.216.223.100
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "smart.bachidze.com"
     client-fingerprint: "chrome"
@@ -54,21 +26,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc"
-  - name: "🇸🇪 [BL] Сервер 5"
-    type: vless
-    server: 185.153.55.23
-    port: 443
-    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "assets-v2.porsche.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
-      short-id: "1a2b3c4d"
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 3"
     type: vless
     server: 2.26.93.109
     port: 4443
@@ -80,41 +38,35 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v1/sync/"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 7"
+      host: "swo2.nexfile.net"
+  - name: "🇸🇪 [BL] Сервер 4"
     type: vless
-    server: se3.shtil.io
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: "raw"
-    servername: "se3.shtil.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 194.104.94.141
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: "tcp"
-    servername: "se3.shtil.io"
+    server: swo2.nexfile.net
+    port: 4443
+    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    network: "xhttp"
+    servername: "swo2.nexfile.net"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇸🇪 [BL] Сервер 9"
+    xhttp-opts:
+      path: "/api/v1/sync/"
+      mode: "auto"
+  - name: "🇸🇪 [BL] Сервер 5"
     type: vless
-    server: 31.77.18.220
+    server: 185.153.55.23
     port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
-    network: "raw"
+    uuid: "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "google.com"
+    servername: "assets-v2.porsche.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 10"
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -126,7 +78,21 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-  - name: "🇸🇪 [BL] Сервер 11"
+      grpc-mode: "gun"
+  - name: "🇸🇪 [BL] Сервер 7"
+    type: vless
+    server: 31.77.18.220
+    port: 443
+    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 31.77.111.11
     port: 43439
@@ -141,3 +107,28 @@ proxies:
       short-id: "ae99c61853e8a6ae"
     grpc-opts:
       grpc-service-name: "streaming"
+  - name: "🇸🇪 [BL] Сервер 9"
+    type: vless
+    server: 122.8.46.7
+    port: 443
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "xhttp"
+    servername: "download.nvidia.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇸🇪 [BL] Сервер 10"
+    type: vmess
+    server: 138.199.55.230
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true

@@ -1,20 +1,5 @@
 proxies:
-  - name: "🇬🇷 [WL] Сервер 1"
-    type: vless
-    server: 195.123.189.129
-    port: 443
-    uuid: "c6ac29f4-41d5-492a-a3d0-6582d620aba7"
-    network: "grpc"
-    servername: "max.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ijDPaDKzsKkpYj9lEpBatS-FKdmYaGP3aUO2MThuLmU"
-      short-id: "e56ea883b092f3"
-    grpc-opts:
-      grpc-service-name: "grpc-82"
-  - name: "🇬🇷 [BL] Сервер 2"
+  - name: "🇬🇷 [BL] Сервер 1"
     type: vless
     server: 85.90.197.220
     port: 443
@@ -22,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:

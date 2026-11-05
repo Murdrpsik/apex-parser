@@ -4,7 +4,7 @@ proxies:
     server: 185.90.61.65
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "no1.fox-lisa.ru"
     client-fingerprint: "firefox"
@@ -21,7 +21,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "unpkg.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
