@@ -2,51 +2,33 @@ proxies:
   - name: "🇨🇭 [BL] Сервер 1"
     type: vless
     server: 176.65.144.221
-    port: 443
+    port: 8445
     uuid: "89564b16-7ced-465d-a8f3-61389547e96e"
-    network: "xhttp"
+    network: "grpc"
     servername: "sw.cloudvienta.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "KcFNW-Yq9YucHEGiEe2ZEnIbxEuCmyO3S6yTglZR7ws"
       short-id: "7ea8737c31629437"
-    xhttp-opts:
-      path: "/vless-xhttp"
-      mode: "auto"
+    grpc-opts:
+      grpc-service-name: "grpc-reality"
   - name: "🇨🇭 [BL] Сервер 2"
     type: vless
-    server: 185.255.115.183
+    server: 193.151.108.255
     port: 443
-    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
-    network: "grpc"
-    servername: "c5a508g.ch1.h1clayd.click"
+    uuid: "02e7f01e-c9cf-4f96-816d-3b7cb97b289b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "schweic.worldfly.io"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "JvyJRs2Clylj2tYcxXnMYz89xcW9WlK4ohA6lSrbFnw"
-      short-id: "8c2072fc256df42a"
-    grpc-opts:
-      grpc-service-name: "fae222557467"
+      public-key: "dyFChktSfbZT29JZ3hetyOa4k53U6g6opd9suKsG4hw"
+      short-id: "740732f996dc1213"
   - name: "🇨🇭 [BL] Сервер 3"
-    type: vless
-    server: c5a508g.ch1.h1clayd.click
-    port: 443
-    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
-    network: "grpc"
-    servername: "c5a508g.ch1.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JvyJRs2Clylj2tYcxXnMYz89xcW9WlK4ohA6lSrbFnw"
-      short-id: "8c2072fc256df42a"
-    grpc-opts:
-      grpc-service-name: "fae222557467"
-      grpc-mode: "gun"
-  - name: "🇨🇭 [BL] Сервер 4"
     type: vless
     server: 45.90.59.15
     port: 443

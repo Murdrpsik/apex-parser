@@ -12,13 +12,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
-  - name: "🇦🇹 [BL] Сервер 2"
-    type: vmess
-    server: 154.47.19.225
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true

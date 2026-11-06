@@ -1,14 +1,5 @@
 proxies:
-  - name: "🇮🇳 [WL/CF] Сервер 1"
-    type: trojan
-    server: 103.111.114.87
-    port: 443
-    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
-    sni: "likejennie.pages.dev"
-    udp: true
-    ws-opts:
-      path: "/"
-  - name: "🇮🇳 [WL] Сервер 2"
+  - name: "🇮🇳 [WL] Сервер 1"
     type: vless
     server: 45.151.101.151
     port: 8443
@@ -21,7 +12,7 @@ proxies:
     reality-opts:
       public-key: "XAgtlMYY1aqEH5wud540D7lPIokZOgkpHy2ch-DS0DM"
       short-id: "74a327dfbff4f9fa"
-  - name: "🇮🇳 [BL] Сервер 3"
+  - name: "🇮🇳 [BL] Сервер 2"
     type: vless
     server: 122.176.216.52
     port: 443
@@ -35,19 +26,34 @@ proxies:
       path: "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88"
       headers:
         Host: "app-6ada5023.deploy.meerasolution.com"
-  - name: "🇮🇳 [BL] Сервер 4"
+  - name: "🇮🇳 [BL] Сервер 3"
     type: vless
-    server: in.smrtai.top
+    server: 107.181.139.144
     port: 443
-    uuid: "6bdc8320-7eae-46fc-be08-f5f54e65dfc8"
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "raw"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+    servername: "in1.japancase.site"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
-      short-id: "6bdc8320"
+      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
+      short-id: "df7b054cfc29800c"
+  - name: "🇮🇳 [BL] Сервер 4"
+    type: vless
+    server: 148.113.5.22
+    port: 443
+    uuid: "7d53c50c-3abf-4cb5-9d58-e7a42ce1d1c6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI"
+      short-id: "7ff98efcced3fd5b"
   - name: "🇮🇳 [BL] Сервер 5"
     type: vless
     server: 178.212.35.198
@@ -63,34 +69,6 @@ proxies:
       short-id: "6bdc8320"
   - name: "🇮🇳 [BL] Сервер 6"
     type: vless
-    server: 148.113.5.22
-    port: 443
-    uuid: "7d53c50c-3abf-4cb5-9d58-e7a42ce1d1c6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI"
-      short-id: "7ff98efcced3fd5b"
-  - name: "🇮🇳 [BL] Сервер 7"
-    type: vless
-    server: 107.181.139.144
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "in1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
-      short-id: "df7b054cfc29800c"
-  - name: "🇮🇳 [BL] Сервер 8"
-    type: vless
     server: 5.253.30.99
     port: 40443
     uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
@@ -103,36 +81,7 @@ proxies:
     reality-opts:
       public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
       short-id: "88b6"
-  - name: "🇮🇳 [BL] Сервер 9"
-    type: vless
-    server: 5.253.28.240
-    port: 40443
-    uuid: "405b964e-a2d2-454f-aaaa-711cc218897c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
-  - name: "🇮🇳 [BL] Сервер 10"
-    type: vless
-    server: hydra.yokkastars.com
-    port: 2443
-    uuid: "5e679ccd-1586-4d5f-b87b-48251046cad8"
-    network: "grpc"
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg"
-      short-id: "92c32de179e5d908"
-    grpc-opts:
-      grpc-service-name: "rex-eb0bf76b710ce763"
-  - name: "🇮🇳 [BL] Сервер 11"
+  - name: "🇮🇳 [BL] Сервер 7"
     type: vless
     server: 194.61.31.126
     port: 2053
@@ -144,45 +93,3 @@ proxies:
     reality-opts:
       public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
       short-id: "9980e0609b0d3891"
-  - name: "🇮🇳 [BL] Сервер 12"
-    type: vless
-    server: 5.253.28.224
-    port: 40443
-    uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-  - name: "🇮🇳 [BL] Сервер 13"
-    type: vless
-    server: dorado.yokkastars.com
-    port: 40443
-    uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-  - name: "🇮🇳 [BL] Сервер 14"
-    type: vless
-    server: 5.253.42.164
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"

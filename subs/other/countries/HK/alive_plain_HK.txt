@@ -1,9 +1,6 @@
 #profile-title: Apex HK
 #profile-update-interval: 1
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@152.175.6.229:31884?allowInsecure=0&sni=hk010.zestapp778.com&fp=chrome&security=tls&encryption=none&type=tcp#🇭🇰 [BL] Сервер 1
-vless://e6b418af-0ff1-4fe2-a079-8aaa0841781f@112.120.54.238:39471?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=79kBx_jBo5cqkQ-9Hlm5s-1i_DnddFx9rJ8NBaXY-GQ&sni=www.byu.edu&encryption=none&type=tcp#🇭🇰 [BL] Сервер 2
-vless://3d78373f-bdbd-428a-9b83-aea64264bf4e@45.133.73.20:2087?encryption=none&fp=firefox&pbk=oxdpwF7pHTpNG_R2y_Og0vOd2AAsCZ9dhCADuFH90AU&security=reality&serviceName=grpc-tunnel&sni=main.vpsvdsclouds.net&type=grpc#🇭🇰 [BL] Сервер 3
-vless://db80088c-32a1-4cb8-a907-0f3cb7844152@hk1.japancase.site:443?encryption=none&flow=xtls-rprx-vision&pbk=pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY&security=reality&sid=bee10b047804c637&sni=hk1.japancase.site&type=tcp&fp=chrome#🇭🇰 [BL] Сервер 4
-vless://db80088c-32a1-4cb8-a907-0f3cb7844152@85.155.149.190:443?encryption=none&flow=xtls-rprx-vision&pbk=pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY&security=reality&sid=bee10b047804c637&sni=hk1.japancase.site&type=tcp&fp=chrome#🇭🇰 [BL] Сервер 5
-vless://7852e4df-db54-4f75-a35e-3b8fbe89e56d@209.33.160.122:39098?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg&sni=dash.cloudflare.com&encryption=none#🇭🇰 [BL] Сервер 6
-vless://3f87daa8-3af8-40a0-b655-127911e008dc@142.91.101.39:627?encryption=none&type=ws&host=7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev&path=%2F&security=tls&sni=7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev&fp=chrome#🇭🇰 [BL/CF] Сервер 7
+vless://db80088c-32a1-4cb8-a907-0f3cb7844152@85.155.149.190:443?encryption=none&flow=xtls-rprx-vision&pbk=pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY&security=reality&sid=bee10b047804c637&sni=hk1.japancase.site&type=tcp&fp=chrome#🇭🇰 [BL] Сервер 2
+vless://7852e4df-db54-4f75-a35e-3b8fbe89e56d@209.33.160.122:39098?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg&sni=dash.cloudflare.com&encryption=none#🇭🇰 [BL] Сервер 3
+vless://928e6cce-8ced-4243-9a48-a6642edd09b0@38.47.122.54:13779?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&security=reality&sid=af1bdd293097b664&sni=tesla.com&type=tcp#🇭🇰 [BL] Сервер 4

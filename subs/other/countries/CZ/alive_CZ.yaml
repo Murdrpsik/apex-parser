@@ -27,7 +27,35 @@ proxies:
     reality-opts:
       public-key: "uXwlj6V8_F5RLwqw8C25GIsNP99AGv_Vvb_XmRuo1UU"
       short-id: "487cff0425b4e006"
-  - name: "🇨🇿 [BL] Сервер 3"
+  - name: "🇨🇿 [WL] Сервер 3"
+    type: vless
+    server: 85.202.192.131
+    port: 34033
+    uuid: "2cb6a5d1-0165-4bc2-aff2-832672160c56"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "splitter.wb.ru"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "I7s_V_6XHD2As0H5Ok2GV2a2M7o9RDCrH2USpCZPy0A"
+      short-id: "a1fdf7b7bebade41"
+  - name: "🇨🇿 [WL] Сервер 4"
+    type: vless
+    server: 85.202.192.131
+    port: 36746
+    uuid: "7e8eea89-16dd-4a6d-ad9b-192e23c59ffb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "splitter.wb.ru"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "a7pyyCqFCfWKtsr-Umm5g_Ii5XzhFznIrOtg_U3V2RI"
+      short-id: "f1eb436223e1a36a"
+  - name: "🇨🇿 [BL] Сервер 5"
     type: vless
     server: 195.123.245.241
     port: 443
@@ -41,34 +69,6 @@ proxies:
     reality-opts:
       public-key: "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw"
       short-id: "23d0950d60bc0d5b"
-  - name: "🇨🇿 [BL] Сервер 4"
-    type: vless
-    server: 3b4073f0c394.vps.myjino.ru
-    port: 443
-    uuid: "8dddc313-e588-478b-9175-8702da3235bf"
-    network: "xhttp"
-    servername: "3b4073f0c394.vps.myjino.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/stream/k9x2mq7w"
-      host: "3b4073f0c394.vps.myjino.ru"
-      mode: "packet-up"
-  - name: "🇨🇿 [BL] Сервер 5"
-    type: vless
-    server: 81.177.140.23
-    port: 443
-    uuid: "8dddc313-e588-478b-9175-8702da3235bf"
-    network: "xhttp"
-    servername: "3b4073f0c394.vps.myjino.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/stream/k9x2mq7w"
-      host: "3b4073f0c394.vps.myjino.ru"
-      mode: "packet-up"
   - name: "🇨🇿 [BL] Сервер 6"
     type: vless
     server: 212.102.38.25
@@ -85,15 +85,15 @@ proxies:
       short-id: "e90360ec7cc61b20"
   - name: "🇨🇿 [BL] Сервер 7"
     type: vless
-    server: 89.125.237.245
+    server: 82.146.59.28
     port: 443
-    uuid: "a44a1eab-1f2d-435e-b324-3c9e73d975bc"
+    uuid: "8aeda8e3-dd32-4071-bcbb-f793e646eb13"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.google.com"
+    servername: "31.76.7.128.sslip.io"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "IiBlvTjhPXcCixjqH6n6Cz3RWbeQjHepWtfIi28mly4"
-      short-id: "9f2c4a7b1d6e8035"
+      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
+      short-id: "88086e66870f03e6"

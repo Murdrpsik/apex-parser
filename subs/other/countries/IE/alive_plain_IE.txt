@@ -1,5 +1,0 @@
-#profile-title: Apex IE
-#profile-update-interval: 1
-vless://5fa16fdf-5b3c-4f57-988d-b24c6722c91a@83.141.75.193:8444?type=xhttp&security=tls&fp=firefox&sni=fi-94-10.cdn-lab.online&path=%2Fxh&host=fi-94-10.cdn-lab.online&mode=auto&encryption=none#🇮🇪 [BL] Сервер 1
-vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@86.54.83.33:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&sid=027af64166562b09&sni=ie1.fox-lisa.ru&encryption=none#🇮🇪 [BL] Сервер 2
-vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@ie1.fox-lisa.ru:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&sid=027af64166562b09&sni=ie1.fox-lisa.ru&encryption=none#🇮🇪 [BL] Сервер 3

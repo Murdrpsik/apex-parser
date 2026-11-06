@@ -1,20 +1,6 @@
 proxies:
   - name: "🇰🇿 [BL] Сервер 1"
     type: vless
-    server: 95.57.50.87
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kz1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "eV6ewGF7oTHf2pTQHKYvwJt-vU8hUC-1CjiUl20HtXE"
-      short-id: "4000cdda6278d236"
-  - name: "🇰🇿 [BL] Сервер 2"
-    type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
@@ -26,22 +12,7 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 3"
-    type: vless
-    server: 122.8.46.8
-    port: 8443
-    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
-    network: "grpc"
-    servername: "dl.dell.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk"
-    grpc-opts:
-      grpc-service-name: "TunService"
-      grpc-mode: "gun"
-  - name: "🇰🇿 [BL] Сервер 4"
+  - name: "🇰🇿 [BL] Сервер 2"
     type: vless
     server: 38.180.206.44
     port: 48982

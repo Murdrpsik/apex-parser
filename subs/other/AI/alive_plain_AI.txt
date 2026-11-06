@@ -1,5 +1,4 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
-vless://086bf957-9cd0-4e55-8280-bbef10435b41@ai.smrtai.top:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=086bf957&pbk=R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc&encryption=none#🇫🇷 [AI] Сервер 2
-vless://316878c9-3fe3-4916-a392-232c92444722@vl003.standard-nodes-chickenfarms.com:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ap-northeast-1.console.aws.amazon.com&pbk=aFoCh-1DWDdzQ29_O8rsWn3SdzJBLbImHRcSwQOO1R8&sid=e4a33998&fp=chrome#🇯🇵 [AI] Сервер 3
+vless://316878c9-3fe3-4916-a392-232c92444722@vl003.standard-nodes-chickenfarms.com:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ap-northeast-1.console.aws.amazon.com&pbk=aFoCh-1DWDdzQ29_O8rsWn3SdzJBLbImHRcSwQOO1R8&sid=e4a33998&fp=chrome#🇯🇵 [AI] Сервер 2

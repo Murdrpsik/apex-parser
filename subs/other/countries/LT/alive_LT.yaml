@@ -15,34 +15,6 @@ proxies:
       short-id: "d44d6d46"
   - name: "🇱🇹 [WL] Сервер 2"
     type: vless
-    server: app26.betust.net
-    port: 443
-    uuid: "fb37d713-0ed3-4146-b085-a5c879a9aafa"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "app26.betust.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
-      short-id: "d44d6d46"
-  - name: "🇱🇹 [WL] Сервер 3"
-    type: vless
-    server: app26.betust.net
-    port: 443
-    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "app26.betust.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
-      short-id: "d44d6d46"
-  - name: "🇱🇹 [WL] Сервер 4"
-    type: vless
     server: 88.216.127.165
     port: 443
     uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
@@ -55,49 +27,7 @@ proxies:
     reality-opts:
       public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
       short-id: "3e137406"
-  - name: "🇱🇹 [BL] Сервер 5"
-    type: vless
-    server: 83.171.241.142
-    port: 443
-    uuid: "1fc053ed-e9e8-49f2-b7c1-fde68d722dff"
-    network: "grpc"
-    servername: "5a873ag.lt2.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "-7jCGkgrVLVo1DgJrvOT_erdlIRf2IyVu1KGS409eBc"
-      short-id: "40cdf901244028cb"
-    grpc-opts:
-      grpc-service-name: "8fcf9a0ebfb7"
-  - name: "🇱🇹 [BL] Сервер 6"
-    type: vless
-    server: 162afct.lt2.h1clayd.click
-    port: 443
-    uuid: "1fc053ed-e9e8-49f2-b7c1-fde68d722dff"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "162afct.lt2.h1clayd.click"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "y_pzv7NPwU8d4gAC3r6f6FZN5vFmaKJK9YPEGOjSYB0"
-      short-id: "51e7ad7303dba560"
-  - name: "🇱🇹 [BL] Сервер 7"
-    type: vless
-    server: 31.76.83.1
-    port: 443
-    uuid: "caedb3a1-6395-40b9-a9a8-4b9694eb224a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.rimi.lv"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU"
-  - name: "🇱🇹 [BL] Сервер 8"
+  - name: "🇱🇹 [BL] Сервер 3"
     type: vless
     server: 85.209.231.169
     port: 2087
