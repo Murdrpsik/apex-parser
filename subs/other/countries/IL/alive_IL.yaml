@@ -1,21 +1,6 @@
 proxies:
   - name: "🇮🇱 [BL] Сервер 1"
     type: vless
-    server: 178.20.28.2
-    port: 443
-    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
-    network: "xhttp"
-    servername: "res.cdn.office.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇮🇱 [BL] Сервер 2"
-    type: vless
     server: 178.20.28.3
     port: 8443
     uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
@@ -29,3 +14,17 @@ proxies:
     grpc-opts:
       grpc-service-name: "TunService"
       grpc-mode: "gun"
+  - name: "🇮🇱 [BL] Сервер 2"
+    type: vless
+    server: 178.20.28.2
+    port: 443
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "xhttp"
+    servername: "res.cdn.office.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo"
+    xhttp-opts:
+      path: "/"

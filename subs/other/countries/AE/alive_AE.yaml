@@ -3,7 +3,7 @@ proxies:
     type: vless
     server: 122.8.46.9
     port: 443
-    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    uuid: "1c80222f-9fd9-db7b-c1ae-86c82c158b9d"
     network: "xhttp"
     servername: "www.canon.com"
     client-fingerprint: "firefox"

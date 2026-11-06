@@ -1,6 +1,92 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 155.212.161.144
+    port: 8445
+    uuid: "27c8be8c-878d-4541-bf5f-3d8cffcf5c18"
+    network: "grpc"
+    servername: "360.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R45Yzi8VdbJi7qT-o5NYUpYCDfG7SSpFfSJGEQXAgWA"
+      short-id: "06d22eb12a38a8a6"
+    grpc-opts:
+      grpc-service-name: "grpc-reality"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 155.212.161.144
+    port: 443
+    uuid: "27c8be8c-878d-4541-bf5f-3d8cffcf5c18"
+    network: "xhttp"
+    servername: "360.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R45Yzi8VdbJi7qT-o5NYUpYCDfG7SSpFfSJGEQXAgWA"
+      short-id: "06d22eb12a38a8a6"
+    xhttp-opts:
+      path: "/vless-xhttp"
+      mode: "auto"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 155.212.161.144
+    port: 8443
+    uuid: "27c8be8c-878d-4541-bf5f-3d8cffcf5c18"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "360.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R45Yzi8VdbJi7qT-o5NYUpYCDfG7SSpFfSJGEQXAgWA"
+      short-id: "06d22eb12a38a8a6"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: 147.45.104.86
+    port: 7443
+    uuid: "5d978525-bfa5-4b1e-b807-c4e2ac2db56d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
+      short-id: "a7eb8a4e"
+  - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
+    server: 147.45.104.86
+    port: 7443
+    uuid: "af185070-7170-46a8-b1e9-d61a035f4691"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
+      short-id: "a7eb8a4e"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 213.171.12.100
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 7"
+    type: vless
     server: 176.57.215.54
     port: 37508
     uuid: "ef02c262-77a0-429f-8b8f-9eb6ad18f8c0"
@@ -12,7 +98,95 @@ proxies:
     reality-opts:
       public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
       short-id: "d3"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 5536b5x.msk2.h1clayd.click
+    port: 443
+    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
+    network: "xhttp"
+    servername: "5536b5x.msk2.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "muKnJYqZ3YISzLNdbLqps95GjZrhJvynVNolCkX5J1w"
+      short-id: "30744a2ec1604c19"
+    xhttp-opts:
+      path: "/da4f377788b6"
+      mode: "auto"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 0487ddg.msk2.h1clayd.click
+    port: 443
+    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
+    network: "grpc"
+    servername: "0487ddg.msk2.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DWcsOHhuAwv4iLIXZjDvB5SkMyjYQdRsSwJdDgmxWQA"
+      short-id: "b8026310350dc65c"
+    grpc-opts:
+      grpc-service-name: "058048757611"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 10"
+    type: vless
+    server: 1f648et.msk2.h1clayd.click
+    port: 443
+    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "1f648et.msk2.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PlQ0HuxEpGvayFevD5vzpUF5ScieUdjJZAbFiqaEFzc"
+      short-id: "6af2390f06a84fd2"
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 45.91.53.246
+    port: 443
+    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "1f648et.msk2.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PlQ0HuxEpGvayFevD5vzpUF5ScieUdjJZAbFiqaEFzc"
+      short-id: "6af2390f06a84fd2"
+  - name: "🇷🇺 [WL] Сервер 12"
+    type: vless
+    server: 147.78.182.7
+    port: 8443
+    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
+    network: "grpc"
+    servername: "www.epson.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8"
+    grpc-opts:
+      grpc-service-name: "TunService"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 13"
+    type: vless
+    server: yoy-api.bachidze.com
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 14"
     type: vless
     server: 83.147.246.12
     port: 443
@@ -20,42 +194,23 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 213.171.12.100
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: ss
-    server: 38.60.223.125
-    port: 13108
-    password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
-    cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 15"
     type: vless
-    server: 147.78.182.7
-    port: 443
-    uuid: "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1"
-    network: "xhttp"
-    servername: "www.epson.com"
+    server: 5.42.105.63
+    port: 25443
+    uuid: "3d78373f-bdbd-428a-9b83-aea64264bf4e"
+    network: "grpc"
+    servername: "cdvid.gamescloud.uk"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
+      public-key: "ohYKVa5uVRwqzZndETnytrSXE63zaUFVNN1_T4eTHnc"
+      short-id: "568dfd0846c2"
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"

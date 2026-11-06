@@ -1,3 +1,4 @@
 #profile-title: Apex AT
 #profile-update-interval: 1
 vless://610ac982-04eb-34c0-80b1-5dd3c2ca131e@201.10.90.113:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg&sni=undef-aut-0.undef.network&encryption=none#🇦🇹 [BL] Сервер 1
+vmess://eyJhZGQiOiIxNTQuNDcuMTkuMjI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiIiwiaWQiOiI1YzA0MGYxZC00NWRiLTQzYmQtOGQ0Ni1lNDk1MGU0MzM3MzUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEyNzAiLCJwcyI6IvCfh6bwn4e5IFtCTF0g0KHQtdGA0LLQtdGAIDIiLCJzY3kiOiJhdXRvIiwic25pIjoieG1maGxweS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#🇦🇹 [BL] Сервер 2

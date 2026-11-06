@@ -1,7 +1,9 @@
 #profile-title: Apex LV
 #profile-update-interval: 1
-vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?security=reality&type=raw&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=5c256336e3b673fa&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&encryption=none#🇱🇻 [BL] Сервер 1
-vless://caedb3a1-6395-40b9-a9a8-4b9694eb224a@31.76.62.158:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=q97mUwRiZeygHgoRa6PJHDamhGS5lrMMB0zh6qFY6gk&security=reality&sni=www.maxima.lv&type=tcp#🇱🇻 [BL] Сервер 2
-vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&packetEncoding=none&encryption=none#🇱🇻 [BL] Сервер 3
-vless://042b12d8-bac4-4b3a-b661-79e333f08e4e@45.43.79.92:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM&sid=af4ca5d16438c938&sni=vikt659.isgood.host&encryption=none#🇱🇻 [BL] Сервер 4
-vless://2a4247b6-8757-4dfc-b27c-046bf4ea3a85@104.252.53.69:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=oKcvQjbg61AuyZYxbbDcyjqC0qKsjVGNEk7qTKWog1g&sni=cloudflare.com&fp=chrome&sid=5dcfa69b#🇱🇻 [BL] Сервер 5
+vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp#🇱🇻 [WL] Сервер 1
+vless://caedb3a1-6395-40b9-a9a8-4b9694eb224a@31.76.62.158:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=q97mUwRiZeygHgoRa6PJHDamhGS5lrMMB0zh6qFY6gk&sni=www.maxima.lv&encryption=none&type=tcp#🇱🇻 [BL] Сервер 2
+vless://255a8044-3337-473e-af26-46a37208adcc@live.flicker.work:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=PZwky05a2NPTC1x7YolaKV7IGDuJDJD47fUEk8nVqFw&sid=1995a38bfed15b2a&sni=live.flicker.work&encryption=none#🇱🇻 [BL] Сервер 3
+vless://255a8044-3337-473e-af26-46a37208adcc@193.68.67.46:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=PZwky05a2NPTC1x7YolaKV7IGDuJDJD47fUEk8nVqFw&security=reality&sid=1995a38bfed15b2a&sni=live.flicker.work&type=tcp#🇱🇻 [BL] Сервер 4
+vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&packetEncoding=none&encryption=none#🇱🇻 [BL] Сервер 5
+vless://042b12d8-bac4-4b3a-b661-79e333f08e4e@45.43.79.92:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM&sid=af4ca5d16438c938&sni=vikt659.isgood.host&encryption=none#🇱🇻 [BL] Сервер 6
+vless://2a4247b6-8757-4dfc-b27c-046bf4ea3a85@104.252.53.69:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=oKcvQjbg61AuyZYxbbDcyjqC0qKsjVGNEk7qTKWog1g&sni=cloudflare.com&fp=chrome&sid=5dcfa69b#🇱🇻 [BL] Сервер 7
