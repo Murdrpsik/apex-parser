@@ -1,29 +1,19 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: 152.175.6.229
-    port: 31884
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "hk010.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
     server: 85.155.149.190
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "hk1.japancase.site"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY"
       short-id: "bee10b047804c637"
-  - name: "🇭🇰 [BL] Сервер 3"
+  - name: "🇭🇰 [BL] Сервер 2"
     type: vless
     server: 209.33.160.122
     port: 39098
@@ -36,7 +26,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
-  - name: "🇭🇰 [BL] Сервер 4"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 38.47.122.54
     port: 13779

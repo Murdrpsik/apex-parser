@@ -19,7 +19,7 @@ proxies:
     uuid: "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88"
     network: "ws"
     servername: "app-6ada5023.deploy.meerasolution.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "android"
     udp: true
     tls: true
     ws-opts:
@@ -28,18 +28,18 @@ proxies:
         Host: "app-6ada5023.deploy.meerasolution.com"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
-    server: 107.181.139.144
+    server: 198.105.113.108
     port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "raw"
+    uuid: "3125236e-ea1b-4f88-b7a8-f7e1ee02d659"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "in1.japancase.site"
-    client-fingerprint: "ios"
+    servername: "virtuoreach.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
-      short-id: "df7b054cfc29800c"
+      public-key: "68pgYP9wiYT9XDxBRxlHS8h2Ej3kh4t2mj6fuxT4yAk"
+      short-id: "a1b2c3d4e5f60718"
   - name: "🇮🇳 [BL] Сервер 4"
     type: vless
     server: 148.113.5.22
@@ -56,6 +56,20 @@ proxies:
       short-id: "7ff98efcced3fd5b"
   - name: "🇮🇳 [BL] Сервер 5"
     type: vless
+    server: 107.181.139.144
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "in1.japancase.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
+      short-id: "df7b054cfc29800c"
+  - name: "🇮🇳 [BL] Сервер 6"
+    type: vless
     server: 178.212.35.198
     port: 443
     uuid: "6bdc8320-7eae-46fc-be08-f5f54e65dfc8"
@@ -67,20 +81,6 @@ proxies:
     reality-opts:
       public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
       short-id: "6bdc8320"
-  - name: "🇮🇳 [BL] Сервер 6"
-    type: vless
-    server: 5.253.30.99
-    port: 40443
-    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
   - name: "🇮🇳 [BL] Сервер 7"
     type: vless
     server: 194.61.31.126

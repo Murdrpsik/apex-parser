@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇲🇰 [BL] Сервер 1"
+    type: vless
+    server: 31.59.83.4
+    port: 443
+    uuid: "fd1f71b0-9b51-4aef-8c1e-97b132fb4531"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mk.global-cdn.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "BSPkA0yUFBZ7JS7rD69rLaTn_5QSAaPQZtO7HV_et30"
+      short-id: "b868b87c347a451e"

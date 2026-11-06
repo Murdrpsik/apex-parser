@@ -1,0 +1,3 @@
+#profile-title: Apex CY
+#profile-update-interval: 1
+vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@45.83.85.62:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&security=reality&sid=027af64166562b09&sni=gb1.fox-lisa.ru&type=tcp#🇨🇾 [BL] Сервер 1

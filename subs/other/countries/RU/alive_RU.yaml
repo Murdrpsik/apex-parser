@@ -1,6 +1,33 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 147.45.104.86
+    port: 7443
+    uuid: "5d978525-bfa5-4b1e-b807-c4e2ac2db56d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
+      short-id: "a7eb8a4e"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 83.147.246.12
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
     server: 176.57.215.54
     port: 37508
     uuid: "ef02c262-77a0-429f-8b8f-9eb6ad18f8c0"
@@ -12,7 +39,7 @@ proxies:
     reality-opts:
       public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
       short-id: "d3"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 136.234.9.92
     port: 443
@@ -28,39 +55,25 @@ proxies:
     xhttp-opts:
       path: "/repository"
       mode: "packet-up"
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 83.147.246.12
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 4"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: ss
     server: 38.60.223.125
     port: 13108
     password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
     cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
-    server: 213.171.12.100
+    server: 185.147.27.92
     port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
+    uuid: "1d690248-024b-4923-aab2-0abebe0688d3"
+    network: "tcp"
+    servername: "fotaku.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 6"
+      public-key: "dMy6EEwckj-LDysvKx0HflY60Z3YiuGD7D7UeJjItDA"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: ss
     server: 46.29.166.155
     port: 18443

@@ -15,18 +15,35 @@ proxies:
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
     type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
+    server: 81.177.215.122
+    port: 443
+    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
     network: "tcp"
-    servername: "m.vk.com"
-    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+    servername: "latino.plus-hit.ru"
+    client-fingerprint: "random"
     udp: true
     tls: true
     reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
+      public-key: "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI"
+      short-id: "7c8e3d4a9b1f26d3"
   - name: "🇱🇻 [BL] Сервер 3"
+    type: vless
+    server: 161.104.38.107
+    port: 443
+    uuid: "af9d0c6e-0c74-0037-8275-05b4aa0f2ebe"
+    network: "xhttp"
+    servername: "redbarn.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "yY6BKckWhkJ4r_5raufIumhtWHJIvqdPD7YFnznodlA"
+      short-id: "6d06f5e94bbedd56"
+    xhttp-opts:
+      path: "/upload"
+      mode: "packet-up"
+  - name: "🇱🇻 [BL] Сервер 4"
     type: vless
     server: 138.124.180.137
     port: 443
@@ -40,7 +57,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 4"
+  - name: "🇱🇻 [BL] Сервер 5"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -54,19 +71,6 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
-  - name: "🇱🇻 [BL] Сервер 5"
-    type: vless
-    server: 31.76.62.158
-    port: 443
-    uuid: "caedb3a1-6395-40b9-a9a8-4b9694eb224a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.maxima.lv"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q97mUwRiZeygHgoRa6PJHDamhGS5lrMMB0zh6qFY6gk"
   - name: "🇱🇻 [BL] Сервер 6"
     type: vless
     server: 104.252.53.69

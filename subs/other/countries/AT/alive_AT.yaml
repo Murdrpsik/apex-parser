@@ -1,14 +1,15 @@
 proxies:
-  - name: "🇦🇹 [BL] Сервер 1"
+  - name: "🇦🇹 [WL] Сервер 1"
     type: vless
-    server: 201.10.90.113
+    server: 178.22.31.72
     port: 443
-    uuid: "610ac982-04eb-34c0-80b1-5dd3c2ca131e"
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "undef-aut-0.undef.network"
-    client-fingerprint: "firefox"
+    servername: "at1.japancase.site"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
+      short-id: "41ae8e266bc3346f"

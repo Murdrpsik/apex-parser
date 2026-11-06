@@ -11,7 +11,8 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v2/events"
-      mode: "auto"
+      host: "static.bakarova-top.ru"
+      mode: "packet-up"
   - name: "🇷🇴 [WL] Сервер 2"
     type: vless
     server: 185.178.208.140
@@ -24,28 +25,53 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v2/events"
-      mode: "auto"
-  - name: "🇷🇴 [BL] Сервер 3"
+      host: "api.bakarova-top.ru"
+      mode: "packet-up"
+  - name: "🇷🇴 [WL] Сервер 3"
     type: vless
-    server: 46.28.67.55
+    server: 185.178.208.140
     port: 443
-    uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
+    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
+    network: "xhttp"
+    servername: "api.bakarova-top.ru"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
-      short-id: "d06d78e974491b6e"
-  - name: "🇷🇴 [BL] Сервер 4"
+    xhttp-opts:
+      path: "/api/v2/events"
+      mode: "auto"
+  - name: "🇷🇴 [WL] Сервер 4"
+    type: vless
+    server: 185.178.208.140
+    port: 443
+    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
+    network: "xhttp"
+    servername: "api.bakarova-top.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v2/events"
+  - name: "🇷🇴 [WL] Сервер 5"
+    type: vless
+    server: 185.178.208.140
+    port: 443
+    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
+    network: "xhttp"
+    servername: "static.bakarova-top.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v2/events"
+  - name: "🇷🇴 [BL] Сервер 6"
     type: vless
     server: 80.96.108.29
     port: 443
     uuid: "11512726-b692-406f-ab49-7b28f44a8294"
     network: "xhttp"
     servername: "md.gorobsub.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -53,8 +79,21 @@ proxies:
       short-id: "3242cfd7"
     xhttp-opts:
       path: "/ae1b809ceb77"
-      mode: "auto"
-  - name: "🇷🇴 [BL] Сервер 5"
+  - name: "🇷🇴 [BL] Сервер 7"
+    type: vless
+    server: 46.28.67.55
+    port: 443
+    uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
+      short-id: "d06d78e974491b6e"
+  - name: "🇷🇴 [BL] Сервер 8"
     type: vless
     server: 31.6.1.35
     port: 443
@@ -68,9 +107,3 @@ proxies:
       path: "/xh"
       host: "cdn.winter-jam.site"
       mode: "auto"
-  - name: "🇷🇴 [BL] Сервер 6"
-    type: ss
-    server: 82.152.132.211
-    port: 8044
-    password: "dCamglzrORaopqbpBlptzbt9QdiH4CSN"
-    cipher: "chacha20-ietf-poly1305"
