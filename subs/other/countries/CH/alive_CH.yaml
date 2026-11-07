@@ -15,32 +15,32 @@ proxies:
       short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 2"
     type: vless
+    server: 179.43.166.190
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "perevodchiki.su"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
+  - name: "🇨🇭 [BL] Сервер 3"
+    type: vless
     server: 45.90.59.15
     port: 443
     uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
-  - name: "🇨🇭 [BL] Сервер 3"
-    type: vless
-    server: 179.43.166.190
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 4"
     type: vless
     server: 193.151.108.240
@@ -55,17 +55,3 @@ proxies:
     reality-opts:
       public-key: "aDPUHTNsFayZUVXWHtlXjbRuiZmWsMFbOTKZoBBRQRw"
       short-id: "cedd9e53fc8e7777"
-  - name: "🇨🇭 [BL/CF] Сервер 5"
-    type: vless
-    server: 194.147.173.117
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"

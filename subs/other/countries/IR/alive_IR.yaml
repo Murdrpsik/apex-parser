@@ -1,22 +1,23 @@
 proxies:
-  - name: "🇮🇷 [WL] Сервер 1"
+  - name: "🇮🇷 [BL] Сервер 1"
     type: vless
-    server: tunell2027.crackerbinam.org
-    port: 48312
-    uuid: "f47057d5-120d-4b42-b6d6-30469aef6813"
+    server: 198.16.113.218
+    port: 8443
+    uuid: "98a24806-141a-43d3-b094-bd66c4eb93b8"
     network: "tcp"
-    servername: "www.cloudflare.com"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y"
-      short-id: "902c315efc"
+      public-key: "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE"
+      short-id: "69984b9e02545831"
   - name: "🇮🇷 [BL] Сервер 2"
     type: vless
-    server: 198.16.113.219
+    server: 198.16.113.220
     port: 8443
-    uuid: "e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4"
+    uuid: "98a24806-141a-43d3-b094-bd66c4eb93b8"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.apple.com"
@@ -56,23 +57,9 @@ proxies:
       short-id: "69984b9e02545831"
   - name: "🇮🇷 [BL] Сервер 5"
     type: vless
-    server: 198.16.113.218
+    server: 198.16.113.219
     port: 8443
-    uuid: "98a24806-141a-43d3-b094-bd66c4eb93b8"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE"
-      short-id: "69984b9e02545831"
-  - name: "🇮🇷 [BL] Сервер 6"
-    type: vless
-    server: 198.16.113.220
-    port: 8443
-    uuid: "98a24806-141a-43d3-b094-bd66c4eb93b8"
+    uuid: "e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.apple.com"

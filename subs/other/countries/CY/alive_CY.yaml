@@ -4,7 +4,7 @@ proxies:
     server: 45.83.85.62
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "gb1.fox-lisa.ru"
     client-fingerprint: "firefox"

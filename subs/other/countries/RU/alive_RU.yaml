@@ -1,19 +1,33 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 188.130.209.204
+    port: 443
+    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "promo-digital.wb.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
+      short-id: "d3f314d0b692f63d"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
     server: 147.45.104.86
     port: 7443
     uuid: "af185070-7170-46a8-b1e9-d61a035f4691"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "max.ru"
-    client-fingerprint: "qq"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
       short-id: "a7eb8a4e"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
     server: 147.45.104.86
     port: 7443
@@ -27,20 +41,6 @@ proxies:
     reality-opts:
       public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
       short-id: "a7eb8a4e"
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 188.130.209.204
-    port: 443
-    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "promo-digital.wb.ru"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
-      short-id: "d3f314d0b692f63d"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 83.147.246.12
@@ -56,19 +56,17 @@ proxies:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 45.91.55.140
+    server: yoy-api.bachidze.com
     port: 443
-    uuid: "747db87a-0cf6-4ea7-ae6b-3293afe2cef6"
-    network: "grpc"
-    servername: "9e72bbg.msk2.h1clayd.click"
-    client-fingerprint: "firefox"
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "0R5QIf2DFXNgISIYDQdoWIdbNoImaJHrwOkc2tzRPyQ"
-      short-id: "cc07501e28b18687"
-    grpc-opts:
-      grpc-service-name: "93013a569b78"
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
   - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 92.243.66.79
@@ -84,19 +82,6 @@ proxies:
       public-key: "siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o"
       short-id: "8d03c10b6a874a9c"
   - name: "🇷🇺 [WL] Сервер 7"
-    type: vless
-    server: 185.231.204.244
-    port: 443
-    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "nl-balancer.peregrine-sub.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇷🇺 [WL] Сервер 8"
     type: ss
     server: 46.29.166.155
     port: 18443

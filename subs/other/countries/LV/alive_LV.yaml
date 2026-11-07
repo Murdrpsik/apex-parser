@@ -1,5 +1,5 @@
 proxies:
-  - name: "🇱🇻 [WL] Сервер 1"
+  - name: "🇱🇻 [BL] Сервер 1"
     type: vless
     server: 195.123.213.28
     port: 443
@@ -7,7 +7,6 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -18,10 +17,10 @@ proxies:
     server: 81.177.215.122
     port: 443
     uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "latino.plus-hit.ru"
-    client-fingerprint: "random"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -29,32 +28,31 @@ proxies:
       short-id: "7c8e3d4a9b1f26d3"
   - name: "🇱🇻 [BL] Сервер 3"
     type: vless
-    server: 138.124.180.137
-    port: 443
-    uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
-      short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 4"
-    type: vless
     server: 45.43.79.92
     port: 443
     uuid: "042b12d8-bac4-4b3a-b661-79e333f08e4e"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "vikt659.isgood.host"
-    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
+  - name: "🇱🇻 [BL] Сервер 4"
+    type: vless
+    server: 138.124.180.137
+    port: 443
+    uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
+      short-id: "33acba1b"
   - name: "🇱🇻 [BL] Сервер 5"
     type: vless
     server: 104.252.53.69
