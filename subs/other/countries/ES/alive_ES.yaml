@@ -15,6 +15,49 @@ proxies:
       short-id: "0dfc23fe80778c00"
   - name: "🇪🇸 [BL] Сервер 2"
     type: vless
+    server: 02104dg.es7.h1clayd.click
+    port: 443
+    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    network: "grpc"
+    servername: "02104dg.es7.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "AK4PrvaK2WV1v1NEegq2rE53gVnlXUw_jo3XwA1aIEI"
+      short-id: "7d0aaf84998bfe61"
+    grpc-opts:
+      grpc-service-name: "af7e99c1e3f1"
+  - name: "🇪🇸 [BL] Сервер 3"
+    type: vless
+    server: 196.196.149.43
+    port: 443
+    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    network: "xhttp"
+    servername: "e83786x.es7.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DlFEcOAK1iNS7td2bzMpyQSiGkWlIxum6fOXZjEfxDg"
+      short-id: "3c399ee135b104d9"
+    xhttp-opts:
+      path: "/95630fba747e"
+  - name: "🇪🇸 [BL] Сервер 4"
+    type: vless
+    server: 156.252.229.203
+    port: 8443
+    uuid: "585a421d-d782-4420-912e-dd58ff5966d7"
+    network: "tcp"
+    servername: "play.googleapis.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A"
+      short-id: "974f7f8f"
+  - name: "🇪🇸 [BL] Сервер 5"
+    type: vless
     server: api.ferrin.uk
     port: 443
     uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
@@ -26,7 +69,19 @@ proxies:
     xhttp-opts:
       path: "/es"
       mode: "stream-one"
-  - name: "🇪🇸 [BL] Сервер 3"
+  - name: "🇪🇸 [BL] Сервер 6"
+    type: vless
+    server: 84.32.184.214
+    port: 443
+    uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
+    network: "xhttp"
+    servername: "7d1a74fd.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/es/?"
+  - name: "🇪🇸 [BL] Сервер 7"
     type: vless
     server: 212.227.235.66
     port: 2053
@@ -39,10 +94,3 @@ proxies:
     reality-opts:
       public-key: "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk"
       short-id: "29e8dcd2b37aaa7f"
-  - name: "🇪🇸 [BL] Сервер 4"
-    type: trojan
-    server: 66.163.118.251
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "resources.discovergreatjobsandadvanceyourcareer.com"
-    udp: true

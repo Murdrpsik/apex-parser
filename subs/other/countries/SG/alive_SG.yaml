@@ -1,13 +1,13 @@
 proxies:
   - name: "🇸🇬 [WL] Сервер 1"
     type: vless
-    server: 178.94.25.73
+    server: 147.93.173.45
     port: 10444
-    uuid: "2dacc738-5720-4824-b8bc-e3db57596ba7"
+    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "video.yandex.ru"
-    client-fingerprint: "safari"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -29,13 +29,13 @@ proxies:
       short-id: "8debcf36f1cc69ff"
   - name: "🇸🇬 [WL] Сервер 3"
     type: vless
-    server: 147.93.173.45
+    server: 178.94.25.73
     port: 10444
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
+    uuid: "2dacc738-5720-4824-b8bc-e3db57596ba7"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "video.yandex.ru"
-    client-fingerprint: "chrome"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -82,89 +82,18 @@ proxies:
       short-id: "a51c3ccb2320024a"
   - name: "🇸🇬 [BL] Сервер 7"
     type: vless
-    server: 54.251.9.130
-    port: 24146
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+    server: 510.150333.xyz
+    port: 21001
+    uuid: "67952583-8572-42e1-943d-0602794f885b"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.intel.com"
-    client-fingerprint: "edge"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo"
-      short-id: "7205d9079521832c"
+      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
+      short-id: "a51c3ccb2320024a"
   - name: "🇸🇬 [BL] Сервер 8"
-    type: vless
-    server: 54.169.200.246
-    port: 41688
-    uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.intel.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk"
-      short-id: "7f342137c20387"
-  - name: "🇸🇬 [BL] Сервер 9"
-    type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.tesla.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
-      short-id: "38d72071"
-  - name: "🇸🇬 [BL] Сервер 10"
-    type: vless
-    server: 139.162.27.96
-    port: 2096
-    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    network: "ws"
-    servername: "free-server.techsonic.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/free-server.techsonic.dev"
-      headers:
-        Host: "free-server.techsonic.dev"
-  - name: "🇸🇬 [BL] Сервер 11"
-    type: vless
-    server: 3.0.111.82
-    port: 10574
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-  - name: "🇸🇬 [BL] Сервер 12"
-    type: vless
-    server: 67.159.52.81
-    port: 443
-    uuid: "a16bd0e2-ff2e-4e4c-a955-0c684255a065"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sg.fasti.win"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs"
-      short-id: "feedbacc"
-  - name: "🇸🇬 [BL] Сервер 13"
     type: vless
     server: 5.34.177.164
     port: 443
@@ -178,13 +107,132 @@ proxies:
     reality-opts:
       public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
       short-id: "b2efed6d157e7bb0"
+  - name: "🇸🇬 [BL] Сервер 9"
+    type: vless
+    server: 54.251.9.130
+    port: 24146
+    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.intel.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo"
+      short-id: "7205d9079521832c"
+  - name: "🇸🇬 [BL] Сервер 10"
+    type: vless
+    server: 54.169.200.246
+    port: 41688
+    uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.intel.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk"
+      short-id: "7f342137c20387"
+  - name: "🇸🇬 [BL] Сервер 11"
+    type: vless
+    server: 134.185.81.5
+    port: 47881
+    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.tesla.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
+      short-id: "38d72071"
+  - name: "🇸🇬 [BL] Сервер 12"
+    type: vless
+    server: 139.162.27.96
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    network: "ws"
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇸🇬 [BL] Сервер 13"
+    type: vless
+    server: 3.0.111.82
+    port: 10574
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
   - name: "🇸🇬 [BL] Сервер 14"
+    type: vless
+    server: 140.235.11.243
+    port: 56984
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg1.zestapp778.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 15"
+    type: vless
+    server: sg1.zestapp778.com
+    port: 56984
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg1.zestapp778.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 16"
     type: vless
     server: 45.76.155.179
     port: 443
     uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
     network: "tcp"
     servername: "sg003.zestapp778.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 17"
+    type: vless
+    server: 3.0.70.13
+    port: 1114
+    uuid: "6ba2eac6-0ec9-44ca-a42b-a8e23aafb530"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yahoo.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ"
+      short-id: "79a1e14b"
+  - name: "🇸🇬 [BL] Сервер 18"
+    type: trojan
+    server: 15.235.184.127
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "exploredigitaljobplatformandfindonlinework.com"
+    udp: true
+  - name: "🇸🇬 [BL] Сервер 19"
+    type: vmess
+    server: 149.88.23.202
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"

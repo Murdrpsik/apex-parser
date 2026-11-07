@@ -15,3 +15,17 @@ proxies:
     sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
     client-fingerprint: "chrome"
     udp: true
+  - name: "🇧🇷 [WL] Сервер 3"
+    type: vless
+    server: 178.92.205.63
+    port: 11167
+    uuid: "44a66b4f-8cb8-436b-875c-324210936155"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.mercadolivre.com.br"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
+      short-id: "ac"

@@ -5,7 +5,33 @@ proxies:
     port: 1080
     password: "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇹🇼 [AI] Сервер 2"
+  - name: "🇫🇷 [AI] Сервер 2"
+    type: vless
+    server: ai.smrtai.top
+    port: 443
+    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
+      short-id: "086bf957"
+  - name: "🇩🇪 [AI] Сервер 3"
+    type: vless
+    server: H3.vgrop.nl
+    port: 636
+    uuid: "b7be63b6-f77e-46ae-a09a-4801d6493dcd"
+    network: "raw"
+    servername: "ai.android"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EE4SrnEQ7yhgUIWuAYk83UVIlpvRPqHJ1dpGTm2IORs"
+      short-id: "a8c75413e3967fde"
+  - name: "🇹🇼 [AI] Сервер 4"
     type: vless
     server: 161.114.15.215
     port: 30446

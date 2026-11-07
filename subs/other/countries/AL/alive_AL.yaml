@@ -1,14 +1,17 @@
 proxies:
   - name: "🇦🇱 [BL] Сервер 1"
     type: vless
-    server: 157.22.240.124
+    server: 157.22.240.224
     port: 443
-    uuid: "380fc46b-28cb-41a8-9879-38a898ab05d0"
+    uuid: "293c982c-7d4e-44ac-bb11-72eacee55cd3"
     network: "xhttp"
-    servername: "call.meettech.org"
-    client-fingerprint: "safari"
+    servername: "altra.qikbro.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "4u0r-1AewRpOQOJuezX8VMSLkspgm2C_wxVLcUd_xWo"
+      short-id: "49a886a8e72becf5"
     xhttp-opts:
-      path: "/"
-      mode: "auto"
+      path: "/assets/js/app.2ba1396c.js"
+      host: "altra.qikbro.com"

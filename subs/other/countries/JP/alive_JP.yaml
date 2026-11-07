@@ -1,20 +1,6 @@
 proxies:
   - name: "🇯🇵 [BL] Сервер 1"
     type: vless
-    server: 43.156.62.218
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    network: "ws"
-    servername: "jp3.yohototo.top"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "🇯🇵 [BL] Сервер 2"
-    type: vless
     server: 74.113.233.192
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
@@ -27,7 +13,48 @@ proxies:
     reality-opts:
       public-key: "vR15JQvAL78o2FzRCftXVm1LTz-xdU31wBB2ohHFD0g"
       short-id: "47b225059e19aa39"
+  - name: "🇯🇵 [BL] Сервер 2"
+    type: vless
+    server: 64.110.100.50
+    port: 2053
+    uuid: "226279dd-28b2-4b61-96be-a2a0b1afd522"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.developer.nvidia.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Uj6mzD2Qjr9PN0nfBCR2-4KyWm-8vddROou39LN6BXM"
+      short-id: "d7953572"
   - name: "🇯🇵 [BL] Сервер 3"
+    type: vless
+    server: 154.31.114.162
+    port: 8443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    network: "ws"
+    servername: "jp3.yohototo.top"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 [BL] Сервер 4"
+    type: vless
+    server: 18.180.86.39
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    network: "ws"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 [BL] Сервер 5"
     type: vless
     server: 31.76.91.70
     port: 443
@@ -41,7 +68,7 @@ proxies:
     reality-opts:
       public-key: "ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg"
       short-id: "bd6f67b6b2152b45"
-  - name: "🇯🇵 [BL] Сервер 4"
+  - name: "🇯🇵 [BL] Сервер 6"
     type: vless
     server: 31.76.91.98
     port: 443
@@ -55,7 +82,7 @@ proxies:
     reality-opts:
       public-key: "ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg"
       short-id: "bd6f67b6b2152b45"
-  - name: "🇯🇵 [BL] Сервер 5"
+  - name: "🇯🇵 [BL] Сервер 7"
     type: vless
     server: fuji.etherhub.cc
     port: 443
@@ -69,10 +96,10 @@ proxies:
     reality-opts:
       public-key: "ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg"
       short-id: "bd6f67b6b2152b45"
-  - name: "🇯🇵 [BL] Сервер 6"
+  - name: "🇯🇵 [BL] Сервер 8"
     type: vless
     server: 103.75.118.228
-    port: 11452
+    port: 12683
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     network: "tcp"
     flow: "xtls-rprx-vision"
@@ -83,7 +110,7 @@ proxies:
     reality-opts:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
-  - name: "🇯🇵 [BL] Сервер 7"
+  - name: "🇯🇵 [BL] Сервер 9"
     type: vless
     server: 3.114.220.22
     port: 10583
@@ -97,26 +124,6 @@ proxies:
     reality-opts:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
-  - name: "🇯🇵 [BL] Сервер 8"
-    type: vless
-    server: 52.195.211.175
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    network: "ws"
-    servername: "jp3.yohototo.top"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "🇯🇵 [BL] Сервер 9"
-    type: ss
-    server: 149.22.87.204
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
   - name: "🇯🇵 [BL] Сервер 10"
     type: ss
     server: 149.22.87.241
@@ -126,6 +133,12 @@ proxies:
   - name: "🇯🇵 [BL] Сервер 11"
     type: ss
     server: 149.22.87.240
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇯🇵 [BL] Сервер 12"
+    type: ss
+    server: 149.22.87.204
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"

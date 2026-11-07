@@ -1,11 +1,10 @@
 #profile-title: Apex RU
 #profile-update-interval: 1
 vless://5d978525-bfa5-4b1e-b807-c4e2ac2db56d@147.45.104.86:7443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho&sid=a7eb8a4e&sni=max.ru&encryption=none#🇷🇺 [WL] Сервер 1
-vless://af185070-7170-46a8-b1e9-d61a035f4691@147.45.104.86:7443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=max.ru&security=reality&pbk=KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho&sid=a7eb8a4e&fp=chrome#🇷🇺 [WL] Сервер 2
-vless://29777784-b5ad-4e2a-be7b-335f033ab97c@cdn.oldertown.ru:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=cdn.oldertown.ru&fp=firefox&alpn=h2%2C&path=%2Fapi%2Fv4%2Fmedia%2Fsession%2Fpoll&host=cdn.oldertown.ru&mode=packet-up&extra=%7B%22xmux%22%3A#🇷🇺 [WL] Сервер 3
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@yoy-api.bachidze.com:443?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=chrome#🇷🇺 [WL] Сервер 4
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@217.25.93.165:443?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=ios#🇷🇺 [WL] Сервер 5
-vless://4a0812f0-f9d7-4afd-9ae3-6c38e1e59485@188.130.209.203:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=promo-digital.wb.ru&pbk=3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc&sid=d3f314d0b692f63d&fp=qq&spx=%2F#🇷🇺 [WL] Сервер 6
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@83.147.246.12:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&sni=yoy-api.bachidze.com&encryption=none#🇷🇺 [WL] Сервер 7
-ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE@38.60.223.125:13108#🇷🇺 [WL] Сервер 8
-ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@46.29.166.155:18443#🇷🇺 [WL] Сервер 9
+vless://af185070-7170-46a8-b1e9-d61a035f4691@147.45.104.86:7443?security=reality&sni=max.ru&fp=chrome&pbk=KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho&sid=a7eb8a4e&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#🇷🇺 [WL] Сервер 2
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@yoy-api.bachidze.com:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=ios&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&sni=yoy-api.bachidze.com&encryption=none#🇷🇺 [WL] Сервер 3
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@217.25.93.165:443?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=ios#🇷🇺 [WL] Сервер 4
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@83.147.246.12:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&sni=yoy-api.bachidze.com&encryption=none#🇷🇺 [WL] Сервер 5
+ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE@38.60.223.125:13108#🇷🇺 [WL] Сервер 6
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@46.29.166.155:18443#🇷🇺 [WL] Сервер 7
+vless://2f6c70f3-206a-4bc1-ac1f-6b70153f9c73@80.249.150.90:3088?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko&security=reality&sid=b0d8c9a285c70f6f&sni=cdnjs.com&type=tcp#🇷🇺 [WL] Сервер 8

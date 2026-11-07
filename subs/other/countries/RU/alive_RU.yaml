@@ -29,32 +29,18 @@ proxies:
       short-id: "a7eb8a4e"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: cdn.oldertown.ru
-    port: 443
-    uuid: "29777784-b5ad-4e2a-be7b-335f033ab97c"
-    network: "xhttp"
-    servername: "cdn.oldertown.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v4/media/session/poll"
-      host: "cdn.oldertown.ru"
-      mode: "packet-up"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
     server: yoy-api.bachidze.com
     port: 443
     uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "yoy-api.bachidze.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 217.25.93.165
     port: 443
@@ -67,21 +53,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 188.130.209.203
-    port: 443
-    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "promo-digital.wb.ru"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
-      short-id: "d3f314d0b692f63d"
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 83.147.246.12
     port: 443
@@ -94,15 +66,29 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: ss
     server: 38.60.223.125
     port: 13108
     password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
     cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 9"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: ss
     server: 46.29.166.155
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 80.249.150.90
+    port: 3088
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdnjs.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko"
+      short-id: "b0d8c9a285c70f6f"

@@ -1,10 +1,10 @@
 proxies:
   - name: "🇦🇹 [WL] Сервер 1"
     type: vless
-    server: at1.japancase.site
+    server: 178.22.31.72
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "at1.japancase.site"
     client-fingerprint: "chrome"
@@ -27,21 +27,7 @@ proxies:
     reality-opts:
       public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
       short-id: "41ae8e266bc3346f"
-  - name: "🇦🇹 [WL] Сервер 3"
-    type: vless
-    server: 178.22.31.72
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "at1.japancase.site"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
-      short-id: "41ae8e266bc3346f"
-  - name: "🇦🇹 [BL] Сервер 4"
+  - name: "🇦🇹 [BL] Сервер 3"
     type: vless
     server: 66.90.106.28
     port: 443
@@ -49,19 +35,9 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "banket-restoran.su"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇦🇹 [BL] Сервер 5"
-    type: vmess
-    server: 154.47.19.225
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
