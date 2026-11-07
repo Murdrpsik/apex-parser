@@ -13,3 +13,17 @@ proxies:
     reality-opts:
       public-key: "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A"
       short-id: "bb82c8"
+  - name: "🇻🇳 [BL] Сервер 2"
+    type: vless
+    server: 13.115.149.143
+    port: 46074
+    uuid: "fa56e092-0ca7-4e8f-a856-8e86a73c2753"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Zpe4RNze71UGv-T9y55k31k9BtY7gS7uvRV5aA7eiWQ"
+      short-id: "367e3031"

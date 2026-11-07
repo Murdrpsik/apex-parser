@@ -15,31 +15,15 @@ proxies:
       short-id: "d44d6d46"
   - name: "🇱🇹 [BL] Сервер 2"
     type: vless
-    server: 84.32.209.132
+    server: app26.betust.net
     port: 443
-    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
-    network: "raw"
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "litauto.plus-hit.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA"
-      short-id: "7c8e3d4a9b1f26d3"
-  - name: "🇱🇹 [BL] Сервер 3"
-    type: vless
-    server: 5.199.174.25
-    port: 443
-    uuid: "acc50200-7f21-4f90-9cca-0057efcbf042"
-    network: "xhttp"
-    servername: "aiartstudios.best"
+    servername: "app26.betust.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "DFR6MJcTN1bhukm7KS3IQSBDGPhTiPBwhZ3_brvwSlM"
-      short-id: "db724eb12631c05f"
-    xhttp-opts:
-      path: "/"
-      host: "aiartstudios.best"
+      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
+      short-id: "d44d6d46"

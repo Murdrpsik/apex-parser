@@ -1,20 +1,6 @@
 proxies:
   - name: "🇦🇺 [BL] Сервер 1"
     type: vless
-    server: 159.195.197.145
-    port: 443
-    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "kenguru.plus-hit.ru"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "TryfG6rsq6BItUtRlplM9Nc-1vA2LoV0RZc2xkVxjgY"
-      short-id: "707ae3e54ec713a1"
-  - name: "🇦🇺 [BL] Сервер 2"
-    type: vless
     server: 51.161.204.242
     port: 443
     uuid: "3c778768-d511-4221-8be3-3eba45640e9e"

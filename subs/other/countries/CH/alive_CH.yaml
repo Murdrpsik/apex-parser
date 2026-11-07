@@ -13,9 +13,9 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇨🇭 [BL] Сервер 2"
+  - name: "🇨🇭 [WL] Сервер 2"
     type: vless
-    server: 179.43.166.190
+    server: prvtch.titun.su
     port: 443
     uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
     network: "tcp"
@@ -43,15 +43,28 @@ proxies:
       short-id: "19253fae84102271"
   - name: "🇨🇭 [BL] Сервер 4"
     type: vless
-    server: 193.151.108.240
+    server: 537df6t.ch5.h1clayd.click
     port: 443
-    uuid: "7ee8000e-209e-4d88-8a0f-e963edfe45b2"
+    uuid: "54066259-28a1-47dc-b0f7-e7715f27918e"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bananapococoho.izzzyvpn.space"
+    servername: "537df6t.ch5.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "aDPUHTNsFayZUVXWHtlXjbRuiZmWsMFbOTKZoBBRQRw"
-      short-id: "cedd9e53fc8e7777"
+      public-key: "LHkKUZNBp93VjTHD9fpoj44-4WB-TQbDpa5A929nSwE"
+      short-id: "e368a430524df0fa"
+  - name: "🇨🇭 [BL] Сервер 5"
+    type: vless
+    server: 179.43.166.190
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "perevodchiki.su"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"

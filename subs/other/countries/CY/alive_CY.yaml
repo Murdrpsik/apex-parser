@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇨🇾 [BL] Сервер 1"
+  - name: "🇨🇾 [WL] Сервер 1"
     type: vless
-    server: 45.83.85.62
+    server: 185.103.100.211
     port: 443
-    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "raw"
+    uuid: "5ad13ef8-ced8-43b5-9d8c-f046a3ce9ddc"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "gb1.fox-lisa.ru"
-    client-fingerprint: "firefox"
+    servername: "msk2e.g-magnum.icu"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
-      short-id: "027af64166562b09"
+      public-key: "sRmbdpwZ5gtUVEu1BMXE71DRHDWhBLCoLh6QiFazm2U"
+      short-id: "1b2a3f"

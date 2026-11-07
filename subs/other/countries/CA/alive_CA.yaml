@@ -1,6 +1,20 @@
 proxies:
   - name: "🇨🇦 [WL] Сервер 1"
     type: vless
+    server: canwec.kramiliantha.sbs
+    port: 443
+    uuid: "ed1d539a-8507-45de-8253-cbc272161473"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "canwec.kramiliantha.sbs"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oTsYnjjxzyoBI2rJn0TjihgaOcNMPa9bNwHhp4RdDkg"
+      short-id: "be7d0c9dda4dd4e6"
+  - name: "🇨🇦 [WL] Сервер 2"
+    type: vless
     server: 185.218.17.172
     port: 443
     uuid: "ed1d539a-8507-45de-8253-cbc272161473"
@@ -13,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "oTsYnjjxzyoBI2rJn0TjihgaOcNMPa9bNwHhp4RdDkg"
       short-id: "be7d0c9dda4dd4e6"
-  - name: "🇨🇦 [BL] Сервер 2"
+  - name: "🇨🇦 [BL] Сервер 3"
     type: vless
     server: 54.39.96.233
     port: 8080
@@ -27,7 +41,7 @@ proxies:
     reality-opts:
       public-key: "sQ_YHzotqhVJoUDAZl5kTzUqVN6ksh-MTikz_ixsZWc"
       short-id: "2b30"
-  - name: "🇨🇦 [BL] Сервер 3"
+  - name: "🇨🇦 [BL] Сервер 4"
     type: vless
     server: 209.200.246.148
     port: 443
@@ -41,7 +55,7 @@ proxies:
     reality-opts:
       public-key: "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk"
       short-id: "f98843107912e782"
-  - name: "🇨🇦 [BL] Сервер 4"
+  - name: "🇨🇦 [BL] Сервер 5"
     type: vless
     server: 78.17.93.30
     port: 443
@@ -55,7 +69,21 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇨🇦 [BL] Сервер 5"
+  - name: "🇨🇦 [BL] Сервер 6"
+    type: vless
+    server: ca1.fox-lisa.ru
+    port: 443
+    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ca1.fox-lisa.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
+      short-id: "027af64166562b09"
+  - name: "🇨🇦 [BL] Сервер 7"
     type: vless
     server: 81.19.140.181
     port: 443
@@ -69,7 +97,7 @@ proxies:
     reality-opts:
       public-key: "zN5buqMK95hn0mv3vKlfoOAi99ehuvP73cUuyNbZNWc"
       short-id: "dbd6b473c7038dd5"
-  - name: "🇨🇦 [BL] Сервер 6"
+  - name: "🇨🇦 [BL] Сервер 8"
     type: vless
     server: ca1.japancase.site
     port: 443
@@ -83,7 +111,7 @@ proxies:
     reality-opts:
       public-key: "zN5buqMK95hn0mv3vKlfoOAi99ehuvP73cUuyNbZNWc"
       short-id: "dbd6b473c7038dd5"
-  - name: "🇨🇦 [BL] Сервер 7"
+  - name: "🇨🇦 [BL] Сервер 9"
     type: vless
     server: 66.70.179.198
     port: 2053
@@ -96,7 +124,7 @@ proxies:
     reality-opts:
       public-key: "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU"
       short-id: "83f8317a948bb769"
-  - name: "🇨🇦 [BL] Сервер 8"
+  - name: "🇨🇦 [BL] Сервер 10"
     type: vless
     server: 198.100.154.175
     port: 8080
@@ -109,19 +137,9 @@ proxies:
     reality-opts:
       public-key: "2PYoIhSKvVE-DgFzPYGo4cD2b7_8Ul2Vm8QKGWH1sAo"
       short-id: "4b"
-  - name: "🇨🇦 [BL] Сервер 9"
+  - name: "🇨🇦 [BL] Сервер 11"
     type: ss
     server: 149.22.95.183
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇨🇦 [BL] Сервер 10"
-    type: vmess
-    server: 158.51.121.246
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true

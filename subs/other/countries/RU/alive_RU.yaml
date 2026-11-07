@@ -1,18 +1,18 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 188.130.209.204
-    port: 443
-    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
+    server: 147.45.104.86
+    port: 7443
+    uuid: "5d978525-bfa5-4b1e-b807-c4e2ac2db56d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "promo-digital.wb.ru"
-    client-fingerprint: "firefox"
+    servername: "max.ru"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
-      short-id: "d3f314d0b692f63d"
+      public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
+      short-id: "a7eb8a4e"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 147.45.104.86
@@ -29,32 +29,19 @@ proxies:
       short-id: "a7eb8a4e"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 147.45.104.86
-    port: 7443
-    uuid: "5d978525-bfa5-4b1e-b807-c4e2ac2db56d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "max.ru"
+    server: cdn.oldertown.ru
+    port: 443
+    uuid: "29777784-b5ad-4e2a-be7b-335f033ab97c"
+    network: "xhttp"
+    servername: "cdn.oldertown.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho"
-      short-id: "a7eb8a4e"
+    xhttp-opts:
+      path: "/api/v4/media/session/poll"
+      host: "cdn.oldertown.ru"
+      mode: "packet-up"
   - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: 83.147.246.12
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: yoy-api.bachidze.com
     port: 443
@@ -67,21 +54,53 @@ proxies:
     tls: true
     reality-opts:
       public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 6"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 92.243.66.79
+    server: 217.25.93.165
     port: 443
-    uuid: "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a"
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ru-mow.probe.geomyip.com"
-    client-fingerprint: "safari"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o"
-      short-id: "8d03c10b6a874a9c"
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 188.130.209.203
+    port: 443
+    uuid: "4a0812f0-f9d7-4afd-9ae3-6c38e1e59485"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "promo-digital.wb.ru"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc"
+      short-id: "d3f314d0b692f63d"
   - name: "🇷🇺 [WL] Сервер 7"
+    type: vless
+    server: 83.147.246.12
+    port: 443
+    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "yoy-api.bachidze.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: ss
+    server: 38.60.223.125
+    port: 13108
+    password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
+    cipher: "aes-128-gcm"
+  - name: "🇷🇺 [WL] Сервер 9"
     type: ss
     server: 46.29.166.155
     port: 18443
