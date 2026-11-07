@@ -1,0 +1,14 @@
+proxies:
+  - name: "🇦🇿 [WL] Сервер 1"
+    type: vless
+    server: 95.143.188.113
+    port: 443
+    uuid: "c47159bb-2c15-440d-b239-8594d7e7efbb"
+    network: "grpc"
+    servername: "jagamsrxd6.j.cloudfront.hls.vodcdn-edge.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "sync.v1"
+      grpc-mode: "multi"

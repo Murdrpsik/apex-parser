@@ -1,6 +1,20 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
+    server: 165.154.63.139
+    port: 443
+    uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.amazon.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
+      short-id: "ca4aedd4"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
     server: 85.155.149.190
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
@@ -13,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY"
       short-id: "bee10b047804c637"
-  - name: "🇭🇰 [BL] Сервер 2"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 209.33.160.122
     port: 39098
@@ -26,17 +40,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
-    server: 38.47.122.54
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tesla.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"

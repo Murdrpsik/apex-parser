@@ -4,7 +4,7 @@ proxies:
     server: 159.195.197.145
     port: 443
     uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "kenguru.plus-hit.ru"
     client-fingerprint: "random"

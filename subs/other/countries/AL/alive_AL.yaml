@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇦🇱 [BL] Сервер 1"
+    type: vless
+    server: 157.22.240.159
+    port: 443
+    uuid: "3c4aa500-e3ae-4778-837b-f02dfea8c85f"
+    network: "xhttp"
+    servername: "alb.play-cat.uk"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/static/js/chunk"
+      host: "alb.play-cat.uk"
+      mode: "stream-one"

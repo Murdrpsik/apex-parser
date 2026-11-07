@@ -1,0 +1,4 @@
+#profile-title: Apex UZ
+#profile-update-interval: 1
+vless://c47159bb-2c15-440d-b239-8594d7e7efbb@95.143.188.113:443?encryption=none&mode=gun&security=tls&serviceName=sync.v1&sni=ar5v3uc2o9.j.cloudfront.hls.hlsnode.net&type=grpc&fp=chrome#🇺🇿 [WL] Сервер 1
+vless://9f9c913b-0b78-4d14-a4db-560794cbc90f@46.8.114.205:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=QsUgVxHyjCKdtYBnBGoEM74F3k9uc2kimLPbf_qAAAM&security=reality&sid=bf8b003cb32c968b&sni=plov.plus-hit.ru&type=tcp#🇺🇿 [BL] Сервер 2

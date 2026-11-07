@@ -15,6 +15,34 @@ proxies:
       short-id: "7f1e29593aa94ad1"
   - name: "🇺🇦 [BL] Сервер 2"
     type: vless
+    server: staging.lastilhame.monster
+    port: 443
+    uuid: "455cfdc6-9abf-4e40-863f-5ff6cc63457c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
+      short-id: "18e4d2d21241"
+  - name: "🇺🇦 [BL] Сервер 3"
+    type: vless
+    server: 104.253.216.227
+    port: 443
+    uuid: "2f6e2b17-4d5e-4a12-8979-f53fdd347580"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.mozilla.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
+      short-id: "5c8a8e6c615b"
+  - name: "🇺🇦 [BL] Сервер 4"
+    type: vless
     server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"

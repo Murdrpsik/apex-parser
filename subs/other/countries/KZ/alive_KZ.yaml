@@ -1,16 +1,17 @@
 proxies:
-  - name: "🇰🇿 [BL] Сервер 1"
+  - name: "🇰🇿 [WL] Сервер 1"
     type: vless
     server: 95.143.188.113
     port: 443
     uuid: "c47159bb-2c15-440d-b239-8594d7e7efbb"
     network: "grpc"
     servername: "tz5gtjwlki.j.cloudfront.hls.hlsnode.net"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     grpc-opts:
       grpc-service-name: "sync.v1"
+      grpc-mode: "multi"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
     server: 95.57.50.87
@@ -38,18 +39,3 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 4"
-    type: vless
-    server: 38.180.206.44
-    port: 48982
-    uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
-    network: "xhttp"
-    servername: "cdn3-88.yahoo.com"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"

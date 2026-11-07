@@ -13,3 +13,17 @@ proxies:
     reality-opts:
       public-key: "Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4"
       short-id: "cff998a4"
+  - name: "🇹🇼 [BL/AI] Сервер 2"
+    type: vless
+    server: 161.114.15.215
+    port: 30446
+    uuid: "607fbb3e-9322-478a-bb03-3ad95625fb2b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OPUIAxCmpuou26qir1UrWcF1Iia5n1mxdQoWhvcJ4D4"
+      short-id: "b5c1fb7084602d93"

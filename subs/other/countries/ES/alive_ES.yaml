@@ -4,10 +4,10 @@ proxies:
     server: 46.28.71.247
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

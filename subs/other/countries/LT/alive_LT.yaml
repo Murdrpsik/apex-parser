@@ -15,24 +15,10 @@ proxies:
       short-id: "7c8e3d4a9b1f26d3"
   - name: "🇱🇹 [BL] Сервер 2"
     type: vless
-    server: app26.betust.net
-    port: 443
-    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "app26.betust.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
-      short-id: "d44d6d46"
-  - name: "🇱🇹 [BL] Сервер 3"
-    type: vless
     server: 84.32.151.159
     port: 443
     uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "app26.betust.net"
     client-fingerprint: "chrome"
@@ -41,16 +27,19 @@ proxies:
     reality-opts:
       public-key: "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc"
       short-id: "d44d6d46"
-  - name: "🇱🇹 [BL] Сервер 4"
+  - name: "🇱🇹 [BL] Сервер 3"
     type: vless
-    server: 31.76.83.1
+    server: 5.199.174.25
     port: 443
-    uuid: "caedb3a1-6395-40b9-a9a8-4b9694eb224a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.rimi.lv"
+    uuid: "acc50200-7f21-4f90-9cca-0057efcbf042"
+    network: "xhttp"
+    servername: "aiartstudios.best"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU"
+      public-key: "DFR6MJcTN1bhukm7KS3IQSBDGPhTiPBwhZ3_brvwSlM"
+      short-id: "db724eb12631c05f"
+    xhttp-opts:
+      path: "/"
+      host: "aiartstudios.best"
