@@ -1,6 +1,6 @@
 #profile-title: Apex KZ
 #profile-update-interval: 1
-vless://dc95c1dd-2cd3-414c-8cf1-71ae86dad666@kz-cdn-prsv-forum.keno.su:443?security=reality&encryption=none&pbk=Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=kz-cdn-prsv-forum.keno.su&sid=14324280#🇰🇿 [BL] Сервер 1
-vless://dc95c1dd-2cd3-414c-8cf1-71ae86dad666@90.156.230.179:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY&security=reality&sid=14324280&sni=kz-cdn-prsv-forum.keno.su&type=tcp#🇰🇿 [BL] Сервер 2
+vless://dc95c1dd-2cd3-414c-8cf1-71ae86dad666@90.156.230.179:443?encryption=none&flow=xtls-rprx-vision&pbk=Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY&security=reality&sid=14324280&sni=kz-cdn-prsv-forum.keno.su&type=tcp&fp=ios#🇰🇿 [WL] Сервер 1
+vless://a80acd3a-3df5-40b5-a54a-29bb18056115@38.180.206.44:48982?encryption=none&type=xhttp&security=reality&sni=cdn3-88.yahoo.com&fp=safari&pbk=A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE&mode=auto#🇰🇿 [BL] Сервер 2
 vless://db80088c-32a1-4cb8-a907-0f3cb7844152@95.57.50.87:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=eV6ewGF7oTHf2pTQHKYvwJt-vU8hUC-1CjiUl20HtXE&security=reality&sid=4000cdda6278d236&sni=kz1.japancase.site&type=tcp#🇰🇿 [BL] Сервер 3
 vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#🇰🇿 [BL] Сервер 4

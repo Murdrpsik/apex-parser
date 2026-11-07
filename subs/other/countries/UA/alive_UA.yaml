@@ -15,20 +15,21 @@ proxies:
       short-id: "60500a63ad12"
   - name: "🇺🇦 [BL] Сервер 2"
     type: vless
-    server: 31.222.235.81
+    server: staging.lastilhame.monster
     port: 443
-    uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
+    uuid: "106d20f6-d70a-40e2-b69b-8e82baf8d117"
     network: "tcp"
-    servername: "www.cloudflare.com"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
-      short-id: "d8b58872"
+      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
+      short-id: "60500a63ad12"
   - name: "🇺🇦 [BL] Сервер 3"
     type: vless
-    server: netx.smrtai.top
+    server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
     network: "tcp"

@@ -1,5 +1,5 @@
 proxies:
-  - name: "🇱🇻 [BL] Сервер 1"
+  - name: "🇱🇻 [WL] Сервер 1"
     type: vless
     server: 195.123.213.28
     port: 443
@@ -7,26 +7,13 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
-    type: vless
-    server: 81.177.215.122
-    port: 443
-    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "latino.plus-hit.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI"
-      short-id: "7c8e3d4a9b1f26d3"
-  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -39,7 +26,7 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
-  - name: "🇱🇻 [BL] Сервер 4"
+  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 138.124.180.137
     port: 443
@@ -53,6 +40,19 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
+  - name: "🇱🇻 [BL] Сервер 4"
+    type: vless
+    server: 217.60.60.243
+    port: 443
+    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lv.peregrine-sub.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
   - name: "🇱🇻 [BL] Сервер 5"
     type: vless
     server: 104.252.53.69
@@ -61,7 +61,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

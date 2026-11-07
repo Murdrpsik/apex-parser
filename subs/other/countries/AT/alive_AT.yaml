@@ -41,3 +41,17 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
+  - name: "🇦🇹 [BL] Сервер 4"
+    type: vless
+    server: fdat.titun.su
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "banket-restoran.su"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"

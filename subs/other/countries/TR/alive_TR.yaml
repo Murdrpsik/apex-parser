@@ -1,5 +1,21 @@
 proxies:
-  - name: "🇹🇷 [BL] Сервер 1"
+  - name: "🇹🇷 [WL] Сервер 1"
+    type: vless
+    server: 91.232.103.42
+    port: 8443
+    uuid: "5b7aa6c7-79ec-4047-9029-14457aff858a"
+    network: "xhttp"
+    servername: "download.amd.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "7BNFWKdxZYCXygEHvFH8GwKkRyhJQUN4OLWaXaODMg0"
+      short-id: "bcb91103a4cc25fd"
+    xhttp-opts:
+      path: "/api/v1/update"
+      host: "download.amd.com"
+  - name: "🇹🇷 [BL] Сервер 2"
     type: vless
     server: 217.11.164.183
     port: 2102
@@ -12,7 +28,7 @@ proxies:
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "68c328105c"
-  - name: "🇹🇷 [BL] Сервер 2"
+  - name: "🇹🇷 [BL] Сервер 3"
     type: vless
     server: 45.74.158.57
     port: 2218
@@ -24,19 +40,6 @@ proxies:
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "cc80ef"
-  - name: "🇹🇷 [BL] Сервер 3"
-    type: vless
-    server: helllo.com.tr
-    port: 2216
-    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
-    network: "tcp"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
-      short-id: "ddaaf1630788aeac"
   - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 151.241.226.201
@@ -80,3 +83,17 @@ proxies:
     grpc-opts:
       grpc-service-name: "GunService"
       grpc-mode: "gun"
+  - name: "🇹🇷 [BL] Сервер 7"
+    type: vless
+    server: 94.184.35.87
+    port: 2092
+    uuid: "f60879c7-ce0b-47be-b208-d889558bc7bb"
+    network: "ws"
+    servername: "cert.pcapps.ir"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tun4.videobazi.com"

@@ -28,81 +28,19 @@ proxies:
       public-key: "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc"
   - name: "🇸🇪 [BL] Сервер 3"
     type: vless
-    server: nodevalora.ru
+    server: 136.148.223.4
     port: 443
-    uuid: "1aa2cc4f-e2c6-4e9b-89d2-97e2c608b796"
+    uuid: "70ae59c1-0f16-4030-9467-b3c38102c821"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "nodevalora.ru"
+    servername: "se.genafast.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "LE02HoXSEqja6Xor492CiDsIJ_CeyLj_JY_XTZlT2zY"
-      short-id: "c8437f7f4eeae046"
+      public-key: "hJkE2Dd6ND6gH2H2KmtAYa6GhNOiKpAotuOOKcwunyc"
+      short-id: "95fbcabc662be802"
   - name: "🇸🇪 [BL] Сервер 4"
-    type: vless
-    server: 89.22.232.197
-    port: 443
-    uuid: "1aa2cc4f-e2c6-4e9b-89d2-97e2c608b796"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nodevalora.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LE02HoXSEqja6Xor492CiDsIJ_CeyLj_JY_XTZlT2zY"
-      short-id: "c8437f7f4eeae046"
-  - name: "🇸🇪 [BL] Сервер 5"
-    type: vless
-    server: se3.shtil.io
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: "tcp"
-    servername: "se3.shtil.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [BL] Сервер 6"
-    type: vless
-    server: 194.104.94.141
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: "tcp"
-    servername: "se3.shtil.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [BL] Сервер 7"
-    type: vless
-    server: 45.86.67.114
-    port: 8443
-    uuid: "6eaf5e8f-e4fe-4dc7-a1cd-f24343536abe"
-    network: "grpc"
-    servername: "us1.kittieslabs.tech"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "vzxQR7aijDhEEV2Dq6P6eFJckkgOLTq86bySpqVGsQo"
-      short-id: "de9061cbed448be3"
-    grpc-opts:
-      grpc-service-name: "us-tor"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 2.26.93.109
-    port: 4443
-    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
-    network: "xhttp"
-    servername: "swo2.nexfile.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/sync/"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 193.233.252.43
     port: 443
@@ -116,7 +54,17 @@ proxies:
     reality-opts:
       public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
       short-id: "41ae8e266bc3346f"
-  - name: "🇸🇪 [BL] Сервер 10"
+  - name: "🇸🇪 [BL] Сервер 5"
+    type: vless
+    server: 194.104.94.141
+    port: 443
+    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
+    network: "tcp"
+    servername: "se3.shtil.io"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -128,7 +76,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-  - name: "🇸🇪 [BL] Сервер 11"
+  - name: "🇸🇪 [BL] Сервер 7"
     type: vless
     server: 193.25.216.31
     port: 443
@@ -142,7 +90,7 @@ proxies:
     reality-opts:
       public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
       short-id: "a1037b25dcef6aa7"
-  - name: "🇸🇪 [BL] Сервер 12"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 31.76.81.144
     port: 443
@@ -156,7 +104,7 @@ proxies:
     reality-opts:
       public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
       short-id: "a1037b25dcef6aa7"
-  - name: "🇸🇪 [BL] Сервер 13"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 193.25.216.88
     port: 443
@@ -170,7 +118,7 @@ proxies:
     reality-opts:
       public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
       short-id: "a1037b25dcef6aa7"
-  - name: "🇸🇪 [BL] Сервер 14"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
     server: 31.77.111.11
     port: 43439
@@ -185,7 +133,7 @@ proxies:
       short-id: "ae99c61853e8a6ae"
     grpc-opts:
       grpc-service-name: "streaming"
-  - name: "🇸🇪 [BL] Сервер 15"
+  - name: "🇸🇪 [BL] Сервер 11"
     type: vless
     server: 168.113.188.144
     port: 443
@@ -199,9 +147,19 @@ proxies:
     reality-opts:
       public-key: "vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI"
       short-id: "db71028aeb67289c"
-  - name: "🇸🇪 [BL] Сервер 16"
+  - name: "🇸🇪 [BL] Сервер 12"
     type: vmess
     server: 62.93.166.184
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇸🇪 [BL] Сервер 13"
+    type: vmess
+    server: 138.199.55.230
     port: 1270
     uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"

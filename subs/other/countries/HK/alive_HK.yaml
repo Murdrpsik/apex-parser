@@ -1,47 +1,6 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: dddz-3-z.473221.xyz
-    port: 13212
-    uuid: "65ec84f5-0dd4-4582-8b4f-592e50b22116"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "v1-dy.ixigua.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY"
-      short-id: "961f7127a015ba"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
-    server: hk3n.wxgqlfx.vip
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
-    server: 209.33.160.122
-    port: 39098
-    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dash.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
-  - name: "🇭🇰 [BL] Сервер 4"
-    type: vless
     server: 165.154.63.139
     port: 443
     uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
@@ -54,7 +13,20 @@ proxies:
     reality-opts:
       public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
       short-id: "ca4aedd4"
-  - name: "🇭🇰 [BL] Сервер 5"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
+    server: 209.33.160.122
+    port: 39098
+    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dash.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 85.155.149.190
     port: 443
@@ -68,27 +40,3 @@ proxies:
     reality-opts:
       public-key: "pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY"
       short-id: "bee10b047804c637"
-  - name: "🇭🇰 [BL] Сервер 6"
-    type: vless
-    server: hk010.zestapp778.com
-    port: 31884
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "hk010.zestapp778.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇭🇰 [BL] Сервер 7"
-    type: vless
-    server: 103.149.91.176
-    port: 17100
-    uuid: "6e1fa926-5ef0-4a11-ac67-3d394d36247c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Loy2FtO5PutrMmM4K4qFyG0_KrZhQ5xgomecNrFFLCM"
-      short-id: "0d5c6e30"

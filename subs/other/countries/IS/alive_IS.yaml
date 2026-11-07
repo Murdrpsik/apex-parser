@@ -6,7 +6,7 @@ proxies:
     uuid: "b4e69d67-9d41-417c-b465-ebf1591fb792"
     network: "tcp"
     servername: "google.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

@@ -19,13 +19,27 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "44a66b4f-8cb8-436b-875c-324210936155"
+    uuid: "124630fb-873a-4fc5-8305-54d9f8eef82f"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"
-    client-fingerprint: "qq"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
       public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
       short-id: "ac"
+  - name: "🇵🇪 [BL] Сервер 4"
+    type: vless
+    server: 134.185.81.5
+    port: 47881
+    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.tesla.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
+      short-id: "38d72071"

@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇰🇿 [BL] Сервер 1"
-    type: vless
-    server: kz-cdn-prsv-forum.keno.su
-    port: 443
-    uuid: "dc95c1dd-2cd3-414c-8cf1-71ae86dad666"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kz-cdn-prsv-forum.keno.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY"
-      short-id: "14324280"
-  - name: "🇰🇿 [BL] Сервер 2"
+  - name: "🇰🇿 [WL] Сервер 1"
     type: vless
     server: 90.156.230.179
     port: 443
@@ -21,12 +7,27 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "kz-cdn-prsv-forum.keno.su"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY"
       short-id: "14324280"
+  - name: "🇰🇿 [BL] Сервер 2"
+    type: vless
+    server: 38.180.206.44
+    port: 48982
+    uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
+    network: "xhttp"
+    servername: "cdn3-88.yahoo.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
   - name: "🇰🇿 [BL] Сервер 3"
     type: vless
     server: 95.57.50.87

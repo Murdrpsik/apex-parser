@@ -1,3 +1,0 @@
-#profile-title: Apex SC
-#profile-update-interval: 1
-vless://46d221fa-e9b4-748c-4eae-019a88e42991@191.44.112.170.sslip.io:443?path=%2Ftvpn-tor%2Fsc&security=tls&encryption=none&insecure=0&host=orbylume.my.to&fp=chrome&type=ws&allowInsecure=0&sni=orbylume.my.to#🇸🇨 [BL] Сервер 1
