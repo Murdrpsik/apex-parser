@@ -1,26 +1,9 @@
 proxies:
   - name: "🇱🇹 [BL] Сервер 1"
     type: vless
-    server: 5.199.174.25
-    port: 443
-    uuid: "acc50200-7f21-4f90-9cca-0057efcbf042"
-    network: "xhttp"
-    servername: "aiartstudios.best"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "DFR6MJcTN1bhukm7KS3IQSBDGPhTiPBwhZ3_brvwSlM"
-      short-id: "db724eb12631c05f"
-    xhttp-opts:
-      path: "/"
-      host: "aiartstudios.best"
-      mode: "auto"
-  - name: "🇱🇹 [BL] Сервер 2"
-    type: vless
     server: 45.81.252.143
     port: 2053
-    uuid: "5adf559d-252c-489b-baf5-bec895a16aca"
+    uuid: "53555197-bf0a-49e6-bea1-211fcfc1d962"
     network: "grpc"
     servername: "germany3.banovano.space"
     client-fingerprint: "edge"

@@ -13,35 +13,147 @@ proxies:
       path: "/service/telemetry/045d381f1166/"
       headers:
         Host: "bhjolq0d0l.flowersgood.top"
-  - name: "🇵🇱 [WL] Сервер 2"
+  - name: "🇵🇱 [BL] Сервер 2"
     type: vless
-    server: 201.58.181.231
-    port: 4443
-    uuid: "fafc7c16-f890-45ee-a856-02df225172dd"
+    server: 82.118.22.161
+    port: 443
+    uuid: "05488656-d4bf-4634-8b2e-e4ff5a56c7e2"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.kinopoisk.ru"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E"
+      short-id: "fa3ea655619a3e78"
+  - name: "🇵🇱 [BL] Сервер 3"
+    type: vless
+    server: 150.251.113.34
+    port: 443
+    uuid: "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "kn7Lh0yi6CYrHW5KpiQrfrs9FED-mbbEEKgOoiDkx2M"
-      short-id: "858affa9443ebac6"
-  - name: "🇵🇱 [WL] Сервер 3"
-    type: vless
-    server: 201.58.181.231
-    port: 2083
-    uuid: "fafc7c16-f890-45ee-a856-02df225172dd"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ya.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uKk4cvAJii_YbhzUm9IeMKLHR851E_1sfiMP-ncyeyM"
-      short-id: "e69c662141e37e7b"
+      public-key: "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8"
+      short-id: "150a627d15154cf2"
   - name: "🇵🇱 [BL] Сервер 4"
+    type: vless
+    server: 31.76.32.122
+    port: 443
+    uuid: "71b566cb-78c4-48e4-af5b-720e4f7884f2"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "p1.xvanta.online"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI"
+      short-id: "cb33163cf9c03ab1"
+  - name: "🇵🇱 [BL] Сервер 5"
+    type: vless
+    server: 150.251.112.45
+    port: 2066
+    uuid: "f333ac5d-1e0b-4947-a123-7bb605803ad8"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tiktok.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg"
+      short-id: "d18f4e"
+  - name: "🇵🇱 [BL] Сервер 6"
+    type: vless
+    server: 222.167.245.16
+    port: 443
+    uuid: "7d43670b-6b08-45b9-8a24-8f3971abc132"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "poland.biznes.lol"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk"
+  - name: "🇵🇱 [BL] Сервер 7"
+    type: vless
+    server: pl.song69.fun
+    port: 8444
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
+    network: "xhttp"
+    servername: "pl1.song69.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NfjMIX4n7y4JjlX1v2G69ReU_iUm8dNkKJdJvEtXwDY"
+      short-id: "f473bdddee26cfc6"
+    xhttp-opts:
+      path: "/api/443/download/"
+      mode: "packet-up"
+  - name: "🇵🇱 [BL] Сервер 8"
+    type: vless
+    server: 177.3.252.25
+    port: 443
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "pl1.song69.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM"
+      short-id: "0c774b50"
+  - name: "🇵🇱 [BL] Сервер 9"
+    type: vless
+    server: 13.143.167.154
+    port: 443
+    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "pl-balancer.peregrine-sub.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
+  - name: "🇵🇱 [BL] Сервер 10"
+    type: vless
+    server: 94.183.234.245
+    port: 443
+    uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.bing.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
+      short-id: "7f1e29593aa94ad1"
+  - name: "🇵🇱 [BL] Сервер 11"
+    type: vless
+    server: 151.101.36.128
+    port: 443
+    uuid: "67cd3349-f789-4cbb-8b91-4b6b1654ce7c"
+    network: "xhttp"
+    servername: "accounts.fastly.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
+      host: "ovd7.global.ssl.fastly.net"
+      mode: "auto"
+  - name: "🇵🇱 [BL] Сервер 12"
     type: vless
     server: 45.194.66.192
     port: 61374
@@ -57,99 +169,29 @@ proxies:
       path: "/"
       host: "cz.pythonmakemigreat.wiki"
       mode: "packet-up"
-  - name: "🇵🇱 [BL] Сервер 5"
+  - name: "🇵🇱 [BL] Сервер 13"
     type: vless
-    server: 13.143.167.154
+    server: 129.101.103.20
     port: 443
-    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "pl-balancer.peregrine-sub.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇵🇱 [BL] Сервер 6"
-    type: vless
-    server: 94.183.234.245
-    port: 443
-    uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
+    uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.bing.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
-      short-id: "7f1e29593aa94ad1"
-  - name: "🇵🇱 [BL] Сервер 7"
-    type: vless
-    server: 31.76.32.122
-    port: 443
-    uuid: "71b566cb-78c4-48e4-af5b-720e4f7884f2"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "p1.xvanta.online"
+    servername: "nl2-edge.gacvpn.site"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI"
-      short-id: "cb33163cf9c03ab1"
-  - name: "🇵🇱 [BL] Сервер 8"
+      public-key: "ZrIwTVGx75Dkh7b7eKnczKFkkADOfSnVgeqYXTlUhUI"
+  - name: "🇵🇱 [BL] Сервер 14"
     type: vless
-    server: 222.167.245.16
+    server: 129.101.103.117
     port: 443
-    uuid: "7d43670b-6b08-45b9-8a24-8f3971abc132"
+    uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "poland.biznes.lol"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk"
-  - name: "🇵🇱 [BL] Сервер 9"
-    type: vless
-    server: 150.251.113.34
-    port: 443
-    uuid: "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8"
-      short-id: "150a627d15154cf2"
-  - name: "🇵🇱 [BL] Сервер 10"
-    type: vless
-    server: 151.101.36.128
-    port: 443
-    uuid: "67cd3349-f789-4cbb-8b91-4b6b1654ce7c"
-    network: "xhttp"
-    servername: "accounts.fastly.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      host: "ovd7.global.ssl.fastly.net"
-      mode: "auto"
-  - name: "🇵🇱 [BL] Сервер 11"
-    type: vless
-    server: 150.251.112.45
-    port: 2066
-    uuid: "f333ac5d-1e0b-4947-a123-7bb605803ad8"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tiktok.com"
+    servername: "pl2-edge.gacvpn.site"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg"
-      short-id: "d18f4e"
+      public-key: "cuONLHT6sUKpRRNna55H_1ofXRSfA_XVOfr9ACE6vHY"

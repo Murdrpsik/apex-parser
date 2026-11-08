@@ -1,3 +1,0 @@
-#profile-title: Apex NO
-#profile-update-interval: 1
-vless://528c9248-7b50-45fb-9188-e46d889dafe6@185.186.143.76:443?type=grpc&security=reality&fp=edge&pbk=6vDdlh4aAipoRQ-IXDjzTUtKpZS09xtNXIisCa__2CM&sid=f74c6a18133e2e72&sni=ru-kitchen.ru&serviceName=grpc&spx=%2F&encryption=none#🇳🇴 [BL] Сервер 1

@@ -1,7 +1,13 @@
 proxies:
   - name: "🇺🇸 [AI] Сервер 1"
     type: ss
-    server: 88.216.254.18
-    port: 1080
-    password: "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
-    cipher: "chacha20-ietf-poly1305"
+    server: 185.215.132.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 2"
+    type: ss
+    server: 185.215.132.9
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"

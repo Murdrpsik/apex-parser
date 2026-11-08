@@ -5,7 +5,6 @@ proxies:
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
-    client-fingerprint: "chrome"
     udp: true
   - name: "🇧🇷 [WL] Сервер 2"
     type: trojan
@@ -19,11 +18,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "2c489211-4ba4-49f8-a8dc-14def7807702"
+    uuid: "46bf5d92-4d75-41c5-954e-4e027ab43e0a"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"
-    client-fingerprint: "safari"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:

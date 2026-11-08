@@ -1,8 +1,6 @@
 #profile-title: Apex CF
 #profile-update-interval: 1
-vless://50414e45-4c5f-5a45-5553-974cf37772bb@185.243.112.197:443?encryption=none&type=ws&security=tls&sni=yfz9dmeruxus.wfewf209v5ef.workers.dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F974cf37772bb#🇫🇷 [CF] Сервер 1
-vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mental-deprivation.ru&fp=firefox&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&sid=4ff31b18d1bd8227&spx=%2F5f73ebfc9ef9c37&type=tcp&headerType=none#🇩🇪 [CF] Сервер 2
-vless://711b6476-63fc-4f01-b4e0-d44e17d79383@80.240.18.227:10051?encryption=none&fp=firefox&host=o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev&path=%2F&security=tls&sni=o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev&type=ws#🇯🇵 [CF] Сервер 3
-vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 4
-vless://50414e45-4c5f-5a45-5553-49055dd7a227@188.253.27.191:443?encryption=none&type=ws&security=tls&sni=70zia4elut7s.tersg587ga2min.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F49055dd7a227#🇫🇷 [CF] Сервер 5
-vless://50414e45-4c5f-5a45-5553-e759cf52c6be@176.118.214.216:443?encryption=none&type=ws&security=tls&sni=9lz3z5efu8os.gamewizardbac1k.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2Fe759cf52c6be#🇫🇷 [CF] Сервер 6
+vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mental-deprivation.ru&fp=firefox&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&sid=4ff31b18d1bd8227&spx=%2F5f73ebfc9ef9c37&type=tcp&headerType=none#🇩🇪 [CF] Сервер 1
+vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 2
+vless://50414e45-4c5f-5a45-5553-49055dd7a227@188.253.27.191:443?encryption=none&type=ws&security=tls&sni=70zia4elut7s.tersg587ga2min.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F49055dd7a227#🇫🇷 [CF] Сервер 3
+vless://50414e45-4c5f-5a45-5553-e759cf52c6be@176.118.214.216:443?encryption=none&type=ws&security=tls&sni=9lz3z5efu8os.gamewizardbac1k.workers.Dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2Fe759cf52c6be#🇫🇷 [CF] Сервер 4

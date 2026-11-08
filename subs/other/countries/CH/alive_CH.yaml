@@ -35,7 +35,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -59,13 +59,27 @@ proxies:
       host: "d0f7fax.ch5.h1clayd.click"
   - name: "🇨🇭 [BL] Сервер 5"
     type: vless
-    server: 157.22.185.60
+    server: 62.109.1.5
     port: 2058
     uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
+      short-id: "937255313d6ce673"
+  - name: "🇨🇭 [BL] Сервер 6"
+    type: vless
+    server: 109.172.114.57
+    port: 2058
+    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

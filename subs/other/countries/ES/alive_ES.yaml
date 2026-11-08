@@ -4,7 +4,7 @@ proxies:
     server: 46.28.71.247
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
@@ -15,32 +15,34 @@ proxies:
       short-id: "0dfc23fe80778c00"
   - name: "🇪🇸 [BL] Сервер 2"
     type: vless
-    server: 196.245.153.110
-    port: 443
-    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
-    network: "tcp"
-    servername: "230b29t.es8.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0"
-      short-id: "91313fc9f7571857"
-  - name: "🇪🇸 [BL] Сервер 3"
-    type: vless
-    server: 45.198.55.14
+    server: 79.182.70.202
     port: 443
     uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
     network: "grpc"
-    servername: "49930ag.es8.h1clayd.click"
+    servername: "02104dg.es7.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw"
-      short-id: "2437eeeb791b6d80"
+      public-key: "AK4PrvaK2WV1v1NEegq2rE53gVnlXUw_jo3XwA1aIEI"
+      short-id: "7d0aaf84998bfe61"
     grpc-opts:
-      grpc-service-name: "61c20be08f4f"
+      grpc-service-name: "af7e99c1e3f1"
+  - name: "🇪🇸 [BL] Сервер 3"
+    type: vless
+    server: 196.196.149.43
+    port: 443
+    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    network: "xhttp"
+    servername: "e83786x.es7.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DlFEcOAK1iNS7td2bzMpyQSiGkWlIxum6fOXZjEfxDg"
+      short-id: "3c399ee135b104d9"
+    xhttp-opts:
+      path: "/95630fba747e"
   - name: "🇪🇸 [BL] Сервер 4"
     type: vless
     server: 196.245.217.50
@@ -63,6 +65,7 @@ proxies:
     uuid: "585a421d-d782-4420-912e-dd58ff5966d7"
     network: "tcp"
     servername: "play.googleapis.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -70,10 +73,38 @@ proxies:
       short-id: "974f7f8f"
   - name: "🇪🇸 [BL] Сервер 6"
     type: vless
+    server: 45.198.55.14
+    port: 443
+    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    network: "grpc"
+    servername: "49930ag.es8.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw"
+      short-id: "2437eeeb791b6d80"
+    grpc-opts:
+      grpc-service-name: "61c20be08f4f"
+  - name: "🇪🇸 [BL] Сервер 7"
+    type: vless
+    server: 196.196.148.87
+    port: 443
+    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    network: "tcp"
+    servername: "230b29t.es8.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0"
+      short-id: "91313fc9f7571857"
+  - name: "🇪🇸 [BL] Сервер 8"
+    type: vless
     server: 212.227.235.66
     port: 2053
     uuid: "ead0dd61-d398-40ad-80d6-a0e1e516d7d3"
-    network: "tcp"
+    network: "raw"
     servername: "www.apple.com"
     client-fingerprint: "chrome"
     udp: true
@@ -81,7 +112,19 @@ proxies:
     reality-opts:
       public-key: "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk"
       short-id: "29e8dcd2b37aaa7f"
-  - name: "🇪🇸 [BL] Сервер 7"
+  - name: "🇪🇸 [BL] Сервер 9"
+    type: vless
+    server: 84.32.108.4
+    port: 443
+    uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
+    network: "xhttp"
+    servername: "7d1a74fd.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/es/?"
+  - name: "🇪🇸 [BL] Сервер 10"
     type: vless
     server: 84.32.184.214
     port: 443

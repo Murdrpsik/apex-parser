@@ -1,27 +1,13 @@
 proxies:
   - name: "🇦🇺 [BL] Сервер 1"
     type: vless
-    server: 170.114.52.22
-    port: 443
-    uuid: "d031228f-7065-4a4e-8999-b7faf8c302c8"
-    network: "ws"
-    servername: "info.shalanax.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "info.shalanax.com"
-  - name: "🇦🇺 [BL] Сервер 2"
-    type: vless
     server: 51.161.204.242
     port: 443
     uuid: "3c778768-d511-4221-8be3-3eba45640e9e"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

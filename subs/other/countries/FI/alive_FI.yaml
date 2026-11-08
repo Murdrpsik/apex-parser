@@ -43,19 +43,85 @@ proxies:
       short-id: "d52d3ecf49447c2a"
   - name: "🇫🇮 [BL] Сервер 4"
     type: vless
-    server: 91.192.158.121
+    server: 45.38.143.210
+    port: 30584
+    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
+    network: "tcp"
+    servername: "m.vk.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
+      short-id: "67ece882d65d0f1a"
+  - name: "🇫🇮 [BL] Сервер 5"
+    type: vless
+    server: 179.253.82.24
     port: 443
-    uuid: "16f5041e-7a72-44a0-afbf-744ec2bf1cc9"
+    uuid: "8986720a-80bb-4c7e-a3af-ff5374e198a9"
+    network: "grpc"
+    servername: "finland2.banovano.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇫🇮 [BL] Сервер 6"
+    type: vless
+    server: 78.40.193.180
+    port: 443
+    uuid: "0f11b72f-1af1-4f0a-b992-87a8241d9213"
+    network: "xhttp"
+    servername: "packages.gitlab.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FLewL4WGvCzo0NM2pGabhZVPlw0WKpNHIC9nksuoL30"
+      short-id: "6969b2e2be858cb3"
+    xhttp-opts:
+      path: "/assets/28ca4df9"
+      host: "78.40.193.180"
+      mode: "auto"
+  - name: "🇫🇮 [BL] Сервер 7"
+    type: vless
+    server: 13.143.173.15
+    port: 443
+    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "fi1.xshoponline.ru"
+    servername: "google.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+      short-id: "00000000"
+  - name: "🇫🇮 [BL] Сервер 8"
+    type: vless
+    server: 95.216.27.15
+    port: 2053
+    uuid: "b79d736d-0f10-4169-b626-362059d18204"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
+      short-id: "10351b07c712d2a2"
+  - name: "🇫🇮 [BL] Сервер 9"
+    type: vless
+    server: 31.76.103.92
+    port: 443
+    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "fi.peregrine-sub.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "kQA6OoK-g7DGi-4mmo4MtDUJM0QQ8G2IJgEpmslIrUU"
-      short-id: "b867ba36380610c0"
-  - name: "🇫🇮 [BL] Сервер 5"
+      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
+  - name: "🇫🇮 [BL] Сервер 10"
     type: vless
     server: 5.129.249.155
     port: 443
@@ -69,20 +135,7 @@ proxies:
     reality-opts:
       public-key: "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU"
       short-id: "b9120cd53ffd7bba"
-  - name: "🇫🇮 [BL] Сервер 6"
-    type: vless
-    server: 217.144.188.185
-    port: 443
-    uuid: "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.nordea.fi"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-  - name: "🇫🇮 [BL] Сервер 7"
+  - name: "🇫🇮 [BL] Сервер 11"
     type: vless
     server: 31.76.46.221
     port: 10851
@@ -97,51 +150,20 @@ proxies:
       short-id: "aacd5d42a33b2a4e"
     grpc-opts:
       grpc-service-name: "grpc_common1"
-      grpc-mode: "gun"
-  - name: "🇫🇮 [BL] Сервер 8"
+  - name: "🇫🇮 [BL] Сервер 12"
     type: vless
-    server: 84.38.184.87
-    port: 2089
-    uuid: "a628c583-24a8-4ce5-98ad-c6458abf1cc4"
-    network: "grpc"
-    servername: "s3.storage.selcloud.ru"
+    server: 217.144.188.185
+    port: 443
+    uuid: "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.nordea.fi"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "TGbaO5ocPEkI3J1M7y_TPvZheJa-N_rL7GSiluX-XB8"
-      short-id: "37103087"
-    grpc-opts:
-      grpc-service-name: "cas-fi"
-  - name: "🇫🇮 [BL] Сервер 9"
-    type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
-    network: "tcp"
-    servername: "m.vk.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
-  - name: "🇫🇮 [BL] Сервер 10"
-    type: vless
-    server: 84.38.184.126
-    port: 2089
-    uuid: "a628c583-24a8-4ce5-98ad-c6458abf1cc4"
-    network: "grpc"
-    servername: "s3.storage.selcloud.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4Ba7EKm90gUC57U-0WtkSVXgmeLzR9TG5Qw3dqgjbDQ"
-      short-id: "c1db0a1b"
-    grpc-opts:
-      grpc-service-name: "cas-fi"
-  - name: "🇫🇮 [BL] Сервер 11"
+      public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
+  - name: "🇫🇮 [BL] Сервер 13"
     type: vless
     server: 78.17.39.129
     port: 443
@@ -154,21 +176,7 @@ proxies:
     xhttp-opts:
       path: "/assets/finvip02/"
       mode: "packet-up"
-  - name: "🇫🇮 [BL] Сервер 12"
-    type: vless
-    server: 13.143.173.15
-    port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "google.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-      short-id: "00000000"
-  - name: "🇫🇮 [BL] Сервер 13"
+  - name: "🇫🇮 [BL] Сервер 14"
     type: vless
     server: 130.12.45.48
     port: 443
@@ -181,3 +189,17 @@ proxies:
     reality-opts:
       public-key: "mtHVQjuS2N_7hfKndw8eMTTGlDPtBKW2oY1z787bIys"
       short-id: "247c3ddf502a72"
+  - name: "🇫🇮 [BL] Сервер 15"
+    type: vless
+    server: 5.129.194.9
+    port: 443
+    uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fi3-edge.gacvpn.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "QjYksCdraKvxMG024774_EOZjxtIB7xHm3GYGx3oN1Y"
+      short-id: "c59bb8af70d9db1e"
