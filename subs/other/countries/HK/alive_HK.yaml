@@ -1,28 +1,30 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: 209.33.160.122
-    port: 39098
-    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dash.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
-    server: 85.155.149.190
+    server: hk-ufo.maxleshax.icu
     port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    uuid: "0894db40-59c1-41b7-baa5-173c16f5c70d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "hk1.japancase.site"
+    servername: "hk-ufo.maxleshax.icu"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY"
-      short-id: "bee10b047804c637"
+      public-key: "DuKUpFN1nYgFK1e1jU2CjHI4eGN0g5ilLa8uWj5UzXQ"
+      short-id: "7fe95e327ac40d9d"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
+    server: 139.28.170.43
+    port: 8443
+    uuid: "0894db40-59c1-41b7-baa5-173c16f5c70d"
+    network: "grpc"
+    servername: "hk-ufo.maxleshax.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LsS2m90VT4Qcxx4gdjBbW06PLk9MFCzd01fgOH6-Tws"
+      short-id: "6a9b866d547a6c02"
+    grpc-opts:
+      grpc-service-name: "platina"

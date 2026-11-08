@@ -1,18 +1,5 @@
 proxies:
-  - name: "🇮🇳 [WL] Сервер 1"
-    type: vless
-    server: 45.151.101.151
-    port: 8443
-    uuid: "03440720-a4ee-4dfe-917a-e699cedadead"
-    network: "tcp"
-    servername: "queuev4.vk.com"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "XAgtlMYY1aqEH5wud540D7lPIokZOgkpHy2ch-DS0DM"
-      short-id: "74a327dfbff4f9fa"
-  - name: "🇮🇳 [BL] Сервер 2"
+  - name: "🇮🇳 [BL] Сервер 1"
     type: vless
     server: 194.61.31.126
     port: 2053
@@ -24,7 +11,7 @@ proxies:
     reality-opts:
       public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
       short-id: "9980e0609b0d3891"
-  - name: "🇮🇳 [BL] Сервер 3"
+  - name: "🇮🇳 [BL] Сервер 2"
     type: vless
     server: 178.212.35.198
     port: 443
@@ -37,31 +24,17 @@ proxies:
     reality-opts:
       public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
       short-id: "6bdc8320"
-  - name: "🇮🇳 [BL] Сервер 4"
+  - name: "🇮🇳 [BL] Сервер 3"
     type: vless
-    server: 107.181.139.144
+    server: 148.113.5.22
     port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    uuid: "7d53c50c-3abf-4cb5-9d58-e7a42ce1d1c6"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "in1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
-      short-id: "df7b054cfc29800c"
-  - name: "🇮🇳 [BL] Сервер 5"
-    type: vless
-    server: 5.253.42.164
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
+      public-key: "Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI"
+      short-id: "7ff98efcced3fd5b"

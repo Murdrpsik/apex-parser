@@ -6,7 +6,7 @@ proxies:
     uuid: "528c9248-7b50-45fb-9188-e46d889dafe6"
     network: "grpc"
     servername: "ru-kitchen.ru"
-    client-fingerprint: "qq"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:

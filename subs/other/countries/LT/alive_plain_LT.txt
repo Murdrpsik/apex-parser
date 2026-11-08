@@ -1,7 +1,4 @@
 #profile-title: Apex LT
 #profile-update-interval: 1
 vless://acc50200-7f21-4f90-9cca-0057efcbf042@5.199.174.25:443?mode=auto&security=reality&encryption=none&pbk=DFR6MJcTN1bhukm7KS3IQSBDGPhTiPBwhZ3_brvwSlM&host=aiartstudios.best&fp=chrome&type=xhttp&sni=aiartstudios.best&sid=db724eb12631c05f#🇱🇹 [BL] Сервер 1
-vless://95d0e214-eab0-4701-93ed-fea4f1b56062@5.199.174.117:443?security=reality&encryption=none&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=admin.betust.net&sid=3e137406#🇱🇹 [BL] Сервер 2
-vless://9f9c913b-0b78-4d14-a4db-560794cbc90f@5.199.174.111:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA&security=reality&sid=7c8e3d4a9b1f26d3&sni=litauto.plus-hit.ru&type=tcp#🇱🇹 [BL] Сервер 3
-vless://9f9c913b-0b78-4d14-a4db-560794cbc90f@84.32.209.132:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA&security=reality&sid=7c8e3d4a9b1f26d3&sni=litauto.plus-hit.ru&type=tcp#🇱🇹 [BL] Сервер 4
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.151.159:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&sid=d44d6d46&sni=app26.betust.net&encryption=none#🇱🇹 [BL] Сервер 5
+vless://5adf559d-252c-489b-baf5-bec895a16aca@45.81.252.143:2053?security=tls&sni=germany3.banovano.space&alpn=h2&fp=edge&type=grpc&encryption=none#🇱🇹 [BL] Сервер 2

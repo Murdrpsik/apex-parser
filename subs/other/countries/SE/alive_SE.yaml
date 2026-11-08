@@ -28,33 +28,20 @@ proxies:
       public-key: "vzRgIP8Mvd9V6krwKxw5EwwzvC4uiaW3wo0Y2ri2_Wc"
   - name: "🇸🇪 [BL] Сервер 3"
     type: vless
-    server: 196.196.149.34
-    port: 443
-    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "3fb2b6t.se1.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
-      short-id: "1061f1b1cdaad3ad"
-  - name: "🇸🇪 [BL] Сервер 4"
-    type: vless
-    server: 193.233.252.43
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "se1.japancase.site"
+    server: se-1c.maxleshax.icu
+    port: 8443
+    uuid: "0894db40-59c1-41b7-baa5-173c16f5c70d"
+    network: "grpc"
+    servername: "se-1c.maxleshax.icu"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
-      short-id: "41ae8e266bc3346f"
-  - name: "🇸🇪 [BL] Сервер 5"
+      public-key: "6jyJ4JH8MVfEXHis-FHarI6okNXTbFe5TRLd59yTzjk"
+      short-id: "b53b9038bd168d22"
+    grpc-opts:
+      grpc-service-name: "platina"
+  - name: "🇸🇪 [BL] Сервер 4"
     type: vless
     server: 31.77.18.220
     port: 443
@@ -67,14 +54,22 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 5"
     type: vless
     server: 194.104.94.141
     port: 443
     uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
     network: "tcp"
     servername: "se3.shtil.io"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇸🇪 [BL] Сервер 6"
+    type: vless
+    server: se3.shtil.io
+    port: 443
+    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
+    network: "tcp"
     udp: true
     tls: true
   - name: "🇸🇪 [BL] Сервер 7"
@@ -125,7 +120,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "sw.golangwikito.cfd"
-    client-fingerprint: "ios"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -133,15 +128,11 @@ proxies:
       short-id: "a1037b25dcef6aa7"
   - name: "🇸🇪 [BL] Сервер 11"
     type: vless
-    server: 31.76.3.34
+    server: 94.156.181.35
     port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
-    client-fingerprint: "chrome"
+    uuid: "cd9680e1-f115-4e16-91b9-ea59576c212d"
+    network: "grpc"
+    servername: "moscow1.banovano.space"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"

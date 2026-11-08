@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇧🇬 [WL] Сервер 1"
-    type: vless
-    server: 2.27.105.13
-    port: 31238
-    uuid: "9c05ffa3-cc8f-4d44-9ce0-015a7465e786"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rbc.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1KhMuUHbT2C7FKp0DHT1MNE-NHiQhy5yiOqqstvthlQ"
-      short-id: "a9d8f11690e70dd8"
-  - name: "🇧🇬 [BL] Сервер 2"
+  - name: "🇧🇬 [BL] Сервер 1"
     type: vless
     server: 45.9.156.24
     port: 443
@@ -29,7 +15,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "api.v2.PushService"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 3"
+  - name: "🇧🇬 [BL] Сервер 2"
     type: vless
     server: 45.9.156.27
     port: 443
@@ -45,9 +31,25 @@ proxies:
     grpc-opts:
       grpc-service-name: "home.v1.ApiService"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 4"
+  - name: "🇧🇬 [BL] Сервер 3"
     type: vless
     server: 45.9.156.42
+    port: 443
+    uuid: "2f35965a-9a9b-45fd-ba32-987296dfb6be"
+    network: "grpc"
+    servername: "bg5.univesalsrv.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw"
+      short-id: "1a3102bb8e51399e"
+    grpc-opts:
+      grpc-service-name: "gw.v2.RelayService"
+      grpc-mode: "gun"
+  - name: "🇧🇬 [BL] Сервер 4"
+    type: vless
+    server: bg5.univesalsrv.com
     port: 443
     uuid: "2f35965a-9a9b-45fd-ba32-987296dfb6be"
     network: "grpc"
