@@ -1,15 +1,7 @@
 proxies:
-  - name: "🇹🇼 [AI] Сервер 1"
-    type: vless
-    server: 161.114.15.215
-    port: 30446
-    uuid: "607fbb3e-9322-478a-bb03-3ad95625fb2b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "OPUIAxCmpuou26qir1UrWcF1Iia5n1mxdQoWhvcJ4D4"
-      short-id: "b5c1fb7084602d93"
+  - name: "🇺🇸 [AI] Сервер 1"
+    type: ss
+    server: 88.216.254.18
+    port: 1080
+    password: "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
+    cipher: "chacha20-ietf-poly1305"

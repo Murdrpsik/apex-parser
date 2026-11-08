@@ -6,7 +6,7 @@ proxies:
     uuid: "acc50200-7f21-4f90-9cca-0057efcbf042"
     network: "xhttp"
     servername: "aiartstudios.best"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -15,20 +15,21 @@ proxies:
     xhttp-opts:
       path: "/"
       host: "aiartstudios.best"
+      mode: "auto"
   - name: "🇱🇹 [BL] Сервер 2"
     type: vless
-    server: 84.32.209.132
+    server: 5.199.174.117
     port: 443
-    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
+    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "litauto.plus-hit.ru"
+    servername: "admin.betust.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA"
-      short-id: "7c8e3d4a9b1f26d3"
+      public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
+      short-id: "3e137406"
   - name: "🇱🇹 [BL] Сервер 3"
     type: vless
     server: 5.199.174.111
@@ -45,38 +46,24 @@ proxies:
       short-id: "7c8e3d4a9b1f26d3"
   - name: "🇱🇹 [BL] Сервер 4"
     type: vless
-    server: admin.betust.net
+    server: 84.32.209.132
     port: 443
-    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
+    uuid: "9f9c913b-0b78-4d14-a4db-560794cbc90f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "admin.betust.net"
-    client-fingerprint: "ios"
+    servername: "litauto.plus-hit.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
-      short-id: "3e137406"
+      public-key: "N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA"
+      short-id: "7c8e3d4a9b1f26d3"
   - name: "🇱🇹 [BL] Сервер 5"
-    type: vless
-    server: 5.199.174.117
-    port: 443
-    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "admin.betust.net"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w"
-      short-id: "3e137406"
-  - name: "🇱🇹 [BL] Сервер 6"
     type: vless
     server: 84.32.151.159
     port: 443
     uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "app26.betust.net"
     client-fingerprint: "firefox"

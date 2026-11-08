@@ -1,20 +1,6 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
-    server: 103.149.91.176
-    port: 17100
-    uuid: "6e1fa926-5ef0-4a11-ac67-3d394d36247c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Loy2FtO5PutrMmM4K4qFyG0_KrZhQ5xgomecNrFFLCM"
-      short-id: "0d5c6e30"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
     server: 209.33.160.122
     port: 39098
     uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
@@ -26,21 +12,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
-    server: 165.154.63.139
-    port: 443
-    uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.amazon.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ"
-      short-id: "ca4aedd4"
-  - name: "🇭🇰 [BL] Сервер 4"
+  - name: "🇭🇰 [BL] Сервер 2"
     type: vless
     server: 85.155.149.190
     port: 443

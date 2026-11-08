@@ -21,6 +21,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "icloud.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -41,42 +42,32 @@ proxies:
       short-id: "41ae8e266bc3346f"
   - name: "🇮🇹 [BL] Сервер 4"
     type: vless
-    server: 31.77.154.180
+    server: it1.japancase.site
     port: 443
-    uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
-    network: "grpc"
-    servername: "local.sywl5.health"
-    client-fingerprint: "qq"
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "it1.japancase.site"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BUmDIJm-hDTetLJoCGG3lhvFrccV2sp2uf4EpJk28CE"
-      short-id: "6c3fc5d190b4d009"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇮🇹 [BL/CF] Сервер 5"
-    type: vless
-    server: 80.211.170.53
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"
+      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
+      short-id: "41ae8e266bc3346f"
+  - name: "🇮🇹 [BL] Сервер 5"
+    type: ss
+    server: 202.50.253.54
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
   - name: "🇮🇹 [BL] Сервер 6"
     type: ss
-    server: 202.50.253.63
+    server: 202.50.253.90
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
   - name: "🇮🇹 [BL] Сервер 7"
     type: ss
-    server: 202.50.253.54
+    server: 202.50.253.63
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
@@ -86,25 +77,3 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 9"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 10"
-    type: ss
-    server: 202.50.253.27
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 11"
-    type: vmess
-    server: 149.22.91.20
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true

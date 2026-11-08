@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇦🇶 [BL] Сервер 1"
+    type: vless
+    server: 2.26.255.215
+    port: 443
+    uuid: "69e41e64-a832-471a-b740-94577ca85520"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pOHbbyo_PlUwH4DjC6bKvC3jB8RPnCdu-nL8trAP8CI"
+      short-id: "50"

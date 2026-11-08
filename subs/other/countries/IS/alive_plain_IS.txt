@@ -1,3 +1,4 @@
 #profile-title: Apex IS
 #profile-update-interval: 1
-vless://b4e69d67-9d41-417c-b465-ebf1591fb792@93.95.226.159:28150?encryption=none&type=tcp&security=reality&sni=google.com&fp=firefox&pbk=KQW_o2BlCjMC8aH5lkNkO_rmMCAUykQIQCCIIehhsAo&sid=06&spx=%2F#🇮🇸 [BL] Сервер 1
+vless://46d221fa-e9b4-748c-4eae-019a88e42991@191.44.112.170:443?security=tls&type=ws&path=%2Ftvpn-tor%2Fis&host=orbylume.my.to&sni=orbylume.my.to&fp=firefox&encryption=none#🇮🇸 [BL] Сервер 1
+vless://b4e69d67-9d41-417c-b465-ebf1591fb792@93.95.226.159:28150?encryption=none&type=tcp&security=reality&sni=google.com&fp=firefox&pbk=KQW_o2BlCjMC8aH5lkNkO_rmMCAUykQIQCCIIehhsAo&sid=06&spx=%2F#🇮🇸 [BL] Сервер 2

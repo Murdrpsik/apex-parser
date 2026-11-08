@@ -21,7 +21,7 @@ proxies:
     network: "raw"
     flow: "xtls-rprx-vision"
     servername: "latino.plus-hit.ru"
-    client-fingerprint: "ios"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

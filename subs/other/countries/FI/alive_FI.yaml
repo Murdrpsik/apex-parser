@@ -38,7 +38,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "assets-59.topp-con.xyz"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -46,32 +46,19 @@ proxies:
       short-id: "b9120cd53ffd7bba"
   - name: "🇫🇮 [BL] Сервер 4"
     type: vless
-    server: 87.121.82.22
-    port: 2053
-    uuid: "6eaf5e8f-e4fe-4dc7-a1cd-f24343536abe"
+    server: 193.233.199.84
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "fr1.kittieslabs.tech"
-    client-fingerprint: "chrome"
+    servername: "fi3game.japancase.site"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "R2lqloKpuEp-vN4pVTqBlD7GFu30uHfuQJ0_id2MqSk"
-      short-id: "a1b2c3d4e5f60701"
+      public-key: "1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g"
+      short-id: "38559e47f5536913"
   - name: "🇫🇮 [BL] Сервер 5"
-    type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
-    network: "tcp"
-    servername: "m.vk.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
-  - name: "🇫🇮 [BL] Сервер 6"
     type: vless
     server: 31.76.103.92
     port: 443
@@ -79,40 +66,12 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "fi.peregrine-sub.net"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇫🇮 [BL] Сервер 7"
-    type: vless
-    server: 107.181.151.128
-    port: 443
-    uuid: "73cb2a0d-e2a9-4e61-a343-f2845e8c272e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.tradingview.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
-      short-id: "611ceeb0ae78"
-  - name: "🇫🇮 [BL] Сервер 8"
-    type: vless
-    server: webdisk.jaggyslawa.org
-    port: 443
-    uuid: "73cb2a0d-e2a9-4e61-a343-f2845e8c272e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.tradingview.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
-      short-id: "611ceeb0ae78"
-  - name: "🇫🇮 [BL] Сервер 9"
+  - name: "🇫🇮 [BL] Сервер 6"
     type: vless
     server: 217.144.188.185
     port: 443
@@ -125,7 +84,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-  - name: "🇫🇮 [BL] Сервер 10"
+  - name: "🇫🇮 [BL] Сервер 7"
     type: vless
     server: 31.76.46.221
     port: 10851
@@ -141,49 +100,31 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc_common1"
       grpc-mode: "gun"
-  - name: "🇫🇮 [BL] Сервер 11"
+  - name: "🇫🇮 [BL] Сервер 8"
     type: vless
-    server: 193.233.199.84
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    server: 45.38.143.210
+    port: 30584
+    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "fi3game.japancase.site"
+    servername: "m.vk.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g"
-      short-id: "38559e47f5536913"
-  - name: "🇫🇮 [BL] Сервер 12"
+      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
+      short-id: "67ece882d65d0f1a"
+  - name: "🇫🇮 [BL] Сервер 9"
     type: vless
-    server: 62.238.14.79
+    server: 65.109.242.117
     port: 443
-    uuid: "3f4ff7ab-d2d0-40ca-ab93-483c2863b68c"
-    network: "xhttp"
-    servername: "www.mcimikbeiserver.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/wp-admin.php"
-      host: "www.mcimikbeiserver.com"
-      mode: "auto"
-  - name: "🇫🇮 [BL] Сервер 13"
-    type: vless
-    server: 13.143.173.15
-    port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
+    uuid: "320536e8-b0d3-4afa-a5ec-de93356ce562"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "google.com"
-    client-fingerprint: "qq"
+    servername: "static.0.72.42.77.clients.your-server.de"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-      short-id: "00000000"
-  - name: "🇫🇮 [BL] Сервер 14"
+  - name: "🇫🇮 [BL] Сервер 10"
     type: vless
     server: 130.12.45.48
     port: 443

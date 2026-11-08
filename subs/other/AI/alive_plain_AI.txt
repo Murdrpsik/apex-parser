@@ -1,3 +1,3 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-vless://607fbb3e-9322-478a-bb03-3ad95625fb2b@161.114.15.215:30446?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.cloudflare.com&pbk=OPUIAxCmpuou26qir1UrWcF1Iia5n1mxdQoWhvcJ4D4&sid=b5c1fb7084602d93&fp=chrome#🇹🇼 [AI] Сервер 1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ==@88.216.254.18:1080#🇺🇸 [AI] Сервер 1
