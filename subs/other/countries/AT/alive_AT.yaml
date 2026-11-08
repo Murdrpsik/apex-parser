@@ -1,7 +1,7 @@
 proxies:
   - name: "🇦🇹 [WL] Сервер 1"
     type: vless
-    server: 178.22.31.72
+    server: 178.22.31.171
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
@@ -15,7 +15,7 @@ proxies:
       short-id: "41ae8e266bc3346f"
   - name: "🇦🇹 [WL] Сервер 2"
     type: vless
-    server: 178.22.31.171
+    server: 178.22.31.72
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: "tcp"
@@ -33,20 +33,6 @@ proxies:
     port: 443
     uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "banket-restoran.su"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇦🇹 [BL] Сервер 4"
-    type: vless
-    server: fdat.titun.su
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "banket-restoran.su"
     client-fingerprint: "chrome"

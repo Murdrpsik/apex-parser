@@ -1,5 +1,14 @@
 proxies:
-  - name: "🇮🇳 [WL] Сервер 1"
+  - name: "🇮🇳 [WL/CF] Сервер 1"
+    type: trojan
+    server: 103.111.114.87
+    port: 443
+    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
+    sni: "likejennie.pages.dev"
+    udp: true
+    ws-opts:
+      path: "/"
+  - name: "🇮🇳 [WL] Сервер 2"
     type: vless
     server: 45.151.101.151
     port: 8443
@@ -12,20 +21,6 @@ proxies:
     reality-opts:
       public-key: "XAgtlMYY1aqEH5wud540D7lPIokZOgkpHy2ch-DS0DM"
       short-id: "74a327dfbff4f9fa"
-  - name: "🇮🇳 [BL] Сервер 2"
-    type: vless
-    server: 107.181.139.144
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "in1.japancase.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
-      short-id: "df7b054cfc29800c"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
     server: 122.176.216.52
@@ -67,6 +62,34 @@ proxies:
       short-id: "6bdc8320"
   - name: "🇮🇳 [BL] Сервер 6"
     type: vless
+    server: 107.181.139.144
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "in1.japancase.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
+      short-id: "df7b054cfc29800c"
+  - name: "🇮🇳 [BL] Сервер 7"
+    type: vless
+    server: in1.japancase.site
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "in1.japancase.site"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM"
+      short-id: "df7b054cfc29800c"
+  - name: "🇮🇳 [BL] Сервер 8"
+    type: vless
     server: 5.253.42.164
     port: 40443
     uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
@@ -79,7 +102,7 @@ proxies:
     reality-opts:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
-  - name: "🇮🇳 [BL] Сервер 7"
+  - name: "🇮🇳 [BL] Сервер 9"
     type: vless
     server: 148.113.5.22
     port: 443

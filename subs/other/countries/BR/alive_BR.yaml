@@ -19,13 +19,25 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "124630fb-873a-4fc5-8305-54d9f8eef82f"
+    uuid: "3a8cdf7a-8316-40ff-98e1-59ece3efa15f"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"
-    client-fingerprint: "edge"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
       short-id: "ac"
+  - name: "🇧🇷 [WL/CF] Сервер 4"
+    type: vless
+    server: 43.174.195.1
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"

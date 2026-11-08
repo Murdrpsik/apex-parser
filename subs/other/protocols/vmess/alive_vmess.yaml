@@ -19,26 +19,22 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🇺🇸 [BL] Сервер 3"
+  - name: "🇨🇦 [BL] Сервер 3"
     type: vmess
-    server: 38.110.1.246
+    server: 134.195.196.211
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬 [BL] Сервер 4"
+  - name: "🇺🇸 [BL] Сервер 4"
     type: vmess
-    server: 149.88.23.207
+    server: 38.91.107.49
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    ws-opts:
-      path: "/"
   - name: "🇺🇸 [BL] Сервер 5"
     type: vmess
     server: 67.220.85.46
@@ -48,7 +44,50 @@ proxies:
     alterId: 0
     network: "tcp"
     servername: "67.220.85.46"
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇺🇸 [BL] Сервер 6"
+    type: vmess
+    server: 84.17.41.2
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "bj1aa2zyjxyamyuk.v%3dns.vip"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "bj1aa2zyjxyamyuk.v.3dns.vip"
+  - name: "🇺🇸 [BL] Сервер 7"
+    type: vmess
+    server: 67.220.74.188
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇫🇷 [BL] Сервер 8"
+    type: vmess
+    server: 79.137.99.183
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇳🇱 [BL] Сервер 9"
+    type: vmess
+    server: 209.38.42.238
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vmess
     server: 62.93.166.184
     port: 1270
@@ -58,9 +97,9 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🇸🇪 [BL] Сервер 7"
+  - name: "🇺🇸 [BL] Сервер 11"
     type: vmess
-    server: 138.199.55.230
+    server: 162.251.62.31
     port: 1270
     uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"
@@ -68,7 +107,7 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🇮🇹 [BL] Сервер 8"
+  - name: "🇮🇹 [BL] Сервер 12"
     type: vmess
     server: 149.22.91.20
     port: 1270
@@ -78,3 +117,35 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
+  - name: "🇺🇸 [BL] Сервер 13"
+    type: vmess
+    server: 172.111.36.126
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 14"
+    type: vmess
+    server: 67.220.95.49
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 15"
+    type: vmess
+    server: 67.220.74.250
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+    ws-opts:
+      path: "/"

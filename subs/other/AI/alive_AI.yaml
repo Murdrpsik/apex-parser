@@ -1,11 +1,5 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
-    type: ss
-    server: 88.216.254.18
-    port: 1080
-    password: "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇹🇼 [AI] Сервер 2"
+  - name: "🇹🇼 [AI] Сервер 1"
     type: vless
     server: 161.114.15.215
     port: 30446

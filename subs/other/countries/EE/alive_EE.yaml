@@ -70,17 +70,18 @@ proxies:
       public-key: "l06r0clkHjHk7HRGpkDBJwZ1JJscSqfwHUQOrV3v3hQ"
   - name: "🇪🇪 [BL] Сервер 6"
     type: vless
-    server: 132.243.74.134
-    port: 2087
-    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ee.song69.fun"
+    server: ee-cdn.fius.dev
+    port: 443
+    uuid: "00018846-513b-6e3b-5301-9c9ff2d375a3"
+    network: "xhttp"
+    servername: "ee-cdn.fius.dev"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
+    xhttp-opts:
+      path: "/api-test"
+      host: "ee-cdn.fius.dev"
+      mode: "packet-up"
   - name: "🇪🇪 [BL] Сервер 7"
     type: vless
     server: 132.243.74.104
@@ -96,35 +97,18 @@ proxies:
       public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
   - name: "🇪🇪 [BL] Сервер 8"
     type: vless
-    server: 45.86.60.190
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    server: 132.243.74.134
+    port: 2087
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ee2.japancase.site"
+    servername: "ee.song69.fun"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
-      short-id: "41ae8e266bc3346f"
+      public-key: "HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww"
   - name: "🇪🇪 [BL] Сервер 9"
-    type: vless
-    server: 31.56.187.160
-    port: 61374
-    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
-    network: "xhttp"
-    servername: "ee.golangwikito.cfd"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
-    xhttp-opts:
-      path: "/"
-      host: "ee.golangwikito.cfd"
-      mode: "packet-up"
-  - name: "🇪🇪 [BL] Сервер 10"
     type: vless
     server: 5.129.202.80
     port: 443
@@ -138,3 +122,16 @@ proxies:
     reality-opts:
       public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
       short-id: "2ef2b10d5143d798"
+  - name: "🇪🇪 [BL] Сервер 10"
+    type: vless
+    server: 45.86.60.190
+    port: 443
+    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ee2.japancase.site"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg"
+      short-id: "41ae8e266bc3346f"
