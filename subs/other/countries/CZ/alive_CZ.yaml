@@ -4,16 +4,30 @@ proxies:
     server: 85.202.192.131
     port: 34033
     uuid: "2cb6a5d1-0165-4bc2-aff2-832672160c56"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "splitter.wb.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "I7s_V_6XHD2As0H5Ok2GV2a2M7o9RDCrH2USpCZPy0A"
       short-id: "a1fdf7b7bebade41"
   - name: "🇨🇿 [WL] Сервер 2"
+    type: vless
+    server: 85.202.192.131
+    port: 36746
+    uuid: "7e8eea89-16dd-4a6d-ad9b-192e23c59ffb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "splitter.wb.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "a7pyyCqFCfWKtsr-Umm5g_Ii5XzhFznIrOtg_U3V2RI"
+      short-id: "f1eb436223e1a36a"
+  - name: "🇨🇿 [WL] Сервер 3"
     type: vless
     server: 213.155.23.70
     port: 17789
@@ -27,19 +41,21 @@ proxies:
     reality-opts:
       public-key: "uXwlj6V8_F5RLwqw8C25GIsNP99AGv_Vvb_XmRuo1UU"
       short-id: "487cff0425b4e006"
-  - name: "🇨🇿 [BL] Сервер 3"
+  - name: "🇨🇿 [BL] Сервер 4"
     type: vless
-    server: lkg8445q7lb7.apruxdomain.online
+    server: 89.125.96.17
     port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "grpc"
-    servername: "qomn0f3sw8f2w.hat.onl"
-    client-fingerprint: "qq"
+    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cz1.hat.onl"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "hls-vod.tyl8fr6dporp.segment-177-v1-a1.ts"
-  - name: "🇨🇿 [BL] Сервер 4"
+    reality-opts:
+      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
+      short-id: "76132b3b39704c44"
+  - name: "🇨🇿 [BL] Сервер 5"
     type: vless
     server: 212.102.38.25
     port: 443
@@ -53,7 +69,7 @@ proxies:
     reality-opts:
       public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
       short-id: "e90360ec7cc61b20"
-  - name: "🇨🇿 [BL] Сервер 5"
+  - name: "🇨🇿 [BL] Сервер 6"
     type: vless
     server: 195.123.245.241
     port: 443
@@ -67,7 +83,7 @@ proxies:
     reality-opts:
       public-key: "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw"
       short-id: "23d0950d60bc0d5b"
-  - name: "🇨🇿 [BL] Сервер 6"
+  - name: "🇨🇿 [BL] Сервер 7"
     type: vless
     server: 89.125.237.245
     port: 443
@@ -81,17 +97,3 @@ proxies:
     reality-opts:
       public-key: "IiBlvTjhPXcCixjqH6n6Cz3RWbeQjHepWtfIi28mly4"
       short-id: "9f2c4a7b1d6e8035"
-  - name: "🇨🇿 [BL] Сервер 7"
-    type: vless
-    server: 82.146.59.28
-    port: 443
-    uuid: "8aeda8e3-dd32-4071-bcbb-f793e646eb13"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "31.76.7.128.sslip.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
-      short-id: "88086e66870f03e6"

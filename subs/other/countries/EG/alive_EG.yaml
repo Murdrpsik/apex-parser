@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇪🇬 [BL] Сервер 1"
+    type: vless
+    server: 130.94.49.242
+    port: 443
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "eg1.hat.onl"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "tt35z7OjUx1kFP0ymroVmbVMiflTzKCkAKbqkhlv7AE"
+      short-id: "91570bdd8b38b7d9"

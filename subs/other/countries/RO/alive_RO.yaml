@@ -5,19 +5,6 @@ proxies:
     port: 443
     uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
     network: "xhttp"
-    servername: "api.bakarova-top.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/events"
-      mode: "auto"
-  - name: "🇷🇴 [WL] Сервер 2"
-    type: vless
-    server: 185.178.208.140
-    port: 443
-    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
-    network: "xhttp"
     servername: "static.bakarova-top.ru"
     client-fingerprint: "chrome"
     udp: true
@@ -26,32 +13,20 @@ proxies:
       path: "/api/v2/events"
       host: "static.bakarova-top.ru"
       mode: "packet-up"
-  - name: "🇷🇴 [WL] Сервер 3"
+  - name: "🇷🇴 [WL] Сервер 2"
     type: vless
     server: 185.178.208.140
     port: 443
     uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
     network: "xhttp"
-    servername: "static.bakarova-top.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/events"
-  - name: "🇷🇴 [WL] Сервер 4"
-    type: vless
-    server: 185.178.208.140
-    port: 443
-    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
-    network: "xhttp"
-    servername: "static.bakarova-top.ru"
+    servername: "api.bakarova-top.ru"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     xhttp-opts:
       path: "/api/v2/events"
       mode: "auto"
-  - name: "🇷🇴 [WL] Сервер 5"
+  - name: "🇷🇴 [WL] Сервер 3"
     type: vless
     server: 185.178.208.140
     port: 443
@@ -65,7 +40,46 @@ proxies:
       path: "/api/v2/events"
       host: "api.bakarova-top.ru"
       mode: "packet-up"
+  - name: "🇷🇴 [WL] Сервер 4"
+    type: vless
+    server: 185.178.208.140
+    port: 443
+    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
+    network: "xhttp"
+    servername: "api.bakarova-top.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v2/events"
+  - name: "🇷🇴 [WL] Сервер 5"
+    type: vless
+    server: 185.178.208.140
+    port: 443
+    uuid: "ea277838-a188-44f1-a2e8-94aa110c4f27"
+    network: "xhttp"
+    servername: "static.bakarova-top.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v2/events"
+      host: "static.bakarova-top.ru"
   - name: "🇷🇴 [BL] Сервер 6"
+    type: vless
+    server: 46.28.67.55
+    port: 443
+    uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
+      short-id: "d06d78e974491b6e"
+  - name: "🇷🇴 [BL] Сервер 7"
     type: vless
     server: 31.6.1.115
     port: 443

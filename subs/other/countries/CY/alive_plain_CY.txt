@@ -1,3 +1,0 @@
-#profile-title: Apex CY
-#profile-update-interval: 1
-vless://477270ef-12b9-45ae-854b-10005e27d48d@45.83.85.129:443?type=xhttp&security=reality&fp=firefox&pbk=yG9PCRThFyrRI10PjbNzQPvWzjnvxGbzwzHuvYMWRys&sid=6300ca9f9d90b6f3&sni=velllp.qikbro.com&path=%2Fassets%2Fjs%2Fapp.557b1356.js&host=velllp.qikbro.com&mode=stream-one&encryption=none#🇨🇾 [BL] Сервер 1

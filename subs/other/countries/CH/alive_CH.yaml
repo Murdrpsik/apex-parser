@@ -13,34 +13,34 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇨🇭 [WL] Сервер 2"
+  - name: "🇨🇭 [BL] Сервер 2"
     type: vless
-    server: 188.120.242.217
-    port: 2058
-    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    server: 45.90.56.195
+    port: 443
+    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
+    servername: "ch1.hat.onl"
     client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
-      short-id: "937255313d6ce673"
+      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
+      short-id: "76132b3b39704c44"
   - name: "🇨🇭 [BL] Сервер 3"
     type: vless
-    server: 45.90.59.15
+    server: 179.43.166.190
     port: 443
-    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: "tcp"
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    servername: "perevodchiki.su"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
-      short-id: "19253fae84102271"
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 4"
     type: vless
     server: 94.26.35.217
@@ -59,18 +59,18 @@ proxies:
       host: "d0f7fax.ch5.h1clayd.click"
   - name: "🇨🇭 [BL] Сервер 5"
     type: vless
-    server: 62.109.1.5
-    port: 2058
-    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    server: 45.90.59.15
+    port: 443
+    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
-      short-id: "937255313d6ce673"
+      public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
+      short-id: "19253fae84102271"
   - name: "🇨🇭 [BL] Сервер 6"
     type: vless
     server: 109.172.114.57
@@ -85,3 +85,31 @@ proxies:
     reality-opts:
       public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
       short-id: "937255313d6ce673"
+  - name: "🇨🇭 [BL] Сервер 7"
+    type: vless
+    server: 151.243.191.174
+    port: 8447
+    uuid: "52030136-eee3-4675-baae-a50f17b2bb8b"
+    network: "grpc"
+    servername: "github.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4"
+      short-id: "732ef4f5320b5e19"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇨🇭 [BL/CF] Сервер 8"
+    type: vless
+    server: 194.147.173.117
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"

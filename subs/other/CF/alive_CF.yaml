@@ -1,5 +1,180 @@
 proxies:
-  - name: "🇩🇪 [CF] Сервер 1"
+  - name: "🇫🇷 [CF] Сервер 1"
+    type: vless
+    server: 178.104.70.11
+    port: 443
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇫🇷 [CF] Сервер 2"
+    type: vless
+    server: 178.104.70.11
+    port: 443
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=firefox"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 3"
+    type: vless
+    server: 94.247.142.1
+    port: 443
+    uuid: "fd62968a-2e97-41ea-9aa0-aa61aed78955"
+    network: "ws"
+    servername: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
+  - name: "🇺🇸 [CF] Сервер 4"
+    type: vless
+    server: 94.247.142.1
+    port: 443
+    uuid: "fd62968a-2e97-41ea-9aa0-aa61aed78955"
+    network: "ws"
+    servername: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
+  - name: "🇲🇩 [CF] Сервер 5"
+    type: vless
+    server: 194.180.191.249
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    network: "ws"
+    servername: "shin-ra.ccwu.cc"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=unsafe"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇳🇱 [CF] Сервер 6"
+    type: vless
+    server: 178.62.251.84
+    port: 2087
+    uuid: "7c03538c-c6dd-4dc1-b35c-5fc0e2a43271"
+    network: "ws"
+    servername: "666-7sf.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "666-7sf.pages.dev"
+  - name: "🇫🇷 [CF] Сервер 7"
+    type: vless
+    server: 185.243.112.197
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-974cf37772bb"
+    network: "ws"
+    servername: "yfz9dmeruxus.wfewf209v5ef.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/974cf37772bb"
+  - name: "🇸🇪 [CF] Сервер 8"
+    type: vless
+    server: 185.58.207.112
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇮🇳 [CF] Сервер 9"
+    type: trojan
+    server: 103.111.114.87
+    port: 443
+    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
+    sni: "likejennie.pages.dev"
+    udp: true
+    ws-opts:
+      path: "/"
+  - name: "🇱🇹 [CF] Сервер 10"
+    type: vless
+    server: 46.243.232.71
+    port: 10018
+    uuid: "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1"
+    network: "grpc"
+    servername: "6b9iw.guardora.pro"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY"
+      short-id: "c1a7e9b4711d5f60"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇯🇵 [CF] Сервер 11"
+    type: vless
+    server: 203.137.165.164
+    port: 57554
+    uuid: "0985e268-5c1c-4141-9d96-139f8046c47c"
+    network: "ws"
+    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+  - name: "🇫🇷 [CF] Сервер 12"
+    type: vless
+    server: 178.105.133.160
+    port: 4443
+    uuid: "fb0818b3-4031-4843-b5f7-1d75177a1758"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 13"
+    type: vless
+    server: 188.164.248.151
+    port: 2096
+    uuid: "9f534ac4-3c58-4a16-8b74-13dff09a0cf1"
+    network: "ws"
+    servername: "d39333476.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/item/m"
+      headers:
+        Host: "d39333476.pages.dev"
+  - name: "🇩🇪 [CF] Сервер 14"
     type: vless
     server: 2.26.251.236
     port: 443
@@ -13,7 +188,520 @@ proxies:
     reality-opts:
       public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
       short-id: "4ff31b18d1bd8227"
-  - name: "🇫🇷 [CF] Сервер 2"
+  - name: "🇯🇵 [CF] Сервер 15"
+    type: vless
+    server: 172.237.5.208
+    port: 2053
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇬🇧 [CF] Сервер 16"
+    type: vless
+    server: 57.128.177.198
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 17"
+    type: vless
+    server: 185.207.197.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 18"
+    type: vless
+    server: 154.194.0.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 19"
+    type: vless
+    server: 104.234.239.139
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 20"
+    type: vless
+    server: 185.193.29.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 21"
+    type: vless
+    server: 185.207.198.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 22"
+    type: vless
+    server: 185.207.199.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 23"
+    type: vless
+    server: 199.181.197.99
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulsefp=chrome"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 24"
+    type: vless
+    server: 139.64.235.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇸 [CF] Сервер 25"
+    type: vless
+    server: 45.142.120.54
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇺🇸 [CF] Сервер 26"
+    type: vless
+    server: 188.164.248.123
+    port: 8443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp21.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp21.cc.cd"
+  - name: "🇧🇷 [CF] Сервер 27"
+    type: vless
+    server: 43.174.195.1
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 28"
+    type: vless
+    server: 167.172.165.106
+    port: 2083
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: "ws"
+    servername: "edge.yzkvm.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 29"
+    type: vless
+    server: 109.176.239.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 30"
+    type: vless
+    server: 199.68.156.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 31"
+    type: vless
+    server: 199.34.230.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇳🇱 [CF] Сервер 32"
+    type: vless
+    server: 103.102.228.113
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬 [CF] Сервер 33"
+    type: vless
+    server: 161.118.220.38
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇯🇵 [CF] Сервер 34"
+    type: vless
+    server: 155.248.181.189
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 35"
+    type: vless
+    server: 77.239.104.82
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇧🇪 [CF] Сервер 36"
+    type: vless
+    server: 149.248.5.223
+    port: 443
+    uuid: "fa45096d-bed0-ad80-c773-23c30000001b"
+    network: "ws"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 37"
+    type: vless
+    server: 64.204.49.68
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 38"
+    type: vless
+    server: 140.238.50.134
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 39"
+    type: vless
+    server: 140.238.33.0
+    port: 33940
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 40"
+    type: vless
+    server: 167.172.183.195
+    port: 2096
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: "ws"
+    servername: "edge.yzkvm.top"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 41"
+    type: vless
+    server: 46.101.253.244
+    port: 2083
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: "ws"
+    servername: "edge.yzkvm.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 42"
+    type: vless
+    server: 57.129.130.10
+    port: 52014
+    uuid: "395bab7e-302a-42b4-bac7-8acb7d36fdf3"
+    network: "ws"
+    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+  - name: "🇸🇬 [CF] Сервер 43"
+    type: vless
+    server: 156.224.76.205
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇸🇬 [CF] Сервер 44"
+    type: vless
+    server: 38.190.210.250
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 45"
+    type: vless
+    server: 160.16.109.149
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 46"
+    type: vless
+    server: 8.219.155.125
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇹🇼 [CF] Сервер 47"
+    type: vless
+    server: 85.237.207.141
+    port: 443
+    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
+    network: "ws"
+    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome"
+      headers:
+        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+  - name: "🇺🇸 [CF] Сервер 48"
+    type: vless
+    server: 47.251.95.178
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇩🇰 [CF] Сервер 49"
+    type: vless
+    server: 193.181.212.80
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇫🇷 [CF] Сервер 50"
+    type: vless
+    server: 159.255.32.80
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-38441c0ef0f0"
+    network: "ws"
+    servername: "lizufueiu7hs.gameworgame2.workers.Dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/38441c0ef0f0"
+  - name: "🇫🇷 [CF] Сервер 51"
+    type: vless
+    server: 176.118.214.216
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-e759cf52c6be"
+    network: "ws"
+    servername: "9lz3z5efu8os.gamewizardbac1k.workers.Dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/e759cf52c6be"
+  - name: "🇸🇪 [CF] Сервер 52"
+    type: vless
+    server: 212.87.222.32
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [CF] Сервер 53"
+    type: vless
+    server: 146.235.22.161
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [CF] Сервер 54"
+    type: vless
+    server: 161.118.250.135
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇫🇷 [CF] Сервер 55"
     type: vless
     server: 178.104.19.178
     port: 443
@@ -25,7 +713,7 @@ proxies:
     tls: true
     ws-opts:
       path: "/stream/PANEL_ZEUS/2b737ffd08fa"
-  - name: "🇫🇷 [CF] Сервер 3"
+  - name: "🇫🇷 [CF] Сервер 56"
     type: vless
     server: 188.253.27.191
     port: 443
@@ -37,15 +725,228 @@ proxies:
     tls: true
     ws-opts:
       path: "/stream/PANEL_ZEUS/49055dd7a227"
-  - name: "🇫🇷 [CF] Сервер 4"
+  - name: "🇳🇱 [CF] Сервер 57"
     type: vless
-    server: 176.118.214.216
+    server: 77.238.236.239
     port: 443
-    uuid: "50414e45-4c5f-5a45-5553-e759cf52c6be"
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     network: "ws"
-    servername: "9lz3z5efu8os.gamewizardbac1k.workers.Dev"
+    servername: "vp58.cc.cd"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/stream/PANEL_ZEUS/e759cf52c6be"
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇳🇱 [CF] Сервер 58"
+    type: vless
+    server: 213.183.51.71
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇳🇱 [CF] Сервер 59"
+    type: vless
+    server: 212.34.144.235
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇳🇱 [CF] Сервер 60"
+    type: vless
+    server: 185.204.52.112
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇩🇪 [CF] Сервер 61"
+    type: vless
+    server: 195.133.65.232
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇮🇹 [CF] Сервер 62"
+    type: vless
+    server: 80.211.170.53
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇵🇱 [CF] Сервер 63"
+    type: vless
+    server: 37.252.6.119
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇦🇹 [CF] Сервер 64"
+    type: vless
+    server: 31.41.221.121
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇸🇬 [CF] Сервер 65"
+    type: vless
+    server: 206.189.95.233
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇸🇬 [CF] Сервер 66"
+    type: vless
+    server: 168.107.42.158
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇧🇪 [CF] Сервер 67"
+    type: vless
+    server: 103.228.169.140
+    port: 443
+    uuid: "fa45096d-bed0-ad80-c773-23c30000001b"
+    network: "ws"
+    servername: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+  - name: "🇳🇱 [CF] Сервер 68"
+    type: vless
+    server: 5.253.189.62
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇧🇬 [CF] Сервер 69"
+    type: vless
+    server: 185.200.36.36
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇫🇷 [CF] Сервер 70"
+    type: vless
+    server: 185.193.89.62
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 71"
+    type: vless
+    server: 2.59.183.210
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇨🇭 [CF] Сервер 72"
+    type: vless
+    server: 194.147.173.117
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇨🇦 [CF] Сервер 73"
+    type: vless
+    server: 40.233.116.225
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"

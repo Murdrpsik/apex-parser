@@ -1,6 +1,20 @@
 proxies:
   - name: "🇩🇰 [BL] Сервер 1"
     type: vless
+    server: 144.31.242.123
+    port: 443
+    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dk1.hat.onl"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
+      short-id: "76132b3b39704c44"
+  - name: "🇩🇰 [BL] Сервер 2"
+    type: vless
     server: 193.233.253.180
     port: 8444
     uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
@@ -14,3 +28,17 @@ proxies:
     grpc-opts:
       grpc-service-name: "GunService"
       grpc-mode: "gun"
+  - name: "🇩🇰 [BL/CF] Сервер 3"
+    type: vless
+    server: 193.181.212.80
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"

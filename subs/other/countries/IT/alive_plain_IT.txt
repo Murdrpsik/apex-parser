@@ -1,9 +1,13 @@
 #profile-title: Apex IT
 #profile-update-interval: 1
-vless://dc2259c4-388e-4285-ba18-df619b6672b6@82.118.16.187:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU&sid=cd6065902eea7a02&sni=www.cloudflare.com&encryption=none#🇮🇹 [BL] Сервер 1
-vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@193.160.209.159:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8POqoppCCmjPFqoCsXzaH-kEdYTDXczdTUXxoGfKO0k&security=reality&sid=44e85040332f54&sni=it-edge.gacvpn.site&type=tcp#🇮🇹 [BL] Сервер 2
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#🇮🇹 [BL] Сервер 3
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#🇮🇹 [BL] Сервер 4
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#🇮🇹 [BL] Сервер 5
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.27:19999#🇮🇹 [BL] Сервер 6
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.36:19999#🇮🇹 [BL] Сервер 7
+vless://68a67906-5b37-4779-a6cc-58a1655f18b4@45.137.201.174:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=bg-1.bexumconnect.ltd&type=tcp#🇮🇹 [BL] Сервер 1
+vless://dc2259c4-388e-4285-ba18-df619b6672b6@82.118.16.187:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU&sid=cd6065902eea7a02&sni=www.cloudflare.com&encryption=none#🇮🇹 [BL] Сервер 2
+vless://7b102311-43fd-4e8f-877e-8090623c101d@80.211.170.53:443?security=tls&sni=vp58.cc.cd&type=ws&headerType=none&host=vp58.cc.cd&encryption=none#🇮🇹 [BL/CF] Сервер 3
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#🇮🇹 [BL] Сервер 4
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#🇮🇹 [BL] Сервер 5
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#🇮🇹 [BL] Сервер 6
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#🇮🇹 [BL] Сервер 7
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.27:19999#🇮🇹 [BL] Сервер 8
+vmess://eyJhZGQiOiIxNDkuNTAuMjE1LjI0MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1YzA0MGYxZC00NWRiLTQzYmQtOGQ0Ni1lNDk1MGU0MzM3MzUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjEyNzAiLCJwcyI6IvCfh67wn4e5IFtCTF0g0KHQtdGA0LLQtdGAIDkiLCJzY3kiOiJhdXRvIiwic25pIjoieG1maGxweS5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=#🇮🇹 [BL] Сервер 9
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7kgW0JMXSDQodC10YDQstC10YAgMTAiLCJhZGQiOiIxNDkuMjIuOTEuMjAiLCJwb3J0IjoiMTI3MCIsImlkIjoiNWMwNDBmMWQtNDVkYi00M2JkLThkNDYtZTQ5NTBlNDMzNzM1IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ4bWZobHB5LmNvbSIsImFscG4iOiIiLCJzY3kiOiJhdXRvIn0=#🇮🇹 [BL] Сервер 10
+vmess://eyJhZGQiOiIxNDkuNTAuMjE1LjIzOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6IiIsImlkIjoiNWMwNDBmMWQtNDVkYi00M2JkLThkNDYtZTQ5NTBlNDMzNzM1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjcwIiwicHMiOiLwn4eu8J+HuSBbQkxdINCh0LXRgNCy0LXRgCAxMSIsInNjeSI6ImF1dG8iLCJzbmkiOiJ4bWZobHB5LmNvbSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#🇮🇹 [BL] Сервер 11

@@ -11,3 +11,23 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
+  - name: "🇩🇪 [AI] Сервер 3"
+    type: vless
+    server: 167.233.187.38
+    port: 1405
+    uuid: "9ff455f4-d2ca-4459-a824-495fda97dae7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ai.android"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc"
+      short-id: "4ea6a183"
+  - name: "🇺🇸 [AI] Сервер 4"
+    type: ss
+    server: 38.22.17.129
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"

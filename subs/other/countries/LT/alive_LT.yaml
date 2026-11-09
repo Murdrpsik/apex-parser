@@ -1,5 +1,21 @@
 proxies:
-  - name: "🇱🇹 [BL] Сервер 1"
+  - name: "🇱🇹 [BL/CF] Сервер 1"
+    type: vless
+    server: 46.243.232.71
+    port: 10018
+    uuid: "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1"
+    network: "grpc"
+    servername: "6b9iw.guardora.pro"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY"
+      short-id: "c1a7e9b4711d5f60"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇱🇹 [BL] Сервер 2"
     type: vless
     server: 45.81.252.143
     port: 2053
