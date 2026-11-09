@@ -1,7 +1,7 @@
 #profile-title: Apex LV
 #profile-update-interval: 1
-vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@31.130.151.97:443?flow=xtls-rprx-vision&pbk=0GBR6DwsCQEYEa7QZHnOqbwmEMr8moms1sFU-wT-bHE&security=reality&sni=addons.mozilla.org&fp=ios&encryption=none&type=tcp#🇱🇻 [WL] Сервер 1
-vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&sid=5c256336e3b673fa&headertype=none#🇱🇻 [BL] Сервер 2
+vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@31.130.151.97:443?flow=xtls-rprx-vision&pbk=0GBR6DwsCQEYEa7QZHnOqbwmEMr8moms1sFU-wT-bHE&security=reality&sni=addons.mozilla.org&fp=edge&encryption=none&type=tcp#🇱🇻 [WL] Сервер 1
+vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp#🇱🇻 [BL] Сервер 2
 vless://042bec60-62d7-4148-a0da-5709ae3ee5a6@195.123.209.32:443?encryption=none&flow=xtls-rprx-vision&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&security=reality&sid=76132b3b39704c44&sni=lv1.hat.onl&type=tcp&fp=firefox#🇱🇻 [BL] Сервер 3
 vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&encryption=none#🇱🇻 [BL] Сервер 4
 vless://01e44dba-da95-4bf7-b5ca-6fce514d1585@2.27.210.198:57064?type=xhttp&security=reality&fp=firefox&pbk=JapPViaO5Vi7qH7ox4TPi0WOyCjYZCNDDQCyc7RLBQw&sid=238341&sni=yandex-cdn-mirror.ru&encryption=none#🇱🇻 [BL] Сервер 5

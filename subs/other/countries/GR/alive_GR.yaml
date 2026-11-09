@@ -20,23 +20,23 @@ proxies:
     uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
     network: "xhttp"
     servername: "i6c4a6t02b86qw.hat.onl"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/hls/is1z8lgy/seg"
+      host: "i6c4a6t02b86qw.hat.onl"
+      mode: "auto"
+  - name: "🇬🇷 [WL] Сервер 3"
+    type: vless
+    server: 217.12.204.105
+    port: 443
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "xhttp"
+    servername: "i6c4a6t02b86qw.hat.onl"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     xhttp-opts:
       path: "/hls/is1z8lgy/seg"
       host: "i6c4a6t02b86qw.hat.onl"
-  - name: "🇬🇷 [BL] Сервер 3"
-    type: vless
-    server: 85.90.197.220
-    port: 443
-    uuid: "8f704ed6-9a1a-4d04-94dd-1bff501716de"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4"
-      short-id: "94acb54627612d43"

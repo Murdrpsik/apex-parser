@@ -1,4 +1,4 @@
 #profile-title: Apex KZ
 #profile-update-interval: 1
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?type=raw&security=reality&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&sni=yahoo.com&encryption=none#🇰🇿 [BL] Сервер 1
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=firefox&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&sid=c4d4cf50489d51&encryption=none&type=tcp#🇰🇿 [BL] Сервер 2
+vless://dc95c1dd-2cd3-414c-8cf1-71ae86dad666@92.118.115.151:443?flow=xtls-rprx-vision&pbk=Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY&security=reality&sid=14324280&sni=kz-cdn-prsv-forum.keno.su&fp=edge&encryption=none&type=tcp#🇰🇿 [WL] Сервер 1
+vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?type=raw&security=reality&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&sni=yahoo.com&encryption=none#🇰🇿 [BL] Сервер 2

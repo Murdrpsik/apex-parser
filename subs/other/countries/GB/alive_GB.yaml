@@ -7,13 +7,38 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "video.yandex.ru"
-    client-fingerprint: "safari"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 2"
+  - name: "🇬🇧 [WL] Сервер 2"
+    type: vless
+    server: 188.225.58.201
+    port: 8443
+    uuid: "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c"
+    network: "grpc"
+    servername: "xtw3x.artemida.digital"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw"
+      short-id: "a1b2c3d4e5f6a7b8"
+  - name: "🇬🇧 [WL] Сервер 3"
+    type: vless
+    server: 81.94.148.67
+    port: 39443
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "grpc"
+    servername: "sfyehxfj3lu.hat.onl"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "v1.segment.UyktTezxTgNzL5fx.ts"
+  - name: "🇬🇧 [BL] Сервер 4"
     type: vless
     server: 138.124.125.193
     port: 10444
@@ -27,7 +52,7 @@ proxies:
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 3"
+  - name: "🇬🇧 [BL] Сервер 5"
     type: vless
     server: 81.94.148.67
     port: 39443
@@ -39,45 +64,19 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "v1.segment.UyktTezxTgNzL5fx.ts"
-  - name: "🇬🇧 [BL] Сервер 4"
-    type: vless
-    server: 194.55.239.39
-    port: 443
-    uuid: "68a67906-5b37-4779-a6cc-58a1655f18b4"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "cdn-network.cloudgamings.org"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇬🇧 [BL] Сервер 5"
-    type: vless
-    server: 50.7.193.133
-    port: 443
-    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "prime.jarbook.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k"
-      short-id: "77a8c8c8"
   - name: "🇬🇧 [BL] Сервер 6"
     type: vless
-    server: 50.7.227.77
+    server: 46.33.8.245
     port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bizorg.su"
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
+    network: "xhttp"
+    servername: "media.onecloudtraining.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
+    xhttp-opts:
+      path: "/media/v2/ingest/YH4m9gMDye"
+      mode: "stream-up"
   - name: "🇬🇧 [BL] Сервер 7"
     type: vless
     server: 187.7.205.49
@@ -92,100 +91,75 @@ proxies:
     reality-opts:
       public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
       short-id: "76132b3b39704c44"
-  - name: "🇬🇧 [BL/CF] Сервер 8"
+  - name: "🇬🇧 [BL] Сервер 8"
     type: vless
-    server: 57.128.177.198
+    server: 50.7.227.77
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-  - name: "🇬🇧 [BL] Сервер 10"
-    type: vless
-    server: 83.147.18.3
-    port: 443
-    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
-    network: "raw"
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    servername: "bizorg.su"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
-      short-id: "fd8cf7e1173f0edb"
-  - name: "🇬🇧 [BL] Сервер 11"
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
+  - name: "🇬🇧 [BL] Сервер 9"
     type: vless
-    server: 51.89.194.151
-    port: 2053
-    uuid: "8e790f25-1d71-4601-9fb0-d503931dcfca"
-    network: "raw"
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0"
-      short-id: "d051f678212f9d54"
-  - name: "🇬🇧 [BL] Сервер 12"
-    type: vless
-    server: 46.250.240.80
-    port: 2053
-    uuid: "948df76f-505d-4608-9c76-a933ee3ccc76"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E"
-      short-id: "4cc9dc65f7770115"
-  - name: "🇬🇧 [BL] Сервер 13"
-    type: vless
-    server: 46.250.250.149
-    port: 2053
-    uuid: "b4caaf57-ad77-4948-a6f5-51b3513799bf"
-    network: "tcp"
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M"
-      short-id: "9922313fffed1c63"
-  - name: "🇬🇧 [BL] Сервер 14"
-    type: vless
-    server: 151.101.36.235
+    server: 46.33.8.253
     port: 443
-    uuid: "67cd3349-f789-4cbb-8b91-4b6b1654ce7c"
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
     network: "xhttp"
-    servername: "accounts.fastly.com"
+    servername: "link.onecloudtraining.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     xhttp-opts:
-      path: "/"
-      host: "ovd13.global.ssl.fastly.net"
-      mode: "auto"
-  - name: "🇬🇧 [BL] Сервер 15"
+      path: "/static/v3/object/OqyozN63ao"
+      mode: "stream-up"
+  - name: "🇬🇧 [BL] Сервер 10"
     type: vless
-    server: 104.222.183.180
+    server: 46.33.8.246
     port: 443
-    uuid: "a1cf2f59-ffe0-4cb3-8c68-e6abf44726fc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.tradingview.com"
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
+    network: "xhttp"
+    servername: "upload.onecloudtraining.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
+    xhttp-opts:
+      path: "/assets/v1/ingest/5y2XX8T5BC"
+      mode: "stream-up"
+  - name: "🇬🇧 [BL] Сервер 11"
+    type: vless
+    server: 46.33.8.254
+    port: 443
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
+    network: "xhttp"
+    servername: "main.onecloudtraining.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/stream/v1/chunk/m6OfwfAj3W"
+      mode: "stream-up"
+  - name: "🇬🇧 [BL] Сервер 12"
+    type: vless
+    server: uk.song69.fun
+    port: 443
+    uuid: "92b79c22-f68b-4713-8b21-52f264cb92f5"
+    network: "xhttp"
+    servername: "uk.song69.fun"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
     reality-opts:
-      public-key: "MYmnKEaJyfk1HrBaKg3AvYebp-sP3rZRNh9MnOcKgXY"
-      short-id: "705f0a232571"
-  - name: "🇬🇧 [BL] Сервер 16"
+      public-key: "YVgODZwpBBvd17pOrJ8VN1cJ11i6PA5pns6gqJh-vRs"
+    xhttp-opts:
+      path: "/static/v2/media"
+      mode: "auto"
+  - name: "🇬🇧 [BL] Сервер 13"
     type: vless
     server: 82.148.255.53
     port: 443
@@ -201,8 +175,86 @@ proxies:
     xhttp-opts:
       path: "/assets/js/app.15026f72.js"
       host: "fraceee.qikbro.com"
-      mode: "stream-one"
+  - name: "🇬🇧 [BL] Сервер 14"
+    type: vless
+    server: tracker.onecloudtraining.com
+    port: 443
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
+    network: "xhttp"
+    servername: "tracker.onecloudtraining.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/media/v1/push/iteuSL7BEa"
+      mode: "stream-up"
+  - name: "🇬🇧 [BL] Сервер 15"
+    type: vless
+    server: 46.33.8.244
+    port: 443
+    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
+    network: "xhttp"
+    servername: "proxy.onecloudtraining.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/assets/v1/segment/tNDnAEKWSp"
+      mode: "stream-up"
+  - name: "🇬🇧 [BL] Сервер 16"
+    type: vless
+    server: 51.89.194.151
+    port: 2053
+    uuid: "8e790f25-1d71-4601-9fb0-d503931dcfca"
+    network: "raw"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0"
+      short-id: "d051f678212f9d54"
   - name: "🇬🇧 [BL] Сервер 17"
+    type: vless
+    server: 46.250.240.80
+    port: 2053
+    uuid: "948df76f-505d-4608-9c76-a933ee3ccc76"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E"
+      short-id: "4cc9dc65f7770115"
+  - name: "🇬🇧 [BL] Сервер 18"
+    type: vless
+    server: 46.250.250.149
+    port: 2053
+    uuid: "b4caaf57-ad77-4948-a6f5-51b3513799bf"
+    network: "tcp"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M"
+      short-id: "9922313fffed1c63"
+  - name: "🇬🇧 [BL] Сервер 19"
+    type: vless
+    server: 50.7.193.133
+    port: 443
+    uuid: "95d0e214-eab0-4701-93ed-fea4f1b56062"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "prime.jarbook.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k"
+      short-id: "77a8c8c8"
+  - name: "🇬🇧 [BL] Сервер 20"
     type: vless
     server: 165.215.250.1
     port: 443
@@ -214,7 +266,7 @@ proxies:
     tls: true
     ws-opts:
       path: "/stream/PANEL_ZEUS/974cf37772bb/loc-1"
-  - name: "🇬🇧 [BL] Сервер 18"
+  - name: "🇬🇧 [BL] Сервер 21"
     type: vless
     server: 57.129.138.142
     port: 8080
@@ -228,21 +280,7 @@ proxies:
     reality-opts:
       public-key: "itUb_lVoLPqG2cGs6vxsOaOImohnpXucmiaDm6_6iyU"
       short-id: "fe57"
-  - name: "🇬🇧 [BL] Сервер 19"
-    type: vless
-    server: uk1.0a0.uk
-    port: 443
-    uuid: "f016bc0f-5309-4782-ac19-4093f20e08d7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NGQ8m89DupgsVe5xcm6CZrbaoamSwwRznBxL4-2zAn0"
-      short-id: "8ed1838f4bbce68f"
-  - name: "🇬🇧 [BL] Сервер 20"
+  - name: "🇬🇧 [BL] Сервер 22"
     type: vless
     server: 95.133.242.212
     port: 443
@@ -250,13 +288,40 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "filesconvert.org"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs"
       short-id: "10debbdf94767541"
-  - name: "🇬🇧 [BL] Сервер 21"
+  - name: "🇬🇧 [BL] Сервер 23"
+    type: vless
+    server: 136.176.68.34
+    port: 443
+    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo"
+      short-id: "a6040129ad7f4b74"
+  - name: "🇬🇧 [BL] Сервер 24"
+    type: vless
+    server: 6d160a52.con.fernarchive.online
+    port: 443
+    uuid: "8645697d-51c1-4e90-aca5-ba63a0392f11"
+    network: "xhttp"
+    servername: "6d160a52.con.fernarchive.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/conv4/stream/77dd2aeeb94331fbff325bb48850392b"
+      mode: "auto"
+  - name: "🇬🇧 [BL] Сервер 25"
     type: vless
     server: 95.163.153.141
     port: 8443
@@ -271,51 +336,15 @@ proxies:
       short-id: "c9ea2355ddeab39b"
     xhttp-opts:
       path: "/"
-  - name: "🇬🇧 [BL] Сервер 22"
-    type: vless
-    server: tracker.onecloudtraining.com
-    port: 443
-    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
-    network: "xhttp"
-    servername: "tracker.onecloudtraining.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/media/v1/push/iteuSL7BEa"
-      mode: "stream-up"
-  - name: "🇬🇧 [BL] Сервер 23"
-    type: vless
-    server: link.onecloudtraining.com
-    port: 443
-    uuid: "0ad875ef-b751-46e3-aa89-e1ae20e43bcc"
-    network: "xhttp"
-    servername: "link.onecloudtraining.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/static/v3/object/OqyozN63ao"
-      mode: "stream-up"
-  - name: "🇬🇧 [BL] Сервер 24"
+  - name: "🇬🇧 [BL] Сервер 26"
     type: ss
     server: 94.156.250.148
     port: 7001
     password: "RexnBgU7EV5ADxG"
     cipher: "aes-256-gcm"
-  - name: "🇬🇧 [BL] Сервер 25"
+  - name: "🇬🇧 [BL] Сервер 27"
     type: ss
     server: 141.98.101.181
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 26"
-    type: vmess
-    server: 149.7.16.228
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true

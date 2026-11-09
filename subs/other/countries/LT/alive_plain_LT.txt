@@ -1,4 +1,3 @@
 #profile-title: Apex LT
 #profile-update-interval: 1
-vless://d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1@46.243.232.71:10018?type=grpc&security=reality&fp=chrome&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60&sni=6b9iw.guardora.pro&mode=gun&serviceName=grpc&encryption=none#🇱🇹 [BL/CF] Сервер 1
-vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?security=tls&alpn=h2&encryption=none&insecure=0&fp=edge&type=grpc&allowInsecure=0&sni=germany3.banovano.space#🇱🇹 [BL] Сервер 2
+vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?security=tls&alpn=h2&encryption=none&insecure=0&fp=edge&type=grpc&allowInsecure=0&sni=germany3.banovano.space#🇱🇹 [BL] Сервер 1

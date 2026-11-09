@@ -1,20 +1,6 @@
 proxies:
   - name: "🇦🇪 [BL] Сервер 1"
     type: vless
-    server: 217.60.30.39
-    port: 443
-    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dg1.hat.onl"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "6qCzcDli4sHk9eomcbajq134wwCOwTgVM_2rlZNNZ2k"
-      short-id: "c1a32745c9bc92a2"
-  - name: "🇦🇪 [BL] Сервер 2"
-    type: vless
     server: 217.60.30.53
     port: 443
     uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
@@ -27,3 +13,29 @@ proxies:
     reality-opts:
       public-key: "OEp5OMlE08EaAunays3K7Lbd0JWKOQKZ8HXiytog4EQ"
       short-id: "e8d6c07aa30b81fa"
+  - name: "🇦🇪 [BL] Сервер 2"
+    type: vless
+    server: tsjs9n5lm4r.apruxdomain.online
+    port: 443
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "grpc"
+    servername: "u209akv3ob.hat.onl"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "v1.segment.9wLukD7VB0oToI10.ts"
+  - name: "🇦🇪 [BL] Сервер 3"
+    type: vless
+    server: 217.60.30.39
+    port: 443
+    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dg1.hat.onl"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6qCzcDli4sHk9eomcbajq134wwCOwTgVM_2rlZNNZ2k"
+      short-id: "c1a32745c9bc92a2"

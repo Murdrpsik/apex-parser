@@ -15,13 +15,19 @@ proxies:
       short-id: "91570bdd8b38b7d9"
   - name: "🇿🇦 [BL] Сервер 2"
     type: ss
+    server: 102.37.156.224
+    port: 443
+    password: "aduB9HGxQHjA2SBMRjkHX6"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇿🇦 [BL] Сервер 3"
+    type: ss
     server: 102.133.165.160
     port: 16233
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 3"
+  - name: "🇿🇦 [BL] Сервер 4"
     type: ss
-    server: 102.37.156.224
+    server: 20.164.217.73
     port: 443
-    password: "aduB9HGxQHjA2SBMRjkHX6"
+    password: "EmbMstDjjBNtxFc0"
     cipher: "chacha20-ietf-poly1305"

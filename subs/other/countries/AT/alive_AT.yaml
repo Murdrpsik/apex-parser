@@ -7,33 +7,9 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "banket-restoran.su"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇦🇹 [BL/CF] Сервер 2"
-    type: vless
-    server: 31.41.221.121
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"
-  - name: "🇦🇹 [BL] Сервер 3"
-    type: vmess
-    server: 154.47.19.225
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true

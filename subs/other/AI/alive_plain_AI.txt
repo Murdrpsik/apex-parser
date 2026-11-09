@@ -3,4 +3,3 @@
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 2
 vless://9ff455f4-d2ca-4459-a824-495fda97dae7@167.233.187.38:1405?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc&sid=4ea6a183&sni=ai.android&encryption=none#🇩🇪 [AI] Сервер 3
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@38.22.17.129:19999#🇺🇸 [AI] Сервер 4

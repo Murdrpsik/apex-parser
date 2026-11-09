@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇸🇰 [BL] Сервер 1"
+    type: vless
+    server: 13.143.190.108
+    port: 443
+    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sk1.hat.onl"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fBZ-I0hvKDC3Bi9Dpz_6ET1srl08XSlmIJxQdSscQkA"
+      short-id: "c961d6f1e33db85c"

@@ -25,9 +25,3 @@ proxies:
     reality-opts:
       public-key: "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc"
       short-id: "4ea6a183"
-  - name: "🇺🇸 [AI] Сервер 4"
-    type: ss
-    server: 38.22.17.129
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
