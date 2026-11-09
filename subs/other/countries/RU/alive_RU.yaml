@@ -6,7 +6,7 @@ proxies:
     uuid: "4662bf2b-af58-0001-ae5f-ef3d7d3a624f"
     network: "ws"
     servername: "mbr.rkn-pediki.site"
-    client-fingerprint: "edge"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     ws-opts:
@@ -15,73 +15,15 @@ proxies:
         Host: "mbr.rkn-pediki.site"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
-    server: 138.16.204.7
-    port: 5443
-    uuid: "68a67906-5b37-4779-a6cc-58a1655f18b4"
+    server: 176.108.245.237
+    port: 443
+    uuid: "87c35d3a-36f1-fade-90b7-af60506efbb8"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "max.ru"
-    client-fingerprint: "edge"
+    servername: "tfusq-ru-40sb.fade.mom"
+    client-fingerprint: "qq"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
   - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 136.234.9.21
-    port: 443
-    uuid: "747db87a-0cf6-4ea7-ae6b-3293afe2cef6"
-    network: "grpc"
-    servername: "9e72bbg.msk2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0R5QIf2DFXNgISIYDQdoWIdbNoImaJHrwOkc2tzRPyQ"
-      short-id: "cc07501e28b18687"
-    grpc-opts:
-      grpc-service-name: "93013a569b78"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: 136.234.9.21
-    port: 443
-    uuid: "13e6bdfd-d51b-4e57-a40e-b88784cba8bd"
-    network: "xhttp"
-    servername: "9900edx.msk2.h1clayd.click"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yMB1YpMhoF4j800rMjlWy97QAwvNwHwjuH1qKNSGfCA"
-      short-id: "0b10c773673c6438"
-    xhttp-opts:
-      path: "/ee321f6e0f15"
-      mode: "auto"
-  - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
-    server: 217.25.93.165
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 87.242.94.231
-    port: 8443
-    uuid: "68a67906-5b37-4779-a6cc-58a1655f18b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cdn-glavslush.herumhas.shop"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 188.130.209.212
     port: 443
@@ -95,85 +37,21 @@ proxies:
     reality-opts:
       public-key: "6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc"
       short-id: "11979c0c9b2da371"
-  - name: "🇷🇺 [WL] Сервер 8"
-    type: vless
-    server: 83.147.246.12
-    port: 443
-    uuid: "3bb97d46-789b-4229-88f6-9beb222a4137"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yoy-api.bachidze.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-  - name: "🇷🇺 [WL] Сервер 9"
-    type: vless
-    server: 45.139.27.125
-    port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ru1.hat.onl"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "obFanw7jqCcrXOlFqJhdOUsduntz_7jte8A11f3MSmQ"
-      short-id: "6d0092600a52a7c9"
-  - name: "🇷🇺 [WL] Сервер 10"
-    type: vless
-    server: 185.231.204.244
-    port: 443
-    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "nl-balancer.peregrine-sub.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇷🇺 [WL] Сервер 11"
-    type: vless
-    server: 196.245.217.66
-    port: 443
-    uuid: "13e6bdfd-d51b-4e57-a40e-b88784cba8bd"
-    network: "grpc"
-    servername: "9e72bbg.msk2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0R5QIf2DFXNgISIYDQdoWIdbNoImaJHrwOkc2tzRPyQ"
-      short-id: "cc07501e28b18687"
-    grpc-opts:
-      grpc-service-name: "93013a569b78"
-  - name: "🇷🇺 [WL] Сервер 12"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: ss
     server: 38.60.223.125
     port: 13108
     password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
     cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 13"
-    type: vless
-    server: 94.156.181.35
-    port: 2053
-    uuid: "1a95439b-a32c-4698-a113-cd0872d6a16b"
-    network: "xhttp"
-    servername: "api15.yandex-cdn-mirror.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_i3_Zt_sxtPRtc6TA_J3KTGzCoz5o9qQGylh1BwBnwA"
-      short-id: "cb20"
-    xhttp-opts:
-      path: "/"
-  - name: "🇷🇺 [WL] Сервер 14"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: ss
     server: 185.22.153.117
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: ss
+    server: 90.156.203.62
+    port: 5112
+    password: "VVlAff77CnAU43Aoc5j15Y"
+    cipher: "chacha20-ietf-poly1305"

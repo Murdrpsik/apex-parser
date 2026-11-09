@@ -3,18 +3,6 @@ proxies:
     type: vless
     server: 91.232.103.51
     port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "grpc"
-    servername: "s2wxzsqb.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "hls-vod.n5dihxdwzg6.segment-20-v1-a1.ts"
-  - name: "🇹🇷 [BL] Сервер 2"
-    type: vless
-    server: 185.147.27.23
-    port: 8443
     uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
     network: "tcp"
     flow: "xtls-rprx-vision"
@@ -25,20 +13,32 @@ proxies:
     reality-opts:
       public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
       short-id: "76132b3b39704c44"
-  - name: "🇹🇷 [BL] Сервер 3"
+  - name: "🇹🇷 [WL] Сервер 2"
     type: vless
-    server: 132.243.173.113
+    server: 91.232.103.51
     port: 443
-    uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "grpc"
+    servername: "s2wxzsqb.hat.onl"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "hls-vod.n5dihxdwzg6.segment-20-v1-a1.ts"
+  - name: "🇹🇷 [WL] Сервер 3"
+    type: vless
+    server: 185.246.155.91
+    port: 10103
+    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "tr-edge.gacvpn.site"
-    client-fingerprint: "ios"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "58OdCgSElaaOVj6XfrFwYqZoP4soDzY7MvRaaR5pCXk"
-      short-id: "ab7cbe5f"
+      public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
+      short-id: "6859f5b59e55aa30"
   - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 62.133.63.45
@@ -68,6 +68,32 @@ proxies:
       short-id: "9e419c0759b54d6f"
   - name: "🇹🇷 [BL] Сервер 6"
     type: vless
+    server: 217.11.164.183
+    port: 2120
+    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
+    network: "tcp"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
+      short-id: "ddaaf1630788aeac"
+  - name: "🇹🇷 [BL] Сервер 7"
+    type: vless
+    server: 45.74.158.57
+    port: 2218
+    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
+    network: "raw"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
+      short-id: "cc80ef"
+  - name: "🇹🇷 [BL] Сервер 8"
+    type: vless
     server: 78.135.73.47
     port: 443
     uuid: "25e16692-d097-4e69-9e2d-8415609c1968"
@@ -80,3 +106,32 @@ proxies:
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
+  - name: "🇹🇷 [BL] Сервер 9"
+    type: vless
+    server: 171.22.27.161
+    port: 2083
+    uuid: "ca39b355-b488-9297-918f-9d011d075ba2"
+    network: "xhttp"
+    servername: "www.aparat.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "yeEgcP0ehhicUQZdFGJBhLuU3wsEMSRyg8l2voakZBs"
+      short-id: "2f567c6d"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇹🇷 [BL] Сервер 10"
+    type: vless
+    server: 153.56.228.151
+    port: 443
+    uuid: "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef"
+    network: "tcp"
+    servername: "bbcdd4t.de-p2.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8"
+      short-id: "1aab0b827885a8b4"

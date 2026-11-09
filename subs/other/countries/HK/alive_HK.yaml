@@ -1,6 +1,33 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
+    server: 209.33.160.122
+    port: 39098
+    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dash.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
+    server: 43.161.193.181
+    port: 443
+    uuid: "280f4d33-69fb-4f0d-a4c3-fe0bf841009f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "addons.mozilla.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "nf9eFC0yVVO-peA-wmZ1EEIwAaSstK2JN3tJV0WNJQE"
+      short-id: "8c994df3c4e175a4"
+  - name: "🇭🇰 [BL] Сервер 3"
+    type: vless
     server: 156.226.168.221
     port: 35193
     uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
@@ -13,31 +40,3 @@ proxies:
     reality-opts:
       public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
       short-id: "e8daed2d"
-  - name: "🇭🇰 [BL] Сервер 2"
-    type: vless
-    server: 203.198.248.231
-    port: 443
-    uuid: "0200e8ed-ebf6-4371-937f-ed3b3c3d872c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "live.douyin.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "OlIrfK7w1hbv6iDeV9xNrJ8QiQwEY8eOqzNt0Gmewgs"
-      short-id: "96b6ea3d"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
-    server: 14.198.59.87
-    port: 443
-    uuid: "0200e8ed-ebf6-4371-937f-ed3b3c3d872c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "i0.hdslb.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "dYzI6PIDa_2ckWhOGsQ1_A_v6uCL7XgT59vYJcUZFmE"
-      short-id: "f71889da"

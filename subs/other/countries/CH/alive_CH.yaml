@@ -1,6 +1,20 @@
 proxies:
   - name: "🇨🇭 [WL] Сервер 1"
     type: vless
+    server: prvtch.titun.su
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "perevodchiki.su"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
+  - name: "🇨🇭 [WL] Сервер 2"
+    type: vless
     server: 46.19.138.214
     port: 443
     uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
@@ -13,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇨🇭 [BL] Сервер 2"
+  - name: "🇨🇭 [BL] Сервер 3"
     type: vless
     server: 45.90.59.15
     port: 443
@@ -27,91 +41,21 @@ proxies:
     reality-opts:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
-  - name: "🇨🇭 [BL] Сервер 3"
-    type: vless
-    server: prvtch.titun.su
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "perevodchiki.su"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 4"
-    type: vless
-    server: 94.26.35.217
-    port: 443
-    uuid: "54066259-28a1-47dc-b0f7-e7715f27918e"
-    network: "tcp"
-    servername: "537df6t.ch5.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LHkKUZNBp93VjTHD9fpoj44-4WB-TQbDpa5A929nSwE"
-      short-id: "e368a430524df0fa"
-  - name: "🇨🇭 [BL] Сервер 5"
-    type: vless
-    server: 195.206.235.14
-    port: 443
-    uuid: "54066259-28a1-47dc-b0f7-e7715f27918e"
-    network: "xhttp"
-    servername: "d0f7fax.ch5.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "OqpjppFQ222BTeRXlK6fh7nP5ePkkNCLlUH1-CvkmBc"
-      short-id: "f245401987e85cad"
-    xhttp-opts:
-      path: "/14b7754c61d2"
-  - name: "🇨🇭 [BL] Сервер 6"
     type: vless
     server: 45.90.56.195
     port: 443
-    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ch1.hat.onl"
-    client-fingerprint: "ios"
+    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
+    network: "xhttp"
+    servername: "hiripq3ogefeug.hat.onl"
+    client-fingerprint: "qq"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
-      short-id: "76132b3b39704c44"
-  - name: "🇨🇭 [BL] Сервер 7"
-    type: vless
-    server: 179.43.166.190
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇨🇭 [BL] Сервер 8"
-    type: vless
-    server: 109.172.114.57
-    port: 2058
-    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
-      short-id: "937255313d6ce673"
-  - name: "🇨🇭 [BL] Сервер 9"
+    xhttp-opts:
+      path: "/hls/4y4da765/seg"
+      host: "hiripq3ogefeug.hat.onl"
+      mode: "auto"
+  - name: "🇨🇭 [BL] Сервер 5"
     type: vless
     server: 151.243.191.174
     port: 8447
@@ -127,3 +71,17 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
+  - name: "🇨🇭 [BL] Сервер 6"
+    type: vless
+    server: 109.172.114.57
+    port: 2058
+    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
+      short-id: "937255313d6ce673"

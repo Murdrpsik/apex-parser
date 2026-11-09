@@ -29,6 +29,20 @@ proxies:
       short-id: "7ff98efcced3fd5b"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
+    server: 103.172.116.191
+    port: 10303
+    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU"
+      short-id: "f96b3b17a0f5b1fe"
+  - name: "🇮🇳 [BL] Сервер 4"
+    type: vless
     server: 194.61.31.126
     port: 2053
     uuid: "1d4e18bd-1f26-4915-b35a-7ace4826e76a"
@@ -40,7 +54,7 @@ proxies:
     reality-opts:
       public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
       short-id: "9980e0609b0d3891"
-  - name: "🇮🇳 [BL] Сервер 4"
+  - name: "🇮🇳 [BL] Сервер 5"
     type: vless
     server: 178.212.35.198
     port: 443
@@ -53,12 +67,3 @@ proxies:
     reality-opts:
       public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
       short-id: "6bdc8320"
-  - name: "🇮🇳 [BL] Сервер 5"
-    type: vmess
-    server: 152.67.8.205
-    port: 80
-    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "152.67.8.205"

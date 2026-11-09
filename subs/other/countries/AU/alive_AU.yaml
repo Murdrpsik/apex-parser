@@ -1,15 +1,15 @@
 proxies:
   - name: "🇦🇺 [BL] Сервер 1"
     type: vless
-    server: 51.161.204.242
+    server: 50.6.54.163
     port: 443
-    uuid: "3c778768-d511-4221-8be3-3eba45640e9e"
+    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24"
-      short-id: "d432fe14bbdc17f6"
+      public-key: "2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U"
+      short-id: "26b26357bfcd59a1"

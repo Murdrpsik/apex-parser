@@ -1,0 +1,18 @@
+proxies:
+  - name: "🇲🇰 [BL] Сервер 1"
+    type: vless
+    server: 138.124.252.26
+    port: 443
+    uuid: "461a5e99-c932-449c-9516-853fd0fade7a"
+    network: "xhttp"
+    servername: "maxiii.qiksme.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "dQadA8TP5tRVF_SxqNRexInmD_oGuEGopGJ-YdG_Z24"
+      short-id: "c9154b81e0169400"
+    xhttp-opts:
+      path: "/assets/js/app.9fb7bae4.js"
+      host: "maxiii.qiksme.com"
+      mode: "stream-one"

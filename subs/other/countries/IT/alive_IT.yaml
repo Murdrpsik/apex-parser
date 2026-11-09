@@ -15,17 +15,6 @@ proxies:
       short-id: "cd6065902eea7a02"
   - name: "🇮🇹 [BL] Сервер 2"
     type: vless
-    server: 45.137.201.174
-    port: 443
-    uuid: "68a67906-5b37-4779-a6cc-58a1655f18b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bg-1.bexumconnect.ltd"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇮🇹 [BL] Сервер 3"
-    type: vless
     server: 94.183.234.245
     port: 443
     uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
@@ -38,33 +27,41 @@ proxies:
     reality-opts:
       public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
       short-id: "7f1e29593aa94ad1"
+  - name: "🇮🇹 [BL/CF] Сервер 3"
+    type: vless
+    server: 179.255.190.21
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
   - name: "🇮🇹 [BL] Сервер 4"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 5"
     type: ss
     server: 202.50.253.54
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 6"
+  - name: "🇮🇹 [BL] Сервер 5"
     type: ss
     server: 202.50.253.63
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 7"
+  - name: "🇮🇹 [BL] Сервер 6"
     type: ss
     server: 202.50.253.72
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 8"
+  - name: "🇮🇹 [BL] Сервер 7"
     type: ss
-    server: 202.50.253.27
+    server: 202.50.253.90
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"

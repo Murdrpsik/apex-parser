@@ -1,18 +1,5 @@
 proxies:
-  - name: "🇱🇻 [WL] Сервер 1"
-    type: vless
-    server: 31.130.151.97
-    port: 443
-    uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "addons.mozilla.org"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0GBR6DwsCQEYEa7QZHnOqbwmEMr8moms1sFU-wT-bHE"
-  - name: "🇱🇻 [BL] Сервер 2"
+  - name: "🇱🇻 [BL] Сервер 1"
     type: vless
     server: 195.123.213.28
     port: 443
@@ -25,21 +12,7 @@ proxies:
     reality-opts:
       public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
       short-id: "5c256336e3b673fa"
-  - name: "🇱🇻 [BL] Сервер 3"
-    type: vless
-    server: 195.123.209.32
-    port: 443
-    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lv1.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
-      short-id: "76132b3b39704c44"
-  - name: "🇱🇻 [BL] Сервер 4"
+  - name: "🇱🇻 [BL] Сервер 2"
     type: vless
     server: 138.124.180.137
     port: 443
@@ -53,22 +26,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 5"
-    type: vless
-    server: 2.27.210.198
-    port: 57064
-    uuid: "01e44dba-da95-4bf7-b5ca-6fce514d1585"
-    network: "xhttp"
-    servername: "yandex-cdn-mirror.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JapPViaO5Vi7qH7ox4TPi0WOyCjYZCNDDQCyc7RLBQw"
-      short-id: "238341"
-    xhttp-opts:
-      path: "/"
-  - name: "🇱🇻 [BL] Сервер 6"
+  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -82,7 +40,7 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
-  - name: "🇱🇻 [BL] Сервер 7"
+  - name: "🇱🇻 [BL] Сервер 4"
     type: vless
     server: 217.60.60.243
     port: 443

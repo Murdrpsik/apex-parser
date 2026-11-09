@@ -2,4 +2,6 @@
 #profile-update-interval: 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 2
-vless://9ff455f4-d2ca-4459-a824-495fda97dae7@167.233.187.38:1405?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc&sid=4ea6a183&sni=ai.android&encryption=none#🇩🇪 [AI] Сервер 3
+vless://d7ddade6-b7a0-4cab-a910-d5d5c378d98a@201.58.189.104:2083?encryption=none&type=grpc&serviceName=google.storage.v2.Storage&security=reality&sni=dl.google.com&pbk=B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4&sid=8bd80253&fp=chrome#🇵🇱 [AI] Сервер 3
+vless://d7ddade6-b7a0-4cab-a910-d5d5c378d98a@201.58.189.105:2083?encryption=none&type=grpc&serviceName=google.storage.v2.Storage&security=reality&sni=dl.google.com&pbk=B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4&sid=8bd80253&fp=chrome#🇵🇱 [AI] Сервер 4
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.79.49.116:8882#🇨🇦 [AI] Сервер 5

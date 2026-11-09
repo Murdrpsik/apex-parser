@@ -1,31 +1,5 @@
 proxies:
-  - name: "🇪🇬 [BL] Сервер 1"
-    type: vless
-    server: 130.94.49.242
-    port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "eg1.hat.onl"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "tt35z7OjUx1kFP0ymroVmbVMiflTzKCkAKbqkhlv7AE"
-      short-id: "91570bdd8b38b7d9"
-  - name: "🇿🇦 [BL] Сервер 2"
-    type: ss
-    server: 102.37.156.224
-    port: 443
-    password: "aduB9HGxQHjA2SBMRjkHX6"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 3"
-    type: ss
-    server: 102.133.165.160
-    port: 16233
-    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 4"
+  - name: "🇿🇦 [BL] Сервер 1"
     type: ss
     server: 20.164.217.73
     port: 443

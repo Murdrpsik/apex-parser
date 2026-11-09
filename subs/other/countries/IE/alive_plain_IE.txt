@@ -1,0 +1,3 @@
+#profile-title: Apex IE
+#profile-update-interval: 1
+vless://aee81653-1fec-469f-98b2-a8d476b96f51@83.141.80.226:443?encryption=none&type=xhttp&security=reality&sni=avvaa.qiksme.com&pbk=5f3YKh1kMwC_Q4BA-8BBBMmUC2hmRDCDb1pr2xz6CUs&sid=69747b8a2d26d6b4&fp=firefox&spx=%2Fcdn%2F466657%2F0edb&path=%2Fassets%2Fjs%2Fapp.94a3008d.js&host=avvaa.qiksme.com&mode=stream-one#🇮🇪 [BL] Сервер 1

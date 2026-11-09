@@ -1,0 +1,18 @@
+proxies:
+  - name: "🇨🇾 [BL] Сервер 1"
+    type: vless
+    server: 45.83.85.178
+    port: 443
+    uuid: "ff15fcbe-4213-4c7d-ad0d-a0ad9b62f9b9"
+    network: "xhttp"
+    servername: "vvell.qiksme.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "yG9PCRThFyrRI10PjbNzQPvWzjnvxGbzwzHuvYMWRys"
+      short-id: "6300ca9f9d90b6f3"
+    xhttp-opts:
+      path: "/assets/js/app.2f2bdee6.js"
+      host: "vvell.qiksme.com"
+      mode: "stream-one"

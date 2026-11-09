@@ -19,19 +19,14 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🌐 [BL] Сервер 3"
+  - name: "🇺🇸 [BL] Сервер 3"
     type: vmess
-    server: 38.107.234.57
-    port: 80
-    uuid: "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c"
+    server: 38.91.107.49
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
-    network: "ws"
-    servername: "3h-kazakhstan1.09vpn.com"
-    ws-opts:
-      path: "/vmess/"
-      headers:
-        Host: "3h-kazakhstan1.09vpn.com"
+    network: "tcp"
   - name: "🇸🇬 [BL] Сервер 4"
     type: vmess
     server: 149.88.23.207
@@ -42,34 +37,7 @@ proxies:
     network: "tcp"
     ws-opts:
       path: "/"
-  - name: "🇸🇬 [BL] Сервер 5"
-    type: vmess
-    server: 149.88.23.202
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-  - name: "🇮🇳 [BL] Сервер 6"
-    type: vmess
-    server: 152.67.8.205
-    port: 80
-    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "152.67.8.205"
-  - name: "🇨🇦 [BL] Сервер 7"
-    type: vmess
-    server: 169.197.142.22
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    ws-opts:
-      path: "/"
-  - name: "🇨🇦 [BL] Сервер 8"
+  - name: "🇨🇦 [BL] Сервер 5"
     type: vmess
     server: 23.162.200.198
     port: 18000
@@ -77,23 +45,3 @@ proxies:
     cipher: "auto"
     alterId: 0
     network: "raw"
-  - name: "🇺🇸 [BL] Сервер 9"
-    type: vmess
-    server: 172.111.36.147
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
-  - name: "🇺🇸 [BL] Сервер 10"
-    type: vmess
-    server: 67.220.95.49
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
