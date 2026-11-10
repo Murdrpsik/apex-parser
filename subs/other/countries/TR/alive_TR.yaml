@@ -42,32 +42,6 @@ proxies:
       short-id: "9e419c0759b54d6f"
   - name: "🇹🇷 [BL] Сервер 4"
     type: vless
-    server: 217.11.164.183
-    port: 2101
-    uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
-    network: "tcp"
-    servername: "www.apple.com.cn"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
-      short-id: "06"
-  - name: "🇹🇷 [BL] Сервер 5"
-    type: vless
-    server: 45.74.158.57
-    port: 2218
-    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
-    network: "raw"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
-      short-id: "cc80ef"
-  - name: "🇹🇷 [BL] Сервер 6"
-    type: vless
     server: 78.135.73.47
     port: 443
     uuid: "25e16692-d097-4e69-9e2d-8415609c1968"
@@ -80,30 +54,3 @@ proxies:
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
-  - name: "🇹🇷 [BL] Сервер 7"
-    type: vless
-    server: 154.40.51.62
-    port: 22152
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "iosapps.itunes.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "dDf2TcDNn3Kk8pAp4EnNC4ZUAmGkzAapRFGFe-41IEk"
-      short-id: "86f6705960e3e3"
-  - name: "🇹🇷 [BL] Сервер 8"
-    type: vless
-    server: 45.92.219.47
-    port: 443
-    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ty.galactichub.online"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"

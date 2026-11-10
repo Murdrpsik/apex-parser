@@ -15,20 +15,6 @@ proxies:
       short-id: "77bb0d07bddbc832"
   - name: "🇧🇬 [BL] Сервер 2"
     type: vless
-    server: 13.143.198.100
-    port: 443
-    uuid: "155fd9d4-e1f9-44b3-99b6-6d2c389ade88"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bg1.hat.onl"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
-      short-id: "76132b3b39704c44"
-  - name: "🇧🇬 [BL] Сервер 3"
-    type: vless
     server: 131.123.43.103
     port: 443
     uuid: "3f5e89d5-591f-4ac9-b071-b05680b573c3"
@@ -41,6 +27,20 @@ proxies:
     reality-opts:
       public-key: "SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg"
       short-id: "1f8bab7ad81089f2"
+  - name: "🇧🇬 [BL] Сервер 3"
+    type: vless
+    server: 13.143.198.100
+    port: 443
+    uuid: "155fd9d4-e1f9-44b3-99b6-6d2c389ade88"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "bg1.hat.onl"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
+      short-id: "76132b3b39704c44"
   - name: "🇧🇬 [BL] Сервер 4"
     type: vless
     server: 45.9.156.27

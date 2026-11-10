@@ -29,13 +29,26 @@ proxies:
       short-id: "8debcf36f1cc69ff"
   - name: "🇧🇾 [BL] Сервер 3"
     type: vless
+    server: 195.206.235.34
+    port: 443
+    uuid: "67d258aa-fffa-45f7-953e-58cd000082e6"
+    network: "tcp"
+    servername: "15d7fft.nl11.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4"
+      short-id: "c71118d9399fb8c2"
+  - name: "🇧🇾 [BL] Сервер 4"
+    type: vless
     server: 178.172.227.124
     port: 10444
     uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ads.x5.ru"
-    client-fingerprint: "chrome"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:

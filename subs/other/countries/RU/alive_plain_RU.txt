@@ -1,13 +1,5 @@
 #profile-title: Apex RU
 #profile-update-interval: 1
-vless://3253407a-f03f-4353-8035-df10c0565162@176.122.25.48:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc&sid=95bf544ac3cb0c&sni=max.ru&encryption=none&type=tcp#🇷🇺 [WL] Сервер 1
-vless://3253407a-f03f-4353-8035-df10c0565162@176.122.25.48:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc&sid=53095f58d13a6503&sni=max.ru&encryption=none&type=tcp#🇷🇺 [WL] Сервер 2
-vless://d86e6fda-e519-46ab-98eb-9ff9a9da5984@88.218.66.208:443?encryption=none&type=grpc&security=tls&sni=juniper-willow.cdn.cachefleet.com&fp=chrome&serviceName=3s7f80c9431676f3#🇷🇺 [WL] Сервер 3
-vless://4662bf2b-af58-0001-ae5f-ef3d7d3a624f@185.178.208.167:443?security=tls&sni=mbr.rkn-pediki.site&alpn=http%2F1.1&fp=ios&type=ws&host=mbr.rkn-pediki.site&path=%2Fsession&encryption=none#🇷🇺 [WL] Сервер 4
-vless://2b5962e8-1ec2-0001-bdab-cefa57555d2a@185.178.208.167:443?path=%2Fsession&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=mbr.rkn-pediki.site&fp=ios&type=ws&allowInsecure=0&sni=mbr.rkn-pediki.site#🇷🇺 [WL] Сервер 5
-vless://c5f59ef3-9540-49fa-bd1e-c6c2f79df49a@92.243.66.79:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ru-mow.probe.geomyip.com&fp=chrome&pbk=siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o&sid=8d03c10b6a874a9c&type=tcp&headerType=none#🇷🇺 [WL] Сервер 6
-vless://87c35d3a-36f1-fade-90b7-af60506efbb8@176.108.245.237:443?security=tls&sni=tfusq-ru-40sb.fade.mom&alpn=h2%2Chttp%2F1.1&fp=qq&encryption=none&type=tcp#🇷🇺 [WL] Сервер 7
-vless://c8c2ddff-825a-46c3-bbdd-4a101de468a7@188.130.209.212:443?security=reality&encryption=none&pbk=6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=thumbs.mycdn-io.ru&sid=11979c0c9b2da371#🇷🇺 [WL] Сервер 8
-vless://42a64b9a-ab79-4094-8656-30366a7c2ea3@185.231.204.244:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=safari&pbk=Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw&sni=nl-balancer.peregrine-sub.net&encryption=none#🇷🇺 [WL] Сервер 9
-ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA@185.22.153.117:18443#🇷🇺 [WL] Сервер 10
-vless://155fd9d4-e1f9-44b3-99b6-6d2c389ade88@45.139.27.125:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=obFanw7jqCcrXOlFqJhdOUsduntz_7jte8A11f3MSmQ&security=reality&sid=6d0092600a52a7c9&sni=ru1.hat.onl&type=tcp#🇷🇺 [WL] Сервер 11
+vless://c8c2ddff-825a-46c3-bbdd-4a101de468a7@188.130.209.212:443?security=reality&encryption=none&pbk=6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=thumbs.mycdn-io.ru&sid=11979c0c9b2da371#🇷🇺 [WL] Сервер 1
+vless://155fd9d4-e1f9-44b3-99b6-6d2c389ade88@45.139.27.125:443?encryption=none&flow=xtls-rprx-vision&pbk=obFanw7jqCcrXOlFqJhdOUsduntz_7jte8A11f3MSmQ&security=reality&sid=6d0092600a52a7c9&sni=ru1.hat.onl&type=tcp&fp=firefox#🇷🇺 [WL] Сервер 2
+ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE@38.60.223.125:13108#🇷🇺 [WL] Сервер 3

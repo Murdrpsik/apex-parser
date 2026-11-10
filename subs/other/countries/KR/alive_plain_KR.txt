@@ -1,7 +1,5 @@
 #profile-title: Apex KR
 #profile-update-interval: 1
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com&encryption=none#🇰🇷 [BL] Сервер 1
-vless://d86e6fda-e519-46ab-98eb-9ff9a9da5984@200.102.183.80:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=sp_KKjJjc7cyVd8jkaPNfRtB9UxyZT6CfF62uYqcMlI&sni=cedar-tide.cdn.cachefleet.com&fp=firefox&sid=69828f96b0fcc801#🇰🇷 [BL] Сервер 2
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@64.110.79.66:8443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇰🇷 [BL/CF] Сервер 3
-vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@141.164.40.4:443?security=tls&type=xhttp&path=%2Fbfaa4bbe8cd76b7477b05453d8d48ecc&host=66e05ed8s2448.xxti.top&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1&sni=u695098u66e05ed8s2448.xxti.top&fp=firefox&encryption=none#🇰🇷 [BL] Сервер 4
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#🇰🇷 [BL] Сервер 5
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@64.110.79.66:8443?host=fs.qicai99.com&path=%2Ffp%3Dchrome&security=tls&sni=fs.qicai99.com&type=ws&encryption=none#🇰🇷 [BL/CF] Сервер 2
+vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@141.164.40.4:443?security=tls&type=xhttp&path=%2Fbfaa4bbe8cd76b7477b05453d8d48ecc&host=66e05ed8s2448.xxti.top&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1&sni=u695098u66e05ed8s2448.xxti.top&fp=firefox&encryption=none#🇰🇷 [BL] Сервер 3

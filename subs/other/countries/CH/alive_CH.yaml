@@ -29,19 +29,47 @@ proxies:
       short-id: "19253fae84102271"
   - name: "🇨🇭 [BL] Сервер 3"
     type: vless
-    server: 179.43.166.190
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    server: 109.172.114.57
+    port: 2058
+    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "perevodchiki.su"
-    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
+      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
+      short-id: "937255313d6ce673"
   - name: "🇨🇭 [BL] Сервер 4"
+    type: vless
+    server: 188.120.242.196
+    port: 2058
+    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
+      short-id: "937255313d6ce673"
+  - name: "🇨🇭 [BL] Сервер 5"
+    type: vless
+    server: 157.22.185.68
+    port: 2058
+    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
+      short-id: "937255313d6ce673"
+  - name: "🇨🇭 [BL] Сервер 6"
     type: vless
     server: 151.243.191.174
     port: 8447
@@ -57,17 +85,3 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
-  - name: "🇨🇭 [BL] Сервер 5"
-    type: vless
-    server: 109.172.114.57
-    port: 2058
-    uuid: "4ad9f982-b56a-444a-9684-35ce51307a36"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s"
-      short-id: "937255313d6ce673"

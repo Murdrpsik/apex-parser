@@ -1,4 +1,0 @@
-#profile-title: Apex AE
-#profile-update-interval: 1
-vless://155fd9d4-e1f9-44b3-99b6-6d2c389ade88@217.60.30.53:443?encryption=none&flow=xtls-rprx-vision&pbk=OEp5OMlE08EaAunays3K7Lbd0JWKOQKZ8HXiytog4EQ&security=reality&sid=e8d6c07aa30b81fa&sni=de3.hat.onl&type=tcp&fp=firefox#🇦🇪 [BL] Сервер 1
-vless://d86e6fda-e519-46ab-98eb-9ff9a9da5984@200.102.183.45:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=cH5ij6-s09W0Dx3Bnxhh4fHeVnjM_TrS1rZWfdgBPi8&sni=dune-falcon.cdn.cachefleet.com&fp=firefox&sid=0268c715cf2f61e7#🇦🇪 [BL] Сервер 2

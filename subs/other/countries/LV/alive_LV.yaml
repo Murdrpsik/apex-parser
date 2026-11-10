@@ -4,57 +4,16 @@ proxies:
     server: 195.123.213.28
     port: 443
     uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
-    type: vless
-    server: 104.165.205.11
-    port: 11443
-    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "104.165.205.11"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "t4nUImI52AuYuVYx0Wv-VHxX--IA9ROdnS2GRURKTXE"
-      short-id: "670701520d072fba"
-  - name: "🇱🇻 [BL] Сервер 3"
-    type: vless
-    server: 104.165.205.16
-    port: 11443
-    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "104.165.205.16"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LO0uXoSfKt_Aac1id60D9IvEx7g4oCSj714qUSyvj0I"
-      short-id: "1191b77700247bd1"
-  - name: "🇱🇻 [BL] Сервер 4"
-    type: vless
-    server: 104.165.205.10
-    port: 11443
-    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "104.165.205.10"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "v7mTeSeI2Wn2fz55BIikwcXvasry1oq_BC_bsf6OSSw"
-      short-id: "76a8cdb9262db20a"
-  - name: "🇱🇻 [BL] Сервер 5"
     type: vless
     server: 138.124.180.137
     port: 443
@@ -68,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 6"
+  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -82,34 +41,7 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
-  - name: "🇱🇻 [BL] Сервер 7"
-    type: vless
-    server: 217.60.60.243
-    port: 443
-    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lv.peregrine-sub.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇱🇻 [BL] Сервер 8"
-    type: vless
-    server: 200.181.87.171
-    port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cedar-beacon.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
-      short-id: "2a09abf8032087af"
-  - name: "🇱🇻 [BL] Сервер 9"
+  - name: "🇱🇻 [BL] Сервер 4"
     type: vless
     server: 193.111.205.224
     port: 47615
@@ -122,3 +54,41 @@ proxies:
     reality-opts:
       public-key: "tZa1-3ktQrmHb7M1BoxxwicDP_BE2VDxMrvO4enQRE4"
       short-id: "d50f"
+  - name: "🇱🇻 [BL] Сервер 5"
+    type: vless
+    server: 2.26.88.140
+    port: 4443
+    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    network: "xhttp"
+    servername: "lv3.nexfile.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v1/sync/"
+  - name: "🇱🇻 [BL] Сервер 6"
+    type: vless
+    server: 2.26.88.240
+    port: 4443
+    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
+    network: "xhttp"
+    servername: "lv3.nexfile.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v1/sync/"
+  - name: "🇱🇻 [BL] Сервер 7"
+    type: vless
+    server: 138.124.63.65
+    port: 443
+    uuid: "c1208c5a-2350-4506-affd-fc41b4319286"
+    network: "ws"
+    servername: "freshoutlet.cleanfoodshop.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/media/ws/"
+      headers:
+        Host: "freshoutlet.cleanfoodshop.org"

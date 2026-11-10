@@ -13,35 +13,20 @@ proxies:
     reality-opts:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
-  - name: "🇰🇷 [BL] Сервер 2"
-    type: vless
-    server: 200.102.183.80
-    port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cedar-tide.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "sp_KKjJjc7cyVd8jkaPNfRtB9UxyZT6CfF62uYqcMlI"
-      short-id: "69828f96b0fcc801"
-  - name: "🇰🇷 [BL/CF] Сервер 3"
+  - name: "🇰🇷 [BL/CF] Сервер 2"
     type: vless
     server: 64.110.79.66
     port: 8443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
     servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/"
+      path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇰🇷 [BL] Сервер 4"
+  - name: "🇰🇷 [BL] Сервер 3"
     type: vless
     server: 141.164.40.4
     port: 443
@@ -54,9 +39,3 @@ proxies:
     xhttp-opts:
       path: "/bfaa4bbe8cd76b7477b05453d8d48ecc"
       host: "66e05ed8s2448.xxti.top"
-  - name: "🇰🇷 [BL] Сервер 5"
-    type: ss
-    server: 141.164.45.187
-    port: 6679
-    password: "TEzjfAYq2IjtuoS"
-    cipher: "aes-256-gcm"

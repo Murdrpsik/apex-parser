@@ -1,10 +1,24 @@
 proxies:
-  - name: "🇪🇸 [BL] Сервер 1"
+  - name: "🇪🇸 [WL] Сервер 1"
+    type: vless
+    server: 83.171.241.142
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "7aa271t.es1.h1clayd.click"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE"
+      short-id: "42426c882c5fcd41"
+  - name: "🇪🇸 [BL] Сервер 2"
     type: vless
     server: 46.28.71.247
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
@@ -13,20 +27,6 @@ proxies:
     reality-opts:
       public-key: "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE"
       short-id: "0dfc23fe80778c00"
-  - name: "🇪🇸 [BL] Сервер 2"
-    type: vless
-    server: 196.199.122.2
-    port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "7aa271t.es1.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE"
-      short-id: "42426c882c5fcd41"
   - name: "🇪🇸 [BL] Сервер 3"
     type: vless
     server: 79.182.70.212
@@ -35,7 +35,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "7aa271t.es1.h1clayd.click"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -43,7 +43,7 @@ proxies:
       short-id: "42426c882c5fcd41"
   - name: "🇪🇸 [BL] Сервер 4"
     type: vless
-    server: 83.171.241.142
+    server: 196.199.122.2
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "xhttp"
@@ -96,19 +96,6 @@ proxies:
       path: "/es"
       mode: "auto"
   - name: "🇪🇸 [BL] Сервер 8"
-    type: vless
-    server: 84.32.108.3
-    port: 443
-    uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
-    network: "xhttp"
-    servername: "7d1a74fd.ferrin.uk"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/es/?"
-      mode: "auto"
-  - name: "🇪🇸 [BL] Сервер 9"
     type: vless
     server: 84.32.184.214
     port: 443

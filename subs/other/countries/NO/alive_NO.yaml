@@ -13,15 +13,3 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇳🇴 [BL] Сервер 2"
-    type: vless
-    server: 85.11.187.69
-    port: 8443
-    uuid: "2f094d48-7186-47ca-9e57-e977bbac3b08"
-    network: "tcp"
-    servername: "eu93.cdn77.icu"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"

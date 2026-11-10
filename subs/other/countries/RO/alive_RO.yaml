@@ -7,13 +7,27 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
       short-id: "d06d78e974491b6e"
   - name: "🇷🇴 [BL] Сервер 2"
+    type: vless
+    server: cdn-rum-keno-prsv.keno.su
+    port: 443
+    uuid: "dc95c1dd-2cd3-414c-8cf1-71ae86dad666"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "cdn-rum-keno-prsv.keno.su"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Cw04nkURk7InPCPZl-0PovP44rh5o74dMHBUFOsjFig"
+      short-id: "a1b2c3d4e5f60718"
+  - name: "🇷🇴 [BL] Сервер 3"
     type: vless
     server: 103.102.229.75
     port: 443
@@ -27,7 +41,21 @@ proxies:
     reality-opts:
       public-key: "Cw04nkURk7InPCPZl-0PovP44rh5o74dMHBUFOsjFig"
       short-id: "a1b2c3d4e5f60718"
-  - name: "🇷🇴 [BL] Сервер 3"
+  - name: "🇷🇴 [BL] Сервер 4"
+    type: vless
+    server: 91.215.40.106
+    port: 443
+    uuid: "010be6fa-ab5f-404a-9edf-ab2db1f09f0c"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "q.krevetkabs111.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_BEKGm4aogfkeqroLplieJ58hk4IlNHFP5cWd0oiO0M"
+      short-id: "066ca0781110293d"
+  - name: "🇷🇴 [BL] Сервер 5"
     type: vless
     server: 31.6.1.115
     port: 443
