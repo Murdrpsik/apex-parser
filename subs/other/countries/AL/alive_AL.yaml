@@ -1,0 +1,58 @@
+proxies:
+  - name: "🇦🇱 [WL] Сервер 1"
+    type: vless
+    server: 89.208.113.126
+    port: 8552
+    uuid: "2daa4463-8c12-4345-a516-2e98862d8c63"
+    network: "grpc"
+    servername: "it.nvidia.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZLP3MK062yecyTyqNlo_W88k3vFbDInzkNYHqQnY4hk"
+      short-id: "7d"
+    grpc-opts:
+      grpc-service-name: "api/v1/sync/"
+      grpc-mode: "gun"
+  - name: "🇦🇱 [WL] Сервер 2"
+    type: vless
+    server: 89.208.113.126
+    port: 8552
+    uuid: "5d9d19ec-582a-4c3b-9c1e-68c0e752c2af"
+    network: "grpc"
+    servername: "it.nvidia.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZLP3MK062yecyTyqNlo_W88k3vFbDInzkNYHqQnY4hk"
+      short-id: "7d"
+    grpc-opts:
+      grpc-service-name: "api/v1/sync/"
+  - name: "🇦🇱 [WL] Сервер 3"
+    type: vless
+    server: 89.208.113.126
+    port: 8552
+    uuid: "2daa4463-8c12-4345-a516-2e98862d8c63"
+    network: "grpc"
+    servername: "it.nvidia.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZLP3MK062yecyTyqNlo_W88k3vFbDInzkNYHqQnY4hk"
+      short-id: "7d"
+    grpc-opts:
+      grpc-service-name: "api/v1/sync/"
+  - name: "🇦🇱 [BL] Сервер 4"
+    type: vless
+    server: 157.22.240.224
+    port: 443
+    uuid: "692f2864-c930-420f-bf47-bd715d154ffa"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "allba.connect-qik.uk"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true

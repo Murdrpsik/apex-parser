@@ -1,3 +1,0 @@
-#profile-title: Apex SK
-#profile-update-interval: 1
-vless://155fd9d4-e1f9-44b3-99b6-6d2c389ade88@13.143.190.112:443?encryption=none&flow=xtls-rprx-vision&pbk=fBZ-I0hvKDC3Bi9Dpz_6ET1srl08XSlmIJxQdSscQkA&security=reality&sid=c961d6f1e33db85c&sni=l4v4o00ghs86.hat.onl&type=tcp&fp=firefox#🇸🇰 [BL] Сервер 1

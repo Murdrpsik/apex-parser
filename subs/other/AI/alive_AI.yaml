@@ -18,7 +18,27 @@ proxies:
     uuid: "95f85937-7b95-45c4-8d69-95da6a978569"
     network: "ws"
     servername: "chat.gpt.prem-ai.shop"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     ws-opts:
       path: "/gateway/v1/ws/791f9a4d19f715c2ffaedfbaf99d88bd"
+  - name: "🇫🇷 [AI] Сервер 4"
+    type: vless
+    server: ai.smrtai.top
+    port: 443
+    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
+    network: "raw"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
+      short-id: "086bf957"
+  - name: "🇺🇸 [AI] Сервер 5"
+    type: ss
+    server: 138.197.89.234
+    port: 28960
+    password: "DZRy4Q3QH0jUGfKFl2jDCZ"
+    cipher: "chacha20-ietf-poly1305"

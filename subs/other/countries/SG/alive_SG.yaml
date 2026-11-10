@@ -42,6 +42,16 @@ proxies:
       short-id: "133a3f10a1581047"
   - name: "🇸🇬 [BL] Сервер 4"
     type: vless
+    server: 45.76.155.179
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 5"
+    type: vless
     server: 103.106.229.37
     port: 21001
     uuid: "41b1c169-5905-4d98-b6a6-56896c25737c"
@@ -53,7 +63,20 @@ proxies:
     reality-opts:
       public-key: "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU"
       short-id: "ab39fc68ab3dee81"
-  - name: "🇸🇬 [BL] Сервер 5"
+  - name: "🇸🇬 [BL] Сервер 6"
+    type: vless
+    server: 511.150333.xyz
+    port: 21001
+    uuid: "41b1c169-5905-4d98-b6a6-56896c25737c"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU"
+      short-id: "ab39fc68ab3dee81"
+  - name: "🇸🇬 [BL] Сервер 7"
     type: vless
     server: 103.106.229.177
     port: 21001
@@ -66,7 +89,20 @@ proxies:
     reality-opts:
       public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
       short-id: "a51c3ccb2320024a"
-  - name: "🇸🇬 [BL] Сервер 6"
+  - name: "🇸🇬 [BL] Сервер 8"
+    type: vless
+    server: 510.150333.xyz
+    port: 21001
+    uuid: "67952583-8572-42e1-943d-0602794f885b"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
+      short-id: "a51c3ccb2320024a"
+  - name: "🇸🇬 [BL] Сервер 9"
     type: vless
     server: 5.34.177.164
     port: 443
@@ -80,82 +116,12 @@ proxies:
     reality-opts:
       public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
       short-id: "b2efed6d157e7bb0"
-  - name: "🇸🇬 [BL/CF] Сервер 7"
-    type: vless
-    server: 172.104.60.54
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇸🇬 [BL/CF] Сервер 8"
-    type: vless
-    server: 157.230.248.19
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇸🇬 [BL/CF] Сервер 9"
-    type: vless
-    server: 143.42.66.91
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
   - name: "🇸🇬 [BL] Сервер 10"
-    type: vless
-    server: 134.255.211.36
-    port: 443
-    uuid: "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sg-sin.probe.geomyip.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "KcI3PoYu2yF7whv-e0C7JnRyUoUiUDu6tOlUBPYYbCk"
-      short-id: "2e96bf6afa823abb"
-  - name: "🇸🇬 [BL] Сервер 11"
-    type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.tesla.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
-      short-id: "38d72071"
-  - name: "🇸🇬 [BL] Сервер 12"
     type: vless
     server: 54.169.200.246
     port: 41688
     uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.intel.com"
     client-fingerprint: "firefox"
@@ -164,20 +130,21 @@ proxies:
     reality-opts:
       public-key: "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk"
       short-id: "7f342137c20387"
-  - name: "🇸🇬 [BL] Сервер 13"
+  - name: "🇸🇬 [BL] Сервер 11"
     type: vless
-    server: 45.132.75.213
-    port: 2053
-    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
-    network: "raw"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "qq"
+    server: 134.185.81.5
+    port: 47881
+    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.tesla.com"
+    client-fingerprint: "random"
     udp: true
     tls: true
     reality-opts:
-      public-key: "TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY"
-      short-id: "cd7e85995ae2afc9"
-  - name: "🇸🇬 [BL] Сервер 14"
+      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
+      short-id: "38d72071"
+  - name: "🇸🇬 [BL] Сервер 12"
     type: vless
     server: 3.0.111.82
     port: 12972
@@ -185,41 +152,27 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.apple.com"
-    client-fingerprint: "random"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
-  - name: "🇸🇬 [BL] Сервер 15"
+  - name: "🇸🇬 [BL] Сервер 13"
     type: vless
-    server: 170.205.36.116
-    port: 8443
-    uuid: "c9bf7875-6722-43cd-91d8-d0528a57e426"
-    network: "tcp"
+    server: 54.251.9.130
+    port: 24146
+    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "dl.google.com"
-    client-fingerprint: "firefox"
+    servername: "www.intel.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "5Oh9-P6sO_Fly4XU_sN0JOb4Ek3FgoMznhDExI70GEk"
-      short-id: "ab96"
-  - name: "🇸🇬 [BL] Сервер 16"
-    type: vless
-    server: 67.159.52.81
-    port: 443
-    uuid: "a16bd0e2-ff2e-4e4c-a955-0c684255a065"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sg.fasti.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs"
-      short-id: "feedbacc"
-  - name: "🇸🇬 [BL/CF] Сервер 17"
+      public-key: "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo"
+      short-id: "7205d9079521832c"
+  - name: "🇸🇬 [BL/CF] Сервер 14"
     type: vless
     server: 139.162.62.195
     port: 443
@@ -232,41 +185,46 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇬 [BL] Сервер 18"
+  - name: "🇸🇬 [BL/CF] Сервер 15"
     type: vless
-    server: 54.251.9.130
-    port: 24146
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.intel.com"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo"
-      short-id: "7205d9079521832c"
-  - name: "🇸🇬 [BL] Сервер 19"
-    type: vless
-    server: 45.76.155.179
+    server: 143.42.66.91
     port: 443
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "sg003.zestapp778.com"
-    client-fingerprint: "chrome"
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
     udp: true
     tls: true
-  - name: "🇸🇬 [BL] Сервер 20"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [BL/CF] Сервер 16"
     type: vless
-    server: 45.77.243.143
+    server: 157.230.248.19
     port: 443
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: "tcp"
-    servername: "sg003.zestapp778.com"
-    client-fingerprint: "chrome"
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
     udp: true
     tls: true
-  - name: "🇸🇬 [BL/CF] Сервер 21"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [BL/CF] Сервер 17"
+    type: vless
+    server: 172.104.60.54
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [BL/CF] Сервер 18"
     type: vless
     server: 161.118.200.170
     port: 443
@@ -279,21 +237,7 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇬 [BL] Сервер 22"
-    type: vless
-    server: 188.166.182.158
-    port: 443
-    uuid: "1ab92b9c-9a46-4a06-9a12-1c118fd138f6"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.bing.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "8aRRz5a2rhOHIRjE3o3qckxmQNWh-IVGTv16Snyze2M"
-      short-id: "c44f5e04e67b2c74"
-  - name: "🇸🇬 [BL/CF] Сервер 23"
+  - name: "🇸🇬 [BL/CF] Сервер 19"
     type: vless
     server: 38.47.220.144
     port: 443
@@ -307,15 +251,55 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇬 [BL] Сервер 24"
+  - name: "🇸🇬 [BL] Сервер 20"
+    type: vless
+    server: 188.166.182.158
+    port: 443
+    uuid: "1ab92b9c-9a46-4a06-9a12-1c118fd138f6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.bing.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "8aRRz5a2rhOHIRjE3o3qckxmQNWh-IVGTv16Snyze2M"
+      short-id: "c44f5e04e67b2c74"
+  - name: "🇸🇬 [BL] Сервер 21"
+    type: vless
+    server: sg003.zestapp778.com
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: "tcp"
+    servername: "sg003.zestapp778.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇬 [BL/CF] Сервер 22"
+    type: vless
+    server: 68.64.182.205
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [BL] Сервер 23"
     type: vmess
-    server: 116.88.224.217
-    port: 8080
-    uuid: "6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b"
+    server: 149.88.23.207
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
-    network: "raw"
-  - name: "🇸🇬 [BL] Сервер 25"
+    network: "tcp"
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬 [BL] Сервер 24"
     type: vmess
     server: 149.88.23.202
     port: 18000

@@ -15,32 +15,18 @@ proxies:
       short-id: "7f1e29593aa94ad1"
   - name: "🇺🇦 [BL] Сервер 2"
     type: vless
-    server: 104.253.216.227
-    port: 443
-    uuid: "106d20f6-d70a-40e2-b69b-8e82baf8d117"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.microsoft.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg"
-      short-id: "60500a63ad12"
-  - name: "🇺🇦 [BL] Сервер 3"
-    type: vless
     server: 31.222.235.81
     port: 443
     uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
     network: "tcp"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk"
       short-id: "d8b58872"
-  - name: "🇺🇦 [BL] Сервер 4"
+  - name: "🇺🇦 [BL] Сервер 3"
     type: vless
     server: netx.smrtai.top
     port: 443

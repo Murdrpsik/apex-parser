@@ -1,18 +1,17 @@
 proxies:
   - name: "🇪🇪 [WL] Сервер 1"
     type: vless
-    server: 185.215.184.49
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
+    server: dwedfs.whitenw.net
+    port: 8445
+    uuid: "84a56b88-2f89-4a57-b925-74abd5b7fd87"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "dvizhok.su"
+    servername: "passport.yandex.ru"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
+      public-key: "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
   - name: "🇪🇪 [WL] Сервер 2"
     type: vless
     server: 185.215.184.53
@@ -29,7 +28,7 @@ proxies:
       short-id: "428ef87fd47a3a32"
   - name: "🇪🇪 [WL] Сервер 3"
     type: vless
-    server: 185.215.184.78
+    server: 185.215.184.49
     port: 443
     uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
     network: "tcp"
@@ -57,28 +56,69 @@ proxies:
       short-id: "428ef87fd47a3a32"
   - name: "🇪🇪 [WL] Сервер 5"
     type: vless
-    server: 188.225.83.45
-    port: 11113
-    uuid: "84a56b88-2f89-4a57-b925-74abd5b7fd87"
-    network: "raw"
+    server: ee.subv.ru
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
+    servername: "dvizhok.su"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
-  - name: "🇪🇪 [BL] Сервер 6"
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
+  - name: "🇪🇪 [WL] Сервер 6"
     type: vless
-    server: 5.253.177.41
+    server: 185.215.184.78
     port: 443
-    uuid: "59cb1f5b-51d6-4a03-aca8-3ac34bb848d9"
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "es-01.file-rkat.online"
+    servername: "dvizhok.su"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "JPFGvwqbUaVMgakxgnG6DSibIlVclpXmj1kC3kJJKVA"
-      short-id: "6116985f1613ff84"
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: ee.song69.fun
+    port: 2083
+    uuid: "8ac4cf4e-c31c-4fb3-b56d-cf914970fa1b"
+    network: "xhttp"
+    servername: "ee.song69.fun"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OT51rRXBBHPKbu9Sq-fcfWw93MwNqrl0efObXIkgj2o"
+    xhttp-opts:
+      path: "/static/v2/media"
+      mode: "auto"
+  - name: "🇪🇪 [BL] Сервер 8"
+    type: vless
+    server: 13.143.182.117
+    port: 443
+    uuid: "92e93429-fd27-43b6-a3af-393e923b564e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ee.point.cookie-line.cc"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 9"
+    type: vless
+    server: 38.244.155.67
+    port: 443
+    uuid: "d651c9ab-b844-4420-b3d0-20d201ef5f55"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "node-eu-1.nztpro.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NLXltMEkWIxv9bL2J4XkPGb4oVwGbCkITCTXF-jVxAE"
+      short-id: "2976f793571fb671"
