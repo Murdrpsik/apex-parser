@@ -7,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "home.asperwild.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -27,21 +27,37 @@ proxies:
     reality-opts:
       public-key: "Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg"
       short-id: "d52d3ecf49447c2a"
-  - name: "🇫🇮 [BL/CF] Сервер 3"
+  - name: "🇫🇮 [BL] Сервер 3"
     type: vless
-    server: 138.124.49.108
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
+    server: 45.38.143.210
+    port: 30584
+    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
+    network: "tcp"
+    servername: "m.vk.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
+    reality-opts:
+      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
+      short-id: "67ece882d65d0f1a"
   - name: "🇫🇮 [BL] Сервер 4"
+    type: vless
+    server: 78.40.193.180
+    port: 443
+    uuid: "0f11b72f-1af1-4f0a-b992-87a8241d9213"
+    network: "xhttp"
+    servername: "packages.gitlab.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "FLewL4WGvCzo0NM2pGabhZVPlw0WKpNHIC9nksuoL30"
+      short-id: "6969b2e2be858cb3"
+    xhttp-opts:
+      path: "/assets/28ca4df9"
+      host: "78.40.193.180"
+      mode: "auto"
+  - name: "🇫🇮 [BL] Сервер 5"
     type: vless
     server: 84.38.184.126
     port: 2089
@@ -56,7 +72,21 @@ proxies:
       short-id: "c1db0a1b"
     grpc-opts:
       grpc-service-name: "cas-fi"
-  - name: "🇫🇮 [BL] Сервер 5"
+  - name: "🇫🇮 [BL/CF] Сервер 6"
+    type: vless
+    server: 138.124.49.108
+    port: 8443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇫🇮 [BL] Сервер 7"
     type: vless
     server: 31.76.46.221
     port: 10851
@@ -72,21 +102,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc_common1"
       grpc-mode: "gun"
-  - name: "🇫🇮 [BL] Сервер 6"
-    type: vless
-    server: webdisk.jaggyslawa.org
-    port: 443
-    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.microsoft.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
-      short-id: "87174b37ce3b"
-  - name: "🇫🇮 [BL] Сервер 7"
+  - name: "🇫🇮 [BL] Сервер 8"
     type: vless
     server: 95.216.27.15
     port: 2053
@@ -99,7 +115,21 @@ proxies:
     reality-opts:
       public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
       short-id: "10351b07c712d2a2"
-  - name: "🇫🇮 [BL] Сервер 8"
+  - name: "🇫🇮 [BL] Сервер 9"
+    type: vless
+    server: 107.181.151.128
+    port: 443
+    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "87174b37ce3b"
+  - name: "🇫🇮 [BL] Сервер 10"
     type: vless
     server: fi.peregrine-sub.net
     port: 443
@@ -112,7 +142,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇫🇮 [BL] Сервер 9"
+  - name: "🇫🇮 [BL] Сервер 11"
     type: vless
     server: 31.76.103.92
     port: 443
@@ -125,33 +155,20 @@ proxies:
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇫🇮 [BL/CF] Сервер 10"
-    type: vless
-    server: 109.120.134.181
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇫🇮 [BL/CF] Сервер 11"
-    type: vless
-    server: 138.124.124.157
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
   - name: "🇫🇮 [BL] Сервер 12"
+    type: vless
+    server: 13.143.173.15
+    port: 443
+    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+  - name: "🇫🇮 [BL] Сервер 13"
     type: vless
     server: 169.40.34.41
     port: 443
@@ -159,20 +176,48 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "key-master-saver.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
       public-key: "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY"
       short-id: "1c3e8241a8743df9"
-  - name: "🇫🇮 [BL] Сервер 13"
+  - name: "🇫🇮 [BL/CF] Сервер 14"
+    type: vless
+    server: 109.120.134.181
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇫🇮 [BL/CF] Сервер 15"
+    type: vless
+    server: 138.124.124.157
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇫🇮 [BL] Сервер 16"
     type: vless
     server: 2.27.175.229
     port: 446
     uuid: "a3583bf4-ec07-4fe8-bca3-6881353ca2c5"
     network: "grpc"
     servername: "deepl.com"
-    client-fingerprint: "edge"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
@@ -180,3 +225,17 @@ proxies:
       short-id: "17b6feb4481539d2"
     grpc-opts:
       grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇫🇮 [BL] Сервер 17"
+    type: vless
+    server: 185.22.172.249
+    port: 443
+    uuid: "b7374077-9fdc-4d28-9fb1-5cbc262fb53d"
+    network: "xhttp"
+    servername: "fortuna.golden-dragon.de5.net"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/dragon-stream"
+      host: "fortuna.golden-dragon.de5.net"
+      mode: "packet-up"
