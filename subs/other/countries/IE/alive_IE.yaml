@@ -1,18 +1,7 @@
 proxies:
   - name: "🇮🇪 [BL] Сервер 1"
-    type: vless
-    server: 83.141.80.226
+    type: ss
+    server: 20.166.20.135
     port: 443
-    uuid: "aee81653-1fec-469f-98b2-a8d476b96f51"
-    network: "xhttp"
-    servername: "avvaa.qiksme.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "5f3YKh1kMwC_Q4BA-8BBBMmUC2hmRDCDb1pr2xz6CUs"
-      short-id: "69747b8a2d26d6b4"
-    xhttp-opts:
-      path: "/assets/js/app.94a3008d.js"
-      host: "avvaa.qiksme.com"
-      mode: "stream-one"
+    password: "G2shlbeRXdE45aVA"
+    cipher: "chacha20-ietf-poly1305"

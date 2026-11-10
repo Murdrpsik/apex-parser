@@ -1,3 +1,4 @@
 #profile-title: Apex LT
 #profile-update-interval: 1
-vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?security=tls&alpn=h2&encryption=none&insecure=0&fp=edge&type=grpc&allowInsecure=0&sni=germany3.banovano.space#🇱🇹 [BL] Сервер 1
+vless://95d0e214-eab0-4701-93ed-fea4f1b56062@84.32.151.190:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&security=reality&sid=3e137406&sni=admin.betust.net&type=tcp#🇱🇹 [BL] Сервер 1
+vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?security=tls&alpn=h2&encryption=none&insecure=0&fp=edge&type=grpc&allowInsecure=0&sni=germany3.banovano.space#🇱🇹 [BL] Сервер 2

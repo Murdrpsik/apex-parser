@@ -1,3 +1,0 @@
-#profile-title: Apex MK
-#profile-update-interval: 1
-vless://461a5e99-c932-449c-9516-853fd0fade7a@138.124.252.26:443?encryption=none&type=xhttp&security=reality&sni=maxiii.qiksme.com&pbk=dQadA8TP5tRVF_SxqNRexInmD_oGuEGopGJ-YdG_Z24&sid=c9154b81e0169400&fp=firefox&spx=%2Fcdn%2F5f44c0%2Fbf10&path=%2Fassets%2Fjs%2Fapp.9fb7bae4.js&host=maxiii.qiksme.com&mode=stream-one#🇲🇰 [BL] Сервер 1

@@ -14,6 +14,48 @@ proxies:
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
     type: vless
+    server: 104.165.205.11
+    port: 11443
+    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "104.165.205.11"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "t4nUImI52AuYuVYx0Wv-VHxX--IA9ROdnS2GRURKTXE"
+      short-id: "670701520d072fba"
+  - name: "🇱🇻 [BL] Сервер 3"
+    type: vless
+    server: 104.165.205.16
+    port: 11443
+    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "104.165.205.16"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LO0uXoSfKt_Aac1id60D9IvEx7g4oCSj714qUSyvj0I"
+      short-id: "1191b77700247bd1"
+  - name: "🇱🇻 [BL] Сервер 4"
+    type: vless
+    server: 104.165.205.10
+    port: 11443
+    uuid: "636ed4bc-a7d8-4ce4-84a2-319b547daa12"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "104.165.205.10"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "v7mTeSeI2Wn2fz55BIikwcXvasry1oq_BC_bsf6OSSw"
+      short-id: "76a8cdb9262db20a"
+  - name: "🇱🇻 [BL] Сервер 5"
+    type: vless
     server: 138.124.180.137
     port: 443
     uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
@@ -26,7 +68,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 3"
+  - name: "🇱🇻 [BL] Сервер 6"
     type: vless
     server: 45.43.79.92
     port: 443
@@ -40,7 +82,7 @@ proxies:
     reality-opts:
       public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
       short-id: "af4ca5d16438c938"
-  - name: "🇱🇻 [BL] Сервер 4"
+  - name: "🇱🇻 [BL] Сервер 7"
     type: vless
     server: 217.60.60.243
     port: 443
@@ -53,3 +95,30 @@ proxies:
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
+  - name: "🇱🇻 [BL] Сервер 8"
+    type: vless
+    server: 200.181.87.171
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"
+  - name: "🇱🇻 [BL] Сервер 9"
+    type: vless
+    server: 193.111.205.224
+    port: 47615
+    uuid: "b539f58c-0b71-4d3e-9d5c-ecac132cb99d"
+    network: "grpc"
+    servername: "it.nvidia.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "tZa1-3ktQrmHb7M1BoxxwicDP_BE2VDxMrvO4enQRE4"
+      short-id: "d50f"

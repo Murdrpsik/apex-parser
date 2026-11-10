@@ -1,6 +1,46 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 176.122.25.48
+    port: 443
+    uuid: "3253407a-f03f-4353-8035-df10c0565162"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc"
+      short-id: "95bf544ac3cb0c"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 176.122.25.48
+    port: 443
+    uuid: "3253407a-f03f-4353-8035-df10c0565162"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "max.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc"
+      short-id: "53095f58d13a6503"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 88.218.66.208
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "juniper-willow.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "3s7f80c9431676f3"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
     server: 185.178.208.167
     port: 443
     uuid: "4662bf2b-af58-0001-ae5f-ef3d7d3a624f"
@@ -13,7 +53,35 @@ proxies:
       path: "/session"
       headers:
         Host: "mbr.rkn-pediki.site"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
+    server: 185.178.208.167
+    port: 443
+    uuid: "2b5962e8-1ec2-0001-bdab-cefa57555d2a"
+    network: "ws"
+    servername: "mbr.rkn-pediki.site"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/session"
+      headers:
+        Host: "mbr.rkn-pediki.site"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 92.243.66.79
+    port: 443
+    uuid: "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ru-mow.probe.geomyip.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o"
+      short-id: "8d03c10b6a874a9c"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 176.108.245.237
     port: 443
@@ -23,7 +91,7 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 188.130.209.212
     port: 443
@@ -37,21 +105,36 @@ proxies:
     reality-opts:
       public-key: "6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc"
       short-id: "11979c0c9b2da371"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: ss
-    server: 38.60.223.125
-    port: 13108
-    password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
-    cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 185.231.204.244
+    port: 443
+    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nl-balancer.peregrine-sub.net"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
+  - name: "🇷🇺 [WL] Сервер 10"
     type: ss
     server: 185.22.153.117
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: ss
-    server: 90.156.203.62
-    port: 5112
-    password: "VVlAff77CnAU43Aoc5j15Y"
-    cipher: "chacha20-ietf-poly1305"
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 45.139.27.125
+    port: 443
+    uuid: "155fd9d4-e1f9-44b3-99b6-6d2c389ade88"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ru1.hat.onl"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "obFanw7jqCcrXOlFqJhdOUsduntz_7jte8A11f3MSmQ"
+      short-id: "6d0092600a52a7c9"

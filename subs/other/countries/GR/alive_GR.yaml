@@ -1,46 +1,5 @@
 proxies:
-  - name: "🇬🇷 [WL] Сервер 1"
-    type: vless
-    server: 217.12.204.105
-    port: 443
-    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "gr1.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
-      short-id: "76132b3b39704c44"
-  - name: "🇬🇷 [WL] Сервер 2"
-    type: vless
-    server: 217.12.204.105
-    port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "xhttp"
-    servername: "i6c4a6t02b86qw.hat.onl"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/hls/is1z8lgy/seg"
-      host: "i6c4a6t02b86qw.hat.onl"
-      mode: "auto"
-  - name: "🇬🇷 [WL] Сервер 3"
-    type: vless
-    server: 217.12.204.105
-    port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "xhttp"
-    servername: "i6c4a6t02b86qw.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/hls/is1z8lgy/seg"
-      host: "i6c4a6t02b86qw.hat.onl"
-  - name: "🇬🇷 [BL/CF] Сервер 4"
+  - name: "🇬🇷 [BL/CF] Сервер 1"
     type: vless
     server: 85.90.197.158
     port: 443
@@ -54,3 +13,44 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
+  - name: "🇬🇷 [BL] Сервер 2"
+    type: vless
+    server: 85.90.197.220
+    port: 443
+    uuid: "8f704ed6-9a1a-4d04-94dd-1bff501716de"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4"
+      short-id: "94acb54627612d43"
+  - name: "🇬🇷 [BL/CF] Сервер 3"
+    type: vless
+    server: 85.90.197.159
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇬🇷 [BL] Сервер 4"
+    type: vless
+    server: 85.90.197.238
+    port: 443
+    uuid: "2f094d48-7186-47ca-9e57-e977bbac3b08"
+    network: "tcp"
+    servername: "eu31.cdn77.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
+      short-id: "1ed136481e0ede74"

@@ -4,9 +4,10 @@ proxies:
     server: 46.28.71.247
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -14,7 +15,7 @@ proxies:
       short-id: "0dfc23fe80778c00"
   - name: "🇪🇸 [BL] Сервер 2"
     type: vless
-    server: 79.182.70.212
+    server: 196.199.122.2
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
@@ -28,31 +29,34 @@ proxies:
       short-id: "42426c882c5fcd41"
   - name: "🇪🇸 [BL] Сервер 3"
     type: vless
-    server: 196.199.122.2
+    server: 79.182.70.212
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: "grpc"
-    servername: "b3cd32g.es1.h1clayd.click"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "7aa271t.es1.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30"
-      short-id: "e7cffac9f8cfb434"
-  - name: "🇪🇸 [BL] Сервер 5"
+      public-key: "ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE"
+      short-id: "42426c882c5fcd41"
+  - name: "🇪🇸 [BL] Сервер 4"
     type: vless
-    server: 156.252.229.203
-    port: 8443
-    uuid: "585a421d-d782-4420-912e-dd58ff5966d7"
-    network: "tcp"
-    servername: "play.googleapis.com"
-    client-fingerprint: "chrome"
+    server: 83.171.241.142
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    network: "xhttp"
+    servername: "38917fx.es1.h1clayd.click"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A"
-      short-id: "974f7f8f"
-  - name: "🇪🇸 [BL] Сервер 6"
+      public-key: "4mgkA2kT_Im0rkGi-fVSUU5CyF5xvMVcjA6MXBSEDAA"
+      short-id: "d5501b156391e01d"
+    xhttp-opts:
+      path: "/"
+  - name: "🇪🇸 [BL] Сервер 5"
     type: vless
     server: 212.227.235.66
     port: 2053
@@ -65,6 +69,19 @@ proxies:
     reality-opts:
       public-key: "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk"
       short-id: "29e8dcd2b37aaa7f"
+  - name: "🇪🇸 [BL] Сервер 6"
+    type: vless
+    server: 156.252.229.203
+    port: 8443
+    uuid: "585a421d-d782-4420-912e-dd58ff5966d7"
+    network: "raw"
+    servername: "play.googleapis.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A"
+      short-id: "974f7f8f"
   - name: "🇪🇸 [BL] Сервер 7"
     type: vless
     server: 84.32.108.4
@@ -76,8 +93,22 @@ proxies:
     udp: true
     tls: true
     xhttp-opts:
-      path: "/es/?"
+      path: "/es"
+      mode: "auto"
   - name: "🇪🇸 [BL] Сервер 8"
+    type: vless
+    server: 84.32.108.3
+    port: 443
+    uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
+    network: "xhttp"
+    servername: "7d1a74fd.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/es/?"
+      mode: "auto"
+  - name: "🇪🇸 [BL] Сервер 9"
     type: vless
     server: 84.32.184.214
     port: 443

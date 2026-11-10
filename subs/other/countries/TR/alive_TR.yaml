@@ -1,32 +1,6 @@
 proxies:
   - name: "🇹🇷 [WL] Сервер 1"
     type: vless
-    server: 91.232.103.51
-    port: 443
-    uuid: "042bec60-62d7-4148-a0da-5709ae3ee5a6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tr1.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
-      short-id: "76132b3b39704c44"
-  - name: "🇹🇷 [WL] Сервер 2"
-    type: vless
-    server: 91.232.103.51
-    port: 443
-    uuid: "7592ca5c-b352-4562-8856-a9c936a3331b"
-    network: "grpc"
-    servername: "s2wxzsqb.hat.onl"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "hls-vod.n5dihxdwzg6.segment-20-v1-a1.ts"
-  - name: "🇹🇷 [WL] Сервер 3"
-    type: vless
     server: 185.246.155.91
     port: 10103
     uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
@@ -39,7 +13,7 @@ proxies:
     reality-opts:
       public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
       short-id: "6859f5b59e55aa30"
-  - name: "🇹🇷 [BL] Сервер 4"
+  - name: "🇹🇷 [BL] Сервер 2"
     type: vless
     server: 62.133.63.45
     port: 8444
@@ -53,7 +27,7 @@ proxies:
       public-key: "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"
     grpc-opts:
       grpc-service-name: "GunService"
-  - name: "🇹🇷 [BL] Сервер 5"
+  - name: "🇹🇷 [BL] Сервер 3"
     type: vless
     server: 151.241.226.201
     port: 2053
@@ -66,20 +40,20 @@ proxies:
     reality-opts:
       public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
       short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷 [BL] Сервер 6"
+  - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 217.11.164.183
-    port: 2120
-    uuid: "4476ca08-bdb4-41c1-bae4-a960bdb28c19"
+    port: 2101
+    uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
     network: "tcp"
-    servername: "www.apple.com"
+    servername: "www.apple.com.cn"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
-      short-id: "ddaaf1630788aeac"
-  - name: "🇹🇷 [BL] Сервер 7"
+      short-id: "06"
+  - name: "🇹🇷 [BL] Сервер 5"
     type: vless
     server: 45.74.158.57
     port: 2218
@@ -92,7 +66,7 @@ proxies:
     reality-opts:
       public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
       short-id: "cc80ef"
-  - name: "🇹🇷 [BL] Сервер 8"
+  - name: "🇹🇷 [BL] Сервер 6"
     type: vless
     server: 78.135.73.47
     port: 443
@@ -106,32 +80,30 @@ proxies:
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
-  - name: "🇹🇷 [BL] Сервер 9"
+  - name: "🇹🇷 [BL] Сервер 7"
     type: vless
-    server: 171.22.27.161
-    port: 2083
-    uuid: "ca39b355-b488-9297-918f-9d011d075ba2"
-    network: "xhttp"
-    servername: "www.aparat.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yeEgcP0ehhicUQZdFGJBhLuU3wsEMSRyg8l2voakZBs"
-      short-id: "2f567c6d"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇹🇷 [BL] Сервер 10"
-    type: vless
-    server: 153.56.228.151
-    port: 443
-    uuid: "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef"
+    server: 154.40.51.62
+    port: 22152
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
     network: "tcp"
-    servername: "bbcdd4t.de-p2.h1clayd.click"
+    flow: "xtls-rprx-vision"
+    servername: "iosapps.itunes.apple.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8"
-      short-id: "1aab0b827885a8b4"
+      public-key: "dDf2TcDNn3Kk8pAp4EnNC4ZUAmGkzAapRFGFe-41IEk"
+      short-id: "86f6705960e3e3"
+  - name: "🇹🇷 [BL] Сервер 8"
+    type: vless
+    server: 45.92.219.47
+    port: 443
+    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ty.galactichub.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"

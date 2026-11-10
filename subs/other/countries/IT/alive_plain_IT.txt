@@ -1,9 +1,16 @@
 #profile-title: Apex IT
 #profile-update-interval: 1
-vless://dc2259c4-388e-4285-ba18-df619b6672b6@82.118.16.187:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU&sid=cd6065902eea7a02&sni=www.cloudflare.com&encryption=none#🇮🇹 [BL] Сервер 1
-vless://5de0c218-0138-45d8-94d2-c2c3f37a1a6d@94.183.234.245:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=qq&flow=xtls-rprx-vision&sid=7f1e29593aa94ad1&pbk=tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc&encryption=none#🇮🇹 [BL] Сервер 2
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@179.255.190.21:443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇮🇹 [BL/CF] Сервер 3
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#🇮🇹 [BL] Сервер 4
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#🇮🇹 [BL] Сервер 5
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#🇮🇹 [BL] Сервер 6
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#🇮🇹 [BL] Сервер 7
+vless://db57c865-2318-4fd2-8aea-e8ba58ec696d@212.41.9.190:12443?encryption=none&pbk=H2OZHvueEdgPOrpYR7KoD6o10l7mak7dvxn0Sdq1MHE&security=reality&serviceName=cas-it&sid=10700887&sni=s3.storage.selcloud.ru&type=grpc&fp=edge#🇮🇹 [WL] Сервер 1
+vless://dc2259c4-388e-4285-ba18-df619b6672b6@82.118.16.187:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=cd6065902eea7a02&pbk=R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU&encryption=none#🇮🇹 [BL] Сервер 2
+vless://29f178f7-f96f-46ba-8fc0-bbcd690ba788@82.118.16.189:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zmo2VkZkfjh2kWjaRghXUs39ImQo87LmPhjvzbX3yB4&security=reality&sid=1e9a49dd374c1191&sni=www.cloudflare.com&type=tcp#🇮🇹 [BL] Сервер 3
+vless://5de0c218-0138-45d8-94d2-c2c3f37a1a6d@94.183.234.245:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=qq&flow=xtls-rprx-vision&sid=7f1e29593aa94ad1&pbk=tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc&encryption=none#🇮🇹 [BL] Сервер 4
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@179.255.190.21:443?sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=%2Ffp%3Dchrome&security=tls&encryption=none#🇮🇹 [BL/CF] Сервер 5
+vless://50414e45-4c5f-5a45-5553-d748562a8e8a@167.68.5.122:443?encryption=none&fp=firefox&host=n6z8ezeiu8os.cazkj0eku5xs.workers.dev&path=%2Fstream%2FPANEL_ZEUS%2Fd748562a8e8a%2Floc-0&security=tls&sni=n6z8ezeiu8os.cazkj0eku5xs.workers.dev&type=ws#🇮🇹 [BL] Сервер 6
+vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@s8747.xxti.top:443?security=tls&type=xhttp&path=%2F4d71d1f35cb411d631a066ab9390b905&host=fe65960bs8746.fuhuovps.xyz&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1&sni=u695098ufe65960bs8746.fuhuovps.xyz&fp=firefox&encryption=none#🇮🇹 [BL] Сервер 7
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#🇮🇹 [BL] Сервер 8
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#🇮🇹 [BL] Сервер 9
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#🇮🇹 [BL] Сервер 10
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#🇮🇹 [BL] Сервер 11
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.27:19999#🇮🇹 [BL] Сервер 12
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7kgW0JMXSDQodC10YDQstC10YAgMTMiLCJhZGQiOiIxNDkuMjIuOTEuMjAiLCJwb3J0IjoiMTI3MCIsImlkIjoiNWMwNDBmMWQtNDVkYi00M2JkLThkNDYtZTQ5NTBlNDMzNzM1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInNuaSI6InhtZmhscHkuY29tIn0=#🇮🇹 [BL] Сервер 13
+vmess://eyJhZGQiOiIxNDkuNTAuMjE1LjIzOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6IiIsImlkIjoiNWMwNDBmMWQtNDVkYi00M2JkLThkNDYtZTQ5NTBlNDMzNzM1IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjcwIiwicHMiOiLwn4eu8J+HuSBbQkxdINCh0LXRgNCy0LXRgCAxNCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ4bWZobHB5LmNvbSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#🇮🇹 [BL] Сервер 14

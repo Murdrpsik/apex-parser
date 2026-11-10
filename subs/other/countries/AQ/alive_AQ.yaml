@@ -1,0 +1,14 @@
+proxies:
+  - name: "🇦🇶 [BL] Сервер 1"
+    type: vless
+    server: 179.236.130.66
+    port: 20004
+    uuid: "2f094d48-7186-47ca-9e57-e977bbac3b08"
+    network: "tcp"
+    servername: "eu25.cdn77.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
+      short-id: "1ed136481e0ede74"

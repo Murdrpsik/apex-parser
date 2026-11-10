@@ -1,19 +1,27 @@
 proxies:
-  - name: "🇮🇳 [BL] Сервер 1"
+  - name: "🇮🇳 [WL] Сервер 1"
     type: vless
-    server: 5.253.42.164
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
+    server: 45.151.101.151
+    port: 8443
+    uuid: "03440720-a4ee-4dfe-917a-e699cedadead"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
+    servername: "queuev4.vk.com"
+    client-fingerprint: "random"
     udp: true
     tls: true
     reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-  - name: "🇮🇳 [BL] Сервер 2"
+      public-key: "XAgtlMYY1aqEH5wud540D7lPIokZOgkpHy2ch-DS0DM"
+      short-id: "74a327dfbff4f9fa"
+  - name: "🇮🇳 [WL/CF] Сервер 2"
+    type: trojan
+    server: 103.111.114.87
+    port: 443
+    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
+    sni: "likejennie.pages.dev"
+    udp: true
+    ws-opts:
+      path: "/"
+  - name: "🇮🇳 [BL] Сервер 3"
     type: vless
     server: 148.113.5.22
     port: 443
@@ -27,20 +35,6 @@ proxies:
     reality-opts:
       public-key: "Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI"
       short-id: "7ff98efcced3fd5b"
-  - name: "🇮🇳 [BL] Сервер 3"
-    type: vless
-    server: 103.172.116.191
-    port: 10303
-    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU"
-      short-id: "f96b3b17a0f5b1fe"
   - name: "🇮🇳 [BL] Сервер 4"
     type: vless
     server: 194.61.31.126
@@ -67,3 +61,17 @@ proxies:
     reality-opts:
       public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
       short-id: "6bdc8320"
+  - name: "🇮🇳 [BL] Сервер 6"
+    type: vless
+    server: 5.253.42.164
+    port: 40443
+    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "deepl.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
+      short-id: "68a8"
