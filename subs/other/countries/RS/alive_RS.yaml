@@ -1,12 +1,12 @@
 proxies:
-  - name: "🇷🇸 [BL] Сервер 1"
+  - name: "🇷🇸 [WL] Сервер 1"
     type: vless
     server: 150.40.126.24
     port: 443
     uuid: "2f35965a-9a9b-45fd-ba32-987296dfb6be"
     network: "grpc"
     servername: "rs5.univesalsrv.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:

@@ -6,6 +6,7 @@ proxies:
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
     servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
     udp: true
     tls: true
     ws-opts:
@@ -14,7 +15,7 @@ proxies:
         Host: "jp3.yohototo.top"
   - name: "🇯🇵 [BL] Сервер 2"
     type: vless
-    server: 38.244.5.123
+    server: 103.195.191.240
     port: 443
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
@@ -56,52 +57,22 @@ proxies:
       short-id: "48050fab"
   - name: "🇯🇵 [BL] Сервер 5"
     type: vless
-    server: s2534.wagahaha.xyz
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "u695098udfec02ees2532.xxti.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇯🇵 [BL] Сервер 6"
-    type: vless
-    server: 64.176.35.228
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "u695098uf08a6307s2544.xxti.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇯🇵 [BL] Сервер 7"
-    type: vless
-    server: s2547.fuhuovps.xyz
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "u695098uf08a6307s2544.xxti.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇯🇵 [BL] Сервер 8"
-    type: vless
-    server: 167.179.87.224
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
+    server: 168.110.45.41
+    port: 23444
+    uuid: "ee2112e4-1e58-4f77-b162-5ef869358df9"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "u695098u093da7d1s2502.xxti.top"
+    servername: "www.microsoft.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇯🇵 [BL] Сервер 9"
+    reality-opts:
+      public-key: "zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c"
+      short-id: "119c9e68498f5900"
+  - name: "🇯🇵 [BL] Сервер 6"
     type: vless
-    server: 103.195.191.240
-    port: 443
+    server: 103.201.131.202
+    port: 2053
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
     servername: "jp3.yohototo.top"
@@ -112,7 +83,7 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "🇯🇵 [BL] Сервер 10"
+  - name: "🇯🇵 [BL] Сервер 7"
     type: vless
     server: 13.114.101.22
     port: 443
@@ -126,7 +97,7 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "🇯🇵 [BL] Сервер 11"
+  - name: "🇯🇵 [BL] Сервер 8"
     type: vless
     server: 131.143.180.53
     port: 443
@@ -140,7 +111,7 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "🇯🇵 [BL/CF] Сервер 12"
+  - name: "🇯🇵 [BL/CF] Сервер 9"
     type: vless
     server: 46.250.248.210
     port: 443
@@ -154,7 +125,7 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇯🇵 [BL/CF] Сервер 13"
+  - name: "🇯🇵 [BL/CF] Сервер 10"
     type: vless
     server: 46.250.254.187
     port: 443
@@ -167,44 +138,3 @@ proxies:
       path: "/fp"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇯🇵 [BL/AI] Сервер 14"
-    type: vless
-    server: 168.110.16.191
-    port: 8443
-    uuid: "3575b592-5b76-4d53-8c20-033772880c31"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "addons.mozilla.org"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "aA3IfkNHp9h5ok0neglijPnQci-4q3OGioBtuypNjkc"
-      short-id: "28d0e205"
-  - name: "🇯🇵 [BL/AI] Сервер 15"
-    type: vless
-    server: 168.110.45.41
-    port: 23444
-    uuid: "ee2112e4-1e58-4f77-b162-5ef869358df9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.microsoft.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c"
-      short-id: "119c9e68498f5900"
-  - name: "🇯🇵 [BL] Сервер 16"
-    type: vless
-    server: 168.110.48.252
-    port: 10018
-    uuid: "d8fc873b-860d-4490-b2f0-300d6ae3c2d3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.ebay.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "YxoFVB0NhCx4BJCgq5Ey5jdteRU2H2toGa-ZKW5XV3c"

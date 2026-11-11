@@ -1,18 +1,12 @@
 #profile-title: Apex JP
 #profile-update-interval: 1
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@185.222.43.175:443?type=ws&security=tls&sni=jp3.yohototo.top&path=%2Ftyxyws&host=jp3.yohototo.top&encryption=none#🇯🇵 [WL] Сервер 1
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@38.244.5.123:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 [BL] Сервер 2
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@185.222.43.175:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 [WL] Сервер 1
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@103.195.191.240:443?fp=unsafe&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws&encryption=none#🇯🇵 [BL] Сервер 2
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&encryption=none#🇯🇵 [BL] Сервер 3
 vless://814bd064-544d-4255-a070-5705c03f6da9@103.75.118.228:12683?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com&encryption=none#🇯🇵 [BL] Сервер 4
-vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@s2534.wagahaha.xyz:443?type=raw&security=tls&flow=xtls-rprx-vision&fp=firefox&sni=u695098udfec02ees2532.xxti.top&encryption=none#🇯🇵 [BL] Сервер 5
-vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@64.176.35.228:443?type=raw&security=tls&flow=xtls-rprx-vision&fp=firefox&sni=u695098uf08a6307s2544.xxti.top&encryption=none#🇯🇵 [BL] Сервер 6
-vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@s2547.fuhuovps.xyz:443?type=raw&security=tls&flow=xtls-rprx-vision&fp=firefox&sni=u695098uf08a6307s2544.xxti.top&encryption=none#🇯🇵 [BL] Сервер 7
-vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@167.179.87.224:443?type=tcp&security=tls&flow=xtls-rprx-vision&fp=firefox&sni=u695098u093da7d1s2502.xxti.top&encryption=none#🇯🇵 [BL] Сервер 8
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@103.195.191.240:443?fp=unsafe&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws&encryption=none#🇯🇵 [BL] Сервер 9
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@13.114.101.22:443?security=tls&fp=unsafe&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws&encryption=none#🇯🇵 [BL] Сервер 10
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@131.143.180.53:443?security=tls&fp=chrome&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws&encryption=none#🇯🇵 [BL] Сервер 11
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.248.210:443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇯🇵 [BL/CF] Сервер 12
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.254.187:443?path=%2Ffp&security=tls&encryption=none&insecure=0&host=fs.qicai99.com&type=ws&allowInsecure=0&sni=fs.qicai99.com#🇯🇵 [BL/CF] Сервер 13
-vless://3575b592-5b76-4d53-8c20-033772880c31@168.110.16.191:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=addons.mozilla.org&pbk=aA3IfkNHp9h5ok0neglijPnQci-4q3OGioBtuypNjkc&sid=28d0e205&fp=chrome#🇯🇵 [BL/AI] Сервер 14
-vless://ee2112e4-1e58-4f77-b162-5ef869358df9@168.110.45.41:23444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.microsoft.com&pbk=zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c&sid=119c9e68498f5900&fp=chrome#🇯🇵 [BL/AI] Сервер 15
-vless://d8fc873b-860d-4490-b2f0-300d6ae3c2d3@168.110.48.252:10018?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.ebay.com&pbk=YxoFVB0NhCx4BJCgq5Ey5jdteRU2H2toGa-ZKW5XV3c&fp=chrome#🇯🇵 [BL] Сервер 16
+vless://ee2112e4-1e58-4f77-b162-5ef869358df9@168.110.45.41:23444?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c&sid=119c9e68498f5900&sni=www.microsoft.com&encryption=none&type=tcp#🇯🇵 [BL] Сервер 5
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@103.201.131.202:2053?encryption=none&security=tls&sni=jp3.yohototo.top&fp=unsafe&type=ws&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 [BL] Сервер 6
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@13.114.101.22:443?security=tls&fp=unsafe&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws&encryption=none#🇯🇵 [BL] Сервер 7
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@131.143.180.53:443?security=tls&fp=chrome&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws&encryption=none#🇯🇵 [BL] Сервер 8
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.248.210:443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇯🇵 [BL/CF] Сервер 9
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.254.187:443?path=%2Ffp&security=tls&encryption=none&insecure=0&host=fs.qicai99.com&type=ws&allowInsecure=0&sni=fs.qicai99.com#🇯🇵 [BL/CF] Сервер 10

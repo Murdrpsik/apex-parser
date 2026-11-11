@@ -2,10 +2,5 @@
 #profile-update-interval: 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 2
-vless://086bf957-9cd0-4e55-8280-bbef10435b41@ai.smrtai.top:443?type=raw&security=reality&fp=chrome&pbk=R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc&sid=086bf957&sni=www.cloudflare.com&encryption=none#🌐 [AI] Сервер 3
-vless://3575b592-5b76-4d53-8c20-033772880c31@168.110.16.191:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=addons.mozilla.org&pbk=aA3IfkNHp9h5ok0neglijPnQci-4q3OGioBtuypNjkc&sid=28d0e205&fp=chrome#🇯🇵 [AI] Сервер 4
-vless://ee2112e4-1e58-4f77-b162-5ef869358df9@168.110.45.41:23444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.microsoft.com&pbk=zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c&sid=119c9e68498f5900&fp=chrome#🇯🇵 [AI] Сервер 5
-vless://07f44dd0-553e-4eb0-afc2-5a00c4d7c20c@210.109.205.7:20443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.microsoft.com&pbk=PHpqBxSY5_595NSIjNKtBY1lyQz3rojxgvcVypn_tBk&sid=6f3a9c1d4b7e2058&fp=chrome#🇰🇷 [AI] Сервер 6
-vless://2ab54cbc-bea6-4b79-8833-7b3354b97500@djjsg5.wawojk.dpdns.org:24204?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.asus.com&pbk=cYQgUq-cSRENj3PWzyBLvXqIdVYSTqQ8vrnYGATiliI&sid=7788afae&fp=chrome#🇸🇬 [AI] Сервер 7
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@95.215.201.18:19999#🇺🇸 [AI] Сервер 8
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@149.40.57.134:19999#🇺🇸 [AI] Сервер 9
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@95.215.201.18:19999#🇺🇸 [AI] Сервер 3
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@149.40.57.134:19999#🇺🇸 [AI] Сервер 4

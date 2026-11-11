@@ -28,58 +28,44 @@ proxies:
       short-id: "d18f4e"
   - name: "🇨🇦 [BL] Сервер 3"
     type: vless
-    server: 15.235.121.109
-    port: 8080
-    uuid: "b4d0cd01-b1dc-42c5-8d91-465a66fa7daf"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "07eR3Cr7nqt1LyW9xuNql-HgxFr34IS1CPA-wm8U00k"
-      short-id: "42b9f7"
-  - name: "🇨🇦 [BL] Сервер 4"
-    type: vless
     server: 86.107.168.129
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ca1.fox-lisa.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇨🇦 [BL/CF] Сервер 5"
+  - name: "🇨🇦 [BL] Сервер 4"
     type: vless
-    server: 178.104.19.178
+    server: 199.246.125.219
     port: 443
-    uuid: "50414e45-4c5f-5a45-5553-2b737ffd08fa"
-    network: "ws"
-    servername: "bcz0bnequuss.gametyrh20e2.workers.deV"
-    client-fingerprint: "chrome"
+    uuid: "8bbde034-a0de-4e8c-8be3-b16a99689380"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "print.bzzzq.fun"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/2b737ffd08fa"
-  - name: "🇨🇦 [BL] Сервер 6"
-    type: vmess
-    server: 134.195.196.211
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-  - name: "🇨🇦 [BL] Сервер 7"
-    type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+    reality-opts:
+      public-key: "NHhxrPoUGT0Wijle1ODvqOqGLMfetU7Px4K1S9FL-hE"
+      short-id: "5b2e7a14c0d9f832"
+  - name: "🇨🇦 [BL] Сервер 5"
+    type: vless
+    server: 179.255.184.95
+    port: 8443
+    uuid: "8bbde034-a0de-4e8c-8be3-b16a99689380"
+    network: "grpc"
+    servername: "ca.api.bzzzq.fun"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NHhxrPoUGT0Wijle1ODvqOqGLMfetU7Px4K1S9FL-hE"
+      short-id: "5b2e7a14c0d9f832"
+    grpc-opts:
+      grpc-service-name: "grpc"
