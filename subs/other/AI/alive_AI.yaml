@@ -11,71 +11,84 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇨🇦 [AI] Сервер 3"
+  - name: "🌐 [AI] Сервер 3"
     type: vless
-    server: 104.129.181.52
+    server: ai.smrtai.top
     port: 443
-    uuid: "b81fb09f-1e21-4f8d-ade9-58e2f3a3cd0e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.lovelive-anime.jp"
+    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
+    network: "raw"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "A3LmS90cDeGfw5Qv1oVwax8WQOxXkPhdjJGKB8x7k20"
-      short-id: "4ea0c2144409a72b"
-  - name: "🇺🇸 [AI] Сервер 4"
-    type: ss
-    server: 216.244.76.140
-    port: 16955
-    password: "e57bcdf5175e23decbf7ebd68188edc3"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [AI] Сервер 5"
-    type: ss
-    server: 67.220.73.178
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 6"
+      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
+      short-id: "086bf957"
+  - name: "🇯🇵 [AI] Сервер 4"
+    type: vless
+    server: 168.110.16.191
+    port: 8443
+    uuid: "3575b592-5b76-4d53-8c20-033772880c31"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "addons.mozilla.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "aA3IfkNHp9h5ok0neglijPnQci-4q3OGioBtuypNjkc"
+      short-id: "28d0e205"
+  - name: "🇯🇵 [AI] Сервер 5"
+    type: vless
+    server: 168.110.45.41
+    port: 23444
+    uuid: "ee2112e4-1e58-4f77-b162-5ef869358df9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c"
+      short-id: "119c9e68498f5900"
+  - name: "🇰🇷 [AI] Сервер 6"
+    type: vless
+    server: 210.109.205.7
+    port: 20443
+    uuid: "07f44dd0-553e-4eb0-afc2-5a00c4d7c20c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PHpqBxSY5_595NSIjNKtBY1lyQz3rojxgvcVypn_tBk"
+      short-id: "6f3a9c1d4b7e2058"
+  - name: "🇸🇬 [AI] Сервер 7"
+    type: vless
+    server: djjsg5.wawojk.dpdns.org
+    port: 24204
+    uuid: "2ab54cbc-bea6-4b79-8833-7b3354b97500"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.asus.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "cYQgUq-cSRENj3PWzyBLvXqIdVYSTqQ8vrnYGATiliI"
+      short-id: "7788afae"
+  - name: "🇺🇸 [AI] Сервер 8"
     type: ss
     server: 95.215.201.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 7"
+  - name: "🇺🇸 [AI] Сервер 9"
     type: ss
     server: 149.40.57.134
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 8"
-    type: ss
-    server: 15.204.247.244
-    port: 443
-    password: "pKEW8JPByTVTLtM"
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 9"
-    type: ss
-    server: 149.40.57.138
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 10"
-    type: ss
-    server: 216.106.178.169
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 11"
-    type: ss
-    server: 172.111.36.123
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 12"
-    type: ss
-    server: 23.230.52.119
-    port: 42878
-    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
-    cipher: "chacha20-ietf-poly1305"

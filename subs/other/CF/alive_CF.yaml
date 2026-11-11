@@ -1,88 +1,7 @@
 proxies:
-  - name: "🇺🇸 [CF] Сервер 1"
+  - name: "🇬🇷 [CF] Сервер 1"
     type: vless
-    server: 94.247.142.1
-    port: 443
-    uuid: "fd62968a-2e97-41ea-9aa0-aa61aed78955"
-    network: "ws"
-    servername: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
-  - name: "🇺🇸 [CF] Сервер 2"
-    type: vless
-    server: 94.247.142.1
-    port: 443
-    uuid: "fd62968a-2e97-41ea-9aa0-aa61aed78955"
-    network: "ws"
-    servername: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV"
-  - name: "🇫🇷 [CF] Сервер 3"
-    type: vless
-    server: 178.104.70.11
-    port: 443
-    uuid: "64726966-0000-4000-8000-740000000000"
-    network: "ws"
-    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=firefox"
-      headers:
-        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 4"
-    type: vless
-    server: 178.104.70.11
-    port: 443
-    uuid: "64726966-0000-4000-8000-740000000000"
-    network: "ws"
-    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-  - name: "🇳🇱 [CF] Сервер 5"
-    type: vless
-    server: 178.62.251.84
-    port: 2087
-    uuid: "7c03538c-c6dd-4dc1-b35c-5fc0e2a43271"
-    network: "ws"
-    servername: "666-7sf.pages.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "666-7sf.pages.dev"
-  - name: "🇫🇷 [CF] Сервер 6"
-    type: vless
-    server: 185.243.112.197
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-974cf37772bb"
-    network: "ws"
-    servername: "yfz9dmeruxus.wfewf209v5ef.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/974cf37772bb"
-  - name: "🇬🇷 [CF] Сервер 7"
-    type: vless
-    server: 85.90.197.158
+    server: 85.90.197.159
     port: 443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
@@ -93,88 +12,31 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇬🇷 [CF] Сервер 8"
+  - name: "🇬🇷 [CF] Сервер 2"
     type: vless
-    server: 85.90.197.159
+    server: 85.90.197.158
     port: 443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
     servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇯🇵 [CF] Сервер 9"
-    type: vless
-    server: 178.105.133.160
-    port: 4443
-    uuid: "fb0818b3-4031-4843-b5f7-1d75177a1758"
-    network: "ws"
-    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
       path: "/"
-      headers:
-        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-  - name: "🇩🇪 [CF] Сервер 10"
+  - name: "🇸🇬 [CF] Сервер 3"
     type: vless
-    server: 2.26.251.236
-    port: 443
-    uuid: "c16e8cdb-65dd-4049-bc65-14c051b8a6c6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "mental-deprivation.ru"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-      short-id: "4ff31b18d1bd8227"
-  - name: "🇩🇪 [CF] Сервер 11"
-    type: vless
-    server: 85.192.27.171
-    port: 2053
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇩🇪 [CF] Сервер 12"
-    type: vless
-    server: 159.223.20.232
+    server: 172.104.60.54
     port: 443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
     servername: "fs.qicai99.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
       path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇩🇪 [CF] Сервер 13"
-    type: vless
-    server: 13.143.165.124
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇫🇮 [CF] Сервер 14"
+  - name: "🇫🇮 [CF] Сервер 4"
     type: vless
     server: 138.124.124.157
     port: 443
@@ -188,9 +50,176 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇫🇮 [CF] Сервер 15"
+  - name: "🇸🇬 [CF] Сервер 5"
     type: vless
-    server: 138.124.49.108
+    server: 143.42.66.91
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 6"
+    type: vless
+    server: 188.137.178.174
+    port: 8443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 7"
+    type: vless
+    server: 85.192.27.171
+    port: 2053
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [CF] Сервер 8"
+    type: vless
+    server: 157.230.248.19
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇦🇹 [CF] Сервер 9"
+    type: vless
+    server: 193.219.97.198
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇫🇷 [CF] Сервер 10"
+    type: vless
+    server: 188.253.27.191
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-49055dd7a227"
+    network: "ws"
+    servername: "70zia4elut7s.tersg587ga2min.workers.Dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/49055dd7a227"
+  - name: "🇩🇪 [CF] Сервер 11"
+    type: vless
+    server: 13.143.165.124
+    port: 8443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇩🇪 [CF] Сервер 12"
+    type: vless
+    server: 159.223.20.232
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇩🇪 [CF] Сервер 13"
+    type: vless
+    server: 178.128.199.136
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇩🇪 [CF] Сервер 14"
+    type: vless
+    server: 193.233.129.97
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇪 [CF] Сервер 15"
+    type: vless
+    server: 45.83.182.80
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇯🇵 [CF] Сервер 16"
+    type: vless
+    server: 46.250.248.210
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇯🇵 [CF] Сервер 17"
+    type: vless
+    server: 46.250.254.187
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇰🇷 [CF] Сервер 18"
+    type: vless
+    server: 64.110.79.66
     port: 8443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
@@ -202,7 +231,34 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇬 [CF] Сервер 16"
+  - name: "🇸🇬 [CF] Сервер 19"
+    type: vless
+    server: 68.64.182.205
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇩🇪 [CF] Сервер 20"
+    type: vless
+    server: 84.46.251.105
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇸🇬 [CF] Сервер 21"
     type: vless
     server: 139.162.62.195
     port: 443
@@ -216,75 +272,7 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇬 [CF] Сервер 17"
-    type: vless
-    server: 143.42.66.91
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇩🇪 [CF] Сервер 18"
-    type: vless
-    server: 178.128.199.136
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇨🇿 [CF] Сервер 19"
-    type: vless
-    server: 188.137.178.174
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇦🇹 [CF] Сервер 20"
-    type: vless
-    server: 193.219.97.198
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇩🇪 [CF] Сервер 21"
-    type: vless
-    server: 193.233.129.97
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇭🇰 [CF] Сервер 22"
+  - name: "🇸🇬 [CF] Сервер 22"
     type: vless
     server: 38.47.220.144
     port: 443
@@ -298,13 +286,14 @@ proxies:
       path: "/"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇸🇪 [CF] Сервер 23"
+  - name: "🇺🇸 [CF] Сервер 23"
     type: vless
-    server: 45.83.182.80
+    server: 38.58.108.84
     port: 443
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
     servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
@@ -321,304 +310,18 @@ proxies:
     udp: true
     tls: true
     ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇯🇵 [CF] Сервер 25"
-    type: vless
-    server: 46.250.248.210
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇯🇵 [CF] Сервер 26"
-    type: vless
-    server: 46.250.254.187
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇺🇸 [CF] Сервер 27"
-    type: vless
-    server: 5.253.38.69
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇰🇷 [CF] Сервер 28"
-    type: vless
-    server: 64.110.79.66
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
       path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇩🇪 [CF] Сервер 29"
+  - name: "🇨🇦 [CF] Сервер 25"
     type: vless
-    server: 84.46.251.105
+    server: 178.104.19.178
     port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    uuid: "50414e45-4c5f-5a45-5553-2b737ffd08fa"
     network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇺🇸 [CF] Сервер 30"
-    type: vless
-    server: 38.58.108.84
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇸🇬 [CF] Сервер 31"
-    type: vless
-    server: 188.164.248.61
-    port: 443
-    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
-    network: "ws"
-    servername: "whitecreeper.pages.dev"
+    servername: "bcz0bnequuss.gametyrh20e2.workers.deV"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
-      headers:
-        Host: "whitecreeper.pages.dev"
-  - name: "🇺🇸 [CF] Сервер 32"
-    type: vless
-    server: 199.181.197.99
-    port: 443
-    uuid: "70756c73-0000-4000-8000-650000000000"
-    network: "ws"
-    servername: "parsa-panel-u48we.wotic15356.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/pulse"
-      headers:
-        Host: "parsa-panel-u48we.wotic15356.workers.dev"
-  - name: "🇺🇸 [CF] Сервер 33"
-    type: vless
-    server: 47.251.95.178
-    port: 443
-    uuid: "70756c73-0000-4000-8000-650000000000"
-    network: "ws"
-    servername: "parsa-panel-u48we.wotic15356.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/pulse"
-      headers:
-        Host: "parsa-panel-u48we.wotic15356.workers.dev"
-  - name: "🇸🇬 [CF] Сервер 34"
-    type: vless
-    server: 142.91.101.39
-    port: 627
-    uuid: "3f87daa8-3af8-40a0-b655-127911e008dc"
-    network: "ws"
-    servername: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 35"
-    type: vless
-    server: 185.125.103.62
-    port: 8082
-    uuid: "3dbf58d7-53fc-4fad-8779-1c867e024fd0"
-    network: "ws"
-    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 36"
-    type: vless
-    server: 92.53.190.167
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
-    network: "ws"
-    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83"
-      headers:
-        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 37"
-    type: vless
-    server: 104.239.72.227
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
-    network: "ws"
-    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83"
-      headers:
-        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 38"
-    type: vless
-    server: 45.12.30.196
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
-    network: "ws"
-    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83"
-      headers:
-        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 39"
-    type: vless
-    server: 164.38.155.247
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
-    network: "ws"
-    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83"
-      headers:
-        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-  - name: "🇩🇪 [CF] Сервер 40"
-    type: vless
-    server: 85.237.207.141
-    port: 443
-    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
-    network: "ws"
-    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome"
-      headers:
-        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-  - name: "🇸🇬 [CF] Сервер 41"
-    type: vless
-    server: 45.77.241.190
-    port: 8441
-    uuid: "3011e40c-228f-4f2e-9dbf-5b256887e071"
-    network: "ws"
-    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-  - name: "🇸🇬 [CF] Сервер 42"
-    type: vless
-    server: 172.104.60.54
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇸🇬 [CF] Сервер 43"
-    type: vless
-    server: 157.230.248.19
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇦🇹 [CF] Сервер 44"
-    type: vless
-    server: 91.199.147.41
-    port: 443
-    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
-    network: "ws"
-    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560"
-      headers:
-        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-  - name: "🇫🇷 [CF] Сервер 45"
-    type: vless
-    server: 188.253.27.191
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-49055dd7a227"
-    network: "ws"
-    servername: "70zia4elut7s.tersg587ga2min.workers.Dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/49055dd7a227"
-  - name: "🇫🇷 [CF] Сервер 46"
-    type: vless
-    server: 176.118.214.216
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-e759cf52c6be"
-    network: "ws"
-    servername: "9lz3z5efu8os.gamewizardbac1k.workers.Dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/e759cf52c6be"
+      path: "/stream/PANEL_ZEUS/2b737ffd08fa"

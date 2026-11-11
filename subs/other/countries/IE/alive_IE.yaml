@@ -5,9 +5,3 @@ proxies:
     port: 443
     password: "8ds10bQrvY4KE8Tz"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇮🇪 [BL] Сервер 2"
-    type: ss
-    server: 18.202.232.173
-    port: 8388
-    password: "KoJrr14BKAiBUHEoWHFsAVrNzbNVzjKN"
-    cipher: "chacha20-ietf-poly1305"

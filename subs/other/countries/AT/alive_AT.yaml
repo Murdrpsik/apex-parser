@@ -1,6 +1,50 @@
 proxies:
   - name: "🇦🇹 [BL] Сервер 1"
     type: vless
+    server: 50.7.115.242
+    port: 443
+    uuid: "cf1b08a7-55b7-4241-b80a-c59116272b43"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tarn.hazelmoor.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
+      short-id: "7d1c7473"
+  - name: "🇦🇹 [BL] Сервер 2"
+    type: vless
+    server: 50.7.115.245
+    port: 443
+    uuid: "cf1b08a7-55b7-4241-b80a-c59116272b43"
+    network: "xhttp"
+    servername: "beck.mossgill.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
+      short-id: "c4f0253a"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇦🇹 [BL] Сервер 3"
+    type: vless
+    server: tarn.hazelmoor.top
+    port: 443
+    uuid: "cf1b08a7-55b7-4241-b80a-c59116272b43"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tarn.hazelmoor.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
+      short-id: "7d1c7473"
+  - name: "🇦🇹 [BL] Сервер 4"
+    type: vless
     server: 81.177.215.81
     port: 443
     uuid: "3f25b15b-1777-4c08-9ade-60336ac92a82"
@@ -13,7 +57,7 @@ proxies:
     reality-opts:
       public-key: "N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA"
       short-id: "7c8e3d4a9b1f26d3"
-  - name: "🇦🇹 [BL] Сервер 2"
+  - name: "🇦🇹 [BL] Сервер 5"
     type: vless
     server: 66.90.106.28
     port: 443
@@ -27,7 +71,7 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇦🇹 [BL/CF] Сервер 3"
+  - name: "🇦🇹 [BL/CF] Сервер 6"
     type: vless
     server: 193.219.97.198
     port: 443
@@ -39,34 +83,3 @@ proxies:
     tls: true
     ws-opts:
       path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇦🇹 [BL] Сервер 4"
-    type: vless
-    server: 95.163.153.141
-    port: 8443
-    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
-    network: "xhttp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
-      short-id: "c9ea2355ddeab39b"
-    xhttp-opts:
-      path: "/"
-  - name: "🇦🇹 [BL/CF] Сервер 5"
-    type: vless
-    server: 91.199.147.41
-    port: 443
-    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
-    network: "ws"
-    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560"
-      headers:
-        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"

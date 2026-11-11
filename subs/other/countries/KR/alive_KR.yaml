@@ -19,10 +19,11 @@ proxies:
     uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
     network: "ws"
     servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/fp=chrome"
+      path: "/"
       headers:
         Host: "fs.qicai99.com"
   - name: "🇰🇷 [BL] Сервер 3"
@@ -38,3 +39,25 @@ proxies:
     reality-opts:
       public-key: "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo"
       short-id: "429499c03d4cc8a0"
+  - name: "🇰🇷 [BL/AI] Сервер 4"
+    type: vless
+    server: 210.109.205.7
+    port: 20443
+    uuid: "07f44dd0-553e-4eb0-afc2-5a00c4d7c20c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PHpqBxSY5_595NSIjNKtBY1lyQz3rojxgvcVypn_tBk"
+      short-id: "6f3a9c1d4b7e2058"
+  - name: "🇰🇷 [BL] Сервер 5"
+    type: vmess
+    server: 140.238.2.250
+    port: 443
+    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"

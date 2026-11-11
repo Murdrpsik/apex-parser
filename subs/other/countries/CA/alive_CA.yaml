@@ -1,20 +1,6 @@
 proxies:
   - name: "🇨🇦 [BL] Сервер 1"
     type: vless
-    server: 209.200.246.148
-    port: 443
-    uuid: "ca52e2b6-fb9f-4dac-b6dc-49da9923f251"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk"
-      short-id: "f98843107912e782"
-  - name: "🇨🇦 [BL] Сервер 2"
-    type: vless
     server: 66.70.179.198
     port: 2053
     uuid: "dc620cd6-a9d8-4a0f-8f18-006b895db77e"
@@ -26,7 +12,7 @@ proxies:
     reality-opts:
       public-key: "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU"
       short-id: "83f8317a948bb769"
-  - name: "🇨🇦 [BL] Сервер 3"
+  - name: "🇨🇦 [BL] Сервер 2"
     type: vless
     server: 209.200.246.203
     port: 2066
@@ -34,12 +20,26 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "tiktok.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg"
       short-id: "d18f4e"
+  - name: "🇨🇦 [BL] Сервер 3"
+    type: vless
+    server: 15.235.121.109
+    port: 8080
+    uuid: "b4d0cd01-b1dc-42c5-8d91-465a66fa7daf"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dl.google.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "07eR3Cr7nqt1LyW9xuNql-HgxFr34IS1CPA-wm8U00k"
+      short-id: "42b9f7"
   - name: "🇨🇦 [BL] Сервер 4"
     type: vless
     server: 86.107.168.129
@@ -54,34 +54,26 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇨🇦 [BL] Сервер 5"
+  - name: "🇨🇦 [BL/CF] Сервер 5"
     type: vless
-    server: 15.235.121.109
-    port: 8080
-    uuid: "b4d0cd01-b1dc-42c5-8d91-465a66fa7daf"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "07eR3Cr7nqt1LyW9xuNql-HgxFr34IS1CPA-wm8U00k"
-      short-id: "42b9f7"
-  - name: "🇨🇦 [BL/AI] Сервер 6"
-    type: vless
-    server: 104.129.181.52
+    server: 178.104.19.178
     port: 443
-    uuid: "b81fb09f-1e21-4f8d-ade9-58e2f3a3cd0e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.lovelive-anime.jp"
+    uuid: "50414e45-4c5f-5a45-5553-2b737ffd08fa"
+    network: "ws"
+    servername: "bcz0bnequuss.gametyrh20e2.workers.deV"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "A3LmS90cDeGfw5Qv1oVwax8WQOxXkPhdjJGKB8x7k20"
-      short-id: "4ea0c2144409a72b"
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/2b737ffd08fa"
+  - name: "🇨🇦 [BL] Сервер 6"
+    type: vmess
+    server: 134.195.196.211
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
   - name: "🇨🇦 [BL] Сервер 7"
     type: vmess
     server: 23.162.200.198
@@ -89,6 +81,5 @@ proxies:
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
-    network: "raw"
-    ws-opts:
-      path: "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ"
+    network: "tcp"
+    servername: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
