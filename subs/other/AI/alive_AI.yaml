@@ -11,23 +11,71 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇪🇪 [AI] Сервер 3"
+  - name: "🇨🇦 [AI] Сервер 3"
     type: vless
-    server: 5.129.202.80
+    server: 104.129.181.52
     port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+    uuid: "b81fb09f-1e21-4f8d-ade9-58e2f3a3cd0e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "mirror-50.topp-con.xyz"
+    servername: "www.lovelive-anime.jp"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
-      short-id: "2ef2b10d5143d798"
-  - name: "🇯🇵 [AI] Сервер 4"
+      public-key: "A3LmS90cDeGfw5Qv1oVwax8WQOxXkPhdjJGKB8x7k20"
+      short-id: "4ea0c2144409a72b"
+  - name: "🇺🇸 [AI] Сервер 4"
     type: ss
-    server: 149.22.87.241
-    port: 443
-    password: "shadowsocks"
+    server: 216.244.76.140
+    port: 16955
+    password: "e57bcdf5175e23decbf7ebd68188edc3"
     cipher: "aes-128-gcm"
+  - name: "🇺🇸 [AI] Сервер 5"
+    type: ss
+    server: 67.220.73.178
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 6"
+    type: ss
+    server: 95.215.201.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 7"
+    type: ss
+    server: 149.40.57.134
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 8"
+    type: ss
+    server: 15.204.247.244
+    port: 443
+    password: "pKEW8JPByTVTLtM"
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 9"
+    type: ss
+    server: 149.40.57.138
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 10"
+    type: ss
+    server: 216.106.178.169
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 11"
+    type: ss
+    server: 172.111.36.123
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 12"
+    type: ss
+    server: 23.230.52.119
+    port: 42878
+    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
+    cipher: "chacha20-ietf-poly1305"

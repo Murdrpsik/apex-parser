@@ -12,34 +12,7 @@ proxies:
     xhttp-opts:
       path: "bfaa4bbe8cd76b7477b05453d8d48ecc"
       host: "66e05ed8s2448.xxti.top"
-  - name: "🇰🇷 [BL] Сервер 2"
-    type: vless
-    server: s2450.wagahaha.xyz
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: "xhttp"
-    servername: "u695098u66e05ed8s2448.xxti.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "bfaa4bbe8cd76b7477b05453d8d48ecc"
-      host: "66e05ed8s2448.xxti.top"
-  - name: "🇰🇷 [BL] Сервер 3"
-    type: vless
-    server: 3.39.4.109
-    port: 18967
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-  - name: "🇰🇷 [BL/CF] Сервер 4"
+  - name: "🇰🇷 [BL/CF] Сервер 2"
     type: vless
     server: 64.110.79.66
     port: 8443
@@ -52,7 +25,7 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇰🇷 [BL] Сервер 5"
+  - name: "🇰🇷 [BL] Сервер 3"
     type: vless
     server: 151.245.106.49
     port: 2053

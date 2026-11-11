@@ -42,20 +42,6 @@ proxies:
       short-id: "d18f4e"
   - name: "🇨🇦 [BL] Сервер 4"
     type: vless
-    server: ca1.fox-lisa.ru
-    port: 443
-    uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "ca1.fox-lisa.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
-      short-id: "027af64166562b09"
-  - name: "🇨🇦 [BL] Сервер 5"
-    type: vless
     server: 86.107.168.129
     port: 443
     uuid: "ccb8ff48-3934-4250-b4ec-bb76b95d154f"
@@ -68,35 +54,41 @@ proxies:
     reality-opts:
       public-key: "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs"
       short-id: "027af64166562b09"
-  - name: "🇨🇦 [BL] Сервер 6"
+  - name: "🇨🇦 [BL] Сервер 5"
     type: vless
     server: 15.235.121.109
     port: 8080
-    uuid: "20b98028-53c9-4f76-9bc9-b6b16b8a9152"
+    uuid: "b4d0cd01-b1dc-42c5-8d91-465a66fa7daf"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "icloud.com"
+    servername: "dl.google.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "sQ_YHzotqhVJoUDAZl5kTzUqVN6ksh-MTikz_ixsZWc"
-      short-id: "7cf3af6786f98b"
+      public-key: "07eR3Cr7nqt1LyW9xuNql-HgxFr34IS1CPA-wm8U00k"
+      short-id: "42b9f7"
+  - name: "🇨🇦 [BL/AI] Сервер 6"
+    type: vless
+    server: 104.129.181.52
+    port: 443
+    uuid: "b81fb09f-1e21-4f8d-ade9-58e2f3a3cd0e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "A3LmS90cDeGfw5Qv1oVwax8WQOxXkPhdjJGKB8x7k20"
+      short-id: "4ea0c2144409a72b"
   - name: "🇨🇦 [BL] Сервер 7"
-    type: ss
-    server: 51.222.12.127
-    port: 445
-    password: "zDNVedRFPQexG9v"
-    cipher: "aes-256-gcm"
-  - name: "🇨🇦 [BL] Сервер 8"
     type: vmess
-    server: 134.195.196.154
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    server: 23.162.200.198
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
+    network: "raw"
     ws-opts:
-      path: "/"
+      path: "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ"
