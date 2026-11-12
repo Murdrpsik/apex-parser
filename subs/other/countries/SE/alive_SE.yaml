@@ -4,7 +4,7 @@ proxies:
     server: 193.163.203.170
     port: 443
     uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "yandex.ru"
     client-fingerprint: "chrome"
@@ -15,32 +15,31 @@ proxies:
       short-id: "b28db60d77c50b4f"
   - name: "🇸🇪 [BL] Сервер 2"
     type: vless
-    server: 185.189.45.195
-    port: 443
-    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
+    server: 46.29.255.123
+    port: 59539
+    uuid: "30572b57-f5ab-4eb8-82d4-a24d399b99f6"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
+    servername: "cloudflare-dns.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
+      public-key: "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ"
   - name: "🇸🇪 [BL] Сервер 3"
     type: vless
-    server: get.jarbook.net
-    port: 443
-    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
+    server: 141.227.160.61
+    port: 8443
+    uuid: "f59fdac3-5842-449b-8c8d-d5ebcdbf1768"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
-    client-fingerprint: "firefox"
+    servername: "apple.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"
   - name: "🇸🇪 [BL] Сервер 4"
     type: vless
     server: 138.124.86.230
@@ -56,34 +55,6 @@ proxies:
       grpc-mode: "gun"
   - name: "🇸🇪 [BL] Сервер 5"
     type: vless
-    server: 141.227.160.61
-    port: 8443
-    uuid: "f59fdac3-5842-449b-8c8d-d5ebcdbf1768"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
-  - name: "🇸🇪 [BL] Сервер 6"
-    type: vless
-    server: 62.182.193.228
-    port: 8443
-    uuid: "c0d58ed7-41f8-4cf4-b61b-8ba8f6be9a46"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nekoboxo.isgood.host"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "G3ZzvlhhrESJFCm41agmCMitg14XGzIAaS5DpdxZxkI"
-      short-id: "da5e9707"
-  - name: "🇸🇪 [BL] Сервер 7"
-    type: vless
     server: 31.77.18.220
     port: 443
     uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
@@ -95,57 +66,31 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL/CF] Сервер 8"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
-    server: 45.83.182.80
+    server: 93.93.205.242
     port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: estonia2.banovano.space
-    port: 17417
-    uuid: "6430ede6-3f43-4beb-95c0-0fb29e9ea76d"
-    network: "xhttp"
-    servername: "yandex-cdn-mirror.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yhOC-2sFjE59lY3n0IA0AAluzIpjoJiL0QH1SQ_ZZQ8"
-      short-id: "728f3f459ddf"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 10"
-    type: vless
-    server: 179.253.81.74
-    port: 17417
-    uuid: "6430ede6-3f43-4beb-95c0-0fb29e9ea76d"
-    network: "xhttp"
-    servername: "yandex-cdn-mirror.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yhOC-2sFjE59lY3n0IA0AAluzIpjoJiL0QH1SQ_ZZQ8"
-      short-id: "728f3f459ddf"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 11"
-    type: vmess
-    server: 62.93.166.184
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
+    uuid: "59826450-4d21-41ac-8fcb-ebe2f655d368"
     network: "tcp"
-    servername: "xmfhlpy.com"
+    flow: "xtls-rprx-vision"
+    servername: "se-4.crispriver.sbs"
+    client-fingerprint: "firefox"
+    udp: true
     tls: true
+    reality-opts:
+      public-key: "PHzBVMB_KdrkQR8oNjpBUiVeYawlZCwgAMHdRIzMLnw"
+      short-id: "bee060a0239c97a4"
+  - name: "🇸🇪 [BL] Сервер 7"
+    type: vless
+    server: 84.32.154.73
+    port: 443
+    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "get.jarbook.net"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
+      short-id: "c6f97313"

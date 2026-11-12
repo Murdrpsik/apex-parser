@@ -5,9 +5,71 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇨🇦 [AI] Сервер 2"
+  - name: "🇫🇷 [AI] Сервер 2"
+    type: vless
+    server: 77.232.36.228
+    port: 443
+    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
+    network: "xhttp"
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "nGTRCnoPVEFz6M7S-dr3rfnfuZONPtCgEczaxy53-XQ"
+      short-id: "b997e34399a919f3"
+    xhttp-opts:
+      path: "/"
+      host: "ya.ru"
+      mode: "auto"
+  - name: "🇷🇺 [AI] Сервер 3"
+    type: vless
+    server: 138.124.14.209
+    port: 443
+    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.savesafe.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0"
+      short-id: "3e70d4cbb01bddfd"
+  - name: "🇰🇿 [AI] Сервер 4"
+    type: vless
+    server: 213.155.23.228
+    port: 443
+    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
+    network: "xhttp"
+    servername: "static.savesafe.kz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "tHojxb7q7TpXTh2YebrSpAZ2a1_N8GUh1L-pWnSR_RE"
+      short-id: "f3ae2acc13964946"
+    xhttp-opts:
+      path: "/"
+      host: "static.savesafe.kz"
+      mode: "auto"
+  - name: "🇰🇷 [AI] Сервер 6"
+    type: vless
+    server: 3.35.47.150
+    port: 2087
+    uuid: "bf5129f1-31f5-4edf-a07a-27ec31b26c1d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "test-sto.dev.helpnow.ai"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0"
+      short-id: "3208691e9b9f3369"
+  - name: "🇨🇦 [AI] Сервер 7"
     type: ss
-    server: 51.79.49.116
-    port: 8882
-    password: "kDWvXYZoTBcGkC4"
+    server: 51.222.200.165
+    port: 5000
+    password: "Y6R9pAtvxxzmGC"
     cipher: "aes-256-gcm"

@@ -1,6 +1,5 @@
 #profile-title: Apex RO
 #profile-update-interval: 1
-vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.cloudflare.com&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&sid=d06d78e974491b6e#🇷🇴 [BL] Сервер 1
+vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@88.218.42.115:443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=edge-3b715ba41dc5.eu-cdn539.com&pbk=cTHWxPgxWCY2aGTyJTLMOc9JVHdulknmGUqiolKPLgM&sid=dd908a76dbe472d4&headerType=none&encryption=none#🇷🇴 [WL] Сервер 1
 vless://11512726-b692-406f-ab49-7b28f44a8294@80.96.108.29:8443?mode=auto&path=%2Fae1b809ceb77&security=reality&encryption=none&pbk=_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg&fp=chrome&type=xhttp&sni=md.gorobsub.com#🇷🇴 [BL] Сервер 2
-vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@86.107.179.250:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8ekBZQk5UXxYvELwhchzklwJ5H9-W3rkZ1eAVVF1xlI&security=reality&sid=b39ae58a4dcff57d&sni=edge-5c4a0a8e13a6.eu-cdn391.com&type=tcp#🇷🇴 [BL] Сервер 3
-vless://0f2dc4af-951f-4690-922e-07c6e8bab26a@31.6.1.115:443?encryption=none&type=xhttp&security=tls&sni=cdn.winter-jam.site&fp=firefox&path=%2Fxh&host=cdn.winter-jam.site&mode=auto#🇷🇴 [BL] Сервер 4
+vless://0f2dc4af-951f-4690-922e-07c6e8bab26a@31.6.1.115:443?encryption=none&type=xhttp&security=tls&sni=cdn.winter-jam.site&fp=firefox&path=%2Fxh&host=cdn.winter-jam.site&mode=auto#🇷🇴 [BL] Сервер 3

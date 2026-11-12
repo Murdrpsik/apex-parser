@@ -15,38 +15,46 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
-    server: 38.107.234.57
-    port: 8443
-    uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
-    network: "ws"
-    servername: "3h-kazakhstan1.09vpn.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vless/"
-  - name: "🇰🇿 [BL] Сервер 3"
-    type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "raw"
+    network: "tcp"
     servername: "yahoo.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 4"
+  - name: "🇰🇿 [BL/AI] Сервер 3"
     type: vless
-    server: 176.120.21.23
+    server: 213.155.23.228
     port: 443
-    uuid: "83cc8226-1087-49ae-aac3-1f157ddc57b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yahoo.com"
+    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
+    network: "xhttp"
+    servername: "static.savesafe.kz"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU"
-      short-id: "c4d4cf50489d51"
+      public-key: "tHojxb7q7TpXTh2YebrSpAZ2a1_N8GUh1L-pWnSR_RE"
+      short-id: "f3ae2acc13964946"
+    xhttp-opts:
+      path: "/"
+      host: "static.savesafe.kz"
+      mode: "auto"
+  - name: "🇰🇿 [BL] Сервер 4"
+    type: vless
+    server: 38.180.206.44
+    port: 48982
+    uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
+    network: "xhttp"
+    servername: "cdn3-88.yahoo.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
