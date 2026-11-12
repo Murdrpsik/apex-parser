@@ -1,0 +1,18 @@
+proxies:
+  - name: "🇦🇲 [BL] Сервер 1"
+    type: vless
+    server: 145.79.181.106
+    port: 443
+    uuid: "24ace88f-8c83-4a94-b7dc-2ae0054ffd32"
+    network: "xhttp"
+    servername: "ftp.getsavesafe.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LPnxZINI0btPibTaBBXo-gywxmZ9q3f391YyLPcolzU"
+      short-id: "62b6d6e64d461d71"
+    xhttp-opts:
+      path: "/"
+      host: "ftp.getsavesafe.space"
+      mode: "auto"

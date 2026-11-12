@@ -1,5 +1,4 @@
 #profile-title: Apex OC
 #profile-update-interval: 1
 vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@50.6.54.163:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U&sid=26b26357bfcd59a1&sni=www.apple.com&encryption=none#🇦🇺 [BL] Сервер 1
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.242.104:443?host=fs.qicai99.com&path=%2Ffp%3Dchrome&security=tls&sni=fs.qicai99.com&type=ws&encryption=none#🇦🇺 [BL/CF] Сервер 2
-vless://3c778768-d511-4221-8be3-3eba45640e9e@51.161.204.242:443?security=reality&encryption=none&pbk=l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24&fp=chrome&sni=www.cloudflare.com&sid=d432fe14bbdc17f6&type=tcp&flow=xtls-rprx-vision#🇦🇺 [BL] Сервер 3
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@46.250.242.104:443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇦🇺 [BL/CF] Сервер 2

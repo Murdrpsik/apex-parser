@@ -2,4 +2,3 @@
 #profile-update-interval: 1
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@64.110.79.66:8443?security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F&encryption=none#🇰🇷 [BL/CF] Сервер 1
 vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053?fp=chrome&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo&security=reality&sid=429499c03d4cc8a0&sni=www.cloudflare.com&type=raw&encryption=none#🇰🇷 [BL] Сервер 2
-vless://664f65f4-33b3-43a3-b9e5-68192d1d428e@200.102.183.80:443?flow=xtls-rprx-vision&security=reality&sni=cedar-tide.cdn.cachefleet.com&fp=firefox&pbk=sp_KKjJjc7cyVd8jkaPNfRtB9UxyZT6CfF62uYqcMlI&sid=69828f96b0fcc801&encryption=none&type=tcp#🇰🇷 [BL] Сервер 3

@@ -52,20 +52,37 @@ proxies:
       public-key: "6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc"
       short-id: "11979c0c9b2da371"
   - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
+    server: 5.59.204.81
+    port: 8443
+    uuid: "97fd7807-7e2b-49da-8a0e-e40197088f97"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "id-6af3f40b.adhil.uk"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 6"
     type: ss
     server: 185.22.153.117
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 6"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: ss
     server: 38.60.223.125
     port: 13108
     password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
     cipher: "aes-128-gcm"
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: ss
     server: 193.233.216.55
     port: 2066
     password: "URNDUxwbHrWU-E19P76aCQ"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: ss
+    server: 176.53.254.178
+    port: 1080
+    password: "3v_DMKbgvnDfhyW8n9yRtnEBMpd3yZPL"
     cipher: "chacha20-ietf-poly1305"

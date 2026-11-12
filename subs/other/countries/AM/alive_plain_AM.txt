@@ -1,0 +1,3 @@
+#profile-title: Apex AM
+#profile-update-interval: 1
+vless://24ace88f-8c83-4a94-b7dc-2ae0054ffd32@145.79.181.106:443?security=reality&sni=ftp.getsavesafe.space&fp=firefox&pbk=LPnxZINI0btPibTaBBXo-gywxmZ9q3f391YyLPcolzU&sid=62b6d6e64d461d71&type=xhttp&host=ftp.getsavesafe.space&path=%2F&mode=auto&encryption=none#🇦🇲 [BL] Сервер 1

@@ -18,7 +18,7 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "0dd1a518-767f-41d4-900e-37b9c7ded0b1"
+    uuid: "80416b9e-25fd-4a56-b4b1-cc74621ea18f"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"

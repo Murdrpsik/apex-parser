@@ -26,17 +26,3 @@ proxies:
     reality-opts:
       public-key: "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo"
       short-id: "429499c03d4cc8a0"
-  - name: "🇰🇷 [BL] Сервер 3"
-    type: vless
-    server: 200.102.183.80
-    port: 443
-    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cedar-tide.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "sp_KKjJjc7cyVd8jkaPNfRtB9UxyZT6CfF62uYqcMlI"
-      short-id: "69828f96b0fcc801"
