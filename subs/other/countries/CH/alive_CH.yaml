@@ -7,7 +7,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
@@ -15,19 +15,18 @@ proxies:
       short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 2"
     type: vless
-    server: 179.255.191.135
-    port: 8443
-    uuid: "8bbde034-a0de-4e8c-8be3-b16a99689380"
-    network: "grpc"
-    servername: "ch.135.zzuq.fun"
-    client-fingerprint: "firefox"
+    server: 81.17.18.106
+    port: 443
+    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "81.17.18.106"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NHhxrPoUGT0Wijle1ODvqOqGLMfetU7Px4K1S9FL-hE"
-      short-id: "5b2e7a14c0d9f832"
-    grpc-opts:
-      grpc-service-name: "grpc"
+      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
+      short-id: "428ef87fd47a3a32"
   - name: "🇨🇭 [BL] Сервер 3"
     type: vless
     server: 45.90.59.15
@@ -44,20 +43,6 @@ proxies:
       short-id: "19253fae84102271"
   - name: "🇨🇭 [BL] Сервер 4"
     type: vless
-    server: 81.17.18.106
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇨🇭 [BL] Сервер 5"
-    type: vless
     server: 151.243.191.174
     port: 8447
     uuid: "52030136-eee3-4675-baae-a50f17b2bb8b"
@@ -72,11 +57,3 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
-  - name: "🇨🇭 [BL] Сервер 6"
-    type: trojan
-    server: 208.69.78.222
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "yourultimateprofessionalcareerhub.com"
-    client-fingerprint: "chrome"
-    udp: true

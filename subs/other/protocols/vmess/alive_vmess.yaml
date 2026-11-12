@@ -29,15 +29,37 @@ proxies:
     network: "tcp"
   - name: "🇺🇸 [BL] Сервер 4"
     type: vmess
-    server: 67.220.85.46
+    server: 38.91.107.49
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "aes-128-gcm"
+    cipher: "auto"
     alterId: 0
     network: "tcp"
+  - name: "🌐 [BL] Сервер 5"
+    type: vmess
+    server: de.zhou-yufan.com
+    port: 443
+    uuid: "f38e591d-d13a-4c30-9763-6be3ad65f3ec"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "de.zhou-yufan.com"
+    tls: true
+  - name: "🇸🇬 [BL] Сервер 6"
+    type: vmess
+    server: news.zoom.us
+    port: 8443
+    uuid: "bd67fcd2-ec34-40a6-aac6-67731f2d7011"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "matrix.phonicsindia.mobi"
+    tls: true
     ws-opts:
       path: "/"
-  - name: "🇨🇦 [BL] Сервер 5"
+      headers:
+        Host: "matrix.phonicsindia.mobi"
+  - name: "🇨🇦 [BL] Сервер 7"
     type: vmess
     server: 23.162.200.198
     port: 18000
@@ -46,32 +68,9 @@ proxies:
     alterId: 0
     network: "tcp"
     servername: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
-  - name: "🇺🇸 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vmess
-    server: 84.17.41.2
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "bj1aa2zyjxyamyuk.v%3dns.vip"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "bj1aa2zyjxyamyuk.v.3dns.vip"
-  - name: "🇺🇸 [BL] Сервер 7"
-    type: vmess
-    server: 38.22.17.251
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
-  - name: "🇺🇸 [BL] Сервер 8"
-    type: vmess
-    server: 38.128.66.241
+    server: 62.93.166.184
     port: 1270
     uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"
@@ -81,7 +80,47 @@ proxies:
     tls: true
   - name: "🇺🇸 [BL] Сервер 9"
     type: vmess
-    server: 162.251.60.97
+    server: 38.64.138.187
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 10"
+    type: vmess
+    server: 38.22.17.251
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 11"
+    type: vmess
+    server: 38.22.17.64
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇺🇸 [BL] Сервер 12"
+    type: vmess
+    server: 38.128.66.241
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true
+  - name: "🇩🇪 [BL] Сервер 13"
+    type: vmess
+    server: 193.108.119.87
     port: 1270
     uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"

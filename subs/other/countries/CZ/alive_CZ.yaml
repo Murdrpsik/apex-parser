@@ -1,20 +1,6 @@
 proxies:
   - name: "🇨🇿 [BL] Сервер 1"
     type: vless
-    server: 87.242.102.102
-    port: 443
-    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kakashechka.belka.tv"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
-      short-id: "a9dc98a7dc87a7dc"
-  - name: "🇨🇿 [BL] Сервер 2"
-    type: vless
     server: 212.102.38.25
     port: 443
     uuid: "b34a52cb-cd52-49a8-9362-b8e97c151d49"
@@ -27,12 +13,12 @@ proxies:
     reality-opts:
       public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
       short-id: "e90360ec7cc61b20"
-  - name: "🇨🇿 [BL] Сервер 3"
+  - name: "🇨🇿 [BL] Сервер 2"
     type: vless
     server: 195.123.245.241
     port: 443
     uuid: "7c053ca8-38cc-45e2-930c-eda1fd66f903"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "gateway.icloud.com"
     client-fingerprint: "firefox"
@@ -41,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw"
       short-id: "23d0950d60bc0d5b"
-  - name: "🇨🇿 [BL] Сервер 4"
+  - name: "🇨🇿 [BL] Сервер 3"
     type: vless
     server: 153.52.69.249
     port: 443
@@ -55,7 +41,7 @@ proxies:
     reality-opts:
       public-key: "WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U"
       short-id: "d5492c7a39515c65"
-  - name: "🇨🇿 [BL] Сервер 5"
+  - name: "🇨🇿 [BL] Сервер 4"
     type: vless
     server: 94.183.234.245
     port: 443
@@ -69,23 +55,3 @@ proxies:
     reality-opts:
       public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
       short-id: "7f1e29593aa94ad1"
-  - name: "🇨🇿 [BL] Сервер 6"
-    type: vless
-    server: 141.98.191.37
-    port: 443
-    uuid: "fac746c5-1a56-4b23-8dc1-8cbe81f79054"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "31.76.7.128.sslip.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
-      short-id: "88086e66870f03e6"
-  - name: "🇨🇿 [BL] Сервер 7"
-    type: ss
-    server: 194.87.233.93
-    port: 46190
-    password: "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
-    cipher: "chacha20-ietf-poly1305"
