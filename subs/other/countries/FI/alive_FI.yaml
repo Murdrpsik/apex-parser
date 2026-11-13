@@ -1,6 +1,18 @@
 proxies:
   - name: "🇫🇮 [WL] Сервер 1"
     type: vless
+    server: 188.225.46.162
+    port: 443
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
+    network: "grpc"
+    servername: "filnex.baby"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "lalibobi.tw.de1.Connect"
+  - name: "🇫🇮 [WL] Сервер 2"
+    type: vless
     server: 2.27.122.255
     port: 443
     uuid: "e307f400-d65e-4afd-bfe2-9a54deca5678"
@@ -13,34 +25,7 @@ proxies:
     reality-opts:
       public-key: "Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg"
       short-id: "d52d3ecf49447c2a"
-  - name: "🇫🇮 [BL] Сервер 2"
-    type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
-    network: "raw"
-    servername: "m.vk.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
-      short-id: "67ece882d65d0f1a"
   - name: "🇫🇮 [BL] Сервер 3"
-    type: vless
-    server: ly761a.whitechannel-x1-cdn.ru
-    port: 443
-    uuid: "7d4a5c8f-0cdb-41b9-8898-807a1b7335e4"
-    network: "xhttp"
-    servername: "ly761a.whitechannel-x1-cdn.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/1bz3mkmq/sync/"
-      host: "ly761a.whitechannel-x1-cdn.ru"
-      mode: "packet-up"
-  - name: "🇫🇮 [BL] Сервер 4"
     type: vless
     server: 78.40.193.180
     port: 443
@@ -57,7 +42,34 @@ proxies:
       path: "/assets/28ca4df9"
       host: "78.40.193.180"
       mode: "auto"
+  - name: "🇫🇮 [BL] Сервер 4"
+    type: vless
+    server: 177.1.183.143
+    port: 443
+    uuid: "e460e79d-5dd9-451d-8d1a-a84c8b70c9a7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ru-fl2.fluxnode777.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "37ZFWtNTZ_slVsJp0_5siKSeqz-sZSuLdYurC_cBrxw"
   - name: "🇫🇮 [BL] Сервер 5"
+    type: vless
+    server: webdisk.jaggyslawa.org
+    port: 443
+    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "87174b37ce3b"
+  - name: "🇫🇮 [BL] Сервер 6"
     type: vless
     server: 107.181.151.128
     port: 443
@@ -71,7 +83,7 @@ proxies:
     reality-opts:
       public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
       short-id: "8f79726c5002"
-  - name: "🇫🇮 [BL] Сервер 6"
+  - name: "🇫🇮 [BL] Сервер 7"
     type: vless
     server: 178.214.125.1
     port: 443
@@ -85,7 +97,7 @@ proxies:
     reality-opts:
       public-key: "ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY"
       short-id: "6172ba9cffe9c22f"
-  - name: "🇫🇮 [BL/CF] Сервер 7"
+  - name: "🇫🇮 [BL/CF] Сервер 8"
     type: vless
     server: 138.124.124.157
     port: 443
@@ -97,7 +109,7 @@ proxies:
     tls: true
     ws-opts:
       path: "/"
-  - name: "🇫🇮 [BL] Сервер 8"
+  - name: "🇫🇮 [BL] Сервер 9"
     type: vless
     server: 13.143.173.15
     port: 443
@@ -110,7 +122,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇫🇮 [BL] Сервер 9"
+  - name: "🇫🇮 [BL] Сервер 10"
     type: vless
     server: 95.216.27.15
     port: 2053
@@ -123,59 +135,7 @@ proxies:
     reality-opts:
       public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
       short-id: "10351b07c712d2a2"
-  - name: "🇫🇮 [BL] Сервер 10"
-    type: vless
-    server: 65.109.208.183
-    port: 443
-    uuid: "5f07a2a1-82a5-494d-847b-b882e6903192"
-    network: "tcp"
-    servername: "free.for.member.iiproxy.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇫🇮 [BL/CF] Сервер 11"
-    type: vless
-    server: 138.124.49.108
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇫🇮 [BL/CF] Сервер 12"
-    type: vless
-    server: 109.120.134.181
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇫🇮 [BL] Сервер 13"
-    type: vless
-    server: 176.108.241.72
-    port: 443
-    uuid: "5159ee41-1fb8-42e9-8c09-160aa3fc3160"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ru-cdn.cdn-ozon.icu"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "mZjATY7nGyp_ikhe2PakXak5JWk2ORn9vl_lO2WpICs"
-      short-id: "ad0cb77acd87a7ca"
-  - name: "🇫🇮 [BL] Сервер 14"
+  - name: "🇫🇮 [BL] Сервер 11"
     type: vless
     server: 200.102.182.11
     port: 8443
@@ -188,28 +148,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "PTIRbxzUvuwon8uDA2LjTtIJc9nItRvnGqQxS4K9pgg"
-  - name: "🇫🇮 [BL] Сервер 15"
-    type: vless
-    server: 188.225.46.162
-    port: 443
-    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
-    network: "grpc"
-    servername: "filnex.baby"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "lalibobi.tw.de1.Connect"
-  - name: "🇫🇮 [BL] Сервер 16"
-    type: vless
-    server: 177.202.65.172
-    port: 443
-    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cap.streamclubz.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "roCi4kn1u86MOKkcvNKl-F-lMTUjBo7-Innd1W5slGE"

@@ -15,29 +15,27 @@ proxies:
       short-id: "b31de5bead2ebf3c"
   - name: "🇱🇹 [BL] Сервер 2"
     type: vless
-    server: 147.45.217.136
+    server: 84.32.151.166
     port: 443
-    uuid: "7d4a5c8f-0cdb-41b9-8898-807a1b7335e4"
+    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lt-1-lietuva.fantoff.online"
+    servername: "lt3.lazeroe.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo"
-      short-id: "7f2e9c4b1a8d6e55"
-  - name: "🇱🇹 [BL/CF] Сервер 3"
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "868419504747f6de"
+  - name: "🇱🇹 [BL] Сервер 3"
     type: vless
-    server: 85.206.161.209
+    server: 84.32.51.233
     port: 443
-    uuid: "20e565e1-3858-40bf-94e8-4ec9624fc985"
-    network: "ws"
-    servername: "wallweb8.pages.dev"
-    client-fingerprint: "chrome"
+    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
+    network: "tcp"
+    servername: "lt4.lazeroe.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "wallweb8.pages.dev"
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "868419504747f6de"

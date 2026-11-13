@@ -1,9 +1,6 @@
 #profile-title: Apex CH
 #profile-update-interval: 1
-vless://3950b45e-740d-4dca-ac95-505ec8534592@45.90.59.15:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=19253fae84102271&pbk=P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY&encryption=none#🇨🇭 [BL] Сервер 1
+vless://de404269-a97c-4f49-9efb-43509c2afa09@193.228.128.230:443?security=reality&sni=ch.primarymaster.online&fp=firefox&pbk=rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY&sid=8b8dd8a1c0c468d3&type=grpc&mode=gun&encryption=none#🇨🇭 [BL] Сервер 1
 vless://c0dd6d59-1573-43af-8b70-1470b2632a6d@208.69.78.217:2053?type=raw&security=reality&fp=chrome&pbk=A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0&sid=ad86e2d52ff40ebd&sni=www.apple.com&encryption=none#🇨🇭 [BL] Сервер 2
-vless://52a5a29f-c162-411a-8a37-a3f11b0dc537@74.161.152.237:2083?security=reality&encryption=none&pbk=WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=0123456789abcdef#🇨🇭 [BL] Сервер 3
-vless://de404269-a97c-4f49-9efb-43509c2afa09@193.228.128.230:443?security=reality&sni=ch.primarymaster.online&fp=firefox&pbk=rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY&sid=8b8dd8a1c0c468d3&type=grpc&mode=gun&encryption=none#🇨🇭 [BL] Сервер 4
-vless://7d4a5c8f-0cdb-41b9-8898-807a1b7335e4@31.59.148.208:8443?security=reality&sni=nl-salad-12.fantoff.online&fp=edge&pbk=2VDvK_MUMJQou2QHniofZOKRHcslWrJ6wtblKf2AilY&sid=7f2e9c4b1a8d6e55&type=grpc&serviceName=nl-salad-12_grpc&mode=gun&encryption=none#🇨🇭 [BL] Сервер 5
-vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [BL/AI] Сервер 6
-vless://90157e25-cee1-4217-921e-91f300bc1a24@81.17.18.109:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&sid=428ef87fd47a3a32&sni=perevodchiki.su&type=tcp#🇨🇭 [BL] Сервер 7
+vless://52a5a29f-c162-411a-8a37-a3f11b0dc537@74.161.152.237:2083?security=reality&type=tcp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=0123456789abcdef&pbk=WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4&encryption=none#🇨🇭 [BL] Сервер 3
+vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [BL/AI] Сервер 4

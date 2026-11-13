@@ -1,9 +1,9 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 185.178.208.167
+    server: mbr.rkn-pediki.site
     port: 443
-    uuid: "4662bf2b-af58-0001-ae5f-ef3d7d3a624f"
+    uuid: "2b5962e8-1ec2-0001-bdab-cefa57555d2a"
     network: "ws"
     servername: "mbr.rkn-pediki.site"
     client-fingerprint: "chrome"
@@ -15,12 +15,12 @@ proxies:
         Host: "mbr.rkn-pediki.site"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
-    server: 185.178.208.167
+    server: mbr.rkn-pediki.site
     port: 443
-    uuid: "2b5962e8-1ec2-0001-bdab-cefa57555d2a"
+    uuid: "4662bf2b-af58-0001-ae5f-ef3d7d3a624f"
     network: "ws"
     servername: "mbr.rkn-pediki.site"
-    client-fingerprint: "ios"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
@@ -29,18 +29,18 @@ proxies:
         Host: "mbr.rkn-pediki.site"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 188.72.112.1
+    server: 185.178.208.167
     port: 443
-    uuid: "7ae5205f-e6c2-45bd-b393-b42c4e1d54f6"
-    network: "xhttp"
-    servername: "audio.pranker.cc"
-    client-fingerprint: "qq"
+    uuid: "2b5962e8-1ec2-0001-bdab-cefa57555d2a"
+    network: "ws"
+    servername: "mbr.rkn-pediki.site"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/api/v3/sync/88be1f21/"
-      host: "audio.pranker.cc"
-      mode: "packet-up"
+    ws-opts:
+      path: "/session"
+      headers:
+        Host: "mbr.rkn-pediki.site"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 129.101.98.60
@@ -57,6 +57,20 @@ proxies:
       short-id: "3992cc7fb9fcbe58"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
+    server: 45.139.27.164
+    port: 443
+    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "russ3.figurapn.ru"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "868419504747f6de"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
     server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
@@ -67,7 +81,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 6"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 201.24.116.192
     port: 443
@@ -79,12 +93,6 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 7"
-    type: ss
-    server: 185.22.153.117
-    port: 18443
-    password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    cipher: "aes-256-gcm"
   - name: "🇷🇺 [WL] Сервер 8"
     type: ss
     server: 38.60.223.125
