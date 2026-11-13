@@ -1,6 +1,20 @@
 proxies:
   - name: "🇧🇬 [BL] Сервер 1"
     type: vless
+    server: 78.159.250.83
+    port: 8443
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "xhttp"
+    servername: "earlytrain.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v1/upload"
+      host: "earlytrain.net"
+      mode: "auto"
+  - name: "🇧🇬 [BL] Сервер 2"
+    type: vless
     server: 195.123.226.21
     port: 443
     uuid: "6589c320-db68-43cd-a273-b46299bab355"
@@ -13,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo"
       short-id: "77bb0d07bddbc832"
-  - name: "🇧🇬 [BL] Сервер 2"
+  - name: "🇧🇬 [BL] Сервер 3"
     type: vless
     server: 88.80.150.15
     port: 443
@@ -26,16 +40,3 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 3"
-    type: vless
-    server: 131.123.41.168
-    port: 1270
-    uuid: "ade238d6-637e-4f6c-b1fc-268579b262f5"
-    network: "tcp"
-    servername: "play.googleapis.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8"
-      short-id: "9b60d3"

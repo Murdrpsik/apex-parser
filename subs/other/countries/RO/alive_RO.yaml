@@ -1,18 +1,18 @@
 proxies:
-  - name: "🇷🇴 [WL] Сервер 1"
+  - name: "🇷🇴 [BL] Сервер 1"
     type: vless
-    server: 88.218.42.115
+    server: 46.28.67.55
     port: 443
-    uuid: "e75ad2eb-6c1f-45ce-8023-f5f10875df66"
+    uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "edge-3b715ba41dc5.eu-cdn539.com"
-    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "cTHWxPgxWCY2aGTyJTLMOc9JVHdulknmGUqiolKPLgM"
-      short-id: "dd908a76dbe472d4"
+      public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
+      short-id: "d06d78e974491b6e"
   - name: "🇷🇴 [BL] Сервер 2"
     type: vless
     server: 80.96.108.29

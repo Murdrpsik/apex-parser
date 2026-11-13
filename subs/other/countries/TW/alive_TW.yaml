@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇹🇼 [BL] Сервер 1"
+    type: vless
+    server: 125.230.104.155
+    port: 30202
+    uuid: "ae7b1e08-869e-48d3-ac20-5fff99c83be7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "itunes.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U"
+      short-id: "10fa499e"

@@ -15,17 +15,17 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇹🇷 [BL] Сервер 2"
     type: vless
-    server: 45.92.219.47
-    port: 443
-    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
+    server: 193.151.152.30
+    port: 2085
+    uuid: "5191d3d6-56d0-46a1-ae79-ddf2b2460559"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ty.galactichub.online"
+    servername: "dl.google.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
+      public-key: "BF26WqOIARMEEiD5I3qkq_QFCRIeYAjf99_WS6kXeiE"
   - name: "🇹🇷 [BL] Сервер 3"
     type: vless
     server: 62.133.63.45
@@ -81,3 +81,59 @@ proxies:
     tls: true
     reality-opts:
       public-key: "N8QooY7tm45gPX-9AQVg8ZYCCYqqfaiX8NGM96IvTBI"
+  - name: "🇹🇷 [BL] Сервер 7"
+    type: vless
+    server: 37.202.247.184
+    port: 8023
+    uuid: "20656546-080b-411c-8e27-d64921595866"
+    network: "tcp"
+    servername: "bitpin.ir"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3VKs9HG9EgsB69ppfvFEJcXiO5MDOvvQOByDD2HceXQ"
+      short-id: "b7e45d3a65bfc319"
+  - name: "🇹🇷 [BL] Сервер 8"
+    type: vless
+    server: 45.141.148.45
+    port: 443
+    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tr1-b.sbcweb.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "868419504747f6de"
+  - name: "🇹🇷 [BL] Сервер 9"
+    type: vless
+    server: 45.92.176.81
+    port: 443
+    uuid: "fa081e9f-7574-0001-8928-31aa5ac923c7"
+    network: "grpc"
+    servername: "rus7-b.sbcweb.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "344f83372596eea2"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇹🇷 [BL] Сервер 10"
+    type: vless
+    server: 206.1.96.105
+    port: 443
+    uuid: "7d4a5c8f-0cdb-41b9-8898-807a1b7335e4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "trfunvideo.fantoff.online"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo"
+      short-id: "7f2e9c4b1a8d6e55"

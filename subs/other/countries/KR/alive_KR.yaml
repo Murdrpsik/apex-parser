@@ -26,30 +26,3 @@ proxies:
     reality-opts:
       public-key: "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo"
       short-id: "429499c03d4cc8a0"
-  - name: "🇰🇷 [BL/CF] Сервер 3"
-    type: vless
-    server: 64.110.79.66
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇰🇷 [BL/AI] Сервер 4"
-    type: vless
-    server: 3.35.47.150
-    port: 2087
-    uuid: "bf5129f1-31f5-4edf-a07a-27ec31b26c1d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "test-sto.dev.helpnow.ai"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0"
-      short-id: "3208691e9b9f3369"

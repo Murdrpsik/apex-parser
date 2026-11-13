@@ -5,68 +5,46 @@ proxies:
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇫🇷 [AI] Сервер 2"
+  - name: "🇨🇭 [AI] Сервер 2"
     type: vless
-    server: 77.232.36.228
-    port: 443
-    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
-    network: "xhttp"
-    servername: "ya.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "nGTRCnoPVEFz6M7S-dr3rfnfuZONPtCgEczaxy53-XQ"
-      short-id: "b997e34399a919f3"
-    xhttp-opts:
-      path: "/"
-      host: "ya.ru"
-      mode: "auto"
-  - name: "🇷🇺 [AI] Сервер 3"
-    type: vless
-    server: 138.124.14.209
-    port: 443
-    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cdn.savesafe.space"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0"
-      short-id: "3e70d4cbb01bddfd"
-  - name: "🇰🇿 [AI] Сервер 4"
-    type: vless
-    server: 213.155.23.228
-    port: 443
-    uuid: "c059d2b8-d7d6-4873-b5e8-2c5f6cd908bb"
-    network: "xhttp"
-    servername: "static.savesafe.kz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "tHojxb7q7TpXTh2YebrSpAZ2a1_N8GUh1L-pWnSR_RE"
-      short-id: "f3ae2acc13964946"
-    xhttp-opts:
-      path: "/"
-      host: "static.savesafe.kz"
-      mode: "auto"
-  - name: "🇰🇷 [AI] Сервер 6"
-    type: vless
-    server: 3.35.47.150
-    port: 2087
-    uuid: "bf5129f1-31f5-4edf-a07a-27ec31b26c1d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "test-sto.dev.helpnow.ai"
+    server: 151.243.191.174
+    port: 8447
+    uuid: "52030136-eee3-4675-baae-a50f17b2bb8b"
+    network: "grpc"
+    servername: "github.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0"
-      short-id: "3208691e9b9f3369"
+      public-key: "Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4"
+      short-id: "732ef4f5320b5e19"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇺🇸 [AI] Сервер 3"
+    type: ss
+    server: 216.105.168.18
+    port: 443
+    password: "hCCWOcIsK5wrFz4OX70rWf"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇺🇸 [AI] Сервер 4"
+    type: ss
+    server: 95.215.201.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 5"
+    type: ss
+    server: 67.220.73.178
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 6"
+    type: ss
+    server: 138.197.89.234
+    port: 28960
+    password: "DZRy4Q3QH0jUGfKFl2jDCZ"
+    cipher: "chacha20-ietf-poly1305"
   - name: "🇨🇦 [AI] Сервер 7"
     type: ss
     server: 51.222.200.165

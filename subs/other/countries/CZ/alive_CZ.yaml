@@ -43,6 +43,20 @@ proxies:
       short-id: "d5492c7a39515c65"
   - name: "🇨🇿 [BL] Сервер 4"
     type: vless
+    server: 87.242.102.102
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "kakashechka.belka.tv"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"
+  - name: "🇨🇿 [BL] Сервер 5"
+    type: vless
     server: 94.183.234.245
     port: 443
     uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
@@ -55,7 +69,47 @@ proxies:
     reality-opts:
       public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
       short-id: "7f1e29593aa94ad1"
-  - name: "🇨🇿 [BL] Сервер 5"
+  - name: "🇨🇿 [BL/CF] Сервер 6"
+    type: vless
+    server: 188.137.178.174
+    port: 8443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇨🇿 [BL] Сервер 7"
+    type: vless
+    server: 141.98.191.115
+    port: 443
+    uuid: "41a382b8-6d2f-482e-abf2-954a56456e8c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "31.76.7.128.sslip.io"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
+      short-id: "88086e66870f03e6"
+  - name: "🇨🇿 [BL/CF] Сервер 8"
+    type: vless
+    server: 91.199.147.41
+    port: 443
+    uuid: "4d945644-69ab-47e0-98b3-d43a6313135d"
+    network: "ws"
+    servername: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome"
+      headers:
+        Host: "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
+  - name: "🇨🇿 [BL] Сервер 9"
     type: ss
     server: 194.87.233.93
     port: 46190
