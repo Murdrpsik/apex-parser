@@ -150,35 +150,20 @@ proxies:
     reality-opts:
       public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
       short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [BL] Сервер 12"
+  - name: "🇪🇪 [WL] Сервер 12"
     type: vless
-    server: 5.129.202.80
-    port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
-    network: "tcp"
+    server: 185.86.145.223
+    port: 8445
+    uuid: "84a56b88-2f89-4a57-b925-74abd5b7fd87"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "mirror-50.topp-con.xyz"
-    client-fingerprint: "chrome"
+    servername: "passport.yandex.ru"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
-      short-id: "2ef2b10d5143d798"
+      public-key: "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
   - name: "🇪🇪 [BL] Сервер 13"
-    type: vless
-    server: 38.244.155.67
-    port: 443
-    uuid: "d651c9ab-b844-4420-b3d0-20d201ef5f55"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "node-eu-1.nztpro.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NLXltMEkWIxv9bL2J4XkPGb4oVwGbCkITCTXF-jVxAE"
-      short-id: "2976f793571fb671"
-  - name: "🇪🇪 [BL] Сервер 14"
     type: vless
     server: 201.10.76.171
     port: 443
@@ -191,3 +176,17 @@ proxies:
     tls: true
     reality-opts:
       public-key: "30G1qOdxicVZe5FKwRswIgK46h6n179p-iuTXY-BLj8"
+  - name: "🇪🇪 [BL] Сервер 14"
+    type: vless
+    server: 200.181.87.171
+    port: 443
+    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"

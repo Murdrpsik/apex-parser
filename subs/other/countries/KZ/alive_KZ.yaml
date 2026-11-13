@@ -15,57 +15,6 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
-    server: 91.217.10.48
-    port: 443
-    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kz1.lazeroe.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "868419504747f6de"
-  - name: "🇰🇿 [BL] Сервер 3"
-    type: vless
-    server: 109.248.170.119
-    port: 13447
-    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "tcp"
-    servername: "yahoo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
-      short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 4"
-    type: vless
-    server: 38.107.234.57
-    port: 8443
-    uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
-    network: "ws"
-    servername: "3h-kazakhstan1.09vpn.com"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/vless/"
-  - name: "🇰🇿 [BL] Сервер 5"
-    type: vless
-    server: 176.120.21.23
-    port: 443
-    uuid: "83cc8226-1087-49ae-aac3-1f157ddc57b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yahoo.com"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU"
-      short-id: "c4d4cf50489d51"
-  - name: "🇰🇿 [BL] Сервер 6"
-    type: vless
     server: 38.180.206.44
     port: 48982
     uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
@@ -79,3 +28,29 @@ proxies:
     xhttp-opts:
       path: "/"
       mode: "auto"
+  - name: "🇰🇿 [BL] Сервер 3"
+    type: vless
+    server: 200.102.183.45
+    port: 443
+    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "maple-cove.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ"
+  - name: "🇰🇿 [BL] Сервер 4"
+    type: vmess
+    server: 38.107.234.57
+    port: 80
+    uuid: "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "3h-kazakhstan1.09vpn.com"
+    ws-opts:
+      path: "/vmess/"
+      headers:
+        Host: "3h-kazakhstan1.09vpn.com"

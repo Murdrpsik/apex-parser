@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&type=tcp#🇧🇷 [WL] Сервер 1
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&type=tcp&fp=chrome#🇧🇷 [WL] Сервер 2
-vless://b2a23095-6313-4411-bf74-58a84e70c4b7@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=chrome#🇧🇷 [WL] Сервер 3
+vless://7634ea7b-20c3-4068-a63b-6ae958c75af6@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=chrome#🇧🇷 [WL] Сервер 3

@@ -4,10 +4,10 @@ proxies:
     server: 195.123.245.241
     port: 443
     uuid: "7c053ca8-38cc-45e2-930c-eda1fd66f903"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "gateway.icloud.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -41,19 +41,20 @@ proxies:
     reality-opts:
       public-key: "WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U"
       short-id: "d5492c7a39515c65"
-  - name: "🇨🇿 [BL/CF] Сервер 4"
+  - name: "🇨🇿 [BL/AI] Сервер 4"
     type: vless
-    server: 188.137.178.174
-    port: 8443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
+    server: 85.192.56.61
+    port: 443
+    uuid: "1b487f79-6b87-4971-863c-526bd31abd44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "85.192.56.61.sslip.io"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
+    reality-opts:
+      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
+      short-id: "88086e66870f03e6"
   - name: "🇨🇿 [BL] Сервер 5"
     type: ss
     server: 194.87.233.93

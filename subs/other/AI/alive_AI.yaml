@@ -1,11 +1,41 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
+  - name: "🇨🇦 [AI] Сервер 1"
+    type: vless
+    server: 79.141.166.66
+    port: 443
+    uuid: "f8cb3c89-32af-4255-bebc-d90aad175069"
+    network: "grpc"
+    servername: "caa.kosmosapp.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ"
+      short-id: "27350908de933e09"
+    grpc-opts:
+      grpc-service-name: "neurex"
+      grpc-mode: "gun"
+  - name: "🇺🇸 [AI] Сервер 2"
     type: ss
     server: 185.215.132.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇩🇪 [AI] Сервер 2"
+  - name: "🇨🇿 [AI] Сервер 3"
+    type: vless
+    server: 85.192.56.61
+    port: 443
+    uuid: "1b487f79-6b87-4971-863c-526bd31abd44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "85.192.56.61.sslip.io"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY"
+      short-id: "88086e66870f03e6"
+  - name: "🇩🇪 [AI] Сервер 4"
     type: vless
     server: 189.24.107.174
     port: 443
@@ -19,7 +49,21 @@ proxies:
     reality-opts:
       public-key: "gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ"
       short-id: "8b36e9b7b3"
-  - name: "🇨🇭 [AI] Сервер 3"
+  - name: "🇸🇪 [AI] Сервер 5"
+    type: vless
+    server: 83.141.69.239
+    port: 443
+    uuid: "1b487f79-6b87-4971-863c-526bd31abd44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "83.141.69.239.sslip.io"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI"
+      short-id: "db71028aeb67289c"
+  - name: "🇨🇭 [AI] Сервер 6"
     type: vless
     server: 151.243.191.174
     port: 8447
@@ -35,3 +79,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
+  - name: "🇯🇵 [AI] Сервер 7"
+    type: ss
+    server: 168.138.205.100
+    port: 53758
+    password: "Bwlqh7GcFB"
+    cipher: "aes-128-gcm"
