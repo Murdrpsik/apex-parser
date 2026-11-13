@@ -1,169 +1,19 @@
 proxies:
-  - name: "🇪🇪 [WL] Сервер 1"
+  - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 185.215.184.50
+    server: 64.188.78.32
     port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "dvizhok.su"
+    servername: "parnu.lalibobi.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 2"
-    type: vless
-    server: 185.215.184.50
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "185.215.184.50"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 3"
-    type: vless
-    server: 185.215.184.50
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 4"
-    type: vless
-    server: 185.215.184.86
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dvizhok.su"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 5"
-    type: vless
-    server: 185.215.184.86
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "185.215.184.86"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 6"
-    type: vless
-    server: 185.215.184.86
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 7"
-    type: vless
-    server: 185.215.184.79
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dvizhok.su"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 8"
-    type: vless
-    server: 185.215.184.79
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "185.215.184.79"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 9"
-    type: vless
-    server: 185.215.184.54
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dvizhok.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 10"
-    type: vless
-    server: 185.215.184.54
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "185.215.184.54"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 11"
-    type: vless
-    server: 185.215.184.54
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-  - name: "🇪🇪 [WL] Сервер 12"
-    type: vless
-    server: 185.86.145.223
-    port: 8445
-    uuid: "84a56b88-2f89-4a57-b925-74abd5b7fd87"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
-  - name: "🇪🇪 [BL] Сервер 13"
+      public-key: "UUAeEJC-AryOno_jBPGDry1QzQlZ1wlm5S4uS0_D7hA"
+      short-id: "0099b700c0152888"
+  - name: "🇪🇪 [BL] Сервер 2"
     type: vless
     server: 201.10.76.171
     port: 443
@@ -176,17 +26,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "30G1qOdxicVZe5FKwRswIgK46h6n179p-iuTXY-BLj8"
-  - name: "🇪🇪 [BL] Сервер 14"
-    type: vless
-    server: 200.181.87.171
-    port: 443
-    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cedar-beacon.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
-      short-id: "2a09abf8032087af"

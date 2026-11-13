@@ -1,6 +1,38 @@
 proxies:
   - name: "🇫🇮 [WL] Сервер 1"
     type: vless
+    server: 109.71.245.99
+    port: 8443
+    uuid: "f09ca6e3-c547-4f91-95f5-77f34c4282ac"
+    network: "xhttp"
+    servername: "music.yandex.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4"
+      short-id: "835bff7d47836e88"
+    xhttp-opts:
+      path: "/029d7a23f5ba"
+      mode: "auto"
+  - name: "🇫🇮 [WL] Сервер 2"
+    type: vless
+    server: 109.71.245.99
+    port: 8443
+    uuid: "f09ca6e3-c547-4f91-95f5-77f34c4282ac"
+    network: "xhttp"
+    servername: "music.yandex.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4"
+      short-id: "835bff7d47836e88"
+    xhttp-opts:
+      path: "/029d7a23f5ba"
+      host: "music.yandex.ru"
+  - name: "🇫🇮 [WL] Сервер 3"
+    type: vless
     server: 188.225.46.162
     port: 443
     uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
@@ -11,7 +43,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "lalibobi.tw.de1.Connect"
-  - name: "🇫🇮 [WL] Сервер 2"
+  - name: "🇫🇮 [WL] Сервер 4"
     type: vless
     server: 2.27.122.255
     port: 443
@@ -25,19 +57,156 @@ proxies:
     reality-opts:
       public-key: "Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg"
       short-id: "d52d3ecf49447c2a"
-  - name: "🇫🇮 [BL] Сервер 3"
+  - name: "🇫🇮 [BL] Сервер 5"
     type: vless
-    server: filnex.baby
+    server: 45.38.143.210
+    port: 30584
+    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
+    network: "raw"
+    servername: "m.vk.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
+      short-id: "67ece882d65d0f1a"
+  - name: "🇫🇮 [BL] Сервер 6"
+    type: vless
+    server: 217.198.9.157
     port: 443
     uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
-    network: "grpc"
-    servername: "filnex.baby"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lolikop.site"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "lalibobi.tw.de1.Connect"
-  - name: "🇫🇮 [BL] Сервер 4"
+    reality-opts:
+      public-key: "wsANtibRnxmTtHeR-xwPiWdTah0jOIicP4RKPfhbOXQ"
+      short-id: "13c2bc3667b876b8"
+  - name: "🇫🇮 [BL] Сервер 7"
+    type: vless
+    server: 93.183.127.54
+    port: 24447
+    uuid: "549766c3-fa5f-471e-8031-ffc1f8d5064f"
+    network: "xhttp"
+    servername: "lakes.blog-forme.ru"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY"
+      short-id: "3258252d44113e23"
+    xhttp-opts:
+      path: "/v2/sync/6e9367"
+      mode: "auto"
+  - name: "🇫🇮 [BL/CF] Сервер 8"
+    type: vless
+    server: 138.124.49.108
+    port: 8443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇫🇮 [BL/CF] Сервер 9"
+    type: vless
+    server: 138.124.124.157
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇫🇮 [BL] Сервер 10"
+    type: vless
+    server: 107.181.151.128
+    port: 443
+    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s"
+      short-id: "87174b37ce3b"
+  - name: "🇫🇮 [BL] Сервер 11"
+    type: vless
+    server: 13.143.173.15
+    port: 443
+    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+  - name: "🇫🇮 [BL] Сервер 12"
+    type: vless
+    server: 95.216.27.15
+    port: 2053
+    uuid: "b79d736d-0f10-4169-b626-362059d18204"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
+      short-id: "10351b07c712d2a2"
+  - name: "🇫🇮 [BL/CF] Сервер 13"
+    type: vless
+    server: 109.120.134.181
+    port: 443
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    servername: "fs.qicai99.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇫🇮 [BL] Сервер 14"
+    type: vless
+    server: 200.102.182.11
+    port: 8443
+    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "2veos3wvwtx8.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PTIRbxzUvuwon8uDA2LjTtIJc9nItRvnGqQxS4K9pgg"
+  - name: "🇫🇮 [BL] Сервер 15"
+    type: vless
+    server: 200.102.182.137
+    port: 8443
+    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "2veos3wvwtx8.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PTIRbxzUvuwon8uDA2LjTtIJc9nItRvnGqQxS4K9pgg"
+  - name: "🇫🇮 [BL] Сервер 16"
     type: vless
     server: 87.121.89.160
     port: 8443
@@ -51,68 +220,32 @@ proxies:
     reality-opts:
       public-key: "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U"
       short-id: "35cb85e41b041622"
-  - name: "🇫🇮 [BL] Сервер 5"
+  - name: "🇫🇮 [BL] Сервер 17"
     type: vless
-    server: 178.214.125.1
+    server: 191.217.252.219
     port: 443
-    uuid: "3f3160a0-747d-4fed-bf3d-4d884bfa964d"
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "conf.emaar.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY"
-      short-id: "6172ba9cffe9c22f"
-  - name: "🇫🇮 [BL/CF] Сервер 6"
-    type: vless
-    server: 138.124.124.157
-    port: 443
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-  - name: "🇫🇮 [BL] Сервер 7"
-    type: vless
-    server: 13.143.173.15
-    port: 443
-    uuid: "4f51ca84-43ea-4087-b8a2-938e0ccbe27a"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "google.com"
+    servername: "lumi.lalibobi.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇫🇮 [BL] Сервер 8"
+      public-key: "LT92-dI4XRVfzH-NdnxZPQ8OOWbr4qPoD23dDn_i4Vg"
+      short-id: "97e191ebdd32cef4"
+  - name: "🇫🇮 [BL] Сервер 18"
     type: vless
-    server: 95.216.27.15
-    port: 2053
-    uuid: "b79d736d-0f10-4169-b626-362059d18204"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs"
-      short-id: "10351b07c712d2a2"
-  - name: "🇫🇮 [BL] Сервер 9"
-    type: vless
-    server: 200.102.182.11
-    port: 8443
-    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "2veos3wvwtx8.cdn.cachefleet.com"
+    server: 87.228.92.122
+    port: 443
+    uuid: "0753957f-bbb0-48ea-8bd3-b0c709e552d7"
+    network: "xhttp"
+    servername: "1c7b4fx.fi9.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PTIRbxzUvuwon8uDA2LjTtIJc9nItRvnGqQxS4K9pgg"
+      public-key: "8ktFVjaoN-Xk4fAtuIjOgRxpt9v1HS36U13eJSaICkk"
+      short-id: "26d9ed3d3a9ab73d"
+    xhttp-opts:
+      path: "/25df08978996"

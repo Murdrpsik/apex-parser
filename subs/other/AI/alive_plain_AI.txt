@@ -1,9 +1,4 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-vless://f8cb3c89-32af-4255-bebc-d90aad175069@79.141.166.66:443?type=grpc&security=reality&fp=chrome&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&sid=27350908de933e09&sni=caa.kosmosapp.net&mode=gun&serviceName=neurex&encryption=none#🇨🇦 [AI] Сервер 1
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 2
-vless://1b487f79-6b87-4971-863c-526bd31abd44@85.192.56.61:443?flow=xtls-rprx-vision&security=reality&sni=85.192.56.61.sslip.io&fp=firefox&pbk=zvOXkaCzQIFA5H6_gpK2_IMDnkwBkw8nch5AODNsAiY&sid=88086e66870f03e6&encryption=none&type=tcp#🇨🇿 [AI] Сервер 3
-vless://8c2d8960-ee85-427d-9653-191d905d21e5@189.24.107.174:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.cloudflare.com&pbk=gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ&sid=8b36e9b7b3&fp=edge#🇩🇪 [AI] Сервер 4
-vless://1b487f79-6b87-4971-863c-526bd31abd44@83.141.69.239:443?flow=xtls-rprx-vision&security=reality&sni=83.141.69.239.sslip.io&fp=firefox&pbk=vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI&sid=db71028aeb67289c&encryption=none&type=tcp#🇸🇪 [AI] Сервер 5
-vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [AI] Сервер 6
-ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@168.138.205.100:53758#🇯🇵 [AI] Сервер 7
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
+vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [AI] Сервер 2

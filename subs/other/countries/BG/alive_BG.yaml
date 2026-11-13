@@ -1,32 +1,19 @@
 proxies:
-  - name: "🇧🇬 [WL] Сервер 1"
+  - name: "🇧🇬 [BL] Сервер 1"
     type: vless
-    server: 78.159.250.83
+    server: 46.243.234.17
     port: 8443
     uuid: "37af0181-5598-4aad-a040-d926bcb65757"
     network: "xhttp"
-    servername: "earlytrain.net"
-    client-fingerprint: "ios"
+    servername: "windytrout.net"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     xhttp-opts:
       path: "/api/v1/upload"
-      host: "earlytrain.net"
+      host: "windytrout.net"
       mode: "auto"
   - name: "🇧🇬 [BL] Сервер 2"
-    type: vless
-    server: 88.80.150.15
-    port: 443
-    uuid: "1d46250c-f015-439d-a7fd-c4d9e2a4c63d"
-    network: "grpc"
-    servername: "bg2.oncloudvpn.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇧🇬 [BL] Сервер 3"
     type: vless
     server: 195.123.226.21
     port: 443

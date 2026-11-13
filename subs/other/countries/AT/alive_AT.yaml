@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇦🇹 [WL] Сервер 1"
-    type: vless
-    server: 185.104.63.62
-    port: 8443
-    uuid: "a02525d9-d37a-4415-9aaa-5df1a89a36ec"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "user-231312.appstop.link"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "6dG1bo9e5DGPopbivweFyK1Uc_730aXqujS_f9gOfD4"
-      short-id: "db01231f502fe591"
-  - name: "🇦🇹 [BL/CF] Сервер 2"
+  - name: "🇦🇹 [BL/CF] Сервер 1"
     type: vless
     server: 193.219.97.198
     port: 443
@@ -25,3 +11,17 @@ proxies:
     tls: true
     ws-opts:
       path: "/"
+  - name: "🇦🇹 [BL] Сервер 2"
+    type: vless
+    server: 129.101.105.91
+    port: 443
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "viperrrrr.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DFkD4WCfoABZzh9i7BI70TopTPM6IIGtX1mwKlcRiCI"
+      short-id: "4eab9ebd1e55c997"

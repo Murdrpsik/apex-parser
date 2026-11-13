@@ -13,20 +13,7 @@ proxies:
     reality-opts:
       public-key: "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o"
       short-id: "b28db60d77c50b4f"
-  - name: "🇸🇪 [WL] Сервер 2"
-    type: vless
-    server: 88.216.130.236
-    port: 443
-    uuid: "fa081e9f-7574-4e18-8928-31aa5ac923c7"
-    network: "tcp"
-    servername: "tcpswed1.figurapn.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "868419504747f6de"
-  - name: "🇸🇪 [BL] Сервер 3"
+  - name: "🇸🇪 [BL] Сервер 2"
     type: vless
     server: 84.32.154.73
     port: 443
@@ -40,21 +27,49 @@ proxies:
     reality-opts:
       public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
       short-id: "c6f97313"
+  - name: "🇸🇪 [BL] Сервер 3"
+    type: vless
+    server: 62.182.193.228
+    port: 8443
+    uuid: "c0d58ed7-41f8-4cf4-b61b-8ba8f6be9a46"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "nekoboxo.isgood.host"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "G3ZzvlhhrESJFCm41agmCMitg14XGzIAaS5DpdxZxkI"
+      short-id: "da5e9707"
   - name: "🇸🇪 [BL] Сервер 4"
     type: vless
-    server: 2.27.23.223
-    port: 8443
-    uuid: "e50e6851-a29a-45a1-811d-1e9230c1512a"
+    server: 83.141.69.239
+    port: 443
+    uuid: "70178a92-cfd2-4a4f-b9fb-7e916d231349"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "se1.slowframe.org"
+    servername: "83.141.69.239.sslip.io"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U"
-      short-id: "35cb85e41b041622"
+      public-key: "vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI"
+      short-id: "db71028aeb67289c"
   - name: "🇸🇪 [BL] Сервер 5"
+    type: vless
+    server: 141.227.160.61
+    port: 8443
+    uuid: "f59fdac3-5842-449b-8c8d-d5ebcdbf1768"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 185.117.89.74
     port: 443
@@ -69,21 +84,6 @@ proxies:
       short-id: "27350908de933e09"
     grpc-opts:
       grpc-service-name: "neurex"
-      grpc-mode: "gun"
-  - name: "🇸🇪 [BL] Сервер 6"
-    type: vless
-    server: 141.227.160.61
-    port: 8443
-    uuid: "f59fdac3-5842-449b-8c8d-d5ebcdbf1768"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "apple.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
   - name: "🇸🇪 [BL] Сервер 7"
     type: vless
     server: 138.124.86.230
@@ -96,7 +96,6 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-      grpc-mode: "gun"
   - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 31.77.18.220
@@ -110,35 +109,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: 62.182.193.228
-    port: 8443
-    uuid: "c0d58ed7-41f8-4cf4-b61b-8ba8f6be9a46"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "nekoboxo.isgood.host"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "G3ZzvlhhrESJFCm41agmCMitg14XGzIAaS5DpdxZxkI"
-      short-id: "da5e9707"
-  - name: "🇸🇪 [BL/AI] Сервер 10"
-    type: vless
-    server: 83.141.69.239
-    port: 443
-    uuid: "1b487f79-6b87-4971-863c-526bd31abd44"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "83.141.69.239.sslip.io"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI"
-      short-id: "db71028aeb67289c"
-  - name: "🇸🇪 [BL/CF] Сервер 11"
+  - name: "🇸🇪 [BL/CF] Сервер 9"
     type: vless
     server: 13.49.161.123
     port: 41483
@@ -156,3 +127,46 @@ proxies:
       path: "/t.me-SubGift"
       host: "coffee.subgift24.bond"
       mode: "auto"
+  - name: "🇸🇪 [BL] Сервер 10"
+    type: vless
+    server: 2.27.23.223
+    port: 8443
+    uuid: "e50e6851-a29a-45a1-811d-1e9230c1512a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "se1.slowframe.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U"
+      short-id: "35cb85e41b041622"
+  - name: "🇸🇪 [BL] Сервер 11"
+    type: vless
+    server: 91.107.120.65
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "msk-01.freegate.win"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "wDDyZZJfgJHB6OOrdpLgAk18P2j9tZrxgOxOB_s7Sws"
+  - name: "🇸🇪 [BL] Сервер 12"
+    type: vless
+    server: 31.77.158.11
+    port: 8444
+    uuid: "15e83ced-7544-422e-863d-deafe29a1dbe"
+    network: "xhttp"
+    servername: "images.samsung.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ"
+      short-id: "635a76c25a4b1820"
+    xhttp-opts:
+      path: "/xh"
+      mode: "stream-one"

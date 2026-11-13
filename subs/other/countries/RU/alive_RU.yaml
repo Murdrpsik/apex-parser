@@ -1,45 +1,49 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 200.169.179.233
+    server: 82.148.17.66
     port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 217.199.253.177
-    port: 443
-    uuid: "f8cb3c89-32af-4255-bebc-d90aad175069"
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "rua.kosmosapp.net"
+    servername: "rowanfield.lalibobi.online"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DeueXD24ph6cE_WRTTaPyuGX4jNVxjvJBHjENlrzsCM"
+      short-id: "42695b59d82528a4"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 146.19.128.58
+    port: 443
+    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "volga.lalibobi.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ"
-      short-id: "27350908de933e09"
+      public-key: "CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY"
+      short-id: "e2a4c6b8"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: 201.24.116.192
+    server: 185.16.213.6
     port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
+    uuid: "7a6c31c0-d187-4cc3-9f54-9308916f1f43"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "internity.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
+    reality-opts:
+      public-key: "R_km5hxsfjRUsnZfSOBYxB9DwShSIwYacXduHR8_9gE"
+      short-id: "dfcc5c5ac8507f95"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
-    server: 201.51.12.98
+    server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -51,15 +55,67 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 185.16.213.6
+    server: 201.24.116.192
     port: 443
-    uuid: "7a6c31c0-d187-4cc3-9f54-9308916f1f43"
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 201.24.121.243
+    port: 443
+    uuid: "32b5ca9b-3f81-4031-965d-e8b074216e8d"
+    network: "grpc"
+    servername: "kk-ru24a1.testkknegr.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "vlgrpc"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 7"
+    type: vless
+    server: 201.51.12.98
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 129.101.98.60
+    port: 443
+    uuid: "e75ad2eb-6c1f-45ce-8023-f5f10875df66"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "internity.ru"
-    client-fingerprint: "qq"
+    servername: "ru7e2bab87cc39.eu-cdn539.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "R_km5hxsfjRUsnZfSOBYxB9DwShSIwYacXduHR8_9gE"
-      short-id: "dfcc5c5ac8507f95"
+      public-key: "lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4"
+      short-id: "3992cc7fb9fcbe58"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 212.41.8.76
+    port: 13443
+    uuid: "a628c583-24a8-4ce5-98ad-c6458abf1cc4"
+    network: "grpc"
+    servername: "s3.storage.selcloud.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc"
+      short-id: "9de815e2"
+    grpc-opts:
+      grpc-service-name: "grpc"
