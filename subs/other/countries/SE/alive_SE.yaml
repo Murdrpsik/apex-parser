@@ -15,26 +15,26 @@ proxies:
       short-id: "b28db60d77c50b4f"
   - name: "🇸🇪 [BL] Сервер 2"
     type: vless
-    server: 84.32.154.73
+    server: 132.243.163.89
     port: 443
-    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
+    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
-    client-fingerprint: "ios"
+    servername: "3fb2b6t.se1.h1clayd.click"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
+      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
+      short-id: "1061f1b1cdaad3ad"
   - name: "🇸🇪 [BL] Сервер 3"
     type: vless
-    server: 132.243.163.114
+    server: se1.h1cloud.net
     port: 443
-    uuid: "07df3711-07a1-4649-9a61-3f16cb931d02"
-    network: "tcp"
+    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "3fb2b6t.se2.h1clayd.click"
+    servername: "3fb2b6t.se1.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
@@ -43,7 +43,7 @@ proxies:
       short-id: "1061f1b1cdaad3ad"
   - name: "🇸🇪 [BL] Сервер 4"
     type: vless
-    server: 196.196.149.34
+    server: 201.8.64.238
     port: 443
     uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
     network: "tcp"
@@ -57,18 +57,51 @@ proxies:
       short-id: "1061f1b1cdaad3ad"
   - name: "🇸🇪 [BL] Сервер 5"
     type: vless
-    server: 91.196.35.252
+    server: 84.32.154.73
     port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "msk-02.freegate.win"
+    servername: "get.jarbook.net"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
+      short-id: "c6f97313"
+  - name: "🇸🇪 [BL] Сервер 6"
+    type: vless
+    server: 195.110.15.17
+    port: 43000
+    uuid: "0809eed6-5204-49b8-8312-b82a10024022"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "195.110.15.17"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "z1Z2yIWBdFlCT3ofwGNntS63c9VYZLrqTVTeURq7r2U"
-  - name: "🇸🇪 [BL] Сервер 6"
+      public-key: "U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI"
+      short-id: "8cfe1563"
+  - name: "🇸🇪 [BL/CF] Сервер 7"
+    type: vless
+    server: 13.48.229.253
+    port: 48731
+    uuid: "3c793660-e6a6-436a-bf25-3a878ec5ac9f"
+    network: "xhttp"
+    flow: "xtls-rprx-vision"
+    servername: "gateway-sandbox.icloud.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "20p73Fwq6eyQUCOmG5vLYgQW7jrtsUvisuthd10sZGk"
+      short-id: "124d9057ff426e67"
+    xhttp-opts:
+      path: "/t.me-SubGift"
+      host: "sky.subgift.cyou"
+      mode: "auto"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 31.77.18.220
     port: 443
@@ -81,7 +114,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 7"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -94,34 +127,21 @@ proxies:
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
       grpc-mode: "gun"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 2.27.23.223
-    port: 8443
-    uuid: "e50e6851-a29a-45a1-811d-1e9230c1512a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "se1.slowframe.org"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U"
-      short-id: "35cb85e41b041622"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: riga.freegate.win
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "riga.freegate.win"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "9fA6ZSGr6ZalzYDf0L_Tx1nQOZskdvLrqSN-Gzj4xEI"
   - name: "🇸🇪 [BL] Сервер 10"
+    type: vless
+    server: 141.227.160.61
+    port: 8443
+    uuid: "f59fdac3-5842-449b-8c8d-d5ebcdbf1768"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"
+  - name: "🇸🇪 [BL] Сервер 11"
     type: vless
     server: 150.241.75.103
     port: 443

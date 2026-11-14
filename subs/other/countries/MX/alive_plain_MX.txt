@@ -1,0 +1,3 @@
+#profile-title: Apex MX
+#profile-update-interval: 1
+vless://41562a67-08c0-434b-9eea-0be2b7a1a76d@38.95.76.93:443?flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=firefox&pbk=rsEOeimpWDYomTH1LDjPTMktj39p7yjPPZ1eG16yFRM&sid=d78582da98f963c8&encryption=none&type=tcp#🇲🇽 [BL] Сервер 1

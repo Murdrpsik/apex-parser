@@ -15,6 +15,19 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇹🇷 [BL] Сервер 2"
     type: vless
+    server: 50.7.87.251
+    port: 443
+    uuid: "97fd7807-7e2b-49da-8a0e-e40197088f97"
+    network: "xhttp"
+    servername: "97fd7807.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/tr"
+      host: "api.ferrin.uk"
+  - name: "🇹🇷 [BL] Сервер 3"
+    type: vless
     server: 151.241.226.201
     port: 2053
     uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
@@ -26,7 +39,7 @@ proxies:
     reality-opts:
       public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
       short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷 [BL] Сервер 3"
+  - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 78.135.73.47
     port: 443
@@ -40,19 +53,6 @@ proxies:
     reality-opts:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
-  - name: "🇹🇷 [BL] Сервер 4"
-    type: vless
-    server: 200.102.183.160
-    port: 443
-    uuid: "664f65f4-33b3-03ef-b9e5-68192d1d428e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "68r2nrw6avta71yq.cdn.cachefleet.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "N8QooY7tm45gPX-9AQVg8ZYCCYqqfaiX8NGM96IvTBI"
   - name: "🇹🇷 [BL] Сервер 5"
     type: vless
     server: 62.133.63.45
@@ -70,8 +70,15 @@ proxies:
       grpc-service-name: "GunService"
       grpc-mode: "gun"
   - name: "🇹🇷 [BL] Сервер 6"
-    type: ss
-    server: 204.10.192.116
-    port: 12058
-    password: "H4t_jXTS75A45Y36m8snsCt2vFtPTr41"
-    cipher: "chacha20-ietf-poly1305"
+    type: vless
+    server: 45.92.219.47
+    port: 443
+    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ty.galactichub.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"

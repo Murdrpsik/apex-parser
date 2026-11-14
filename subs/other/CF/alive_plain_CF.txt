@@ -1,3 +1,5 @@
 #profile-title: Apex CF
 #profile-update-interval: 1
-vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 1
+vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&headerType=none&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&security=reality&sid=4ff31b18d1bd8227&sni=mental-deprivation.ru&type=tcp#🇩🇪 [CF] Сервер 1
+vless://3c793660-e6a6-436a-bf25-3a878ec5ac9f@13.48.229.253:48731?encryption=mlkem768x25519plus.native.0rtt.2o9dB22t_1V2UQHA9pdN7QHfUofbP4s2GvShyLMf2X8&flow=xtls-rprx-vision&security=reality&sni=gateway-sandbox.icloud.com&fp=chrome&pbk=20p73Fwq6eyQUCOmG5vLYgQW7jrtsUvisuthd10sZGk&sid=124d9057ff426e67&spx=%2Fc7555a80c86e915&type=xhttp&host=sky.subgift.cyou&path=%2Ft.me-SubGift&mode=auto&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇸🇪 [CF] Сервер 2
+vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 3

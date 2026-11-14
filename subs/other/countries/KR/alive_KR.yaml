@@ -12,9 +12,3 @@ proxies:
     reality-opts:
       public-key: "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo"
       short-id: "429499c03d4cc8a0"
-  - name: "🇰🇷 [BL] Сервер 2"
-    type: ss
-    server: 115.161.136.145
-    port: 10099
-    password: "12242"
-    cipher: "chacha20-ietf-poly1305"

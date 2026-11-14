@@ -13,21 +13,21 @@ proxies:
     reality-opts:
       public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
       short-id: "c27a26812e5d2208"
-  - name: "🇳🇴 [AI] Сервер 2"
+  - name: "🇳🇱 [AI] Сервер 2"
     type: vless
-    server: 109.73.203.8
-    port: 8443
-    uuid: "43f863f9-d9a6-8400-b584-a02b1737a174"
+    server: 147.45.214.143
+    port: 443
+    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ya.ru"
+    servername: "st.ozone.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM"
-      short-id: "542a83882d6461d5"
-  - name: "🇫🇮 [AI] Сервер 3"
+      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
+      short-id: "c48282c0acf92721"
+  - name: "🇳🇱 [AI] Сервер 3"
     type: vless
     server: 147.45.214.143
     port: 443
@@ -41,62 +41,7 @@ proxies:
     reality-opts:
       public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
       short-id: "c48282c0acf92721"
-  - name: "🇫🇮 [AI] Сервер 4"
-    type: vless
-    server: 147.45.214.143
-    port: 443
-    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "st.ozone.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
-      short-id: "c48282c0acf92721"
-  - name: "🇫🇷 [AI] Сервер 5"
-    type: vless
-    server: 153.80.179.111
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "france.freegate.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇧🇬 [AI] Сервер 6"
-    type: vless
-    server: 217.144.184.247
-    port: 443
-    uuid: "2db48a26-c97d-40c3-b8e2-8f04f1cfb512"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "bg.edgemedia.lol"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "t7dd2ar4QX4JaQz2FvVjE44XLT0jj7Z-0raaAQ6Y9As"
-      short-id: "f822140f54644166"
-  - name: "🇩🇪 [AI] Сервер 7"
-    type: vless
-    server: 147.45.153.29
-    port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "patch-46.topp-con.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU"
-      short-id: "b9120cd53ffd7bba"
-  - name: "🇨🇭 [AI] Сервер 8"
+  - name: "🇨🇭 [AI] Сервер 4"
     type: vless
     server: 151.243.191.174
     port: 8447
@@ -112,3 +57,45 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
+  - name: "🇭🇰 [AI] Сервер 5"
+    type: vless
+    server: 2.26.204.46
+    port: 31001
+    uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mensura.cdn-apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
+      short-id: "39793bc4708abbbb"
+  - name: "🇩🇪 [AI] Сервер 6"
+    type: vless
+    server: 5.231.28.177
+    port: 443
+    uuid: "555b35c4-30f9-40c6-a61a-7f53ab1bea45"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "images.porsche.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇳🇱 [AI] Сервер 7"
+    type: vless
+    server: 153.76.190.2
+    port: 11443
+    uuid: "3e1e0b5e-554d-4513-a5e9-14649033cf19"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "141.0.187.22"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4Zzm9Ac34AEy-3PcT_T6UWvRJLnZvmEnvwmRLRc0328"
+      short-id: "e5d7a4874e7e74d4"

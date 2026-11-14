@@ -1,5 +1,37 @@
 proxies:
-  - name: "🇫🇷 [CF] Сервер 1"
+  - name: "🇩🇪 [CF] Сервер 1"
+    type: vless
+    server: 2.26.251.236
+    port: 443
+    uuid: "c16e8cdb-65dd-4049-bc65-14c051b8a6c6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mental-deprivation.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+      short-id: "4ff31b18d1bd8227"
+  - name: "🇸🇪 [CF] Сервер 2"
+    type: vless
+    server: 13.48.229.253
+    port: 48731
+    uuid: "3c793660-e6a6-436a-bf25-3a878ec5ac9f"
+    network: "xhttp"
+    flow: "xtls-rprx-vision"
+    servername: "gateway-sandbox.icloud.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "20p73Fwq6eyQUCOmG5vLYgQW7jrtsUvisuthd10sZGk"
+      short-id: "124d9057ff426e67"
+    xhttp-opts:
+      path: "/t.me-SubGift"
+      host: "sky.subgift.cyou"
+      mode: "auto"
+  - name: "🇫🇷 [CF] Сервер 3"
     type: vless
     server: 178.104.19.178
     port: 443

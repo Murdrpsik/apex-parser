@@ -1,3 +1,0 @@
-#profile-title: Apex AT
-#profile-update-interval: 1
-vless://2caefa05-f33b-426f-8b2e-536c99ffb45b@velvet-ridge.justext.space:2096?encryption=none&type=tcp&security=tls&sni=velvet-ridge.justext.space&fp=firefox#🇦🇹 [BL] Сервер 1
