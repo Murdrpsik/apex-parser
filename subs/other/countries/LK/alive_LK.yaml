@@ -11,6 +11,8 @@ proxies:
     tls: true
     ws-opts:
       path: "/"
+      headers:
+        Host: "pcloud.z-tas.com"
   - name: "🇱🇰 [BL] Сервер 2"
     type: vless
     server: 170.114.45.6
@@ -23,3 +25,5 @@ proxies:
     tls: true
     ws-opts:
       path: "/"
+      headers:
+        Host: "pcloud.z-tas.com"

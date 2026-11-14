@@ -1,4 +1,12 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
-vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [AI] Сервер 2
+vless://140a9844-d304-4ff2-aa47-c0a2a67da6f0@31.192.106.192:443?flow=xtls-rprx-vision&security=reality&sni=node2.shakalchk.ru&fp=firefox&pbk=bqzRxK5Nr7muCBDtExsYRK4yrxMwVPOH0_avLu27LQI&sid=a132a3&encryption=none&type=tcp#🇩🇪 [AI] Сервер 1
+vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@168.113.252.145:443?flow=xtls-rprx-vision&security=reality&sni=tarakan.belka.tv&fp=firefox&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&sid=a9dc98a7dc87a7dc&encryption=none&type=tcp#🇦🇹 [AI] Сервер 2
+vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@176.108.245.73:443?flow=xtls-rprx-vision&security=reality&sni=pawuk.belka.tv&fp=firefox&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&sid=a9dc98a7dc87a7dc&encryption=none&type=tcp#🇨🇿 [AI] Сервер 3
+vless://68773ff0-9ad3-459f-b194-eddb6a82d572@217.28.222.68:443?flow=xtls-rprx-vision&security=reality&sni=vagacdn.ru&fp=firefox&pbk=Ti7frM2ocZ5q5Tb0_pMuqgMQscuNTscctyMpby-YVEA&sid=7768294d3c5ad0cc&encryption=none&type=tcp#🇸🇪 [AI] Сервер 4
+vless://6895528a-aa3e-48c4-8804-ced625e92b47@176.108.240.45:443?flow=xtls-rprx-vision&security=reality&sni=xn---26-5cd9bhfc0a8c7b8af.xn--p1ai&fp=firefox&pbk=me0xkqd3f9UlKOavrYCOTK5J2erH1-JK_LA017XHkUU&sid=43560624cceb5666&encryption=none&type=tcp#🇦🇱 [AI] Сервер 5
+vless://52030136-eee3-4675-baae-a50f17b2bb8b@151.243.191.174:8447?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=github.com&fp=chrome&pbk=Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4&sid=732ef4f5320b5e19#🇨🇭 [AI] Сервер 6
+vless://20d56ff9-359e-4983-9b04-6402e9ebce08@83.141.69.189:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0&sid=3e70d4cbb01bddfd&sni=cdn.savesafe.space&fp=firefox#🇮🇪 [AI] Сервер 7
+vless://a0751487-f7c2-4b59-8cee-99b80bbbaf33@31.97.199.38:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY&security=reality&sid=5b4a12ef7e1694dd&sni=africamediaconnect.fr&type=tcp#🇫🇷 [AI] Сервер 8
+vless://dc8ac236-c039-40e0-9b4e-f240716ac743@91.107.255.199:330?security=reality&sni=updates.cdn-apple.com&fp=firefox&pbk=x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg&sid=79d72c01&encryption=none&type=tcp#🇩🇪 [AI] Сервер 9
+ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@168.138.205.100:53758#🇯🇵 [AI] Сервер 10

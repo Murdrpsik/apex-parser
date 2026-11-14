@@ -1,9 +1,10 @@
 #profile-title: Apex LV
 #profile-update-interval: 1
-vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=raw#🇱🇻 [BL] Сервер 1
+vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&sid=5c256336e3b673fa#🇱🇻 [BL] Сервер 1
 vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@2.26.88.240:4443?type=xhttp&security=tls&fp=firefox&sni=lv3.nexfile.net&path=%2Fapi%2Fv1%2Fsync%2F&host=lv3.nexfile.net&encryption=none#🇱🇻 [BL] Сервер 2
 vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@2.26.88.140:4443?mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&type=xhttp&security=tls&sni=lv3.nexfile.net&encryption=none#🇱🇻 [BL] Сервер 3
-vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&sid=33acba1b&sni=www.apple.com&encryption=none#🇱🇻 [BL] Сервер 4
-vless://42a64b9a-ab79-4094-8656-30366a7c2ea3@217.60.60.243:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw&sni=lv.peregrine-sub.net&encryption=none#🇱🇻 [BL] Сервер 5
-vless://042b12d8-bac4-4b3a-b661-79e333f08e4e@45.43.79.92:443?security=reality&encryption=none&pbk=M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vikt659.isgood.host&sid=af4ca5d16438c938#🇱🇻 [BL] Сервер 6
-vless://664f65f4-33b3-43a3-b9e5-68192d1d428e@200.181.87.171:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=cedar-beacon.cdn.cachefleet.com&fp=firefox&pbk=e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng&sid=2a09abf8032087af&spx=%2F#🇱🇻 [BL] Сервер 7
+vless://d86e6fda-e519-46ab-98eb-9ff9a9da5984@200.181.87.171:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng&sni=cedar-beacon.cdn.cachefleet.com&fp=firefox&sid=2a09abf8032087af#🇱🇻 [BL] Сервер 4
+vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?flow=xtls-rprx-vision&fp=firefox&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&security=reality&sid=33acba1b&sni=www.apple.com&type=raw&encryption=none#🇱🇻 [BL] Сервер 5
+vless://42a64b9a-ab79-4094-8656-30366a7c2ea3@217.60.60.243:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw&security=reality&sni=lv.peregrine-sub.net&type=tcp#🇱🇻 [BL] Сервер 6
+vless://68773ff0-9ad3-459f-b194-eddb6a82d572@212.119.42.133:10444?security=reality&sni=direct.vpndoctor.top&fp=firefox&pbk=QPmrizvOUCOOIvlupGnt1reR5bui3U8EZl00VHU4GRA&sid=3f9537eb0626292b&type=xhttp&path=%2Fny&mode=auto&encryption=none#🇱🇻 [BL] Сервер 7
+trojan://X00HagvwL8gQXNDAnsxsN8dv1_VdneEo@5.59.204.26:51443?security=tls&sni=lv.nebulaguard.org&alpn=h2%2Ch3%2Chttp%2F1.1&fp=firefox&type=ws&host=lv.nebulaguard.org&path=%2Ftrojan%2F#🇱🇻 [BL] Сервер 8

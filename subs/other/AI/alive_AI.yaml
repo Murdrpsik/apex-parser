@@ -1,11 +1,75 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
-    type: ss
-    server: 185.215.132.18
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"
-  - name: "🇨🇭 [AI] Сервер 2"
+  - name: "🇩🇪 [AI] Сервер 1"
+    type: vless
+    server: 31.192.106.192
+    port: 443
+    uuid: "140a9844-d304-4ff2-aa47-c0a2a67da6f0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "node2.shakalchk.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bqzRxK5Nr7muCBDtExsYRK4yrxMwVPOH0_avLu27LQI"
+      short-id: "a132a3"
+  - name: "🇦🇹 [AI] Сервер 2"
+    type: vless
+    server: 168.113.252.145
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tarakan.belka.tv"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"
+  - name: "🇨🇿 [AI] Сервер 3"
+    type: vless
+    server: 176.108.245.73
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "pawuk.belka.tv"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"
+  - name: "🇸🇪 [AI] Сервер 4"
+    type: vless
+    server: 217.28.222.68
+    port: 443
+    uuid: "68773ff0-9ad3-459f-b194-eddb6a82d572"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "vagacdn.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Ti7frM2ocZ5q5Tb0_pMuqgMQscuNTscctyMpby-YVEA"
+      short-id: "7768294d3c5ad0cc"
+  - name: "🇦🇱 [AI] Сервер 5"
+    type: vless
+    server: 176.108.240.45
+    port: 443
+    uuid: "6895528a-aa3e-48c4-8804-ced625e92b47"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "xn---26-5cd9bhfc0a8c7b8af.xn--p1ai"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "me0xkqd3f9UlKOavrYCOTK5J2erH1-JK_LA017XHkUU"
+      short-id: "43560624cceb5666"
+  - name: "🇨🇭 [AI] Сервер 6"
     type: vless
     server: 151.243.191.174
     port: 8447
@@ -21,3 +85,50 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc"
       grpc-mode: "gun"
+  - name: "🇮🇪 [AI] Сервер 7"
+    type: vless
+    server: 83.141.69.189
+    port: 443
+    uuid: "20d56ff9-359e-4983-9b04-6402e9ebce08"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.savesafe.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0"
+      short-id: "3e70d4cbb01bddfd"
+  - name: "🇫🇷 [AI] Сервер 8"
+    type: vless
+    server: 31.97.199.38
+    port: 8443
+    uuid: "a0751487-f7c2-4b59-8cee-99b80bbbaf33"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "africamediaconnect.fr"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY"
+      short-id: "5b4a12ef7e1694dd"
+  - name: "🇩🇪 [AI] Сервер 9"
+    type: vless
+    server: 91.107.255.199
+    port: 330
+    uuid: "dc8ac236-c039-40e0-9b4e-f240716ac743"
+    network: "tcp"
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg"
+      short-id: "79d72c01"
+  - name: "🇯🇵 [AI] Сервер 10"
+    type: ss
+    server: 168.138.205.100
+    port: 53758
+    password: "Bwlqh7GcFB"
+    cipher: "aes-128-gcm"

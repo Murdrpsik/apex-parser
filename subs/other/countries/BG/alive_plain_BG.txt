@@ -1,4 +1,5 @@
 #profile-title: Apex BG
 #profile-update-interval: 1
-vless://37af0181-5598-4aad-a040-d926bcb65757@46.243.234.17:8443?type=xhttp&security=tls&fp=firefox&sni=windytrout.net&path=%2Fapi%2Fv1%2Fupload&host=windytrout.net&mode=auto&encryption=none#🇧🇬 [BL] Сервер 1
-vless://6589c320-db68-43cd-a273-b46299bab355@195.123.226.21:443?security=reality&type=tcp&packetEncoding=xudp&sni=gateway.icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=77bb0d07bddbc832&pbk=rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo&encryption=none#🇧🇬 [BL] Сервер 2
+vless://37af0181-5598-4aad-a040-d926bcb65757@windytrout.net:8443?encryption=none&type=xhttp&security=tls&sni=windytrout.net&fp=firefox&path=%2Fapi%2Fv1%2Fupload&host=windytrout.net&mode=auto#🇧🇬 [WL] Сервер 1
+vless://37af0181-5598-4aad-a040-d926bcb65757@46.243.234.17:8443?type=xhttp&security=tls&fp=firefox&sni=windytrout.net&path=%2Fapi%2Fv1%2Fupload&host=windytrout.net&mode=auto&encryption=none#🇧🇬 [BL] Сервер 2
+vless://6589c320-db68-43cd-a273-b46299bab355@195.123.226.21:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo&sid=77bb0d07bddbc832&sni=gateway.icloud.com&encryption=none#🇧🇬 [BL] Сервер 3

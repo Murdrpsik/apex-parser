@@ -4,7 +4,7 @@ proxies:
     server: 195.123.213.28
     port: 443
     uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
@@ -40,10 +40,24 @@ proxies:
       mode: "auto"
   - name: "🇱🇻 [BL] Сервер 4"
     type: vless
+    server: 200.181.87.171
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"
+  - name: "🇱🇻 [BL] Сервер 5"
+    type: vless
     server: 138.124.180.137
     port: 443
     uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.apple.com"
     client-fingerprint: "firefox"
@@ -52,7 +66,7 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 5"
+  - name: "🇱🇻 [BL] Сервер 6"
     type: vless
     server: 217.60.60.243
     port: 443
@@ -65,31 +79,31 @@ proxies:
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇱🇻 [BL] Сервер 6"
-    type: vless
-    server: 45.43.79.92
-    port: 443
-    uuid: "042b12d8-bac4-4b3a-b661-79e333f08e4e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "vikt659.isgood.host"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
-      short-id: "af4ca5d16438c938"
   - name: "🇱🇻 [BL] Сервер 7"
     type: vless
-    server: 200.181.87.171
-    port: 443
-    uuid: "664f65f4-33b3-43a3-b9e5-68192d1d428e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "cedar-beacon.cdn.cachefleet.com"
+    server: 212.119.42.133
+    port: 10444
+    uuid: "68773ff0-9ad3-459f-b194-eddb6a82d572"
+    network: "xhttp"
+    servername: "direct.vpndoctor.top"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
-      short-id: "2a09abf8032087af"
+      public-key: "QPmrizvOUCOOIvlupGnt1reR5bui3U8EZl00VHU4GRA"
+      short-id: "3f9537eb0626292b"
+    xhttp-opts:
+      path: "/ny"
+      mode: "auto"
+  - name: "🇱🇻 [BL] Сервер 8"
+    type: trojan
+    server: 5.59.204.26
+    port: 51443
+    password: "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo"
+    sni: "lv.nebulaguard.org"
+    client-fingerprint: "firefox"
+    udp: true
+    ws-opts:
+      path: "/trojan/"
+      headers:
+        Host: "lv.nebulaguard.org"
