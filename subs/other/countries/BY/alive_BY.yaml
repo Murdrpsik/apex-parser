@@ -1,18 +1,18 @@
 proxies:
   - name: "🇧🇾 [WL] Сервер 1"
     type: vless
-    server: 178.172.227.228
-    port: 10444
-    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
+    server: 62.173.149.165
+    port: 8443
+    uuid: "43f863f9-d9a6-12c0-b584-a02b1737a174"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ads.x5.ru"
-    client-fingerprint: "edge"
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
+      public-key: "_bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM"
+      short-id: "542a83882d6461d5"
   - name: "🇧🇾 [BL] Сервер 2"
     type: vless
     server: 178.172.227.124
@@ -43,15 +43,30 @@ proxies:
       short-id: "8debcf36f1cc69ff"
   - name: "🇧🇾 [BL] Сервер 4"
     type: vless
-    server: 78.140.253.25
-    port: 445
-    uuid: "cdf4bc13-31e6-4bff-962c-05fe9151c593"
+    server: 178.172.227.228
+    port: 10444
+    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "bel.vrsvpn.com"
-    client-fingerprint: "chrome"
+    servername: "ads.x5.ru"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Vi1Rr8Qf0-OeeXyHCt8Hsz1yRzVRkniPweoKl3Y6ohY"
-      short-id: "15aa18f121da1f81"
+      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
+      short-id: "8debcf36f1cc69ff"
+  - name: "🇧🇾 [BL] Сервер 5"
+    type: vless
+    server: 194.58.60.203
+    port: 443
+    uuid: "bbb54e5f-cf6c-4c96-be43-a3df7e687606"
+    network: "grpc"
+    servername: "node43.lmdscdn.ru"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA"
+      short-id: "57bc9918f888c69c"
+    grpc-opts:
+      grpc-service-name: "livestreamcontent"

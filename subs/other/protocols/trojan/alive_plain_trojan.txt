@@ -6,7 +6,7 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.158:443?type=tcp&security=
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.158:443?sni=resources.nextjobopportunityandclaimyouridealrole.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 4
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.176:443?type=tcp&security=tls&sni=blog.nextjobopportunityandclaimyouridealrole.com&fp=chrome#🇺🇸 [WL] Сервер 5
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.176:443?sni=blog.nextjobopportunityandclaimyouridealrole.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 6
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?sni=courses.nextjobopportunityandclaimyouridealrole.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 7
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?sni=courses.nextjobopportunityandclaimyouridealrole.com&type=tcp#🇺🇸 [WL] Сервер 7
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?type=tcp&security=tls&sni=courses.nextjobopportunityandclaimyouridealrole.com&fp=chrome#🇺🇸 [WL] Сервер 8
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.50:443?sni=cdn.nextjobopportunityandclaimyouridealrole.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 9
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.50:443?type=tcp&security=tls&sni=cdn.nextjobopportunityandclaimyouridealrole.com&fp=chrome#🇺🇸 [WL] Сервер 10
@@ -20,10 +20,10 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.49:443?type=tcp&security=t
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.49:443?sni=cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 18
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?type=tcp&security=tls&sni=learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com&fp=chrome#🇺🇸 [WL] Сервер 19
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?sni=learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 20
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.81:443?sni=www.healthcarejobshubenhancemedicalprofessionalskillstoday.com&type=tcp#🇺🇸 [WL] Сервер 21
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.81:443?sni=www.healthcarejobshubenhancemedicalprofessionalskillstoday.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 21
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.81:443?type=tcp&security=tls&sni=www.healthcarejobshubenhancemedicalprofessionalskillstoday.com&fp=chrome#🇺🇸 [WL] Сервер 22
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?type=tcp&security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&fp=chrome#🇧🇷 [WL] Сервер 23
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&type=tcp&fp=chrome#🇧🇷 [WL] Сервер 24
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.42:443?type=tcp&security=tls&fp=firefox&sni=blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com#🇺🇸 [WL] Сервер 25
-trojan://X00HagvwL8gQXNDAnsxsN8dv1_VdneEo@136.234.33.32:40701?security=tls&sni=ro.nebulaguard.org&alpn=http%2F1.1&fp=firefox&type=ws&host=ro.nebulaguard.org&path=%2Ff9797f64d9#🌐 [BL] Сервер 26
-trojan://X00HagvwL8gQXNDAnsxsN8dv1_VdneEo@5.59.204.26:51443?security=tls&sni=lv.nebulaguard.org&alpn=h2%2Ch3%2Chttp%2F1.1&fp=firefox&type=ws&host=lv.nebulaguard.org&path=%2Ftrojan%2F#🇱🇻 [BL] Сервер 27
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.131:443?security=tls&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=www.discovergreatjobsandadvanceyourcareer.com#🇪🇸 [BL] Сервер 26
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.discovergreatjobsandadvanceyourcareer.com#🇪🇸 [BL] Сервер 27

@@ -1,3 +1,3 @@
 #profile-title: Apex IE
 #profile-update-interval: 1
-vless://20d56ff9-359e-4983-9b04-6402e9ebce08@83.141.69.189:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0&sid=3e70d4cbb01bddfd&sni=cdn.savesafe.space&fp=firefox#🇮🇪 [BL/AI] Сервер 1
+vless://43f863f9-d9a6-4f80-b584-a02b1737a174@109.73.203.8:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM&security=reality&sid=542a83882d6461d5&sni=ya.ru&type=tcp#🇮🇪 [WL] Сервер 1

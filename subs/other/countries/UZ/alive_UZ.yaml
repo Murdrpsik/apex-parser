@@ -1,14 +1,15 @@
 proxies:
-  - name: "🇺🇿 [WL] Сервер 1"
+  - name: "🇺🇿 [BL] Сервер 1"
     type: vless
-    server: 95.143.188.113
+    server: 46.8.114.205
     port: 443
-    uuid: "367d74e7-0204-4b92-ba57-ae31344dce7f"
-    network: "grpc"
-    servername: "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net"
-    client-fingerprint: "random"
+    uuid: "c9722094-0f55-4678-96db-3b88953a46da"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "plov.plus-hit.ru"
+    client-fingerprint: "edge"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "sync.v1"
-      grpc-mode: "multi"
+    reality-opts:
+      public-key: "QsUgVxHyjCKdtYBnBGoEM74F3k9uc2kimLPbf_qAAAM"
+      short-id: "bf8b003cb32c968b"

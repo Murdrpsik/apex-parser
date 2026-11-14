@@ -1,6 +1,32 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
+    server: 45.192.193.54
+    port: 35600
+    uuid: "8614bde7-34cf-4413-8360-e96f1b960528"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.iij.ad.jp"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
+    server: 46.8.226.4
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "hongkong.freegate.win"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
+  - name: "🇭🇰 [BL] Сервер 3"
+    type: vless
     server: 31.58.213.230
     port: 443
     uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
@@ -13,16 +39,16 @@ proxies:
     reality-opts:
       public-key: "kZT-TcQzZQL0sTmcsipzIgE7qO2vdZom4Res0KbnbQ0"
       short-id: "295f8129"
-  - name: "🇭🇰 [BL] Сервер 2"
+  - name: "🇭🇰 [BL] Сервер 4"
     type: vless
-    server: 46.8.226.4
+    server: 217.60.38.196
     port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    uuid: "92783040-4bfb-4f1c-ba21-c06458d8df4c"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "hongkong.freegate.win"
+    servername: "hkg1.angelsleep9.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
+      public-key: "A91HOwdYKriuetB8xMyjhK2m6ntHaAA4KNDZaAJVRTQ"

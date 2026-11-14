@@ -1,10 +1,24 @@
 proxies:
-  - name: "🇱🇻 [BL] Сервер 1"
+  - name: "🇱🇻 [WL] Сервер 1"
+    type: vless
+    server: 62.173.149.165
+    port: 8443
+    uuid: "43f863f9-d9a6-7320-b584-a02b1737a174"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM"
+      short-id: "542a83882d6461d5"
+  - name: "🇱🇻 [BL] Сервер 2"
     type: vless
     server: 195.123.213.28
     port: 443
     uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
@@ -13,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
       short-id: "5c256336e3b673fa"
-  - name: "🇱🇻 [BL] Сервер 2"
+  - name: "🇱🇻 [BL] Сервер 3"
     type: vless
     server: 2.26.88.240
     port: 4443
@@ -26,32 +40,20 @@ proxies:
     xhttp-opts:
       path: "/api/v1/sync/"
       host: "lv3.nexfile.net"
-  - name: "🇱🇻 [BL] Сервер 3"
-    type: vless
-    server: 2.26.88.140
-    port: 4443
-    uuid: "a35c508f-4d5d-4531-842e-6e9d43c762c0"
-    network: "xhttp"
-    servername: "lv3.nexfile.net"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/sync/"
-      mode: "auto"
   - name: "🇱🇻 [BL] Сервер 4"
     type: vless
-    server: 200.181.87.171
+    server: 45.43.79.92
     port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    uuid: "042b12d8-bac4-4b3a-b661-79e333f08e4e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "cedar-beacon.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
+    servername: "vikt659.isgood.host"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
-      short-id: "2a09abf8032087af"
+      public-key: "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM"
+      short-id: "af4ca5d16438c938"
   - name: "🇱🇻 [BL] Сервер 5"
     type: vless
     server: 138.124.180.137
@@ -68,42 +70,15 @@ proxies:
       short-id: "33acba1b"
   - name: "🇱🇻 [BL] Сервер 6"
     type: vless
-    server: 217.60.60.243
+    server: 83.141.68.185
     port: 443
-    uuid: "42a64b9a-ab79-4094-8656-30366a7c2ea3"
+    uuid: "c9722094-0f55-4678-96db-3b88953a46da"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "lv.peregrine-sub.net"
-    client-fingerprint: "firefox"
+    servername: "latino.plus-hit.ru"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
-  - name: "🇱🇻 [BL] Сервер 7"
-    type: vless
-    server: 212.119.42.133
-    port: 10444
-    uuid: "68773ff0-9ad3-459f-b194-eddb6a82d572"
-    network: "xhttp"
-    servername: "direct.vpndoctor.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "QPmrizvOUCOOIvlupGnt1reR5bui3U8EZl00VHU4GRA"
-      short-id: "3f9537eb0626292b"
-    xhttp-opts:
-      path: "/ny"
-      mode: "auto"
-  - name: "🇱🇻 [BL] Сервер 8"
-    type: trojan
-    server: 5.59.204.26
-    port: 51443
-    password: "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo"
-    sni: "lv.nebulaguard.org"
-    client-fingerprint: "firefox"
-    udp: true
-    ws-opts:
-      path: "/trojan/"
-      headers:
-        Host: "lv.nebulaguard.org"
+      public-key: "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI"
+      short-id: "7c8e3d4a9b1f26d3"

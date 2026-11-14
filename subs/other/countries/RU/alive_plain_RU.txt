@@ -1,11 +1,9 @@
 #profile-title: Apex RU
 #profile-update-interval: 1
-vless://37af0181-5598-4aad-a040-d926bcb65757@windytrout.net:2053?type=xhttp&security=tls&fp=firefox&sni=windytrout.net&path=%2Fapi%2Fv1%2Fupload&host=windytrout.net&mode=auto&encryption=none#🇷🇺 [WL] Сервер 1
-vless://7d718630-7a1a-4af8-9332-aa0610634e8a@82.148.17.66:443?encryption=none&flow=xtls-rprx-vision&pbk=DeueXD24ph6cE_WRTTaPyuGX4jNVxjvJBHjENlrzsCM&security=reality&sid=42695b59d82528a4&sni=rowanfield.lalibobi.online&type=tcp&fp=random#🇷🇺 [WL] Сервер 2
-vless://7d718630-7a1a-4af8-9332-aa0610634e8a@146.19.128.58:443?encryption=none&flow=xtls-rprx-vision&pbk=CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY&security=reality&sid=e2a4c6b8&sni=volga.lalibobi.online&type=tcp&fp=firefox#🇷🇺 [WL] Сервер 3
-vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@129.101.98.60:443?flow=xtls-rprx-vision&pbk=lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4&security=reality&sid=3992cc7fb9fcbe58&sni=ru7e2bab87cc39.eu-cdn539.com&fp=edge&encryption=none&type=tcp#🇷🇺 [WL] Сервер 4
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?type=grpc&security=tls&fp=firefox&sni=vps3.nemnogogo.com&serviceName=mobile.api.Event&encryption=none#🇷🇺 [WL] Сервер 5
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.24.116.192:443?encryption=none&fp=firefox&security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc#🇷🇺 [WL] Сервер 6
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.51.12.98:443?security=tls&sni=vps3.nemnogogo.com&type=grpc&serviceName=mobile.api.Event&fp=firefox&alpn=h2&encryption=none#🇷🇺 [WL] Сервер 7
-vless://a628c583-24a8-4ce5-98ad-c6458abf1cc4@212.41.8.76:13443?encryption=none&type=grpc&security=reality&sni=s3.storage.selcloud.ru&fp=firefox&pbk=d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc&sid=9de815e2&spx=%2F&serviceName=grpc#🇷🇺 [WL] Сервер 8
-vless://97fd7807-7e2b-49da-8a0e-e40197088f97@5.59.204.81:8443?security=tls&alpn=h2&encryption=none&insecure=0&headerType=none&fp=edge&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=id-6af3f40b.adhil.uk#🇷🇺 [WL] Сервер 9
+vless://7d718630-7a1a-4af8-9332-aa0610634e8a@82.148.17.66:443?encryption=none&flow=xtls-rprx-vision&pbk=DeueXD24ph6cE_WRTTaPyuGX4jNVxjvJBHjENlrzsCM&security=reality&sid=42695b59d82528a4&sni=rowanfield.lalibobi.online&type=tcp&fp=safari#🇷🇺 [WL] Сервер 1
+vless://a628c583-24a8-4ce5-98ad-c6458abf1cc4@212.41.8.76:13443?encryption=none&type=grpc&security=reality&sni=s3.storage.selcloud.ru&fp=firefox&pbk=d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc&sid=9de815e2&spx=%2F&serviceName=grpc#🇷🇺 [WL] Сервер 2
+vless://37af0181-5598-4aad-a040-d926bcb65757@windytrout.net:2053?type=xhttp&security=tls&fp=firefox&sni=windytrout.net&path=%2Fapi%2Fv1%2Fupload&host=windytrout.net&mode=auto&encryption=none#🇷🇺 [WL] Сервер 3
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?type=grpc&security=tls&fp=firefox&sni=vps3.nemnogogo.com&serviceName=mobile.api.Event&encryption=none#🇷🇺 [WL] Сервер 4
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.24.116.192:443?encryption=none&fp=firefox&security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc#🇷🇺 [WL] Сервер 5
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.51.12.98:443?security=tls&sni=vps3.nemnogogo.com&type=grpc&serviceName=mobile.api.Event&fp=firefox&alpn=h2&encryption=none#🇷🇺 [WL] Сервер 6
+vless://6f2857ee-4d43-417f-8a60-6f29becf061f@45.151.70.116:443?encryption=none&pbk=O-B_Lb2sUV9VaUIv0_d6gVMA20oSKEd1wwyZ5vJYvh8&security=reality&sid=836c3060&sni=www.amd.com&type=tcp&fp=edge#🇷🇺 [WL] Сервер 7
