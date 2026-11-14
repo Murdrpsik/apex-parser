@@ -1,117 +1,34 @@
 proxies:
-  - name: "🇫🇷 [WL] Сервер 1"
+  - name: "🇫🇷 [BL] Сервер 1"
     type: vless
-    server: 161.97.160.224
+    server: 2.56.127.109
     port: 443
-    uuid: "b81b4d1b-7f20-48f1-82dc-d24bef898cab"
+    uuid: "0e622b03-cdb9-4e7d-a463-2e981609e984"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
-      short-id: "e6"
-  - name: "🇫🇷 [WL] Сервер 2"
-    type: vless
-    server: 161.97.160.224
-    port: 443
-    uuid: "b81b4d1b-7f20-48f1-82dc-d24bef898cab"
-    network: "tcp"
-    flow: "xtls-rprx-vision-udp443"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
-      short-id: "e6"
-  - name: "🇫🇷 [WL] Сервер 3"
-    type: vless
-    server: 85.208.69.43
-    port: 33055
-    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
-    network: "xhttp"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
-      short-id: "77"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇫🇷 [WL] Сервер 4"
-    type: vless
-    server: 85.208.69.43
-    port: 33055
-    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
-    network: "xhttp"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
-      short-id: "77"
-    xhttp-opts:
-      path: "/"
-  - name: "🇫🇷 [BL] Сервер 5"
-    type: vless
-    server: 31.59.105.137
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "paris.freegate.win"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇫🇷 [BL] Сервер 6"
-    type: vless
-    server: paris.freegate.win
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "paris.freegate.win"
+    servername: "64ec2c66edb9.j.cloudfront.hls.ttvnw.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇫🇷 [BL] Сервер 7"
+      public-key: "CNMh9FFr4tfJc7hCtBqwYlLcBxk2Okz2fDPebYGJEww"
+      short-id: "5e72e96b1a9ce2b4"
+  - name: "🇫🇷 [BL] Сервер 2"
     type: vless
-    server: france.freegate.win
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "france.freegate.win"
+    server: 82.25.63.232
+    port: 445
+    uuid: "cdf4bc13-31e6-4bff-962c-05fe9151c593"
+    network: "grpc"
+    servername: "fr1.vrsvpn.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇫🇷 [BL/CF] Сервер 8"
-    type: vless
-    server: 84.235.245.65
-    port: 2096
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    network: "ws"
-    servername: "fs.qicai99.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇫🇷 [BL] Сервер 9"
+      public-key: "Ea_4PyvTCyHIAzIbHJN02Z5HVyTwMq3ku79kBCuBPB0"
+      short-id: "ce5f5e47a251473d"
+    grpc-opts:
+      grpc-service-name: "fr1.vrsvpn.com"
+  - name: "🇫🇷 [BL] Сервер 3"
     type: vless
     server: 200.102.183.226
     port: 80
@@ -123,7 +40,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "qi8ws15c7jv5q2fa"
-  - name: "🇫🇷 [BL] Сервер 10"
+  - name: "🇫🇷 [BL] Сервер 4"
     type: vless
     server: 200.102.183.243
     port: 443
@@ -135,7 +52,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "qi8ws15c7jv5q2fa"
-  - name: "🇫🇷 [BL] Сервер 11"
+  - name: "🇫🇷 [BL] Сервер 5"
     type: vless
     server: 3.168.219.0
     port: 443
@@ -149,7 +66,21 @@ proxies:
       path: "/"
       headers:
         Host: "d1aedflfr97jes.cloudfront.net"
-  - name: "🇫🇷 [BL] Сервер 12"
+  - name: "🇫🇷 [BL] Сервер 6"
+    type: vless
+    server: 3.169.218.0
+    port: 443
+    uuid: "ad9a885d-93bb-48e3-9937-57f1116b64e3"
+    network: "ws"
+    servername: "d1aedflfr97jes.cloudfront.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "d1aedflfr97jes.cloudfront.net"
+  - name: "🇫🇷 [BL] Сервер 7"
     type: vless
     server: 145.223.68.58
     port: 443
@@ -163,7 +94,7 @@ proxies:
     reality-opts:
       public-key: "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg"
       short-id: "a44ff7d2e80213c2"
-  - name: "🇫🇷 [BL] Сервер 13"
+  - name: "🇫🇷 [BL] Сервер 8"
     type: vless
     server: 161.97.66.16
     port: 443
@@ -176,19 +107,7 @@ proxies:
     reality-opts:
       public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
       short-id: "086bf957"
-  - name: "🇫🇷 [BL/AI] Сервер 14"
-    type: vless
-    server: ai.smrtai.top
-    port: 443
-    uuid: "086bf957-9cd0-4e55-8280-bbef10435b41"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
-      short-id: "086bf957"
-  - name: "🇫🇷 [BL] Сервер 15"
+  - name: "🇫🇷 [BL] Сервер 9"
     type: vless
     server: 213.199.57.127
     port: 2087
@@ -201,7 +120,7 @@ proxies:
     reality-opts:
       public-key: "Y8U3PhV0K8jT4PBHq-rhCA4eUtOXa1CNB9waCvZbZSc"
       short-id: "42"
-  - name: "🇫🇷 [BL] Сервер 16"
+  - name: "🇫🇷 [BL] Сервер 10"
     type: vless
     server: 143.246.211.240
     port: 443
@@ -213,10 +132,10 @@ proxies:
     tls: true
     reality-opts:
       public-key: "_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg"
-      short-id: "3242cfd7"
     xhttp-opts:
       path: "/ae1b809ceb77"
-  - name: "🇫🇷 [BL] Сервер 17"
+      mode: "auto"
+  - name: "🇫🇷 [BL] Сервер 11"
     type: vless
     server: 62.210.24.143
     port: 32202
@@ -232,7 +151,7 @@ proxies:
     xhttp-opts:
       path: "/G3EEoH63"
       mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 18"
+  - name: "🇫🇷 [BL] Сервер 12"
     type: vless
     server: 62.210.91.10
     port: 23576
@@ -246,7 +165,7 @@ proxies:
     reality-opts:
       public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
       short-id: "01"
-  - name: "🇫🇷 [BL] Сервер 19"
+  - name: "🇫🇷 [BL] Сервер 13"
     type: vless
     server: 62.210.91.2
     port: 23576
@@ -254,34 +173,17 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "fuck.rkn"
-    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
       short-id: "01"
-  - name: "🇫🇷 [BL] Сервер 20"
-    type: vless
-    server: 212.69.86.159
-    port: 8447
-    uuid: "52030136-eee3-4675-baae-a50f17b2bb8b"
-    network: "grpc"
-    servername: "github.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4"
-      short-id: "732ef4f5320b5e19"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇫🇷 [BL] Сервер 21"
+  - name: "🇫🇷 [BL] Сервер 14"
     type: vless
     server: 20.19.83.143
     port: 2083
     uuid: "52a5a29f-c162-411a-8a37-a3f11b0dc537"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.apple.com"
     client-fingerprint: "chrome"
@@ -290,7 +192,7 @@ proxies:
     reality-opts:
       public-key: "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4"
       short-id: "0123456789abcdef"
-  - name: "🇫🇷 [BL] Сервер 22"
+  - name: "🇫🇷 [BL] Сервер 15"
     type: vless
     server: 152.228.139.33
     port: 51671
@@ -306,7 +208,33 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc_common3"
       grpc-mode: "gun"
-  - name: "🇫🇷 [BL] Сервер 23"
+  - name: "🇫🇷 [BL] Сервер 16"
+    type: vless
+    server: france.freegate.win
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "france.freegate.win"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
+  - name: "🇫🇷 [BL/AI] Сервер 17"
+    type: vless
+    server: 153.80.179.111
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "france.freegate.win"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
+  - name: "🇫🇷 [BL] Сервер 18"
     type: vless
     server: 62.210.70.194
     port: 37783
@@ -321,7 +249,7 @@ proxies:
       short-id: "21569dd6"
     xhttp-opts:
       path: "/OCrp5Ajs"
-  - name: "🇫🇷 [BL] Сервер 24"
+  - name: "🇫🇷 [BL] Сервер 19"
     type: vless
     server: 51.77.217.70
     port: 2053
@@ -334,7 +262,21 @@ proxies:
     reality-opts:
       public-key: "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w"
       short-id: "bfe58beb41f1d09f"
-  - name: "🇫🇷 [BL] Сервер 25"
+  - name: "🇫🇷 [BL] Сервер 20"
+    type: vless
+    server: 82.25.63.202
+    port: 8443
+    uuid: "e50e6851-a29a-45a1-811d-1e9230c1512a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fr1.slowframe.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U"
+      short-id: "35cb85e41b041622"
+  - name: "🇫🇷 [BL] Сервер 21"
     type: vless
     server: 5.129.221.36
     port: 17014
@@ -351,22 +293,20 @@ proxies:
       path: "/api/v2/feed.json"
       host: "mail.infrawire.fr"
       mode: "packet-up"
-  - name: "🇫🇷 [BL] Сервер 26"
+  - name: "🇫🇷 [BL] Сервер 22"
     type: vless
-    server: 82.25.63.232
-    port: 445
-    uuid: "cdf4bc13-31e6-4bff-962c-05fe9151c593"
-    network: "grpc"
-    servername: "fr1.vrsvpn.com"
-    client-fingerprint: "edge"
+    server: 31.59.105.137
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "paris.freegate.win"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Ea_4PyvTCyHIAzIbHJN02Z5HVyTwMq3ku79kBCuBPB0"
-      short-id: "ce5f5e47a251473d"
-    grpc-opts:
-      grpc-service-name: "fr1.vrsvpn.com"
-  - name: "🇫🇷 [BL/CF] Сервер 27"
+      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
+  - name: "🇫🇷 [BL/CF] Сервер 23"
     type: vless
     server: 178.104.19.178
     port: 443
@@ -378,9 +318,3 @@ proxies:
     tls: true
     ws-opts:
       path: "/stream/PANEL_ZEUS/2b737ffd08fa"
-  - name: "🇫🇷 [BL] Сервер 28"
-    type: ss
-    server: 167.17.64.175
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    cipher: "aes-256-gcm"

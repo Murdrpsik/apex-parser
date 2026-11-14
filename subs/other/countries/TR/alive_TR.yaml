@@ -69,3 +69,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "GunService"
       grpc-mode: "gun"
+  - name: "🇹🇷 [BL] Сервер 6"
+    type: ss
+    server: 204.10.192.116
+    port: 12058
+    password: "H4t_jXTS75A45Y36m8snsCt2vFtPTr41"
+    cipher: "chacha20-ietf-poly1305"

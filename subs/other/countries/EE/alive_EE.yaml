@@ -1,19 +1,33 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 64.188.78.32
+    server: 31.56.187.145
     port: 443
-    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
+    uuid: "8458e1a5-cf44-46d5-9b6b-41888e55d19e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "parnu.lalibobi.online"
+    servername: "api-les.tihoe-mesto.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "UUAeEJC-AryOno_jBPGDry1QzQlZ1wlm5S4uS0_D7hA"
-      short-id: "0099b700c0152888"
+      public-key: "4KolZT8ceL7zivti6ZKAucKjGo_QF_C16E5rAjTC914"
+      short-id: "b6f0baf4126ada5f"
   - name: "🇪🇪 [BL] Сервер 2"
+    type: vless
+    server: 13.143.176.250
+    port: 443
+    uuid: "555b35c4-30f9-40c6-a61a-7f53ab1bea45"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "images.porsche.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
+      short-id: "1a2b3c4d"
+  - name: "🇪🇪 [BL] Сервер 3"
     type: vless
     server: 185.155.55.2
     port: 8443
@@ -21,26 +35,73 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ee-nf.reddotcorp.org"
-    client-fingerprint: "firefox"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
       public-key: "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE"
       short-id: "661766b2bcef440a"
-  - name: "🇪🇪 [BL] Сервер 3"
+  - name: "🇪🇪 [BL] Сервер 4"
     type: vless
-    server: saar-est3.lalibobi.online
+    server: 48.102.216.240
     port: 443
-    uuid: "7d718630-7a1a-4af8-9332-aa0610634e8a"
+    uuid: "5f1c2e83-d4aa-a028-81e9-e0ccc018974c"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "saar-est3.lalibobi.online"
+    servername: "lkm8.artemida.digital"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "2yqGYYn0FG7dy5vtEkeyouBuIsMQFbpFHnx-yCCPABM"
+      short-id: "8d760489b7a2b8ac"
+  - name: "🇪🇪 [BL] Сервер 5"
+    type: vless
+    server: 94.183.239.64
+    port: 443
+    uuid: "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c"
+    network: "grpc"
+    servername: "94.183.239.64"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "CEPjmMZbtepvPjcZmM8sBeyw8-IoCF71lBR2msK_2zY"
+      short-id: "6705f73a5a1e0aca"
+    grpc-opts:
+      grpc-service-name: "cdn.v2.AssetSync"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 79.98.37.146
+    port: 443
+    uuid: "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c"
+    network: "grpc"
+    servername: "79.98.37.146"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "CEPjmMZbtepvPjcZmM8sBeyw8-IoCF71lBR2msK_2zY"
+      short-id: "6705f73a5a1e0aca"
+    grpc-opts:
+      grpc-service-name: "cdn.v2.AssetSync"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: eee-1.aloranode.top
+    port: 10443
+    uuid: "b36a14f8-fc3f-4142-968f-48031cf5f330"
+    network: "xhttp"
+    servername: "eee-1.aloranode.top"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Oc8iFCgfl2hRU3yCf2aaZOxiuK5GLwxct3lYy6sw7nk"
-  - name: "🇪🇪 [BL] Сервер 4"
+      public-key: "_8OfJZ6O4a1K7A0i7F7UQOwxm7GOv-nBSJCcU80Pc1A"
+      short-id: "21d6ff06b0c966a2"
+    xhttp-opts:
+      path: "/rcAkNmACuH0V/"
+      mode: "auto"
+  - name: "🇪🇪 [BL] Сервер 8"
     type: vless
     server: 201.10.76.171
     port: 443
