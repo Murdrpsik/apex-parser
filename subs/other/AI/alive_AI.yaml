@@ -13,35 +13,7 @@ proxies:
     reality-opts:
       public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
       short-id: "c27a26812e5d2208"
-  - name: "🇳🇱 [AI] Сервер 2"
-    type: vless
-    server: 147.45.214.143
-    port: 443
-    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "st.ozone.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
-      short-id: "c48282c0acf92721"
-  - name: "🇳🇱 [AI] Сервер 3"
-    type: vless
-    server: 147.45.214.143
-    port: 443
-    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
-    network: "tcp"
-    flow: "xtls-rprx-vision-udp443"
-    servername: "st.ozone.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
-      short-id: "c48282c0acf92721"
-  - name: "🇳🇱 [AI] Сервер 4"
+  - name: "🌐 [AI] Сервер 2"
     type: vless
     server: 93.183.83.53
     port: 443
@@ -55,35 +27,34 @@ proxies:
     reality-opts:
       public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
       short-id: "c48282c0acf92721"
-  - name: "🇳🇱 [AI] Сервер 5"
+  - name: "🇫🇷 [AI] Сервер 3"
     type: vless
-    server: 93.183.83.53
+    server: 153.80.179.111
     port: 443
-    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "st.ozone.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
-      short-id: "c48282c0acf92721"
-  - name: "🇨🇭 [AI] Сервер 6"
-    type: vless
-    server: 193.233.89.130
-    port: 8443
-    uuid: "7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe"
-    network: "grpc"
-    servername: "g.play2go.gay"
+    servername: "france.freegate.win"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇩🇪 [AI] Сервер 7"
+      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
+  - name: "🇳🇱 [AI] Сервер 4"
+    type: vless
+    server: 176.123.160.196
+    port: 443
+    uuid: "75a8cc15-fa52-4067-949f-42a89859b54f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "brnl2.catneuro.su"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw"
+      short-id: "a1fd12bb855171d7"
+  - name: "🇩🇪 [AI] Сервер 5"
     type: vless
     server: 189.24.107.174
     port: 443
@@ -97,17 +68,36 @@ proxies:
     reality-opts:
       public-key: "gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ"
       short-id: "8b36e9b7b3"
-  - name: "🇭🇰 [AI] Сервер 8"
+  - name: "🇳🇱 [AI] Сервер 6"
     type: vless
-    server: 2.26.204.46
-    port: 31001
-    uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
+    server: 153.76.190.237
+    port: 11443
+    uuid: "4d24fdd2-4960-469c-90bd-716ae5023451"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "mensura.cdn-apple.com"
-    client-fingerprint: "chrome"
+    servername: "89.105.208.114"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
-      short-id: "39793bc4708abbbb"
+      public-key: "E1k1k2JSl5oXLJ3rN-QpA2HjotJ7qIW9PAa4HuOuQjY"
+      short-id: "efee9455a0712953"
+  - name: "🇵🇱 [AI] Сервер 7"
+    type: vless
+    server: 177.1.183.105
+    port: 443
+    uuid: "f3a227cb-8a8b-4ccb-b613-9143c4a1346c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ru-pl1.fluxnode777.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "37ZFWtNTZ_slVsJp0_5siKSeqz-sZSuLdYurC_cBrxw"
+  - name: "🇩🇪 [AI] Сервер 8"
+    type: ss
+    server: 47.85.201.22
+    port: 443
+    password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
+    cipher: "2022-blake3-chacha20-poly1305"

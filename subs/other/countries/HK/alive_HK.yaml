@@ -41,18 +41,18 @@ proxies:
       public-key: "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
   - name: "🇭🇰 [BL] Сервер 4"
     type: vless
-    server: hk3n.wxgqlfx.vip
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
+    server: 2.26.204.46
+    port: 31001
+    uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
+    servername: "mensura.cdn-apple.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
+      public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
+      short-id: "39793bc4708abbbb"
   - name: "🇭🇰 [BL] Сервер 5"
     type: vless
     server: 46.8.226.4
@@ -66,17 +66,16 @@ proxies:
     tls: true
     reality-opts:
       public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
-  - name: "🇭🇰 [BL/AI] Сервер 6"
+  - name: "🇭🇰 [BL] Сервер 6"
     type: vless
-    server: 2.26.204.46
-    port: 31001
-    uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
+    server: hongkong.freegate.win
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "mensura.cdn-apple.com"
-    client-fingerprint: "chrome"
+    servername: "hongkong.freegate.win"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
-      short-id: "39793bc4708abbbb"
+      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"

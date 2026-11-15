@@ -28,18 +28,19 @@ proxies:
       short-id: "c10f4100fa3a8d47"
   - name: "🇹🇷 [BL] Сервер 3"
     type: vless
-    server: 50.7.87.251
+    server: 7cabc1g.de-p2.h1clayd.click
     port: 443
-    uuid: "97fd7807-7e2b-49da-8a0e-e40197088f97"
-    network: "xhttp"
-    servername: "97fd7807.ferrin.uk"
-    client-fingerprint: "chrome"
+    uuid: "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef"
+    network: "grpc"
+    servername: "7cabc1g.de-p2.h1clayd.click"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/tr"
-      host: "api.ferrin.uk"
-      mode: "stream-one"
+    reality-opts:
+      public-key: "VKwRsPrkqzgO1NgEd9uK-g9Sg9vWUl37msYt4OH7XiI"
+      short-id: "d04b7f092468a136"
+    grpc-opts:
+      grpc-service-name: "df0c8e02206d"
   - name: "🇹🇷 [BL] Сервер 4"
     type: vless
     server: 151.241.226.201
@@ -74,7 +75,7 @@ proxies:
     uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
     network: "grpc"
     servername: "github.com"
-    client-fingerprint: "safari"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -83,3 +84,31 @@ proxies:
     grpc-opts:
       grpc-service-name: "GunService"
       grpc-mode: "gun"
+  - name: "🇹🇷 [BL] Сервер 7"
+    type: vless
+    server: 171.22.27.161
+    port: 2083
+    uuid: "ca39b355-b488-9297-918f-9d011d075ba2"
+    network: "xhttp"
+    servername: "www.aparat.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "yeEgcP0ehhicUQZdFGJBhLuU3wsEMSRyg8l2voakZBs"
+      short-id: "2f567c6d"
+    xhttp-opts:
+      path: "/"
+  - name: "🇹🇷 [BL] Сервер 8"
+    type: vless
+    server: 45.92.219.47
+    port: 443
+    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ty.galactichub.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"

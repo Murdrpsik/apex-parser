@@ -4,10 +4,10 @@ proxies:
     server: 45.90.59.15
     port: 443
     uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "random"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
@@ -18,7 +18,7 @@ proxies:
     server: 153.52.85.187
     port: 443
     uuid: "963f72cf-8465-46f5-996c-df45500b57a3"
-    network: "tcp"
+    network: "raw"
     servername: "a813d5t.ch5.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
@@ -40,30 +40,3 @@ proxies:
     reality-opts:
       public-key: "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4"
       short-id: "0123456789abcdef"
-  - name: "🇨🇭 [BL] Сервер 4"
-    type: vless
-    server: 193.228.128.230
-    port: 443
-    uuid: "de404269-a97c-4f49-9efb-43509c2afa09"
-    network: "grpc"
-    servername: "ch.primarymaster.online"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY"
-      short-id: "8b8dd8a1c0c468d3"
-  - name: "🇨🇭 [BL/AI] Сервер 5"
-    type: vless
-    server: 193.233.89.130
-    port: 8443
-    uuid: "7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe"
-    network: "grpc"
-    servername: "g.play2go.gay"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c"
-    grpc-opts:
-      grpc-service-name: "grpc"

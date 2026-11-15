@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇧🇬 [WL] Сервер 1"
-    type: vless
-    server: 46.243.232.178
-    port: 8443
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "xhttp"
-    servername: "earlytrain.net"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/upload"
-      host: "earlytrain.net"
-      mode: "auto"
-  - name: "🇧🇬 [BL] Сервер 2"
+  - name: "🇧🇬 [BL] Сервер 1"
     type: vless
     server: 195.123.226.21
     port: 443

@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇮🇳 [WL] Сервер 1"
-    type: vless
-    server: 103.111.114.136
-    port: 443
-    uuid: "555b35c4-30f9-40c6-a61a-7f53ab1bea45"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "videos.porsche.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk"
-      short-id: "1a2b3c4d"
-  - name: "🇮🇳 [BL] Сервер 2"
+  - name: "🇮🇳 [BL] Сервер 1"
     type: vless
     server: 194.61.31.126
     port: 2053
@@ -25,6 +11,19 @@ proxies:
     reality-opts:
       public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
       short-id: "9980e0609b0d3891"
+  - name: "🇮🇳 [BL] Сервер 2"
+    type: vless
+    server: xray-ikmqcro3-rapid-river-6.cloady.io
+    port: 443
+    uuid: "213224a4-6cd1-b7f4-8bbc-4f50e5ed847b"
+    network: "ws"
+    servername: "xray-ikmqcro3-rapid-river-6.cloady.io"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/c54a815e676d9acc"
+      headers:
+        Host: "xray-ikmqcro3-rapid-river-6.cloady.io"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
     server: 178.212.35.198
@@ -40,6 +39,19 @@ proxies:
       short-id: "6bdc8320"
   - name: "🇮🇳 [BL] Сервер 4"
     type: vless
+    server: in.smrtai.top
+    port: 443
+    uuid: "6bdc8320-7eae-46fc-be08-f5f54e65dfc8"
+    network: "tcp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
+      short-id: "6bdc8320"
+  - name: "🇮🇳 [BL] Сервер 5"
+    type: vless
     server: 148.113.5.22
     port: 443
     uuid: "7d53c50c-3abf-4cb5-9d58-e7a42ce1d1c6"
@@ -51,7 +63,7 @@ proxies:
     reality-opts:
       public-key: "Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI"
       short-id: "7ff98efcced3fd5b"
-  - name: "🇮🇳 [BL] Сервер 5"
+  - name: "🇮🇳 [BL] Сервер 6"
     type: vless
     server: 5.253.42.164
     port: 40443
@@ -65,16 +77,3 @@ proxies:
     reality-opts:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
-  - name: "🇮🇳 [BL] Сервер 6"
-    type: vless
-    server: xray-ikmqcro3-rapid-river-6.cloady.io
-    port: 443
-    uuid: "213224a4-6cd1-b7f4-8bbc-4f50e5ed847b"
-    network: "ws"
-    servername: "xray-ikmqcro3-rapid-river-6.cloady.io"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/c54a815e676d9acc"
-      headers:
-        Host: "xray-ikmqcro3-rapid-river-6.cloady.io"
