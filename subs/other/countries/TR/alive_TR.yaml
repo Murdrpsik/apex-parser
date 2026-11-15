@@ -20,12 +20,13 @@ proxies:
     uuid: "97fd7807-7e2b-49da-8a0e-e40197088f97"
     network: "xhttp"
     servername: "97fd7807.ferrin.uk"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     xhttp-opts:
       path: "/tr"
       host: "api.ferrin.uk"
+      mode: "stream-one"
   - name: "🇹🇷 [BL] Сервер 3"
     type: vless
     server: 151.241.226.201
@@ -60,7 +61,7 @@ proxies:
     uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
     network: "grpc"
     servername: "github.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -82,3 +83,14 @@ proxies:
     tls: true
     reality-opts:
       public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
+  - name: "🇹🇷 [BL] Сервер 7"
+    type: vless
+    server: 185.39.204.117
+    port: 10002
+    uuid: "facb802c-de2e-11f1-9a22-a3404e852f3b"
+    network: "ws"
+    servername: "tr2.vpnjantit.com"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/vpnjantit"
