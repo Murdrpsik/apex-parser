@@ -1,19 +1,36 @@
 proxies:
-  - name: "🇨🇭 [BL] Сервер 1"
+  - name: "🇨🇭 [BL/AI] Сервер 1"
     type: vless
-    server: 45.90.59.15
+    server: 179.43.138.147
     port: 443
-    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
+    uuid: "e3453410-191b-48b5-b37f-aac745bbfa6b"
+    network: "grpc"
+    servername: "claude.ai"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
-      short-id: "19253fae84102271"
+      public-key: "k_R-Vs8S-kBNpZmutqC7OVSO9p2ZuLB4AKPi8z5Xqjc"
+      short-id: "8eaf2e317d86a0a6"
+    grpc-opts:
+      grpc-service-name: "s764bdc2f3a313a1806ce"
   - name: "🇨🇭 [BL] Сервер 2"
+    type: vless
+    server: ch5.h1cloud.net
+    port: 25035
+    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
+    network: "xhttp"
+    servername: "96f799r.ch5.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "m7pPQqgE5q8qOjHhn9AjNA9sWhBFQ-gXzyGcZTNihUU"
+      short-id: "eb63581de991f8c8"
+    xhttp-opts:
+      path: "/astral-edge-h1"
+      mode: "stream-one"
+  - name: "🇨🇭 [BL] Сервер 3"
     type: vless
     server: 153.52.85.187
     port: 443
@@ -26,7 +43,21 @@ proxies:
     reality-opts:
       public-key: "syYaWsZJOf114XAoEcIQodriOW8pyCjP5x_KEq38ozs"
       short-id: "7ded0da1ef58b7e2"
-  - name: "🇨🇭 [BL] Сервер 3"
+  - name: "🇨🇭 [BL] Сервер 4"
+    type: vless
+    server: 45.90.59.15
+    port: 443
+    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
+      short-id: "19253fae84102271"
+  - name: "🇨🇭 [BL] Сервер 5"
     type: vless
     server: 74.161.152.237
     port: 2083

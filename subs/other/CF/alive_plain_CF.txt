@@ -1,5 +1,4 @@
 #profile-title: Apex CF
 #profile-update-interval: 1
-vless://50414e45-4c5f-5a45-5553-974cf37772bb@185.243.112.197:443?encryption=none&type=ws&security=tls&sni=yfz9dmeruxus.wfewf209v5ef.workers.dev&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F974cf37772bb#🇫🇷 [CF] Сервер 1
-vless://71327a90-b9c4-4385-b850-4d3c5832d9cc@91.213.186.45:38521?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=5Uk63lFOn1Z3gmImXWrXbvQ0b9gXTOiY_VWuI898Vmk&sni=www.paypal.com&encryption=none&type=tcp#🇸🇬 [CF] Сервер 2
-vless://711b6476-63fc-4f01-b4e0-d44e17d79383@80.240.18.227:10051?encryption=none&security=tls&sni=o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev&fp=firefox&type=ws&host=o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev&path=%2F#🇯🇵 [CF] Сервер 3
+vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?security=reality&encryption=none&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=mental-deprivation.ru&sid=4ff31b18d1bd8227#🇩🇪 [CF] Сервер 1
+vless://50414e45-4c5f-5a45-5553-2b737ffd08fa@178.104.19.178:443?encryption=none&type=ws&security=tls&sni=bcz0bnequuss.gametyrh20e2.workers.deV&fp=chrome&path=%2Fstream%2FPANEL_ZEUS%2F2b737ffd08fa#🇫🇷 [CF] Сервер 2

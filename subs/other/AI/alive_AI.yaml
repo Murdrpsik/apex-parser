@@ -1,25 +1,39 @@
 proxies:
-  - name: "🇫🇮 [AI] Сервер 1"
+  - name: "🇫🇷 [AI] Сервер 1"
     type: vless
-    server: 109.71.245.99
-    port: 443
-    uuid: "f09ca6e3-c547-4f91-95f5-77f34c4282ac"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.yandex.ru"
-    client-fingerprint: "firefox"
+    server: 85.208.69.43
+    port: 33055
+    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
+    network: "xhttp"
+    servername: "yandex.ru"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
-      short-id: "c27a26812e5d2208"
-  - name: "🌐 [AI] Сервер 2"
+      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
+      short-id: "77"
+    xhttp-opts:
+      path: "/"
+  - name: "🇳🇱 [AI] Сервер 2"
     type: vless
-    server: 93.183.83.53
+    server: 147.45.214.143
     port: 443
     uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
     network: "tcp"
     flow: "xtls-rprx-vision-udp443"
+    servername: "st.ozone.ru"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
+      short-id: "c48282c0acf92721"
+  - name: "🇳🇱 [AI] Сервер 3"
+    type: vless
+    server: 147.45.214.143
+    port: 443
+    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
     servername: "st.ozone.ru"
     client-fingerprint: "firefox"
     udp: true
@@ -27,7 +41,36 @@ proxies:
     reality-opts:
       public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
       short-id: "c48282c0acf92721"
-  - name: "🇫🇷 [AI] Сервер 3"
+  - name: "🇳🇱 [AI] Сервер 4"
+    type: vless
+    server: 93.183.83.53
+    port: 443
+    uuid: "fb9b439d-e5d2-4337-a781-b18a67b8127e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "st.ozone.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Adzk6YXb3MU4kN8PgDQjY_4GfQgMUhRy_2LOGmiFHCg"
+      short-id: "c48282c0acf92721"
+  - name: "🇨🇭 [AI] Сервер 5"
+    type: vless
+    server: 179.43.138.147
+    port: 443
+    uuid: "e3453410-191b-48b5-b37f-aac745bbfa6b"
+    network: "grpc"
+    servername: "claude.ai"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k_R-Vs8S-kBNpZmutqC7OVSO9p2ZuLB4AKPi8z5Xqjc"
+      short-id: "8eaf2e317d86a0a6"
+    grpc-opts:
+      grpc-service-name: "s764bdc2f3a313a1806ce"
+  - name: "🇫🇷 [AI] Сервер 6"
     type: vless
     server: 153.80.179.111
     port: 443
@@ -40,21 +83,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇳🇱 [AI] Сервер 4"
-    type: vless
-    server: 176.123.160.196
-    port: 443
-    uuid: "75a8cc15-fa52-4067-949f-42a89859b54f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "brnl2.catneuro.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw"
-      short-id: "a1fd12bb855171d7"
-  - name: "🇩🇪 [AI] Сервер 5"
+  - name: "🇩🇪 [AI] Сервер 7"
     type: vless
     server: 189.24.107.174
     port: 443
@@ -68,36 +97,56 @@ proxies:
     reality-opts:
       public-key: "gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ"
       short-id: "8b36e9b7b3"
-  - name: "🇳🇱 [AI] Сервер 6"
-    type: vless
-    server: 153.76.190.237
-    port: 11443
-    uuid: "4d24fdd2-4960-469c-90bd-716ae5023451"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "89.105.208.114"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "E1k1k2JSl5oXLJ3rN-QpA2HjotJ7qIW9PAa4HuOuQjY"
-      short-id: "efee9455a0712953"
-  - name: "🇵🇱 [AI] Сервер 7"
-    type: vless
-    server: 177.1.183.105
-    port: 443
-    uuid: "f3a227cb-8a8b-4ccb-b613-9143c4a1346c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ru-pl1.fluxnode777.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "37ZFWtNTZ_slVsJp0_5siKSeqz-sZSuLdYurC_cBrxw"
   - name: "🇩🇪 [AI] Сервер 8"
+    type: vless
+    server: 153.52.138.132
+    port: 443
+    uuid: "33b25ed8-2088-40a5-ba4f-cf04b6d3fc06"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "free-de1.endurancepro.space"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "vJgQ5ZSblvzGdJ1s693hIEIUGTgMJaci4_2UGR7BFVA"
+      short-id: "789df6fbcf3518ea"
+  - name: "🇩🇪 [AI] Сервер 9"
+    type: vless
+    server: 130.78.25.165
+    port: 443
+    uuid: "58225784-a419-44bc-83cf-dc54769f47cd"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mesh.tilegrid.tech"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28"
+      short-id: "cdd272b160a39c"
+  - name: "🇭🇰 [AI] Сервер 10"
+    type: vless
+    server: 187.54.52.211
+    port: 27543
+    uuid: "7c770fb3-08c2-45ce-bf31-558c77125c35"
+    network: "tcp"
+    servername: "wwwqa.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1p9ymICiNw-hhxR4_Tc61T8NKjM6xqK5GH78Tt08RkA"
+      short-id: "560d58"
+  - name: "🇩🇪 [AI] Сервер 11"
     type: ss
     server: 47.85.201.22
     port: 443
     password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
     cipher: "2022-blake3-chacha20-poly1305"
+  - name: "🇺🇸 [AI] Сервер 12"
+    type: ss
+    server: 104.36.66.212
+    port: 443
+    password: "bwLa2026x9KpQzRt7Nv"
+    cipher: "aes-256-gcm"

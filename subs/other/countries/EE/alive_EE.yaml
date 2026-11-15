@@ -1,20 +1,6 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: eecdn.fius.dev
-    port: 443
-    uuid: "00018846-513b-6e3b-5301-9c9ff2d375a3"
-    network: "xhttp"
-    servername: "eecdn.fius.dev"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api-test"
-      host: "eecdn.fius.dev"
-      mode: "packet-up"
-  - name: "🇪🇪 [BL] Сервер 2"
-    type: vless
     server: 141.0.187.239
     port: 11443
     uuid: "d5651570-bfab-44d8-abd0-60496f548e2a"
@@ -27,20 +13,34 @@ proxies:
     reality-opts:
       public-key: "4Zzm9Ac34AEy-3PcT_T6UWvRJLnZvmEnvwmRLRc0328"
       short-id: "e5d7a4874e7e74d4"
-  - name: "🇪🇪 [BL] Сервер 3"
+  - name: "🇪🇪 [BL] Сервер 2"
     type: vless
-    server: 185.155.55.2
-    port: 8443
-    uuid: "5c09e56b-f97f-4360-8f01-eb4d39202095"
+    server: 141.0.187.237
+    port: 11443
+    uuid: "d5651570-bfab-44d8-abd0-60496f548e2a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ee-nf.reddotcorp.org"
+    servername: "141.0.187.20"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE"
-      short-id: "661766b2bcef440a"
+      public-key: "hEf0Dx035SZMYkAAst1XKk-a2qNeCx78HKoKHvvEiHE"
+      short-id: "fac7f49ce084bb51"
+  - name: "🇪🇪 [BL] Сервер 3"
+    type: vless
+    server: 31.77.236.131
+    port: 443
+    uuid: "02655447-4659-41df-8d0e-d23a3035b7cb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ee.nebulaguard.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OjB-nOB0_ebRS3ZUo8RS68vzup_1OKjpjIZimXaRvXU"
+      short-id: "d3c6409a7b0dae17"
   - name: "🇪🇪 [BL] Сервер 4"
     type: vless
     server: 201.8.71.252
@@ -57,6 +57,50 @@ proxies:
       short-id: "d61fdf9e283664b8"
   - name: "🇪🇪 [BL] Сервер 5"
     type: vless
+    server: 89.106.88.45
+    port: 443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee45.own-homelab.cloud"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 89.106.88.23
+    port: 24443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "89.106.88.23"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lFAcvEGy50KHahvVt5uWfGcOk7p2_yRUklSllkOTnTQ"
+      short-id: "758cac321d150ad8"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: ee45.own-homelab.cloud
+    port: 443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee45.own-homelab.cloud"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇪🇪 [BL] Сервер 8"
+    type: vless
     server: 185.155.55.11
     port: 8443
     uuid: "5c09e56b-f97f-4360-8f01-eb4d39202095"
@@ -69,9 +113,9 @@ proxies:
     reality-opts:
       public-key: "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE"
       short-id: "661766b2bcef440a"
-  - name: "🇪🇪 [BL] Сервер 6"
+  - name: "🇪🇪 [BL] Сервер 9"
     type: vless
-    server: ee.puflino.com
+    server: 185.155.55.2
     port: 8443
     uuid: "5c09e56b-f97f-4360-8f01-eb4d39202095"
     network: "tcp"
@@ -83,19 +127,3 @@ proxies:
     reality-opts:
       public-key: "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE"
       short-id: "661766b2bcef440a"
-  - name: "🇪🇪 [BL] Сервер 7"
-    type: vless
-    server: eee-1.aloranode.top
-    port: 10443
-    uuid: "b36a14f8-fc3f-4142-968f-48031cf5f330"
-    network: "xhttp"
-    servername: "eee-1.aloranode.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_8OfJZ6O4a1K7A0i7F7UQOwxm7GOv-nBSJCcU80Pc1A"
-      short-id: "21d6ff06b0c966a2"
-    xhttp-opts:
-      path: "/rcAkNmACuH0V/"
-      mode: "auto"
