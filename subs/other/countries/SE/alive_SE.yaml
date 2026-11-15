@@ -13,48 +13,7 @@ proxies:
     reality-opts:
       public-key: "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o"
       short-id: "b28db60d77c50b4f"
-  - name: "🇸🇪 [WL] Сервер 2"
-    type: vless
-    server: get.jarbook.net
-    port: 443
-    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
-  - name: "🇸🇪 [WL/CF] Сервер 3"
-    type: vless
-    server: 185.58.207.112
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"
-  - name: "🇸🇪 [BL] Сервер 4"
-    type: vless
-    server: yn-cdn1.fluxnode777.ru
-    port: 443
-    uuid: "e460e79d-5dd9-451d-8d1a-a84c8b70c9a7"
-    network: "xhttp"
-    servername: "yn-cdn1.fluxnode777.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      mode: "packet-up"
-  - name: "🇸🇪 [BL] Сервер 5"
+  - name: "🇸🇪 [BL] Сервер 2"
     type: vless
     server: 91.196.35.252
     port: 443
@@ -62,82 +21,12 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "msk-02.freegate.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "z1Z2yIWBdFlCT3ofwGNntS63c9VYZLrqTVTeURq7r2U"
-  - name: "🇸🇪 [BL] Сервер 6"
-    type: vless
-    server: 132.243.163.89
-    port: 443
-    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "3fb2b6t.se1.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
-      short-id: "1061f1b1cdaad3ad"
-  - name: "🇸🇪 [BL] Сервер 7"
-    type: vless
-    server: 132.243.163.114
-    port: 443
-    uuid: "07df3711-07a1-4649-9a61-3f16cb931d02"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "3fb2b6t.se2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
-      short-id: "1061f1b1cdaad3ad"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 201.8.64.238
-    port: 443
-    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "3fb2b6t.se1.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
-      short-id: "1061f1b1cdaad3ad"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: get.jarbook.net
-    port: 443
-    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
-  - name: "🇸🇪 [BL] Сервер 10"
-    type: vless
-    server: 84.32.154.73
-    port: 443
-    uuid: "dd5bed0b-ee77-481b-9f2c-250a632ddd9f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "get.jarbook.net"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs"
-      short-id: "c6f97313"
-  - name: "🇸🇪 [BL] Сервер 11"
+      public-key: "z1Z2yIWBdFlCT3ofwGNntS63c9VYZLrqTVTeURq7r2U"
+  - name: "🇸🇪 [BL] Сервер 3"
     type: vless
     server: 195.110.15.17
     port: 43000
@@ -151,7 +40,7 @@ proxies:
     reality-opts:
       public-key: "U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI"
       short-id: "8cfe1563"
-  - name: "🇸🇪 [BL] Сервер 12"
+  - name: "🇸🇪 [BL] Сервер 4"
     type: vless
     server: 136.148.213.96
     port: 443
@@ -162,7 +51,21 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇸🇪 [BL] Сервер 13"
+  - name: "🇸🇪 [BL] Сервер 5"
+    type: vless
+    server: 150.241.79.124
+    port: 443
+    uuid: "1fe01c8a-ab37-4e95-bbfc-95d4a608931e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "de1.waspnest.space"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM"
+      short-id: "5212dad2aa9723d7"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 31.77.18.220
     port: 443
@@ -175,7 +78,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
-  - name: "🇸🇪 [BL] Сервер 14"
+  - name: "🇸🇪 [BL] Сервер 7"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -188,7 +91,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
       grpc-mode: "gun"
-  - name: "🇸🇪 [BL] Сервер 15"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 141.227.160.61
     port: 8443
@@ -202,7 +105,7 @@ proxies:
     reality-opts:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: "6ba85179e30d4fc2"
-  - name: "🇸🇪 [BL] Сервер 16"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 150.241.75.103
     port: 443
@@ -215,50 +118,36 @@ proxies:
     tls: true
     reality-opts:
       public-key: "9fA6ZSGr6ZalzYDf0L_Tx1nQOZskdvLrqSN-Gzj4xEI"
-  - name: "🇸🇪 [BL] Сервер 17"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
-    server: riga.freegate.win
+    server: 196.196.149.34
     port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    uuid: "632cd343-1e8f-4bf6-a9a2-20ada1f6970f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "riga.freegate.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "9fA6ZSGr6ZalzYDf0L_Tx1nQOZskdvLrqSN-Gzj4xEI"
-  - name: "🇸🇪 [BL] Сервер 18"
-    type: vless
-    server: 31.76.3.34
-    port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
+    servername: "3fb2b6t.se1.h1clayd.click"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"
-  - name: "🇸🇪 [BL/CF] Сервер 19"
+      public-key: "XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA"
+      short-id: "1061f1b1cdaad3ad"
+  - name: "🇸🇪 [BL] Сервер 11"
     type: vless
-    server: 212.87.222.32
+    server: 136.148.213.149
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    network: "ws"
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
+    uuid: "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef"
+    network: "grpc"
+    servername: "362c1eg.se1.h1clayd.click"
+    client-fingerprint: "edge"
     udp: true
     tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp58.cc.cd"
-  - name: "🇸🇪 [BL] Сервер 20"
+    reality-opts:
+      public-key: "BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY"
+      short-id: "bee802ae4ab66496"
+  - name: "🇸🇪 [BL] Сервер 12"
     type: ss
-    server: 194.59.250.52
-    port: 18501
-    password: "517403753b63fd4fac88986bf98b11e0"
-    cipher: "aes-128-gcm"
+    server: 70.34.212.124
+    port: 8388
+    password: "AxIYWtskJWIIaefW"
+    cipher: "aes-256-gcm"

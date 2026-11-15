@@ -53,7 +53,20 @@ proxies:
     reality-opts:
       public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
       short-id: "e8daed2d"
-  - name: "🇭🇰 [BL/AI] Сервер 5"
+  - name: "🇭🇰 [BL] Сервер 5"
+    type: vless
+    server: 46.8.226.4
+    port: 443
+    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "hongkong.freegate.win"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
+  - name: "🇭🇰 [BL/AI] Сервер 6"
     type: vless
     server: 2.26.204.46
     port: 31001
@@ -67,43 +80,3 @@ proxies:
     reality-opts:
       public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
       short-id: "39793bc4708abbbb"
-  - name: "🇭🇰 [BL] Сервер 6"
-    type: vless
-    server: 46.8.226.4
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "hongkong.freegate.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
-  - name: "🇭🇰 [BL] Сервер 7"
-    type: vless
-    server: hongkong.freegate.win
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "hongkong.freegate.win"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "23_VHT4FYqho1mngpot4LnR0zlkvLO7gOZZTZ1aY5Wc"
-  - name: "🇭🇰 [BL/CF] Сервер 8"
-    type: vless
-    server: 103.42.180.146
-    port: 443
-    uuid: "0bb8b560-b056-4245-8b9d-231a0a78c54b"
-    network: "ws"
-    servername: "vip.freevpn.cloudns.biz"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/0bb8b560-b056-4245-8b9d-231a0a78c54b?ed=2048"
-      headers:
-        Host: "vip.freevpn.cloudns.biz"

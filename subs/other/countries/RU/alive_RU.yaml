@@ -1,59 +1,17 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 81.163.22.103
+    server: 200.169.179.233
     port: 443
-    uuid: "c49d53e0-c593-0001-8381-85ad9f2d2644"
-    network: "tcp"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 81.163.22.103
-    port: 443
-    uuid: "4cf8c450-4c25-0001-98e2-77be0db3cb7a"
-    network: "tcp"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 3"
-    type: vless
-    server: 81.163.22.103
-    port: 443
-    uuid: "421c7c3a-2f00-0001-8393-5b07c2f93c9c"
-    network: "tcp"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: 81.163.22.103
-    port: 443
-    uuid: "0de652e1-cf14-0001-9556-37a6e9848571"
-    network: "tcp"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
-    server: 212.233.90.78
-    port: 443
-    uuid: "9548ef84-b54d-41dc-b17c-9da21d52ba82"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "birch-ledger.justext.space"
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
     client-fingerprint: "ios"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ"
-      short-id: "2c6df23e"
-  - name: "🇷🇺 [WL] Сервер 6"
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 129.101.98.60
     port: 443
@@ -67,33 +25,7 @@ proxies:
     reality-opts:
       public-key: "lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4"
       short-id: "3992cc7fb9fcbe58"
-  - name: "🇷🇺 [WL] Сервер 7"
-    type: vless
-    server: msc1.serverslocal.ru
-    port: 443
-    uuid: "63750169-12e0-4e82-8749-2139594524b7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "msc1.serverslocal.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk"
-      short-id: "f7e66e308136e1a1"
-  - name: "🇷🇺 [WL] Сервер 8"
-    type: vless
-    server: 200.169.179.233
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 9"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
     server: 45.151.70.116
     port: 443
@@ -106,7 +38,7 @@ proxies:
     reality-opts:
       public-key: "O-B_Lb2sUV9VaUIv0_d6gVMA20oSKEd1wwyZ5vJYvh8"
       short-id: "836c3060"
-  - name: "🇷🇺 [WL] Сервер 10"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 201.24.121.243
     port: 443
@@ -118,8 +50,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "vlgrpc"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL] Сервер 11"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 201.24.116.192
     port: 443
@@ -131,7 +62,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 12"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 201.51.12.98
     port: 443
