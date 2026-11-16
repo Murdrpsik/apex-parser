@@ -30,6 +30,20 @@ proxies:
       mode: "auto"
   - name: "🇰🇿 [BL] Сервер 3"
     type: vless
+    server: 48.102.216.65
+    port: 443
+    uuid: "3fc29b36-3ec4-4b77-b8e8-ff0dbf7d3530"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ed-ru1.dotinfo.cfd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "E8gtZB7-juQ3AZAivptjwUqQZYTdGV3kfZgPwoEVkQE"
+      short-id: "69d2bbb45d2895d8"
+  - name: "🇰🇿 [BL] Сервер 4"
+    type: vless
     server: 38.107.234.57
     port: 8443
     uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
@@ -39,7 +53,7 @@ proxies:
     tls: true
     ws-opts:
       path: "/vless/"
-  - name: "🇰🇿 [BL] Сервер 4"
+  - name: "🇰🇿 [BL] Сервер 5"
     type: vless
     server: 109.248.170.119
     port: 13447
@@ -52,3 +66,18 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
+  - name: "🇰🇿 [BL] Сервер 6"
+    type: vless
+    server: 179.254.175.165
+    port: 2087
+    uuid: "3fc29b36-3ec4-4b77-b8e8-ff0dbf7d3530"
+    network: "grpc"
+    servername: "ed-ru2.dotinfo.cfd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "myKCYPkRjfEowHH9LPEkGLehaf_SGbAj4UeAhr6d_GY"
+      short-id: "28fb50ec2bbcc420"
+    grpc-opts:
+      grpc-service-name: "grpc"

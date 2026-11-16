@@ -1,33 +1,89 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 141.0.187.239
-    port: 11443
-    uuid: "d5651570-bfab-44d8-abd0-60496f548e2a"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "141.0.187.22"
+    server: eecdn.fius.dev
+    port: 443
+    uuid: "00018846-513b-6e3b-5301-9c9ff2d375a3"
+    network: "xhttp"
+    servername: "eecdn.fius.dev"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "4Zzm9Ac34AEy-3PcT_T6UWvRJLnZvmEnvwmRLRc0328"
-      short-id: "e5d7a4874e7e74d4"
+    xhttp-opts:
+      path: "/api-test"
+      host: "eecdn.fius.dev"
+      mode: "packet-up"
   - name: "🇪🇪 [BL] Сервер 2"
     type: vless
-    server: 141.0.187.237
-    port: 11443
-    uuid: "d5651570-bfab-44d8-abd0-60496f548e2a"
+    server: 185.223.171.1
+    port: 443
+    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "141.0.187.20"
+    servername: "ee1.gofizzin.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "hEf0Dx035SZMYkAAst1XKk-a2qNeCx78HKoKHvvEiHE"
-      short-id: "fac7f49ce084bb51"
+      public-key: "z46-GwLD2TvzK2o95okMP7IMNPUfwYHmqt2JV6nJ03I"
+      short-id: "8c9f899dba63f6c7"
   - name: "🇪🇪 [BL] Сервер 3"
+    type: vless
+    server: 89.106.88.126
+    port: 443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee126.own-homelab.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇪🇪 [BL] Сервер 4"
+    type: vless
+    server: 89.106.88.25
+    port: 443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee25.own-homelab.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇪🇪 [BL] Сервер 5"
+    type: vless
+    server: 89.106.88.12
+    port: 443
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee12.own-homelab.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 188.255.236.19
+    port: 443
+    uuid: "e3453410-191b-48b5-b37f-aac745bbfa6b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "188.255.236.19"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 7"
     type: vless
     server: 31.77.236.131
     port: 443
@@ -41,7 +97,40 @@ proxies:
     reality-opts:
       public-key: "OjB-nOB0_ebRS3ZUo8RS68vzup_1OKjpjIZimXaRvXU"
       short-id: "d3c6409a7b0dae17"
-  - name: "🇪🇪 [BL] Сервер 4"
+  - name: "🇪🇪 [BL] Сервер 8"
+    type: vless
+    server: 188.255.236.23
+    port: 443
+    uuid: "e3453410-191b-48b5-b37f-aac745bbfa6b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "188.255.236.23"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 9"
+    type: vless
+    server: 178.130.46.226
+    port: 443
+    uuid: "3619ae0e-bd3a-458c-bb0a-c0479019d9ec"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "serv1.fishtohome.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 10"
+    type: vless
+    server: 188.255.236.21
+    port: 443
+    uuid: "e3453410-191b-48b5-b37f-aac745bbfa6b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "188.255.236.21"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 11"
     type: vless
     server: 201.8.71.252
     port: 443
@@ -55,51 +144,59 @@ proxies:
     reality-opts:
       public-key: "pteJNuYbBCnVSyhYPlDbR9UZHIrnFzgAlsZGDNbwSD0"
       short-id: "d61fdf9e283664b8"
-  - name: "🇪🇪 [BL] Сервер 5"
+  - name: "🇪🇪 [BL] Сервер 12"
     type: vless
-    server: 89.106.88.45
+    server: 132.243.66.247
     port: 443
-    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
-    network: "grpc"
-    servername: "ee45.own-homelab.cloud"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
-      short-id: "05c0787b9357f4a8"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇪🇪 [BL] Сервер 6"
-    type: vless
-    server: 89.106.88.23
-    port: 24443
-    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    uuid: "a88d4614-2134-404c-9479-6aba1ca9cdfd"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "89.106.88.23"
+    servername: "70480at.ee3.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "lFAcvEGy50KHahvVt5uWfGcOk7p2_yRUklSllkOTnTQ"
-      short-id: "758cac321d150ad8"
-  - name: "🇪🇪 [BL] Сервер 7"
+      public-key: "pteJNuYbBCnVSyhYPlDbR9UZHIrnFzgAlsZGDNbwSD0"
+      short-id: "d61fdf9e283664b8"
+  - name: "🇪🇪 [BL] Сервер 13"
     type: vless
-    server: ee45.own-homelab.cloud
+    server: 87.232.116.22
     port: 443
-    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
     network: "grpc"
-    servername: "ee45.own-homelab.cloud"
-    client-fingerprint: "edge"
+    servername: "fafeqdhlett2p5la6d.cdn.cachefleet.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "67h2o3erm0t9imsj"
+  - name: "🇪🇪 [BL] Сервер 14"
+    type: vless
+    server: 87.232.116.20
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "fafeqdhlett2p5la6d.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "67h2o3erm0t9imsj"
+  - name: "🇪🇪 [BL] Сервер 15"
+    type: vless
+    server: 141.0.187.228
+    port: 11443
+    uuid: "f7e79ddc-5bf0-4bc3-9506-0120bdca37a2"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "141.0.187.228"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
-      short-id: "05c0787b9357f4a8"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇪🇪 [BL] Сервер 8"
+      public-key: "GPz7dacpjZ5iHT5pbZfYap1vpyt85mNKV7BVW3R92hE"
+      short-id: "26ca0f0ba115925d"
+  - name: "🇪🇪 [BL] Сервер 16"
     type: vless
     server: 185.155.55.11
     port: 8443
@@ -113,7 +210,7 @@ proxies:
     reality-opts:
       public-key: "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE"
       short-id: "661766b2bcef440a"
-  - name: "🇪🇪 [BL] Сервер 9"
+  - name: "🇪🇪 [BL] Сервер 17"
     type: vless
     server: 185.155.55.2
     port: 8443
