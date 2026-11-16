@@ -13,3 +13,17 @@ proxies:
     reality-opts:
       public-key: "ReJYDmhM_L7Y-MzRirsSfUF5ohG-uY9qXGvp6T-ySHs"
       short-id: "82bea5d7"
+  - name: "🇲🇽 [BL] Сервер 2"
+    type: vless
+    server: jiang.jiangniao.de
+    port: 443
+    uuid: "5c5f4a6d-decf-466b-8358-2a0fc2d7a734"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.amazon.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ReJYDmhM_L7Y-MzRirsSfUF5ohG-uY9qXGvp6T-ySHs"
+      short-id: "82bea5d7"

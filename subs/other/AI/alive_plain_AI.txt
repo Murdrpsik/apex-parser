@@ -1,16 +1,10 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.187.19:443?encryption=none&type=grpc&security=reality&sni=claude.ai&pbk=8DvFATJSO5Rp-CglhKDOFKR8Mt4TGI2cMFyZIn5XtGM&sid=19ab12d0f0ce5167&fp=firefox&serviceName=s488b2d205d9be425583f#🇨🇭 [AI] Сервер 1
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.187.18:443?encryption=none&type=grpc&security=reality&sni=api.openai.com&pbk=659Fu5_n4Vq58ZBdLCGbZqFRjhznGRonhTqN-ctC9i0&sid=7f34211a1db26412&fp=chrome&serviceName=s9d8c0a4b24dfc7d63774#🇨🇭 [AI] Сервер 2
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.138.144:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.perplexity.ai&pbk=wl1ARE6kNcaMafWfjS5Wb7X8gr0vuVDtwdTfqKtrZnI&sid=6f132a95d2842aa0&fp=firefox#🇨🇭 [AI] Сервер 3
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.138.147:443?encryption=none&type=grpc&security=reality&sni=claude.ai&pbk=k_R-Vs8S-kBNpZmutqC7OVSO9p2ZuLB4AKPi8z5Xqjc&sid=8eaf2e317d86a0a6&fp=firefox&serviceName=s764bdc2f3a313a1806ce#🇨🇭 [AI] Сервер 4
-vless://8f9c04c9-5c94-495e-9452-ab8b7a8af1bc@153.80.179.111:443?encryption=none&flow=xtls-rprx-vision&pbk=B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c&security=reality&sni=france.freegate.win&type=tcp&fp=chrome#🇫🇷 [AI] Сервер 5
-vless://7d63243c-983e-44db-a1b8-13dc3fd6f7a2@n2.baterium.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdnjs.com&fp=qq&pbk=mg2MoLpb8B51aZiko_nW2SBRoaudv-O6HLHx8VYP7Do&type=tcp#🇳🇱 [AI] Сервер 6
-vless://59ed8211-2293-41a5-8996-cf72fe05f4b0@171.22.133.24:443?flow=xtls-rprx-vision&security=reality&sni=171.22.133.24.sslip.io&fp=firefox&pbk=RByCaPnWH40eXtHFQWc4EESPgYo8cK8SEWhJY_ztqAA&sid=15a05013365bc50a&encryption=none&type=tcp#🇩🇪 [AI] Сервер 7
-vless://dcf2b1c4-f99f-4319-b917-37af1e7233c8@188.124.54.30:26460?encryption=none&flow=xtls-rprx-vision&security=reality&sni=github.com&fp=qq&pbk=A4QCDy3wYj97TWce3coZVfEnfcq2uNiG9RGJc1UMJ3o&sid=16d73aa276c14c08&type=tcp#🇫🇷 [AI] Сервер 8
-vless://8c2d8960-ee85-427d-9653-191d905d21e5@189.24.107.174:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.cloudflare.com&pbk=gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ&sid=8b36e9b7b3&fp=edge#🇩🇪 [AI] Сервер 9
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.138.146:443?security=reality&sni=chat.deepseek.com&fp=firefox&pbk=NHkASezjpfX7xOQ1hBJzrziILeW8Tbi7Y49072LPunw&sid=d897d06cd65ef494&type=grpc&serviceName=s6c67504ac5acd8919e0c&encryption=none#🇨🇭 [AI] Сервер 10
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.187.16:443?security=reality&sni=chat.deepseek.com&fp=firefox&pbk=-xRQ097EP_10oRhOU6tuwRwRBBiDqRsPjB0IHIW0xhI&sid=1aea40c56a2b92b2&type=grpc&serviceName=s3b8c5f214f5cf1ba482e&encryption=none#🇨🇭 [AI] Сервер 11
-vless://e3453410-191b-48b5-b37f-aac745bbfa6b@179.43.187.17:443?security=reality&sni=chat.deepseek.com&fp=firefox&pbk=xsNWxje0_1edRJQrX74RdIuxgeFIW2bh9CsbGjihexE&sid=46cd0658d9dc70ba&type=grpc&serviceName=s3df015a48a64b37019c5&encryption=none#🇨🇭 [AI] Сервер 12
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6M05Cc25CTGFuUGZHNmkzUzJHVEhpbmVzd3I2RWVTSlBiMFBDZU1Rb0dvQT0@47.85.201.22:443#🇩🇪 [AI] Сервер 13
-ss://YWVzLTI1Ni1nY206YndMYTIwMjZ4OUtwUXpSdDdOdg@104.36.66.212:443#🇺🇸 [AI] Сервер 14
+vless://ba9ac05e-422e-421e-a46b-a4c111a29946@lt.3apes.online:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=lt.3apes.online&pbk=q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ&fp=chrome#🇱🇻 [AI] Сервер 1
+vless://8f9c04c9-5c94-495e-9452-ab8b7a8af1bc@153.80.179.111:443?encryption=none&flow=xtls-rprx-vision&pbk=B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c&security=reality&sni=france.freegate.win&type=tcp&fp=chrome#🇫🇷 [AI] Сервер 2
+vless://59ed8211-2293-41a5-8996-cf72fe05f4b0@171.22.133.24:443?flow=xtls-rprx-vision&security=reality&sni=171.22.133.24.sslip.io&fp=firefox&pbk=RByCaPnWH40eXtHFQWc4EESPgYo8cK8SEWhJY_ztqAA&sid=15a05013365bc50a&encryption=none&type=tcp#🇩🇪 [AI] Сервер 3
+vless://ba9ac05e-422e-421e-a46b-a4c111a29946@195.133.80.198:443?encryption=none&type=grpc&security=reality&sni=optim.tildacdn.pub&pbk=unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE&fp=chrome&serviceName=ebl#🇵🇱 [AI] Сервер 4
+vless://de1971aa-9ad9-42ad-bfda-11301863402c@185.125.100.85:13391?encryption=none&security=reality&sni=it.nvidia.com&fp=chrome&pbk=1d3wBy06ikFHZRPWh6Xj30U-iV84HRwWJ_SlWewqvDA&sid=f63c7a903d282de4&spx=%2F5e8b01754de5f0d&type=grpc&mode=gun#🇬🇧 [AI] Сервер 5
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6M05Cc25CTGFuUGZHNmkzUzJHVEhpbmVzd3I2RWVTSlBiMFBDZU1Rb0dvQT0@47.85.201.22:443#🇩🇪 [AI] Сервер 6
+ss://YWVzLTI1Ni1nY206YndMYTIwMjZ4OUtwUXpSdDdOdg@104.36.66.212:443#🇺🇸 [AI] Сервер 7
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKVVhzeTc4ZFNzNlJPa2FzaWttb2FM@104.238.140.45:11051#🇺🇸 [AI] Сервер 8

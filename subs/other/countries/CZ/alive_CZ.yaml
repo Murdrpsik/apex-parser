@@ -42,9 +42,22 @@ proxies:
       short-id: "8a9442353eebbe0f"
     xhttp-opts:
       path: "/49b9f446"
-      host: "czechia.richforever.ru"
       mode: "auto"
   - name: "🇨🇿 [BL] Сервер 4"
+    type: vless
+    server: 153.52.69.249
+    port: 443
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cache-78.topp-con.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U"
+      short-id: "d5492c7a39515c65"
+  - name: "🇨🇿 [BL] Сервер 5"
     type: vless
     server: 212.102.38.25
     port: 443

@@ -1,18 +1,18 @@
 proxies:
   - name: "🇰🇷 [BL] Сервер 1"
     type: vless
-    server: 200.102.183.152
+    server: 13.125.5.180
     port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    uuid: "7e68e32f-8015-4f37-9082-70e8b0b58043"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "cedar-tide.cdn.cachefleet.com"
-    client-fingerprint: "firefox"
+    servername: "epubmaker.co.kr"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "sp_KKjJjc7cyVd8jkaPNfRtB9UxyZT6CfF62uYqcMlI"
-      short-id: "69828f96b0fcc801"
+      public-key: "DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE"
+      short-id: "e04a526b0b09c765"
   - name: "🇰🇷 [BL] Сервер 2"
     type: vless
     server: 151.245.106.49

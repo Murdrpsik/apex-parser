@@ -1,28 +1,33 @@
 proxies:
-  - name: "🇮🇳 [WL/CF] Сервер 1"
-    type: trojan
-    server: 103.111.114.87
-    port: 443
-    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
-    sni: "likejennie.pages.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    ws-opts:
-      path: "/"
-  - name: "🇮🇳 [BL] Сервер 2"
+  - name: "🇮🇳 [BL] Сервер 1"
     type: vless
-    server: 160.250.225.125
+    server: 89.106.88.27
     port: 443
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "in1.gofizz.in"
-    client-fingerprint: "firefox"
+    uuid: "0ed9418b-e687-4c2d-8869-7e368c44887e"
+    network: "grpc"
+    servername: "ee27.own-homelab.cloud"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "dxn64xOdehUxUEkdfVwkQEk3D3hzzcFaHGH8FBH92WM"
-      short-id: "66d7936a"
+      public-key: "4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs"
+      short-id: "05c0787b9357f4a8"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇮🇳 [BL] Сервер 2"
+    type: vless
+    server: 13.140.253.35
+    port: 443
+    uuid: "06a5afa1-2bbc-a5d1-1770-becd1089c636"
+    network: "ws"
+    servername: "xray-dmr3b3hy-calm-maple-7.cloady.io"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/0175469f14317d82"
+      headers:
+        Host: "xray-dmr3b3hy-calm-maple-7.cloady.io"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
     server: 194.61.31.126
@@ -63,29 +68,15 @@ proxies:
       short-id: "7ff98efcced3fd5b"
   - name: "🇮🇳 [BL] Сервер 6"
     type: vless
-    server: 217.60.148.152
+    server: 160.250.225.125
     port: 443
-    uuid: "dadf78d3-5cc9-453f-a3e6-2f0826a59c68"
+    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "in.static-s3.org"
-    client-fingerprint: "chrome"
+    servername: "in1.gofizz.in"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk"
-      short-id: "159246753f750720"
-  - name: "🇮🇳 [BL] Сервер 7"
-    type: vless
-    server: 5.253.42.164
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
+      public-key: "dxn64xOdehUxUEkdfVwkQEk3D3hzzcFaHGH8FBH92WM"
+      short-id: "66d7936a"

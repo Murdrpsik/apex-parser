@@ -1,6 +1,20 @@
 proxies:
   - name: "🇦🇲 [WL] Сервер 1"
     type: vless
+    server: 88.218.92.185
+    port: 443
+    uuid: "128ce9ab-63bc-48dc-92ca-1b5426a9eb46"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sadas.jugoslavija.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "0L0a22tcISNd3pY2Le6DS9vrW1ughjmzhjj5ec8iBHo"
+      short-id: "a51a6973d7d358d6"
+  - name: "🇦🇲 [WL] Сервер 2"
+    type: vless
     server: 178.160.228.139
     port: 443
     uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
@@ -13,16 +27,3 @@ proxies:
     reality-opts:
       public-key: "1DFPjPAr5meUaXBdTX2WMZu9BWV39TXV5N36Ske6_A0"
       short-id: "a7df9e0cde3e1d79"
-  - name: "🇦🇲 [WL/CF] Сервер 2"
-    type: vless
-    server: 88.218.92.157
-    port: 8443
-    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
-    network: "ws"
-    servername: "v2n4.11676767.xyz"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/resource/topicsfp=chrome"
-      headers:
-        Host: "v2n4.11676767.xyz"
