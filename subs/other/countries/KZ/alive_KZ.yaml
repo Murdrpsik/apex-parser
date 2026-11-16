@@ -15,21 +15,25 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
-    server: 38.107.234.57
-    port: 8443
-    uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
-    network: "ws"
-    servername: "3h-kazakhstan1.09vpn.com"
+    server: 109.176.91.71
+    port: 443
+    uuid: "e40b2b8e-492b-4982-aaaf-59e76c52a7fe"
+    network: "grpc"
+    servername: "convertvideo123.online"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    ws-opts:
-      path: "/vless/"
+    reality-opts:
+      public-key: "ShvQpPeRKOsn1ltJxM5lB_gqizQb1cO0Hun966gQ8Qo"
+      short-id: "97095278707c1fc5"
+    grpc-opts:
+      grpc-service-name: "simplegrpc"
   - name: "🇰🇿 [BL] Сервер 3"
     type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "tcp"
+    network: "raw"
     servername: "yahoo.com"
     client-fingerprint: "chrome"
     udp: true

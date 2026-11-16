@@ -1,73 +1,229 @@
 proxies:
-  - name: "🇱🇻 [AI] Сервер 1"
+  - name: "🇸🇪 [AI] Сервер 1"
     type: vless
-    server: lt.3apes.online
+    server: 185.86.145.78
     port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lt.3apes.online"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"
-  - name: "🇫🇷 [AI] Сервер 2"
-    type: vless
-    server: 153.80.179.111
-    port: 443
-    uuid: "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "france.freegate.win"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c"
-  - name: "🇩🇪 [AI] Сервер 3"
-    type: vless
-    server: 171.22.133.24
-    port: 443
-    uuid: "59ed8211-2293-41a5-8996-cf72fe05f4b0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "171.22.133.24.sslip.io"
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
+    network: "grpc"
+    servername: "emberworks.cloud"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "RByCaPnWH40eXtHFQWc4EESPgYo8cK8SEWhJY_ztqAA"
-      short-id: "15a05013365bc50a"
-  - name: "🇵🇱 [AI] Сервер 4"
+      public-key: "2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4"
+      short-id: "ea322b8b5b015812"
+  - name: "🇸🇪 [AI] Сервер 2"
     type: vless
-    server: 195.133.80.198
+    server: 185.134.201.254
     port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
     network: "grpc"
-    servername: "optim.tildacdn.pub"
+    servername: "tidalcore.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "U5oHsZbfXVvUqPS2G5lrM3lrEtDVvdxlSloHkO6cf0Y"
+      short-id: "30ed95"
+  - name: "🇺🇸 [AI] Сервер 3"
+    type: ss
+    server: 185.215.132.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇳🇱 [AI] Сервер 4"
+    type: vless
+    server: 185.86.145.223
+    port: 9449
+    uuid: "96c760c3-6949-4a00-b603-16173b9b1a66"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tmuk1.trust.rumost.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VB9m1gQWzJWBXa49PMVGKkI94KN0XRCpC1BSpQP7yzk"
+      short-id: "0cc15b71a8a6a380"
+  - name: "🇩🇪 [AI] Сервер 5"
+    type: vless
+    server: 194.55.239.51
+    port: 443
+    uuid: "df03600f-f20a-4b8c-955c-cdcf96b1a4b2"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "7xncdn.shardtech.pro"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "exMJ2DIglSgZ7Ly4qR83kRJs6RGzVk-qJMg7Qz-kCRs"
+      short-id: "55901e05c3d5dfd3"
+  - name: "🇩🇪 [AI] Сервер 6"
+    type: vless
+    server: cdn372.whitenw.net
+    port: 12443
+    uuid: "b9abca13-8d45-43db-b0a2-4d26f85380c3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "catalog.mimowhat.online"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "HyJQdnrodVK1USi-VyOC_pIvy1Ploj4Kf7kpO0vopSo"
+      short-id: "78c8c6801d59cc19"
+  - name: "🇩🇪 [AI] Сервер 7"
+    type: vless
+    server: 18.202.245.83
+    port: 443
+    uuid: "fad6c240-14d0-47ce-9264-21c5f18689c1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.amazon.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZODw0ijKEfbSpHjvQqTyYzsbLpnlnA3j9Io5PfmZ-Ts"
+  - name: "🇩🇪 [AI] Сервер 8"
+    type: vless
+    server: asure.win
+    port: 443
+    uuid: "b9abca13-8d45-43db-b0a2-4d26f85380c3"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "asure.win"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "hWCFExEaWdK89gLmGDQagZd2mlwOWLTcx38DlyNeShQ"
+      short-id: "de1d5c00b48cb395"
+  - name: "🇩🇪 [AI] Сервер 10"
+    type: vless
+    server: 212.87.190.195
+    port: 443
+    uuid: "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef"
+    network: "grpc"
+    servername: "a566d1g.de18.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "C_DlyXDDS4fWcAlxb-6O7LBKtq28fg2slCrH5tPaTQ4"
+      short-id: "16cea10606a4e401"
+    grpc-opts:
+      grpc-service-name: "98b9c56e8ebb"
+  - name: "🇱🇹 [AI] Сервер 11"
+    type: vless
+    server: 84.32.83.197
+    port: 443
+    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
+    network: "tcp"
+    servername: "api-dns-gw.galioncc.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "a7d309e4c16b825f"
+  - name: "🇺🇸 [AI] Сервер 12"
+    type: vless
+    server: 107.181.112.160
+    port: 44182
+    uuid: "c35b9b9c-cba2-43d2-8d6f-318f5f344d40"
+    network: "tcp"
+    servername: "support-sit.amd.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE"
-    grpc-opts:
-      grpc-service-name: "ebl"
-  - name: "🇩🇪 [AI] Сервер 6"
+      public-key: "3Ylz8oBK3R6XyRHN6gAJpwnND_HOR8AFr2nQSmDJ6io"
+      short-id: "ad0d661c"
+  - name: "🇭🇰 [AI] Сервер 13"
+    type: vless
+    server: 9e5f5c4b-tomdc0-tpolhi-1rgxu.hk2.hyhuawei.com
+    port: 443
+    uuid: "ea93064c-176c-11f0-885d-f23c91cfbbc9"
+    network: "tcp"
+    servername: "download.windowsupdate.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo"
+  - name: "🇲🇽 [AI] Сервер 14"
+    type: vless
+    server: 40.233.23.236
+    port: 63245
+    uuid: "f1506bf6-7d4c-427f-b053-05e0f1b43a04"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU"
+      short-id: "1f2519bb96e5589c"
+  - name: "🇨🇦 [AI] Сервер 15"
+    type: ss
+    server: 51.79.64.198
+    port: 8119
+    password: "cdBIDV42DCwnfIN"
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 16"
+    type: ss
+    server: 185.230.230.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 17"
+    type: ss
+    server: 38.121.43.231
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 18"
+    type: ss
+    server: 38.145.220.193
+    port: 8443
+    password: "jUbDNsFamcyDfpm+rI3Zyw=="
+    cipher: "2022-blake3-aes-128-gcm"
+  - name: "🇩🇪 [AI] Сервер 19"
     type: ss
     server: 47.85.201.22
     port: 443
     password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
     cipher: "2022-blake3-chacha20-poly1305"
-  - name: "🇺🇸 [AI] Сервер 7"
+  - name: "🇺🇸 [AI] Сервер 20"
     type: ss
-    server: 104.36.66.212
-    port: 443
-    password: "bwLa2026x9KpQzRt7Nv"
+    server: 38.91.107.19
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 8"
+  - name: "🇺🇸 [AI] Сервер 21"
     type: ss
-    server: 104.238.140.45
-    port: 11051
-    password: "JUXsy78dSs6ROkasikmoaL"
+    server: 156.146.38.170
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [AI] Сервер 22"
+    type: ss
+    server: 167.88.63.39
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 23"
+    type: ss
+    server: 193.151.160.9
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 24"
+    type: ss
+    server: 23.230.52.119
+    port: 42878
+    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
     cipher: "chacha20-ietf-poly1305"

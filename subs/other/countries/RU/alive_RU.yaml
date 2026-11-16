@@ -1,19 +1,33 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 46.243.233.170
-    port: 2053
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    server: 94.228.117.93
+    port: 443
+    uuid: "ceab5251-eaa3-4a2f-bdd4-ce9df24d9edd"
     network: "xhttp"
-    servername: "windytrout.net"
+    servername: "login.alfatrud.ru"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     xhttp-opts:
-      path: "/api/v1/upload"
-      host: "windytrout.net"
-      mode: "auto"
+      path: "/api/stream/"
+      host: "login.alfatrud.ru"
+      mode: "packet-up"
   - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 95.129.236.216
+    port: 443
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "crm.hourtley.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/video/ffmpeg"
+      headers:
+        Host: "crm.hourtley.com"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
     server: 129.101.98.60
     port: 443
@@ -21,75 +35,53 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ru7e2bab87cc39.eu-cdn539.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4"
+      short-id: "3992cc7fb9fcbe58"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: ru7e2bab87cc39.eu-cdn539.com
+    port: 443
+    uuid: "e75ad2eb-6c1f-45ce-8023-f5f10875df66"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4"
       short-id: "3992cc7fb9fcbe58"
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 87.228.56.39
+    server: 201.24.121.243
     port: 443
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ru4.gofizzin.com"
+    uuid: "32b5ca9b-3f81-4031-965d-e8b074216e8d"
+    network: "grpc"
+    servername: "kk-ru24a1.testkknegr.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "vlgrpc"
+  - name: "🇷🇺 [WL] Сервер 6"
+    type: vless
+    server: 201.24.121.243
+    port: 443
+    uuid: "32b5ca9b-3f81-4031-965d-e8b074216e8d"
+    network: "grpc"
+    servername: "kk-ru24a1.testkknegr.online"
     client-fingerprint: "ios"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "e39H8hQXcwfiUnkUOmG0JkBTX5VCxaBQ3_EWEj9PZRc"
-      short-id: "e938e26c4425"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: 161.104.38.107
-    port: 443
-    uuid: "d67ead25-b5d4-002e-b2fc-839ea07adcec"
-    network: "xhttp"
-    servername: "redbarn.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yY6BKckWhkJ4r_5raufIumhtWHJIvqdPD7YFnznodlA"
-      short-id: "6d06f5e94bbedd56"
-    xhttp-opts:
-      path: "/upload"
-  - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
-    server: 77.223.110.99
-    port: 443
-    uuid: "d67ead25-b5d4-002e-b2fc-839ea07adcec"
-    network: "xhttp"
-    servername: "origin.bereza.cloud"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE"
-      short-id: "8d2b5a04b4bd88a5"
-    xhttp-opts:
-      path: "/assets"
-      mode: "auto"
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 77.223.110.99
-    port: 443
-    uuid: "d67ead25-b5d4-002e-b2fc-839ea07adcec"
-    network: "xhttp"
-    servername: "origin.bereza.cloud"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE"
-      short-id: "8d2b5a04b4bd88a5"
-    xhttp-opts:
-      path: "/assets"
+    grpc-opts:
+      grpc-service-name: "vlgrpc"
+      grpc-mode: "gun"
   - name: "🇷🇺 [WL] Сервер 7"
     type: vless
-    server: 200.169.179.233
+    server: 201.24.116.192
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -101,82 +93,55 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 8"
     type: vless
-    server: 212.41.8.76
-    port: 13443
-    uuid: "a628c583-24a8-4ce5-98ad-c6458abf1cc4"
+    server: 201.51.12.98
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
-    servername: "s3.storage.selcloud.ru"
-    client-fingerprint: "firefox"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "ios"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc"
-      short-id: "9de815e2"
     grpc-opts:
-      grpc-service-name: "grpc"
+      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 9"
     type: vless
-    server: 212.41.8.76
-    port: 13443
-    uuid: "a628c583-24a8-4ce5-98ad-c6458abf1cc4"
+    server: vps3.nemnogogo.com
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
-    servername: "s3.storage.selcloud.ru"
+    servername: "vps3.nemnogogo.com"
     client-fingerprint: "random"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc"
-      short-id: "9de815e2"
     grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
+      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 10"
     type: vless
-    server: 135.106.143.116
+    server: 200.169.179.233
     port: 443
-    uuid: "d67ead25-b5d4-002e-b2fc-839ea07adcec"
-    network: "xhttp"
-    servername: "upgradecraft.com"
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "YHPoUNxsml4z6pYt-7djOb1lqnBjxCk4-2mk84pveyc"
-      short-id: "bc0e11171a0edd80"
-    xhttp-opts:
-      path: "/static"
-      mode: "auto"
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 11"
     type: vless
-    server: 135.106.143.119
+    server: 85.208.87.222
     port: 443
-    uuid: "d67ead25-b5d4-002e-b2fc-839ea07adcec"
-    network: "xhttp"
-    servername: "erp.brafitting.ru"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I"
-      short-id: "9f51b3f72d9155ac"
-    xhttp-opts:
-      path: "/assets"
-      mode: "auto"
-  - name: "🇷🇺 [WL] Сервер 12"
-    type: vless
-    server: 147.45.47.101
-    port: 8443
-    uuid: "27f26dee-9cf1-4cca-93f8-9ac23d311408"
+    uuid: "e72f9cd6-9bd2-4aa4-bf99-be60d3dd4ad2"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "apple.com"
+    servername: "expressplitka.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
-  - name: "🇷🇺 [WL] Сервер 13"
+      public-key: "CYbTcIOofFh-MndCO9czg_mUjmS7x7wUCvUsg4GToTk"
+      short-id: "5a531684"
+  - name: "🇷🇺 [WL] Сервер 12"
     type: vless
     server: 37.235.247.81
     port: 8443
@@ -190,43 +155,7 @@ proxies:
     reality-opts:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: "6ba85179e30d4fc2"
-  - name: "🇷🇺 [WL] Сервер 14"
-    type: vless
-    server: 201.24.121.243
-    port: 443
-    uuid: "32b5ca9b-3f81-4031-965d-e8b074216e8d"
-    network: "grpc"
-    servername: "kk-ru24a1.testkknegr.online"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "vlgrpc"
-  - name: "🇷🇺 [WL] Сервер 15"
-    type: vless
-    server: 201.24.116.192
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 16"
-    type: vless
-    server: 201.51.12.98
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 17"
+  - name: "🇷🇺 [WL] Сервер 13"
     type: vless
     server: 185.231.204.244
     port: 443
@@ -239,3 +168,17 @@ proxies:
     tls: true
     reality-opts:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
+  - name: "🇷🇺 [WL] Сервер 14"
+    type: vless
+    server: 147.45.47.101
+    port: 8443
+    uuid: "27f26dee-9cf1-4cca-93f8-9ac23d311408"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"

@@ -1,57 +1,19 @@
 proxies:
-  - name: "🇱🇻 [WL/AI] Сервер 1"
+  - name: "🇱🇻 [BL] Сервер 1"
     type: vless
-    server: lt.3apes.online
+    server: 195.123.213.28
     port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
-    network: "tcp"
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "lt.3apes.online"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"
-  - name: "🇱🇻 [WL] Сервер 2"
-    type: vless
-    server: 185.81.129.21
-    port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lt.3apes.online"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"
-  - name: "🇱🇻 [WL] Сервер 3"
-    type: vless
-    server: 185.81.129.20
-    port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lite.3apes.online"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"
-  - name: "🇱🇻 [WL] Сервер 4"
-    type: vless
-    server: 185.81.129.197
-    port: 443
-    uuid: "ba9ac05e-422e-421e-a46b-a4c111a29946"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lites.3apes.online"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ"
-  - name: "🇱🇻 [BL] Сервер 5"
+      public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
+      short-id: "5c256336e3b673fa"
+  - name: "🇱🇻 [BL] Сервер 2"
     type: vless
     server: 138.124.180.137
     port: 443
@@ -65,17 +27,3 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
-  - name: "🇱🇻 [BL] Сервер 6"
-    type: vless
-    server: 31.57.92.76
-    port: 3443
-    uuid: "bfadfcda-99eb-424a-af53-cabb4fbcb820"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "zynerio.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ZbtRq4SeR_WvLXiWXDael5FUqYG7uAkAGsFSIEyrQEw"
-      short-id: "8a907b3d6a7a4ed4"
