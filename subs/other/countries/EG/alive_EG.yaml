@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇲🇩 [BL] Сервер 1"
+  - name: "🇪🇬 [BL] Сервер 1"
     type: vless
-    server: 91.229.239.31
+    server: 41.196.0.128
     port: 443
     uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "md1.gofizzin.com"
+    servername: "eg1.gofizz.in"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "dB_0SVZC1kSyoO7HGojy4RX-xeT36JFMBYntBytwzTU"
-      short-id: "e09a99b8"
+      public-key: "tyklNbOfb-FctP-J1OQa1yUHPY9p4co70RyYuRe9nR8"
+      short-id: "f68db13f"

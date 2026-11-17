@@ -1,5 +1,5 @@
 #profile-title: Apex BG
 #profile-update-interval: 1
-vless://6589c320-db68-43cd-a273-b46299bab355@195.123.226.21:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo&sid=77bb0d07bddbc832&sni=gateway.icloud.com&encryption=none#🇧🇬 [BL] Сервер 1
-vless://f203fd20-2c61-4b6e-a8a7-75e9581e497b@187.54.4.43:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=LhcTGnqGTs7rJgD52NUKBWH3-mPJBdkMJKLmz-M4jnk&sid=486a1a9c7288b70e&sni=bg-adapt.static-s3.org&encryption=none#🇧🇬 [BL] Сервер 2
-vless://a66c53b7-4ac7-4d61-abd7-42fade426123@131.123.41.146:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=yabs.yandex.ru&pbk=QBdNaEKW772qSR7mxLOS0d7HUOWPV2Ek3Ku8ju53vWw&sid=70e44abe428e676c&fp=firefox#🇧🇬 [BL] Сервер 3
+vless://a66c53b7-4ac7-4d61-abd7-42fade426123@131.123.41.146:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=yabs.yandex.ru&pbk=QBdNaEKW772qSR7mxLOS0d7HUOWPV2Ek3Ku8ju53vWw&sid=70e44abe428e676c&fp=firefox#🇧🇬 [WL] Сервер 1
+vless://6589c320-db68-43cd-a273-b46299bab355@195.123.226.21:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=gateway.icloud.com&fp=chrome&pbk=rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo&sid=77bb0d07bddbc832#🇧🇬 [BL] Сервер 2
+vless://37af0181-5598-4aad-a040-d926bcb65757@plaindune.com:8443?encryption=none&type=xhttp&security=tls&sni=plaindune.com&fp=firefox&alpn=h2%2Chttp%2F1.1&path=%2Fapi%2Fv1%2Fupload&host=plaindune.com&mode=auto#🇧🇬 [BL] Сервер 3

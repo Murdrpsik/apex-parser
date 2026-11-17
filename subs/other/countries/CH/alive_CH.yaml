@@ -1,43 +1,47 @@
 proxies:
   - name: "🇨🇭 [BL] Сервер 1"
     type: vless
-    server: 85.155.183.228
-    port: 443
-    uuid: "1157d3c2-58a6-4b34-8d8e-9a66b0a97379"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "node-sw1.ainsight.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HiYyQ8Crfz_F945a8exFTWSH_5zjoR0kqhry2-8Obhk"
-      short-id: "0faff85d8a8ae779"
-  - name: "🇨🇭 [BL] Сервер 2"
-    type: vless
-    server: 91.214.190.127
-    port: 443
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ch1.gofizzin.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "3fcmILwQG2sbwo58XW9Z1lziNQXmAFwUglFuXQFePRI"
-      short-id: "95da6299f1"
-  - name: "🇨🇭 [BL] Сервер 3"
-    type: vless
     server: 45.90.59.15
     port: 443
     uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "random"
     udp: true
     tls: true
     reality-opts:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
+  - name: "🇨🇭 [BL] Сервер 2"
+    type: vless
+    server: 201.10.91.216
+    port: 25035
+    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
+    network: "xhttp"
+    servername: "96f799r.ch5.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "m7pPQqgE5q8qOjHhn9AjNA9sWhBFQ-gXzyGcZTNihUU"
+      short-id: "eb63581de991f8c8"
+    xhttp-opts:
+      path: "/astral-edge-h1"
+      host: "ch5.h1cloud.net"
+  - name: "🇨🇭 [BL] Сервер 3"
+    type: vless
+    server: 132.243.67.239
+    port: 25035
+    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
+    network: "xhttp"
+    servername: "96f799r.ch5.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "m7pPQqgE5q8qOjHhn9AjNA9sWhBFQ-gXzyGcZTNihUU"
+      short-id: "eb63581de991f8c8"
+    xhttp-opts:
+      path: "/astral-edge-h1"
+      host: "96f799r.ch5.h1clayd.click"
