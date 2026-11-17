@@ -1,47 +1,29 @@
 proxies:
   - name: "🇦🇹 [BL] Сервер 1"
     type: vless
-    server: 50.7.115.244
+    server: 188.137.153.12
     port: 443
-    uuid: "49db4ce7-ad48-41a3-9b6f-4c6dabd94504"
-    network: "grpc"
-    servername: "gill.tarnfell.top"
+    uuid: "6cb43560-a676-4187-8c94-3df74be5d706"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "napecu.galardoxtn.ir"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
-      short-id: "00defa20"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
+      public-key: "tUpGwnxgFj9DJbLOQ2RiMO6oe_q7Cv0bhJMARLHeqkI"
+      short-id: "b18ce9b0074410"
   - name: "🇦🇹 [BL] Сервер 2"
     type: vless
-    server: 50.7.115.243
+    server: 66.90.106.210
     port: 443
-    uuid: "49db4ce7-ad48-41a3-9b6f-4c6dabd94504"
-    network: "grpc"
-    servername: "scree.rowanmere.top"
+    uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dash.syn2.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
-      short-id: "139a95f1"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇦🇹 [BL] Сервер 3"
-    type: vless
-    server: 50.7.115.245
-    port: 443
-    uuid: "49db4ce7-ad48-41a3-9b6f-4c6dabd94504"
-    network: "xhttp"
-    servername: "beck.mossgill.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Mwczt2QjgQo3q8N10PVx8bWNubwiNhgka5GvxUy-GHQ"
-      short-id: "53df2804"
-    xhttp-opts:
-      path: "/"
+      public-key: "2okfB1oMV1oQX1QZLbd_gQx4ZGtIDkP8KkELglZIBys"
+      short-id: "accded3297"

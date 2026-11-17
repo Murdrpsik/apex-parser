@@ -15,6 +15,20 @@ proxies:
       mode: "packet-up"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
+    server: 95.129.236.117
+    port: 443
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "cdn.dash.gearmonster.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/edge/node8/push"
+      headers:
+        Host: "cdn.dash.gearmonster.org"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
     server: 95.129.236.216
     port: 443
     uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
@@ -27,27 +41,14 @@ proxies:
       path: "/stream/video/ffmpeg"
       headers:
         Host: "crm.hourtley.com"
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 129.101.98.60
     port: 443
     uuid: "e75ad2eb-6c1f-45ce-8023-f5f10875df66"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "ru7e2bab87cc39.eu-cdn539.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4"
-      short-id: "3992cc7fb9fcbe58"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: ru7e2bab87cc39.eu-cdn539.com
-    port: 443
-    uuid: "e75ad2eb-6c1f-45ce-8023-f5f10875df66"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
     client-fingerprint: "chrome"
     udp: true
     tls: true
@@ -73,7 +74,7 @@ proxies:
     uuid: "32b5ca9b-3f81-4031-965d-e8b074216e8d"
     network: "grpc"
     servername: "kk-ru24a1.testkknegr.online"
-    client-fingerprint: "ios"
+    client-fingerprint: "random"
     udp: true
     tls: true
     grpc-opts:
@@ -81,7 +82,7 @@ proxies:
       grpc-mode: "gun"
   - name: "🇷🇺 [WL] Сервер 7"
     type: vless
-    server: 201.24.116.192
+    server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -93,7 +94,7 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 8"
     type: vless
-    server: 201.51.12.98
+    server: 201.24.116.192
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -105,47 +106,48 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 9"
     type: vless
-    server: vps3.nemnogogo.com
+    server: 201.51.12.98
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
     servername: "vps3.nemnogogo.com"
-    client-fingerprint: "random"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 10"
     type: vless
-    server: 200.169.179.233
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 11"
-    type: vless
-    server: 85.208.87.222
-    port: 443
-    uuid: "e72f9cd6-9bd2-4aa4-bf99-be60d3dd4ad2"
+    server: 37.235.247.81
+    port: 8443
+    uuid: "2ae0670d-0bdf-409e-9a55-4e970252d378"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "expressplitka.ru"
+    servername: "apple.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "CYbTcIOofFh-MndCO9czg_mUjmS7x7wUCvUsg4GToTk"
-      short-id: "5a531684"
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 94.139.250.226
+    port: 443
+    uuid: "a30903dc-1bf0-0001-8b1b-603a3a56211c"
+    network: "tcp"
+    servername: "net-api-ctl.galioncc.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "6d2f8a41c9e705b3"
   - name: "🇷🇺 [WL] Сервер 12"
     type: vless
-    server: 37.235.247.81
+    server: 147.45.47.101
     port: 8443
-    uuid: "2ae0670d-0bdf-409e-9a55-4e970252d378"
+    uuid: "27f26dee-9cf1-4cca-93f8-9ac23d311408"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "apple.com"
@@ -170,15 +172,15 @@ proxies:
       public-key: "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw"
   - name: "🇷🇺 [WL] Сервер 14"
     type: vless
-    server: 147.45.47.101
-    port: 8443
-    uuid: "27f26dee-9cf1-4cca-93f8-9ac23d311408"
+    server: 193.124.33.149
+    port: 443
+    uuid: "01a1e565-380d-7802-8137-2fcfc5d3e1e9"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "apple.com"
+    servername: "rus-04.samigo.cc"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
+      public-key: "5gxxf-4Em4l620r7KaDipVm1A5d2fs2mI8lVJTczfSY"
+      short-id: "af08286bddca467f"

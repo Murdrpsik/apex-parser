@@ -18,11 +18,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "badd40a5-534f-48a3-92e1-6dd7a88ad102"
+    uuid: "8ee01f2b-76ce-4a4c-aa3c-b39ad83f56d7"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"
-    client-fingerprint: "firefox"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
@@ -36,7 +36,7 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ar1.gofizz.in"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:

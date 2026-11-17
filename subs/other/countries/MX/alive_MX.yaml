@@ -1,5 +1,5 @@
 proxies:
-  - name: "🇲🇽 [BL/AI] Сервер 1"
+  - name: "🇲🇽 [BL] Сервер 1"
     type: vless
     server: 40.233.23.236
     port: 63245
