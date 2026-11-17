@@ -1,5 +1,31 @@
 proxies:
-  - name: "🇷🇺 [AI] Сервер 1"
+  - name: "🇺🇸 [AI] Сервер 1"
+    type: ss
+    server: 185.215.132.9
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 2"
+    type: ss
+    server: 185.215.132.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇫🇮 [AI] Сервер 3"
+    type: vless
+    server: 109.71.245.99
+    port: 443
+    uuid: "f09ca6e3-c547-4f91-95f5-77f34c4282ac"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
+      short-id: "c27a26812e5d2208"
+  - name: "🇷🇺 [AI] Сервер 4"
     type: vless
     server: 158.160.144.108
     port: 7443
@@ -13,38 +39,83 @@ proxies:
     reality-opts:
       public-key: "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw"
       short-id: "7755e972daf8eec8"
-  - name: "🇫🇷 [AI] Сервер 2"
+  - name: "🇪🇸 [AI] Сервер 5"
     type: vless
-    server: 31.129.42.97
-    port: 8443
-    uuid: "7a8f716f-37ee-4af3-84c3-67e9a1b17d08"
-    network: "grpc"
-    servername: "i0.photo.2gis.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "WV58fGQd270mAtuAYhep9LXoVKTI0kiF4rCRaXAumWc"
-      short-id: "16ee3a5f0387c553"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇩🇪 [AI] Сервер 3"
-    type: vless
-    server: 188.225.79.10
-    port: 443
-    uuid: "c55f65ef-3be3-477a-a646-94c3ccec1604"
+    server: 158.160.252.53
+    port: 9087
+    uuid: "483c6187-3c8d-436b-8413-536c2c87b70c"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
+    servername: "www.ao-esp.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "85RCMJFwNRqdmhejfM7cOVEK6RvB6WaaJbCYtbgBuis"
-      short-id: "1082c05da2311d1f"
-  - name: "🇨🇦 [AI] Сервер 4"
+      public-key: "5S0IjHKArxnN6ouXT78ntKOa-54ApcN6jMtLqyCqY3c"
+      short-id: "ecaba2fd"
+  - name: "🇩🇪 [AI] Сервер 6"
+    type: vless
+    server: 217.78.237.118
+    port: 8443
+    uuid: "483c6187-3c8d-436b-8413-536c2c87b70c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "gcsp.ch"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA"
+      short-id: "d90cf6b5"
+  - name: "🇹🇷 [AI] Сервер 8"
+    type: vless
+    server: 206.1.103.79
+    port: 2053
+    uuid: "555092f6-d7b4-4b95-b081-1d346bc795f2"
+    network: "xhttp"
+    servername: "addons.mozilla.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "q10MdqZeXG2I1vBPF2HjYiZhXteOkR8q_7g2zr24Hy4"
+      short-id: "1bcc6b16bc0f2ef3"
+    xhttp-opts:
+      path: "/ai"
+      mode: "auto"
+  - name: "🇨🇦 [AI] Сервер 10"
     type: ss
-    server: 198.100.154.175
-    port: 8080
-    password: "3h3hb2gptqz6suyt"
-    cipher: "chacha20-ietf-poly1305"
+    server: 51.79.64.198
+    port: 8119
+    password: "cdBIDV42DCwnfIN"
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 11"
+    type: ss
+    server: 185.230.230.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 12"
+    type: ss
+    server: 38.121.43.231
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 13"
+    type: ss
+    server: 38.145.220.193
+    port: 8443
+    password: "jUbDNsFamcyDfpm+rI3Zyw=="
+    cipher: "2022-blake3-aes-128-gcm"
+  - name: "🇺🇸 [AI] Сервер 14"
+    type: ss
+    server: 162.251.62.31
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 15"
+    type: ss
+    server: 38.91.107.19
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"

@@ -7,7 +7,7 @@ proxies:
     network: "raw"
     flow: "xtls-rprx-vision"
     servername: "yandex.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -26,7 +26,21 @@ proxies:
     reality-opts:
       public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
       short-id: "a7c92e4b10d6f835"
-  - name: "🇸🇪 [WL] Сервер 3"
+  - name: "🇸🇪 [WL/CF] Сервер 3"
+    type: vless
+    server: 92.223.84.254
+    port: 443
+    uuid: "740b2630-b42d-425c-bacd-37e7e30d78f1"
+    network: "ws"
+    servername: "subgift.gcorecdn.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/t.me-SubGift"
+      headers:
+        Host: "subgift.gcorecdn.com"
+  - name: "🇸🇪 [WL] Сервер 4"
     type: vless
     server: 88.216.214.159
     port: 443
@@ -39,7 +53,20 @@ proxies:
     reality-opts:
       public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
       short-id: "a7c92e4b10d6f835"
-  - name: "🇸🇪 [BL] Сервер 4"
+  - name: "🇸🇪 [BL] Сервер 5"
+    type: vless
+    server: 195.206.235.122
+    port: 443
+    uuid: "3ede439b-410f-4eae-b449-4e15064c0706"
+    network: "grpc"
+    servername: "362c1eg.se1.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY"
+      short-id: "bee802ae4ab66496"
+  - name: "🇸🇪 [BL] Сервер 6"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -52,7 +79,23 @@ proxies:
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
       grpc-mode: "gun"
-  - name: "🇸🇪 [BL] Сервер 5"
+  - name: "🇸🇪 [BL] Сервер 7"
+    type: vless
+    server: 83.141.79.127
+    port: 8443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    network: "xhttp"
+    servername: "video.study.golangwikito.cfd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+    xhttp-opts:
+      path: "/"
+      host: "fl-b2.golangwikito.cfd"
+      mode: "packet-up"
+  - name: "🇸🇪 [BL] Сервер 8"
     type: vless
     server: 150.241.87.52
     port: 443
@@ -65,7 +108,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
-  - name: "🇸🇪 [BL] Сервер 6"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 143.246.195.46
     port: 443
@@ -79,31 +122,29 @@ proxies:
     reality-opts:
       public-key: "453QgfqoHVVQ-M7xjfH-bUu0HXz1mdWGuR3vNoBoeCM"
       short-id: "4e1682"
-  - name: "🇸🇪 [BL] Сервер 7"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
-    server: 136.148.215.248
-    port: 25191
-    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
-    network: "xhttp"
-    servername: "a8687er.se2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
-      short-id: "55328e423218ee9b"
-    xhttp-opts:
-      path: "/astral-edge-h1"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: 89.125.234.224
+    server: 136.148.219.87
     port: 443
-    uuid: "3ede439b-410f-4eae-b449-4e15064c0706"
-    network: "grpc"
-    servername: "362c1eg.se1.h1clayd.click"
+    uuid: "4cf2635f-400a-4556-bb66-645990da5fe1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "batista.chickenkiller.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY"
-      short-id: "bee802ae4ab66496"
+      public-key: "W_Gh2SipeptUT6nDrxghHTWJRx4Je0A0VWEa3GZZmDc"
+  - name: "🇸🇪 [BL] Сервер 11"
+    type: vless
+    server: 2.26.101.102
+    port: 443
+    uuid: "df97ce68-477f-4484-94c7-79eccab7319d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "swd2.angelsleep9.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NDaFo-4WjwhCA2OJKiLhvek2U2D7F-lqJi0-SUfFTEk"

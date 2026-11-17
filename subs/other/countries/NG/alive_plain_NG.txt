@@ -1,0 +1,4 @@
+#profile-title: Apex NG
+#profile-update-interval: 1
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@16.106.7.232:20103?type=tcp&sni=hk.catxstar.com#🇳🇬 [BL] Сервер 1
+trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-00.catcat321.com:20103?type=tcp&sni=hk.catxstar.com#🇳🇬 [BL] Сервер 2

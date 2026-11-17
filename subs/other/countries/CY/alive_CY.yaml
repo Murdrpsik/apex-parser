@@ -26,3 +26,16 @@ proxies:
     xhttp-opts:
       path: "/media/e1c76c"
       mode: "auto"
+  - name: "🇨🇾 [BL] Сервер 3"
+    type: vless
+    server: 188.225.36.19
+    port: 443
+    uuid: "1032d6d6-3934-44fb-829a-1e109fde78d3"
+    network: "tcp"
+    flow: "xtls-rprx-vision-udp443"
+    servername: "sweden.b2ai.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "E04PLrATdE3UNicE4Ap8w5-yj-ZYutTKO0l-vAlYvEg"

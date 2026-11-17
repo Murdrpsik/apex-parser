@@ -1,15 +1,14 @@
 proxies:
   - name: "🇪🇬 [BL] Сервер 1"
     type: vless
-    server: 41.196.0.128
+    server: 48.103.120.22
     port: 443
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
+    uuid: "a30903dc-1bf0-0003-8b1b-603a3a56211c"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "eg1.gofizz.in"
+    servername: "svc-net-ctl.galioncc.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "tyklNbOfb-FctP-J1OQa1yUHPY9p4co70RyYuRe9nR8"
-      short-id: "f68db13f"
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "868419504747f6de"
