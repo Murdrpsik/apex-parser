@@ -1,14 +1,4 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-vless://88e79aa6-f431-4453-8dcc-652a0c747198@185.86.145.78:443?mode=gun&security=reality&encryption=none&pbk=2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4&fp=chrome&type=grpc&sni=emberworks.cloud&sid=ea322b8b5b015812#🇸🇪 [AI] Сервер 1
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 2
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 3
-vless://f09ca6e3-c547-4f91-95f5-77f34c4282ac@109.71.245.99:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.yandex.ru&pbk=zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU&sid=c27a26812e5d2208&fp=chrome#🇫🇮 [AI] Сервер 4
-vless://555092f6-d7b4-4b95-b081-1d346bc795f2@206.1.103.79:2053?type=xhttp&security=reality&fp=chrome&pbk=q10MdqZeXG2I1vBPF2HjYiZhXteOkR8q_7g2zr24Hy4&sid=1bcc6b16bc0f2ef3&sni=addons.mozilla.org&path=%2Fai&mode=auto&encryption=none#🇹🇷 [AI] Сервер 5
-vless://75131408-7eeb-413a-a3d8-a01fb66f3904@ce8c6253f2db06b0e25a4fcb.comcn.de:59999?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=amp.shazam.com&pbk=zZI7ClN4bmwLS1XqXJDoFxLUf9Zvl8IxL5QmvavF_BY&sid=bb3633c8&fp=safari#🇭🇰 [AI] Сервер 6
-ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@168.138.205.100:53758#🇯🇵 [AI] Сервер 7
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.230.230.18:19999#🇺🇸 [AI] Сервер 8
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@38.121.43.231:19999#🇺🇸 [AI] Сервер 9
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206alViRE5zRmFtY3lEZnBtK3JJM1p5dz09@38.145.220.193:8443#🇺🇸 [AI] Сервер 10
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@162.251.62.31:19999#🇺🇸 [AI] Сервер 11
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@38.91.107.19:19999#🇺🇸 [AI] Сервер 12
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 1
+vless://f09ca6e3-c547-4f91-95f5-77f34c4282ac@109.71.245.99:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.yandex.ru&pbk=zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU&sid=c27a26812e5d2208&fp=chrome#🇫🇮 [AI] Сервер 2
