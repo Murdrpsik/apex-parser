@@ -29,6 +29,19 @@ proxies:
       short-id: "7ff98efcced3fd5b"
   - name: "🇮🇳 [BL] Сервер 3"
     type: vless
+    server: in.smrtai.top
+    port: 443
+    uuid: "6bdc8320-7eae-46fc-be08-f5f54e65dfc8"
+    network: "raw"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
+      short-id: "6bdc8320"
+  - name: "🇮🇳 [BL] Сервер 4"
+    type: vless
     server: 178.212.35.198
     port: 443
     uuid: "6bdc8320-7eae-46fc-be08-f5f54e65dfc8"
@@ -40,3 +53,17 @@ proxies:
     reality-opts:
       public-key: "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q"
       short-id: "6bdc8320"
+  - name: "🇮🇳 [BL] Сервер 5"
+    type: vless
+    server: 217.60.148.133
+    port: 443
+    uuid: "e0decac3-1b3e-4ab1-a2a8-860a8aca76f6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "in.static-s3.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NrkCSLUDwoO-M5LD_oLdR_Ibd-W5YwA0qbirNy_KBTY"
+      short-id: "21e5d1abb95f4226"

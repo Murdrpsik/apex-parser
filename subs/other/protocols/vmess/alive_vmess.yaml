@@ -21,10 +21,47 @@ proxies:
     tls: true
   - name: "🇨🇦 [BL] Сервер 3"
     type: vmess
-    server: 23.162.200.198
+    server: 134.195.196.211
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    servername: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+  - name: "🇺🇸 [BL] Сервер 4"
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇺🇸 [BL] Сервер 5"
+    type: vmess
+    server: 67.220.85.46
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇸🇬 [BL] Сервер 6"
+    type: vmess
+    server: 149.88.23.202
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+  - name: "🇮🇩 [BL] Сервер 7"
+    type: vmess
+    server: support.zoom.us
+    port: 443
+    uuid: "4caf156a-3309-4105-8388-d388eb9e1105"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "zoomgov.nathaya.web.id"
+    tls: true
+    ws-opts:
+      path: "/whatever/vmess"
+      headers:
+        Host: "id2.nathaya.web.id"

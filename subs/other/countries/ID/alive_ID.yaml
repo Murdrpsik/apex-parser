@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇮🇩 [BL] Сервер 1"
+    type: vmess
+    server: support.zoom.us
+    port: 443
+    uuid: "4caf156a-3309-4105-8388-d388eb9e1105"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "zoomgov.nathaya.web.id"
+    tls: true
+    ws-opts:
+      path: "/whatever/vmess"
+      headers:
+        Host: "id2.nathaya.web.id"

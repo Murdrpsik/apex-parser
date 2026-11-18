@@ -1,17 +1,17 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
+  - name: "🇺🇸 [AI] Сервер 2"
     type: ss
     server: 185.215.132.9
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 2"
+  - name: "🇺🇸 [AI] Сервер 3"
     type: ss
     server: 185.215.132.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇫🇮 [AI] Сервер 3"
+  - name: "🇫🇮 [AI] Сервер 4"
     type: vless
     server: 109.71.245.99
     port: 443
@@ -25,49 +25,7 @@ proxies:
     reality-opts:
       public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
       short-id: "c27a26812e5d2208"
-  - name: "🇷🇺 [AI] Сервер 4"
-    type: vless
-    server: 158.160.144.108
-    port: 7443
-    uuid: "7a8f716f-37ee-4af3-84c3-67e9a1b17d08"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "i0.photo.2gis.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw"
-      short-id: "7755e972daf8eec8"
-  - name: "🇪🇸 [AI] Сервер 5"
-    type: vless
-    server: 158.160.252.53
-    port: 9087
-    uuid: "483c6187-3c8d-436b-8413-536c2c87b70c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.ao-esp.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "5S0IjHKArxnN6ouXT78ntKOa-54ApcN6jMtLqyCqY3c"
-      short-id: "ecaba2fd"
-  - name: "🇩🇪 [AI] Сервер 6"
-    type: vless
-    server: 217.78.237.118
-    port: 8443
-    uuid: "483c6187-3c8d-436b-8413-536c2c87b70c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "gcsp.ch"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA"
-      short-id: "d90cf6b5"
-  - name: "🇹🇷 [AI] Сервер 8"
+  - name: "🇹🇷 [AI] Сервер 5"
     type: vless
     server: 206.1.103.79
     port: 2053
@@ -83,37 +41,51 @@ proxies:
     xhttp-opts:
       path: "/ai"
       mode: "auto"
-  - name: "🇨🇦 [AI] Сервер 10"
+  - name: "🇭🇰 [AI] Сервер 6"
+    type: vless
+    server: ce8c6253f2db06b0e25a4fcb.comcn.de
+    port: 59999
+    uuid: "75131408-7eeb-413a-a3d8-a01fb66f3904"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "amp.shazam.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zZI7ClN4bmwLS1XqXJDoFxLUf9Zvl8IxL5QmvavF_BY"
+      short-id: "bb3633c8"
+  - name: "🇯🇵 [AI] Сервер 7"
     type: ss
-    server: 51.79.64.198
-    port: 8119
-    password: "cdBIDV42DCwnfIN"
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 11"
+    server: 168.138.205.100
+    port: 53758
+    password: "Bwlqh7GcFB"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [AI] Сервер 8"
     type: ss
     server: 185.230.230.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 12"
+  - name: "🇺🇸 [AI] Сервер 9"
     type: ss
     server: 38.121.43.231
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 13"
+  - name: "🇺🇸 [AI] Сервер 10"
     type: ss
     server: 38.145.220.193
     port: 8443
     password: "jUbDNsFamcyDfpm+rI3Zyw=="
     cipher: "2022-blake3-aes-128-gcm"
-  - name: "🇺🇸 [AI] Сервер 14"
+  - name: "🇺🇸 [AI] Сервер 11"
     type: ss
     server: 162.251.62.31
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 15"
+  - name: "🇺🇸 [AI] Сервер 12"
     type: ss
     server: 38.91.107.19
     port: 19999

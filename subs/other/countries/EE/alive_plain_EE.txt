@@ -1,7 +1,4 @@
 #profile-title: Apex EE
 #profile-update-interval: 1
-vless://a346c521-7a7f-452b-9356-a4893feb5982@178.130.46.188:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=nl16-r.bankai.party&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&fp=qq#🇪🇪 [BL] Сервер 1
-vless://a346c521-7a7f-452b-9356-a4893feb5982@178.130.46.182:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=al1-r.bankai.party&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&fp=qq#🇪🇪 [BL] Сервер 2
-vless://5f1c2e83-d4aa-4f10-81e9-e0ccc018974c@94.183.239.64:443?encryption=none&fp=firefox&pbk=CEPjmMZbtepvPjcZmM8sBeyw8-IoCF71lBR2msK_2zY&security=reality&serviceName=cdn.v2.AssetSync&sid=6705f73a5a1e0aca&sni=94.183.239.64&type=grpc#🇪🇪 [BL] Сервер 3
-vless://5f1c2e83-d4aa-4f10-81e9-e0ccc018974c@79.98.37.146:443?encryption=none&fp=firefox&pbk=CEPjmMZbtepvPjcZmM8sBeyw8-IoCF71lBR2msK_2zY&security=reality&serviceName=cdn.v2.AssetSync&sid=6705f73a5a1e0aca&sni=79.98.37.146&type=grpc#🇪🇪 [BL] Сервер 4
-vless://240af353-dccb-4cf6-a2d5-01457bb6fbb7@5.1.40.71:2083?security=tls&sni=onecloudstream.com&alpn=http%2F1.1&fp=firefox&type=ws&path=%2Fvless-ws&encryption=none#🇪🇪 [BL] Сервер 5
+vless://a346c521-7a7f-452b-9356-a4893feb5982@178.130.46.182:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=al1-r.bankai.party&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&fp=qq#🇪🇪 [BL] Сервер 1
+vless://a346c521-7a7f-452b-9356-a4893feb5982@178.130.46.188:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=nl16-r.bankai.party&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&fp=qq#🇪🇪 [BL] Сервер 2
