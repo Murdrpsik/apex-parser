@@ -1,3 +1,0 @@
-#profile-title: Apex UZ
-#profile-update-interval: 1
-vless://f18c5f6d-2bac-4a99-8c92-a6e6e7aea9b4@193.202.113.45:443?flow=xtls-rprx-vision&security=reality&sni=edge-uk2.mystatic-cdn.ru&fp=edge&pbk=65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI&sid=ee169e93d3c277a1&encryption=none&type=tcp#🇺🇿 [BL] Сервер 1

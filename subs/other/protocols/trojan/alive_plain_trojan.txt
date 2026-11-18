@@ -27,8 +27,3 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=f
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?sni=findtemporaryworkandfreelancerprojectsonlineplatform.com&type=tcp&fp=chrome#🇧🇷 [WL] Сервер 25
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?type=tcp&security=tls&sni=learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com#🇺🇸 [WL] Сервер 26
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?sni=learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com&type=tcp&fp=chrome#🇺🇸 [WL] Сервер 27
-trojan://NA5R1-QqMC0EuauLzGjbU3_hPuGm9n7V@178.250.243.54:443?security=tls&sni=fre.nexyonn.com&alpn=h2&fp=firefox&type=grpc&serviceName=trgrpc#🌐 [WL] Сервер 28
-trojan://NA5R1-QqMC0EuauLzGjbU3_hPuGm9n7V@178.250.243.206:443?security=tls&sni=fre.nexyonn.com&alpn=h2&fp=firefox&type=grpc&serviceName=trgrpc#🌐 [WL] Сервер 29
-trojan://NA5R1-QqMC0EuauLzGjbU3_hPuGm9n7V@178.250.243.190:443?security=tls&sni=fre.nexyonn.com&alpn=h2&fp=firefox&type=grpc&serviceName=trgrpc#🌐 [WL] Сервер 30
-trojan://NA5R1-QqMC0EuauLzGjbU3_hPuGm9n7V@178.250.243.197:443?security=tls&sni=fre.nexyonn.com&alpn=h2&fp=firefox&type=grpc&serviceName=trgrpc#🌐 [WL] Сервер 31
-trojan://NA5R1-QqMC0EuauLzGjbU3_hPuGm9n7V@178.250.243.230:443?security=tls&sni=fre.nexyonn.com&alpn=h2&fp=firefox&type=grpc&serviceName=trgrpc#🌐 [WL] Сервер 32
