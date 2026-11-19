@@ -1,34 +1,6 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 80.79.121.155
-    port: 443
-    uuid: "31e407b3-6e1e-425f-98ea-fcf8f494c6a0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "archive-eu-west.livemusic.ac"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "x9HClr5eRPhMPuBIndkjqFU_0D0M-p4sJVAxuTP68kM"
-      short-id: "dcfad1cc10d0d15b"
-  - name: "🇪🇪 [BL] Сервер 2"
-    type: vless
-    server: 5.129.202.80
-    port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "mirror-50.topp-con.xyz"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
-      short-id: "2ef2b10d5143d798"
-  - name: "🇪🇪 [BL] Сервер 3"
-    type: vless
     server: 178.130.46.188
     port: 443
     uuid: "a346c521-7a7f-452b-9356-a4893feb5982"

@@ -13,15 +13,30 @@ proxies:
     reality-opts:
       public-key: "zICjcFkqI720WzWpHXRLjSFYmcu4Hd0jk1iDEo1nUAU"
       short-id: "c27a26812e5d2208"
-  - name: "🇷🇺 [AI] Сервер 2"
-    type: ss
-    server: 48.103.218.241
-    port: 18443
-    password: "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 3"
-    type: ss
-    server: 15.204.247.175
-    port: 8008
-    password: "XKFKl2rULjIp74"
-    cipher: "aes-256-gcm"
+  - name: "🇱🇹 [AI] Сервер 2"
+    type: vless
+    server: 138.124.9.201
+    port: 8443
+    uuid: "74af70c0-bea7-4412-9a1a-f7eab9c91ef8"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "admin.mistral.ai"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "-rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q"
+      short-id: "4d3affb557796d1c"
+  - name: "🇳🇱 [AI] Сервер 3"
+    type: vless
+    server: 72.56.38.83
+    port: 443
+    uuid: "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "absolute-disaster.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8"
