@@ -1,31 +1,18 @@
 proxies:
   - name: "🇸🇪 [WL] Сервер 1"
     type: vless
-    server: 193.163.203.170
+    server: 88.216.72.172
     port: 443
-    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o"
-      short-id: "b28db60d77c50b4f"
-  - name: "🇸🇪 [WL] Сервер 2"
-    type: vless
-    server: 88.216.60.73
-    port: 443
-    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
+    uuid: "31e407b3-6e1e-425f-98ea-fcf8f494c6a0"
     network: "tcp"
-    servername: "ns-api-gw.galioncc.com"
-    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+    servername: "video.gifmems.com"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "a7c92e4b10d6f835"
+      public-key: "0MrhgrveImRyxFaC9Q11Mm4-oN38uFlFFt4UnmGrxRo"
+      short-id: "041a595c72d82db0"
   - name: "🇸🇪 [WL] Сервер 3"
     type: vless
     server: 88.216.214.159
@@ -41,6 +28,22 @@ proxies:
       short-id: "a7c92e4b10d6f835"
   - name: "🇸🇪 [WL] Сервер 4"
     type: vless
+    server: 85.92.157.67
+    port: 5443
+    uuid: "67864856-8730-40cc-9e1a-a0df697d912b"
+    network: "xhttp"
+    servername: "sw.krabvpn.pro"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "YWaSbf7NwwCZNuB3cQ_VCF20mUwWJBcfMysIZN4j6mI"
+      short-id: "7a8c9b0e1d2f3456"
+    xhttp-opts:
+      path: "/assets/f9c8d7e6a5b4c3d2e1f02468"
+      mode: "auto"
+  - name: "🇸🇪 [WL] Сервер 5"
+    type: vless
     server: 88.216.189.192
     port: 443
     uuid: "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6"
@@ -52,7 +55,20 @@ proxies:
     tls: true
     reality-opts:
       public-key: "1VhM5R3IlHPjzxEeTuik1lcUad-HI6C57MzXxppyXg4"
-  - name: "🇸🇪 [WL/CF] Сервер 5"
+  - name: "🇸🇪 [WL] Сервер 6"
+    type: vless
+    server: 88.216.60.73
+    port: 443
+    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
+    network: "tcp"
+    servername: "ns-api-gw.galioncc.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
+      short-id: "a7c92e4b10d6f835"
+  - name: "🇸🇪 [WL/CF] Сервер 7"
     type: vless
     server: 92.223.84.254
     port: 443
@@ -66,30 +82,20 @@ proxies:
       path: "/t.me-SubGift"
       headers:
         Host: "subgift.gcorecdn.com"
-  - name: "🇸🇪 [WL] Сервер 6"
+  - name: "🇸🇪 [WL/CF] Сервер 8"
     type: vless
-    server: 37.9.4.62
-    port: 443
-    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
-    network: "grpc"
-    servername: "360.yandex.ru"
+    server: 185.237.219.224
+    port: 8443
+    uuid: "bf14dc50-e9f2-49fd-8642-620446edeafb"
+    network: "ws"
+    servername: "v5-4b5.pages.dev"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "vP4XeQ-z8LYtkSz1SCAxRMAEPreaHspoXm2nt0okQVw"
-      short-id: "c7674e"
-  - name: "🇸🇪 [BL] Сервер 8"
-    type: vless
-    server: lodizu.hagrid-connected.com
-    port: 443
-    uuid: "beda6bd0-7ce4-477a-91f1-860d018dbfcb"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lodizu.hagrid-connected.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "v5-4b5.pages.dev"
   - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 138.124.86.230
@@ -118,49 +124,42 @@ proxies:
       public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
   - name: "🇸🇪 [BL] Сервер 11"
     type: vless
-    server: 132.243.66.243
-    port: 25191
-    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
+    server: 191.217.206.147
+    port: 443
+    uuid: "0b22812b-4a79-42b1-93ec-5b157b0f2f7f"
     network: "xhttp"
-    servername: "a8687er.se2.h1clayd.click"
+    servername: "sw.krabvpn.pro"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
-      short-id: "55328e423218ee9b"
+      public-key: "YWaSbf7NwwCZNuB3cQ_VCF20mUwWJBcfMysIZN4j6mI"
+      short-id: "7a8c9b0e1d2f3456"
     xhttp-opts:
-      path: "/astral-edge-h1"
+      path: "/assets/f9c8d7e6a5b4c3d2e1f02468"
       mode: "auto"
   - name: "🇸🇪 [BL] Сервер 12"
     type: vless
-    server: 136.148.213.211
-    port: 25191
-    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
-    network: "xhttp"
-    servername: "a8687er.se2.h1clayd.click"
+    server: 31.76.3.34
+    port: 443
+    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "tradingview.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
-      short-id: "55328e423218ee9b"
-    xhttp-opts:
-      path: "/astral-edge-h1"
-      host: "se2.h1cloud.net"
-      mode: "stream-one"
+      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
+      short-id: "8a2b3c4d5e6f7012"
   - name: "🇸🇪 [BL] Сервер 13"
     type: vless
-    server: 179.254.127.50
-    port: 25191
-    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
-    network: "xhttp"
-    servername: "a8687er.se2.h1clayd.click"
+    server: 103.177.249.143
+    port: 443
+    uuid: "beda6bd0-7ce4-477a-91f1-860d018dbfcb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lodizu.hagrid-connected.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
-      short-id: "55328e423218ee9b"
-    xhttp-opts:
-      path: "/astral-edge-h1"

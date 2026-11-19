@@ -1,18 +1,14 @@
 proxies:
-  - name: "🇮🇳 [BL] Сервер 1"
-    type: vless
-    server: 5.253.42.164
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
+  - name: "🇮🇳 [WL/CF] Сервер 1"
+    type: trojan
+    server: 103.111.114.87
+    port: 443
+    password: "f426d3c9-fb43-43c0-868b-898dfa451a74"
+    sni: "likejennie.pages.dev"
+    client-fingerprint: "chrome"
     udp: true
-    tls: true
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
+    ws-opts:
+      path: "/"
   - name: "🇮🇳 [BL] Сервер 2"
     type: vless
     server: 148.113.5.22
