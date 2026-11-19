@@ -13,16 +13,29 @@ proxies:
       path: "/t.me-SubGift"
       headers:
         Host: "subgift.gcorecdn.com"
-  - name: "🇩🇪 [CF] Сервер 2"
+  - name: "🇷🇺 [CF] Сервер 2"
     type: vless
-    server: 2.26.251.236
+    server: tochkacdn.top
     port: 443
-    uuid: "c16e8cdb-65dd-4049-bc65-14c051b8a6c6"
+    uuid: "ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454"
+    network: "ws"
+    servername: "unlik.club"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/static/telemetry/3c9aaef00005/"
+      headers:
+        Host: "tochkacdn.top"
+  - name: "🇩🇪 [CF] Сервер 3"
+    type: vless
+    server: 31.59.179.215
+    port: 443
+    uuid: "83d8aaef-2f30-4e10-b338-6c77d19633f1"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "mental-deprivation.ru"
+    servername: "dl-cdn.alpinelinux.org"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-      short-id: "4ff31b18d1bd8227"
+      public-key: "wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28"

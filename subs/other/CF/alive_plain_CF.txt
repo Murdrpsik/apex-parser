@@ -1,4 +1,5 @@
 #profile-title: Apex CF
 #profile-update-interval: 1
 vless://740b2630-b42d-425c-bacd-37e7e30d78f1@92.223.84.254:443?encryption=none&type=ws&host=subgift.gcorecdn.com&path=%2Ft.me-SubGift&security=tls&sni=subgift.gcorecdn.com&fp=chrome#🇸🇪 [CF] Сервер 1
-vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mental-deprivation.ru&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&sid=4ff31b18d1bd8227&type=tcp&headerType=none#🇩🇪 [CF] Сервер 2
+vless://ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454@tochkacdn.top:443?encryption=none&type=ws&security=tls&sni=unlik.club&fp=firefox&alpn=http%2F1.1&path=%2Fstatic%2Ftelemetry%2F3c9aaef00005%2F&host=tochkacdn.top#🇷🇺 [CF] Сервер 2
+vless://83d8aaef-2f30-4e10-b338-6c77d19633f1@31.59.179.215:443?security=reality&fp=firefox&pbk=wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28&sni=dl-cdn.alpinelinux.org&encryption=none&type=tcp#🇩🇪 [CF] Сервер 3
