@@ -1,7 +1,27 @@
 proxies:
-  - name: "🇨🇦 [AI] Сервер 1"
+  - name: "🇺🇸 [AI] Сервер 1"
     type: ss
-    server: 192.99.151.230
+    server: 185.215.132.9
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇫🇷 [AI] Сервер 2"
+    type: vless
+    server: 138.124.9.201
+    port: 8443
+    uuid: "74af70c0-bea7-4412-9a1a-f7eab9c91ef8"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "codestral.mistral.ai"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "-93ZD_5l99Hu0HDdHsPWrjV07UCNQiQ2PRAGqIC4Xgg"
+      short-id: "5b3ef653ee33b49a"
+  - name: "🇨🇦 [AI] Сервер 3"
+    type: ss
+    server: 184.107.106.77
     port: 8388
     password: "itzvpn@321"
     cipher: "aes-256-gcm"

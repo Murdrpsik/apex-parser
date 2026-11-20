@@ -1,0 +1,30 @@
+proxies:
+  - name: "🇳🇴 [WL] Сервер 1"
+    type: vless
+    server: 188.225.82.103
+    port: 443
+    uuid: "6f26b457-eb8d-0001-b2a2-8574214309fa"
+    network: "tcp"
+    servername: "nmrhj-ru-wl-82tw.my-fade.cloud"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇳🇴 [WL] Сервер 2"
+    type: vless
+    server: 188.225.82.103
+    port: 443
+    uuid: "c26b5ab8-2f94-0001-8afe-8c02f2341ad0"
+    network: "tcp"
+    servername: "nmrhj-ru-wl-82tw.my-fade.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇳🇴 [WL] Сервер 3"
+    type: vless
+    server: 168.113.252.11
+    port: 443
+    uuid: "8973e4a5-1c15-0001-abc7-60fb180063ea"
+    network: "tcp"
+    servername: "jkawq-ru-45sb.fade.mom"
+    udp: true
+    tls: true

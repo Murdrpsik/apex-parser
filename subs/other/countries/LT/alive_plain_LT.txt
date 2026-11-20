@@ -1,0 +1,4 @@
+#profile-title: Apex LT
+#profile-update-interval: 1
+vless://88e79aa6-f431-4453-8dcc-652a0c747198@88.216.70.125:443?encryption=none&fp=chrome&host=o685y.save-node.com&path=%2Fapi%2Fse1k2rfxlsuer3ry4u6e84kl8rqp721p&security=tls&sni=o685y.save-node.com&type=ws#🇱🇹 [WL] Сервер 1
+vless://ff13a272-dd8f-4f4c-89e0-6bfdf25c10a7@152.234.239.170:9467?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Qr3DaIQGAtUDR-v4FI0Nltdw43LeXgaXXGGZZk6sP2E&security=reality&sni=mosdownloand.song69.fun&type=tcp#🇱🇹 [BL] Сервер 2
