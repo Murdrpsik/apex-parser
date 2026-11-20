@@ -15,6 +15,20 @@ proxies:
       short-id: "8debcf36f1cc69ff"
   - name: "🇸🇬 [WL] Сервер 2"
     type: vless
+    server: 147.93.173.45
+    port: 10444
+    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "video.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
+      short-id: "8debcf36f1cc69ff"
+  - name: "🇸🇬 [WL] Сервер 3"
+    type: vless
     server: 178.94.25.73
     port: 10444
     uuid: "2dacc738-5720-4824-b8bc-e3db57596ba7"
@@ -27,7 +41,7 @@ proxies:
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇸🇬 [BL] Сервер 3"
+  - name: "🇸🇬 [BL] Сервер 4"
     type: vless
     server: 5.34.177.164
     port: 443
@@ -41,22 +55,9 @@ proxies:
     reality-opts:
       public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
       short-id: "b2efed6d157e7bb0"
-  - name: "🇸🇬 [BL] Сервер 4"
-    type: vless
-    server: 103.106.229.37
-    port: 21001
-    uuid: "41b1c169-5905-4d98-b6a6-56896c25737c"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU"
-      short-id: "ab39fc68ab3dee81"
   - name: "🇸🇬 [BL] Сервер 5"
     type: vless
-    server: 511.150333.xyz
+    server: 103.106.229.37
     port: 21001
     uuid: "41b1c169-5905-4d98-b6a6-56896c25737c"
     network: "tcp"
@@ -110,15 +111,17 @@ proxies:
       short-id: "0929498c442d0ff3"
   - name: "🇸🇬 [BL] Сервер 9"
     type: vless
-    server: xjpp.zjlo.top
-    port: 36442
-    uuid: "b743c868-b35c-4d91-b88b-d9efd7060b5c"
+    server: 194.233.67.103
+    port: 2053
+    uuid: "100cfbe2-afd5-40cf-84df-063b010ee759"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "xjpp.zjlo.top"
-    client-fingerprint: "chrome"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "un_9X4oh5ODWIcXl_jiuUaox4XOJE7oZpSPWGb46tRI"
+      short-id: "07a66150eac3db28"
   - name: "🇸🇬 [BL] Сервер 10"
     type: vless
     server: 140.245.62.225
@@ -158,16 +161,59 @@ proxies:
     reality-opts:
       public-key: "-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs"
       short-id: "feedbacc"
-  - name: "🇸🇬 [BL] Сервер 13"
+  - name: "🇸🇬 [BL/CF] Сервер 13"
     type: vless
-    server: 194.233.67.103
-    port: 2053
-    uuid: "100cfbe2-afd5-40cf-84df-063b010ee759"
-    network: "tcp"
-    servername: "www.apple.com"
+    server: 185.121.15.41
+    port: 443
+    uuid: "20e565e1-3858-40bf-94e8-4ec9624fc985"
+    network: "ws"
+    servername: "wallweb8.pages.dev"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "un_9X4oh5ODWIcXl_jiuUaox4XOJE7oZpSPWGb46tRI"
-      short-id: "07a66150eac3db28"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wallweb8.pages.dev"
+  - name: "🇸🇬 [BL/CF] Сервер 14"
+    type: vless
+    server: 31.57.28.199
+    port: 443
+    uuid: "20e565e1-3858-40bf-94e8-4ec9624fc985"
+    network: "ws"
+    servername: "wallweb8.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wallweb8.pages.dev"
+  - name: "🇸🇬 [BL/CF] Сервер 15"
+    type: vless
+    server: 129.121.129.25
+    port: 443
+    uuid: "20e565e1-3858-40bf-94e8-4ec9624fc985"
+    network: "ws"
+    servername: "wallweb8.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wallweb8.pages.dev"
+  - name: "🇸🇬 [BL/CF] Сервер 16"
+    type: vless
+    server: 46.250.231.61
+    port: 443
+    uuid: "0c492b73-98de-4ad2-bbe9-eb25661d17ac"
+    network: "ws"
+    servername: "byyzz.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?proxyip=proxyip.oracle.cmliussss.net"
+      headers:
+        Host: "byyzz.pages.dev"

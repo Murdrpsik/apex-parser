@@ -1,0 +1,13 @@
+proxies:
+  - name: "🇳🇴 [BL] Сервер 1"
+    type: vless
+    server: 130.49.172.150
+    port: 30007
+    uuid: "c1f4f185-5786-40c9-893f-2f100b7165f2"
+    network: "tcp"
+    servername: "eu93.cdn77.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"

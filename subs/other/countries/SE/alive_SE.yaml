@@ -1,29 +1,6 @@
 proxies:
   - name: "🇸🇪 [WL] Сервер 1"
     type: vless
-    server: 81.163.22.109
-    port: 443
-    uuid: "943db1f8-1e68-0001-a58e-56a8a6a6a6fa"
-    network: "raw"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [WL] Сервер 2"
-    type: vless
-    server: 185.86.145.78
-    port: 443
-    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
-    network: "grpc"
-    servername: "emberworks.cloud"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4"
-      short-id: "ea322b8b5b015812"
-  - name: "🇸🇪 [WL] Сервер 3"
-    type: vless
     server: 88.216.214.159
     port: 443
     uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
@@ -35,20 +12,7 @@ proxies:
     reality-opts:
       public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
       short-id: "a7c92e4b10d6f835"
-  - name: "🇸🇪 [WL] Сервер 4"
-    type: vless
-    server: 88.216.60.73
-    port: 443
-    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
-    network: "tcp"
-    servername: "ns-api-gw.galioncc.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "a7c92e4b10d6f835"
-  - name: "🇸🇪 [WL/CF] Сервер 5"
+  - name: "🇸🇪 [WL/CF] Сервер 2"
     type: vless
     server: 92.223.84.254
     port: 443
@@ -62,26 +26,67 @@ proxies:
       path: "/t.me-SubGift"
       headers:
         Host: "subgift.gcorecdn.com"
-  - name: "🇸🇪 [WL] Сервер 6"
+  - name: "🇸🇪 [WL] Сервер 4"
     type: vless
-    server: subgift.gcorecdn.com
+    server: 185.86.145.78
     port: 443
-    uuid: "740b2630-b42d-425c-bacd-37e7e30d78f1"
-    network: "ws"
-    servername: "subgift.gcorecdn.com"
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
+    network: "grpc"
+    servername: "emberworks.cloud"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    ws-opts:
-      path: "/t.me-SubGift"
-      headers:
-        Host: "subgift.gcorecdn.com"
+    reality-opts:
+      public-key: "2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4"
+      short-id: "ea322b8b5b015812"
+  - name: "🇸🇪 [BL] Сервер 6"
+    type: vless
+    server: 132.243.231.121
+    port: 443
+    uuid: "3ce21bf2-b696-48c9-b840-e558f9842097"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.lovoo.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI"
+      short-id: "8de63f2667919267"
   - name: "🇸🇪 [BL] Сервер 7"
+    type: vless
+    server: 81.90.21.163
+    port: 2096
+    uuid: "fbe22815-0718-4eae-816f-e91c67d15b54"
+    network: "ws"
+    servername: "stb71e5.rumedia-cdn.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/cdn/v3/live"
+      headers:
+        Host: "stb71e5.rumedia-cdn.com"
+  - name: "🇸🇪 [BL] Сервер 8"
+    type: vless
+    server: 132.243.66.95
+    port: 443
+    uuid: "63aa95e5-3b36-4e53-a86f-7df59652e994"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "9ed8a8t.se4.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "aJ_qFu55iLaiUWJ157VIAfAf7Cc6PKbZhFIvE03nNDc"
+      short-id: "1cc8aab4a9fa9280"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 48.102.172.114
     port: 443
     uuid: "ab5e91ee-f600-4825-a2bc-d6471d5cee03"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "prsv-forum-combeck-let-s-go.keno.su"
     client-fingerprint: "firefox"
@@ -90,7 +95,7 @@ proxies:
     reality-opts:
       public-key: "VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ"
       short-id: "225ef9f7843ac533"
-  - name: "🇸🇪 [BL] Сервер 8"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
     server: 201.58.139.254
     port: 25191
@@ -105,7 +110,7 @@ proxies:
       short-id: "55328e423218ee9b"
     xhttp-opts:
       path: "/astral-edge-h1"
-  - name: "🇸🇪 [BL] Сервер 9"
+  - name: "🇸🇪 [BL] Сервер 11"
     type: vless
     server: 81.90.21.200
     port: 2096
@@ -119,7 +124,21 @@ proxies:
       path: "/cdn/v3/live"
       headers:
         Host: "stadc07.rumedia-cdn.com"
-  - name: "🇸🇪 [BL] Сервер 10"
+  - name: "🇸🇪 [BL] Сервер 12"
+    type: vless
+    server: 150.241.83.223
+    port: 443
+    uuid: "bae8ddd3-84c6-4684-ad58-8e50ea90bcb5"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "212.192.156.15"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U"
+      short-id: "5fd3245e96291c37"
+  - name: "🇸🇪 [BL] Сервер 13"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -132,7 +151,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
       grpc-mode: "gun"
-  - name: "🇸🇪 [BL] Сервер 11"
+  - name: "🇸🇪 [BL] Сервер 14"
     type: vless
     server: 150.241.87.52
     port: 443
@@ -145,55 +164,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
-  - name: "🇸🇪 [BL] Сервер 12"
-    type: vless
-    server: lodizu.hagrid-connected.com
-    port: 443
-    uuid: "beda6bd0-7ce4-477a-91f1-860d018dbfcb"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "lodizu.hagrid-connected.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [BL] Сервер 13"
-    type: vless
-    server: 103.177.249.143
-    port: 443
-    uuid: "beda6bd0-7ce4-477a-91f1-860d018dbfcb"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lodizu.hagrid-connected.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇸🇪 [BL] Сервер 14"
-    type: vless
-    server: 132.243.231.121
-    port: 443
-    uuid: "3ce21bf2-b696-48c9-b840-e558f9842097"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.lovoo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI"
-      short-id: "8de63f2667919267"
-  - name: "🇸🇪 [BL] Сервер 15"
-    type: vless
-    server: 31.77.144.255
-    port: 8444
-    uuid: "95580a09-cce7-4b62-af74-a514083ba9e4"
-    network: "xhttp"
-    servername: "www.amd.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ"
-      short-id: "635a76c25a4b1820"
-    xhttp-opts:
-      path: "/xh"
-      mode: "stream-one"

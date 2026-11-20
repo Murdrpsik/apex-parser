@@ -1,47 +1,15 @@
 proxies:
-  - name: "🇱🇹 [WL] Сервер 1"
+  - name: "🇱🇹 [BL/AI] Сервер 1"
     type: vless
-    server: 81.163.22.109
-    port: 443
-    uuid: "aae24578-9f15-0001-a5b1-4f46630e5ef8"
-    network: "raw"
-    servername: "jissa-ru-wl-47sel.my-fade.cloud"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇱🇹 [BL] Сервер 2"
-    type: vless
-    server: 168.113.254.183
-    port: 443
-    uuid: "1fdf4166-499a-0001-af1d-5bb01e5805fb"
+    server: 138.124.9.201
+    port: 8443
+    uuid: "74af70c0-bea7-4412-9a1a-f7eab9c91ef8"
     network: "tcp"
-    servername: "xykmh-ru-70sb.my-fade.cloud"
-    client-fingerprint: "android"
-    udp: true
-    tls: true
-  - name: "🇱🇹 [BL] Сервер 3"
-    type: vless
-    server: 84.32.209.118
-    port: 443
-    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
-    network: "raw"
-    servername: "api-dns-gw.galioncc.com"
+    flow: "xtls-rprx-vision"
+    servername: "admin.mistral.ai"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "a7d309e4c16b825f"
-  - name: "🇱🇹 [BL] Сервер 4"
-    type: vless
-    server: 84.32.83.197
-    port: 443
-    uuid: "a30903dc-1bf0-4be5-8b1b-603a3a56211c"
-    network: "raw"
-    servername: "api-dns-gw.galioncc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ"
-      short-id: "a7d309e4c16b825f"
+      public-key: "-rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q"
+      short-id: "4d3affb557796d1c"
