@@ -28,22 +28,42 @@ proxies:
       public-key: "FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4"
       short-id: "40a4615253b8f75d"
   - name: "🇨🇦 [BL] Сервер 3"
-    type: vless
-    server: 38.102.125.3
-    port: 443
-    uuid: "a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "perch.denditop.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "aifpr5vxx0eaPohSBVZrC5yUFtaK6Sqa8mGwjOxZ1Sc"
-      short-id: "f05d81d32f5e4b94"
-  - name: "🇨🇦 [BL] Сервер 4"
     type: ss
     server: 149.22.95.183
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
+  - name: "🇨🇦 [BL] Сервер 4"
+    type: trojan
+    server: 216.152.147.93
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "connectingpeoplewithgreatjobs.com"
+    client-fingerprint: "chrome"
+    udp: true
+  - name: "🇨🇦 [BL/AI] Сервер 5"
+    type: ss
+    server: 192.99.151.230
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇨🇦 [BL] Сервер 6"
+    type: ss
+    server: 184.107.106.77
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇨🇦 [BL] Сервер 7"
+    type: ss
+    server: 184.107.106.78
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇨🇦 [BL] Сервер 8"
+    type: vmess
+    server: 134.195.196.211
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"

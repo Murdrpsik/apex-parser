@@ -1,31 +1,35 @@
 proxies:
   - name: "🇫🇷 [WL] Сервер 1"
     type: vless
-    server: 161.97.160.224
-    port: 443
-    uuid: "b81b4d1b-7f20-48f1-82dc-d24bef898cab"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
-  - name: "🇫🇷 [WL] Сервер 2"
-    type: vless
-    server: 161.97.160.224
-    port: 443
-    uuid: "b81b4d1b-7f20-48f1-82dc-d24bef898cab"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "passport.yandex.ru"
+    server: 85.208.69.43
+    port: 33055
+    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
+    network: "xhttp"
+    servername: "yandex.ru"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
-      short-id: "e6"
+      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
+      short-id: "77"
+    xhttp-opts:
+      path: "/"
+  - name: "🇫🇷 [WL] Сервер 2"
+    type: vless
+    server: 85.208.69.43
+    port: 33055
+    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
+    network: "xhttp"
+    servername: "yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
+      short-id: "77"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
   - name: "🇫🇷 [WL] Сервер 3"
     type: vless
     server: 161.97.160.224
@@ -40,107 +44,7 @@ proxies:
     reality-opts:
       public-key: "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0"
       short-id: "e6"
-  - name: "🇫🇷 [WL/CF] Сервер 4"
-    type: vless
-    server: 178.104.70.11
-    port: 443
-    uuid: "64726966-0000-4000-8000-740000000000"
-    network: "ws"
-    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-  - name: "🇫🇷 [WL/CF] Сервер 5"
-    type: vless
-    server: 178.104.70.11
-    port: 443
-    uuid: "64726966-0000-4000-8000-740000000000"
-    network: "ws"
-    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/fp=firefox"
-      headers:
-        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
-  - name: "🇫🇷 [WL] Сервер 6"
-    type: vless
-    server: 85.208.69.43
-    port: 33055
-    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
-    network: "xhttp"
-    servername: "yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
-      short-id: "77"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇫🇷 [WL] Сервер 7"
-    type: vless
-    server: 85.208.69.43
-    port: 33055
-    uuid: "ce8faf30-b1d6-4a53-95a0-8520dc609db3"
-    network: "xhttp"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo"
-      short-id: "77"
-    xhttp-opts:
-      path: "/"
-  - name: "🇫🇷 [WL] Сервер 8"
-    type: vless
-    server: 37.18.15.192
-    port: 2056
-    uuid: "7c4574cc-6396-44d1-8427-60b91467264e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "android.eads.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM"
-      short-id: "ce680883ad484149"
-  - name: "🇫🇷 [BL] Сервер 9"
-    type: vless
-    server: 89.116.46.150
-    port: 443
-    uuid: "cc99c57d-6c93-4031-9153-73f510636533"
-    network: "xhttp"
-    servername: "145.baklajann.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      host: "145.baklajann.ru"
-      mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 10"
-    type: vless
-    server: 188.42.89.118
-    port: 443
-    uuid: "cc99c57d-6c93-4031-9153-73f510636533"
-    network: "xhttp"
-    servername: "mama1455.baklajann.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      host: "mama1455.baklajann.ru"
-      mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 11"
+  - name: "🇫🇷 [WL] Сервер 4"
     type: vless
     server: 89.169.2.136
     port: 443
@@ -148,66 +52,13 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "node-fr-4.nztpro.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
       public-key: "LfUUkcBZXllEsV7LraRZC96hdDBKKawsRoSKum93Xyg"
       short-id: "27de245a9190ada7"
-  - name: "🇫🇷 [BL] Сервер 12"
-    type: vless
-    server: 185.18.250.147
-    port: 443
-    uuid: "cc99c57d-6c93-4031-9153-73f510636533"
-    network: "xhttp"
-    servername: "19.baklajann.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      host: "19.baklajann.ru"
-      mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 13"
-    type: vless
-    server: 45.95.98.139
-    port: 443
-    uuid: "a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "45.95.98.130"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇫🇷 [BL] Сервер 14"
-    type: vless
-    server: 31.43.179.196
-    port: 443
-    uuid: "cc99c57d-6c93-4031-9153-73f510636533"
-    network: "xhttp"
-    servername: "mama51.baklajann.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-      host: "mama51.baklajann.ru"
-      mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 15"
-    type: vless
-    server: 50.7.244.131
-    port: 8443
-    uuid: "cd1ac04c-3dea-450b-b57b-2aa00f357353"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "vetmo.sywl5.ink"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "iLtI3MZq_yv800TdWhYDV-33NUq6teuSQPE4utHpZl0"
-      short-id: "36733490cb"
-  - name: "🇫🇷 [BL] Сервер 16"
+  - name: "🇫🇷 [BL] Сервер 5"
     type: vless
     server: 152.228.139.33
     port: 35108
@@ -223,7 +74,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc-common3"
       grpc-mode: "gun"
-  - name: "🇫🇷 [BL] Сервер 17"
+  - name: "🇫🇷 [BL] Сервер 6"
     type: vless
     server: 83.136.210.129
     port: 443
@@ -236,7 +87,7 @@ proxies:
     reality-opts:
       public-key: "wBh3jtk45kBonp2-uVqsx71F4ziNH7vZcU6DAC6t2xs"
       short-id: "1296174a86a6ac8c"
-  - name: "🇫🇷 [BL] Сервер 18"
+  - name: "🇫🇷 [BL] Сервер 7"
     type: vless
     server: 145.223.68.58
     port: 443
@@ -250,21 +101,7 @@ proxies:
     reality-opts:
       public-key: "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg"
       short-id: "a44ff7d2e80213c2"
-  - name: "🇫🇷 [BL] Сервер 19"
-    type: vless
-    server: 189.74.117.6
-    port: 443
-    uuid: "31d0f8a6-3dac-4f89-b2f1-aca50f293f70"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "api.videodolina.cc"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs"
-      short-id: "a8"
-  - name: "🇫🇷 [BL] Сервер 20"
+  - name: "🇫🇷 [BL] Сервер 8"
     type: vless
     server: 213.199.57.127
     port: 2087
@@ -278,7 +115,7 @@ proxies:
     reality-opts:
       public-key: "Y8U3PhV0K8jT4PBHq-rhCA4eUtOXa1CNB9waCvZbZSc"
       short-id: "42"
-  - name: "🇫🇷 [BL] Сервер 21"
+  - name: "🇫🇷 [BL] Сервер 9"
     type: vless
     server: 62.210.91.2
     port: 23576
@@ -292,7 +129,7 @@ proxies:
     reality-opts:
       public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
       short-id: "01"
-  - name: "🇫🇷 [BL] Сервер 22"
+  - name: "🇫🇷 [BL] Сервер 10"
     type: vless
     server: 161.97.66.16
     port: 443
@@ -305,36 +142,7 @@ proxies:
     reality-opts:
       public-key: "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc"
       short-id: "086bf957"
-  - name: "🇫🇷 [BL] Сервер 23"
-    type: vless
-    server: 138.124.251.98
-    port: 443
-    uuid: "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "tradingview.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38"
-      short-id: "8f3c6e2a1b5d4f09"
-  - name: "🇫🇷 [BL] Сервер 24"
-    type: vless
-    server: 122.8.92.8
-    port: 443
-    uuid: "d236da5f-198e-72dc-5a24-f37b5e90a159"
-    network: "xhttp"
-    servername: "www.philips.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 25"
+  - name: "🇫🇷 [BL] Сервер 11"
     type: vless
     server: 62.210.91.10
     port: 23576
@@ -348,7 +156,7 @@ proxies:
     reality-opts:
       public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
       short-id: "01"
-  - name: "🇫🇷 [BL] Сервер 26"
+  - name: "🇫🇷 [BL] Сервер 12"
     type: vless
     server: 143.246.211.240
     port: 443
@@ -363,7 +171,7 @@ proxies:
     xhttp-opts:
       path: "/ae1b809ceb77"
       mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 27"
+  - name: "🇫🇷 [BL] Сервер 13"
     type: vless
     server: 62.210.24.143
     port: 32202
@@ -379,7 +187,7 @@ proxies:
     xhttp-opts:
       path: "/G3EEoH63"
       mode: "auto"
-  - name: "🇫🇷 [BL] Сервер 28"
+  - name: "🇫🇷 [BL] Сервер 14"
     type: vless
     server: 62.210.70.194
     port: 37783
@@ -394,7 +202,7 @@ proxies:
       short-id: "21569dd6"
     xhttp-opts:
       path: "/OCrp5Ajs"
-  - name: "🇫🇷 [BL] Сервер 29"
+  - name: "🇫🇷 [BL] Сервер 15"
     type: vless
     server: 2.56.127.202
     port: 17101
@@ -407,17 +215,3 @@ proxies:
     reality-opts:
       public-key: "td00T39muH83FZFqpyfgfYYQLjT860DLdrCcnKr2_FE"
       short-id: "b08ccd"
-  - name: "🇫🇷 [BL/CF] Сервер 30"
-    type: vless
-    server: 104.239.72.227
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-ccc0e8cd3a83"
-    network: "ws"
-    servername: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/ccc0e8cd3a83"
-      headers:
-        Host: "fgzb39ezu86s.ycz7syeeu3is.workers.dev"
