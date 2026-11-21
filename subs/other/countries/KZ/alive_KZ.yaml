@@ -15,6 +15,47 @@ proxies:
       short-id: "6859f5b59e55aa30"
   - name: "🇰🇿 [BL] Сервер 2"
     type: vless
+    server: 109.248.170.119
+    port: 13447
+    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
+    network: "raw"
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
+      short-id: "83"
+  - name: "🇰🇿 [BL] Сервер 3"
+    type: vless
+    server: 213.155.22.40
+    port: 443
+    uuid: "65964600-d3c8-4fda-b730-7930adcbfc9e"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "theopenbrief.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "56nN-5FBQA2i4Js-DWmrl8-xl6rShYNy-gylk-R8vyw"
+      short-id: "ae6a64211b9d75d2"
+  - name: "🇰🇿 [BL] Сервер 4"
+    type: vless
+    server: 144.31.90.235
+    port: 8445
+    uuid: "cac10246-5b76-4809-9fd0-417c58a3ca90"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "portal.gifmems.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "32eua16pKE179lLHv-VNZGrX287qQFMXA3n0VgEzNTQ"
+      short-id: "b3a633bc754b648d"
+  - name: "🇰🇿 [BL] Сервер 5"
+    type: vless
     server: 5.180.27.134
     port: 443
     uuid: "fa906181-5d9b-4ff6-8a81-e6148ce4ece7"
@@ -27,102 +68,3 @@ proxies:
     reality-opts:
       public-key: "qljbddkyGqBkkOnPdvgw4s6HX_iyEUB2qesNM1qiFg0"
       short-id: "36f3c7"
-  - name: "🇰🇿 [BL] Сервер 3"
-    type: vless
-    server: 109.248.170.119
-    port: 13447
-    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "tcp"
-    servername: "yahoo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
-      short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 4"
-    type: vless
-    server: 45.88.90.254
-    port: 8443
-    uuid: "9c991060-f44e-42f3-87e3-e380c26f156b"
-    network: "grpc"
-    servername: "4d4632f3266a.j.cloudfront.hls.ttvnw.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU"
-      short-id: "423bccc9c13fb509"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇰🇿 [BL] Сервер 5"
-    type: vless
-    server: 213.155.22.40
-    port: 443
-    uuid: "65964600-d3c8-4fda-b730-7930adcbfc9e"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "theopenbrief.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "56nN-5FBQA2i4Js-DWmrl8-xl6rShYNy-gylk-R8vyw"
-      short-id: "ae6a64211b9d75d2"
-  - name: "🇰🇿 [BL] Сервер 6"
-    type: vless
-    server: 37.151.89.25
-    port: 443
-    uuid: "5a260c84-54b6-4738-a8e4-55a0ea8b1b8c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kaz.nelketer.app"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "NI2B0PORMr-o0Bl5-ZI-iWu9gvym0un_qOJXYA1RGww"
-      short-id: "b2a6e3d42f05c3d1"
-  - name: "🇰🇿 [BL] Сервер 7"
-    type: vless
-    server: 194.31.159.90
-    port: 443
-    uuid: "4a2da4bf-df34-4094-9cd3-e39a3ddff484"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "k1zv.voxicheck.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_p24twNlnUIdoSiWlNoxSlu95PfQAoLIrxKQU4IBsU4"
-      short-id: "abcd1234"
-  - name: "🇰🇿 [BL] Сервер 8"
-    type: vless
-    server: 87.199.131.94
-    port: 443
-    uuid: "18eccd5e-cd27-4d7f-9f64-58843c3a4797"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kurtaffe.kid0k.online"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
-  - name: "🇰🇿 [BL] Сервер 9"
-    type: vless
-    server: 45.136.57.42
-    port: 443
-    uuid: "2c75ee76-360a-47ac-b723-b8e02bc1a18c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "kz.orbitaconference.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "sgwx1qo8M4HOr5vuFemC6Ic0QidYvMI6i57T6mQyfgk"
-      short-id: "d8987dbd2d7da095"

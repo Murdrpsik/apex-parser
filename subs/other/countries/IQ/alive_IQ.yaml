@@ -1,5 +1,5 @@
 proxies:
-  - name: "🇦🇺 [BL] Сервер 1"
+  - name: "🇮🇶 [BL] Сервер 1"
     type: vless
     server: 51.161.204.242
     port: 443
