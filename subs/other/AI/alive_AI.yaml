@@ -7,6 +7,36 @@ proxies:
     cipher: "aes-256-gcm"
   - name: "🇫🇷 [AI] Сервер 2"
     type: vless
+    server: 194.156.26.125
+    port: 443
+    uuid: "654ba40a-0522-4fc3-8328-08099482c201"
+    network: "xhttp"
+    servername: "mama1472.baklajann.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
+  - name: "🇬🇧 [AI] Сервер 3"
+    type: vless
+    server: 194.156.26.125
+    port: 443
+    uuid: "654ba40a-0522-4fc3-8328-08099482c201"
+    network: "xhttp"
+    servername: "mama120.baklajann.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
+  - name: "🇷🇺 [AI] Сервер 4"
+    type: ss
+    server: 48.103.218.77
+    port: 18443
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+    cipher: "aes-256-gcm"
+  - name: "🇫🇷 [AI] Сервер 5"
+    type: vless
     server: 138.124.9.201
     port: 8443
     uuid: "74af70c0-bea7-4412-9a1a-f7eab9c91ef8"
@@ -19,9 +49,17 @@ proxies:
     reality-opts:
       public-key: "-93ZD_5l99Hu0HDdHsPWrjV07UCNQiQ2PRAGqIC4Xgg"
       short-id: "5b3ef653ee33b49a"
-  - name: "🇨🇦 [AI] Сервер 3"
-    type: ss
-    server: 184.107.106.77
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
+  - name: "🇱🇻 [AI] Сервер 6"
+    type: vless
+    server: 200.181.87.171
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"

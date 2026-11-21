@@ -15,19 +15,6 @@ proxies:
       short-id: "39793bc4708abbbb"
   - name: "🇭🇰 [BL] Сервер 2"
     type: vless
-    server: 62.60.232.250
-    port: 8443
-    uuid: "88a209b0-5dd9-493f-9cae-ace820544a24"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "tm1f7W3RTgSx1F6NsoE32TborUxVe1udZQr4LhDAIio"
-      short-id: "c9927d0548a2fcd1"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
     server: 45.192.193.54
     port: 35600
     uuid: "8614bde7-34cf-4413-8360-e96f1b960528"
@@ -39,3 +26,45 @@ proxies:
     tls: true
     reality-opts:
       public-key: "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
+  - name: "🇭🇰 [BL] Сервер 3"
+    type: vless
+    server: 156.226.168.221
+    port: 35193
+    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
+      short-id: "e8daed2d"
+  - name: "🇭🇰 [BL] Сервер 4"
+    type: vless
+    server: 193.134.211.132
+    port: 49753
+    uuid: "e5e55664-5475-4505-8eb4-14dde650f11b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "uedata.amazon.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "vsZdFd7iEq3hQ53JVJW_c-DrAYrXuunGr3uI7r3vKWs"
+      short-id: "edf9c64198"
+  - name: "🇭🇰 [BL] Сервер 5"
+    type: vmess
+    server: 47.86.90.31
+    port: 443
+    uuid: "234a8041-2b4d-44a3-a8d8-523cbfd58dc4"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    servername: "bYWXdhIRqKJj8XAZ.v.3dns.vip"
+    tls: true
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "bYWXdhIRqKJj8XAZ.v.3dns.vip"

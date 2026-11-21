@@ -1,34 +1,6 @@
 proxies:
   - name: "🇬🇧 [WL] Сервер 1"
     type: vless
-    server: 193.163.203.170
-    port: 443
-    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o"
-      short-id: "b28db60d77c50b4f"
-  - name: "🇬🇧 [WL] Сервер 2"
-    type: vless
-    server: 213.165.39.134
-    port: 443
-    uuid: "6a251a93-8eee-43b5-92ed-ecadedcfd0a8"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "platform-api.max.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Gtz3xOdQdWSocdx4NNie6s-bsa9VDiG6thqanJ4h31s"
-      short-id: "6f3332a09b0ab6d1"
-  - name: "🇬🇧 [WL] Сервер 3"
-    type: vless
     server: 193.188.21.253
     port: 10444
     uuid: "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55"
@@ -41,26 +13,52 @@ proxies:
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 4"
+  - name: "🇬🇧 [WL] Сервер 2"
     type: vless
-    server: 138.124.125.193
+    server: 213.176.92.168
     port: 10444
-    uuid: "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4"
+    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ads.x5.ru"
-    client-fingerprint: "firefox"
+    servername: "video.yandex.ru"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
+  - name: "🇬🇧 [WL] Сервер 3"
+    type: vless
+    server: 194.156.26.125
+    port: 443
+    uuid: "654ba40a-0522-4fc3-8328-08099482c201"
+    network: "xhttp"
+    servername: "mama120.baklajann.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
+      host: "mama120.baklajann.ru"
+      mode: "auto"
+  - name: "🇬🇧 [WL/AI] Сервер 4"
+    type: vless
+    server: 194.156.26.125
+    port: 443
+    uuid: "654ba40a-0522-4fc3-8328-08099482c201"
+    network: "xhttp"
+    servername: "mama120.baklajann.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
   - name: "🇬🇧 [BL] Сервер 5"
     type: vless
     server: 13.143.187.220
     port: 443
     uuid: "66c78912-4e2d-41dc-8742-aaae2590804e"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "fi-s1.kadrhub.tech"
     client-fingerprint: "firefox"
@@ -70,19 +68,46 @@ proxies:
       public-key: "eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg"
   - name: "🇬🇧 [BL] Сервер 6"
     type: vless
-    server: 144.48.11.146
-    port: 43000
-    uuid: "4a923161-156f-4914-8cac-762fb2433bfb"
+    server: 45.86.245.122
+    port: 8444
+    uuid: "0f2dc4af-951f-4690-922e-07c6e8bab26a"
+    network: "xhttp"
+    servername: "at-43-wt6w.new-wave-split.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/xh"
+      host: "at-43-wt6w.new-wave-split.site"
+  - name: "🇬🇧 [BL] Сервер 7"
+    type: vless
+    server: 91.192.158.251
+    port: 2066
+    uuid: "4bec3709-0954-4173-ae59-3dee6cb8b961"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "84GM9QUTdTfTrhR-8loDOu7VA0LFW8X02vSvBQdsLAg"
+      short-id: "1b2a3f"
+  - name: "🇬🇧 [BL] Сервер 8"
+    type: vless
+    server: 83.147.18.3
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "144.48.11.146"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ"
-      short-id: "ee4ea980"
-  - name: "🇬🇧 [BL] Сервер 7"
+      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
+      short-id: "fd8cf7e1173f0edb"
+  - name: "🇬🇧 [BL] Сервер 9"
     type: vless
     server: 104.222.183.180
     port: 443
@@ -96,7 +121,21 @@ proxies:
     reality-opts:
       public-key: "MYmnKEaJyfk1HrBaKg3AvYebp-sP3rZRNh9MnOcKgXY"
       short-id: "705f0a232571"
-  - name: "🇬🇧 [BL] Сервер 8"
+  - name: "🇬🇧 [BL] Сервер 10"
+    type: vless
+    server: 144.48.11.146
+    port: 43000
+    uuid: "4a923161-156f-4914-8cac-762fb2433bfb"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "144.48.11.146"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ"
+      short-id: "ee4ea980"
+  - name: "🇬🇧 [BL] Сервер 11"
     type: vless
     server: 136.176.68.34
     port: 443
@@ -110,7 +149,63 @@ proxies:
     reality-opts:
       public-key: "Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo"
       short-id: "a6040129ad7f4b74"
-  - name: "🇬🇧 [BL] Сервер 9"
+  - name: "🇬🇧 [BL] Сервер 12"
+    type: vless
+    server: 45.43.153.33
+    port: 443
+    uuid: "d6752c6b-80ae-4a91-b446-bb330f7f8177"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.foxsports.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg"
+      short-id: "88a13cf2655c"
+  - name: "🇬🇧 [BL] Сервер 13"
+    type: vless
+    server: 222.167.237.3
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "misty-harbor.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OQAbaaN0abHDcEOtiu5rpU_A4Op_gDbOzuAVlHplP3s"
+      short-id: "aa5294f481769382"
+  - name: "🇬🇧 [BL] Сервер 14"
+    type: vless
+    server: 200.102.178.3
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "misty-harbor.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "OQAbaaN0abHDcEOtiu5rpU_A4Op_gDbOzuAVlHplP3s"
+      short-id: "aa5294f481769382"
+  - name: "🇬🇧 [BL] Сервер 15"
+    type: vless
+    server: 114.129.43.105
+    port: 443
+    uuid: "654ba40a-0522-4fc3-8328-08099482c201"
+    network: "xhttp"
+    servername: "mama120.baklajann.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/"
+      host: "mama120.baklajann.ru"
+      mode: "auto"
+  - name: "🇬🇧 [BL] Сервер 16"
     type: vless
     server: 185.122.167.103
     port: 59130
@@ -124,7 +219,7 @@ proxies:
     reality-opts:
       public-key: "6Lh48ni3w8oe9QW3xVzNMIE5LU-p5VPHPMCUtVMOmgo"
       short-id: "14"
-  - name: "🇬🇧 [BL] Сервер 10"
+  - name: "🇬🇧 [BL] Сервер 17"
     type: vless
     server: 46.250.240.80
     port: 2053
@@ -137,30 +232,45 @@ proxies:
     reality-opts:
       public-key: "nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE"
       short-id: "3611e663b53177f2"
-  - name: "🇬🇧 [BL] Сервер 11"
+  - name: "🇬🇧 [BL] Сервер 18"
     type: vless
-    server: 95.163.153.141
-    port: 8443
-    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
-    network: "xhttp"
-    servername: "www.cloudflare.com"
+    server: 50.7.154.78
+    port: 443
+    uuid: "3cb6b78b-16ac-4236-98e0-f4c3669164ce"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "api.mediasvyaz.cc"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
-      short-id: "c9ea2355ddeab39b"
-    xhttp-opts:
-      path: "/"
-  - name: "🇬🇧 [BL] Сервер 12"
+      public-key: "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs"
+      short-id: "a8"
+  - name: "🇬🇧 [BL] Сервер 19"
     type: ss
-    server: 141.98.101.181
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 13"
+    server: 94.156.250.148
+    port: 7001
+    password: "RexnBgU7EV5ADxG"
+    cipher: "aes-256-gcm"
+  - name: "🇬🇧 [BL] Сервер 20"
     type: ss
     server: 141.98.101.178
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
+  - name: "🇬🇧 [BL] Сервер 21"
+    type: ss
+    server: 141.98.101.181
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇬🇧 [BL] Сервер 22"
+    type: vmess
+    server: 149.7.16.228
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true

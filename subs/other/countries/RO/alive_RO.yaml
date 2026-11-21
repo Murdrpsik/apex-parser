@@ -13,17 +13,3 @@ proxies:
     reality-opts:
       public-key: "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU"
       short-id: "d06d78e974491b6e"
-  - name: "🇷🇴 [BL] Сервер 2"
-    type: vless
-    server: 31.6.1.115
-    port: 443
-    uuid: "0f2dc4af-951f-4690-922e-07c6e8bab26a"
-    network: "xhttp"
-    servername: "cdn.winter-jam.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/xh"
-      host: "cdn.winter-jam.site"
-      mode: "auto"

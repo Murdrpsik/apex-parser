@@ -14,3 +14,31 @@ proxies:
     sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
     client-fingerprint: "chrome"
     udp: true
+  - name: "🇧🇷 [WL] Сервер 3"
+    type: vless
+    server: 178.92.205.63
+    port: 11167
+    uuid: "a6354faa-ba6a-46c9-bfe6-8c3b9c56449c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.mercadolivre.com.br"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
+      short-id: "ac"
+  - name: "🇨🇴 [BL] Сервер 4"
+    type: vless
+    server: 103.252.91.140
+    port: 443
+    uuid: "6df66cb9-34e6-4287-9660-5dda0f79239b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "vsaxas.puffixhosting.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM"
+      short-id: "be9ad6e06ec8e762"
