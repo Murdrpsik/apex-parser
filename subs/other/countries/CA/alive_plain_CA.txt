@@ -1,5 +1,8 @@
 #profile-title: Apex CA
 #profile-update-interval: 1
-vless://e45b8261-88c9-4181-aab4-72093dfae6b9@184.107.179.150:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4&sid=40a4615253b8f75d&sni=www.kpn.com&encryption=none#🇨🇦 [BL] Сервер 1
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&sni=kuruish.org&type=tcp&allowInsecure=0&encryption=none#🇨🇦 [BL] Сервер 2
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 3
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&sni=kuruish.org&type=tcp&allowInsecure=0&encryption=none#🇨🇦 [BL] Сервер 1
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&security=reality&sid=f98843107912e782&sni=www.cloudflare.com&type=tcp&encryption=none#🇨🇦 [BL] Сервер 2
+vless://e45b8261-88c9-4181-aab4-72093dfae6b9@184.107.179.150:8443?security=reality&type=raw&packetEncoding=xudp&sni=www.kpn.com&fp=chrome&flow=xtls-rprx-vision&sid=40a4615253b8f75d&pbk=FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4&encryption=none#🇨🇦 [BL] Сервер 3
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [BL] Сервер 4
+vmess://eyJhZGQiOiIyMy4xNjIuMjAwLjE5OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjE4MDAwIiwicHMiOiLwn4eo8J+HpiBbQkxdINCh0LXRgNCy0LXRgCA1Iiwic2N5IjoiYXV0byIsInNuaSI6IjIzLjE2Mi4yMDAuMTk4IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9#🇨🇦 [BL] Сервер 5
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 6

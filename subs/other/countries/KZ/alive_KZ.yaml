@@ -1,6 +1,68 @@
 proxies:
   - name: "🇰🇿 [WL] Сервер 1"
     type: vless
+    server: 217.180.1.84
+    port: 443
+    uuid: "929b5d21-4124-4bc4-9fa0-fe7cef978303"
+    network: "xhttp"
+    servername: "static.yandex.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
+      short-id: "c44bcdb731f12c41"
+    xhttp-opts:
+      path: "/api/v1/data"
+  - name: "🇰🇿 [WL] Сервер 2"
+    type: vless
+    server: 217.180.1.84
+    port: 443
+    uuid: "217146a8-2daf-45f1-b884-343be422494d"
+    network: "xhttp"
+    servername: "static.yandex.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
+      short-id: "c44bcdb731f12c41"
+    xhttp-opts:
+      path: "/api/v1/data"
+  - name: "🇰🇿 [WL] Сервер 3"
+    type: vless
+    server: 217.180.1.84
+    port: 443
+    uuid: "217146a8-2daf-45f1-b884-343be422494d"
+    network: "xhttp"
+    servername: "static.yandex.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
+      short-id: "c44bcdb731f12c41"
+    xhttp-opts:
+      path: "/api/v1/data"
+      mode: "auto"
+  - name: "🇰🇿 [WL] Сервер 4"
+    type: vless
+    server: 217.180.1.84
+    port: 443
+    uuid: "929b5d21-4124-4bc4-9fa0-fe7cef978303"
+    network: "xhttp"
+    servername: "static.yandex.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
+      short-id: "c44bcdb731f12c41"
+    xhttp-opts:
+      path: "/api/v1/data"
+      mode: "auto"
+  - name: "🇰🇿 [WL] Сервер 5"
+    type: vless
     server: 185.246.155.91
     port: 10403
     uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
@@ -13,12 +75,26 @@ proxies:
     reality-opts:
       public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
       short-id: "6859f5b59e55aa30"
-  - name: "🇰🇿 [BL] Сервер 2"
+  - name: "🇰🇿 [BL] Сервер 6"
+    type: vless
+    server: 38.180.206.44
+    port: 48982
+    uuid: "a80acd3a-3df5-40b5-a54a-29bb18056115"
+    network: "xhttp"
+    servername: "cdn3-88.yahoo.com"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇰🇿 [BL] Сервер 7"
     type: vless
     server: 109.248.170.119
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    network: "raw"
+    network: "tcp"
     servername: "yahoo.com"
     client-fingerprint: "chrome"
     udp: true
@@ -26,35 +102,7 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 3"
-    type: vless
-    server: 213.155.22.40
-    port: 443
-    uuid: "65964600-d3c8-4fda-b730-7930adcbfc9e"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "theopenbrief.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "56nN-5FBQA2i4Js-DWmrl8-xl6rShYNy-gylk-R8vyw"
-      short-id: "ae6a64211b9d75d2"
-  - name: "🇰🇿 [BL] Сервер 4"
-    type: vless
-    server: 144.31.90.235
-    port: 8445
-    uuid: "cac10246-5b76-4809-9fd0-417c58a3ca90"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "portal.gifmems.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "32eua16pKE179lLHv-VNZGrX287qQFMXA3n0VgEzNTQ"
-      short-id: "b3a633bc754b648d"
-  - name: "🇰🇿 [BL] Сервер 5"
+  - name: "🇰🇿 [BL] Сервер 8"
     type: vless
     server: 5.180.27.134
     port: 443
