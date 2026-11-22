@@ -1,24 +1,86 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
+  - name: "🇩🇪 [AI] Сервер 1"
+    type: vless
+    server: 178.248.236.229
+    port: 443
+    uuid: "a71d6c6d-c95e-4ec1-a892-22e21733bf09"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "144.hexdey.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0"
+      short-id: "d05a120d3506d2cc"
+  - name: "🇫🇮 [AI] Сервер 2"
+    type: vless
+    server: 81.222.148.178
+    port: 53443
+    uuid: "d3eeebec-d7ba-4695-a1ea-2f2407c86582"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "snobvpn.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oOrVESvP0FHEAkQGP2oih5DDdPAoRZkVJOZTWYsiLxk"
+      short-id: "0e9de4c83cb77992"
+  - name: "🇺🇸 [AI] Сервер 3"
     type: ss
     server: 185.215.132.9
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇵🇱 [AI] Сервер 2"
+  - name: "🇺🇸 [AI] Сервер 4"
+    type: ss
+    server: 185.215.132.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇫🇮 [AI] Сервер 5"
     type: vless
-    server: 83.171.241.244
-    port: 25267
-    uuid: "a346c521-7a7f-452b-9356-a4893feb5982"
+    server: 185.242.247.177
+    port: 8443
+    uuid: "0e95dbe0-1d95-40e9-bde3-decab5d997bf"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "pl1-edge.bankai.party"
+    servername: "cedar-lantern.justext.space"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "tP78ugkcN9bZU6fJH3mqHJIErR8vjBwOw0ERPwCZSSM"
-  - name: "🇩🇪 [AI] Сервер 3"
+      public-key: "Lvm9eec5bpjeqEnwG_9Q0_W0Imp7xS6JUftXhEYCOjw"
+      short-id: "4480a7bbaeac077d"
+  - name: "🇸🇪 [AI] Сервер 6"
+    type: vless
+    server: 177.3.215.110
+    port: 443
+    uuid: "5c00e45e-241e-4ae2-9ccb-736e6a1fe00b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "eh.vk.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "obTNVl4ZYXu6dV_R9yJohvU8xtAs6KHbMsRPTeT_blI"
+  - name: "🇩🇪 [AI] Сервер 7"
+    type: vless
+    server: 31.184.244.97
+    port: 64921
+    uuid: "70dd5f86-6941-4560-bb8e-62a5c11868e5"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU"
+      short-id: "1f2519bb96e5589c"
+  - name: "🇩🇪 [AI] Сервер 8"
     type: vless
     server: 2.28.45.87
     port: 3939
@@ -32,3 +94,86 @@ proxies:
     reality-opts:
       public-key: "dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA"
       short-id: "d9a2600fdecd7be2"
+  - name: "🇵🇱 [AI] Сервер 9"
+    type: vless
+    server: 82.97.248.39
+    port: 443
+    uuid: "78dbd904-8400-40fa-b67d-8bbaa624d385"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "pl-serv.maxleshax.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pk26pM_LnkB8lv3ysFZZunj_5kzPDvyAJ92wDP0-hBg"
+      short-id: "d7584d2bc6bc868a"
+  - name: "🇸🇪 [AI] Сервер 10"
+    type: vless
+    server: 5.59.205.180
+    port: 38203
+    uuid: "57d33a42-1b6d-47d0-a14e-31cf1dcebb6f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "se-1.cutemedia.lol"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "IZ9HnoNBZDB0e15eA-_Ve7N6nuilZ_vR-4RzMcSgBV0"
+      short-id: "4c9499e6fc251e0c"
+  - name: "🇦🇱 [AI] Сервер 11"
+    type: vless
+    server: 31.171.152.222
+    port: 8443
+    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
+      short-id: "f8d0271b4b5f9efc"
+  - name: "🇳🇱 [AI] Сервер 12"
+    type: vless
+    server: 201.8.64.209
+    port: 443
+    uuid: "de7efd06-187c-4cac-8072-88e5cdc3424d"
+    network: "tcp"
+    servername: "mylumina.sbs"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "EJKJxu6-N6aicqrzlwr62G6R7UvBzIWusNDOOU66uHk"
+      short-id: "30257f7c"
+  - name: "🇵🇱 [AI] Сервер 13"
+    type: vless
+    server: 177.1.192.89
+    port: 443
+    uuid: "d81db550-4787-467e-b98a-579ee9d41999"
+    network: "grpc"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "XKFUTW9ZAlaaeuUGiKKx9FgLjdQch7pCiR1GC1xMcjk"
+      short-id: "aab4c8abf7a4c4e4"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇨🇦 [AI] Сервер 14"
+    type: ss
+    server: 184.107.106.78
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇨🇦 [AI] Сервер 15"
+    type: ss
+    server: 184.107.106.77
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"

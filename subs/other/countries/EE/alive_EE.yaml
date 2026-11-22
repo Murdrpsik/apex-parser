@@ -1,28 +1,29 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 95.85.243.72
+    server: 191.217.238.38
     port: 443
-    uuid: "13cca0fd-bb3e-44e4-9ced-1c6efcabbb03"
-    network: "tcp"
-    servername: "212.192.156.15"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "m3opvubdy_gjBiBkXnAw3eDUP4alVeVWxKkvZHIINjs"
-      short-id: "426165a0badade80"
-  - name: "🇪🇪 [BL] Сервер 2"
-    type: vless
-    server: 77.83.198.104
-    port: 8443
-    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
+    uuid: "097eae28-f0e7-4b18-bce2-16cf7d9deb05"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
+    servername: "www.bmw.de"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
-      short-id: "f8d0271b4b5f9efc"
+      public-key: "vq0Fi871QaDVmxY7F0XWByt9muX3-16E31XfHWZj9D8"
+      short-id: "28138197d12e8e38"
+  - name: "🇪🇪 [BL] Сервер 2"
+    type: vless
+    server: 217.60.182.96
+    port: 443
+    uuid: "dc91568b-4f12-4ce1-a483-f04dd4913ab9"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "edge.mult-universe.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "5qVucogFLYlZOsG8DdX3dZRTr_2llj6_1OtZ9YfoilM"
+      short-id: "b12ebda62333a16a"

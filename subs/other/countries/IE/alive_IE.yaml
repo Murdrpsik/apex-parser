@@ -1,16 +1,13 @@
 proxies:
-  - name: "🇮🇪 [WL] Сервер 1"
-    type: vless
-    server: 168.113.253.178
-    port: 443
-    uuid: "608172ed-68e4-0001-85dc-f92c25d0eb92"
-    network: "tcp"
-    servername: "uzndiuvzvqqljdyhzs.fcloudservices.site"
-    udp: true
-    tls: true
-  - name: "🇮🇪 [BL] Сервер 2"
+  - name: "🇮🇪 [BL] Сервер 1"
     type: ss
     server: 20.223.233.64
     port: 443
     password: "wb1pAoZ9Q354JdSs"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇮🇪 [BL] Сервер 2"
+    type: ss
+    server: 20.107.212.150
+    port: 443
+    password: "TWbPYvqLo64B4EPJ"
     cipher: "chacha20-ietf-poly1305"

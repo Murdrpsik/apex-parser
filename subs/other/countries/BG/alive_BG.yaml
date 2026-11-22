@@ -1,15 +1,5 @@
 proxies:
-  - name: "🇧🇬 [WL] Сервер 1"
-    type: vless
-    server: 81.163.22.238
-    port: 443
-    uuid: "8941962c-a1ae-0001-b936-e18dea3a73a5"
-    network: "tcp"
-    servername: "oilokvcyfczlioxhxq.fcloudservices.lat"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇧🇬 [BL] Сервер 2"
+  - name: "🇧🇬 [BL] Сервер 1"
     type: vless
     server: 157.228.163.99
     port: 443
@@ -23,3 +13,15 @@ proxies:
     reality-opts:
       public-key: "hSoDrLr8MWmV05ffU4OLAmCgvh7AsoSiwkVjzPPVWSk"
       short-id: "d84583b7258ac883"
+  - name: "🇧🇬 [BL/CF] Сервер 2"
+    type: vless
+    server: 185.200.36.36
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
