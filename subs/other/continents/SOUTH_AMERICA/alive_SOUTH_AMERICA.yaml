@@ -1,5 +1,19 @@
 proxies:
-  - name: "🇨🇴 [BL] Сервер 1"
+  - name: "🇧🇷 [WL] Сервер 1"
+    type: vless
+    server: 178.92.205.63
+    port: 11167
+    uuid: "85ca6e9c-a7a9-46b6-bfc4-dca8330c1cfc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.mercadolivre.com.br"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
+      short-id: "ac"
+  - name: "🇨🇴 [BL] Сервер 2"
     type: vless
     server: 103.252.91.140
     port: 443
@@ -13,17 +27,3 @@ proxies:
     reality-opts:
       public-key: "pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM"
       short-id: "be9ad6e06ec8e762"
-  - name: "🇨🇱 [BL] Сервер 2"
-    type: vless
-    server: 147.224.226.144
-    port: 62905
-    uuid: "3fc3e0cf-2d3c-4c0f-9479-716712ebdb92"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU"
-      short-id: "1f2519bb96e5589c"

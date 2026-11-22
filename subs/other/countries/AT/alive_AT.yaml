@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇦🇹 [BL] Сервер 1"
+  - name: "🇦🇹 [BL/CF] Сервер 1"
     type: vless
-    server: 66.90.106.210
+    server: 201.34.141.91
     port: 443
-    uuid: "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7"
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "dash.syn2.online"
-    client-fingerprint: "chrome"
+    servername: "ruastriamicro2.gangplatform.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "2okfB1oMV1oQX1QZLbd_gQx4ZGtIDkP8KkELglZIBys"
-      short-id: "accded3297"
+      public-key: "xWszcU0a-SHH5bb-GGgV4cuZeQmLSz4JkwYr_5hvExI"
+      short-id: "b01af964fbefcc1f"

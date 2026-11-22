@@ -26,63 +26,17 @@ proxies:
     xhttp-opts:
       path: "/api/v1/upload"
       host: "wholebeam.com"
-  - name: "🇷🇺 [WL/CF] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: tochkacdn.top
+    server: 176.109.108.17
     port: 443
-    uuid: "ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454"
-    network: "ws"
-    servername: "unlik.club"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/static/telemetry/3c9aaef00005/"
-      headers:
-        Host: "tochkacdn.top"
-  - name: "🇷🇺 [WL/CF] Сервер 4"
-    type: vless
-    server: 185.178.208.167
-    port: 443
-    uuid: "ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454"
-    network: "ws"
-    servername: "unlik.club"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/static/telemetry/3c9aaef00005/"
-      headers:
-        Host: "tochkacdn.top"
-  - name: "🇷🇺 [WL/CF] Сервер 5"
-    type: vless
-    server: 109.107.189.69
-    port: 8443
-    uuid: "cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e"
+    uuid: "ef0e8b1b-e6a1-0001-ac63-bdba2cce8ae7"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "gw-721bd5.dobry.monster"
-    client-fingerprint: "chrome"
+    servername: "wrdgkmglxsfcfazlsf.fcloudservices.site"
+    client-fingerprint: "ios"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE"
-      short-id: "0912cc7f28aa26ba"
-  - name: "🇷🇺 [WL/AI] Сервер 6"
-    type: vless
-    server: 147.45.97.130
-    port: 2066
-    uuid: "4bec3709-0954-4173-ae59-3dee6cb8b961"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "google.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg"
-      short-id: "1b2a3f"
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 200.169.179.233
     port: 443
@@ -94,7 +48,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 201.24.116.192
     port: 443
@@ -106,7 +60,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 9"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 201.51.12.98
     port: 443
@@ -118,54 +72,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 10"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "ws"
-    servername: "xsru2.freeddns.org"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/wsru"
-      headers:
-        Host: "xsru2.freeddns.org"
-  - name: "🇷🇺 [WL] Сервер 11"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "grpc"
-    servername: "xsru1.ddnsfree.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "grpc-ru"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL] Сервер 12"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "ws"
-    servername: "xsru1.ddnsfree.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/wsru"
-      headers:
-        Host: "xsru1.ddnsfree.com"
-  - name: "🇷🇺 [WL] Сервер 13"
-    type: ss
-    server: 48.103.218.77
-    port: 18443
-    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
-    cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 14"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 136.148.83.69
     port: 443
@@ -175,20 +82,34 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 15"
+  - name: "🇷🇺 [WL/CF] Сервер 8"
     type: vless
-    server: 147.45.47.101
+    server: 109.107.189.69
     port: 8443
-    uuid: "27f26dee-9cf1-4cca-93f8-9ac23d311408"
+    uuid: "cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "apple.com"
+    servername: "gw-721bd5.dobry.monster"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
-  - name: "🇷🇺 [WL] Сервер 16"
+      public-key: "q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE"
+      short-id: "0912cc7f28aa26ba"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 135.106.175.19
+    port: 443
+    uuid: "6d622d0d-2572-456a-8daf-b2f01698aa37"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "roshia.anime-together.club"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "102QGNfisDfTEw5BcC0u61i6mY6UFcZ2qCMJzNxDtXc"
+  - name: "🇷🇺 [WL] Сервер 10"
     type: vless
     server: 168.113.253.178
     port: 443
@@ -198,7 +119,27 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 17"
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 45.151.31.69
+    port: 443
+    uuid: "ede2408f-ce98-0001-818c-4ae5220fe3ca"
+    network: "tcp"
+    servername: "ykqli-ru-85.my-fade.cloud"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 12"
+    type: vless
+    server: 168.113.252.11
+    port: 443
+    uuid: "8973e4a5-1c15-0001-abc7-60fb180063ea"
+    network: "tcp"
+    servername: "jkawq-ru-45sb.fade.mom"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 13"
     type: vless
     server: 48.103.133.47
     port: 8443
@@ -212,33 +153,69 @@ proxies:
     reality-opts:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: "6ba85179e30d4fc2"
-  - name: "🇷🇺 [WL] Сервер 18"
+  - name: "🇷🇺 [WL] Сервер 14"
     type: ss
     server: 46.17.42.129
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 19"
+  - name: "🇷🇺 [WL] Сервер 15"
     type: vless
-    server: 168.113.252.11
+    server: 213.171.24.52
     port: 443
-    uuid: "8973e4a5-1c15-0001-abc7-60fb180063ea"
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
     network: "tcp"
-    servername: "jkawq-ru-45sb.fade.mom"
+    flow: "xtls-rprx-vision"
+    servername: "sbrussia1.richhoodfoc.com"
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 20"
+    reality-opts:
+      public-key: "NLshsrwmeg_cL7kbLW4sqMfl_Xo6vCOOcB5NcmYhDyE"
+      short-id: "32cbd8937afcd477"
+  - name: "🇷🇺 [WL] Сервер 16"
     type: vless
-    server: 37.235.247.81
-    port: 8443
-    uuid: "2ae0670d-0bdf-409e-9a55-4e970252d378"
+    server: 82.202.156.115
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "apple.com"
-    client-fingerprint: "firefox"
+    servername: "sbrussia2.richhoodfoc.com"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: "6ba85179e30d4fc2"
+      public-key: "NLshsrwmeg_cL7kbLW4sqMfl_Xo6vCOOcB5NcmYhDyE"
+      short-id: "32cbd8937afcd477"
+  - name: "🇷🇺 [WL] Сервер 17"
+    type: vless
+    server: 213.171.24.165
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    network: "tcp"
+    servername: "dqgjbemytgqfwgxvuq.fcloudservices.site"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 18"
+    type: vless
+    server: 185.151.241.22
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    network: "tcp"
+    servername: "mrhytymqyorzvzgwoh.fcloudservices.site"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 19"
+    type: ss
+    server: 89.104.71.85
+    port: 1080
+    password: "i4PRShva51gMyidVX8kUi2ahpX84Ea7x"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇷🇺 [WL] Сервер 20"
+    type: ss
+    server: 171.22.130.52
+    port: 1080
+    password: "ALrLA12utSG7i2FrgAGimZFOf-HmQ-E-"
+    cipher: "chacha20-ietf-poly1305"

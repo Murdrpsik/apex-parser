@@ -1,7 +1,9 @@
 #profile-title: Apex HK
 #profile-update-interval: 1
-vless://93c0244e-6eb2-41bc-ad9c-1a7606747e13@156.245.234.97:2096?security=tls&flow=xtls-rprx-vision&fp=firefox&sni=lyhk.mihoyo.site&encryption=none&type=tcp#🇭🇰 [BL] Сервер 1
-vless://12a4f736-2238-49ee-831f-5516f15cc951@2.26.204.46:31001?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY&sid=39793bc4708abbbb&sni=mensura.cdn-apple.com&encryption=none#🇭🇰 [BL] Сервер 2
-vless://8614bde7-34cf-4413-8360-e96f1b960528@45.192.193.54:35600?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4&sni=www.iij.ad.jp&encryption=none#🇭🇰 [BL] Сервер 3
-vless://8b17beac-b143-447d-aa68-14cbb121a602@8.217.1.203:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38&sid=0bf55f64&sni=www.apple.com&encryption=none#🇭🇰 [BL] Сервер 4
-vless://3d409814-b663-411e-8f54-a112ecba7ddd@62.60.232.226:2096?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=nova-house.justext.space&type=tcp#🇭🇰 [BL] Сервер 5
+vless://3d409814-b663-411e-8f54-a112ecba7ddd@62.60.232.226:2096?encryption=none&security=tls&flow=xtls-rprx-vision&type=tcp&sni=nova-house.justext.space&fp=firefox#🇭🇰 [BL] Сервер 1
+vless://93c0244e-6eb2-41bc-ad9c-1a7606747e13@156.245.234.97:2096?security=tls&type=tcp&packetEncoding=xudp&sni=lyhk.mihoyo.site&fp=firefox&flow=xtls-rprx-vision&encryption=none#🇭🇰 [BL] Сервер 2
+vless://08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f@116.213.43.43:11107?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U&sid=e2ccd8eedcbee2ce&sni=www.apple.com&encryption=none#🇭🇰 [BL] Сервер 3
+vless://12a4f736-2238-49ee-831f-5516f15cc951@2.26.204.46:31001?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY&sid=39793bc4708abbbb&sni=mensura.cdn-apple.com&encryption=none#🇭🇰 [BL] Сервер 4
+vless://8614bde7-34cf-4413-8360-e96f1b960528@45.192.193.54:35600?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4&sni=www.iij.ad.jp&encryption=none#🇭🇰 [BL] Сервер 5
+vless://8b17beac-b143-447d-aa68-14cbb121a602@8.217.1.203:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38&sid=0bf55f64&sni=www.apple.com&encryption=none#🇭🇰 [BL] Сервер 6
+vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@103.88.241.220:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruhongmicro2.gangplatform.com&pbk=u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo&sid=bad10ef561d2e2a1&fp=qq&encryption=none#🇭🇰 [BL/CF] Сервер 7

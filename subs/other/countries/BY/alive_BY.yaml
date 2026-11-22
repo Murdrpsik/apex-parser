@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇧🇾 [WL] Сервер 1"
-    type: vless
-    server: 178.172.227.228
-    port: 10444
-    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ads.x5.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇧🇾 [WL] Сервер 2"
+  - name: "🇧🇾 [BL] Сервер 1"
     type: vless
     server: 178.172.227.124
     port: 10444
@@ -27,19 +13,17 @@ proxies:
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇧🇾 [WL] Сервер 3"
+  - name: "🇧🇾 [BL] Сервер 2"
     type: vless
-    server: 84.23.52.104
-    port: 9079
-    uuid: "d81db550-4787-467e-b98a-579ee9d41999"
-    network: "grpc"
-    servername: "by.84-23-52-104.sslip.io"
-    client-fingerprint: "ios"
+    server: 178.172.227.228
+    port: 10444
+    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ads.x5.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "V1ifE7iJ4ITZfA10PNaR7fF7Lz1E_9v7a9S4jPOY-A8"
-      short-id: "069074d6fbb09e56"
-    grpc-opts:
-      grpc-service-name: "inetgrpc"
-      grpc-mode: "gun"
+      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
+      short-id: "8debcf36f1cc69ff"
