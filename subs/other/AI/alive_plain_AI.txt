@@ -1,17 +1,13 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
 vless://a71d6c6d-c95e-4ec1-a892-22e21733bf09@178.248.236.229:443?encryption=none&flow=xtls-rprx-vision&security=reality&fp=chrome&sni=144.hexdey.com&pbk=_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0&sid=d05a120d3506d2cc&type=tcp#🇩🇪 [AI] Сервер 1
-vless://d3eeebec-d7ba-4695-a1ea-2f2407c86582@81.222.148.178:53443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=snobvpn.online&pbk=oOrVESvP0FHEAkQGP2oih5DDdPAoRZkVJOZTWYsiLxk&sid=0e9de4c83cb77992&fp=chrome#🇫🇮 [AI] Сервер 2
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 3
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 4
-vless://0e95dbe0-1d95-40e9-bde3-decab5d997bf@185.242.247.177:8443?flow=xtls-rprx-vision&security=reality&sni=cedar-lantern.justext.space&fp=firefox&pbk=Lvm9eec5bpjeqEnwG_9Q0_W0Imp7xS6JUftXhEYCOjw&sid=4480a7bbaeac077d&encryption=none&type=tcp#🇫🇮 [AI] Сервер 5
-vless://5c00e45e-241e-4ae2-9ccb-736e6a1fe00b@177.3.215.110:443?flow=xtls-rprx-vision&security=reality&sni=eh.vk.com&fp=qq&pbk=obTNVl4ZYXu6dV_R9yJohvU8xtAs6KHbMsRPTeT_blI&encryption=none&type=tcp#🇸🇪 [AI] Сервер 6
-vless://70dd5f86-6941-4560-bb8e-62a5c11868e5@31.184.244.97:64921?flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=firefox&pbk=U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU&sid=1f2519bb96e5589c&encryption=none&type=tcp#🇩🇪 [AI] Сервер 7
-vless://6c49810a-e6e7-4948-8061-6f6243b0124d@2.28.45.87:3939?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA&sid=d9a2600fdecd7be2&sni=ai.android&encryption=none&type=tcp#🇩🇪 [AI] Сервер 8
-vless://78dbd904-8400-40fa-b67d-8bbaa624d385@82.97.248.39:443?flow=xtls-rprx-vision&security=reality&sni=pl-serv.maxleshax.icu&fp=firefox&pbk=pk26pM_LnkB8lv3ysFZZunj_5kzPDvyAJ92wDP0-hBg&sid=d7584d2bc6bc868a&encryption=none&type=tcp#🇵🇱 [AI] Сервер 9
-vless://57d33a42-1b6d-47d0-a14e-31cf1dcebb6f@5.59.205.180:38203?flow=xtls-rprx-vision&security=reality&sni=se-1.cutemedia.lol&fp=firefox&pbk=IZ9HnoNBZDB0e15eA-_Ve7N6nuilZ_vR-4RzMcSgBV0&sid=4c9499e6fc251e0c&encryption=none&type=tcp#🇸🇪 [AI] Сервер 10
-vless://9a597d68-6688-4046-bf24-a5a541e115e0@31.171.152.222:8443?flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=firefox&pbk=6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU&sid=f8d0271b4b5f9efc&encryption=none&type=tcp#🇦🇱 [AI] Сервер 11
-vless://de7efd06-187c-4cac-8072-88e5cdc3424d@201.8.64.209:443?encryption=none&security=reality&sni=mylumina.sbs&fp=firefox&pbk=EJKJxu6-N6aicqrzlwr62G6R7UvBzIWusNDOOU66uHk&sid=30257f7c&spx=%2F47ad947169d1946&type=tcp&headerType=none#🇳🇱 [AI] Сервер 12
-vless://d81db550-4787-467e-b98a-579ee9d41999@177.1.192.89:443?security=reality&sni=www.cloudflare.com&fp=firefox&pbk=XKFUTW9ZAlaaeuUGiKKx9FgLjdQch7pCiR1GC1xMcjk&sid=aab4c8abf7a4c4e4&type=grpc&serviceName=grpc&mode=gun&encryption=none#🇵🇱 [AI] Сервер 13
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [AI] Сервер 14
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#🇨🇦 [AI] Сервер 15
+vless://d3eeebec-d7ba-4695-a1ea-2f2407c86582@81.222.148.87:51443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=snobvpn.online&pbk=6JT4YghdN35MmYArZsFJM9vMs--KMjcD4kX7zIW_iTc&sid=0d3b47e99910eaa0&fp=chrome#🌐 [AI] Сервер 2
+vless://d3eeebec-d7ba-4695-a1ea-2f2407c86582@81.222.148.178:54443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=snobvpn.online&pbk=scEaR7bQ4oeuLgyyFEwUWlk76NW-SH7EA3qA_6O1Lyo&sid=1828c9aa2c08608c&fp=chrome#🇵🇱 [AI] Сервер 3
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 4
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 5
+vless://4bec3709-0954-4173-ae59-3dee6cb8b961@147.45.97.130:2066?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=google.com&pbk=kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg&sid=1b2a3f&fp=chrome#🇷🇺 [AI] Сервер 6
+vless://6c49810a-e6e7-4948-8061-6f6243b0124d@2.28.45.87:3939?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA&sid=d9a2600fdecd7be2&sni=ai.android&encryption=none&type=tcp#🇩🇪 [AI] Сервер 7
+vless://d81db550-4787-467e-b98a-579ee9d41999@138.16.206.147:2096?mode=gun&security=reality&encryption=none&pbk=4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs&fp=firefox&type=grpc&serviceName=inetgrpc&sni=www.cloudflare.com&sid=6ba85179e30d4fc2#🇩🇪 [AI] Сервер 8
+vless://5fa77250-c3c3-48a2-b432-1f9c6e718571@193.106.221.121:777?encryption=none&security=reality&sni=it.nvidia.com&fp=chrome&pbk=5Cf3coHU6y-v8Sn3avXr7v5fw4s5AdPMu1_RNITmqTQ&sid=14&spx=%2Fb089e5012f9ad3e&type=grpc&mode=gun#🇬🇧 [AI] Сервер 9
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [AI] Сервер 10
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#🇨🇦 [AI] Сервер 11

@@ -1,13 +1,21 @@
 proxies:
   - name: "🇮🇪 [BL] Сервер 1"
-    type: ss
-    server: 20.223.233.64
+    type: vless
+    server: 45.151.31.69
     port: 443
-    password: "wb1pAoZ9Q354JdSs"
-    cipher: "chacha20-ietf-poly1305"
+    uuid: "ede2408f-ce98-0001-818c-4ae5220fe3ca"
+    network: "tcp"
+    servername: "ykqli-ru-85.my-fade.cloud"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
   - name: "🇮🇪 [BL] Сервер 2"
-    type: ss
-    server: 20.107.212.150
+    type: vless
+    server: 176.109.108.17
     port: 443
-    password: "TWbPYvqLo64B4EPJ"
-    cipher: "chacha20-ietf-poly1305"
+    uuid: "440c34ed-de29-0001-a467-153c5816a42b"
+    network: "tcp"
+    servername: "wrdgkmglxsfcfazlsf.fcloudservices.site"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true

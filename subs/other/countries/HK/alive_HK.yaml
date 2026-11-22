@@ -12,20 +12,6 @@ proxies:
     tls: true
   - name: "🇭🇰 [BL] Сервер 2"
     type: vless
-    server: 62.60.232.226
-    port: 8443
-    uuid: "0025b3da-a92e-45b4-ab2d-de0f3ef3bf23"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nova-house.justext.space"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2kIZnJhcwmSnHlJ6I6kz5srz0R-9uUMJAAMAuS_U2xE"
-      short-id: "1a60e2b1ca53aa6d"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
     server: 2.26.204.46
     port: 31001
     uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
@@ -38,6 +24,19 @@ proxies:
     reality-opts:
       public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
       short-id: "39793bc4708abbbb"
+  - name: "🇭🇰 [BL] Сервер 3"
+    type: vless
+    server: 45.192.193.54
+    port: 35600
+    uuid: "8614bde7-34cf-4413-8360-e96f1b960528"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.iij.ad.jp"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
   - name: "🇭🇰 [BL] Сервер 4"
     type: vless
     server: 8.217.1.203
@@ -52,45 +51,14 @@ proxies:
     reality-opts:
       public-key: "74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38"
       short-id: "0bf55f64"
-  - name: "🇭🇰 [BL/CF] Сервер 5"
+  - name: "🇭🇰 [BL] Сервер 5"
     type: vless
-    server: 195.58.38.9
-    port: 443
-    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
-    network: "ws"
-    servername: "joeypg.ezbiz.dynv6.net"
-    client-fingerprint: "chrome"
+    server: 62.60.232.226
+    port: 2096
+    uuid: "3d409814-b663-411e-8f54-a112ecba7ddd"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nova-house.justext.space"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "joeypg.ezbiz.dynv6.net"
-  - name: "🇭🇰 [BL/CF] Сервер 6"
-    type: vless
-    server: 90.156.208.162
-    port: 443
-    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
-    network: "ws"
-    servername: "joeypg.ezbiz.dynv6.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "joeypg.ezbiz.dynv6.net"
-  - name: "🇭🇰 [BL/CF] Сервер 7"
-    type: vless
-    server: 159.253.21.82
-    port: 443
-    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
-    network: "ws"
-    servername: "joeypg.ezbiz.dynv6.net"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "joeypg.ezbiz.dynv6.net"
