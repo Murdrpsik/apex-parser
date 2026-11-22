@@ -13,21 +13,7 @@ proxies:
     reality-opts:
       public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
       short-id: "6859f5b59e55aa30"
-  - name: "🇹🇷 [WL/CF] Сервер 2"
-    type: vless
-    server: 88.210.52.136
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruturkeymicro5.gangtype.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE"
-      short-id: "a671b94142229346"
-  - name: "🇹🇷 [BL] Сервер 3"
+  - name: "🇹🇷 [BL/CF] Сервер 2"
     type: vless
     server: 90.156.226.200
     port: 443
@@ -41,30 +27,3 @@ proxies:
     reality-opts:
       public-key: "aMjyAtCkIs-W68PK2esrcs0eXgtxabf3TXE20o1Ed2c"
       short-id: "e7befbb8bdc05025"
-  - name: "🇹🇷 [BL] Сервер 4"
-    type: vless
-    server: 212.108.97.14
-    port: 8443
-    uuid: "cad844e8-8307-55d8-b75c-5f923376fff7"
-    network: "tcp"
-    servername: "tesla.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "-p7b4PhnlkadwUd-79Ycl2_TF5LN3_pLD0M6uokA4gg"
-      short-id: "5ce70ea6"
-  - name: "🇹🇷 [BL/CF] Сервер 5"
-    type: vless
-    server: 176.123.167.124
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sbturkeymicro4.gangtype.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JR19BNl-sicrXGAED422ys_zI6BZoxRUjX2aL83MDyc"
-      short-id: "03ba1a518a2eaa14"

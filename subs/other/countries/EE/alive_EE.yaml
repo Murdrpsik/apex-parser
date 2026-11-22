@@ -1,32 +1,6 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 217.60.182.109
-    port: 443
-    uuid: "0259e5aa-c188-4334-b204-32cd5ea859f6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "maps-carts-world.keno.su"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_MeP-WwmolUvi6wMXNoSs_zo6miG_OW7xk4ibzADiHY"
-  - name: "🇪🇪 [BL] Сервер 2"
-    type: vless
-    server: 82.148.243.135
-    port: 2054
-    uuid: "6cadcb5b-610d-48b8-b833-4c243219ef0c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "thst-ee1.mercedes-fan.sbs"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bpjz9eEpLD2aAXnIW_zeSyUiKErPZVdRy_H-gA-LRhE"
-  - name: "🇪🇪 [BL] Сервер 3"
-    type: vless
     server: 217.60.182.96
     port: 443
     uuid: "dc91568b-4f12-4ce1-a483-f04dd4913ab9"
@@ -39,3 +13,31 @@ proxies:
     reality-opts:
       public-key: "5qVucogFLYlZOsG8DdX3dZRTr_2llj6_1OtZ9YfoilM"
       short-id: "b12ebda62333a16a"
+  - name: "🇪🇪 [BL] Сервер 2"
+    type: vless
+    server: 77.83.198.104
+    port: 8443
+    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
+      short-id: "f8d0271b4b5f9efc"
+  - name: "🇪🇪 [BL] Сервер 3"
+    type: vless
+    server: ee.lockaway.top
+    port: 443
+    uuid: "963799b5-f711-4a7d-85a8-da58b170a66f"
+    network: "xhttp"
+    servername: "ee.lockaway.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v2/stream/"
+      host: "ee.lockaway.top"
+      mode: "auto"

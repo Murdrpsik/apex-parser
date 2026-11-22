@@ -3,11 +3,11 @@ proxies:
     type: vless
     server: 178.92.205.63
     port: 11167
-    uuid: "85ca6e9c-a7a9-46b6-bfc4-dca8330c1cfc"
+    uuid: "5adf14f7-fdb8-4432-82ef-c79020b121dd"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.mercadolivre.com.br"
-    client-fingerprint: "qq"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:

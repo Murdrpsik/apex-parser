@@ -1,4 +1,4 @@
 #profile-title: Apex SA
 #profile-update-interval: 1
-vless://85ca6e9c-a7a9-46b6-bfc4-dca8330c1cfc@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=qq#🇧🇷 [WL] Сервер 1
-vless://6df66cb9-34e6-4287-9660-5dda0f79239b@103.252.91.140:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM&sid=be9ad6e06ec8e762&sni=vsaxas.puffixhosting.com&encryption=none#🇨🇴 [BL] Сервер 2
+vless://5adf14f7-fdb8-4432-82ef-c79020b121dd@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=edge#🇧🇷 [WL] Сервер 1
+vless://6df66cb9-34e6-4287-9660-5dda0f79239b@103.252.91.140:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=vsaxas.puffixhosting.com&pbk=pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM&sid=be9ad6e06ec8e762#🇨🇴 [BL] Сервер 2

@@ -47,117 +47,117 @@ proxies:
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 9"
-    type: ss
-    server: 89.104.71.85
-    port: 1080
-    password: "i4PRShva51gMyidVX8kUi2ahpX84Ea7x"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇷🇺 [WL] Сервер 10"
-    type: ss
-    server: 171.22.130.52
-    port: 1080
-    password: "ALrLA12utSG7i2FrgAGimZFOf-HmQ-E-"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇳🇱 [BL] Сервер 11"
+  - name: "🇳🇱 [BL] Сервер 9"
     type: ss
     server: 158.173.20.171
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇳🇱 [BL] Сервер 12"
+  - name: "🇳🇱 [BL] Сервер 10"
     type: ss
-    server: 82.38.31.189
+    server: 82.38.31.187
     port: 8080
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     cipher: "chacha20-ietf-poly1305"
+  - name: "🇳🇱 [BL] Сервер 11"
+    type: ss
+    server: 82.38.31.186
+    port: 8080
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇯🇵 [BL] Сервер 12"
+    type: ss
+    server: 149.22.87.241
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
   - name: "🇳🇱 [BL] Сервер 13"
     type: ss
-    server: 193.29.139.223
+    server: 82.38.31.184
     port: 8080
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     cipher: "chacha20-ietf-poly1305"
   - name: "🇳🇱 [BL] Сервер 14"
     type: ss
-    server: 82.38.31.216
+    server: 82.38.31.219
     port: 8080
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇳🇱 [BL] Сервер 15"
+  - name: "🇬🇧 [BL] Сервер 15"
     type: ss
-    server: 82.38.31.35
-    port: 8080
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇳🇱 [BL] Сервер 16"
-    type: ss
-    server: 82.38.31.162
+    server: 141.98.101.181
     port: 443
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇳🇱 [BL] Сервер 17"
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇯🇵 [BL] Сервер 16"
     type: ss
-    server: 82.38.31.205
-    port: 8080
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    cipher: "chacha20-ietf-poly1305"
+    server: 149.22.87.204
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇯🇵 [BL] Сервер 17"
+    type: ss
+    server: 149.22.87.240
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
   - name: "🇨🇦 [BL] Сервер 18"
     type: ss
     server: 149.22.95.183
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇯🇵 [BL] Сервер 19"
+  - name: "🇳🇱 [BL] Сервер 19"
     type: ss
-    server: 149.22.87.241
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇯🇵 [BL] Сервер 20"
-    type: ss
-    server: 149.22.87.240
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇯🇵 [BL] Сервер 21"
-    type: ss
-    server: 149.22.87.204
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 22"
-    type: ss
-    server: 141.98.101.178
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 23"
-    type: ss
-    server: 141.98.101.181
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇳🇱 [BL] Сервер 24"
+    server: 193.29.139.223
+    port: 8080
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🌐 [BL] Сервер 20"
     type: ss
     server: 193.29.139.147
     port: 8080
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     cipher: "chacha20-ietf-poly1305"
-  - name: "🇮🇹 [BL] Сервер 25"
+  - name: "🇮🇹 [BL] Сервер 21"
     type: ss
-    server: 202.50.253.90
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    server: 57.131.27.21
+    port: 8388
+    password: "itzvpn@321"
     cipher: "aes-256-gcm"
-  - name: "🇮🇹 [BL] Сервер 26"
+  - name: "🇨🇦 [BL/AI] Сервер 22"
     type: ss
-    server: 202.50.253.54
-    port: 19999
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    server: 184.107.106.77
+    port: 8388
+    password: "itzvpn@321"
     cipher: "aes-256-gcm"
+  - name: "🇩🇪 [BL] Сервер 23"
+    type: ss
+    server: 8.209.72.224
+    port: 443
+    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+    cipher: "2022-blake3-chacha20-poly1305"
+  - name: "🇺🇸 [BL] Сервер 24"
+    type: ss
+    server: 135.148.42.13
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇩🇪 [BL] Сервер 25"
+    type: ss
+    server: 178.162.254.38
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇳🇱 [BL] Сервер 26"
+    type: ss
+    server: 193.29.139.168
+    port: 8080
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+    cipher: "chacha20-ietf-poly1305"
   - name: "🇮🇹 [BL] Сервер 27"
     type: ss
-    server: 202.50.253.99
+    server: 202.50.253.81
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
@@ -169,133 +169,73 @@ proxies:
     cipher: "aes-256-gcm"
   - name: "🇮🇹 [BL] Сервер 29"
     type: ss
-    server: 202.50.253.18
+    server: 202.50.253.45
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [BL] Сервер 30"
+  - name: "🇮🇹 [BL] Сервер 30"
     type: ss
-    server: 37.19.198.244
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 31"
-    type: ss
-    server: 173.244.56.9
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 32"
-    type: ss
-    server: 15.204.247.206
-    port: 4444
-    password: "pKEW8JPByTVTLtM"
+    server: 202.50.253.54
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [BL] Сервер 33"
+  - name: "🇮🇹 [BL] Сервер 31"
     type: ss
-    server: 173.244.56.6
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 34"
-    type: ss
-    server: 198.98.53.130
-    port: 443
-    password: "eDfN7SODQceIOmIAbtJJtK"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇺🇸 [BL] Сервер 35"
-    type: ss
-    server: 37.19.198.236
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 36"
-    type: ss
-    server: 37.19.198.160
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 37"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 38"
-    type: ss
-    server: 37.19.198.243
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 39"
+    server: 202.50.253.99
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [BL] Сервер 32"
     type: ss
     server: 156.146.38.169
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇺🇸 [BL] Сервер 40"
+  - name: "🇺🇸 [BL] Сервер 33"
+    type: ss
+    server: 173.244.56.9
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 34"
+    type: ss
+    server: 173.244.56.6
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 35"
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 36"
     type: ss
     server: 156.146.38.170
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇿🇦 [BL] Сервер 41"
+  - name: "🇺🇸 [BL] Сервер 37"
     type: ss
-    server: 102.37.156.224
+    server: 37.19.198.244
     port: 443
-    password: "aduB9HGxQHjA2SBMRjkHX6"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 42"
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 38"
     type: ss
-    server: 102.133.165.160
-    port: 16233
-    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇨🇦 [BL/AI] Сервер 43"
-    type: ss
-    server: 184.107.106.78
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
-  - name: "🇨🇦 [BL/AI] Сервер 44"
-    type: ss
-    server: 192.6.83.24
-    port: 8388
-    password: "my8gGU2rn0qBviYEW6F6"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇨🇦 [BL/AI] Сервер 45"
-    type: ss
-    server: 192.99.151.230
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
-  - name: "🇫🇮 [BL] Сервер 46"
-    type: ss
-    server: 213.176.92.148
-    port: 40647
-    password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
-    cipher: "aes-256-gcm"
-  - name: "🇳🇱 [BL] Сервер 47"
-    type: ss
-    server: 140.82.56.38
-    port: 8388
-    password: "iOaIXNsQXVIxwmkY"
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [BL] Сервер 48"
-    type: ss
-    server: 135.148.42.13
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
-  - name: "🇺🇸 [BL] Сервер 49"
-    type: ss
-    server: 40.160.86.43
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
-  - name: "🇮🇪 [BL] Сервер 50"
-    type: ss
-    server: 20.107.212.150
+    server: 37.19.198.160
     port: 443
-    password: "TWbPYvqLo64B4EPJ"
-    cipher: "chacha20-ietf-poly1305"
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 39"
+    type: ss
+    server: 37.19.198.243
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇺🇸 [BL] Сервер 40"
+    type: ss
+    server: 15.204.247.206
+    port: 4444
+    password: "pKEW8JPByTVTLtM"
+    cipher: "aes-256-gcm"

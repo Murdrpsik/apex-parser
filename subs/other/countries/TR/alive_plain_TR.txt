@@ -1,7 +1,4 @@
 #profile-title: Apex TR
 #profile-update-interval: 1
 vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@185.246.155.91:10103?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko&sid=6859f5b59e55aa30&sni=www.apple.com&encryption=none#🇹🇷 [WL] Сервер 1
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@88.210.52.136:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruturkeymicro5.gangtype.com&pbk=bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE&sid=a671b94142229346&fp=qq&encryption=none#🇹🇷 [WL/CF] Сервер 2
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@90.156.226.200:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruturkey1.gangtype.com&pbk=aMjyAtCkIs-W68PK2esrcs0eXgtxabf3TXE20o1Ed2c&sid=e7befbb8bdc05025&fp=qq&encryption=none#🇹🇷 [BL] Сервер 3
-vless://cad844e8-8307-55d8-b75c-5f923376fff7@212.108.97.14:8443?security=reality&fp=firefox&pbk=-p7b4PhnlkadwUd-79Ycl2_TF5LN3_pLD0M6uokA4gg&sid=5ce70ea6&sni=tesla.com&encryption=none&type=tcp#🇹🇷 [BL] Сервер 4
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@176.123.167.124:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=sbturkeymicro4.gangtype.com&pbk=JR19BNl-sicrXGAED422ys_zI6BZoxRUjX2aL83MDyc&sid=03ba1a518a2eaa14&fp=firefox&encryption=none#🇹🇷 [BL/CF] Сервер 5
+vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@90.156.226.200:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruturkey1.gangtype.com&pbk=aMjyAtCkIs-W68PK2esrcs0eXgtxabf3TXE20o1Ed2c&sid=e7befbb8bdc05025&fp=qq&encryption=none#🇹🇷 [BL/CF] Сервер 2

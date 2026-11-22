@@ -1,7 +1,0 @@
-proxies:
-  - name: "🇮🇪 [BL] Сервер 1"
-    type: ss
-    server: 20.107.212.150
-    port: 443
-    password: "TWbPYvqLo64B4EPJ"
-    cipher: "chacha20-ietf-poly1305"

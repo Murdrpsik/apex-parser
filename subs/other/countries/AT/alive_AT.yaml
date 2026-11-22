@@ -1,5 +1,32 @@
 proxies:
-  - name: "🇦🇹 [BL/CF] Сервер 1"
+  - name: "🇦🇹 [WL] Сервер 1"
+    type: vless
+    server: 185.244.182.162
+    port: 443
+    uuid: "c50eae6b-18de-4bdc-a22f-9edda40a57ed"
+    network: "xhttp"
+    servername: "atd1.tunnely.space"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/xhttp/"
+      mode: "packet-up"
+  - name: "🇦🇹 [BL/CF] Сервер 2"
+    type: vless
+    server: 212.118.56.133
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ruastriamicro1.gangplatform.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "woALl3tJ66hfoRmufkkINfiVyiw30EGB3lBixC9axV4"
+      short-id: "b74ad1d666c50539"
+  - name: "🇦🇹 [BL/CF] Сервер 3"
     type: vless
     server: 201.34.141.91
     port: 443
