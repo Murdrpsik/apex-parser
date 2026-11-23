@@ -15,30 +15,32 @@ proxies:
       short-id: "a671b94142229346"
   - name: "🇹🇷 [BL] Сервер 2"
     type: vless
-    server: 45.9.14.247
-    port: 443
-    uuid: "c50eae6b-18de-4bdc-a22f-9edda40a57ed"
-    network: "xhttp"
-    servername: "tr01.tunnely.space"
+    server: 147.45.66.208
+    port: 43000
+    uuid: "01e61db7-9e0b-4431-a995-a5288a01b951"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "147.45.66.208"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/xhttp/"
-      mode: "packet-up"
+    reality-opts:
+      public-key: "DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg"
+      short-id: "4d3d8e15"
   - name: "🇹🇷 [BL] Сервер 3"
     type: vless
-    server: 185.158.151.235
-    port: 54005
-    uuid: "b87e0fe3-2eaa-4714-b717-ae3204fc1846"
+    server: 176.123.167.124
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
     network: "tcp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+    servername: "sbturkeymicro4.gangtype.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "k62XkGNgUzt6z6NjQrM-zjpuUei3G62_AAIzlgxHaEA"
-      short-id: "ed69a523b5ab3e"
+      public-key: "JR19BNl-sicrXGAED422ys_zI6BZoxRUjX2aL83MDyc"
+      short-id: "03ba1a518a2eaa14"
   - name: "🇹🇷 [BL/CF] Сервер 4"
     type: vless
     server: 90.156.226.200
@@ -53,17 +55,3 @@ proxies:
     reality-opts:
       public-key: "aMjyAtCkIs-W68PK2esrcs0eXgtxabf3TXE20o1Ed2c"
       short-id: "e7befbb8bdc05025"
-  - name: "🇹🇷 [BL/CF] Сервер 5"
-    type: vless
-    server: 176.123.167.124
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sbturkeymicro4.gangtype.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "JR19BNl-sicrXGAED422ys_zI6BZoxRUjX2aL83MDyc"
-      short-id: "03ba1a518a2eaa14"

@@ -1,29 +1,17 @@
 proxies:
-  - name: "🇧🇷 [WL] Сервер 1"
+  - name: "🇧🇷 [BL] Сервер 1"
     type: vless
-    server: 178.92.205.63
-    port: 11167
-    uuid: "5adf14f7-fdb8-4432-82ef-c79020b121dd"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.mercadolivre.com.br"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g"
-      short-id: "ac"
-  - name: "🇨🇴 [BL] Сервер 2"
-    type: vless
-    server: 103.252.91.140
-    port: 443
-    uuid: "6df66cb9-34e6-4287-9660-5dda0f79239b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "vsaxas.puffixhosting.com"
+    server: 157.228.157.19
+    port: 25813
+    uuid: "cb7ceae2-6f47-4059-8bf0-371b62a0f0ce"
+    network: "xhttp"
+    servername: "br.jetstoreapp.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM"
-      short-id: "be9ad6e06ec8e762"
+      public-key: "OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc"
+      short-id: "421f11a52c02c80d"
+    xhttp-opts:
+      path: "/b84b87f75dfc"
+      mode: "auto"

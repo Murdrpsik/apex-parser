@@ -1,4 +1,3 @@
 #profile-title: Apex SA
 #profile-update-interval: 1
-vless://5adf14f7-fdb8-4432-82ef-c79020b121dd@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=edge#🇧🇷 [WL] Сервер 1
-vless://6df66cb9-34e6-4287-9660-5dda0f79239b@103.252.91.140:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=vsaxas.puffixhosting.com&pbk=pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM&sid=be9ad6e06ec8e762#🇨🇴 [BL] Сервер 2
+vless://cb7ceae2-6f47-4059-8bf0-371b62a0f0ce@157.228.157.19:25813?type=xhttp&headerType=none&security=reality&encryption=none&sni=br.jetstoreapp.ru&fp=firefox&pbk=OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc&sid=421f11a52c02c80d&path=%2Fb84b87f75dfc&mode=auto#🇧🇷 [BL] Сервер 1
