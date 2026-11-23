@@ -41,48 +41,47 @@ proxies:
       host: "wholebeam.com"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
-    server: 78.159.245.147
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "chrome"
+    server: 88.218.66.208
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "trust-engage-666.cdn.cachefleet.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
+      public-key: "OhXBQmn4E0N-L7HeoFTCpcwAA1D6ypNPQZJAu-YpglU"
+      short-id: "ce59be660896259f"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 78.159.245.147
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    server: 88.218.66.208
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
     network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "chrome"
+    servername: "juniper-willow.cdn.cachefleet.com"
+    client-fingerprint: "qq"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
     grpc-opts:
-      grpc-service-name: "grpc"
+      grpc-service-name: "3s7f80c9431676f3"
   - name: "🇷🇺 [WL] Сервер 6"
     type: vless
-    server: 200.169.179.233
+    server: 95.129.236.239
     port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "chrome"
+    uuid: "77998cc6-8a4d-4251-b974-ebff48a84c4d"
+    network: "ws"
+    servername: "content-iv1k.login.opendns.stream"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
+    ws-opts:
+      path: "/sock/relay/007f9c12e265"
+      headers:
+        Host: "content-iv1k.login.opendns.stream"
   - name: "🇷🇺 [WL] Сервер 7"
     type: vless
-    server: 201.24.116.192
+    server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -94,7 +93,7 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 8"
     type: vless
-    server: 201.51.12.98
+    server: 201.24.116.192
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -105,6 +104,31 @@ proxies:
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 201.51.12.98
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇷🇺 [WL] Сервер 10"
+    type: vless
+    server: 147.45.175.81
+    port: 443
+    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
+    network: "grpc"
+    servername: "xsru1.ddnsfree.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "grpc-ru"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 11"
     type: vless
     server: 147.45.175.81
     port: 443
@@ -118,43 +142,61 @@ proxies:
       path: "/wsru"
       headers:
         Host: "xsru1.ddnsfree.com"
-  - name: "🇷🇺 [WL] Сервер 10"
-    type: vless
-    server: 136.148.83.69
-    port: 443
-    uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
-    network: "tcp"
-    servername: "szqbx-ru-77dc.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 11"
-    type: vless
-    server: 168.113.253.178
-    port: 443
-    uuid: "d6d40100-9442-0001-b5b9-6d259318c421"
-    network: "tcp"
-    servername: "uzndiuvzvqqljdyhzs.fcloudservices.site"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
   - name: "🇷🇺 [WL] Сервер 12"
+    type: ss
+    server: 48.103.218.77
+    port: 18443
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+    cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL/CF] Сервер 13"
     type: vless
-    server: 45.151.31.69
-    port: 443
-    uuid: "ede2408f-ce98-0001-818c-4ae5220fe3ca"
+    server: 109.107.189.69
+    port: 8443
+    uuid: "cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e"
     network: "tcp"
-    servername: "ykqli-ru-85.my-fade.cloud"
-    client-fingerprint: "ios"
+    flow: "xtls-rprx-vision"
+    servername: "gw-721bd5.dobry.monster"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 13"
+    reality-opts:
+      public-key: "q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE"
+      short-id: "0912cc7f28aa26ba"
+  - name: "🇷🇺 [WL] Сервер 14"
+    type: vless
+    server: 48.103.133.47
+    port: 8443
+    uuid: "2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: "6ba85179e30d4fc2"
+  - name: "🇷🇺 [WL] Сервер 15"
     type: ss
     server: 46.17.42.129
     port: 18443
     password: "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 14"
+  - name: "🇷🇺 [WL] Сервер 16"
+    type: vless
+    server: 168.113.134.200
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ru3-og.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oYK2PnsAqOx2L18hRnKHkhFJLhqXd8tmz9ztKV0Q0gw"
+      short-id: "d06b21b9ae2921db"
+  - name: "🇷🇺 [WL] Сервер 17"
     type: vless
     server: 213.171.24.52
     port: 443
@@ -168,7 +210,7 @@ proxies:
     reality-opts:
       public-key: "NLshsrwmeg_cL7kbLW4sqMfl_Xo6vCOOcB5NcmYhDyE"
       short-id: "32cbd8937afcd477"
-  - name: "🇷🇺 [WL] Сервер 15"
+  - name: "🇷🇺 [WL] Сервер 18"
     type: vless
     server: 82.202.156.115
     port: 443
@@ -182,23 +224,3 @@ proxies:
     reality-opts:
       public-key: "NLshsrwmeg_cL7kbLW4sqMfl_Xo6vCOOcB5NcmYhDyE"
       short-id: "32cbd8937afcd477"
-  - name: "🇷🇺 [WL] Сервер 16"
-    type: vless
-    server: 213.171.24.165
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "dqgjbemytgqfwgxvuq.fcloudservices.site"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 17"
-    type: vless
-    server: 185.151.241.22
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "mrhytymqyorzvzgwoh.fcloudservices.site"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true

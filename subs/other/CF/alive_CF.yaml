@@ -1,19 +1,33 @@
 proxies:
-  - name: "🇸🇪 [CF] Сервер 1"
+  - name: "🇲🇩 [CF] Сервер 1"
     type: vless
-    server: subgift.gcorecdn.com
+    server: 194.180.191.200
     port: 443
-    uuid: "63242a2a-7bdb-4775-bc3f-65c2f260f224"
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
     network: "ws"
-    servername: "subgift.gcorecdn.com"
+    servername: "v2n5.11676767.xyz"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/t.me-SubGift"
+      path: "/doujin/channels/cb"
       headers:
-        Host: "subgift.gcorecdn.com"
-  - name: "🇸🇪 [CF] Сервер 2"
+        Host: "v2n5.11676767.xyz"
+  - name: "🇹🇷 [CF] Сервер 2"
+    type: vless
+    server: 88.210.52.136
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ruturkeymicro5.gangtype.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE"
+      short-id: "a671b94142229346"
+  - name: "🇸🇪 [CF] Сервер 3"
     type: vless
     server: 88.218.170.118
     port: 443
@@ -27,24 +41,277 @@ proxies:
     reality-opts:
       public-key: "Hk7E17R41exzrPKAOeETobKQ0LOAmuLSzFXdEwLSmiQ"
       short-id: "b92d7008f05da71e"
-  - name: "🇳🇱 [CF] Сервер 3"
+  - name: "🇺🇸 [CF] Сервер 4"
     type: vless
-    server: 185.62.58.150
+    server: 88.210.34.18
     port: 443
-    uuid: "4db3db61-3a03-4c24-a336-e36a9f384f57"
-    network: "xhttp"
-    servername: "static.gcore.pro"
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rusamicro6.gangtype.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "v_vyazre_waQFN1iDyL-deNRJvoFBuokDcHCOCdiQ2A"
+      short-id: "1cb833e7c85a788b"
+  - name: "🇺🇸 [CF] Сервер 5"
+    type: vless
+    server: 194.156.26.20
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-d617da6e0a54"
+    network: "ws"
+    servername: "qzzw7gegux3s.ersg587gatdd.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/d617da6e0a54"
+  - name: "🇺🇸 [CF] Сервер 6"
+    type: vless
+    server: 194.156.26.4
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-d498006b6113"
+    network: "ws"
+    servername: "4kzs98enuqus.gametyrhewr06.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/d498006b6113"
+  - name: "🇲🇩 [CF] Сервер 7"
+    type: vless
+    server: 194.180.191.249
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    network: "ws"
+    servername: "shin-ra.ccwu.cc"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=unsafe"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇯🇵 [CF] Сервер 8"
+    type: vless
+    server: 185.220.68.226
+    port: 20205
+    uuid: "282733b7-3cd4-4fa3-b6bd-beff60052f31"
+    network: "ws"
+    servername: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
+  - name: "🇸🇪 [CF] Сервер 9"
+    type: vless
+    server: 185.58.115.45
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=185.58.115.45:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇨🇦 [CF] Сервер 10"
+    type: vless
+    server: 194.76.146.25
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=194.76.146.25:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇸🇬 [CF] Сервер 11"
+    type: vless
+    server: 46.149.66.235
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    network: "ws"
+    servername: "pg.fm6dw.dpdns.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "pg.fm6dw.dpdns.org"
+  - name: "🇸🇬 [CF] Сервер 12"
+    type: vless
+    server: 5.101.114.177
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    network: "ws"
+    servername: "pg.fm6dw.dpdns.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "pg.fm6dw.dpdns.org"
+  - name: "🇦🇲 [CF] Сервер 13"
+    type: vless
+    server: 88.218.92.157
+    port: 8443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    network: "ws"
+    servername: "v2n4.11676767.xyz"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/resource/topics"
+      headers:
+        Host: "v2n4.11676767.xyz"
+  - name: "🇸🇬 [CF] Сервер 14"
+    type: vless
+    server: 91.247.36.168
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    network: "ws"
+    servername: "pg.fm6dw.dpdns.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "pg.fm6dw.dpdns.org"
+  - name: "🇩🇪 [CF] Сервер 15"
+    type: vless
+    server: 185.234.100.40
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    network: "ws"
+    servername: "pg.fm6dw.dpdns.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "pg.fm6dw.dpdns.org"
+  - name: "🇫🇷 [CF] Сервер 16"
+    type: vless
+    server: 178.104.70.11
+    port: 443
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇫🇷 [CF] Сервер 17"
+    type: vless
+    server: 178.104.70.11
+    port: 443
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=firefox"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇳🇱 [CF] Сервер 18"
+    type: vless
+    server: 185.243.112.197
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-c1fdcffbbe65"
+    network: "ws"
+    servername: "c6zu9behu5bs.wf209v5eewrf.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/c1fdcffbbe65"
+  - name: "🇨🇭 [CF] Сервер 19"
+    type: vless
+    server: 194.154.29.245
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-442eb64cf8be"
+    network: "ws"
+    servername: "2gz7b3ebutms.ergte1098ewtg.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/442eb64cf8be"
+  - name: "🇷🇺 [CF] Сервер 20"
+    type: vless
+    server: 109.107.189.69
+    port: 8443
+    uuid: "cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "gw-721bd5.dobry.monster"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE"
+      short-id: "0912cc7f28aa26ba"
+  - name: "🇺🇸 [CF] Сервер 21"
+    type: vless
+    server: 188.164.248.151
+    port: 2096
+    uuid: "9f534ac4-3c58-4a16-8b74-13dff09a0cf1"
+    network: "ws"
+    servername: "d39333476.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/item/m"
+      headers:
+        Host: "d39333476.pages.dev"
+  - name: "🇩🇪 [CF] Сервер 22"
+    type: vless
+    server: 2.26.251.236
+    port: 443
+    uuid: "c16e8cdb-65dd-4049-bc65-14c051b8a6c6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mental-deprivation.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+      short-id: "4ff31b18d1bd8227"
+  - name: "🇵🇱 [CF] Сервер 23"
+    type: vless
+    server: 45.132.179.90
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sbmicro683.gangplatform.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "bPxKgZHO13GJGKjbHz0BVnsw8UIcOjz2yz8VCgGv5BI"
-      short-id: "6fce2d08"
-    xhttp-opts:
-      path: "/js/libs"
-      host: "static.gcore.pro"
-      mode: "auto"
-  - name: "🇳🇱 [CF] Сервер 4"
+      public-key: "Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8"
+      short-id: "cda7e8556ea56616"
+  - name: "🇳🇱 [CF] Сервер 24"
     type: vless
     server: 153.80.22.106
     port: 443
@@ -52,24 +319,107 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "rusbox729.alexdjane.am"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM"
       short-id: "686f7ed96ec0227d"
-  - name: "🇳🇱 [CF] Сервер 5"
+  - name: "🇩🇪 [CF] Сервер 25"
     type: vless
-    server: 31.77.28.8
-    port: 443
-    uuid: "713142c9-ad09-4894-b35c-645423f3f6c9"
-    network: "tcp"
-    servername: "dl-cdn.alpinelinux.org"
+    server: 208.103.161.2
+    port: 2087
+    uuid: "0201af77-da3f-4aea-95e1-d35c98ec1b21"
+    network: "ws"
+    servername: "rayAn03-9wwNe2e6-v1.raYan-03.worKers.dEV"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28"
-  - name: "🇹🇷 [CF] Сервер 6"
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 26"
+    type: vless
+    server: 66.81.247.6
+    port: 2096
+    uuid: "293733e5-a8ac-4132-ba79-7dcbd0d642b7"
+    network: "ws"
+    servername: "rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2560"
+  - name: "🇺🇸 [CF] Сервер 27"
+    type: vless
+    server: 159.60.146.82
+    port: 443
+    uuid: "e98a123b-7a6f-444d-985d-ad2c389a85ec"
+    network: "ws"
+    servername: "flow-vault-hiizyn.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=159.60.146.82:443"
+      headers:
+        Host: "flow-vault-hiizyn.pages.dev"
+  - name: "🇸🇬 [CF] Сервер 28"
+    type: vless
+    server: 188.164.248.61
+    port: 443
+    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
+    network: "ws"
+    servername: "whitecreeper.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "whitecreeper.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 29"
+    type: vless
+    server: 199.181.197.99
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 30"
+    type: vless
+    server: 47.251.95.178
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇨🇭 [CF] Сервер 31"
+    type: vless
+    server: 87.120.222.199
+    port: 443
+    uuid: "3bbc98cb-46b1-4441-9d55-02a100000020"
+    network: "ws"
+    servername: "cf-smart-354.pnihastam7021.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "cf-smart-354.pnihastam7021.workers.dev"
+  - name: "🇹🇷 [CF] Сервер 32"
     type: vless
     server: 90.156.226.200
     port: 443
@@ -83,7 +433,21 @@ proxies:
     reality-opts:
       public-key: "aMjyAtCkIs-W68PK2esrcs0eXgtxabf3TXE20o1Ed2c"
       short-id: "e7befbb8bdc05025"
-  - name: "🇨🇦 [CF] Сервер 7"
+  - name: "🇹🇷 [CF] Сервер 33"
+    type: vless
+    server: 176.123.167.124
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sbturkeymicro4.gangtype.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "JR19BNl-sicrXGAED422ys_zI6BZoxRUjX2aL83MDyc"
+      short-id: "03ba1a518a2eaa14"
+  - name: "🇨🇦 [CF] Сервер 34"
     type: vless
     server: 94.241.140.130
     port: 443
@@ -97,7 +461,35 @@ proxies:
     reality-opts:
       public-key: "fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8"
       short-id: "723ace0d14784964"
-  - name: "🇦🇹 [CF] Сервер 8"
+  - name: "🇨🇦 [CF] Сервер 35"
+    type: vless
+    server: 84.54.47.216
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rucanmicro1.gangplatform.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3U3hb-HmOG5qptCzXIt8NQE3TE40eeTJsNpBV_B9hQA"
+      short-id: "1dde6750d22c5634"
+  - name: "🇫🇷 [CF] Сервер 36"
+    type: vless
+    server: 192.144.58.203
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ruparmicro2.gangplatform.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "W7M4MhVHx47N0lVQwP4uIGpyCIkzYsTsDOygqMK4li8"
+      short-id: "60e5181f77500676"
+  - name: "🇦🇹 [CF] Сервер 37"
     type: vless
     server: 212.118.56.133
     port: 443
@@ -111,7 +503,7 @@ proxies:
     reality-opts:
       public-key: "woALl3tJ66hfoRmufkkINfiVyiw30EGB3lBixC9axV4"
       short-id: "b74ad1d666c50539"
-  - name: "🇦🇹 [CF] Сервер 9"
+  - name: "🇦🇹 [CF] Сервер 38"
     type: vless
     server: 201.34.141.91
     port: 443
@@ -125,7 +517,7 @@ proxies:
     reality-opts:
       public-key: "xWszcU0a-SHH5bb-GGgV4cuZeQmLSz4JkwYr_5hvExI"
       short-id: "b01af964fbefcc1f"
-  - name: "🇬🇧 [CF] Сервер 10"
+  - name: "🇬🇧 [CF] Сервер 39"
     type: vless
     server: 109.71.247.170
     port: 443
@@ -139,7 +531,21 @@ proxies:
     reality-opts:
       public-key: "VYXI4MWqWEFY_qU247otuCPPK7mMxmjFDdrKT6D1a1o"
       short-id: "1a895886399244a0"
-  - name: "🇩🇪 [CF] Сервер 11"
+  - name: "🇩🇪 [CF] Сервер 40"
+    type: vless
+    server: 83.217.213.224
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rugermicro1.gangplatform.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "7Y6Wq1tq0AHdrEfswSzFXa8VBy-wLdl3Va_8ENzlqAY"
+      short-id: "c3bfcd35f4b10217"
+  - name: "🇩🇪 [CF] Сервер 41"
     type: vless
     server: 5.42.104.42
     port: 443
@@ -153,7 +559,7 @@ proxies:
     reality-opts:
       public-key: "nPYLh9nRxKK0OQVQrboJyKN4Y3DViI412cbN9Tbz9AQ"
       short-id: "53668ac88eefee81"
-  - name: "🇭🇰 [CF] Сервер 12"
+  - name: "🇭🇰 [CF] Сервер 42"
     type: vless
     server: 103.88.241.220
     port: 443
@@ -167,21 +573,21 @@ proxies:
     reality-opts:
       public-key: "u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo"
       short-id: "bad10ef561d2e2a1"
-  - name: "🇮🇹 [CF] Сервер 13"
+  - name: "🇮🇹 [CF] Сервер 43"
     type: vless
-    server: 193.160.208.21
+    server: 94.103.83.173
     port: 443
     uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ruitaliamicro2.gangplatform.com"
+    servername: "ruitaliamicro1.gangplatform.com"
     client-fingerprint: "qq"
     udp: true
     tls: true
     reality-opts:
-      public-key: "W7AD8d4R4-7TQW3-m5wJ0aJHzBcjPVdJF22jr2rP03A"
-      short-id: "8f88b244f4fa8a69"
-  - name: "🇫🇮 [CF] Сервер 14"
+      public-key: "X99zq7QEhnb9l3JsdyrL8Jt6yDZTcL3QzNbTZrUmJEM"
+      short-id: "dbd5efbe0fd57f71"
+  - name: "🇫🇮 [CF] Сервер 44"
     type: vless
     server: 5.42.104.35
     port: 443
@@ -195,7 +601,7 @@ proxies:
     reality-opts:
       public-key: "ZYYEU2KMrEartaw0Sz1jsTS4fC1RqU0p_Vj2OiO0Alc"
       short-id: "401287b3f6f20ecd"
-  - name: "🇸🇬 [CF] Сервер 15"
+  - name: "🇸🇬 [CF] Сервер 45"
     type: vless
     server: 94.228.167.18
     port: 443
@@ -209,7 +615,21 @@ proxies:
     reality-opts:
       public-key: "90uNUU-i14MO0VEIipqtK_Pk3xMhtDDDWtfcv_Y1X2s"
       short-id: "b0f28b824c4f18f5"
-  - name: "🇳🇱 [CF] Сервер 16"
+  - name: "🇳🇱 [CF] Сервер 46"
+    type: vless
+    server: 176.108.247.13
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sbmicrogem676.gangplatform.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "32gtJRJex3SyJDdXPGOd4rZDewKn_-yvWnEDbTfX8gk"
+      short-id: "b5df65b600481ef6"
+  - name: "🇳🇱 [CF] Сервер 47"
     type: vless
     server: 84.54.44.117
     port: 443
@@ -223,7 +643,7 @@ proxies:
     reality-opts:
       public-key: "fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY"
       short-id: "a7b12f3265f97f4a"
-  - name: "🇳🇱 [CF] Сервер 17"
+  - name: "🇳🇱 [CF] Сервер 48"
     type: vless
     server: 191.44.48.239
     port: 443
@@ -237,7 +657,21 @@ proxies:
     reality-opts:
       public-key: "KHDZbhvbmPpmm9vdkF8E5nxYrEjSbv1sLK8jeqgt5TQ"
       short-id: "6b630a6f473644af"
-  - name: "🇳🇱 [CF] Сервер 18"
+  - name: "🇳🇱 [CF] Сервер 49"
+    type: vless
+    server: 45.91.8.180
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rusbox583.aidating.am"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PI3YShp7l2a6C0mu0DoHY5I3x5vYsE9TXjSHx9YjriY"
+      short-id: "2f7af67d5fde204f"
+  - name: "🇳🇱 [CF] Сервер 50"
     type: vless
     server: 195.209.223.116
     port: 443
@@ -251,21 +685,7 @@ proxies:
     reality-opts:
       public-key: "2_pNmpYBJrsI0s1uO-y50UrIYqCxD9s5xGO5CdxXPEk"
       short-id: "32d0e6f2225b4462"
-  - name: "🇳🇱 [CF] Сервер 19"
-    type: vless
-    server: 186.246.48.214
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rusbox596.aidating.am"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "WSoclfqxCDnfT4JJOeRXkXedigewJQFCvfKrScqvYTs"
-      short-id: "5d4c3c6c3990a22a"
-  - name: "🇺🇸 [CF] Сервер 20"
+  - name: "🇺🇸 [CF] Сервер 51"
     type: vless
     server: 195.209.209.64
     port: 443
@@ -279,21 +699,7 @@ proxies:
     reality-opts:
       public-key: "f8nkGMN6JDENHKvHrFYabx4JqSMSAZGS0lyc-KuagnQ"
       short-id: "f3166ffa363ceaef"
-  - name: "🇳🇱 [CF] Сервер 21"
-    type: vless
-    server: ws.quantum.vodka
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "ws"
-    servername: "cdn.quantum.vodka"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/api/v1/feed/b597b53d57"
-      headers:
-        Host: "cdn.quantum.vodka"
-  - name: "🇺🇸 [CF] Сервер 22"
+  - name: "🇺🇸 [CF] Сервер 52"
     type: vless
     server: 87.242.103.68
     port: 443
@@ -307,7 +713,7 @@ proxies:
     reality-opts:
       public-key: "A88f02j5YK2Zg9DYpTJT-tKpXGRoohF7dILqy_9ZMGY"
       short-id: "245d4784b793f853"
-  - name: "🇺🇸 [CF] Сервер 23"
+  - name: "🇺🇸 [CF] Сервер 53"
     type: vless
     server: 89.110.97.196
     port: 443
@@ -321,7 +727,21 @@ proxies:
     reality-opts:
       public-key: "v7YlDHqBlJ-noFj8ADL-0PhP7vwxOEQaE4tnox_4T2Y"
       short-id: "26ceab3eb2189de5"
-  - name: "🇳🇱 [CF] Сервер 24"
+  - name: "🇳🇱 [CF] Сервер 54"
+    type: vless
+    server: 186.246.48.214
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rusbox596.aidating.am"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "WSoclfqxCDnfT4JJOeRXkXedigewJQFCvfKrScqvYTs"
+      short-id: "5d4c3c6c3990a22a"
+  - name: "🇳🇱 [CF] Сервер 55"
     type: vless
     server: 195.209.213.91
     port: 443
@@ -335,7 +755,7 @@ proxies:
     reality-opts:
       public-key: "_47gV6n-pPkLD9-pTEHSglSwxWfUhrVj1ou4Wwc6pj0"
       short-id: "c6a810bdcb5cf374"
-  - name: "🇳🇱 [CF] Сервер 25"
+  - name: "🇳🇱 [CF] Сервер 56"
     type: vless
     server: 195.209.213.70
     port: 443
@@ -349,35 +769,7 @@ proxies:
     reality-opts:
       public-key: "y3RvS7ce35rCDD85mwXc_jQZ88rQmioWXtPolyk5eCk"
       short-id: "0b8a8ce8060f6d38"
-  - name: "🇳🇱 [CF] Сервер 26"
-    type: vless
-    server: 178.236.240.66
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruae633.jointaction.am"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2BnTTOS3HvvIbNDEHPrhwnpPBc1HB7gEHkmQfUATkCw"
-      short-id: "c0a60e2240745383"
-  - name: "🇳🇱 [CF] Сервер 27"
-    type: vless
-    server: 185.185.71.4
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rusbox603.richhoodfoc.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uEHxXC_aaWpGm10DyrjKW5YaHplOb_lAjxSOwasTQmA"
-      short-id: "ce0bab2245640050"
-  - name: "🇳🇱 [CF] Сервер 28"
+  - name: "🇳🇱 [CF] Сервер 57"
     type: vless
     server: 141.8.198.29
     port: 443
@@ -391,7 +783,7 @@ proxies:
     reality-opts:
       public-key: "xPwj2JRpRX0EhUmiJeuii1iMaX1iT2Smq0k5Pyu3hEk"
       short-id: "7ce3580ea68cc329"
-  - name: "🇳🇱 [CF] Сервер 29"
+  - name: "🇳🇱 [CF] Сервер 58"
     type: vless
     server: 45.150.37.169
     port: 443
@@ -405,3 +797,437 @@ proxies:
     reality-opts:
       public-key: "2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE"
       short-id: "b9bb317e9c9e2627"
+  - name: "🇫🇮 [CF] Сервер 59"
+    type: vless
+    server: 193.124.66.208
+    port: 443
+    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rufinmicro1.gangplatform.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "7LBetmnWiUHWLTnW_sflaJvDfgSkTIe1BE6zw_dg1xY"
+      short-id: "899cbfb833ccbe51"
+  - name: "🇺🇸 [CF] Сервер 60"
+    type: vless
+    server: 104.234.239.139
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇳🇱 [CF] Сервер 61"
+    type: vless
+    server: 146.185.146.150
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=146.185.146.150:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 62"
+    type: vless
+    server: 154.19.187.5
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=154.19.187.5:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇫🇷 [CF] Сервер 63"
+    type: vless
+    server: 45.155.103.57
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=45.155.103.57:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇫🇷 [CF] Сервер 64"
+    type: vless
+    server: 157.245.182.9
+    port: 2053
+    uuid: "50414e45-4c5f-5a45-5553-3a16f3365f2c"
+    network: "ws"
+    servername: "exzomne9uess.ssegfsgvfetgsvbherbsderhsbehwh.workers.dev"
+    client-fingerprint: "unsafe"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/3a16f3365f2c"
+      headers:
+        Host: "exzomne9uess.ssegfsgvfetgsvbherbsderhsbehwh.workers.dev"
+  - name: "🇳🇱 [CF] Сервер 65"
+    type: vless
+    server: 107.189.17.141
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=107.189.17.141:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇳🇱 [CF] Сервер 66"
+    type: vless
+    server: 107.189.22.25
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=107.189.22.25:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 67"
+    type: vless
+    server: 129.213.94.19
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=129.213.94.19:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 68"
+    type: vless
+    server: 13.230.191.90
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=13.230.191.90:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇩🇪 [CF] Сервер 69"
+    type: vless
+    server: 130.17.13.115
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=130.17.13.115:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇳🇱 [CF] Сервер 70"
+    type: vless
+    server: 146.185.129.17
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=146.185.129.17:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇫🇷 [CF] Сервер 71"
+    type: vless
+    server: 147.90.14.132
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=147.90.14.132:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇨🇦 [CF] Сервер 72"
+    type: vless
+    server: 153.56.171.216
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=153.56.171.216:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 73"
+    type: vless
+    server: 163.47.134.242
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=163.47.134.242:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 74"
+    type: vless
+    server: 167.179.106.168
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=167.179.106.168:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 75"
+    type: vless
+    server: 188.255.156.143
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=188.255.156.143:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇩🇪 [CF] Сервер 76"
+    type: vless
+    server: 194.87.55.106
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=194.87.55.106:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇪🇸 [CF] Сервер 77"
+    type: vless
+    server: 217.154.185.87
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=217.154.185.87:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇪🇸 [CF] Сервер 78"
+    type: vless
+    server: 45.86.229.39
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=45.86.229.39:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 79"
+    type: vless
+    server: 23.95.123.103
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=23.95.123.103:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇧🇪 [CF] Сервер 80"
+    type: vless
+    server: 35.210.99.51
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=35.210.99.51:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 81"
+    type: vless
+    server: 8.222.193.153
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=8.222.193.153:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇩🇪 [CF] Сервер 82"
+    type: vless
+    server: 95.140.154.46
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=95.140.154.46:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇧🇪 [CF] Сервер 83"
+    type: vless
+    server: 149.248.5.223
+    port: 443
+    uuid: "fa45096d-bed0-ad80-c773-23c30000001b"
+    network: "ws"
+    servername: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+  - name: "🇭🇰 [CF] Сервер 84"
+    type: vless
+    server: 84.54.57.138
+    port: 443
+    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
+    network: "ws"
+    servername: "joeypg.ezbiz.dynv6.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "joeypg.ezbiz.dynv6.net"
+  - name: "🇭🇰 [CF] Сервер 85"
+    type: vless
+    server: 212.116.115.69
+    port: 443
+    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
+    network: "ws"
+    servername: "joeypg.ezbiz.dynv6.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "joeypg.ezbiz.dynv6.net"
+  - name: "🇭🇰 [CF] Сервер 86"
+    type: vless
+    server: 90.156.208.162
+    port: 443
+    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
+    network: "ws"
+    servername: "joeypg.ezbiz.dynv6.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "joeypg.ezbiz.dynv6.net"
+  - name: "🇭🇰 [CF] Сервер 87"
+    type: vless
+    server: 195.58.38.9
+    port: 443
+    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
+    network: "ws"
+    servername: "joeypg.ezbiz.dynv6.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "joeypg.ezbiz.dynv6.net"
+  - name: "🇭🇰 [CF] Сервер 88"
+    type: vless
+    server: 159.253.21.82
+    port: 443
+    uuid: "cd3d8e5c-794f-4c34-8222-59d3e99e35fe"
+    network: "ws"
+    servername: "joeypg.ezbiz.dynv6.net"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "joeypg.ezbiz.dynv6.net"
+  - name: "🇭🇰 [CF] Сервер 89"
+    type: vless
+    server: 103.143.81.178
+    port: 443
+    uuid: "fa45096d-bed0-ad80-c773-23c30000001b"
+    network: "ws"
+    servername: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"

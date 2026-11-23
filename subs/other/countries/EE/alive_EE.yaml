@@ -1,19 +1,98 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
+    server: 194.26.229.163
+    port: 27443
+    uuid: "9c69546a-e435-4037-bc63-f9e5829a8be3"
+    network: "grpc"
+    servername: "static.polina.mom"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bmANZFeLzXK0izEu3fveuPKOLS_1pZ_17PVRxyNpxCo"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇪🇪 [BL] Сервер 2"
+    type: vless
+    server: 87.232.116.22
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "fafeqdhlett2p5la6d.cdn.cachefleet.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "67h2o3erm0t9imsj"
+  - name: "🇪🇪 [BL] Сервер 3"
+    type: vless
+    server: 179.254.70.51
+    port: 52006
+    uuid: "cde5d3ef-7d14-4fed-a74d-ac98e39bf9ec"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "bt-ee.budbest.beer"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 4"
+    type: vless
+    server: 87.232.116.50
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fjord-lantern.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "30G1qOdxicVZe5FKwRswIgK46h6n179p-iuTXY-BLj8"
+  - name: "🇪🇪 [BL/AI] Сервер 5"
+    type: vless
+    server: 200.181.87.171
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
     server: 217.60.182.96
     port: 443
     uuid: "dc91568b-4f12-4ce1-a483-f04dd4913ab9"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "edge.mult-universe.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "5qVucogFLYlZOsG8DdX3dZRTr_2llj6_1OtZ9YfoilM"
       short-id: "b12ebda62333a16a"
-  - name: "🇪🇪 [BL] Сервер 2"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: 5.129.202.80
+    port: 443
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "mirror-50.topp-con.xyz"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8"
+      short-id: "2ef2b10d5143d798"
+  - name: "🇪🇪 [BL] Сервер 8"
     type: vless
     server: 77.83.198.104
     port: 8443
@@ -27,17 +106,3 @@ proxies:
     reality-opts:
       public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
       short-id: "f8d0271b4b5f9efc"
-  - name: "🇪🇪 [BL] Сервер 3"
-    type: vless
-    server: ee.lockaway.top
-    port: 443
-    uuid: "963799b5-f711-4a7d-85a8-da58b170a66f"
-    network: "xhttp"
-    servername: "ee.lockaway.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/stream/"
-      host: "ee.lockaway.top"
-      mode: "auto"

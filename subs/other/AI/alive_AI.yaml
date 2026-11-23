@@ -1,115 +1,47 @@
 proxies:
-  - name: "🇩🇪 [AI] Сервер 1"
-    type: vless
-    server: 185.86.145.78
-    port: 443
-    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
-    network: "grpc"
-    servername: "emberworks.cloud"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4"
-      short-id: "ea322b8b5b015812"
-  - name: "🇺🇸 [AI] Сервер 2"
+  - name: "🇺🇸 [AI] Сервер 1"
     type: ss
     server: 185.215.132.9
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 3"
+  - name: "🇺🇸 [AI] Сервер 2"
     type: ss
     server: 185.215.132.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🌐 [AI] Сервер 4"
+  - name: "🇪🇪 [AI] Сервер 3"
     type: vless
-    server: 147.45.98.78
+    server: 200.181.87.171
     port: 443
-    uuid: "918b1fa3-3e63-4c8d-87a4-8f635ffb7cd3"
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.gosuslugi.ru"
-    client-fingerprint: "firefox"
+    servername: "cedar-beacon.cdn.cachefleet.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "C8jwxMahtF-BpgtauR6I6dVXCc0X8VM9nbFxDQ3LzF0"
-      short-id: "b4"
-  - name: "🇩🇪 [AI] Сервер 5"
+      public-key: "e773n5oN4CW9Vr8je_ZPqGojj9aLzb02um8BT9YWBng"
+      short-id: "2a09abf8032087af"
+  - name: "🇩🇪 [AI] Сервер 4"
     type: vless
-    server: ihc212.maxleshax.icu
-    port: 443
-    uuid: "b7049a06-1e51-4e2d-854a-7f81b0d0b35f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ihc14.maxleshax.icu"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0"
-  - name: "🇩🇪 [AI] Сервер 6"
-    type: vless
-    server: 185.229.9.169
-    port: 443
-    uuid: "7955bf18-35c4-412d-aabd-c0b36c793063"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "push.vk.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "gIoGTXALALpkvFP4kINkeajD4YoFgIPiW48aOkc0bSw"
-      short-id: "611c49b4c7dc6f5a"
-  - name: "🇩🇪 [AI] Сервер 7"
-    type: vless
-    server: assets.fernstatic.com
-    port: 8444
-    uuid: "43add026-128a-47d3-a403-b3875b4638db"
+    server: 138.16.202.121
+    port: 9096
+    uuid: "d81db550-4787-467e-b98a-579ee9d41999"
     network: "grpc"
-    servername: "yastatic.net"
+    servername: "p2g.138-16-202-121.sslip.io"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1hJPKCOTjPXm93o2JEeb-dOuFSkCvHj41uKM6yrP32Q"
-      short-id: "bcefc042d39188e0"
+      public-key: "JASBooze12B0nAaLU2QMWkeAqXwh4GmhfPD_O9YteT0"
+      short-id: "6ba85179e30d4fc2"
     grpc-opts:
-      grpc-service-name: "grpc"
+      grpc-service-name: "inetgrpc"
       grpc-mode: "gun"
-  - name: "🇳🇱 [AI] Сервер 8"
-    type: vless
-    server: 176.108.247.13
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sbmicrogem676.gangplatform.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "32gtJRJex3SyJDdXPGOd4rZDewKn_-yvWnEDbTfX8gk"
-      short-id: "b5df65b600481ef6"
-  - name: "🇳🇱 [AI] Сервер 9"
-    type: vless
-    server: 194.124.211.165
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nemicro503.jointaction.am"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "FvLfKSHg-IuXqNk70I9GcP19Xib0NjEkJjfjdUjw0WI"
-      short-id: "9de43827829f021f"
-  - name: "🇳🇱 [AI] Сервер 10"
+  - name: "🇳🇱 [AI] Сервер 5"
     type: vless
     server: 144.31.234.241
     port: 443
@@ -123,7 +55,7 @@ proxies:
     reality-opts:
       public-key: "MAcch2LXcj3xo0ZZQIBvxS4GptpZ9ipzFNNn2BUa6mg"
       short-id: "a54ec85c94547b17"
-  - name: "🇳🇱 [AI] Сервер 11"
+  - name: "🇳🇱 [AI] Сервер 6"
     type: vless
     server: 194.124.211.168
     port: 443
@@ -137,7 +69,7 @@ proxies:
     reality-opts:
       public-key: "Ku6Czd7Kt1xQNCKLoSLamR1NGD7HEO-Uc8qTy9lo_gE"
       short-id: "c2af42d95e95688e"
-  - name: "🇩🇪 [AI] Сервер 12"
+  - name: "🇩🇪 [AI] Сервер 7"
     type: vless
     server: 176.108.245.146
     port: 443
@@ -151,37 +83,33 @@ proxies:
     reality-opts:
       public-key: "G3wXDYvtQiYzIw3XFu9BzvGTihh59Iv2Xor6fyovDzc"
       short-id: "cbb5c7683bbd6b7b"
-  - name: "🇺🇸 [AI] Сервер 13"
-    type: vless
-    server: 48.102.181.145
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nehor730.gangtype.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HSJUGn3x8tOGS-8PsKu8xgmakV988XKhDGXolBmbj1M"
-      short-id: "858614add772c0d8"
-  - name: "🇳🇱 [AI] Сервер 14"
-    type: vless
-    server: 185.199.158.173
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nemicro473.nashjournal1.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "E2VU2gVSjS7QPkgCNmyC3sp1uNjUrdA-Tm4vCR4tEw0"
-      short-id: "7066aedcee832680"
-  - name: "🇨🇦 [AI] Сервер 15"
+  - name: "🇨🇦 [AI] Сервер 8"
+    type: ss
+    server: 184.107.106.78
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇨🇦 [AI] Сервер 9"
     type: ss
     server: 184.107.106.77
     port: 8388
     password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 10"
+    type: ss
+    server: 136.148.77.250
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 11"
+    type: ss
+    server: 185.230.230.18
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    cipher: "aes-256-gcm"
+  - name: "🇺🇸 [AI] Сервер 12"
+    type: ss
+    server: 38.121.43.231
+    port: 19999
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"

@@ -1,3 +1,0 @@
-#profile-title: Apex BR
-#profile-update-interval: 1
-vless://5adf14f7-fdb8-4432-82ef-c79020b121dd@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=edge#🇧🇷 [WL] Сервер 1

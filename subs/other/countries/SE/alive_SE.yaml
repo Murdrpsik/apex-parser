@@ -1,19 +1,32 @@
 proxies:
-  - name: "🇸🇪 [WL/CF] Сервер 1"
+  - name: "🇸🇪 [WL] Сервер 2"
     type: vless
-    server: subgift.gcorecdn.com
+    server: 185.86.145.78
     port: 443
-    uuid: "63242a2a-7bdb-4775-bc3f-65c2f260f224"
-    network: "ws"
-    servername: "subgift.gcorecdn.com"
+    uuid: "88e79aa6-f431-4453-8dcc-652a0c747198"
+    network: "grpc"
+    servername: "emberworks.cloud"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    ws-opts:
-      path: "/t.me-SubGift"
-      headers:
-        Host: "subgift.gcorecdn.com"
-  - name: "🇸🇪 [WL/CF] Сервер 2"
+    reality-opts:
+      public-key: "2l0y-Mp5wtklY4jS6KOee3eq2XdWiXYqOxzrOi_CeB4"
+      short-id: "ea322b8b5b015812"
+  - name: "🇸🇪 [WL] Сервер 3"
+    type: vless
+    server: 185.31.114.251
+    port: 443
+    uuid: "17b0043a-d58c-4906-aefa-cb344e7d7cc0"
+    network: "xhttp"
+    servername: "lukafajooponi.begetcdn.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v1/user"
+      host: "lukafajooponi.begetcdn.cloud"
+      mode: "packet-up"
+  - name: "🇸🇪 [WL/CF] Сервер 4"
     type: vless
     server: 88.218.170.118
     port: 443
@@ -27,7 +40,7 @@ proxies:
     reality-opts:
       public-key: "Hk7E17R41exzrPKAOeETobKQ0LOAmuLSzFXdEwLSmiQ"
       short-id: "b92d7008f05da71e"
-  - name: "🇸🇪 [WL] Сервер 3"
+  - name: "🇸🇪 [WL] Сервер 5"
     type: vless
     server: 188.72.103.4
     port: 443
@@ -41,30 +54,73 @@ proxies:
       path: "/api/uploadFile/"
       host: "yastatic-cache-4019.keno.su"
       mode: "packet-up"
-  - name: "🇸🇪 [BL] Сервер 4"
+  - name: "🇸🇪 [WL/CF] Сервер 6"
+    type: vless
+    server: 185.58.115.45
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=185.58.115.45:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇸🇪 [WL] Сервер 7"
+    type: vless
+    server: 168.113.132.167
+    port: 52006
+    uuid: "cde5d3ef-7d14-32c8-a74d-ac98e39bf9ec"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "168.113.132.167"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇸🇪 [WL] Сервер 8"
+    type: vless
+    server: lukafajooponi.begetcdn.cloud
+    port: 443
+    uuid: "17b0043a-d58c-4906-aefa-cb344e7d7cc0"
+    network: "xhttp"
+    servername: "lukafajooponi.begetcdn.cloud"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/api/v1/user"
+      host: "lukafajooponi.begetcdn.cloud"
+      mode: "packet-up"
+  - name: "🇸🇪 [BL] Сервер 9"
     type: vless
     server: 188.225.46.6
     port: 443
     uuid: "a077dc9a-712f-48ea-b75c-d94af64011ec"
     network: "tcp"
-    flow: "xtls-rprx-vision-udp443"
+    flow: "xtls-rprx-vision"
     servername: "spb.b2ai.top"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇸🇪 [BL] Сервер 5"
+  - name: "🇸🇪 [BL] Сервер 10"
     type: vless
-    server: 31.76.3.51
-    port: 443
-    uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
-    network: "ws"
-    servername: "accessfooter.cleanfoodshop.org"
+    server: 136.148.221.153
+    port: 25191
+    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
+    network: "xhttp"
+    servername: "a8687er.se2.h1clayd.click"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/media/ws/"
-  - name: "🇸🇪 [BL] Сервер 6"
+    reality-opts:
+      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
+      short-id: "55328e423218ee9b"
+    xhttp-opts:
+      path: "/astral-edge-h1"
+      mode: "auto"
+  - name: "🇸🇪 [BL] Сервер 11"
     type: vless
     server: 195.206.235.12
     port: 25191
@@ -79,9 +135,7 @@ proxies:
       short-id: "55328e423218ee9b"
     xhttp-opts:
       path: "/astral-edge-h1"
-      host: "195.206.235.12"
-      mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 7"
+  - name: "🇸🇪 [BL] Сервер 12"
     type: vless
     server: 132.243.163.114
     port: 25191
@@ -97,48 +151,43 @@ proxies:
     xhttp-opts:
       path: "/astral-edge-h1"
       mode: "auto"
-  - name: "🇸🇪 [BL] Сервер 8"
+  - name: "🇸🇪 [BL] Сервер 13"
     type: vless
-    server: 136.148.217.26
-    port: 25191
-    uuid: "62995b2a-8f82-41f8-ac80-dfdfc1253e76"
-    network: "xhttp"
-    servername: "a8687er.se2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA"
-      short-id: "55328e423218ee9b"
-    xhttp-opts:
-      path: "/astral-edge-h1"
-  - name: "🇸🇪 [BL] Сервер 9"
-    type: vless
-    server: depotchannel.lucheeebezlimitnoekino.stream
+    server: 31.76.3.51
     port: 443
     uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
     network: "ws"
-    servername: "depotchannel.lucheeebezlimitnoekino.stream"
+    servername: "accessfooter.cleanfoodshop.org"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     ws-opts:
       path: "/media/ws/"
-  - name: "🇸🇪 [BL] Сервер 10"
+  - name: "🇸🇪 [BL] Сервер 14"
     type: vless
-    server: 2.26.93.106
+    server: 31.76.3.52
     port: 443
     uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
     network: "ws"
-    servername: "depotchannel.lucheeebezlimitnoekino.stream"
+    servername: "payablemeta.cleanfoodshop.org"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     ws-opts:
       path: "/media/ws/"
-      headers:
-        Host: "depotchannel.lucheeebezlimitnoekino.stream"
-  - name: "🇸🇪 [BL] Сервер 11"
+  - name: "🇸🇪 [BL] Сервер 15"
+    type: vless
+    server: 31.76.3.37
+    port: 443
+    uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
+    network: "ws"
+    servername: "downloadframe.zak-rkp.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/media/ws/"
+  - name: "🇸🇪 [BL] Сервер 16"
     type: vless
     server: 138.124.86.230
     port: 48115
@@ -150,7 +199,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "138-124-86-230-sslip-io"
-  - name: "🇸🇪 [BL] Сервер 12"
+  - name: "🇸🇪 [BL] Сервер 17"
     type: vless
     server: 31.77.144.255
     port: 8444
@@ -165,7 +214,89 @@ proxies:
       short-id: "635a76c25a4b1820"
     xhttp-opts:
       path: "/xh"
-  - name: "🇸🇪 [BL] Сервер 13"
+  - name: "🇸🇪 [BL] Сервер 18"
+    type: vless
+    server: 150.241.87.52
+    port: 443
+    uuid: "ecc0e60a-f2cc-4266-8353-b228df89730a"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "pl.galacticworld.online"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4"
+  - name: "🇸🇪 [BL] Сервер 19"
+    type: vless
+    server: 201.58.187.198
+    port: 443
+    uuid: "2b81c772-78c2-49d7-ac3f-537b654bc53e"
+    network: "grpc"
+    servername: "smotret.tv"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "KQASJC-erEvv8cgBbvJRMfHq0Z0TApsQUNtdSwl0YQY"
+      short-id: "8f3e9c4b1a8d6e21"
+    grpc-opts:
+      grpc-service-name: "grpc-service"
+  - name: "🇸🇪 [BL] Сервер 20"
+    type: vless
+    server: 70.34.211.236
+    port: 40118
+    uuid: "29872718-970b-493e-abc9-524fa266d16b"
+    network: "tcp"
+    servername: "delivery.mp.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs"
+      short-id: "9e3f5e25c17d2615"
+  - name: "🇸🇪 [BL] Сервер 21"
+    type: vless
+    server: 191.44.19.171
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "920afc50f23e.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LcxpMyEhHOnoLDsGE8eY8ucHbZ2oByGihDGBnYpH_yo"
+      short-id: "43e3261006bf44b2"
+  - name: "🇸🇪 [BL] Сервер 22"
+    type: vless
+    server: 191.44.19.134
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "f4dba09ce146.cdn.cachefleet.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LcxpMyEhHOnoLDsGE8eY8ucHbZ2oByGihDGBnYpH_yo"
+      short-id: "43e3261006bf44b2"
+  - name: "🇸🇪 [BL] Сервер 23"
+    type: vless
+    server: 185.117.88.9
+    port: 8443
+    uuid: "9a597d68-6688-4046-bf24-a5a541e115e0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU"
+      short-id: "f8d0271b4b5f9efc"
+  - name: "🇸🇪 [BL] Сервер 24"
     type: vless
     server: 94.185.83.38
     port: 443
