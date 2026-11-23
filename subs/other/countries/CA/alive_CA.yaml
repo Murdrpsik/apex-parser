@@ -7,13 +7,27 @@ proxies:
     network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk"
       short-id: "f98843107912e782"
   - name: "🇨🇦 [BL] Сервер 2"
+    type: vless
+    server: 37.221.76.116
+    port: 2093
+    uuid: "8b7a8f61-74c0-491f-bbba-ea153edb1a4b"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM"
+      short-id: "8a9725533854a7e8"
+  - name: "🇨🇦 [BL] Сервер 3"
     type: vless
     server: 66.163.113.9
     port: 443
@@ -22,20 +36,6 @@ proxies:
     servername: "kuruish.org"
     udp: true
     tls: true
-  - name: "🇨🇦 [BL/CF] Сервер 3"
-    type: vless
-    server: 94.241.140.130
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rucanmicro2.gangplatform.com"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8"
-      short-id: "723ace0d14784964"
   - name: "🇨🇦 [BL/AI] Сервер 4"
     type: ss
     server: 184.107.106.77
@@ -44,12 +44,13 @@ proxies:
     cipher: "aes-256-gcm"
   - name: "🇨🇦 [BL] Сервер 5"
     type: vmess
-    server: 134.195.196.211
+    server: 23.162.200.198
     port: 18000
     uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
     cipher: "auto"
     alterId: 0
     network: "tcp"
+    servername: "23.162.200.198"
   - name: "🇨🇦 [BL] Сервер 6"
     type: ss
     server: 149.22.95.183

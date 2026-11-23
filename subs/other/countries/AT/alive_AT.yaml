@@ -1,57 +1,12 @@
 proxies:
-  - name: "🇦🇹 [WL] Сервер 1"
+  - name: "🇦🇹 [BL/CF] Сервер 1"
     type: vless
-    server: 185.244.182.162
+    server: 152.53.1.170
     port: 443
-    uuid: "c50eae6b-18de-4bdc-a22f-9edda40a57ed"
-    network: "xhttp"
-    servername: "atd1.tunnely.space"
+    uuid: "4fddfe0e-fddc-4032-b4c8-09c6d811fed0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "node-au.neverlock.uk"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/xhttp/"
-      mode: "packet-up"
-  - name: "🇦🇹 [BL] Сервер 2"
-    type: vless
-    server: 95.163.153.141
-    port: 8443
-    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
-    network: "xhttp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
-      short-id: "c9ea2355ddeab39b"
-    xhttp-opts:
-      path: "/"
-  - name: "🇦🇹 [BL/CF] Сервер 3"
-    type: vless
-    server: 212.118.56.133
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruastriamicro1.gangplatform.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "woALl3tJ66hfoRmufkkINfiVyiw30EGB3lBixC9axV4"
-      short-id: "b74ad1d666c50539"
-  - name: "🇦🇹 [BL/CF] Сервер 4"
-    type: vless
-    server: 201.34.141.91
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruastriamicro2.gangplatform.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "xWszcU0a-SHH5bb-GGgV4cuZeQmLSz4JkwYr_5hvExI"
-      short-id: "b01af964fbefcc1f"

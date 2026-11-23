@@ -1,3 +1,4 @@
 #profile-title: Apex BR
 #profile-update-interval: 1
-vless://cb7ceae2-6f47-4059-8bf0-371b62a0f0ce@157.228.157.19:25813?type=xhttp&headerType=none&security=reality&encryption=none&sni=br.jetstoreapp.ru&fp=firefox&pbk=OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc&sid=421f11a52c02c80d&path=%2Fb84b87f75dfc&mode=auto#🇧🇷 [BL] Сервер 1
+vless://73e0efc0-55b6-4586-810d-7120ab53f1e9@178.92.205.63:11167?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.mercadolivre.com.br&pbk=zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g&sid=ac&fp=chrome#🇧🇷 [WL] Сервер 1
+vless://cb7ceae2-6f47-4059-8bf0-371b62a0f0ce@157.228.157.19:25813?type=xhttp&security=reality&fp=firefox&pbk=OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc&sid=421f11a52c02c80d&sni=br.jetstoreapp.ru&path=%2Fb84b87f75dfc&mode=auto&encryption=none#🇧🇷 [BL] Сервер 2

@@ -1,52 +1,31 @@
 proxies:
-  - name: "🇰🇿 [WL] Сервер 1"
+  - name: "🇰🇿 [BL] Сервер 1"
     type: vless
-    server: 85.198.88.172
+    server: 5.180.27.134
     port: 443
-    uuid: "217146a8-2daf-45f1-b884-343be422494d"
-    network: "xhttp"
-    servername: "static.yandex.net"
+    uuid: "fa906181-5d9b-4ff6-8a81-e6148ce4ece7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "kz.koteika3528.dev"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
-      short-id: "c44bcdb731f12c41"
-    xhttp-opts:
-      path: "/api/v1/data"
-      mode: "auto"
-  - name: "🇰🇿 [WL] Сервер 2"
+      public-key: "qljbddkyGqBkkOnPdvgw4s6HX_iyEUB2qesNM1qiFg0"
+      short-id: "36f3c7"
+  - name: "🇰🇿 [BL] Сервер 2"
     type: vless
-    server: 85.198.89.134
-    port: 443
-    uuid: "929b5d21-4124-4bc4-9fa0-fe7cef978303"
-    network: "xhttp"
-    servername: "static.yandex.net"
-    client-fingerprint: "firefox"
+    server: 3h-kazakhstan1.09vpn.com
+    port: 8443
+    uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
+    network: "ws"
+    servername: "3h-kazakhstan1.09vpn.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
-      short-id: "c44bcdb731f12c41"
-    xhttp-opts:
-      path: "/api/v1/data"
-      mode: "auto"
-  - name: "🇰🇿 [WL] Сервер 3"
-    type: vless
-    server: 85.198.89.134
-    port: 443
-    uuid: "929b5d21-4124-4bc4-9fa0-fe7cef978303"
-    network: "xhttp"
-    servername: "static.yandex.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ"
-      short-id: "c44bcdb731f12c41"
-    xhttp-opts:
-      path: "/api/v1/data"
-  - name: "🇰🇿 [BL] Сервер 4"
+    ws-opts:
+      path: "/vless/"
+  - name: "🇰🇿 [BL] Сервер 3"
     type: vless
     server: 38.180.206.44
     port: 48982
@@ -60,21 +39,7 @@ proxies:
     xhttp-opts:
       path: "/"
       mode: "auto"
-  - name: "🇰🇿 [BL] Сервер 5"
-    type: vless
-    server: 5.180.27.134
-    port: 443
-    uuid: "fa906181-5d9b-4ff6-8a81-e6148ce4ece7"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "kz.koteika3528.dev"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "qljbddkyGqBkkOnPdvgw4s6HX_iyEUB2qesNM1qiFg0"
-      short-id: "36f3c7"
-  - name: "🇰🇿 [BL] Сервер 6"
+  - name: "🇰🇿 [BL] Сервер 4"
     type: vless
     server: 109.248.170.119
     port: 13447
@@ -87,17 +52,3 @@ proxies:
     reality-opts:
       public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
       short-id: "83"
-  - name: "🇰🇿 [BL] Сервер 7"
-    type: vless
-    server: 176.123.162.82
-    port: 443
-    uuid: "ef5a57c7-84d5-4f86-b99c-875a16da485f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rukzmicro1.gangplatform.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "3xhvTr_v46NYSlw1yF6nWUjX6ZVHGfI0a0Wuao6lGVs"
-      short-id: "a8b3db4bfe222a8c"

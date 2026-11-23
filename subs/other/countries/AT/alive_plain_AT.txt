@@ -1,6 +1,3 @@
 #profile-title: Apex AT
 #profile-update-interval: 1
-vless://c50eae6b-18de-4bdc-a22f-9edda40a57ed@185.244.182.162:443?encryption=none&security=tls&sni=atd1.tunnely.space&type=xhttp&path=%2Fxhttp%2F&mode=packet-up&fp=chrome#🇦🇹 [WL] Сервер 1
-vless://04cbe9ea-9791-4195-827f-5d4cabbdba10@95.163.153.141:8443?encryption=none&type=xhttp&security=reality&pbk=bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU&sid=c9ea2355ddeab39b&sni=www.cloudflare.com&fp=firefox#🇦🇹 [BL] Сервер 2
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@212.118.56.133:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruastriamicro1.gangplatform.com&pbk=woALl3tJ66hfoRmufkkINfiVyiw30EGB3lBixC9axV4&sid=b74ad1d666c50539&fp=firefox&encryption=none#🇦🇹 [BL/CF] Сервер 3
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@201.34.141.91:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ruastriamicro2.gangplatform.com&pbk=xWszcU0a-SHH5bb-GGgV4cuZeQmLSz4JkwYr_5hvExI&sid=b01af964fbefcc1f&fp=edge&encryption=none#🇦🇹 [BL/CF] Сервер 4
+vless://4fddfe0e-fddc-4032-b4c8-09c6d811fed0@152.53.1.170:443?security=tls&flow=xtls-rprx-vision&fp=chrome&sni=node-au.neverlock.uk&encryption=none&type=tcp#🇦🇹 [BL/CF] Сервер 1
