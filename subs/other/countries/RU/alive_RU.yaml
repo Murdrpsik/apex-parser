@@ -11,7 +11,8 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v1/upload"
-      host: "185.86.145.173"
+      host: "wholebeam.com"
+      mode: "auto"
   - name: "🇷🇺 [WL] Сервер 2"
     type: vless
     server: 185.86.145.173
@@ -37,11 +38,10 @@ proxies:
     tls: true
     xhttp-opts:
       path: "/api/v1/upload"
-      host: "wholebeam.com"
-      mode: "auto"
+      host: "185.86.145.173"
   - name: "🇷🇺 [WL] Сервер 4"
     type: vless
-    server: 201.51.12.98
+    server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
@@ -53,16 +53,14 @@ proxies:
       grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 5"
     type: vless
-    server: 200.169.179.233
+    server: 188.68.216.33
     port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "ios"
+    uuid: "f139c8e2-d5f6-0001-bf9e-1601f0c40a6f"
+    network: "tcp"
+    servername: "pmdhivnevikmltdhqp.fcloudservices.site"
+    client-fingerprint: "safari"
     udp: true
     tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 201.24.116.192
@@ -80,28 +78,16 @@ proxies:
     server: 147.45.175.81
     port: 443
     uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "grpc"
-    servername: "xssite.webredirect.org"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "grpc-ru"
-  - name: "🇷🇺 [WL] Сервер 8"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
     network: "ws"
-    servername: "xsru1.ddnsfree.com"
-    client-fingerprint: "firefox"
+    servername: "xsru2.freeddns.org"
+    client-fingerprint: "random"
     udp: true
     tls: true
     ws-opts:
       path: "/wsru"
       headers:
-        Host: "xsru1.ddnsfree.com"
-  - name: "🇷🇺 [WL] Сервер 9"
+        Host: "xsru2.freeddns.org"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 147.45.175.81
     port: 443
@@ -114,14 +100,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "grpc-ru"
       grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: ss
+    server: 48.103.218.77
+    port: 18443
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+    cipher: "aes-256-gcm"
   - name: "🇷🇺 [WL] Сервер 10"
     type: vless
     server: 136.148.83.69
     port: 443
-    uuid: "7dff1be7-b930-0001-a8ad-dc7850168215"
+    uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
     network: "tcp"
     servername: "szqbx-ru-77dc.my-fade.cloud"
-    client-fingerprint: "chrome"
+    client-fingerprint: "qq"
     udp: true
     tls: true
   - name: "🇷🇺 [WL] Сервер 11"
@@ -131,7 +123,7 @@ proxies:
     uuid: "08ffe334-d846-41d5-8142-a60d6f3cd5ae"
     network: "xhttp"
     servername: "msk.substituteme.space"
-    client-fingerprint: "firefox"
+    client-fingerprint: "safari"
     udp: true
     tls: true
     reality-opts:
@@ -150,13 +142,7 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL/AI] Сервер 13"
-    type: ss
-    server: 48.103.218.77
-    port: 18443
-    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
-    cipher: "aes-256-gcm"
-  - name: "🇷🇺 [WL] Сервер 14"
+  - name: "🇷🇺 [WL] Сервер 13"
     type: vless
     server: 136.148.83.71
     port: 443
@@ -166,3 +152,25 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
+  - name: "🇷🇺 [WL] Сервер 14"
+    type: vless
+    server: 176.109.108.17
+    port: 443
+    uuid: "440c34ed-de29-0001-a467-153c5816a42b"
+    network: "tcp"
+    servername: "wrdgkmglxsfcfazlsf.fcloudservices.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 15"
+    type: ss
+    server: 45.132.177.184
+    port: 1081
+    password: "q8Dl3bDK83k1UceimErkReX05Y0z1mkz"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇷🇺 [WL] Сервер 16"
+    type: ss
+    server: 193.233.88.54
+    port: 1080
+    password: "1TQN4nA_4YCiDnSzqHbJ2XAIU-eM7BPS"
+    cipher: "chacha20-ietf-poly1305"

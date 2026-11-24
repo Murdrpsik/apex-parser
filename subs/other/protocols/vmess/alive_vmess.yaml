@@ -9,44 +9,7 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🇩🇪 [WL] Сервер 2"
-    type: vmess
-    server: 185.177.229.95
-    port: 1270
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "xmfhlpy.com"
-    tls: true
-  - name: "🇺🇸 [BL] Сервер 3"
-    type: vmess
-    server: 84.17.41.2
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "84.17.41.2"
-  - name: "🇺🇸 [BL] Сервер 4"
-    type: vmess
-    server: 67.220.85.46
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-  - name: "🇺🇸 [BL] Сервер 5"
-    type: vmess
-    server: 67.220.95.3
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    ws-opts:
-      path: "/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM"
-  - name: "🇨🇦 [BL] Сервер 6"
+  - name: "🇨🇦 [BL] Сервер 2"
     type: vmess
     server: 23.162.200.198
     port: 18000
@@ -54,4 +17,12 @@ proxies:
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    servername: "23.162.200.198"
+    servername: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+  - name: "🌐 [BL] Сервер 3"
+    type: vmess
+    server: 65.108.240.210
+    port: 39018
+    uuid: "45dc10c6-04c8-4c70-a06a-d396254a6c0b"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"

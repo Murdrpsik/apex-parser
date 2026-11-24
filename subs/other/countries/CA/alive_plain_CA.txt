@@ -1,8 +1,5 @@
 #profile-title: Apex CA
 #profile-update-interval: 1
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782&sni=www.cloudflare.com&encryption=none#🇨🇦 [BL] Сервер 1
-vless://8b7a8f61-74c0-491f-bbba-ea153edb1a4b@37.221.76.116:2093?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM&sid=8a9725533854a7e8&sni=www.apple.com&encryption=none#🇨🇦 [BL] Сервер 2
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&sni=kuruish.org&type=tcp&encryption=none#🇨🇦 [BL] Сервер 3
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#🇨🇦 [BL/AI] Сервер 4
-vmess://eyJhZGQiOiIyMy4xNjIuMjAwLjE5OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjE4MDAwIiwicHMiOiLwn4eo8J+HpiBbQkxdINCh0LXRgNCy0LXRgCA1Iiwic2N5IjoiYXV0byIsInNuaSI6IjIzLjE2Mi4yMDAuMTk4IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9#🇨🇦 [BL] Сервер 5
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 6
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?type=tcp&security=tls&fp=chrome&sni=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 1
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 2
+vmess://eyJhZGQiOiIyMy4xNjIuMjAwLjE5OCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoi8J+HqPCfh6YgW0JMXSDQodC10YDQstC10YAgMyIsInNuaSI6ImxlYXJuLmhlYWx0aGNhcmVqb2JzaHViZW5oYW5jZW1lZGljYWxwcm9mZXNzaW9uYWxza2lsbHN0b2RheS5jb20iLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#🇨🇦 [BL] Сервер 3
