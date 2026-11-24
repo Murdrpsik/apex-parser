@@ -1,73 +1,40 @@
 proxies:
-  - name: "🇫🇷 [AI] Сервер 1"
-    type: vless
-    server: 194.156.26.244
-    port: 443
-    uuid: "2b7a122f-f6ff-4860-a919-7bf51be03c02"
-    network: "xhttp"
-    servername: "mamafrance.baklajann.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/"
-  - name: "🇺🇸 [AI] Сервер 2"
+  - name: "🇺🇸 [AI] Сервер 1"
     type: ss
     server: 185.215.132.9
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🇺🇸 [AI] Сервер 3"
+  - name: "🇺🇸 [AI] Сервер 2"
     type: ss
     server: 185.215.132.18
     port: 19999
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     cipher: "aes-256-gcm"
-  - name: "🌐 [AI] Сервер 4"
+  - name: "🌐 [AI] Сервер 3"
     type: vless
-    server: 129.101.106.233
-    port: 8443
-    uuid: "c53ea5e9-ed8b-4990-805d-7f1d6451426c"
+    server: 109.73.207.225
+    port: 443
+    uuid: "ef1da56e-8117-03eb-bcd8-9094ebbdf985"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "durov.sky-vault.top"
+    servername: "games.robloxfans.fun"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI"
-      short-id: "3cbc3d737fb9c4af"
-  - name: "🇵🇱 [AI] Сервер 5"
+      public-key: "KFIPjM9UI5YaPMOKE2oJWg9pO1HD_FlByAwirvVauhA"
+      short-id: "812e5d00c043b6ec"
+  - name: "🇸🇬 [AI] Сервер 4"
     type: vless
-    server: 80.47.7.216
-    port: 443
-    uuid: "e0643422-1e6e-4182-993e-de9b4c78e736"
-    network: "raw"
+    server: 23.94.192.66
+    port: 6884
+    uuid: "e36585ea-95c6-47fa-8bea-c08eea04c6f3"
+    network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "fedtuna.ai"
+    servername: "sg-hyp-api.hoyoverse.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M"
-      short-id: "6f0091ebe3029ebb"
-  - name: "🇦🇿 [AI] Сервер 6"
-    type: vless
-    server: 187.55.160.2
-    port: 443
-    uuid: "e0f67e0a-6323-4ecb-9c1c-ca9ee4e48cf9"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "88evieqs50.cdn.cachefleet.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "q_DfQMBNrcvoptJHMYGyjj76Tpb8ircnm5dIRnjYtx0"
-      short-id: "84d35337f990929d"
-  - name: "🇨🇦 [AI] Сервер 7"
-    type: ss
-    server: 184.107.106.78
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
+      public-key: "69nEhJ685-NtSYDnd0OtOcTzL36YFLS0TkkR3NQSfC4"

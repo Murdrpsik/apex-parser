@@ -1,9 +1,6 @@
 #profile-title: Apex AI
 #profile-update-interval: 1
-vless://2b7a122f-f6ff-4860-a919-7bf51be03c02@194.156.26.244:443?security=tls&fp=chrome&sni=mamafrance.baklajann.ru&type=xhttp&encryption=none#🇫🇷 [AI] Сервер 1
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 2
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 3
-vless://c53ea5e9-ed8b-4990-805d-7f1d6451426c@129.101.106.233:8443?flow=xtls-rprx-vision&security=reality&sni=durov.sky-vault.top&fp=firefox&pbk=fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI&sid=3cbc3d737fb9c4af&encryption=none&type=tcp#🌐 [AI] Сервер 4
-vless://e0643422-1e6e-4182-993e-de9b4c78e736@80.47.7.216:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M&sid=6f0091ebe3029ebb&sni=fedtuna.ai&encryption=none#🇵🇱 [AI] Сервер 5
-vless://e0f67e0a-6323-4ecb-9c1c-ca9ee4e48cf9@187.55.160.2:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=88evieqs50.cdn.cachefleet.com&fp=edge&pbk=q_DfQMBNrcvoptJHMYGyjj76Tpb8ircnm5dIRnjYtx0&sid=84d35337f990929d#🇦🇿 [AI] Сервер 6
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [AI] Сервер 7
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.9:19999#🇺🇸 [AI] Сервер 1
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🇺🇸 [AI] Сервер 2
+vless://ef1da56e-8117-03eb-bcd8-9094ebbdf985@109.73.207.225:443?flow=xtls-rprx-vision&security=reality&sni=games.robloxfans.fun&fp=firefox&pbk=KFIPjM9UI5YaPMOKE2oJWg9pO1HD_FlByAwirvVauhA&sid=812e5d00c043b6ec&encryption=none&type=tcp#🌐 [AI] Сервер 3
+vless://e36585ea-95c6-47fa-8bea-c08eea04c6f3@23.94.192.66:6884?flow=xtls-rprx-vision&security=reality&sni=sg-hyp-api.hoyoverse.com&fp=firefox&pbk=69nEhJ685-NtSYDnd0OtOcTzL36YFLS0TkkR3NQSfC4&encryption=none&type=tcp#🇸🇬 [AI] Сервер 4

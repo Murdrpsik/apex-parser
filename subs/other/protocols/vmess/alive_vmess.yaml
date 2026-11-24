@@ -9,20 +9,3 @@ proxies:
     network: "tcp"
     servername: "xmfhlpy.com"
     tls: true
-  - name: "🇨🇦 [BL] Сервер 2"
-    type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-  - name: "🌐 [BL] Сервер 3"
-    type: vmess
-    server: 65.108.240.210
-    port: 39018
-    uuid: "45dc10c6-04c8-4c70-a06a-d396254a6c0b"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"

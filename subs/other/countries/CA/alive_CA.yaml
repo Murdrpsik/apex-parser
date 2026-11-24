@@ -1,5 +1,19 @@
 proxies:
-  - name: "🇨🇦 [BL] Сервер 1"
+  - name: "🇨🇦 [BL/CF] Сервер 1"
+    type: vless
+    server: 94.241.140.130
+    port: 443
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "rucanmicro2.gangplatform.com"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8"
+      short-id: "723ace0d14784964"
+  - name: "🇨🇦 [BL] Сервер 2"
     type: vless
     server: 66.163.113.9
     port: 443
@@ -9,18 +23,22 @@ proxies:
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇨🇦 [BL] Сервер 2"
+  - name: "🇨🇦 [BL] Сервер 3"
+    type: vless
+    server: 92.246.138.161
+    port: 443
+    uuid: "42c83523-9f96-41b2-82d6-2edb71a4ac19"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "q88k7v7gi0pg.img-assets.world"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk"
+  - name: "🇨🇦 [BL] Сервер 4"
     type: ss
     server: 149.22.95.183
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇨🇦 [BL] Сервер 3"
-    type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
