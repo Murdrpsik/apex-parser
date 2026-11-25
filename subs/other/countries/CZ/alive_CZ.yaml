@@ -43,20 +43,6 @@ proxies:
       short-id: "d5492c7a39515c65"
   - name: "🇨🇿 [BL] Сервер 4"
     type: vless
-    server: 46.8.113.29
-    port: 443
-    uuid: "4eb87bcf-713a-4abc-9aea-e5840309161c"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "b.anzgopronet.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY"
-      short-id: "cbb0a5c1dc905505"
-  - name: "🇨🇿 [BL] Сервер 5"
-    type: vless
     server: 212.102.38.25
     port: 443
     uuid: "b34a52cb-cd52-49a8-9362-b8e97c151d49"
@@ -69,15 +55,3 @@ proxies:
     reality-opts:
       public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
       short-id: "e90360ec7cc61b20"
-  - name: "🇨🇿 [BL] Сервер 6"
-    type: vless
-    server: cz-next.mediastvor.cc
-    port: 443
-    uuid: "b2b6d9ba-355a-4a9e-8d97-10fe8910b3ab"
-    network: "grpc"
-    servername: "cz-next.mediastvor.cc"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "r7Kp4mN9tQ2v"
