@@ -1,6 +1,13 @@
 #profile-title: Apex CA
 #profile-update-interval: 1
-vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@94.241.140.130:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=rucanmicro2.gangplatform.com&pbk=fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8&sid=723ace0d14784964&fp=safari#🇨🇦 [BL/CF] Сервер 1
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?type=tcp&security=tls&fp=chrome&sni=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 2
-vless://42c83523-9f96-41b2-82d6-2edb71a4ac19@92.246.138.161:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk&sni=q88k7v7gi0pg.img-assets.world&encryption=none&type=tcp#🇨🇦 [BL] Сервер 3
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 4
+vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@84.54.47.216:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=rucanmicro1.gangplatform.com&pbk=3U3hb-HmOG5qptCzXIt8NQE3TE40eeTJsNpBV_B9hQA&sid=1dde6750d22c5634&fp=firefox#🇨🇦 [WL/CF] Сервер 1
+vless://42c83523-9f96-41b2-82d6-2edb71a4ac19@92.246.138.161:443?encryption=none&flow=xtls-rprx-vision&pbk=jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk&security=reality&sni=q88k7v7gi0pg.img-assets.world&type=tcp&fp=ios#🇨🇦 [WL] Сервер 2
+vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@94.241.140.130:443?encryption=none&flow=xtls-rprx-vision&pbk=fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8&security=reality&sid=723ace0d14784964&sni=rucanmicro2.gangplatform.com&type=tcp&fp=ios#🇨🇦 [WL/CF] Сервер 3
+vless://80b3cf20-c77c-4fb9-a69e-55c9dadd58c8@31.59.156.16:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE&security=reality&sid=8acb6e79c1b29c4b&sni=broe.primetap.cards&type=tcp#🇨🇦 [BL] Сервер 4
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782&sni=www.cloudflare.com&encryption=none#🇨🇦 [BL] Сервер 5
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?type=tcp&security=tls&fp=firefox&sni=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 6
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 7
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==@184.107.106.77:8388#🇨🇦 [BL] Сервер 8
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [BL] Сервер 9
+vmess://eyJhZGQiOiIxMzQuMTk1LjE5Ni4yMTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoi8J+HqPCfh6YgW0JMXSDQodC10YDQstC10YAgMTAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#🇨🇦 [BL] Сервер 10
+vmess://eyJhZGQiOiIyMy4xNjIuMjAwLjE5OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiLz9UZWxlZ3JhbS0tLVBMQU5CX05FVC0tLVBMQU5CX05FVC0tLVBMQU5CX05FVC0tLVBMQU5CX05FVCIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoi8J+HqPCfh6YgW0JMXSDQodC10YDQstC10YAgMTEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9#🇨🇦 [BL] Сервер 11

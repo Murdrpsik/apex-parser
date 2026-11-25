@@ -1,34 +1,6 @@
 proxies:
   - name: "🇬🇧 [WL] Сервер 1"
     type: vless
-    server: 213.176.92.168
-    port: 10444
-    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "video.yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [WL] Сервер 2"
-    type: vless
-    server: 193.188.21.253
-    port: 10444
-    uuid: "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "video.yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [WL] Сервер 3"
-    type: vless
     server: 194.156.26.244
     port: 443
     uuid: "3493b1bc-1c65-46e6-9cb6-9dd62b99afea"
@@ -41,7 +13,7 @@ proxies:
       path: "/"
       host: "mama120.baklajann.ru"
       mode: "auto"
-  - name: "🇬🇧 [WL] Сервер 4"
+  - name: "🇬🇧 [WL] Сервер 2"
     type: vless
     server: 194.156.26.28
     port: 443
@@ -55,7 +27,7 @@ proxies:
       path: "/"
       host: "mama120.baklajann.ru"
       mode: "auto"
-  - name: "🇬🇧 [BL] Сервер 5"
+  - name: "🇬🇧 [BL] Сервер 3"
     type: vless
     server: 138.124.125.193
     port: 10444
@@ -63,13 +35,13 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "ads.x5.ru"
-    client-fingerprint: "safari"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
       short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 6"
+  - name: "🇬🇧 [BL] Сервер 4"
     type: vless
     server: 196.196.208.22
     port: 443
@@ -86,60 +58,34 @@ proxies:
       path: "/f57a81c99fea"
       host: "9303d6x.fi-p1b.h1clayd.click"
       mode: "auto"
-  - name: "🇬🇧 [BL] Сервер 7"
+  - name: "🇬🇧 [BL/CF] Сервер 5"
     type: vless
-    server: a80b5386.fi2.h1clayd.click
+    server: 109.71.247.170
     port: 443
-    uuid: "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df"
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
     network: "tcp"
-    servername: "a80b5386.fi2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
-      short-id: "cc678f10161992a9"
-  - name: "🇬🇧 [BL] Сервер 8"
-    type: vless
-    server: 83.171.241.136
-    port: 443
-    uuid: "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df"
-    network: "tcp"
-    servername: "a80b5386.fi2.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
-      short-id: "cc678f10161992a9"
-  - name: "🇬🇧 [BL] Сервер 9"
-    type: vless
-    server: 158.220.95.242
-    port: 443
-    uuid: "5980f1e1-970c-43b9-b3e8-a8ddd70ceadc"
-    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "www.samsung.com"
+    servername: "rulonmicro2.gangplatform.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PCm0k-SvNd00cgNuqqnbCzmwVZd5vkgX2ZLk2_qngRs"
-      short-id: "b60a93"
-  - name: "🇬🇧 [BL] Сервер 10"
+      public-key: "VYXI4MWqWEFY_qU247otuCPPK7mMxmjFDdrKT6D1a1o"
+      short-id: "1a895886399244a0"
+  - name: "🇬🇧 [BL] Сервер 6"
     type: vless
     server: 46.250.240.80
     port: 2053
     uuid: "f7fa5a16-1279-46ba-ac18-001b41884080"
     network: "tcp"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE"
       short-id: "3611e663b53177f2"
-  - name: "🇬🇧 [BL] Сервер 11"
+  - name: "🇬🇧 [BL] Сервер 7"
     type: vless
     server: 136.176.68.34
     port: 443
@@ -153,56 +99,75 @@ proxies:
     reality-opts:
       public-key: "Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo"
       short-id: "a6040129ad7f4b74"
-  - name: "🇬🇧 [BL] Сервер 12"
+  - name: "🇬🇧 [BL] Сервер 8"
     type: vless
-    server: 185.122.167.103
-    port: 59130
-    uuid: "b771804e-a62c-429f-a56c-9f0a452d8f6e"
+    server: 222.167.237.3
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "nvplm.stg.nvidia.com"
-    client-fingerprint: "chrome"
+    servername: "misty-harbor.cdn.cachefleet.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "6Lh48ni3w8oe9QW3xVzNMIE5LU-p5VPHPMCUtVMOmgo"
-      short-id: "14"
-  - name: "🇬🇧 [BL] Сервер 13"
+      public-key: "OQAbaaN0abHDcEOtiu5rpU_A4Op_gDbOzuAVlHplP3s"
+      short-id: "aa5294f481769382"
+  - name: "🇬🇧 [BL] Сервер 9"
     type: vless
-    server: 95.163.153.141
-    port: 8443
-    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
-    network: "xhttp"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    server: api.mediasvyaz.cc
+    port: 443
+    uuid: "b2b6d9ba-355a-4a9e-8d97-10fe8910b3ab"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "api.mediasvyaz.cc"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
-      short-id: "c9ea2355ddeab39b"
-    xhttp-opts:
-      path: "/"
-  - name: "🇬🇧 [BL] Сервер 14"
+      public-key: "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs"
+      short-id: "a8"
+  - name: "🇬🇧 [BL] Сервер 10"
+    type: vless
+    server: 136.234.36.210
+    port: 443
+    uuid: "7316d881-eeec-429b-94f1-07585747f7c8"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "perdelka.belka.tv"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
+      short-id: "a9dc98a7dc87a7dc"
+  - name: "🇬🇧 [BL] Сервер 11"
+    type: ss
+    server: 94.156.250.148
+    port: 7001
+    password: "RexnBgU7EV5ADxG"
+    cipher: "aes-256-gcm"
+  - name: "🇬🇧 [BL] Сервер 12"
+    type: ss
+    server: 141.98.101.181
+    port: 443
+    password: "shadowsocks"
+    cipher: "aes-128-gcm"
+  - name: "🇬🇧 [BL] Сервер 13"
     type: ss
     server: 141.98.101.182
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 15"
+  - name: "🇬🇧 [BL] Сервер 14"
     type: ss
     server: 141.98.101.179
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 16"
+  - name: "🇬🇧 [BL] Сервер 15"
     type: ss
     server: 141.98.101.178
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 17"
-    type: ss
-    server: 141.98.101.181
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"

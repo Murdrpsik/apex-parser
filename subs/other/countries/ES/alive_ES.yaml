@@ -1,42 +1,43 @@
 proxies:
-  - name: "🇪🇸 [BL] Сервер 1"
+  - name: "🇪🇸 [WL] Сервер 1"
     type: vless
-    server: 196.196.149.80
+    server: 179.255.189.18
     port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: "grpc"
-    servername: "b3cd32g.es1.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30"
-      short-id: "e7cffac9f8cfb434"
-  - name: "🇪🇸 [BL] Сервер 2"
-    type: vless
-    server: 196.196.148.90
-    port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    uuid: "148917bd-0b37-42b8-98f4-aa94ca73e75a"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "7aa271t.es9.h1clayd.click"
+    servername: "travel.yandex.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE"
-      short-id: "42426c882c5fcd41"
-  - name: "🇪🇸 [BL] Сервер 4"
+      public-key: "tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0"
+      short-id: "76834511"
+  - name: "🇪🇸 [BL] Сервер 3"
     type: vless
-    server: 46.28.71.247
+    server: 185.200.244.37
     port: 443
-    uuid: "12c53e32-e589-47d6-b857-e4132294f767"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "edge"
+    uuid: "7ce93cef-119d-4cba-9d9d-da0056ba979c"
+    network: "xhttp"
+    servername: "es1.green-tg.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE"
-      short-id: "0dfc23fe80778c00"
+      public-key: "EhKlZ3cHsJQRkNH7Qeya0ZeAy5jovCT-H4VNivwPyls"
+      short-id: "0bf13fb706784403"
+    xhttp-opts:
+      path: "/api/v2/7d94497a"
+  - name: "🇪🇸 [BL] Сервер 4"
+    type: vless
+    server: 65.20.99.198
+    port: 40118
+    uuid: "4e932df2-a06a-4043-861c-87fe8d217aae"
+    network: "tcp"
+    servername: "delivery.mp.microsoft.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs"
+      short-id: "c39acc8cb9481d24"
