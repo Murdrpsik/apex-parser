@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇦🇺 [BL/AI] Сервер 1"
+  - name: "🇦🇺 [BL] Сервер 1"
     type: vless
-    server: 15.135.59.216
+    server: 51.161.204.242
     port: 443
-    uuid: "adc49f62-b560-48a5-8371-ab09fa0a3d06"
+    uuid: "3c778768-d511-4221-8be3-3eba45640e9e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "addons.mozilla.org"
-    client-fingerprint: "chrome"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "UDbVIAs1-U5nPFyjfY0Ix7XnP-UYGBhDcdY4_rQShEw"
-      short-id: "a80ebb0a065e8d99"
+      public-key: "l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24"
+      short-id: "d432fe14bbdc17f6"

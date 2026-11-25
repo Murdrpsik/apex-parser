@@ -6,6 +6,7 @@ proxies:
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
     servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
     udp: true
     tls: true
     ws-opts:
@@ -56,6 +57,34 @@ proxies:
       short-id: "a3f7c2e1b9d4"
   - name: "🇯🇵 [BL] Сервер 5"
     type: vless
+    server: 140.238.55.215
+    port: 46935
+    uuid: "7a87d516-058e-495a-bc09-e527178639b4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yahoo.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "MmzrzoNr4muOhgi1ZAmzHbuciiKTWeu3hoi66Rp8Ai4"
+      short-id: "e582410c5e3ccd68"
+  - name: "🇯🇵 [BL] Сервер 6"
+    type: vless
+    server: jp.075661.xyz
+    port: 46935
+    uuid: "7a87d516-058e-495a-bc09-e527178639b4"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "MmzrzoNr4muOhgi1ZAmzHbuciiKTWeu3hoi66Rp8Ai4"
+      short-id: "e582410c5e3ccd68"
+  - name: "🇯🇵 [BL] Сервер 7"
+    type: vless
     server: 151.241.128.146
     port: 4430
     uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
@@ -68,7 +97,7 @@ proxies:
     reality-opts:
       public-key: "iE3EoCDzsS7tTRt7icQDxGYbDd_j_4TDk00y6Nd5Lhs"
       short-id: "ade96cf50b4b"
-  - name: "🇯🇵 [BL] Сервер 6"
+  - name: "🇯🇵 [BL] Сервер 8"
     type: vless
     server: 31.76.91.98
     port: 443
@@ -82,37 +111,9 @@ proxies:
     reality-opts:
       public-key: "ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg"
       short-id: "bd6f67b6b2152b45"
-  - name: "🇯🇵 [BL] Сервер 7"
-    type: vless
-    server: jpg1api.jumpernode.site
-    port: 443
-    uuid: "d508df52-3acb-483f-85d2-3fd5f6a76808"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "buybox.amazon.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I"
-      short-id: "2c92d6"
-  - name: "🇯🇵 [BL] Сервер 8"
-    type: vless
-    server: jp.075661.xyz
-    port: 46935
-    uuid: "7a87d516-058e-495a-bc09-e527178639b4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "yahoo.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "MmzrzoNr4muOhgi1ZAmzHbuciiKTWeu3hoi66Rp8Ai4"
-      short-id: "e582410c5e3ccd68"
   - name: "🇯🇵 [BL] Сервер 9"
     type: vless
-    server: 131.143.214.224
+    server: 185.200.66.193
     port: 443
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
@@ -126,7 +127,7 @@ proxies:
         Host: "jp3.yohototo.top"
   - name: "🇯🇵 [BL] Сервер 10"
     type: vless
-    server: 154.12.52.214
+    server: 216.167.127.197
     port: 443
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
@@ -140,24 +141,27 @@ proxies:
         Host: "jp3.yohototo.top"
   - name: "🇯🇵 [BL] Сервер 11"
     type: vless
-    server: 45.129.8.204
-    port: 443
+    server: 23.144.68.90
+    port: 8443
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     network: "ws"
     servername: "jp3.yohototo.top"
+    client-fingerprint: "qq"
     udp: true
     tls: true
     ws-opts:
       path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
   - name: "🇯🇵 [BL] Сервер 12"
     type: ss
-    server: 149.22.87.241
+    server: 149.22.87.204
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
   - name: "🇯🇵 [BL] Сервер 13"
     type: ss
-    server: 149.22.87.204
+    server: 149.22.87.241
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"

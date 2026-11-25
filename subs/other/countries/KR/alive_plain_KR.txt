@@ -1,0 +1,4 @@
+#profile-title: Apex KR
+#profile-update-interval: 1
+vless://9a600801-e889-4705-9adb-bf9aeb366fc7@43.155.175.232:443?security=tls&fp=firefox&sni=ifdmbpb.kdns.fr&encryption=none&type=tcp#🇰🇷 [BL] Сервер 1
+vless://5807f1c4-b50e-4ec0-8d01-274045da0da5@34.84.103.229:43118?encryption=none&security=reality&sni=v1-dy.ixigua.com&fp=firefox&pbk=p0crO-ZNRjb07T_GGy9JdkXTjei3-D9f6s2ZzCo2gx8&sid=1a70fe8d4b05&flow=xtls-rprx-vision&type=tcp#🇰🇷 [BL] Сервер 2

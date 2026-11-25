@@ -1,30 +1,38 @@
 proxies:
-  - name: "🇹🇷 [BL] Сервер 1"
+  - name: "🇹🇷 [WL] Сервер 1"
     type: vless
-    server: 109.122.246.205
-    port: 4545
-    uuid: "b3bcbfe9-9f06-4cb6-b43c-80df159f8d68"
+    server: 92.223.124.62
+    port: 443
+    uuid: "35f8defb-c734-4ca6-907f-f36a49c6c389"
     network: "xhttp"
-    servername: "www.aparat.com"
+    servername: "portal.gcore.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/sakeneko?ed=2048"
+      host: "my-site-44imwqft.gcorecdn.com"
+      mode: "auto"
+  - name: "🇹🇷 [BL] Сервер 2"
+    type: vless
+    server: 107.181.155.27
+    port: 2020
+    uuid: "cef83486-03f3-439c-b7d1-41342ca56045"
+    network: "tcp"
+    servername: "app.stiga.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "NzBAI3nli7Fb9FwociYTkMlpSF9uWaB2IbtI5glHMDM"
-      short-id: "1d1307693a8f18f9"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇹🇷 [BL] Сервер 2"
+      public-key: "Yi-gnPXSPlKZ1CJMHjYweHtosyU_ZlW2d6iWjVmieC8"
+      short-id: "8ccab9d5e561c34d"
+  - name: "🇹🇷 [BL] Сервер 3"
     type: vless
-    server: edge02.tunnely.space
-    port: 443
-    uuid: "11d14aed-3d44-4bb2-b9c0-24e661589e5a"
-    network: "xhttp"
-    servername: "tr06.tunnely.space"
-    client-fingerprint: "firefox"
+    server: 143.246.136.128
+    port: 50738
+    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    network: "tcp"
+    servername: "turkey-ip1.mmdaqaorg.xyz"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    xhttp-opts:
-      path: "/xhttp/"
-      mode: "packet-up"

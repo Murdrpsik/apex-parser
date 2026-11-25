@@ -1,3 +1,3 @@
 #profile-title: Apex OC
 #profile-update-interval: 1
-vless://adc49f62-b560-48a5-8371-ab09fa0a3d06@15.135.59.216:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=addons.mozilla.org&pbk=UDbVIAs1-U5nPFyjfY0Ix7XnP-UYGBhDcdY4_rQShEw&sid=a80ebb0a065e8d99&fp=chrome#🇦🇺 [BL/AI] Сервер 1
+vless://3c778768-d511-4221-8be3-3eba45640e9e@51.161.204.242:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24&sid=d432fe14bbdc17f6&sni=www.cloudflare.com&encryption=none#🇦🇺 [BL] Сервер 1

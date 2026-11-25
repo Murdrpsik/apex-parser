@@ -7,30 +7,7 @@ proxies:
     cipher: "auto"
     alterId: 0
     network: "tcp"
-  - name: "🇰🇿 [BL] Сервер 2"
-    type: vmess
-    server: 38.107.234.57
-    port: 80
-    uuid: "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    servername: "3h-kazakhstan1.09vpn.com"
-    ws-opts:
-      path: "/vmess/"
-      headers:
-        Host: "3h-kazakhstan1.09vpn.com"
-  - name: "🇺🇸 [BL] Сервер 3"
-    type: vmess
-    server: 38.110.1.246
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬 [BL] Сервер 4"
+  - name: "🇸🇬 [BL] Сервер 2"
     type: vmess
     server: 149.88.23.207
     port: 18000
@@ -38,27 +15,21 @@ proxies:
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    servername: "ww11.levikogjgfdd.ir"
     ws-opts:
       path: "/"
-      headers:
-        Host: "ww11.levikogjgfdd.ir"
-  - name: "🇸🇬 [BL] Сервер 5"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vmess
-    server: 149.88.23.202
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    servername: "149.88.23.202"
-  - name: "🇭🇰 [BL] Сервер 6"
-    type: vmess
-    server: dog-hk.kunlun01dns.com
-    port: 21019
+    server: dog-kr.kunlun01dns.com
+    port: 21004
     uuid: "9464ca40-dd75-3742-a628-d931a9f413b2"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-    ws-opts:
-      path: "/"
+  - name: "🇭🇰 [BL] Сервер 4"
+    type: vmess
+    server: dog-tw.kunlun01dns.com
+    port: 21037
+    uuid: "9464ca40-dd75-3742-a628-d931a9f413b2"
+    cipher: "auto"
+    alterId: 0
+    network: "tcp"

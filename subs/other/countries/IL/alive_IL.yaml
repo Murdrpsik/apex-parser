@@ -16,67 +16,6 @@ proxies:
       grpc-service-name: "7d5abcd7d8a1"
   - name: "🇮🇱 [BL] Сервер 2"
     type: vless
-    server: fc82dfx.nl8.h1clayd.click
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    network: "xhttp"
-    servername: "fc82dfx.nl8.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw"
-      short-id: "7b2b1a14a6e0630d"
-    xhttp-opts:
-      path: "/0616f2d729aa"
-      mode: "auto"
-  - name: "🇮🇱 [BL] Сервер 3"
-    type: vless
-    server: 45.86.158.235
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    network: "xhttp"
-    servername: "fc82dfx.nl8.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw"
-      short-id: "7b2b1a14a6e0630d"
-    xhttp-opts:
-      path: "/0616f2d729aa"
-  - name: "🇮🇱 [BL] Сервер 4"
-    type: vless
-    server: 717252g.nl8.h1clayd.click
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    network: "grpc"
-    servername: "717252g.nl8.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU"
-      short-id: "d3bd772514c87d28"
-    grpc-opts:
-      grpc-service-name: "204adda7e3da"
-  - name: "🇮🇱 [BL] Сервер 5"
-    type: vless
-    server: 164.37.224.238
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    network: "xhttp"
-    servername: "80cb66x.nl13.h1clayd.click"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0"
-      short-id: "f72d4a2c7cbbacb1"
-    xhttp-opts:
-      path: "/d610f026b146"
-  - name: "🇮🇱 [BL] Сервер 6"
-    type: vless
     server: 164.37.224.245
     port: 443
     uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
@@ -90,14 +29,27 @@ proxies:
       short-id: "6d289ff0f47c0aac"
     grpc-opts:
       grpc-service-name: "7d5abcd7d8a1"
-  - name: "🇮🇱 [BL] Сервер 7"
+  - name: "🇮🇱 [BL] Сервер 3"
     type: vless
-    server: 196.245.153.156
+    server: 164.37.224.238
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    network: "tcp"
+    servername: "f0d7aft.nl13.h1clayd.click"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI"
+      short-id: "8956c57cb4c4f8d2"
+  - name: "🇮🇱 [BL] Сервер 4"
+    type: vless
+    server: 195.206.235.74
     port: 443
     uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
     network: "grpc"
-    servername: "961ec0g.nl17.h1clayd.click"
-    client-fingerprint: "firefox"
+    servername: "961ec0g.nl13.h1clayd.click"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
@@ -105,3 +57,29 @@ proxies:
       short-id: "6d289ff0f47c0aac"
     grpc-opts:
       grpc-service-name: "7d5abcd7d8a1"
+  - name: "🇮🇱 [BL] Сервер 5"
+    type: vless
+    server: 153.56.229.218
+    port: 443
+    uuid: "ba0dbd83-3569-46dc-bc3d-ef6e58ffc97b"
+    network: "tcp"
+    servername: "71b840t.de7.h1clayd.click"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE"
+      short-id: "e572b6579ea525d4"
+  - name: "🇮🇱 [BL] Сервер 6"
+    type: vless
+    server: 196.196.204.137
+    port: 443
+    uuid: "26843758-24de-4f76-b5d0-624038e353c4"
+    network: "tcp"
+    servername: "71b840t.de7.h1clayd.click"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE"
+      short-id: "e572b6579ea525d4"

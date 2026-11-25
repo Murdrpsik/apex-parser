@@ -1,3 +1,4 @@
 #profile-title: Apex IN
 #profile-update-interval: 1
-vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@178.212.35.198:443?fp=firefox&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp&encryption=none#🇮🇳 [BL] Сервер 1
+vless://06a5afa1-2bbc-a5d1-1770-becd1089c636@xray-dmr3b3hy-calm-maple-7.cloady.io:443?security=tls&type=ws&path=%2F%252F0175469f14317d82&sni=xray-dmr3b3hy-calm-maple-7.cloady.io&fp=chrome&encryption=none#🇮🇳 [BL] Сервер 1
+vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@178.212.35.198:443?fp=firefox&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp&encryption=none#🇮🇳 [BL] Сервер 2

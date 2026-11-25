@@ -1,18 +1,18 @@
 proxies:
-  - name: "🇭🇰 [WL/CF] Сервер 1"
+  - name: "🇭🇰 [WL] Сервер 1"
     type: vless
-    server: 103.88.241.220
+    server: 138.249.210.11
     port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
+    uuid: "148917bd-0b37-42b8-98f4-aa94ca73e75a"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "ruhongmicro2.gangplatform.com"
-    client-fingerprint: "ios"
+    servername: "travel.yandex.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo"
-      short-id: "bad10ef561d2e2a1"
+      public-key: "tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0"
+      short-id: "4e3f59"
   - name: "🇭🇰 [BL] Сервер 2"
     type: vless
     server: 38.55.193.106
@@ -71,43 +71,14 @@ proxies:
       short-id: "0bf55f64"
   - name: "🇭🇰 [BL] Сервер 6"
     type: vless
-    server: 179.253.225.20
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: "ws"
-    servername: "hkg.kkp.us.ci"
+    server: 38.207.178.28
+    port: 20086
+    uuid: "11a2709f-a1aa-4b97-9212-4d5cb0c83e53"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.paypal.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    ws-opts:
-      path: "/487e07e6-2930-4e71-99b3-6792e5909f16"
-      headers:
-        Host: "hkg.kkp.us.ci"
-  - name: "🇭🇰 [BL] Сервер 7"
-    type: vless
-    server: 131.143.180.19
-    port: 443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: "ws"
-    servername: "hkg.kkp.us.ci"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/487e07e6-2930-4e71-99b3-6792e5909f16"
-      headers:
-        Host: "hkg.kkp.us.ci"
-  - name: "🇭🇰 [BL] Сервер 8"
-    type: vless
-    server: 152.175.9.55
-    port: 443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: "ws"
-    servername: "hkg.kkp.us.ci"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/487e07e6-2930-4e71-99b3-6792e5909f16"
-      headers:
-        Host: "hkg.kkp.us.ci"
+    reality-opts:
+      public-key: "fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04"

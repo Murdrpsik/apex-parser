@@ -1,152 +1,59 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
-    server: 81.163.22.114
+    server: 185.22.234.129
     port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "oecxdhvdfbmwptoldi.fcloudservices.lat"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 2"
-    type: vless
-    server: 45.150.238.201
-    port: 20443
-    uuid: "67a31bdf-5846-409d-8b49-3d795e1a2a4f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dc.insidenet.ru"
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "ws"
+    servername: "smartcdn.top"
     client-fingerprint: "safari"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "xE2CNenfDgtu28WQ23Bq2KfdkEj3XN42P_ZVou1YRC4"
-      short-id: "f847646adc2b82fe"
+    ws-opts:
+      path: "/useraction/collect/8a64b355ef0c/"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 200.169.179.233
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "random"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 3"
     type: vless
-    server: dc.insidenet.ru
-    port: 20443
-    uuid: "67a31bdf-5846-409d-8b49-3d795e1a2a4f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "dc.insidenet.ru"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "xE2CNenfDgtu28WQ23Bq2KfdkEj3XN42P_ZVou1YRC4"
-      short-id: "f847646adc2b82fe"
-  - name: "🇷🇺 [WL/AI] Сервер 4"
-    type: vless
-    server: 78.159.240.11
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    server: 201.24.116.192
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "random"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
     grpc-opts:
-      grpc-service-name: "grpc"
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: 201.51.12.98
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    network: "grpc"
+    servername: "vps3.nemnogogo.com"
+    client-fingerprint: "ios"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
   - name: "🇷🇺 [WL] Сервер 5"
-    type: vless
-    server: 78.159.240.11
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL/AI] Сервер 6"
-    type: vless
-    server: 78.159.246.83
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇷🇺 [WL] Сервер 7"
-    type: vless
-    server: 78.159.246.83
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL] Сервер 8"
-    type: vless
-    server: smartcdn.top
-    port: 443
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "ws"
-    servername: "smartcdn.top"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/useraction/collect/8a64b355ef0c/"
-  - name: "🇷🇺 [WL] Сервер 9"
-    type: vless
-    server: 31.177.111.72
-    port: 443
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "ws"
-    servername: "smartcdn.top"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/useraction/collect/8a64b355ef0c/"
-  - name: "🇷🇺 [WL] Сервер 10"
-    type: vless
-    server: cdn.oldertown.ru
-    port: 443
-    uuid: "29777784-b5ad-4e2a-be7b-335f033ab97c"
-    network: "xhttp"
-    servername: "cdn.oldertown.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v4/media/session/poll"
-      host: "cdn.oldertown.ru"
-      mode: "packet-up"
-  - name: "🇷🇺 [WL] Сервер 11"
-    type: vless
-    server: 78.159.240.111
-    port: 2053
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "xhttp"
-    servername: "curlypebble.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/upload"
-      host: "curlypebble.com"
-      mode: "auto"
-  - name: "🇷🇺 [WL] Сервер 12"
+    type: ss
+    server: 194.87.69.12
+    port: 18443
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+    cipher: "aes-256-gcm"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 78.159.240.62
     port: 2053
@@ -160,140 +67,61 @@ proxies:
       path: "/api/v1/upload"
       host: "polarladder.com"
       mode: "auto"
-  - name: "🇷🇺 [WL] Сервер 13"
-    type: vless
-    server: 200.169.179.233
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "safari"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 14"
-    type: vless
-    server: 201.24.116.192
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 15"
-    type: vless
-    server: 201.51.12.98
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 16"
-    type: vless
-    server: vps3.nemnogogo.com
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 17"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "grpc"
-    servername: "xsru1.ddnsfree.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "grpc-ru"
-      grpc-mode: "gun"
-  - name: "🇷🇺 [WL] Сервер 18"
-    type: vless
-    server: 147.45.175.81
-    port: 443
-    uuid: "c90395e6-2140-47ad-a54d-9b166729d3ef"
-    network: "grpc"
-    servername: "xsru1.ddnsfree.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "grpc-ru"
-  - name: "🇷🇺 [WL] Сервер 19"
-    type: vless
-    server: 136.148.83.70
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "aszbk-ru-78dc.my-fade.cloud"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 20"
-    type: vless
-    server: 82.202.139.213
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "osvcbrklrjmfnzoffl.fcloudservices.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 21"
-    type: vless
-    server: 168.113.253.81
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "renycbfoxizjxwnlle.fcloudservices.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 22"
-    type: vless
-    server: 45.132.179.68
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "onbtoaadqkctlepomo.fcloudservices.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 23"
-    type: vless
-    server: 82.202.141.27
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "lpdikwsijckmfigyjq.fcloudservices.site"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 24"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 136.148.83.71
     port: 443
     uuid: "00000000-0000-0001-0000-000000000000"
     network: "tcp"
     servername: "wccfu-ru-79dc.my-fade.cloud"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 8"
+    type: vless
+    server: 45.150.238.201
+    port: 20443
+    uuid: "67a31bdf-5846-409d-8b49-3d795e1a2a4f"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "dc.insidenet.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "xE2CNenfDgtu28WQ23Bq2KfdkEj3XN42P_ZVou1YRC4"
+      short-id: "f847646adc2b82fe"
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 129.101.109.173
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    network: "tcp"
+    servername: "lapfegjjxmplualrul.fcloudservices.lat"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 10"
+    type: vless
+    server: 77.223.118.5
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    network: "tcp"
+    servername: "dgiwpgqfdfrdvwdbby.fcloudservices.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇷🇺 [WL] Сервер 11"
+    type: vless
+    server: 136.148.83.70
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    network: "tcp"
+    servername: "aszbk-ru-78dc.my-fade.cloud"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 25"
+  - name: "🇷🇺 [WL] Сервер 12"
     type: vless
     server: 136.148.83.69
     port: 443
@@ -303,47 +131,9 @@ proxies:
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL/AI] Сервер 26"
-    type: vless
-    server: 89.19.223.229
-    port: 443
-    uuid: "dd26459b-3e0c-4910-aa5d-2668ae20f65d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL/AI] Сервер 27"
-    type: vless
-    server: 89.19.223.234
-    port: 443
-    uuid: "dd26459b-3e0c-4910-aa5d-2668ae20f65d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [WL] Сервер 28"
-    type: vless
-    server: 176.109.108.17
-    port: 443
-    uuid: "ef0e8b1b-e6a1-0001-ac63-bdba2cce8ae7"
-    network: "tcp"
-    servername: "wrdgkmglxsfcfazlsf.fcloudservices.site"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-  - name: "🇷🇺 [WL] Сервер 29"
+  - name: "🇷🇺 [WL] Сервер 13"
     type: ss
-    server: 193.233.220.193
-    port: 1080
-    password: "4VThTIeahSI0Q7U9zum9mzVMKAU1O-sj"
+    server: 193.233.230.135
+    port: 770
+    password: "93N6eTxPvxEEa9P-uaQJVsPyQU_cN3Q0"
     cipher: "chacha20-ietf-poly1305"

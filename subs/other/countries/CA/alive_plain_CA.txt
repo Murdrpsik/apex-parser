@@ -1,10 +1,9 @@
 #profile-title: Apex CA
 #profile-update-interval: 1
-vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&sid=0990d22f&sni=www.cloudflare.com&encryption=none#🇨🇦 [BL] Сервер 1
-vless://67952583-8572-42e1-943d-0602794f885b@103.106.229.177:21003?encryption=none&pbk=IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA&security=reality&sid=f3602a3a1cf928b7&sni=www.cloudflare.com&type=tcp#🇨🇦 [BL] Сервер 2
-vless://80b3cf20-c77c-4fb9-a69e-55c9dadd58c8@31.59.156.16:443?encryption=none&flow=xtls-rprx-vision&pbk=M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE&security=reality&sid=8acb6e79c1b29c4b&sni=broe.primetap.cards&type=tcp&fp=ios#🇨🇦 [BL] Сервер 3
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#🇨🇦 [BL] Сервер 4
-vless://06dd972d-3916-4ac3-a1de-6def65c751e8@dtt4.toe.qd.je:2109?security=reality&flow=xtls-rprx-vision&pbk=9S_C2iPVkWxxGjYN5xUZ7tzbD7vl18mLg9j7qsC_DzY&sid=cdba94063c08331c&fp=chrome&sni=www.microsoft.com&type=tcp&headerType=none&host=www.microsoft.com&path=%2F&encryption=none#🇨🇦 [BL] Сервер 5
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#🇨🇦 [BL] Сервер 6
-vmess://eyJhZGQiOiIxMzQuMTk1LjE5Ni4yMTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoi8J+HqPCfh6YgW0JMXSDQodC10YDQstC10YAgNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#🇨🇦 [BL] Сервер 7
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 8
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?type=tcp&security=tls&fp=chrome&sni=kuruish.org&host=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 1
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#🇨🇦 [BL] Сервер 2
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782&sni=www.cloudflare.com&encryption=none#🇨🇦 [BL] Сервер 3
+vless://8b7a8f61-74c0-491f-bbba-ea153edb1a4b@185.71.216.95:2093?security=reality&encryption=none&pbk=C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=8a9725533854a7e8#🇨🇦 [BL] Сервер 4
+vless://53cef1c5-c3db-4ba2-908f-f62351ee1c52@89.40.31.54:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=fZZx3tJHWY0booB9erIuAbJ7lohhGx9s9q3CxsyaaRE&security=reality&sid=a085b7e1f7cbd2&sni=vesnagate.site&type=tcp#🇨🇦 [BL/AI] Сервер 5
+vmess://eyJhZGQiOiIxMzQuMTk1LjE5Ni4yMTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoi8J+HqPCfh6YgW0JMXSDQodC10YDQstC10YAgNiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#🇨🇦 [BL] Сервер 6
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 7

@@ -1,103 +1,19 @@
 proxies:
-  - name: "🇩🇪 [AI] Сервер 1"
+  - name: "🇳🇱 [AI] Сервер 1"
     type: vless
-    server: 217.19.123.31
+    server: 185.242.247.252
     port: 443
-    uuid: "48818046-00b5-4576-bbe8-d2971fe0f844"
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "river-3-369.rtbcdn.ru"
-    client-fingerprint: "firefox"
+    servername: "8a2e72t.nl20.h1clayd.shop"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg"
-      short-id: "4b227777d4dd"
-  - name: "🇩🇪 [AI] Сервер 2"
-    type: vless
-    server: 31.177.111.148
-    port: 443
-    uuid: "c78cc6f1-0154-49c9-b5ba-3ca18d7b977b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "id.vk.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "108ddeK8_9G_vKTA93xrC4Jfht_cyYTfciRbKiSgJiM"
-      short-id: "f141f1462c2efc90"
-  - name: "🇷🇺 [AI] Сервер 3"
-    type: vless
-    server: 78.159.240.11
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇷🇺 [AI] Сервер 4"
-    type: vless
-    server: 78.159.246.83
-    port: 445
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    network: "grpc"
-    servername: "passport.yandex.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇷🇺 [AI] Сервер 5"
-    type: vless
-    server: 89.19.223.229
-    port: 443
-    uuid: "dd26459b-3e0c-4910-aa5d-2668ae20f65d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇷🇺 [AI] Сервер 6"
-    type: vless
-    server: 89.19.223.234
-    port: 443
-    uuid: "dd26459b-3e0c-4910-aa5d-2668ae20f65d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "d3-ru.cloud-cdn.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI"
-      short-id: "0f19f0c8102dc695"
-  - name: "🇫🇮 [AI] Сервер 7"
-    type: vless
-    server: 109.73.207.225
-    port: 443
-    uuid: "ef1da56e-8117-03eb-bcd8-9094ebbdf985"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "games.robloxfans.fun"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "KFIPjM9UI5YaPMOKE2oJWg9pO1HD_FlByAwirvVauhA"
-      short-id: "812e5d00c043b6ec"
-  - name: "🌐 [AI] Сервер 8"
+      public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
+      short-id: "8d0d0679f42ffd98"
+  - name: "🌐 [AI] Сервер 2"
     type: vless
     server: 147.45.97.194
     port: 443
@@ -111,31 +27,85 @@ proxies:
     reality-opts:
       public-key: "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0"
       short-id: "93ae75024604f796"
-  - name: "🇨🇭 [AI] Сервер 9"
+  - name: "🇱🇻 [AI] Сервер 3"
     type: vless
-    server: 45.151.136.26
+    server: 178.130.133.24
     port: 443
-    uuid: "11d14aed-3d44-4bb2-b9c0-24e661589e5a"
+    uuid: "53a44f0c-a480-0004-802c-92e796ed77c9"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ch09.tunnely.space"
+    servername: "balancer-msk.peregrine-sub.net"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM"
-      short-id: "2e40144ddc07e8e1"
-  - name: "🇦🇺 [AI] Сервер 10"
+      public-key: "BIeplEH7MyksxHu-ut3eoBj8UUNeEsybJZrRmppwQnc"
+  - name: "🇪🇪 [AI] Сервер 4"
     type: vless
-    server: 15.135.59.216
+    server: 159.200.230.68
     port: 443
-    uuid: "adc49f62-b560-48a5-8371-ab09fa0a3d06"
+    uuid: "73ebb72a-e2a8-44c8-a0e3-938740a4f578"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "addons.mozilla.org"
-    client-fingerprint: "chrome"
+    servername: "079b6et.ee5.h1clayd.shop"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "UDbVIAs1-U5nPFyjfY0Ix7XnP-UYGBhDcdY4_rQShEw"
-      short-id: "a80ebb0a065e8d99"
+      public-key: "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U"
+      short-id: "35a329a23bb50d2b"
+  - name: "🇩🇪 [AI] Сервер 5"
+    type: vless
+    server: 188.225.32.175
+    port: 443
+    uuid: "d3d4e690-db61-4b84-8687-7c1ff79c89ff"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "contract.starsov.pro"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "8rdhihFgU72DVkhH6ROS9j2WyNc_spuiGXrT_YvNJ0M"
+      short-id: "f51bc11ebd9f2835"
+  - name: "🇫🇷 [AI] Сервер 6"
+    type: vless
+    server: 62.109.9.14
+    port: 587
+    uuid: "53cef1c5-c3db-4ba2-908f-f62351ee1c52"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "vesnagate.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fZZx3tJHWY0booB9erIuAbJ7lohhGx9s9q3CxsyaaRE"
+      short-id: "a085b7e1f7cbd2"
+  - name: "🇳🇱 [AI] Сервер 7"
+    type: vless
+    server: 37.18.14.25
+    port: 18442
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "sbmicro731.alexdjane.am"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "qcQLgmXcaZnmi6G19qfREf1_vj-f05z8CVW0q8-4vyQ"
+      short-id: "fdf358c631f381c3"
+  - name: "🇨🇦 [AI] Сервер 8"
+    type: vless
+    server: 89.40.31.54
+    port: 443
+    uuid: "53cef1c5-c3db-4ba2-908f-f62351ee1c52"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "vesnagate.site"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fZZx3tJHWY0booB9erIuAbJ7lohhGx9s9q3CxsyaaRE"
+      short-id: "a085b7e1f7cbd2"
