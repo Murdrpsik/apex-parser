@@ -1,35 +1,11 @@
 proxies:
-  - name: "🇨🇦 [BL] Сервер 1"
+  - name: "🇩🇪 [WL] Сервер 1"
     type: vmess
-    server: 134.195.196.211
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    server: 185.177.229.95
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     cipher: "auto"
     alterId: 0
     network: "tcp"
-  - name: "🇸🇬 [BL] Сервер 2"
-    type: vmess
-    server: 149.88.23.207
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-    ws-opts:
-      path: "/"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vmess
-    server: dog-kr.kunlun01dns.com
-    port: 21004
-    uuid: "9464ca40-dd75-3742-a628-d931a9f413b2"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
-  - name: "🇭🇰 [BL] Сервер 4"
-    type: vmess
-    server: dog-tw.kunlun01dns.com
-    port: 21037
-    uuid: "9464ca40-dd75-3742-a628-d931a9f413b2"
-    cipher: "auto"
-    alterId: 0
-    network: "tcp"
+    servername: "xmfhlpy.com"
+    tls: true

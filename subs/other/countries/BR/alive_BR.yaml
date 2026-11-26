@@ -1,15 +1,17 @@
 proxies:
-  - name: "🇧🇷 [BL] Сервер 1"
-    type: vless
-    server: dddz-4-z.473221.xyz
-    port: 33161
-    uuid: "5807f1c4-b50e-4ec0-8d01-274045da0da5"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "v1-dy.ixigua.com"
-    client-fingerprint: "firefox"
+  - name: "🇧🇷 [WL] Сервер 1"
+    type: trojan
+    server: 216.238.104.154
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    client-fingerprint: "chrome"
     udp: true
-    tls: true
-    reality-opts:
-      public-key: "BECARsUsTAoGzHFcGEquyFHKnI_LVL5FL6s1jZbLhVk"
-      short-id: "6dbd86dc61ccb46d"
+  - name: "🇧🇷 [WL] Сервер 2"
+    type: trojan
+    server: 216.238.104.154
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    sni: "findtemporaryworkandfreelancerprojectsonlineplatform.com"
+    client-fingerprint: "chrome"
+    udp: true

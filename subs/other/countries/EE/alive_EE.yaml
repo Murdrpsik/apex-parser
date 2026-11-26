@@ -1,15 +1,17 @@
 proxies:
   - name: "🇪🇪 [BL] Сервер 1"
     type: vless
-    server: 165.231.157.122
-    port: 8443
-    uuid: "0173d52e-8e1b-4681-831e-11529677b72f"
-    network: "tcp"
+    server: 31.56.187.209
+    port: 443
+    uuid: "0259e5aa-c188-4334-b204-32cd5ea859f6"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "api-6b04608f.adhil.uk"
+    servername: "es-maps-revers.keno.su"
     client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "_MeP-WwmolUvi6wMXNoSs_zo6miG_OW7xk4ibzADiHY"
   - name: "🇪🇪 [BL] Сервер 2"
     type: vless
     server: 165.231.157.126
@@ -23,41 +25,12 @@ proxies:
     tls: true
   - name: "🇪🇪 [BL] Сервер 3"
     type: vless
-    server: 87.232.116.50
-    port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "fjord-lantern.cdn.cachefleet.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "30G1qOdxicVZe5FKwRswIgK46h6n179p-iuTXY-BLj8"
-  - name: "🇪🇪 [BL] Сервер 4"
-    type: vless
-    server: 201.10.76.171
+    server: 196.198.111.138
     port: 8443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    uuid: "0173d52e-8e1b-4681-831e-11529677b72f"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "fjord-lantern.cdn.cachefleet.com"
-    client-fingerprint: "edge"
+    servername: "api-6b04608f.adhil.uk"
+    client-fingerprint: "safari"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "30G1qOdxicVZe5FKwRswIgK46h6n179p-iuTXY-BLj8"
-  - name: "🇪🇪 [BL] Сервер 5"
-    type: vless
-    server: 87.232.116.163
-    port: 443
-    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "copper-signal.cdn.cachefleet.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cy41satjEaeRuJ0vOHYE-tu8S8z2oHAGCgPoanHtw20"
-      short-id: "1dbf50474c0a7296"
