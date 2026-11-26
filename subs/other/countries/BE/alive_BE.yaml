@@ -1,0 +1,37 @@
+proxies:
+  - name: "🇧🇪 [BL] Сервер 1"
+    type: vless
+    server: 109.69.218.185
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "fern-quarry.cdn.cachefleet.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "a66a7ab7623a8868"
+  - name: "🇧🇪 [BL] Сервер 2"
+    type: vless
+    server: 62.76.115.239
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "fern-quarry.cdn.cachefleet.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "a66a7ab7623a8868"
+  - name: "🇧🇪 [BL] Сервер 3"
+    type: vless
+    server: 109.69.218.74
+    port: 443
+    uuid: "d86e6fda-e519-46ab-98eb-9ff9a9da5984"
+    network: "grpc"
+    servername: "juniper-flats.cdn.cachefleet.com"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    grpc-opts:
+      grpc-service-name: "a66a7ab7623a8868"

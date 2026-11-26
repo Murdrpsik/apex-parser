@@ -11,6 +11,20 @@ proxies:
     tls: true
   - name: "🇰🇷 [BL] Сервер 2"
     type: vless
+    server: krd.80782636.xyz
+    port: 443
+    uuid: "db906786-8c49-4b17-9182-cea680ef954d"
+    network: "ws"
+    servername: "krd.80782636.xyz"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/kw7x2mq9"
+      headers:
+        Host: "krd.80782636.xyz"
+  - name: "🇰🇷 [BL] Сервер 3"
+    type: vless
     server: 34.84.103.229
     port: 43118
     uuid: "5807f1c4-b50e-4ec0-8d01-274045da0da5"

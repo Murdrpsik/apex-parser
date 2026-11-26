@@ -1,17 +1,33 @@
 proxies:
-  - name: "🇮🇳 [BL] Сервер 1"
+  - name: "🇮🇳 [WL] Сервер 1"
     type: vless
-    server: xray-dmr3b3hy-calm-maple-7.cloady.io
+    server: 185.222.30.149
     port: 443
-    uuid: "06a5afa1-2bbc-a5d1-1770-becd1089c636"
-    network: "ws"
-    servername: "xray-dmr3b3hy-calm-maple-7.cloady.io"
-    client-fingerprint: "chrome"
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nemicro473.nashjournal1.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/%2F0175469f14317d82"
+    reality-opts:
+      public-key: "E2VU2gVSjS7QPkgCNmyC3sp1uNjUrdA-Tm4vCR4tEw0"
+      short-id: "7066aedcee832680"
   - name: "🇮🇳 [BL] Сервер 2"
+    type: vless
+    server: 84.32.108.50
+    port: 443
+    uuid: "ee0a6b97-4dc1-000c-8b16-95a42c917158"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nl-ams1.connect.accessboy.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4"
+      short-id: "1c5869a95671bcb0"
+  - name: "🇮🇳 [BL] Сервер 3"
     type: vless
     server: 178.212.35.198
     port: 443
