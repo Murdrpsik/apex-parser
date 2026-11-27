@@ -1,0 +1,3 @@
+#profile-title: Apex AL
+#profile-update-interval: 1
+vless://7af8c5d0-ede6-40ab-9b9e-d7924f79d109@200.96.109.197:14443?encryption=none&type=grpc&security=reality&sni=kiwi-logistic.ru&pbk=DFBCTsJbKYbaZGWGi_bKgIjrkoUmDaAha7iEe9fKWgo&sid=d9662905&fp=firefox&serviceName=AlGrpC.Name#🇦🇱 [BL] Сервер 1

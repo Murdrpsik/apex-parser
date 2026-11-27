@@ -1,7 +1,55 @@
 proxies:
-  - name: "🇿🇦 [BL] Сервер 1"
+  - name: "🇳🇬 [BL] Сервер 1"
+    type: vless
+    server: 194.1.155.184
+    port: 5563
+    uuid: "41bcd5ea-f90c-4227-ab6f-23de50b0a226"
+    network: "xhttp"
+    servername: "aparat.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "gC8ByeCLwGzTYzhzFf0U8amObF2hcNTR2rmGo3QX2B0"
+      short-id: "bce7bff2adeefc87"
+    xhttp-opts:
+      path: "/"
+      host: "aparat.com"
+      mode: "auto"
+  - name: "🇸🇨 [BL] Сервер 2"
+    type: vless
+    server: 196.240.4.12
+    port: 443
+    uuid: "8bc3af32-c6bb-4a57-8da1-9a662fd79e3c"
+    network: "xhttp"
+    servername: "8bc3af32.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/lv"
+      mode: "stream-one"
+  - name: "🇸🇨 [BL] Сервер 3"
+    type: vless
+    server: 196.240.5.12
+    port: 443
+    uuid: "8bc3af32-c6bb-4a57-8da1-9a662fd79e3c"
+    network: "xhttp"
+    servername: "8bc3af32.ferrin.uk"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    xhttp-opts:
+      path: "/lv"
+  - name: "🇿🇦 [BL] Сервер 4"
     type: ss
     server: 102.37.156.224
     port: 443
     password: "aduB9HGxQHjA2SBMRjkHX6"
+    cipher: "chacha20-ietf-poly1305"
+  - name: "🇿🇦 [BL] Сервер 5"
+    type: ss
+    server: 102.133.165.160
+    port: 16233
+    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
     cipher: "chacha20-ietf-poly1305"

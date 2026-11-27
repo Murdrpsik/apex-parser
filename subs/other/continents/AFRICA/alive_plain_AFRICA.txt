@@ -1,3 +1,7 @@
 #profile-title: Apex AF
 #profile-update-interval: 1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦 [BL] Сервер 1
+vless://41bcd5ea-f90c-4227-ab6f-23de50b0a226@194.1.155.184:5563?type=xhttp&security=reality&fp=firefox&pbk=gC8ByeCLwGzTYzhzFf0U8amObF2hcNTR2rmGo3QX2B0&sid=bce7bff2adeefc87&sni=aparat.com&host=aparat.com&mode=auto&encryption=none#🇳🇬 [BL] Сервер 1
+vless://8bc3af32-c6bb-4a57-8da1-9a662fd79e3c@196.240.4.12:443?type=xhttp&security=tls&fp=firefox&sni=8bc3af32.ferrin.uk&path=%2Flv&mode=stream-one&encryption=none#🇸🇨 [BL] Сервер 2
+vless://8bc3af32-c6bb-4a57-8da1-9a662fd79e3c@196.240.5.12:443?encryption=none&fp=firefox&path=%2Flv&security=tls&sni=8bc3af32.ferrin.uk&type=xhttp#🇸🇨 [BL] Сервер 3
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦 [BL] Сервер 4
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#🇿🇦 [BL] Сервер 5

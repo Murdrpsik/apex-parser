@@ -1,0 +1,16 @@
+proxies:
+  - name: "🇦🇱 [BL] Сервер 1"
+    type: vless
+    server: 200.96.109.197
+    port: 14443
+    uuid: "7af8c5d0-ede6-40ab-9b9e-d7924f79d109"
+    network: "grpc"
+    servername: "kiwi-logistic.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "DFBCTsJbKYbaZGWGi_bKgIjrkoUmDaAha7iEe9fKWgo"
+      short-id: "d9662905"
+    grpc-opts:
+      grpc-service-name: "AlGrpC.Name"

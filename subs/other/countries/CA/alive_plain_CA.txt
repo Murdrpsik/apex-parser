@@ -1,7 +1,7 @@
 #profile-title: Apex CA
 #profile-update-interval: 1
-vless://c0742f77-5495-43bf-b007-88d368774d7c@31.59.156.57:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8J-SvgA_FEZG-T-dX5sV2zqnQm4-J6aT1LK6Kk-7pho&security=reality&sid=b3da8e3ebc600de3&sni=canadizian.harcho.shop&type=tcp#🇨🇦 [BL] Сервер 1
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?type=tcp&security=tls&fp=chrome&encryption=none#🇨🇦 [BL] Сервер 2
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?type=tcp&security=tls&fp=firefox&sni=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 3
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&security=reality&sid=f98843107912e782&sni=www.cloudflare.com&type=tcp&encryption=none#🇨🇦 [BL] Сервер 4
+vless://c0742f77-5495-43bf-b007-88d368774d7c@canadizian.harcho.shop:443?security=reality&pbk=8J-SvgA_FEZG-T-dX5sV2zqnQm4-J6aT1LK6Kk-7pho&fp=firefox&spx=%2F&type=raw&flow=xtls-rprx-vision&sni=canadizian.harcho.shop&sid=b3da8e3ebc600de3&encryption=none#🇨🇦 [BL] Сервер 1
+vless://c0742f77-5495-43bf-b007-88d368774d7c@31.59.156.57:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8J-SvgA_FEZG-T-dX5sV2zqnQm4-J6aT1LK6Kk-7pho&security=reality&sid=b3da8e3ebc600de3&sni=canadizian.harcho.shop&type=tcp#🇨🇦 [BL] Сервер 2
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782&sni=www.cloudflare.com&encryption=none#🇨🇦 [BL] Сервер 3
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?type=tcp&security=tls&fp=firefox&sni=kuruish.org&encryption=none#🇨🇦 [BL] Сервер 4
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 5

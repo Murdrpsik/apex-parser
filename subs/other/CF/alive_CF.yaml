@@ -1,57 +1,798 @@
 proxies:
-  - name: "🇳🇱 [CF] Сервер 1"
+  - name: "🇫🇷 [CF] Сервер 1"
     type: vless
-    server: 45.150.37.169
+    server: 194.76.146.25
     port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro641.richhoodfoc.com"
-    client-fingerprint: "ios"
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE"
-      short-id: "b9bb317e9c9e2627"
-  - name: "🇳🇱 [CF] Сервер 2"
+    ws-opts:
+      path: "%2Fws%3Fip%3D194.76.146.25%3A443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇫🇷 [CF] Сервер 2"
     type: vless
-    server: 84.54.44.117
+    server: 178.104.70.11
     port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro642.richhoodfoc.com"
-    client-fingerprint: "ios"
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY"
-      short-id: "a7b12f3265f97f4a"
-  - name: "🇳🇱 [CF] Сервер 3"
+    ws-opts:
+      path: "/fp=firefox"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇫🇷 [CF] Сервер 3"
     type: vless
-    server: 195.2.70.47
+    server: 178.104.70.11
     port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro750.richhoodfoc.com"
+    uuid: "64726966-0000-4000-8000-740000000000"
+    network: "ws"
+    servername: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "parsa-panel-dy55x.railway1385-2a46.workers.dev"
+  - name: "🇲🇩 [CF] Сервер 4"
+    type: vless
+    server: 194.180.191.249
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    network: "ws"
+    servername: "shin-ra.ccwu.cc"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=unsafe"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇯🇵 [CF] Сервер 5"
+    type: vless
+    server: 185.220.68.226
+    port: 20205
+    uuid: "282733b7-3cd4-4fa3-b6bd-beff60052f31"
+    network: "ws"
+    servername: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 6"
+    type: vless
+    server: 194.156.26.4
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-d498006b6113"
+    network: "ws"
+    servername: "4kzs98enuqus.gametyrhewr06.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/d498006b6113"
+  - name: "🇺🇸 [CF] Сервер 7"
+    type: vless
+    server: 194.156.26.20
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-d617da6e0a54"
+    network: "ws"
+    servername: "qzzw7gegux3s.ersg587gatdd.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/d617da6e0a54"
+  - name: "🇸🇪 [CF] Сервер 8"
+    type: vless
+    server: 185.58.115.45
+    port: 443
+    uuid: "92e8d9dc-8e3b-4f81-a278-d18c6bf1b962"
+    network: "ws"
+    servername: "app-base-njw3ky.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=185.58.115.45:443"
+      headers:
+        Host: "app-base-njw3ky.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 9"
+    type: trojan
+    server: 82.27.116.181
+    port: 443
+    password: "b95ed9ae-517c-4905-b051-b8873c99a1b6"
+    sni: "jszzlanand.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "jszzlanand.pages.dev"
+  - name: "🇸🇬 [CF] Сервер 10"
+    type: vless
+    server: 46.149.66.235
+    port: 443
+    uuid: "1c0250ec-2dbc-40be-bd18-90b5e812ceaa"
+    network: "ws"
+    servername: "pg.fm6dw.dpdns.org"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "pg.fm6dw.dpdns.org"
+  - name: "🇯🇵 [CF] Сервер 11"
+    type: vless
+    server: 185.125.103.62
+    port: 8082
+    uuid: "3dbf58d7-53fc-4fad-8779-1c867e024fd0"
+    network: "ws"
+    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 12"
+    type: vless
+    server: 43.174.195.1
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    network: "ws"
+    servername: "kv.074167.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "K3h5i7Utrqm_dNIN1OFxpEwXCC0IRkSHZ8LYTlqTKXU"
-      short-id: "bfa14465e749ceba"
-  - name: "🇳🇱 [CF] Сервер 4"
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 13"
     type: vless
-    server: 138.16.191.96
-    port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro603.richhoodfoc.com"
-    client-fingerprint: "qq"
+    server: 129.153.71.28
+    port: 28863
+    uuid: "6c7c10f8-2387-4756-ab4b-64c9c6981f0e"
+    network: "ws"
+    servername: "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "uEHxXC_aaWpGm10DyrjKW5YaHplOb_lAjxSOwasTQmA"
-      short-id: "ce0bab2245640050"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
+  - name: "🇩🇪 [CF] Сервер 14"
+    type: vless
+    server: 46.101.253.244
+    port: 2083
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: "ws"
+    servername: "edge.yzkvm.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇩🇪 [CF] Сервер 15"
+    type: vless
+    server: 167.172.165.106
+    port: 2083
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: "ws"
+    servername: "edge.yzkvm.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 16"
+    type: vless
+    server: 84.22.150.39
+    port: 7443
+    uuid: "9d5cbb90-876b-448d-9874-27ab35bae6e7"
+    network: "ws"
+    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 17"
+    type: vless
+    server: 199.34.230.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 18"
+    type: vless
+    server: 109.176.239.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 19"
+    type: vless
+    server: 185.207.197.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 20"
+    type: vless
+    server: 185.207.199.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 21"
+    type: vless
+    server: 154.194.0.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 22"
+    type: vless
+    server: 185.207.198.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇺🇸 [CF] Сервер 23"
+    type: vless
+    server: 199.68.156.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇬🇧 [CF] Сервер 24"
+    type: vless
+    server: 57.128.177.198
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp58.cc.cd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 25"
+    type: vless
+    server: 46.101.46.169
+    port: 486
+    uuid: "16bf3359-e7d8-4de6-86a0-6d65cf793b56"
+    network: "ws"
+    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 26"
+    type: vless
+    server: 140.238.33.0
+    port: 33940
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 27"
+    type: vless
+    server: 155.248.181.189
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 28"
+    type: vless
+    server: 172.237.5.208
+    port: 2053
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+  - name: "🇯🇵 [CF] Сервер 29"
+    type: vless
+    server: 5.9.117.252
+    port: 4433
+    uuid: "ef286b0e-21ed-4e2b-9110-e2ddc7627892"
+    network: "ws"
+    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 30"
+    type: vless
+    server: 109.120.155.155
+    port: 444
+    uuid: "99ab6748-3d57-4562-9451-843c15960b9b"
+    network: "ws"
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 31"
+    type: vless
+    server: 37.120.222.70
+    port: 8082
+    uuid: "59c3c1c7-62d0-4707-9d67-5ff9c008591c"
+    network: "ws"
+    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 32"
+    type: vless
+    server: 203.137.165.164
+    port: 57554
+    uuid: "9c7501fb-4e23-44d8-9a9e-973807ae4f35"
+    network: "ws"
+    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 33"
+    type: vless
+    server: 64.204.49.68
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    network: "ws"
+    servername: "vp10.pages.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇳🇱 [CF] Сервер 34"
+    type: vless
+    server: 185.243.112.197
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-c1fdcffbbe65"
+    network: "ws"
+    servername: "c6zu9behu5bs.wf209v5eewrf.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/c1fdcffbbe65"
+  - name: "🇨🇭 [CF] Сервер 35"
+    type: vless
+    server: 194.154.29.245
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-442eb64cf8be"
+    network: "ws"
+    servername: "2gz7b3ebutms.ergte1098ewtg.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/442eb64cf8be"
+  - name: "🇲🇩 [CF] Сервер 36"
+    type: vless
+    server: 194.180.191.200
+    port: 443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    network: "ws"
+    servername: "v2n5.11676767.xyz"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/doujin/channels/cb"
+      headers:
+        Host: "v2n5.11676767.xyz"
+  - name: "🇯🇵 [CF] Сервер 37"
+    type: vless
+    server: 178.105.133.160
+    port: 4443
+    uuid: "fb0818b3-4031-4843-b5f7-1d75177a1758"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 38"
+    type: vless
+    server: 188.164.248.151
+    port: 2096
+    uuid: "9f534ac4-3c58-4a16-8b74-13dff09a0cf1"
+    network: "ws"
+    servername: "d39333476.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/item/m"
+      headers:
+        Host: "d39333476.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 39"
+    type: vless
+    server: 139.64.235.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇸 [CF] Сервер 40"
+    type: vless
+    server: 185.193.29.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇸 [CF] Сервер 41"
+    type: vless
+    server: 199.181.197.99
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇸🇬 [CF] Сервер 42"
+    type: vless
+    server: 43.159.41.66
+    port: 8443
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    network: "ws"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "senflarelink-node-il65vh.pages.dev"
+  - name: "🇸🇬 [CF] Сервер 43"
+    type: vless
+    server: 188.164.248.61
+    port: 443
+    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
+    network: "ws"
+    servername: "whitecreeper.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "whitecreeper.pages.dev"
+  - name: "🇺🇸 [CF] Сервер 44"
+    type: vless
+    server: 47.251.95.178
+    port: 443
+    uuid: "70756c73-0000-4000-8000-650000000000"
+    network: "ws"
+    servername: "parsa-panel-u48we.wotic15356.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/pulse"
+      headers:
+        Host: "parsa-panel-u48we.wotic15356.workers.dev"
+  - name: "🇭🇰 [CF] Сервер 45"
+    type: vless
+    server: 185.206.171.66
+    port: 8443
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    network: "ws"
+    servername: "senflarelink-node-7uv.pages.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "senflarelink-node-7uv.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 46"
+    type: vless
+    server: 80.240.18.227
+    port: 10051
+    uuid: "711b6476-63fc-4f01-b4e0-d44e17d79383"
+    network: "ws"
+    servername: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "%2F%40Marisa_kristi"
+      headers:
+        Host: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 47"
+    type: vless
+    server: 38.47.96.220
+    port: 11424
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇯🇵 [CF] Сервер 48"
+    type: vless
+    server: 45.77.241.190
+    port: 8441
+    uuid: "3011e40c-228f-4f2e-9dbf-5b256887e071"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 49"
+    type: vless
+    server: 57.129.130.57
+    port: 52014
+    uuid: "47ba5dc6-8961-48a0-8b54-f57ec524627a"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 50"
+    type: vless
+    server: 154.31.112.237
+    port: 26418
+    uuid: "ab2a5cc0-11d1-4bc4-a9d4-b5654ad18dc4"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇯🇵 [CF] Сервер 51"
+    type: vless
+    server: 77.221.154.152
+    port: 8444
+    uuid: "04c16649-bbf3-41fc-99eb-7507668221d2"
+    network: "ws"
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 52"
+    type: vless
+    server: 199.68.156.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇸 [CF] Сервер 53"
+    type: vless
+    server: 109.176.239.123
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    network: "ws"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇸🇬 [CF] Сервер 54"
+    type: vless
+    server: 85.206.161.209
+    port: 443
+    uuid: "20e565e1-3858-40bf-94e8-4ec9624fc985"
+    network: "ws"
+    servername: "wallweb8.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wallweb8.pages.dev"
+  - name: "🇦🇹 [CF] Сервер 55"
+    type: vless
+    server: 45.151.183.22
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-3071eec0f693"
+    network: "ws"
+    servername: "kaz6ivemuqus.kszt2te3u7ts.workers.dev"
+    client-fingerprint: "unsafe"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/3071eec0f693"
+      headers:
+        Host: "kaz6ivemuqus.kszt2te3u7ts.workers.dev"
+  - name: "🇫🇷 [CF] Сервер 56"
+    type: vless
+    server: 157.245.182.9
+    port: 2053
+    uuid: "50414e45-4c5f-5a45-5553-3a16f3365f2c"
+    network: "ws"
+    servername: "exzomne9uess.ssegfsgvfetgsvbherbsderhsbehwh.workers.dev"
+    client-fingerprint: "unsafe"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/3a16f3365f2c"
+      headers:
+        Host: "exzomne9uess.ssegfsgvfetgsvbherbsderhsbehwh.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 57"
+    type: vless
+    server: 45.12.28.95
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-73bbc10a8397"
+    network: "ws"
+    servername: "qlzckveeuzhs.2uzgknemu8hs.workers.dev"
+    client-fingerprint: "unsafe"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/73bbc10a8397"
+      headers:
+        Host: "qlzckveeuzhs.2uzgknemu8hs.workers.dev"
+  - name: "🇺🇸 [CF] Сервер 58"
+    type: vless
+    server: 159.60.146.82
+    port: 443
+    uuid: "e98a123b-7a6f-444d-985d-ad2c389a85ec"
+    network: "ws"
+    servername: "flow-vault-hiizyn.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/ws?ip=159.60.146.82:443"
+      headers:
+        Host: "flow-vault-hiizyn.pages.dev"
+  - name: "🇯🇵 [CF] Сервер 59"
+    type: vless
+    server: 79.137.199.52
+    port: 21
+    uuid: "f346f223-ebf6-4da3-955e-425de7e9c372"
+    network: "ws"
+    servername: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+  - name: "🇸🇬 [CF] Сервер 60"
+    type: vless
+    server: 46.250.231.61
+    port: 443
+    uuid: "0c492b73-98de-4ad2-bbe9-eb25661d17ac"
+    network: "ws"
+    servername: "byyzz.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/?proxyip=proxyip.oracle.cmliussss.net"
+      headers:
+        Host: "byyzz.pages.dev"

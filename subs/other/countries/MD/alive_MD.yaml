@@ -1,0 +1,42 @@
+proxies:
+  - name: "🇲🇩 [WL/CF] Сервер 1"
+    type: vless
+    server: 194.180.191.249
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    network: "ws"
+    servername: "shin-ra.ccwu.cc"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/fp=unsafe"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇲🇩 [WL/CF] Сервер 2"
+    type: vless
+    server: 194.180.191.200
+    port: 443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    network: "ws"
+    servername: "v2n5.11676767.xyz"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/doujin/channels/cb"
+      headers:
+        Host: "v2n5.11676767.xyz"
+  - name: "🇲🇩 [BL] Сервер 3"
+    type: vless
+    server: 85.120.252.86
+    port: 443
+    uuid: "c0742f77-5495-43bf-b007-88d368774d7c"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "molda.thewalkingded.life"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk"
+      short-id: "ff776ff77be48b88"

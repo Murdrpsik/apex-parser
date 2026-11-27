@@ -7,57 +7,37 @@ proxies:
     cipher: "aes-256-gcm"
   - name: "🇳🇱 [AI] Сервер 2"
     type: vless
-    server: 185.242.247.252
-    port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "8a2e72t.nl20.h1clayd.shop"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
-      short-id: "8d0d0679f42ffd98"
-  - name: "🇳🇱 [AI] Сервер 3"
-    type: vless
     server: 188.225.35.83
     port: 443
     uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
     network: "raw"
     flow: "xtls-rprx-vision"
     servername: "wl.tw.daugava-analytics.com"
-    client-fingerprint: "safari"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
       public-key: "YZtDA-Mz6GSlPnrhnQkSpzj8TSaGDcMjukrGI_xFg1Y"
       short-id: "d9c79602"
-  - name: "🇷🇺 [AI] Сервер 4"
+  - name: "🇫🇮 [AI] Сервер 3"
     type: vless
-    server: 84.201.130.151
+    server: edge.0000000000000.space
     port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruforeign3.richhoodfoc.com"
+    uuid: "2444df7f-4a0c-45bd-9c62-25a7ff8c4dba"
+    network: "xhttp"
+    servername: "www.helsinki.fi"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "FmH06hSx9EeWD2rSoIDxr_LT0kuspuA3CnWBAOciZhE"
-      short-id: "9dcf31a09fe98e19"
-  - name: "🇨🇿 [AI] Сервер 5"
-    type: vless
-    server: 89.125.237.87
-    port: 443
-    uuid: "b0ec5baf-98ca-4e00-900e-54b4739679db"
-    network: "grpc"
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "cAFMol_SqbGzF6IZSHdOS8taChr8dRe9n3RdxJp0QEQ"
-    grpc-opts:
-      grpc-service-name: "grpc"
+      public-key: "1eH6845f4j99IxVqVWZpgrAbrUjNtq5rES-RELPrinw"
+      short-id: "f12a9c4b7e8102d5"
+    xhttp-opts:
+      path: "/"
+      mode: "auto"
+  - name: "🇨🇦 [AI] Сервер 4"
+    type: ss
+    server: 184.107.106.77
+    port: 8388
+    password: "itzvpn@321"
+    cipher: "aes-256-gcm"

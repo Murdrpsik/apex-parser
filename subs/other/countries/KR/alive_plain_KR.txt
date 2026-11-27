@@ -1,5 +1,4 @@
 #profile-title: Apex KR
 #profile-update-interval: 1
-vless://ee0a6b97-4dc1-0010-8b16-95a42c917158@87.242.94.230:9443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=passport.yandex.ru&fp=firefox&pbk=1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4&sid=1c5869a95671bcb0&spx=%2F#🇰🇷 [WL] Сервер 1
-vless://db906786-8c49-4b17-9182-cea680ef954d@krd.80782636.xyz:443?security=tls&fp=chrome&sni=krd.80782636.xyz&type=ws&headerType=none&host=krd.80782636.xyz&path=%2Fkw7x2mq9&encryption=none#🇰🇷 [BL] Сервер 2
-vless://db906786-8c49-4b17-9182-cea680ef954d@43.164.191.170:443?encryption=none&fp=firefox&host=krd.80782636.xyz&path=%2Fkw7x2mq9&security=tls&sni=krd.80782636.xyz&type=ws#🇰🇷 [BL] Сервер 3
+vless://db906786-8c49-4b17-9182-cea680ef954d@43.164.191.170:443?encryption=none&fp=firefox&host=krd.80782636.xyz&path=%2Fkw7x2mq9&security=tls&sni=krd.80782636.xyz&type=ws#🇰🇷 [BL] Сервер 1
+ss://YWVzLTI1Ni1nY206cXBvd2lfdmlwX3R1bm5lbF8yMDI2X3NlY3VyZQ==@211.233.33.228:8388#🇰🇷 [BL] Сервер 2

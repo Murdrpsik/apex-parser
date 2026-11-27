@@ -1,6 +1,20 @@
 proxies:
   - name: "🇨🇦 [BL] Сервер 1"
     type: vless
+    server: canadizian.harcho.shop
+    port: 443
+    uuid: "c0742f77-5495-43bf-b007-88d368774d7c"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "canadizian.harcho.shop"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "8J-SvgA_FEZG-T-dX5sV2zqnQm4-J6aT1LK6Kk-7pho"
+      short-id: "b3da8e3ebc600de3"
+  - name: "🇨🇦 [BL] Сервер 2"
+    type: vless
     server: 31.59.156.57
     port: 443
     uuid: "c0742f77-5495-43bf-b007-88d368774d7c"
@@ -13,16 +27,21 @@ proxies:
     reality-opts:
       public-key: "8J-SvgA_FEZG-T-dX5sV2zqnQm4-J6aT1LK6Kk-7pho"
       short-id: "b3da8e3ebc600de3"
-  - name: "🇨🇦 [BL] Сервер 2"
+  - name: "🇨🇦 [BL] Сервер 3"
     type: vless
-    server: kuruish.org
+    server: 209.200.246.148
     port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    network: "tcp"
-    client-fingerprint: "chrome"
+    uuid: "ca52e2b6-fb9f-4dac-b6dc-49da9923f251"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇨🇦 [BL] Сервер 3"
+    reality-opts:
+      public-key: "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk"
+      short-id: "f98843107912e782"
+  - name: "🇨🇦 [BL] Сервер 4"
     type: vless
     server: 66.163.113.9
     port: 443
@@ -32,20 +51,6 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
     tls: true
-  - name: "🇨🇦 [BL] Сервер 4"
-    type: vless
-    server: 209.200.246.148
-    port: 443
-    uuid: "ca52e2b6-fb9f-4dac-b6dc-49da9923f251"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk"
-      short-id: "f98843107912e782"
   - name: "🇨🇦 [BL] Сервер 5"
     type: ss
     server: 149.22.95.183

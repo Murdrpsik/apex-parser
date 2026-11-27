@@ -1,6 +1,36 @@
 proxies:
   - name: "🇱🇹 [BL] Сервер 1"
     type: vless
+    server: 85.209.231.232
+    port: 2083
+    uuid: "a55c7536-980a-4d82-abd0-f14909f2489e"
+    network: "xhttp"
+    servername: "cdndownloadlink.song69.fun"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "qRf5mE2QZ92-jCXpUSMcucyrOW0i4cw0ZMv3uNRIfhI"
+    xhttp-opts:
+      path: "/content/v2/static"
+      host: "cdndownloadlink.song69.fun"
+      mode: "auto"
+  - name: "🇱🇹 [BL] Сервер 2"
+    type: vless
+    server: 84.32.151.224
+    port: 14443
+    uuid: "7af8c5d0-ede6-40ab-9b9e-d7924f79d109"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "pixelated-cloud.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pHwqayxRtrx5S3Q502W5i977c6MgmptMutfYM9wLh3o"
+      short-id: "64319a0f66794f56"
+  - name: "🇱🇹 [BL] Сервер 3"
+    type: vless
     server: 88.119.176.64
     port: 443
     uuid: "c0742f77-5495-43bf-b007-88d368774d7c"
@@ -13,3 +43,17 @@ proxies:
     reality-opts:
       public-key: "I_-Mb_q3_4-ZdzrzB6SKh-Zla1kKI4M_0OMjWDYXVxg"
       short-id: "13d8fbd7fd9e1ce8"
+  - name: "🇱🇹 [BL] Сервер 4"
+    type: vless
+    server: 70033cc8.con.rasterparcel.tech
+    port: 443
+    uuid: "b3d99426-0dd3-495a-aad7-a2885a0804b6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "70033cc8.con.rasterparcel.tech"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PAqGM0sKOwWkHhhI8UKztzThI1V7o994ZwD6V8qYd0s"
+      short-id: "5823fa569cc01687"
