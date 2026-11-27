@@ -1,105 +1,19 @@
 proxies:
-  - name: "🇬🇧 [WL] Сервер 1"
+  - name: "🇬🇧 [BL] Сервер 1"
     type: vless
-    server: 213.176.92.168
-    port: 10444
-    uuid: "ba52cc43-700d-4040-9444-29214c98e6e0"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "video.yandex.ru"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 2"
-    type: vless
-    server: 138.124.125.193
-    port: 10444
-    uuid: "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ads.x5.ru"
-    client-fingerprint: "random"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇬🇧 [BL] Сервер 3"
-    type: vless
-    server: 187.7.205.47
+    server: 188.72.112.1
     port: 443
-    uuid: "a55c7536-980a-4d82-abd0-f14909f2489e"
+    uuid: "d32e1a92-dd3b-4ac0-a78d-5d6a6032c425"
     network: "xhttp"
-    servername: "static-uk.song69.fun"
-    client-fingerprint: "chrome"
+    servername: "uk-cdn.insidenet.ru"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "yhMfSjVFqXJGarYnXw8pTZWcvfqFcc-MwxoCfRPqZwg"
     xhttp-opts:
-      path: "/api/v2/assets"
-      host: "static-uk.song69.fun"
-      mode: "auto"
-  - name: "🇬🇧 [BL] Сервер 4"
-    type: vless
-    server: 144.31.249.159
-    port: 443
-    uuid: "7c768ae5-33eb-4460-b901-cffa40948c5f"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "flsh.luna-nodes.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4zpFl-kdSaBlWcL9tqunp9gQQRwNrpeua_OFx3oD7WI"
-      short-id: "98383c4e8a3f1b74"
-  - name: "🇬🇧 [BL] Сервер 5"
-    type: vless
-    server: 153.56.231.174
-    port: 443
-    uuid: "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df"
-    network: "grpc"
-    servername: "468bc3g.fi16.h1clayd.click"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ITvHZlJwSY3tsZEN3uTmOGj5hUWk-uazUBh7ZGBy33o"
-      short-id: "d50d9c31ff34ebc7"
-    grpc-opts:
-      grpc-service-name: "973a13acd723"
-  - name: "🇬🇧 [BL] Сервер 6"
-    type: vless
-    server: f0f0bet.fi16.h1clayd.click
-    port: 443
-    uuid: "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df"
-    network: "raw"
-    servername: "f0f0bet.fi16.h1clayd.click"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "GR2jS6u-CicgvYj-mnyfVpbYzkXw-WiXHr6hhqmir38"
-      short-id: "795c3f4f29745c96"
-  - name: "🇬🇧 [BL] Сервер 7"
-    type: vless
-    server: 48.102.240.1
-    port: 443
-    uuid: "61c9aca3-c23b-4410-a85d-85fda46a76cc"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "brutak.kramiliantha.sbs"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Bp9vEczvQrw_il1G29wH2eolQ2gM-2SwRK5ceMRLf2I"
-      short-id: "51ed343f9bbbbbd5"
-  - name: "🇬🇧 [BL] Сервер 8"
+      path: "/api/v3/feed/"
+      host: "uk-cdn.insidenet.ru"
+      mode: "packet-up"
+  - name: "🇬🇧 [BL] Сервер 2"
     type: vless
     server: 46.250.240.80
     port: 2053
@@ -112,23 +26,21 @@ proxies:
     reality-opts:
       public-key: "nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE"
       short-id: "3611e663b53177f2"
-  - name: "🇬🇧 [BL] Сервер 9"
+  - name: "🇬🇧 [BL] Сервер 3"
     type: vless
-    server: 48.102.50.103
-    port: 2053
-    uuid: "7c768ae5-33eb-4460-b901-cffa40948c5f"
-    network: "xhttp"
-    servername: "desh.luna-nodes.com"
+    server: 83.147.18.3
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "TwDdO2xkx8wIhnvwLot00PNqOfzLSMiqhpOD7sQBsgs"
-      short-id: "f0f2666ef9962385"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇬🇧 [BL] Сервер 10"
+      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
+      short-id: "fd8cf7e1173f0edb"
+  - name: "🇬🇧 [BL] Сервер 4"
     type: vless
     server: 136.176.68.34
     port: 443
@@ -142,7 +54,7 @@ proxies:
     reality-opts:
       public-key: "Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo"
       short-id: "a6040129ad7f4b74"
-  - name: "🇬🇧 [BL] Сервер 11"
+  - name: "🇬🇧 [BL] Сервер 5"
     type: vless
     server: 51.89.194.151
     port: 2053
@@ -155,35 +67,21 @@ proxies:
     reality-opts:
       public-key: "OZR8SI6JUFl7nNcJHJb9gMFs_l9so3FRoYVHGNE9MFA"
       short-id: "c36042c276917a43"
-  - name: "🇬🇧 [BL] Сервер 12"
+  - name: "🇬🇧 [BL] Сервер 6"
     type: vless
-    server: 158.220.95.242
+    server: 48.102.240.1
     port: 443
-    uuid: "5980f1e1-970c-43b9-b3e8-a8ddd70ceadc"
+    uuid: "61c9aca3-c23b-4410-a85d-85fda46a76cc"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.samsung.com"
-    client-fingerprint: "chrome"
+    servername: "brutak.kramiliantha.sbs"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PCm0k-SvNd00cgNuqqnbCzmwVZd5vkgX2ZLk2_qngRs"
-      short-id: "b60a93"
-  - name: "🇬🇧 [BL] Сервер 13"
-    type: vless
-    server: 94.183.234.245
-    port: 443
-    uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "www.bing.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
-      short-id: "7f1e29593aa94ad1"
-  - name: "🇬🇧 [BL] Сервер 14"
+      public-key: "Bp9vEczvQrw_il1G29wH2eolQ2gM-2SwRK5ceMRLf2I"
+      short-id: "51ed343f9bbbbbd5"
+  - name: "🇬🇧 [BL] Сервер 7"
     type: vless
     server: 91.184.240.90
     port: 2066
@@ -197,33 +95,41 @@ proxies:
     reality-opts:
       public-key: "iVrklPFWx_2-ScfkgDOJ-02mrSqzPYqSoN8nQri1DD0"
       short-id: "1b2a3f"
-  - name: "🇬🇧 [BL] Сервер 15"
+  - name: "🇬🇧 [BL/AI] Сервер 8"
+    type: vless
+    server: 143.246.219.3
+    port: 8444
+    uuid: "240cb330-efc6-4d06-b5de-eb5fa8c7cc47"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.bt.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kIT3aVeRCeqX48gmfHV8t-VTT8KE_O8g0-nZm_RH4EY"
+      short-id: "ae8011590fe847fa"
+  - name: "🇬🇧 [BL] Сервер 10"
     type: ss
     server: 94.156.250.148
     port: 7001
     password: "RexnBgU7EV5ADxG"
     cipher: "aes-256-gcm"
-  - name: "🇬🇧 [BL] Сервер 16"
+  - name: "🇬🇧 [BL] Сервер 11"
     type: ss
-    server: 141.98.101.178
+    server: 141.98.101.182
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 17"
-    type: ss
-    server: 141.98.101.181
-    port: 443
-    password: "shadowsocks"
-    cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 18"
+  - name: "🇬🇧 [BL] Сервер 12"
     type: ss
     server: 141.98.101.179
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"
-  - name: "🇬🇧 [BL] Сервер 19"
+  - name: "🇬🇧 [BL] Сервер 13"
     type: ss
-    server: 141.98.101.182
+    server: 141.98.101.181
     port: 443
     password: "shadowsocks"
     cipher: "aes-128-gcm"

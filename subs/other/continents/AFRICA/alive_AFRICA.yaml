@@ -1,38 +1,7 @@
 proxies:
-  - name: "🇸🇨 [BL] Сервер 1"
-    type: vless
-    server: 196.240.4.12
-    port: 443
-    uuid: "8bc3af32-c6bb-4a57-8da1-9a662fd79e3c"
-    network: "xhttp"
-    servername: "8bc3af32.ferrin.uk"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/lv"
-      mode: "stream-one"
-  - name: "🇸🇨 [BL] Сервер 2"
-    type: vless
-    server: 196.240.5.12
-    port: 443
-    uuid: "8bc3af32-c6bb-4a57-8da1-9a662fd79e3c"
-    network: "xhttp"
-    servername: "8bc3af32.ferrin.uk"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/lv"
-  - name: "🇿🇦 [BL] Сервер 3"
+  - name: "🇿🇦 [BL] Сервер 1"
     type: ss
-    server: 102.133.165.160
-    port: 16233
-    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
-    cipher: "chacha20-ietf-poly1305"
-  - name: "🇿🇦 [BL] Сервер 4"
-    type: ss
-    server: 102.37.156.224
+    server: 102.37.111.8
     port: 443
-    password: "aduB9HGxQHjA2SBMRjkHX6"
+    password: "NqhvI3CfwbpcHA1H"
     cipher: "chacha20-ietf-poly1305"

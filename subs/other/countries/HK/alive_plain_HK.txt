@@ -1,7 +1,5 @@
 #profile-title: Apex HK
 #profile-update-interval: 1
 vless://12a4f736-2238-49ee-831f-5516f15cc951@2.26.204.46:31001?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY&sid=39793bc4708abbbb&sni=mensura.cdn-apple.com&encryption=none#🇭🇰 [BL] Сервер 1
-vless://4fc9dc3d-0d57-49e7-9bc0-e323165241bf@8.210.92.38:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=vhu6gifBQ8-hRzW1gqKFkEXDlQbf6Ex8kKj1FcxhmzA&sid=d78318845237d9a9&sni=www.ebay.com&encryption=none#🇭🇰 [BL] Сервер 2
-vless://8b17beac-b143-447d-aa68-14cbb121a602@8.217.1.203:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38&sid=0bf55f64&sni=www.apple.com&encryption=none#🇭🇰 [BL] Сервер 3
-vless://11a2709f-a1aa-4b97-9212-4d5cb0c83e53@38.207.178.28:20086?security=reality&encryption=none&pbk=fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.paypal.com#🇭🇰 [BL] Сервер 4
-vless://3bfaf855-a05a-482a-93d3-d66388c5506c@204.115.18.142:443?flow=xtls-rprx-vision&fp=firefox&pbk=l2LZUHHMVVbZwaIhBlMr-Vdpfo7I6_oFyOQdgZywOjI&security=reality&sid=2fa9b0474b689aff&sni=hk01.static-s3.org&type=raw&encryption=none#🇭🇰 [BL] Сервер 5
+vless://8b17beac-b143-447d-aa68-14cbb121a602@8.217.1.203:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38&sid=0bf55f64&sni=www.apple.com&encryption=none#🇭🇰 [BL] Сервер 2
+vless://11a2709f-a1aa-4b97-9212-4d5cb0c83e53@38.207.178.28:20086?security=reality&encryption=none&pbk=fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.paypal.com#🇭🇰 [BL] Сервер 3

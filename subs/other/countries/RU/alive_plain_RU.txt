@@ -1,15 +1,10 @@
 #profile-title: Apex RU
 #profile-update-interval: 1
-vless://37af0181-5598-4aad-a040-d926bcb65757@185.22.234.129:443?alpn=http%2F1.1&encryption=none&fp=chrome&host=smartcdn.top&path=%2Fuseraction%2Fcollect%2F8a64b355ef0c%2F&security=tls&sni=smartcdn.top&type=ws#🇷🇺 [WL] Сервер 1
-vless://f4b08bf1-d9bd-4755-aa88-ba922282c608@84.201.130.151:443?flow=xtls-rprx-vision&fp=firefox&pbk=FmH06hSx9EeWD2rSoIDxr_LT0kuspuA3CnWBAOciZhE&security=reality&sid=9dcf31a09fe98e19&sni=ruforeign3.richhoodfoc.com&type=raw&encryption=none#🇷🇺 [WL] Сервер 2
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 3
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.24.116.192:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 4
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.51.12.98:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 5
-ss://YWVzLTI1Ni1nY206NW1LalhBR3JsaUlBbFl3V0RlRnprQ0VNSWdRZEZRTGU=@194.87.69.12:18443#🇷🇺 [WL] Сервер 6
-vless://00000000-0000-0001-0000-000000000000@213.171.25.82:443?security=tls&fp=firefox&sni=ocxjrdsfwziqcqmhkg.fcloudservices.site&encryption=none&type=tcp#🇷🇺 [WL] Сервер 7
-vless://00000000-0000-0001-0000-000000000000@136.148.83.70:443?encryption=none&security=tls&sni=aszbk-ru-78dc.my-fade.cloud&fp=qq&type=tcp&headerType=none#🇷🇺 [WL] Сервер 8
-vless://00000000-0000-0001-0000-000000000000@136.148.83.71:443?encryption=none&security=tls&type=tcp&sni=wccfu-ru-79dc.my-fade.cloud#🇷🇺 [WL] Сервер 9
-vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@164.37.224.51:443?type=tcp&security=reality&encryption=none&sni=5d0319t.nl7.h1clayd.click&fp=firefox&pbk=l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs&sid=361d0dd59c70516f#🇷🇺 [WL] Сервер 10
-vless://00000000-0000-0001-0000-000000000000@176.114.83.142:443?type=tcp&security=tls&fp=firefox&sni=ybihyeyqnhgremzvnh.fcloudservices.site&encryption=none#🇷🇺 [WL] Сервер 11
-vless://00000000-0000-0001-0000-000000000000@212.41.28.104:443?type=tcp&security=tls&fp=firefox&sni=akzvjfpucditncujua.fcloudservices.site&encryption=none#🇷🇺 [WL] Сервер 12
-vless://00000000-0000-0001-0000-000000000000@176.114.83.141:443?security=tls&fp=firefox&sni=eqyasgqsnwsxtksuon.fcloudservices.site&encryption=none&type=tcp#🇷🇺 [WL] Сервер 13
+vless://f4b08bf1-d9bd-4755-aa88-ba922282c608@84.201.130.151:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=FmH06hSx9EeWD2rSoIDxr_LT0kuspuA3CnWBAOciZhE&security=reality&sid=9dcf31a09fe98e19&sni=ruforeign3.richhoodfoc.com&type=raw#🇷🇺 [WL] Сервер 1
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 2
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.24.116.192:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 3
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.51.12.98:443?security=tls&serviceName=mobile.api.Event&sni=vps3.nemnogogo.com&type=grpc&fp=ios&encryption=none#🇷🇺 [WL] Сервер 4
+vless://00000000-0000-0001-0000-000000000000@136.148.83.71:443?encryption=none&security=tls&type=tcp&sni=wccfu-ru-79dc.my-fade.cloud#🇷🇺 [WL] Сервер 5
+vless://00000000-0000-0001-0000-000000000000@176.114.83.142:443?security=tls&fp=firefox&sni=ybihyeyqnhgremzvnh.fcloudservices.site&encryption=none&type=tcp#🇷🇺 [WL] Сервер 6
+vless://318d9cc0-248f-4f44-b79a-1ba4fda95c08@185.231.204.70:443?flow=xtls-rprx-vision&security=reality&sni=www.aegon.com&fp=firefox&pbk=esH80_84Bccc0dulU0nNn5nDlkkRUt9xy7U5op-Gdhc&sid=cf71aa27e0f1b941&encryption=none&type=tcp#🇷🇺 [WL/AI] Сервер 7
+vless://ef02c262-77a0-429f-8b8f-9eb6ad18f8c0@176.57.215.54:37508/?type=grpc&encryption=none&sni=www.oracle.com&fp=chrome&security=reality&pbk=_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8&sid=d3#🇷🇺 [WL/AI] Сервер 8

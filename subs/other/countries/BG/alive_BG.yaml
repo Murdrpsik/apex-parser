@@ -18,7 +18,7 @@ proxies:
     server: 131.123.42.66
     port: 8447
     uuid: "240cb330-efc6-4d06-b5de-eb5fa8c7cc47"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
     servername: "www.cooolbox.bg"
     client-fingerprint: "firefox"

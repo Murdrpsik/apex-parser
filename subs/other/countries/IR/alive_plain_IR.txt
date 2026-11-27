@@ -1,3 +1,0 @@
-#profile-title: Apex IR
-#profile-update-interval: 1
-vless://639b131f-d0f3-460c-aa17-423047f8a5df@31.59.157.25:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo&security=reality&sni=obger5.mcufa.pro&type=tcp#🇮🇷 [BL] Сервер 1

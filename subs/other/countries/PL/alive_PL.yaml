@@ -13,35 +13,21 @@ proxies:
     reality-opts:
       public-key: "lCCvbwGOEkx6IuK3eFd4RtmBi6UInWoMyt0QtfsOjwk"
       short-id: "99fe1ec015fde70c"
-  - name: "🇵🇱 [WL] Сервер 2"
+  - name: "🇵🇱 [BL] Сервер 2"
     type: vless
-    server: 87.242.102.222
+    server: 201.58.178.236
     port: 443
-    uuid: "bfce4086-02f9-4006-b579-472210753a63"
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "pl.happofficial.store"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw"
-      short-id: "b7d7a3622d85f30a"
-  - name: "🇵🇱 [WL] Сервер 3"
-    type: vless
-    server: 188.225.56.100
-    port: 443
-    uuid: "b432a23a-acff-425c-bf69-70480cd6ed09"
-    network: "ws"
-    servername: "e2.cdnwh.icu"
+    servername: "lesson1.schoolpizorbz.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
-    ws-opts:
-      path: "/stream/segment/3078a41dd7eb/"
-      headers:
-        Host: "e2.cdnwh.icu"
-  - name: "🇵🇱 [BL] Сервер 4"
+    reality-opts:
+      public-key: "AdOl7XVxVk4Yb_tBxjrG-FP5elV_V2MeI_6WVC4H41s"
+      short-id: "d14566fcec627162"
+  - name: "🇵🇱 [BL] Сервер 3"
     type: vless
     server: 72.56.249.32
     port: 443
@@ -54,20 +40,37 @@ proxies:
     xhttp-opts:
       path: "/api/v2/stream"
       mode: "auto"
-  - name: "🇵🇱 [BL] Сервер 5"
+  - name: "🇵🇱 [BL] Сервер 4"
     type: vless
-    server: 144.31.241.8
-    port: 443
-    uuid: "b3d99426-0dd3-495a-aad7-a2885a0804b6"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "4c432cdb.rasterparcel.tech"
+    server: 77.83.246.186
+    port: 8443
+    uuid: "b58564f3-bcc4-4af9-8a47-7ad8039cba93"
+    network: "xhttp"
+    servername: "www.wp.pl"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PAqGM0sKOwWkHhhI8UKztzThI1V7o994ZwD6V8qYd0s"
-      short-id: "5823fa569cc01687"
+      public-key: "YAxh7v14w1gRRXzZvTc-T3ESfrWLVOWgsCtEmKOL4x0"
+      short-id: "764410aa"
+    xhttp-opts:
+      path: "/api/v6/media/cd1303c9/"
+      host: "www.wp.pl"
+      mode: "auto"
+  - name: "🇵🇱 [BL] Сервер 5"
+    type: vless
+    server: 48.102.174.147
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson15.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "Wpmzv6fsZD7Lgbxtad3Of-XEl6T2qnjq_GDLCh6eOAg"
+      short-id: "4e1a1a1c3d18869e"
   - name: "🇵🇱 [BL] Сервер 6"
     type: vless
     server: 82.118.22.161
@@ -84,54 +87,71 @@ proxies:
       short-id: "fa3ea655619a3e78"
   - name: "🇵🇱 [BL] Сервер 7"
     type: vless
-    server: 177.3.252.114
+    server: lesson4.schoolpizorbz.xyz
     port: 443
-    uuid: "639b131f-d0f3-460c-aa17-423047f8a5df"
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "poland.mcufa.pro"
-    client-fingerprint: "chrome"
+    servername: "lesson4.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
+      public-key: "EUuZAVtneL8O7MgjETmHvOyInaxqJu2RD6hiFQdDPwk"
+      short-id: "0df067145606c0b0"
   - name: "🇵🇱 [BL] Сервер 8"
     type: vless
-    server: 45.194.66.177
+    server: 201.58.178.197
     port: 443
-    uuid: "352a250d-080b-47b5-b7db-f9f8fa31c551"
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "31tawwo0.virtual-network.lol"
+    servername: "lesson4.schoolpizorbz.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "EUuZAVtneL8O7MgjETmHvOyInaxqJu2RD6hiFQdDPwk"
+      short-id: "0df067145606c0b0"
   - name: "🇵🇱 [BL] Сервер 9"
     type: vless
-    server: 31.59.211.85
-    port: 2083
-    uuid: "a55c7536-980a-4d82-abd0-f14909f2489e"
-    network: "xhttp"
-    servername: "pl1.song69.fun"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "QCFLGq4pXBNEQiCNVy5HN6IFTswY7qRmwuNetLZRZVg"
-    xhttp-opts:
-      path: "/api/media/v1"
-      host: "pl1.song69.fun"
-      mode: "auto"
-  - name: "🇵🇱 [BL] Сервер 10"
-    type: vless
-    server: 81.90.17.116
-    port: 777
-    uuid: "3716f057-f2d3-4924-8998-7a5729af7304"
-    network: "grpc"
-    servername: "it.nvidia.com"
+    server: 201.58.190.223
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson7.schoolpizorbz.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "gZOtLZfYWKRYVhsOy4Ks9-mxZRxRyQ3BTpSUOsKafyU"
-      short-id: "8a0cce76"
+      public-key: "GOhYUjECeb39wHy3zMCWD60tuP2cV3cbONurnmo5TQE"
+      short-id: "2e3656d5425ca623"
+  - name: "🇵🇱 [BL] Сервер 10"
+    type: vless
+    server: 177.202.76.30
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson14.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "G465rpA3czwxSTrjkcl0KK6HohO5G8do2MxjcRbULSA"
+      short-id: "d52f9a703c9bf2d9"
+  - name: "🇵🇱 [BL] Сервер 11"
+    type: vless
+    server: 201.58.178.207
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson2.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "S8sWDQftwzUiNredawkRmbDxar70w2uX3y1EJISvQBo"
+      short-id: "fd417540c0fab072"

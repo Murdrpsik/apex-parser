@@ -1,34 +1,6 @@
 proxies:
   - name: "🇰🇷 [BL] Сервер 1"
     type: vless
-    server: 34.84.103.229
-    port: 43118
-    uuid: "5807f1c4-b50e-4ec0-8d01-274045da0da5"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "v1-dy.ixigua.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "p0crO-ZNRjb07T_GGy9JdkXTjei3-D9f6s2ZzCo2gx8"
-      short-id: "1a70fe8d4b05"
-  - name: "🇰🇷 [BL/CF] Сервер 2"
-    type: vless
-    server: 131.186.22.95
-    port: 8443
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
-    network: "ws"
-    servername: "senflarelink-node-il65vh.pages.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/flow="
-      headers:
-        Host: "senflarelink-node-il65vh.pages.dev"
-  - name: "🇰🇷 [BL] Сервер 3"
-    type: vless
     server: 43.164.191.170
     port: 443
     uuid: "db906786-8c49-4b17-9182-cea680ef954d"
@@ -41,3 +13,13 @@ proxies:
       path: "/kw7x2mq9"
       headers:
         Host: "krd.80782636.xyz"
+  - name: "🇰🇷 [BL] Сервер 2"
+    type: vmess
+    server: 132.145.80.230
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    cipher: "auto"
+    alterId: 0
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"

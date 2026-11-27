@@ -1,0 +1,18 @@
+proxies:
+  - name: "🇨🇭 [BL] Сервер 1"
+    type: vless
+    server: 45.95.232.43
+    port: 8443
+    uuid: "b58564f3-bcc4-4af9-8a47-7ad8039cba93"
+    network: "xhttp"
+    servername: "www.srf.ch"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "oAZz0nHXQ5c8W6KzRh5DaCk-iRrrJIumOg9RjIMUfA0"
+      short-id: "83cac5a9"
+    xhttp-opts:
+      path: "/api/v6/media/3f26470e/"
+      host: "www.srf.ch"
+      mode: "auto"

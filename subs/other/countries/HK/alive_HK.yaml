@@ -15,20 +15,6 @@ proxies:
       short-id: "39793bc4708abbbb"
   - name: "🇭🇰 [BL] Сервер 2"
     type: vless
-    server: 8.210.92.38
-    port: 443
-    uuid: "4fc9dc3d-0d57-49e7-9bc0-e323165241bf"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.ebay.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "vhu6gifBQ8-hRzW1gqKFkEXDlQbf6Ex8kKj1FcxhmzA"
-      short-id: "d78318845237d9a9"
-  - name: "🇭🇰 [BL] Сервер 3"
-    type: vless
     server: 8.217.1.203
     port: 8443
     uuid: "8b17beac-b143-447d-aa68-14cbb121a602"
@@ -41,7 +27,7 @@ proxies:
     reality-opts:
       public-key: "74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38"
       short-id: "0bf55f64"
-  - name: "🇭🇰 [BL] Сервер 4"
+  - name: "🇭🇰 [BL] Сервер 3"
     type: vless
     server: 38.207.178.28
     port: 20086
@@ -54,17 +40,3 @@ proxies:
     tls: true
     reality-opts:
       public-key: "fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04"
-  - name: "🇭🇰 [BL] Сервер 5"
-    type: vless
-    server: 204.115.18.142
-    port: 443
-    uuid: "3bfaf855-a05a-482a-93d3-d66388c5506c"
-    network: "raw"
-    flow: "xtls-rprx-vision"
-    servername: "hk01.static-s3.org"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "l2LZUHHMVVbZwaIhBlMr-Vdpfo7I6_oFyOQdgZywOjI"
-      short-id: "2fa9b0474b689aff"

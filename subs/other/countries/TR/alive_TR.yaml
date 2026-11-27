@@ -1,11 +1,12 @@
 proxies:
   - name: "🇹🇷 [BL] Сервер 1"
     type: vless
-    server: turkey-ip1.mmdaqaorg.xyz
-    port: 50738
-    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    server: 185.231.111.235
+    port: 443
+    uuid: "ba43a391-b294-4657-8e97-8f59feb4c6ed"
     network: "tcp"
-    servername: "turkey-ip1.mmdaqaorg.xyz"
-    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+    servername: "flooraccount.net"
+    client-fingerprint: "firefox"
     udp: true
     tls: true

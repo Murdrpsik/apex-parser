@@ -1,0 +1,3 @@
+#profile-title: Apex CH
+#profile-update-interval: 1
+vless://b58564f3-bcc4-4af9-8a47-7ad8039cba93@45.95.232.43:8443?encryption=none&type=xhttp&security=reality&sni=www.srf.ch&fp=firefox&pbk=oAZz0nHXQ5c8W6KzRh5DaCk-iRrrJIumOg9RjIMUfA0&sid=83cac5a9&spx=%2F&path=%2Fapi%2Fv6%2Fmedia%2F3f26470e%2F&host=www.srf.ch&mode=auto#🇨🇭 [BL] Сервер 1
