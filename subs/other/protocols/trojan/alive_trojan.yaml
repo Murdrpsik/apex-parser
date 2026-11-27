@@ -199,7 +199,6 @@ proxies:
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     sni: "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-    client-fingerprint: "chrome"
     udp: true
   - name: "🇺🇸 [WL] Сервер 27"
     type: trojan
@@ -209,15 +208,3 @@ proxies:
     sni: "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
     client-fingerprint: "firefox"
     udp: true
-  - name: "🇺🇸 [WL/CF] Сервер 28"
-    type: trojan
-    server: 82.27.116.181
-    port: 443
-    password: "b95ed9ae-517c-4905-b051-b8873c99a1b6"
-    sni: "jszzlanand.pages.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "jszzlanand.pages.dev"

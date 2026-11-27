@@ -1,5 +1,4 @@
 #profile-title: Apex MD
 #profile-update-interval: 1
-vless://817b61c8-9bf0-4365-8a52-e43dfad274a6@194.180.191.249:443?host=shin-ra.ccwu.cc&path=%2Ffp%3Dunsafe&security=tls&sni=shin-ra.ccwu.cc&type=ws&encryption=none#🇲🇩 [WL/CF] Сервер 1
-vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@194.180.191.200:443?encryption=none&security=tls&sni=v2n5.11676767.xyz&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=v2n5.11676767.xyz&path=%2Fdoujin%2Fchannels%2Fcb#🇲🇩 [WL/CF] Сервер 2
-vless://c0742f77-5495-43bf-b007-88d368774d7c@85.120.252.86:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=molda.thewalkingded.life&fp=firefox&security=reality&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88#🇲🇩 [BL] Сервер 3
+vless://81f705b5-9039-4adf-8671-783095bba0e8@193.84.71.76:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&security=reality&sid=ae64c9b46bff174a&sni=md3.sky-vault.top&type=tcp#🇲🇩 [BL] Сервер 1
+vless://9f97497b-d882-4187-b33f-16d2b3e3789c@5.181.156.92:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=G_fY9pA9N6QmXPUMVPjnxzAqvpyvVRqbPZwOaC7iin0&security=reality&sid=aace430d&sni=it.nvidia.com&type=tcp#🇲🇩 [BL] Сервер 2

@@ -1,0 +1,14 @@
+proxies:
+  - name: "🇮🇷 [BL] Сервер 1"
+    type: vless
+    server: 31.59.157.25
+    port: 443
+    uuid: "639b131f-d0f3-460c-aa17-423047f8a5df"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "obger5.mcufa.pro"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"

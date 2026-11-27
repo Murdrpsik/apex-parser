@@ -1,19 +1,5 @@
 proxies:
-  - name: "🇦🇹 [WL] Сервер 1"
-    type: vless
-    server: 189.74.115.7
-    port: 443
-    uuid: "ac01dcf5-a26d-46b1-9514-0ab4088ca813"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "api.mediaroshcha.cc"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs"
-      short-id: "a8"
-  - name: "🇦🇹 [BL] Сервер 2"
+  - name: "🇦🇹 [BL] Сервер 1"
     type: vless
     server: 189.74.115.7
     port: 443
@@ -27,36 +13,36 @@ proxies:
     reality-opts:
       public-key: "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs"
       short-id: "a8"
-  - name: "🇦🇹 [BL] Сервер 3"
-    type: vless
-    server: 144.31.129.67
-    port: 443
-    uuid: "7af8c5d0-ede6-40ab-9b9e-d7924f79d109"
-    network: "grpc"
-    servername: "coinjoin-video-stri.ru"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "aIxjIWyXHiV-aidKKODGmQva0yUPJzQ0Jzp4lg_urQY"
-      short-id: "d9662905"
-    grpc-opts:
-      grpc-service-name: "nexusGrpc"
-  - name: "🇦🇹 [BL/CF] Сервер 4"
+  - name: "🇦🇹 [BL/CF] Сервер 2"
     type: vless
     server: 45.151.183.22
     port: 443
-    uuid: "50414e45-4c5f-5a45-5553-3071eec0f693"
+    uuid: "50414e45-4c5f-5a45-5553-eefd05ea62b0"
     network: "ws"
-    servername: "kaz6ivemuqus.kszt2te3u7ts.workers.dev"
+    servername: "etzgote4ubxs.ulzzygequ8es.workers.dev"
     client-fingerprint: "unsafe"
     udp: true
     tls: true
     ws-opts:
-      path: "/stream/PANEL_ZEUS/3071eec0f693"
+      path: "/stream/PANEL_ZEUS/eefd05ea62b0"
       headers:
-        Host: "kaz6ivemuqus.kszt2te3u7ts.workers.dev"
-  - name: "🇦🇹 [BL] Сервер 5"
+        Host: "etzgote4ubxs.ulzzygequ8es.workers.dev"
+  - name: "🇦🇹 [BL] Сервер 3"
+    type: vless
+    server: 95.163.153.141
+    port: 8443
+    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
+    network: "xhttp"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
+      short-id: "c9ea2355ddeab39b"
+    xhttp-opts:
+      path: "/"
+  - name: "🇦🇹 [BL] Сервер 4"
     type: vless
     server: 66.90.106.210
     port: 443

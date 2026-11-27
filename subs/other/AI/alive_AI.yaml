@@ -19,25 +19,17 @@ proxies:
     reality-opts:
       public-key: "YZtDA-Mz6GSlPnrhnQkSpzj8TSaGDcMjukrGI_xFg1Y"
       short-id: "d9c79602"
-  - name: "🇫🇮 [AI] Сервер 3"
+  - name: "🇩🇪 [AI] Сервер 3"
     type: vless
-    server: edge.0000000000000.space
-    port: 443
-    uuid: "2444df7f-4a0c-45bd-9c62-25a7ff8c4dba"
-    network: "xhttp"
-    servername: "www.helsinki.fi"
+    server: 135.126.21.141
+    port: 47443
+    uuid: "976f82d9-0e6b-40ed-9c09-cafd06c4bc98"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "tg.mech-pro.online"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "1eH6845f4j99IxVqVWZpgrAbrUjNtq5rES-RELPrinw"
-      short-id: "f12a9c4b7e8102d5"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇨🇦 [AI] Сервер 4"
-    type: ss
-    server: 184.107.106.77
-    port: 8388
-    password: "itzvpn@321"
-    cipher: "aes-256-gcm"
+      public-key: "2-l612CTVIhib8m5qtGe1cFB1r9ob8K9ZONMKxy6vn8"
+      short-id: "73c41be2"

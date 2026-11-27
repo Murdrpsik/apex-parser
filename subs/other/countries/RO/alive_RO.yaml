@@ -1,18 +1,20 @@
 proxies:
   - name: "🇷🇴 [BL] Сервер 1"
     type: vless
-    server: 138.16.248.80
+    server: 193.168.140.228
     port: 443
-    uuid: "59db3b91-48e2-405f-a9a1-7ef11c957104"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sisipisi.yandex-api.com"
+    uuid: "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1"
+    network: "xhttp"
+    servername: "www.vodafone.ro"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ"
-      short-id: "a9dc98a7dc87a7dc"
+      public-key: "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+    xhttp-opts:
+      path: "/"
+      host: "www.vodafone.ro"
+      mode: "auto"
   - name: "🇷🇴 [BL] Сервер 2"
     type: vless
     server: 46.28.67.55

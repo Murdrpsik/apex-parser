@@ -1,16 +1,27 @@
 proxies:
   - name: "🇦🇱 [BL] Сервер 1"
     type: vless
-    server: 200.96.109.197
-    port: 14443
-    uuid: "7af8c5d0-ede6-40ab-9b9e-d7924f79d109"
-    network: "grpc"
-    servername: "kiwi-logistic.ru"
-    client-fingerprint: "firefox"
+    server: 83.228.240.71
+    port: 443
+    uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
+    network: "ws"
+    servername: "nl.lucheeebezlimitnoekino.stream"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "DFBCTsJbKYbaZGWGi_bKgIjrkoUmDaAha7iEe9fKWgo"
-      short-id: "d9662905"
-    grpc-opts:
-      grpc-service-name: "AlGrpC.Name"
+    ws-opts:
+      path: "/media/ws/"
+      headers:
+        Host: "nl.lucheeebezlimitnoekino.stream"
+  - name: "🇦🇱 [BL] Сервер 2"
+    type: vless
+    server: 188.253.26.143
+    port: 443
+    uuid: "58e22afd-bf74-4736-984d-63a8ca03d7f0"
+    network: "ws"
+    servername: "nl.lucheeebezlimitnoekino.stream"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/media/ws/"
+      headers:
+        Host: "nl.lucheeebezlimitnoekino.stream"
