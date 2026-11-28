@@ -1,15 +1,16 @@
 proxies:
   - name: "🇹🇭 [BL] Сервер 1"
     type: vless
-    server: 103.80.48.158
+    server: 195.58.46.231
     port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "xy4l6bpbjk.xeltrona-host26.sbs"
+    uuid: "bbb945a6-7d16-4099-b802-d3a7ccebd3ca"
+    network: "grpc"
+    servername: "node43.lmdscdn.ru"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-      short-id: "6ba85179e30d4fc2"
+      public-key: "PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA"
+      short-id: "b8abb26d3cfadcfb"
+    grpc-opts:
+      grpc-service-name: "livestreamcontent"

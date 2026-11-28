@@ -1,7 +1,5 @@
 #profile-title: Apex HK
 #profile-update-interval: 1
-vless://11a2709f-a1aa-4b97-9212-4d5cb0c83e53@38.207.178.28:20086?security=reality&encryption=none&pbk=fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.paypal.com#🇭🇰 [BL] Сервер 1
-vless://12a4f736-2238-49ee-831f-5516f15cc951@2.26.204.46:31001?encryption=none&security=reality&sid=39793bc4708abbbb&pbk=lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY&fp=chrome&sni=mensura.cdn-apple.com&flow=xtls-rprx-vision&type=tcp&headerType=none#🇭🇰 [BL] Сервер 2
-vless://e9923122-5d88-43f1-8548-5771d7750ef5@216.236.51.44:1891?sni=senflarelink-node-71i.pages.dev&type=ws&host=senflarelink-node-71i.pages.dev&path=%2Fflow%3D&fp=chrome&security=tls&encryption=none#🇭🇰 [BL/CF] Сервер 3
-vless://b69cf773-da16-486e-afce-a45b94f998b3@154.40.61.186:8443?encryption=none&type=ws&host=senflarelink-node-wj1gsa.pages.dev&path=%2Fflow%3Dfp%3Dchrome&security=tls&sni=senflarelink-node-wj1gsa.pages.dev&fp=chrome#🇭🇰 [BL/CF] Сервер 4
-vless://b69cf773-da16-486e-afce-a45b94f998b3@185.206.171.66:8443?encryption=none&fp=firefox&host=senflarelink-node-7uv.pages.dev&security=tls&sni=senflarelink-node-7uv.pages.dev&type=ws#🇭🇰 [BL/CF] Сервер 5
+vless://e15d36a7-18eb-4760-a62c-396e6c85286d@45.9.88.249:443?security=reality&encryption=none&pbk=PEaIN8cPwqeNAPRI1tR0t-0AD4JJwhxHSoAh0SoVDB8&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=s3.yandex.net&sid=fde291#🇭🇰 [WL] Сервер 1
+vless://11a2709f-a1aa-4b97-9212-4d5cb0c83e53@38.207.178.28:20086?security=reality&encryption=none&pbk=fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.paypal.com#🇭🇰 [BL] Сервер 2
+vless://12a4f736-2238-49ee-831f-5516f15cc951@2.26.204.46:31001?security=reality&encryption=none&pbk=lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=mensura.cdn-apple.com&sid=39793bc4708abbbb#🇭🇰 [BL] Сервер 3

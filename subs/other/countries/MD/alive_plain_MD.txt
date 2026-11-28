@@ -1,7 +1,6 @@
 #profile-title: Apex MD
 #profile-update-interval: 1
-vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@194.180.191.200:443?encryption=none&security=tls&sni=v2n5.11676767.xyz&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=v2n5.11676767.xyz&path=%2Fdoujin%2Fchannels%2Fcb#🇲🇩 [WL/CF] Сервер 1
-vless://817b61c8-9bf0-4365-8a52-e43dfad274a6@194.180.191.249:443?host=shin-ra.ccwu.cc&path=%2Ffp%3Dunsafe&security=tls&sni=shin-ra.ccwu.cc&type=ws&encryption=none#🇲🇩 [WL/CF] Сервер 2
-vless://ba373a70-295f-482d-a471-8bc17b54e23b@217.156.123.25:443?type=grpc&security=reality&fp=firefox&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&sid=27350908de933e09&sni=farlantern.xyz&mode=gun&serviceName=neurex&encryption=none#🇲🇩 [BL] Сервер 3
-vless://9f97497b-d882-4187-b33f-16d2b3e3789c@5.181.156.92:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=it.nvidia.com&fp=firefox&pbk=G_fY9pA9N6QmXPUMVPjnxzAqvpyvVRqbPZwOaC7iin0&sid=aace430d&type=tcp&headerType=none#🇲🇩 [BL] Сервер 4
-vless://81f705b5-9039-4adf-8671-783095bba0e8@193.84.71.76:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&security=reality&sid=ae64c9b46bff174a&sni=md3.sky-vault.top&type=tcp#🇲🇩 [BL] Сервер 5
+vless://81f705b5-9039-4adf-8671-783095bba0e8@md4.sky-vault.top:443?security=reality&encryption=none&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=md4.sky-vault.top&sid=ae64c9b46bff174a#🇲🇩 [BL] Сервер 1
+vless://81f705b5-9039-4adf-8671-783095bba0e8@193.84.71.77:443?flow=xtls-rprx-vision&security=reality&sni=md4.sky-vault.top&fp=firefox&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&sid=ae64c9b46bff174a&encryption=none&type=tcp#🇲🇩 [BL/AI] Сервер 2
+vless://9f97497b-d882-4187-b33f-16d2b3e3789c@5.181.156.92:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=it.nvidia.com&fp=firefox&pbk=G_fY9pA9N6QmXPUMVPjnxzAqvpyvVRqbPZwOaC7iin0&sid=aace430d&type=tcp&headerType=none#🇲🇩 [BL] Сервер 3
+vless://81f705b5-9039-4adf-8671-783095bba0e8@193.84.71.76:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&security=reality&sid=ae64c9b46bff174a&sni=md3.sky-vault.top&type=tcp#🇲🇩 [BL] Сервер 4

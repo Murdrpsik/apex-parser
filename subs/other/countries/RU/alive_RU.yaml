@@ -6,7 +6,7 @@ proxies:
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
     servername: "vps3.nemnogogo.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
     grpc-opts:
@@ -30,24 +30,12 @@ proxies:
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     network: "grpc"
     servername: "vps3.nemnogogo.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 4"
-    type: vless
-    server: vps3.nemnogogo.com
-    port: 443
-    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
-    network: "grpc"
-    servername: "vps3.nemnogogo.com"
     client-fingerprint: "ios"
     udp: true
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 4"
     type: vless
     server: 136.148.83.70
     port: 443
@@ -57,7 +45,7 @@ proxies:
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 6"
+  - name: "🇷🇺 [WL] Сервер 5"
     type: vless
     server: 136.148.83.71
     port: 443
@@ -67,7 +55,7 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 185.231.204.70
     port: 443
@@ -81,17 +69,17 @@ proxies:
     reality-opts:
       public-key: "esH80_84Bccc0dulU0nNn5nDlkkRUt9xy7U5op-Gdhc"
       short-id: "cf71aa27e0f1b941"
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 136.148.83.69
     port: 443
     uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
     network: "tcp"
     servername: "szqbx-ru-77dc.my-fade.cloud"
-    client-fingerprint: "chrome"
+    client-fingerprint: "ios"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 9"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 176.114.83.133
     port: 443
@@ -101,3 +89,16 @@ proxies:
     client-fingerprint: "firefox"
     udp: true
     tls: true
+  - name: "🇷🇺 [WL] Сервер 9"
+    type: vless
+    server: 176.57.215.54
+    port: 37508
+    uuid: "ef02c262-77a0-429f-8b8f-9eb6ad18f8c0"
+    network: "grpc"
+    servername: "www.oracle.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "_Iqh4SUi85b59zoNhLWVZrSGMNa45OTgK3fWrjZI0l8"
+      short-id: "d3"

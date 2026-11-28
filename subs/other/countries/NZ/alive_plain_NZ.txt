@@ -1,0 +1,3 @@
+#profile-title: Apex NZ
+#profile-update-interval: 1
+vless://f1a04d4c-56b3-4f93-a4ec-91a5039a48bd@205.186.112.19:443?security=reality&encryption=none&pbk=cwao9PnlNhUTd19WxIKAOdAjkaqVJihY0d2WOR8I2WY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=cce23a6bce3bc925#🇳🇿 [BL] Сервер 1

@@ -1,0 +1,12 @@
+proxies:
+  - name: "🇮🇷 [BL] Сервер 1"
+    type: vless
+    server: 85.8.201.186
+    port: 443
+    uuid: "7aa77858-f235-000c-9434-7ab060848b17"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.mornismp.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true

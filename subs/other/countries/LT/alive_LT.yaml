@@ -1,0 +1,15 @@
+proxies:
+  - name: "🇱🇹 [BL] Сервер 1"
+    type: vless
+    server: 144.31.243.187
+    port: 443
+    uuid: "b3d99426-0dd3-495a-aad7-a2885a0804b6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "70033cc8.con.rasterparcel.tech"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "PAqGM0sKOwWkHhhI8UKztzThI1V7o994ZwD6V8qYd0s"
+      short-id: "5823fa569cc01687"
