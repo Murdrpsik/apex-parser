@@ -1,25 +1,15 @@
 proxies:
-  - name: "🇰🇷 [BL] Сервер 1"
+  - name: "🇰🇷 [BL/CF] Сервер 1"
     type: vless
-    server: 43.164.191.170
-    port: 443
-    uuid: "db906786-8c49-4b17-9182-cea680ef954d"
+    server: 131.186.22.95
+    port: 8443
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
     network: "ws"
-    servername: "krd.80782636.xyz"
-    client-fingerprint: "firefox"
+    servername: "senflarelink-node-il65vh.pages.dev"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     ws-opts:
-      path: "/kw7x2mq9"
+      path: "/flow="
       headers:
-        Host: "krd.80782636.xyz"
-  - name: "🇰🇷 [BL] Сервер 2"
-    type: vmess
-    server: 132.145.80.230
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    cipher: "auto"
-    alterId: 0
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
+        Host: "senflarelink-node-il65vh.pages.dev"

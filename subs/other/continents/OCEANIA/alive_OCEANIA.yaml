@@ -1,15 +1,15 @@
 proxies:
-  - name: "🇳🇿 [BL] Сервер 1"
+  - name: "🇦🇺 [BL] Сервер 1"
     type: vless
-    server: 205.186.112.19
+    server: 51.161.204.242
     port: 443
-    uuid: "f1a04d4c-56b3-4f93-a4ec-91a5039a48bd"
+    uuid: "3c778768-d511-4221-8be3-3eba45640e9e"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.amazon.com"
-    client-fingerprint: "firefox"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "cwao9PnlNhUTd19WxIKAOdAjkaqVJihY0d2WOR8I2WY"
-      short-id: "cce23a6bce3bc925"
+      public-key: "l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24"
+      short-id: "d432fe14bbdc17f6"

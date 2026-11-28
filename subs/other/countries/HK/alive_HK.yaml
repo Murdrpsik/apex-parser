@@ -1,6 +1,19 @@
 proxies:
   - name: "🇭🇰 [BL] Сервер 1"
     type: vless
+    server: 38.207.178.28
+    port: 20086
+    uuid: "11a2709f-a1aa-4b97-9212-4d5cb0c83e53"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.paypal.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04"
+  - name: "🇭🇰 [BL] Сервер 2"
+    type: vless
     server: 2.26.204.46
     port: 31001
     uuid: "12a4f736-2238-49ee-831f-5516f15cc951"
@@ -13,30 +26,45 @@ proxies:
     reality-opts:
       public-key: "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY"
       short-id: "39793bc4708abbbb"
-  - name: "🇭🇰 [BL] Сервер 2"
+  - name: "🇭🇰 [BL/CF] Сервер 3"
     type: vless
-    server: 8.217.1.203
+    server: 216.236.51.44
+    port: 1891
+    uuid: "e9923122-5d88-43f1-8548-5771d7750ef5"
+    network: "ws"
+    servername: "senflarelink-node-71i.pages.dev"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/flow="
+      headers:
+        Host: "senflarelink-node-71i.pages.dev"
+  - name: "🇭🇰 [BL/CF] Сервер 4"
+    type: vless
+    server: 154.40.61.186
     port: 8443
-    uuid: "8b17beac-b143-447d-aa68-14cbb121a602"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.apple.com"
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    network: "ws"
+    servername: "senflarelink-node-wj1gsa.pages.dev"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38"
-      short-id: "0bf55f64"
-  - name: "🇭🇰 [BL] Сервер 3"
+    ws-opts:
+      path: "/flow=fp=chrome"
+      headers:
+        Host: "senflarelink-node-wj1gsa.pages.dev"
+  - name: "🇭🇰 [BL/CF] Сервер 5"
     type: vless
-    server: 38.207.178.28
-    port: 20086
-    uuid: "11a2709f-a1aa-4b97-9212-4d5cb0c83e53"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.paypal.com"
-    client-fingerprint: "chrome"
+    server: 185.206.171.66
+    port: 8443
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    network: "ws"
+    servername: "senflarelink-node-7uv.pages.dev"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "senflarelink-node-7uv.pages.dev"

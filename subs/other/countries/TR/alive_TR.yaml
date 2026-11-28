@@ -1,12 +1,15 @@
 proxies:
   - name: "🇹🇷 [BL] Сервер 1"
     type: vless
-    server: 185.231.111.235
-    port: 443
-    uuid: "ba43a391-b294-4657-8e97-8f59feb4c6ed"
+    server: 5.202.14.218
+    port: 2083
+    uuid: "8215052e-4e1e-4205-948e-084eb0b4efee"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "flooraccount.net"
+    servername: "www.sony.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "wsoMEZUh-R_4i4TUwmPi3o0UIwaD7EcwGHl_Z-YQVR4"
+      short-id: "bbb6129b0f"
