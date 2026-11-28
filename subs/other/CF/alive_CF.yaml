@@ -1,10 +1,10 @@
 proxies:
   - name: "🇳🇱 [CF] Сервер 1"
     type: vless
-    server: 185.86.147.45
+    server: ws.quantum.vodka
     port: 1443
     uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "sbmicro732.gangtype.com"
     client-fingerprint: "firefox"
@@ -13,147 +13,7 @@ proxies:
     reality-opts:
       public-key: "tiSf3jh90rNFcTdAPeAvzWs_dohRoRY9GKnE0OrygX8"
       short-id: "87e8c03a4b9aa6c5"
-  - name: "🇳🇱 [CF] Сервер 2"
-    type: vless
-    server: 88.218.61.184
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruhsds735.thebestqas.am"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU"
-      short-id: "8b360b27c8ae3791"
-  - name: "🇳🇱 [CF] Сервер 3"
-    type: vless
-    server: 5.188.72.82
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "natakeh743.lkfnvflknsdn.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "4yLVV3M8vaHpurPJ2NvTwhWkhWmsNxPYtQMwEHYQBxc"
-      short-id: "e6accea441fd1d07"
-  - name: "🇳🇱 [CF] Сервер 4"
-    type: vless
-    server: 5.188.72.82
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nepaly597.lkfnvflknsdn.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "0Z3I5CPO_-r4A7wQw9RT7lPwUzs-QroFCEYJbVUv2EA"
-      short-id: "9ac2917279ee6eb8"
-  - name: "🇳🇱 [CF] Сервер 5"
-    type: vless
-    server: 5.188.72.82
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "nevelo737.lkfnvflknsdn.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "x910I7Wil3raynZ53xYCmpVny4HNz-0WVgQyTGqf-hE"
-      short-id: "e9b480652b6411ea"
-  - name: "🇩🇪 [CF] Сервер 6"
-    type: vless
-    server: 83.217.213.224
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rugermicro1.gangplatform.com"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "7Y6Wq1tq0AHdrEfswSzFXa8VBy-wLdl3Va_8ENzlqAY"
-      short-id: "c3bfcd35f4b10217"
-  - name: "🇯🇵 [CF] Сервер 7"
-    type: vless
-    server: 185.220.68.226
-    port: 20205
-    uuid: "282733b7-3cd4-4fa3-b6bd-beff60052f31"
-    network: "ws"
-    servername: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 8"
-    type: vless
-    server: 185.220.68.226
-    port: 20205
-    uuid: "d1c25a21-50f0-47ef-9a45-3ce85610deb1"
-    network: "ws"
-    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 9"
-    type: vless
-    server: 185.220.68.226
-    port: 20205
-    uuid: "8176bc8f-2c72-4496-8202-4be1d7c4b2bc"
-    network: "ws"
-    servername: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 10"
-    type: vless
-    server: 185.220.68.226
-    port: 20205
-    uuid: "a1740f4c-a0c4-4f8d-b72c-7bdf50ec1193"
-    network: "ws"
-    servername: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 11"
-    type: vless
-    server: 203.137.165.164
-    port: 57554
-    uuid: "0985e268-5c1c-4141-9d96-139f8046c47c"
-    network: "ws"
-    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-  - name: "🇩🇪 [CF] Сервер 12"
+  - name: "🇩🇪 [CF] Сервер 2"
     type: vless
     server: 2.26.251.236
     port: 443
@@ -166,200 +26,21 @@ proxies:
     reality-opts:
       public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
       short-id: "4ff31b18d1bd8227"
-  - name: "🇺🇸 [CF] Сервер 13"
+  - name: "🇺🇸 [CF] Сервер 3"
     type: vless
-    server: 109.172.87.68
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "xhttp"
-    servername: "rusamicro67.richhoodfoc.com"
-    client-fingerprint: "ios"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v2/telemetry/c3a474d77a"
-      host: "rusamicro67.richhoodfoc.com"
-      mode: "auto"
-  - name: "🇸🇪 [CF] Сервер 14"
-    type: vless
-    server: 92.63.193.41
+    server: 157.22.190.6
     port: 443
     uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "ruswedmicro2.gangplatform.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "Hk7E17R41exzrPKAOeETobKQ0LOAmuLSzFXdEwLSmiQ"
-      short-id: "b92d7008f05da71e"
-  - name: "🇫🇷 [CF] Сервер 15"
-    type: vless
-    server: 192.144.58.203
-    port: 443
-    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruparmicro2.gangplatform.com"
+    servername: "rusamicro1.richhoodfoc.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "W7M4MhVHx47N0lVQwP4uIGpyCIkzYsTsDOygqMK4li8"
-      short-id: "60e5181f77500676"
-  - name: "🇮🇹 [CF] Сервер 16"
-    type: vless
-    server: 94.103.83.173
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "ruitaliamicro1.gangplatform.com"
-    client-fingerprint: "qq"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "X99zq7QEhnb9l3JsdyrL8Jt6yDZTcL3QzNbTZrUmJEM"
-      short-id: "dbd5efbe0fd57f71"
-  - name: "🇳🇱 [CF] Сервер 17"
-    type: vless
-    server: 195.58.55.151
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro654.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "h1m6Etk-poZ00pGlXbGhGsSR3x3n1pwWn_mqX1NFiVs"
-      short-id: "14c8b8dc00ecff22"
-  - name: "🇳🇱 [CF] Сервер 18"
-    type: vless
-    server: 178.217.98.60
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro749.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "stAHGePVvyd7wH5KnYu6I73CjPd49QDnzNf-Ev-juwQ"
-      short-id: "40638902cebb6be2"
-  - name: "🇳🇱 [CF] Сервер 19"
-    type: vless
-    server: 62.113.113.92
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro745.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "_jJPtViVe5F69LE3qhMrYXwCrJdao1YRBZwBspvbzx0"
-      short-id: "a535c02d0ca53bd8"
-  - name: "🇳🇱 [CF] Сервер 20"
-    type: vless
-    server: 138.16.180.250
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro634.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "ib3XuQO1iHiWtIG7AG-iqHJuMnwQAM6pZBpnPfaLbks"
-      short-id: "46727ebb4030cf42"
-  - name: "🇸🇬 [CF] Сервер 21"
-    type: vless
-    server: 193.178.170.238
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "xhttp"
-    servername: "rukzfr.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/metrics/669bbee643"
-      host: "rukzfr.richhoodfoc.com"
-      mode: "auto"
-  - name: "🇯🇵 [CF] Сервер 22"
-    type: vless
-    server: 23.27.11.86
-    port: 443
-    uuid: "e8a346c2-e14c-4f82-876f-367dc19ee541"
-    network: "tcp"
-    flow: "xtls-rprx-vision-udp443"
-    servername: "jp.burmy.xyz"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-  - name: "🇯🇵 [CF] Сервер 23"
-    type: vless
-    server: 142.91.101.39
-    port: 627
-    uuid: "23b385cf-02c3-4df8-8402-11f1916418cd"
-    network: "ws"
-    servername: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
-  - name: "🇳🇱 [CF] Сервер 24"
-    type: vless
-    server: 45.150.37.169
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "rumicro641.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE"
-      short-id: "b9bb317e9c9e2627"
-  - name: "🇦🇹 [CF] Сервер 25"
-    type: vless
-    server: 45.151.183.22
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-eefd05ea62b0"
-    network: "ws"
-    servername: "etzgote4ubxs.ulzzygequ8es.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/eefd05ea62b0"
-      headers:
-        Host: "etzgote4ubxs.ulzzygequ8es.workers.dev"
-  - name: "🇯🇵 [CF] Сервер 26"
-    type: vless
-    server: 57.129.52.47
-    port: 52014
-    uuid: "ecc4675b-1607-4699-8b20-23af97b671af"
-    network: "ws"
-    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-  - name: "🇫🇷 [CF] Сервер 27"
+      public-key: "3DwompA3EdEejqnn5BGvHkbshedjlCt9CNBY_TfkyXo"
+      short-id: "14b02c0ff03113ed"
+  - name: "🇫🇷 [CF] Сервер 4"
     type: vless
     server: 157.245.182.9
     port: 2053
@@ -373,7 +54,7 @@ proxies:
       path: "/stream/PANEL_ZEUS/3a16f3365f2c"
       headers:
         Host: "exzomne9uess.ssegfsgvfetgsvbherbsderhsbehwh.workers.dev"
-  - name: "🇸🇬 [CF] Сервер 28"
+  - name: "🇸🇬 [CF] Сервер 5"
     type: vless
     server: 43.134.187.97
     port: 8443
@@ -387,21 +68,7 @@ proxies:
       path: "/flow="
       headers:
         Host: "senflarelink-node-2ott2x.pages.dev"
-  - name: "🇯🇵 [CF] Сервер 29"
-    type: vless
-    server: 45.32.57.15
-    port: 8443
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
-    network: "ws"
-    servername: "senflarelink-node-nwz76h.pages.dev"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/flow="
-      headers:
-        Host: "senflarelink-node-nwz76h.pages.dev"
-  - name: "🇰🇷 [CF] Сервер 30"
+  - name: "🇰🇷 [CF] Сервер 6"
     type: vless
     server: 131.186.22.95
     port: 8443
@@ -415,17 +82,14 @@ proxies:
       path: "/flow="
       headers:
         Host: "senflarelink-node-il65vh.pages.dev"
-  - name: "🇳🇱 [CF] Сервер 31"
+  - name: "🇯🇵 [CF] Сервер 7"
     type: vless
-    server: 178.217.98.134
+    server: 23.27.11.86
     port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
+    uuid: "e8a346c2-e14c-4f82-876f-367dc19ee541"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "rumicro748.richhoodfoc.com"
-    client-fingerprint: "firefox"
+    servername: "jp.burmy.xyz"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "HFb2ouHGn6rQqkKvHLziI4H2rp7PRUX8P50zUEtzDig"
-      short-id: "44fe90328a9b2656"

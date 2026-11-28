@@ -1,10 +1,17 @@
 proxies:
-  - name: "🇹🇷 [WL] Сервер 1"
+  - name: "🇹🇷 [BL] Сервер 1"
     type: vless
-    server: 178.177.17.206
-    port: 8446
-    uuid: "1bc72df2-f188-4bd1-8c9f-395dbb5f5cf7"
-    network: "tcp"
-    client-fingerprint: "android"
+    server: 94.231.221.49
+    port: 12443
+    uuid: "5b345e12-abe7-43e4-98f3-0bc7d3359403"
+    network: "grpc"
+    servername: "dl.google.com"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
+    reality-opts:
+      public-key: "X5ER83wRVaCU1NqBuVcWyIITurTyCbmnz5JNq61Oni8"
+      short-id: "bbe8fea0"
+    grpc-opts:
+      grpc-service-name: "cas-tr"
+      grpc-mode: "multi"

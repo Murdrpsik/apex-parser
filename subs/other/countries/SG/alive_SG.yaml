@@ -1,33 +1,58 @@
 proxies:
   - name: "🇸🇬 [WL] Сервер 1"
     type: vless
-    server: 147.93.173.45
-    port: 10444
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "video.yandex.ru"
+    server: 88.216.66.7
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    network: "ws"
+    servername: "speed.dulacloud.store"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "speed.dulacloud.store"
   - name: "🇸🇬 [WL] Сервер 2"
     type: vless
-    server: 147.93.173.45
-    port: 10444
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
+    server: 88.216.67.7
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    network: "ws"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇸🇬 [BL] Сервер 3"
+    type: vless
+    server: 103.106.229.177
+    port: 21004
+    uuid: "67952583-8572-42e1-943d-0602794f885b"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "video.yandex.ru"
+    servername: "www.cloudflare.com"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
+      short-id: "4e0418d648f86141"
+  - name: "🇸🇬 [BL] Сервер 4"
+    type: vless
+    server: 510.150333.xyz
+    port: 21001
+    uuid: "67952583-8572-42e1-943d-0602794f885b"
+    network: "tcp"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo"
-      short-id: "8debcf36f1cc69ff"
-  - name: "🇸🇬 [BL] Сервер 3"
+      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
+      short-id: "a51c3ccb2320024a"
+  - name: "🇸🇬 [BL] Сервер 5"
     type: vless
     server: 5.34.177.164
     port: 443
@@ -41,61 +66,7 @@ proxies:
     reality-opts:
       public-key: "cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA"
       short-id: "b2efed6d157e7bb0"
-  - name: "🇸🇬 [BL] Сервер 4"
-    type: vless
-    server: 103.106.229.177
-    port: 21004
-    uuid: "67952583-8572-42e1-943d-0602794f885b"
-    network: "tcp"
-    servername: "www.cloudflare.com"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA"
-      short-id: "4e0418d648f86141"
-  - name: "🇸🇬 [BL/CF] Сервер 5"
-    type: vless
-    server: 193.178.170.238
-    port: 443
-    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
-    network: "xhttp"
-    servername: "rukzfr.richhoodfoc.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    xhttp-opts:
-      path: "/api/v1/metrics/669bbee643"
-      host: "rukzfr.richhoodfoc.com"
-      mode: "auto"
   - name: "🇸🇬 [BL] Сервер 6"
-    type: vless
-    server: 89.169.0.142
-    port: 2082
-    uuid: "5ce50e24-73ab-4bae-bec7-7eab645acc15"
-    network: "tcp"
-    flow: "xtls-rprx-vision-udp443"
-    servername: "assets99.spielinsel.party"
-    client-fingerprint: "edge"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "HxIEwKgVSpjE6w4ad32tZ_wSD3wi1Du-AUplDBwkoTg"
-      short-id: "08e1c3640e92c931"
-  - name: "🇸🇬 [BL] Сервер 7"
-    type: vless
-    server: 167.150.100.106
-    port: 443
-    uuid: "2098ca45-e61c-4a92-ad7d-8badb6b154f4"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "sg-sin1.connect.accessboy.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4"
-      short-id: "1c5869a95671bcb0"
-  - name: "🇸🇬 [BL] Сервер 8"
     type: vless
     server: 194.233.67.103
     port: 2053
@@ -108,21 +79,34 @@ proxies:
     reality-opts:
       public-key: "un_9X4oh5ODWIcXl_jiuUaox4XOJE7oZpSPWGb46tRI"
       short-id: "07a66150eac3db28"
-  - name: "🇸🇬 [BL] Сервер 9"
+  - name: "🇸🇬 [BL] Сервер 7"
     type: vless
     server: 47.84.226.221
     port: 443
     uuid: "49b91402-f8e3-4390-9d7b-b7eddc2684a4"
-    network: "raw"
+    network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "www.samsung.com"
-    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "gVQsvRtzd77zlvKW4Gk0dAOJNPRa7cfN1-jVe_AJ8Bo"
       short-id: "e1c483f9d4437d42"
-  - name: "🇸🇬 [BL] Сервер 10"
+  - name: "🇸🇬 [BL] Сервер 8"
+    type: vless
+    server: 134.185.81.5
+    port: 47881
+    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.tesla.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4"
+      short-id: "38d72071"
+  - name: "🇸🇬 [BL] Сервер 9"
     type: vless
     server: 139.162.27.96
     port: 2096
@@ -136,7 +120,49 @@ proxies:
       path: "/free-server.techsonic.dev"
       headers:
         Host: "free-server.techsonic.dev"
+  - name: "🇸🇬 [BL] Сервер 10"
+    type: vless
+    server: 139.64.235.7
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    network: "ws"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "speed.dulacloud.store"
   - name: "🇸🇬 [BL] Сервер 11"
+    type: vless
+    server: 141.11.202.7
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    network: "ws"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇸🇬 [BL] Сервер 12"
+    type: vless
+    server: 154.194.0.7
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    network: "ws"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇸🇬 [BL] Сервер 13"
     type: vless
     server: 206.206.78.36
     port: 443
@@ -150,7 +176,7 @@ proxies:
     reality-opts:
       public-key: "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ"
       short-id: "133a3f10a1581047"
-  - name: "🇸🇬 [BL] Сервер 12"
+  - name: "🇸🇬 [BL] Сервер 14"
     type: vless
     server: 140.245.113.33
     port: 443
@@ -164,7 +190,7 @@ proxies:
     reality-opts:
       public-key: "tF9nKF6amexok5wKbieQ2QRKQI5_ZTFE6MUj1hUBBkY"
       short-id: "c940a3b6d60b8611"
-  - name: "🇸🇬 [BL/CF] Сервер 13"
+  - name: "🇸🇬 [BL/CF] Сервер 15"
     type: vless
     server: 43.134.187.97
     port: 8443
@@ -178,19 +204,17 @@ proxies:
       path: "/flow="
       headers:
         Host: "senflarelink-node-2ott2x.pages.dev"
-  - name: "🇸🇬 [BL/AI] Сервер 14"
+  - name: "🇸🇬 [BL/AI] Сервер 16"
     type: vless
-    server: 89.110.95.79
-    port: 443
-    uuid: "2444df7f-4a0c-45bd-9c62-25a7ff8c4dba"
-    network: "xhttp"
-    servername: "www.sutd.edu.sg"
-    client-fingerprint: "firefox"
+    server: 89.169.0.142
+    port: 2082
+    uuid: "5ce50e24-73ab-4bae-bec7-7eab645acc15"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "assets99.spielinsel.party"
+    client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PKq6DUuCFHau4FteyGUU9jPEi1xJaAh5PmfqOaXWwQ8"
-      short-id: "0123456789abcdef"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
+      public-key: "HxIEwKgVSpjE6w4ad32tZ_wSD3wi1Du-AUplDBwkoTg"
+      short-id: "08e1c3640e92c931"

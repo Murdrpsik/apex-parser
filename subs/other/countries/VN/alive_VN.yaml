@@ -6,7 +6,7 @@ proxies:
     uuid: "a1f0cbb8-c74a-4c27-b881-7b14d96aece1"
     network: "tcp"
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:

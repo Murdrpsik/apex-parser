@@ -1,6 +1,64 @@
 proxies:
   - name: "🇷🇺 [WL] Сервер 1"
     type: vless
+    server: 78.159.246.83
+    port: 445
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "grpc"
+    servername: "passport.yandex.ru"
+    client-fingerprint: "safari"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇷🇺 [WL] Сервер 2"
+    type: vless
+    server: 78.159.246.83
+    port: 445
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "grpc"
+    servername: "passport.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 3"
+    type: vless
+    server: 78.159.240.11
+    port: 445
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "grpc"
+    servername: "passport.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+    grpc-opts:
+      grpc-service-name: "grpc"
+      grpc-mode: "gun"
+  - name: "🇷🇺 [WL] Сервер 4"
+    type: vless
+    server: 78.159.240.11
+    port: 445
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: "grpc"
+    servername: "passport.yandex.ru"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+    grpc-opts:
+      grpc-service-name: "grpc"
+  - name: "🇷🇺 [WL] Сервер 5"
+    type: vless
     server: 200.169.179.233
     port: 443
     uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
@@ -11,7 +69,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 2"
+  - name: "🇷🇺 [WL] Сервер 6"
     type: vless
     server: 201.24.116.192
     port: 443
@@ -23,7 +81,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 3"
+  - name: "🇷🇺 [WL] Сервер 7"
     type: vless
     server: 201.51.12.98
     port: 443
@@ -35,7 +93,7 @@ proxies:
     tls: true
     grpc-opts:
       grpc-service-name: "mobile.api.Event"
-  - name: "🇷🇺 [WL] Сервер 4"
+  - name: "🇷🇺 [WL] Сервер 8"
     type: vless
     server: 136.148.83.70
     port: 443
@@ -45,7 +103,7 @@ proxies:
     client-fingerprint: "chrome"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 5"
+  - name: "🇷🇺 [WL] Сервер 9"
     type: vless
     server: 136.148.83.71
     port: 443
@@ -55,41 +113,49 @@ proxies:
     client-fingerprint: "qq"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 6"
-    type: vless
-    server: 185.231.204.70
-    port: 443
-    uuid: "318d9cc0-248f-4f44-b79a-1ba4fda95c08"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "www.aegon.com"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "esH80_84Bccc0dulU0nNn5nDlkkRUt9xy7U5op-Gdhc"
-      short-id: "cf71aa27e0f1b941"
-  - name: "🇷🇺 [WL] Сервер 7"
+  - name: "🇷🇺 [WL] Сервер 10"
     type: vless
     server: 136.148.83.69
     port: 443
     uuid: "666821a2-5c3d-0001-a56f-5a3a562d7324"
     network: "tcp"
     servername: "szqbx-ru-77dc.my-fade.cloud"
-    client-fingerprint: "ios"
+    client-fingerprint: "edge"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 8"
+  - name: "🇷🇺 [WL] Сервер 11"
     type: vless
-    server: 176.114.83.133
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    network: "tcp"
-    servername: "dfleafaaejodeytqqe.fcloudservices.site"
-    client-fingerprint: "firefox"
+    server: nl26.umarketvpn.pro
+    port: 8443
+    uuid: "318d9cc0-248f-4f44-b79a-1ba4fda95c08"
+    network: "xhttp"
+    servername: "www.aegon.com"
+    client-fingerprint: "edge"
     udp: true
     tls: true
-  - name: "🇷🇺 [WL] Сервер 9"
+    reality-opts:
+      public-key: "cj560j1TzKXUTD1UjZqPWGroeUtVc4CaIamhzbcxx14"
+      short-id: "ab2ba1fb41ca9692"
+    xhttp-opts:
+      path: "/23469c1d080089734bba4416"
+      mode: "auto"
+  - name: "🇷🇺 [WL] Сервер 12"
+    type: vless
+    server: 185.231.204.70
+    port: 8443
+    uuid: "318d9cc0-248f-4f44-b79a-1ba4fda95c08"
+    network: "xhttp"
+    servername: "www.aegon.com"
+    client-fingerprint: "edge"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "cj560j1TzKXUTD1UjZqPWGroeUtVc4CaIamhzbcxx14"
+      short-id: "ab2ba1fb41ca9692"
+    xhttp-opts:
+      path: "/23469c1d080089734bba4416"
+      mode: "auto"
+  - name: "🇷🇺 [WL] Сервер 13"
     type: vless
     server: 176.57.215.54
     port: 37508

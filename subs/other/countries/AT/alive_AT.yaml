@@ -1,32 +1,20 @@
 proxies:
   - name: "🇦🇹 [BL] Сервер 1"
     type: vless
-    server: 31.56.179.171
-    port: 2098
-    uuid: "4e73a85c-21fb-4caf-97aa-af9f835d439c"
-    network: "tcp"
+    server: 95.163.153.141
+    port: 8443
+    uuid: "04cbe9ea-9791-4195-827f-5d4cabbdba10"
+    network: "xhttp"
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "xp7W9SCnpIS7cYsHLp9dW0DSdnR7J5JjOFuBpv00bF4"
-      short-id: "4c9f2e7c"
-  - name: "🇦🇹 [BL/CF] Сервер 2"
-    type: vless
-    server: 45.151.183.22
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-eefd05ea62b0"
-    network: "ws"
-    servername: "etzgote4ubxs.ulzzygequ8es.workers.dev"
-    client-fingerprint: "unsafe"
-    udp: true
-    tls: true
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/eefd05ea62b0"
-      headers:
-        Host: "etzgote4ubxs.ulzzygequ8es.workers.dev"
-  - name: "🇦🇹 [BL] Сервер 3"
+      public-key: "bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU"
+      short-id: "c9ea2355ddeab39b"
+    xhttp-opts:
+      path: "/"
+  - name: "🇦🇹 [BL] Сервер 2"
     type: vless
     server: 66.90.106.210
     port: 443

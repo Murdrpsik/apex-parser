@@ -15,6 +15,20 @@ proxies:
       short-id: "d52d3ecf49447c2a"
   - name: "🇫🇮 [WL] Сервер 2"
     type: vless
+    server: 178.214.125.3
+    port: 443
+    uuid: "b7639778-26eb-46a0-b979-c03f5beb4ebc"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "cdn.tbank.ru"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY"
+      short-id: "6172ba9cffe9c22f"
+  - name: "🇫🇮 [WL] Сервер 3"
+    type: vless
     server: 193.148.56.106
     port: 8446
     uuid: "43add026-128a-47d3-a403-b3875b4638db"
@@ -28,7 +42,7 @@ proxies:
       short-id: "bcefc042d39188e0"
     xhttp-opts:
       path: "/somonxh"
-  - name: "🇫🇮 [WL] Сервер 3"
+  - name: "🇫🇮 [WL] Сервер 4"
     type: vless
     server: 193.148.56.106
     port: 8446
@@ -45,88 +59,31 @@ proxies:
       path: "/somonxh"
       host: "193.148.56.106"
       mode: "auto"
-  - name: "🇫🇮 [BL] Сервер 4"
-    type: vless
-    server: 196.198.111.166
-    port: 8443
-    uuid: "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "usr-6b09ce88-api-v3.alcors.net"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
   - name: "🇫🇮 [BL] Сервер 5"
     type: vless
-    server: 31.76.8.195
+    server: 89.167.80.209
     port: 443
-    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    uuid: "87bd811a-09d0-4eb8-a391-2d3b739ab4c3"
     network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lesson12.schoolpizorbz.xyz"
-    client-fingerprint: "firefox"
+    servername: "edge-test-01.arrowinout.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "pFmgbfd2eUSmge-8f0dF7Yjo8OFaZWuZ3UWC7EXjwmg"
-      short-id: "ae3cdc4eca7374a8"
   - name: "🇫🇮 [BL] Сервер 6"
     type: vless
-    server: 201.58.176.19
+    server: lesson5.schoolpizorbz.xyz
     port: 443
     uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
-    network: "tcp"
+    network: "raw"
     flow: "xtls-rprx-vision"
-    servername: "lesson9.schoolpizorbz.xyz"
+    servername: "lesson5.schoolpizorbz.xyz"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "LkXRut71yrHguNpmKfCrLITrAxk7amJiI2npZ4jRYx8"
-      short-id: "06df4d3e93672c24"
+      public-key: "hkbj7k2VDqVjrwQLXhoWIgjUwGOKFJ9Y1gdCv2YGQik"
+      short-id: "190004e1840538bf"
   - name: "🇫🇮 [BL] Сервер 7"
-    type: vless
-    server: 31.77.17.137
-    port: 443
-    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lesson6.schoolpizorbz.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "kEtGermhVoTO4QWTy88C6Y52xDqOyR9f3bxR2oWqUA8"
-      short-id: "32772060abd44e31"
-  - name: "🇫🇮 [BL] Сервер 8"
-    type: vless
-    server: 83.143.112.79
-    port: 443
-    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lesson10.schoolpizorbz.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "IL8J51YZ8vzSpHXhvBNQUnACZjGKuSYLIDPLH5tZ4BA"
-      short-id: "c9899c71959d69e4"
-  - name: "🇫🇮 [BL] Сервер 9"
-    type: vless
-    server: 48.102.201.124
-    port: 443
-    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "lesson11.schoolpizorbz.xyz"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "bkgMxOi6NnagiY8Cc8PzW9skQSk9LDKmFtjGfqrlXHE"
-      short-id: "a16c828fc2b70207"
-  - name: "🇫🇮 [BL] Сервер 10"
     type: vless
     server: 31.76.21.252
     port: 443
@@ -140,7 +97,122 @@ proxies:
     reality-opts:
       public-key: "hkbj7k2VDqVjrwQLXhoWIgjUwGOKFJ9Y1gdCv2YGQik"
       short-id: "190004e1840538bf"
+  - name: "🇫🇮 [BL] Сервер 8"
+    type: vless
+    server: r9.pythonmakemigreat.wiki
+    port: 8443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    network: "xhttp"
+    servername: "stream.study.golangwikito.cfd"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+    xhttp-opts:
+      path: "/"
+      mode: "packet-up"
+  - name: "🇫🇮 [BL] Сервер 9"
+    type: vless
+    server: 31.77.138.211
+    port: 8443
+    uuid: "55ba7b31-b0eb-4362-9c9b-fc53b0a53fab"
+    network: "xhttp"
+    servername: "fi3.setlocation.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "NCJNc0NqiDsOmTx8gJSzdNhWylbA6jSaQQYKW50HKzc"
+      short-id: "e4df5704c91b57bd"
+    xhttp-opts:
+      path: "/4c6a7f5ff99a"
+      mode: "auto"
+  - name: "🇫🇮 [BL] Сервер 10"
+    type: vless
+    server: 48.102.201.124
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson11.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "bkgMxOi6NnagiY8Cc8PzW9skQSk9LDKmFtjGfqrlXHE"
+      short-id: "a16c828fc2b70207"
   - name: "🇫🇮 [BL] Сервер 11"
+    type: vless
+    server: 31.76.8.195
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson12.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "pFmgbfd2eUSmge-8f0dF7Yjo8OFaZWuZ3UWC7EXjwmg"
+      short-id: "ae3cdc4eca7374a8"
+  - name: "🇫🇮 [BL] Сервер 12"
+    type: vless
+    server: 201.58.176.19
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson9.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "LkXRut71yrHguNpmKfCrLITrAxk7amJiI2npZ4jRYx8"
+      short-id: "06df4d3e93672c24"
+  - name: "🇫🇮 [BL] Сервер 13"
+    type: vless
+    server: 31.77.17.137
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson6.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kEtGermhVoTO4QWTy88C6Y52xDqOyR9f3bxR2oWqUA8"
+      short-id: "32772060abd44e31"
+  - name: "🇫🇮 [BL] Сервер 14"
+    type: vless
+    server: lesson6.schoolpizorbz.xyz
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson6.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "kEtGermhVoTO4QWTy88C6Y52xDqOyR9f3bxR2oWqUA8"
+      short-id: "32772060abd44e31"
+  - name: "🇫🇮 [BL] Сервер 15"
+    type: vless
+    server: 83.143.112.79
+    port: 443
+    uuid: "e894c08a-fecc-46f5-bf03-c95d0274c79d"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "lesson10.schoolpizorbz.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "IL8J51YZ8vzSpHXhvBNQUnACZjGKuSYLIDPLH5tZ4BA"
+      short-id: "c9899c71959d69e4"
+  - name: "🇫🇮 [BL] Сервер 16"
     type: vless
     server: 78.40.209.80
     port: 8443
@@ -156,7 +228,7 @@ proxies:
     xhttp-opts:
       path: "/fb807c95ba03"
       mode: "auto"
-  - name: "🇫🇮 [BL] Сервер 12"
+  - name: "🇫🇮 [BL] Сервер 17"
     type: vless
     server: 138.124.37.196
     port: 443
@@ -164,26 +236,27 @@ proxies:
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "lg.hel.play2go.cloud"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
       public-key: "r7gK1xDtZl5wDL59Teyw--KXacW1EjOT2mm0MdwY7gM"
       short-id: "39b7084197ed8260"
-  - name: "🇫🇮 [BL] Сервер 13"
+  - name: "🇫🇮 [BL] Сервер 18"
     type: vless
-    server: 2.29.62.181
+    server: route-fi-de-waicore.unrealvpn.xyz
     port: 443
-    uuid: "b63bc3fe-8852-4ead-8d25-8d8d5bae79ae"
+    uuid: "97daeafa-0744-38a0-9441-74d6cdb63e80"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "api.steampowered.com"
-    client-fingerprint: "chrome"
+    servername: "lg.hel.play2go.cloud"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "4hAezOnHPiz2LUH0NBpS7KmGVd7-AyOODfHWwyQ50kM"
-      short-id: "fdea6c48da968d75"
-  - name: "🇫🇮 [BL] Сервер 14"
+      public-key: "r7gK1xDtZl5wDL59Teyw--KXacW1EjOT2mm0MdwY7gM"
+      short-id: "39b7084197ed8260"
+  - name: "🇫🇮 [BL] Сервер 19"
     type: vless
     server: 45.38.143.210
     port: 30584
@@ -196,21 +269,18 @@ proxies:
     reality-opts:
       public-key: "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y"
       short-id: "67ece882d65d0f1a"
-  - name: "🇫🇮 [BL] Сервер 15"
+  - name: "🇫🇮 [BL] Сервер 20"
     type: vless
-    server: 95.216.182.174
+    server: 65.109.171.194
     port: 443
-    uuid: "dc8e0f03-beda-4101-84b4-1b6c84f6dbec"
+    uuid: "da14e323-6af7-406f-a5c2-1eb7975ada8b"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "www.cloudflare.com"
+    servername: "mail1.besttotaldns.com"
     client-fingerprint: "chrome"
     udp: true
     tls: true
-    reality-opts:
-      public-key: "K5KIrQJZH83V1G9MUOYlNy24_4Ntg8U_ngt5p7_EMFc"
-      short-id: "29b55f87"
-  - name: "🇫🇮 [BL] Сервер 16"
+  - name: "🇫🇮 [BL] Сервер 21"
     type: vless
     server: 193.233.199.233
     port: 8443
@@ -224,7 +294,7 @@ proxies:
     reality-opts:
       public-key: "G-gvvhMGDyYjowI5r23AuPbWe4INjqIAIZCFN5lCI2M"
       short-id: "5f72ca3cb6ccd3f7"
-  - name: "🇫🇮 [BL] Сервер 17"
+  - name: "🇫🇮 [BL] Сервер 22"
     type: vless
     server: 95.216.27.15
     port: 2053
@@ -237,7 +307,7 @@ proxies:
     reality-opts:
       public-key: "Tkkg6_NdththGNMt1e0fPoXL7Fp4N2EvZQST4yarBCM"
       short-id: "c3c2decd9adc6231"
-  - name: "🇫🇮 [BL] Сервер 18"
+  - name: "🇫🇮 [BL] Сервер 23"
     type: vless
     server: 48.102.138.212
     port: 443
@@ -251,7 +321,7 @@ proxies:
     reality-opts:
       public-key: "luf3doVXhkblZF7R3E5m1hc_e6dYmEn2rrgoGBvQaEU"
       short-id: "68bf8009e520f8da"
-  - name: "🇫🇮 [BL] Сервер 19"
+  - name: "🇫🇮 [BL] Сервер 24"
     type: vless
     server: 87.121.89.165
     port: 443
@@ -265,7 +335,7 @@ proxies:
     reality-opts:
       public-key: "eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY"
       short-id: "fa6ca0ce38e58033"
-  - name: "🇫🇮 [BL] Сервер 20"
+  - name: "🇫🇮 [BL] Сервер 25"
     type: vless
     server: 92.242.165.10
     port: 2083
@@ -277,14 +347,3 @@ proxies:
     tls: true
     ws-opts:
       path: "/vless-ws"
-  - name: "🇫🇮 [BL] Сервер 21"
-    type: vless
-    server: 65.109.171.194
-    port: 443
-    uuid: "da14e323-6af7-406f-a5c2-1eb7975ada8b"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "mail1.besttotaldns.com"
-    client-fingerprint: "chrome"
-    udp: true
-    tls: true

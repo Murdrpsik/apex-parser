@@ -15,20 +15,6 @@ proxies:
       short-id: "5c256336e3b673fa"
   - name: "🇱🇻 [BL] Сервер 2"
     type: vless
-    server: 104.171.139.172
-    port: 443
-    uuid: "42d9e647-3176-4753-9a03-c114c54650bc"
-    network: "tcp"
-    flow: "xtls-rprx-vision"
-    servername: "naiti.stroimvmeste.icu"
-    client-fingerprint: "firefox"
-    udp: true
-    tls: true
-    reality-opts:
-      public-key: "he69aiGpjMvuSvrd2U-zHYe-g5GJz3dgMfbiEXb-9RI"
-      short-id: "d8bebe86e31c66d7"
-  - name: "🇱🇻 [BL] Сервер 3"
-    type: vless
     server: 94.183.234.245
     port: 443
     uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
@@ -41,3 +27,17 @@ proxies:
     reality-opts:
       public-key: "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc"
       short-id: "7f1e29593aa94ad1"
+  - name: "🇱🇻 [BL] Сервер 3"
+    type: vless
+    server: 104.171.139.172
+    port: 443
+    uuid: "42d9e647-3176-4753-9a03-c114c54650bc"
+    network: "raw"
+    flow: "xtls-rprx-vision"
+    servername: "naiti.stroimvmeste.icu"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "he69aiGpjMvuSvrd2U-zHYe-g5GJz3dgMfbiEXb-9RI"
+      short-id: "d8bebe86e31c66d7"

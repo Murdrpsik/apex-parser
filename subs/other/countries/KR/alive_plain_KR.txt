@@ -1,3 +1,4 @@
 #profile-title: Apex KR
 #profile-update-interval: 1
-vless://b69cf773-da16-486e-afce-a45b94f998b3@131.186.22.95:8443?encryption=none&type=ws&host=senflarelink-node-il65vh.pages.dev&path=%2Fflow%3D&security=tls&sni=senflarelink-node-il65vh.pages.dev&fp=chrome#🇰🇷 [BL/CF] Сервер 1
+vless://db906786-8c49-4b17-9182-cea680ef954d@krd.80782636.xyz:443?security=tls&type=ws&path=%2Fkw7x2mq9&host=krd.80782636.xyz&sni=krd.80782636.xyz&fp=chrome&encryption=none#🇰🇷 [BL] Сервер 1
+vless://b69cf773-da16-486e-afce-a45b94f998b3@131.186.22.95:8443?encryption=none&type=ws&host=senflarelink-node-il65vh.pages.dev&path=%2Fflow%3D&security=tls&sni=senflarelink-node-il65vh.pages.dev&fp=chrome#🇰🇷 [BL/CF] Сервер 2

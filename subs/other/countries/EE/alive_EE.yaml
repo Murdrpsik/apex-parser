@@ -12,3 +12,107 @@ proxies:
     reality-opts:
       public-key: "meI7RA9FgxL1yjJsbJBehEKoB2Z1ra4hyYJso9qtmFA"
       short-id: "4b198dc3bfffb7af"
+  - name: "🇪🇪 [WL] Сервер 2"
+    type: vless
+    server: 82.202.182.12
+    port: 5269
+    uuid: "0d4807a7-260b-4d66-a71e-5e793c46c66e"
+    network: "tcp"
+    servername: "max.ru"
+    client-fingerprint: "qq"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "dvue8xDyKMWNJELyMBrEYLy5SezehG_FOtDrDl-bVGQ"
+      short-id: "9473acb8aaf08627"
+  - name: "🇪🇪 [WL] Сервер 3"
+    type: vless
+    server: 46.182.24.167
+    port: 443
+    uuid: "a7810e85-0ce5-41b8-9868-c9435618b85e"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "selec-bs1.gamma-kvn.com"
+    client-fingerprint: "chrome"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 4"
+    type: vless
+    server: 196.198.111.173
+    port: 8443
+    uuid: "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "usr-6b09ce88-api-v3.alcors.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 5"
+    type: vless
+    server: 196.198.111.189
+    port: 8443
+    uuid: "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "usr-6b09ce88-api-v3.alcors.net"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+  - name: "🇪🇪 [BL] Сервер 6"
+    type: vless
+    server: 132.243.65.148
+    port: 443
+    uuid: "9fdec6be-b6b5-4f18-bac0-461cb7953ff0"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "ee.frgcdn.xyz"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0"
+      short-id: "7a3f9e2b1c8d4f6a"
+  - name: "🇪🇪 [BL] Сервер 7"
+    type: vless
+    server: 89.125.13.161
+    port: 8443
+    uuid: "55ba7b31-b0eb-4362-9c9b-fc53b0a53fab"
+    network: "xhttp"
+    servername: "ee1.setlocation.top"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "8kxKr4wsOvuLmNXQFdtPqKwtIA-zX2nvrZ2ro_nMTVA"
+      short-id: "14605d12bfd95119"
+    xhttp-opts:
+      path: "/810011f9c542"
+      mode: "auto"
+  - name: "🇪🇪 [BL] Сервер 8"
+    type: vless
+    server: 168.113.141.142
+    port: 443
+    uuid: "d6f86ea2-e932-4ee8-aa54-e5203d42c173"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "frames.larchstatic.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "wnFfa53eVYfaa1v98XRqL69tON4bzHRjTN0lA0w50BM"
+      short-id: "8c5d1aac44870976"
+  - name: "🇪🇪 [BL] Сервер 9"
+    type: vless
+    server: 31.58.212.76
+    port: 8443
+    uuid: "d6f86ea2-e932-4ee8-aa54-e5203d42c173"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "frames.larchstatic.com"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "wnFfa53eVYfaa1v98XRqL69tON4bzHRjTN0lA0w50BM"
+      short-id: "8c5d1aac44870976"

@@ -1,3 +1,4 @@
 #profile-title: Apex AL
 #profile-update-interval: 1
-vless://e81a8f30-23b9-5b7a-90d9-ec040f682220@185.171.82.185:12445?security=reality&encryption=none&pbk=G4eNHGX_1QXsdr-GfxHBEscXmIYLncUW82i4FUFvY2k&fp=edge&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=tia.kunisosi.bid&sid=70a75d07aa1d1c04#🇦🇱 [BL] Сервер 1
+vless://5e0d3156-8a76-440c-961b-3902bf5d61fd@5.182.226.124:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls#🇦🇱 [BL] Сервер 1
+vless://e81a8f30-23b9-5b7a-90d9-ec040f682220@185.171.82.185:12445?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=G4eNHGX_1QXsdr-GfxHBEscXmIYLncUW82i4FUFvY2k&sid=70a75d07aa1d1c04&sni=tia.kunisosi.bid&encryption=none#🇦🇱 [BL] Сервер 2

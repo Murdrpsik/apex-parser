@@ -1,87 +1,99 @@
 proxies:
-  - name: "🇺🇸 [AI] Сервер 1"
+  - name: "🇩🇪 [AI] Сервер 1"
     type: vless
-    server: 72.56.245.146
-    port: 8881
-    uuid: "e460e7b2-a146-4468-87ed-52510b2caae6"
-    network: "grpc"
-    servername: "dl.google.com"
-    client-fingerprint: "safari"
+    server: 178.248.236.229
+    port: 443
+    uuid: "a71d6c6d-c95e-4ec1-a892-22e21733bf09"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "144.hexdey.com"
+    client-fingerprint: "chrome"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
-      short-id: "aabb"
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇲🇩 [AI] Сервер 2"
+      public-key: "_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0"
+      short-id: "d05a120d3506d2cc"
+  - name: "🌐 [AI] Сервер 2"
     type: vless
-    server: 193.84.71.77
-    port: 443
-    uuid: "81f705b5-9039-4adf-8671-783095bba0e8"
+    server: ws.quantum.vodka
+    port: 1443
+    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "md4.sky-vault.top"
+    servername: "sbmicro733.gangtype.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0"
-      short-id: "ae64c9b46bff174a"
-  - name: "🇸🇬 [AI] Сервер 3"
+      public-key: "zD0-d1GgeFkk7YTd_l0nio_4WHnbCg5-taaVzwHSomQ"
+      short-id: "352d79dc4e4bd7df"
+  - name: "🇳🇱 [AI] Сервер 3"
     type: vless
-    server: 89.110.95.79
+    server: 5.188.72.82
     port: 443
-    uuid: "2444df7f-4a0c-45bd-9c62-25a7ff8c4dba"
-    network: "xhttp"
-    servername: "www.sutd.edu.sg"
+    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "nepaly597.lkfnvflknsdn.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "PKq6DUuCFHau4FteyGUU9jPEi1xJaAh5PmfqOaXWwQ8"
-      short-id: "0123456789abcdef"
-    xhttp-opts:
-      path: "/"
-      mode: "auto"
-  - name: "🇸🇪 [AI] Сервер 4"
+      public-key: "0Z3I5CPO_-r4A7wQw9RT7lPwUzs-QroFCEYJbVUv2EA"
+      short-id: "9ac2917279ee6eb8"
+  - name: "🇳🇱 [AI] Сервер 4"
     type: vless
-    server: 89.223.17.67
-    port: 443
-    uuid: "5db72264-1d45-0068-8f7e-d1574b43008e"
+    server: r56rq.guardora.pro
+    port: 18442
+    uuid: "f4b08bf1-d9bd-4755-aa88-ba922282c608"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "nohope-67-s4.mcdeliver.ru"
+    servername: "sbmicro731.alexdjane.am"
+    client-fingerprint: "firefox"
+    udp: true
+    tls: true
+    reality-opts:
+      public-key: "qcQLgmXcaZnmi6G19qfREf1_vj-f05z8CVW0q8-4vyQ"
+      short-id: "fdf358c631f381c3"
+  - name: "🇸🇬 [AI] Сервер 5"
+    type: vless
+    server: 89.169.0.142
+    port: 2082
+    uuid: "5ce50e24-73ab-4bae-bec7-7eab645acc15"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "assets99.spielinsel.party"
     client-fingerprint: "edge"
     udp: true
     tls: true
     reality-opts:
-      public-key: "Aj6Lfc0JKKROX46eHAQHlzrNpOTY9CKp7BcVj9cw8Ag"
-      short-id: "75f8575e5396a2fe"
-  - name: "🇬🇧 [AI] Сервер 5"
+      public-key: "HxIEwKgVSpjE6w4ad32tZ_wSD3wi1Du-AUplDBwkoTg"
+      short-id: "08e1c3640e92c931"
+  - name: "🇩🇪 [AI] Сервер 6"
     type: vless
-    server: 89.125.124.85
+    server: 188.225.78.144
     port: 443
-    uuid: "5a9af404-4b34-4f21-a6b3-5cf506579722"
+    uuid: "72d538ba-af3f-4a7e-9b61-e5b6976d23e3"
     network: "tcp"
     flow: "xtls-rprx-vision"
-    servername: "uk-prsv-forum-revers-go.opik.net"
+    servername: "community-13b.paruscamp.com"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "o0hqQ8O0X_D6A49gBgmBPFMAce7Lnh5cte85Lym_fRk"
-      short-id: "98618e4f919fa9e5"
-  - name: "🇧🇷 [AI] Сервер 6"
+      public-key: "UbG1bMl5ydXOlyk0kZ8mbFrQaenjoAM3wqcdWWp9TXc"
+      short-id: "c13b4e7a91d05f28"
+  - name: "🇩🇪 [AI] Сервер 7"
     type: vless
-    server: 38.60.241.206
-    port: 8443
-    uuid: "999db268-cccb-4e5b-9d63-39dc44e4ee33"
+    server: static.amberlo.pro
+    port: 443
+    uuid: "9c69546a-e435-4037-bc63-f9e5829a8be3"
     network: "tcp"
-    servername: "br.financas.yahoo.com"
+    flow: "xtls-rprx-vision"
+    servername: "static.amberlo.pro"
     client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
-      public-key: "KoOzrz6SIa19JGlY52ZTPbfRgT0QWGBIu9IQ_Ko6KVY"
-      short-id: "feb19ce078ab"
+      public-key: "C98lmNMA2tOCRtKoHKIthOpgUQ4iOPHwm60fKo9IChE"
+      short-id: "6db791ad6c8fda8e"

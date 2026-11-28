@@ -3,3 +3,4 @@
 vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&security=reality&sid=f98843107912e782&sni=www.cloudflare.com&type=tcp&encryption=none#🇨🇦 [BL] Сервер 1
 vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.197:443?security=tls&encryption=none&insecure=0&host=kuruish.org&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#🇨🇦 [BL] Сервер 2
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443#🇨🇦 [BL] Сервер 3
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==@192.99.151.230:8388#🇨🇦 [BL] Сервер 4

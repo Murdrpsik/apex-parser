@@ -1,13 +1,22 @@
 proxies:
   - name: "🇦🇱 [BL] Сервер 1"
     type: vless
+    server: 5.182.226.124
+    port: 443
+    uuid: "5e0d3156-8a76-440c-961b-3902bf5d61fd"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    udp: true
+    tls: true
+  - name: "🇦🇱 [BL] Сервер 2"
+    type: vless
     server: 185.171.82.185
     port: 12445
     uuid: "e81a8f30-23b9-5b7a-90d9-ec040f682220"
     network: "tcp"
     flow: "xtls-rprx-vision"
     servername: "tia.kunisosi.bid"
-    client-fingerprint: "edge"
+    client-fingerprint: "firefox"
     udp: true
     tls: true
     reality-opts:
